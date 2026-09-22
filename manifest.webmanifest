@@ -1,0 +1,17 @@
+{
+  "name": "多益字彙旅程",
+  "short_name": "字彙旅程",
+  "description": "個人多益 800+ 碎片學習：單字卡、聽力、閱讀、跟讀錄音、記憶曲線測驗、每日打卡",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f1f6f4",
+  "theme_color": "#0f9d80",
+  "lang": "zh-Hant",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,15 @@
+node_modules/
+.wrangler/
+.dev.vars
+*.log
+.DS_Store
+Thumbs.db
+
+# 進度備份
+toeic-progress-*.json
+
+# 有版權的教材：教材包與音檔一律不進版控，
+# 改放自己的雲端硬碟，用 App 的「匯入教材包」載到裝置上。
+audio/
+_tvj_pack_*.json
+packs/

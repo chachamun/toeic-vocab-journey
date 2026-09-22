@@ -1,0 +1,9 @@
+name = "toeic-sync"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+# 部署前先建 KV，再把 id 貼進來：
+#   wrangler kv namespace create TVJ
+[[kv_namespaces]]
+binding = "TVJ"
+id = "請貼上 wrangler kv namespace create TVJ 產生的 id"
