@@ -17,7 +17,8 @@ function defaults() {
     courseId: DATA.courses[0].id,
     unitId: DATA.courses[0].units[0].id,
     prog: {}, days: {},
-    settings: { rate: 1, theme: 'auto', voiceURI: '' },
+    settings: { rate: 1, theme: 'auto', voiceURI: '', vonly: false },
+    vpos: {},
     updatedAt: 0
   };
 }
@@ -480,7 +481,12 @@ function render() {
   fillDrawer();
   bindAll();
 }
-function go(t) { stopAudio(); shadowRelease(); TAB = t; if (t === 'vocab') buildDeck(); if (t === 'quiz') QZ = null; render(); el('main').scrollTop = 0; }
+function go(t) {
+  stopAudio(); shadowRelease(); TAB = t;
+  if (t === 'vocab') { vocabList = false; buildDeck(); if (di > 0 && di < deck.length) toast('從上次的第 ' + (di + 1) + ' 張繼續'); }
+  if (t === 'quiz') QZ = null;
+  render(); el('main').scrollTop = 0;
+}
 
 /* 目前單元列（取代原本橫排標籤）：點了打開左側選單 */
 function uswitch() {
@@ -602,42 +608,89 @@ function iosHint() {
 }
 
 /* ===================== 單字 ===================== */
-let deck = [], di = 0, flipped = false, vocabList = false;
-function buildDeck() { deck = (curUnit().words || []).slice(); di = 0; flipped = false; }
+let deck = [], di = 0, flipped = false, vocabList = false, vjump = false, swiped = false;
+/* 每個單元各自記住看到哪一張（記單字編號 n，不記索引，這樣切換「只看未記住」也對得上） */
+function ukey() { return curCourse().id + '/' + curUnit().id; }
+function savePos() {
+  if (!S.vpos || typeof S.vpos !== 'object') S.vpos = {};
+  S.vpos[ukey()] = di >= deck.length ? 'done' : deck[di].n;
+  saveLocal(); syncPushSoon();
+}
+function buildDeck(fresh) {
+  const all = curUnit().words || [];
+  deck = S.settings.vonly ? all.filter(w => pget(wid(w)).st !== 'known') : all.slice();
+  di = 0; flipped = false; vjump = false;
+  if (fresh) { savePos(); return; }
+  const n = (S.vpos || {})[ukey()];
+  if (n === 'done') di = deck.length;
+  else if (n != null) {
+    let k = deck.findIndex(w => w.n === n);
+    if (k < 0) k = deck.findIndex(w => w.n > n);      // 那張已被略過（已記住）→ 接下一張
+    di = k >= 0 ? k : 0;
+  }
+}
+function vnav(step) {
+  const t = Math.max(0, Math.min(deck.length - 1, di + step));
+  if (t === di) return;
+  shadowRelease(); di = t; flipped = false; vjump = false; savePos(); render();
+}
+function vjumpTo(k) { shadowRelease(); di = k; flipped = false; vjump = false; savePos(); render(); }
 function viewVocab() {
   const u = curUnit();
   if (!deck.length || (deck[0] && !(u.words || []).includes(deck[0]))) buildDeck();
   if (vocabList) return `<div class="view fade">${uswitch()}
     <button class="btn ghost sm" data-vmode="card" style="width:100%">← 回單字卡</button>
+    <div class="tiny muted" style="text-align:center">點單字可以直接跳到那張卡</div>
     ${(u.words || []).map(w => { const p = pget(wid(w));
-      return `<div class="sent"><div class="row"><b class="en" style="font-family:var(--disp);font-size:16px">${esc(w.w)}</b>
+      return `<div class="sent" data-vgo="${w.n}" style="cursor:pointer"><div class="row"><b class="en" style="font-family:var(--disp);font-size:16px">#${w.n} ${esc(w.w)}</b>
         <span class="stars">${'★'.repeat(w.s || 1)}</span>
         <span class="pill ${p.st}" style="margin-left:auto">${p.st === 'known' ? '已懂' : p.st === 'learning' ? '學習中' : '未學'}</span></div>
         <div class="tiny muted" style="margin-top:3px">${esc((w.pos || []).map(x => x.p + ' ' + x.m).join('　'))}</div>
         ${sbar(w.w, '發音')}</div>`; }).join('')}
   </div>`;
-  if (di >= deck.length) return `<div class="view fade">${uswitch()}
+  const all = u.words || [], knownN = all.filter(x => pget(wid(x)).st === 'known').length;
+  const filterRow = `<div class="row" style="gap:8px;flex-wrap:wrap">
+      <button class="sbtn${S.settings.vonly ? ' on' : ''}" data-vonly="1">${S.settings.vonly ? '✓ ' : ''}只看還沒記住的</button>
+      <span class="tiny muted">已記住 ${knownN}／${all.length}</span></div>`;
+  if (!deck.length) return `<div class="view fade">${uswitch()}${filterRow}
+    <div class="card pad" style="text-align:center;padding:30px">
+      <div style="font-size:38px">🏆</div><b style="font-size:18px;display:block;margin:8px 0 4px">這個單元的字你全都記住了</b>
+      <p class="tiny muted" style="margin:0 0 16px">關掉「只看還沒記住的」就能全部再複習一次</p>
+      <button class="btn" data-vonly="1">顯示全部單字</button>
+      <button class="btn ghost" data-goq="review" style="margin-top:9px">做記憶曲線複習</button>
+    </div></div>`;
+  if (di >= deck.length) return `<div class="view fade">${uswitch()}${filterRow}
     <div class="card pad" style="text-align:center;padding:30px">
       <div style="font-size:38px">🎉</div><b style="font-size:18px;display:block;margin:8px 0 4px">這一輪看完了</b>
       <p class="tiny muted" style="margin:0 0 16px">今天學了 ${(days()[today()] || {}).w || 0} 個單字</p>
       <button class="btn" data-vmode="again">再刷一輪</button>
+      <button class="btn ghost" data-vback="1" style="margin-top:9px">回到最後一張</button>
       <button class="btn ghost" data-goq="today" style="margin-top:9px">做今日測驗</button>
     </div></div>`;
   const w = deck[di], p = pget(wid(w));
+  const grid = vjump ? `<div class="card pad">
+      <div class="vjump">${deck.map((x, k) => `<button class="vj ${pget(wid(x)).st}${k === di ? ' cur' : ''}" data-vj="${k}">${x.n}</button>`).join('')}</div>
+      <div class="tiny muted" style="margin-top:9px;text-align:center"><span style="color:var(--good)">■</span> 已記住　<span style="color:var(--amber)">■</span> 學習中　<span style="color:var(--ink-3)">■</span> 未學　・點數字跳到那張</div>
+    </div>` : '';
   const tips = (w.tips || []).map(t => `<div class="tip"><div class="k">${t.k === '文法' ? '📘 文法解析' : t.k === '常考語句' ? '🎯 常考語句' : t.k === '易混淆' ? '⚠️ 易混淆' : '🔁 ' + esc(t.k)}</div><div class="t">${esc(t.t)}</div></div>`).join('');
   const fam = (w.fam || []).map(f => `<span class="chip"><span class="en">${esc(f.split(' ')[0])}</span> ${esc(f.split(' ').slice(1).join(' '))}</span>`).join('');
   const ex = (w.ex || []).map(e => `<div><div class="en">${hl(e.en, w.w)}</div><div class="zh">${esc(e.zh)}</div>${sbar(e.en, '跟讀例句')}</div>`).join('');
   return `<div class="view fade">${uswitch()}
-    <div class="fc-top"><div class="fc-count">${di + 1}/${deck.length}</div>
-      <div class="bar" style="flex:1"><i style="width:${Math.round(di / deck.length * 100)}%"></i></div>
+    <div class="fc-top">
+      <button class="navbtn" data-vnav="-1" aria-label="上一張" ${di <= 0 ? 'disabled' : ''}>‹</button>
+      <button class="fc-count" data-vjump="1" aria-label="跳到某一張">${di + 1}/${deck.length} <span class="caret">${vjump ? '▴' : '▾'}</span></button>
+      <div class="bar" style="flex:1"><i style="width:${Math.round((di + 1) / deck.length * 100)}%"></i></div>
+      <button class="navbtn" data-vnav="1" aria-label="下一張" ${di >= deck.length - 1 ? 'disabled' : ''}>›</button>
       <button class="btn ghost sm" data-vmode="list">清單</button></div>
+    ${filterRow}
+    ${grid}
     <div class="flip${flipped ? ' flipped' : ''}" id="flip"><div class="flip-inner">
       <div class="face"><div class="fc-front">
         <div class="num">#${w.n}</div><div class="st stars">${'★'.repeat(w.s || 1)}</div>
         <div class="headword en${(w.w || '').length > 11 ? ' long' : ''}">${esc(w.w)}</div>
         ${w.ph ? `<div class="ph" style="margin-top:8px">${esc(w.ph)}</div>` : ''}
         ${sbar(w.w, '聽發音')}
-        <div class="hint">點卡片看解釋・例句・文法</div>
+        <div class="hint">點卡片看解釋・例句・文法　・左右滑換卡</div>
       </div></div>
       <div class="face back"><div class="face-scroll">
         <div class="back-word"><span class="w en">${esc(w.w)}</span>${w.ph ? `<span class="ph">${esc(w.ph)}</span>` : ''}</div>
@@ -654,7 +707,7 @@ function grade(kind) {
   const w = deck[di], i = wid(w), p = pget(i);
   if (kind === 'known') pset(i, { st: 'known', lv: Math.min((p.lv || 0) + 1, IVL.length - 1), seen: p.seen + 1, last: Date.now() });
   else pset(i, { st: 'learning', lv: 0, seen: p.seen + 1, last: Date.now() });
-  bumpDay('w', 1); touch(); shadowRelease(); di++; flipped = false; render();
+  bumpDay('w', 1); touch(); shadowRelease(); di++; flipped = false; vjump = false; savePos(); render();
 }
 
 /* ===================== 影片＋同步逐字稿 ===================== */
@@ -1027,15 +1080,42 @@ function bindAll() {
   });
   if (TAB === 'vocab') {
     const f = el('flip');
-    if (f) f.onclick = e => {
-      if (e.target.closest('[data-say]') || e.target.closest('[data-spd]') || e.target.closest('[data-mic]') ||
-          e.target.closest('.shadow-panel') || e.target.closest('[data-sp]')) return;
-      flipped = !flipped; f.classList.toggle('flipped', flipped);
-    };
+    if (f) {
+      f.onclick = e => {
+        if (swiped) return;                                   // 剛滑動換卡，不要順便翻面
+        if (e.target.closest('[data-say]') || e.target.closest('[data-spd]') || e.target.closest('[data-mic]') ||
+            e.target.closest('.shadow-panel') || e.target.closest('[data-sp]')) return;
+        flipped = !flipped; f.classList.toggle('flipped', flipped);
+      };
+      let sx = 0, sy = 0;                                     // 左右滑換卡
+      f.addEventListener('touchstart', e => { const t = e.changedTouches[0]; sx = t.clientX; sy = t.clientY; }, { passive: true });
+      f.addEventListener('touchend', e => {
+        const t = e.changedTouches[0], dx = t.clientX - sx, dy = t.clientY - sy;
+        if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+          swiped = true; setTimeout(() => { swiped = false; }, 400);
+          vnav(dx < 0 ? 1 : -1);
+        }
+      }, { passive: true });
+    }
     document.querySelectorAll('[data-g]').forEach(b => b.onclick = () => grade(b.dataset.g));
+    document.querySelectorAll('[data-vnav]').forEach(b => b.onclick = () => vnav(+b.dataset.vnav));
+    document.querySelectorAll('[data-vjump]').forEach(b => b.onclick = () => { vjump = !vjump; render(); });
+    document.querySelectorAll('[data-vj]').forEach(b => b.onclick = () => vjumpTo(+b.dataset.vj));
+    document.querySelectorAll('[data-vback]').forEach(b => b.onclick = () => vjumpTo(deck.length - 1));
+    document.querySelectorAll('[data-vonly]').forEach(b => b.onclick = () => {
+      S.settings.vonly = !S.settings.vonly; touch(); shadowRelease(); buildDeck(); render();
+      toast(S.settings.vonly ? '已略過記住的字' : '顯示全部單字');
+    });
+    document.querySelectorAll('[data-vgo]').forEach(b => b.onclick = e => {
+      if (e.target.closest('.sbar') || e.target.closest('.shadow-mount')) return;
+      const n = +b.dataset.vgo;
+      let k = deck.findIndex(w => w.n === n);
+      if (k < 0) { S.settings.vonly = false; touch(); buildDeck(); k = deck.findIndex(w => w.n === n); }  // 被略過的字 → 先顯示全部
+      vocabList = false; vjumpTo(Math.max(0, k));
+    });
     document.querySelectorAll('[data-vmode]').forEach(b => b.onclick = () => {
       const m = b.dataset.vmode; shadowRelease();
-      if (m === 'list') vocabList = true; else if (m === 'card') vocabList = false; else if (m === 'again') buildDeck();
+      if (m === 'list') vocabList = true; else if (m === 'card') vocabList = false; else if (m === 'again') buildDeck(true);
       render();
     });
   }
@@ -1115,7 +1195,7 @@ el('voiceSel').onchange = e => { S.settings.voiceURI = e.target.value; touch(); 
 el('resetBtn').onclick = () => {
   const c = curCourse(), u = curUnit();
   (u.words || []).forEach(w => { delete S.prog[gid(c.id, u.id, w.n)]; });
-  touch(); closeSheet(); buildDeck(); render(); toast('已重設 ' + u.label);
+  touch(); closeSheet(); buildDeck(true); render(); toast('已重設 ' + u.label);
 };
 el('syncSave').onclick = async () => {
   syncSaveCfg(el('syncUrl').value, el('syncKey').value);
@@ -1149,6 +1229,14 @@ el('impFile').onchange = e => {
 };
 
 document.querySelectorAll('#nav button').forEach(b => b.onclick = () => go(b.dataset.tab));
+/* 電腦：單字卡用方向鍵換卡、空白鍵翻面 */
+document.addEventListener('keydown', e => {
+  if (TAB !== 'vocab' || vocabList || e.ctrlKey || e.metaKey || e.altKey) return;
+  if (/^(INPUT|SELECT|TEXTAREA)$/.test((e.target.tagName || ''))) return;
+  if (e.key === 'ArrowRight') { e.preventDefault(); vnav(1); }
+  else if (e.key === 'ArrowLeft') { e.preventDefault(); vnav(-1); }
+  else if (e.key === ' ') { const f = el('flip'); if (f) { e.preventDefault(); flipped = !flipped; f.classList.toggle('flipped', flipped); } }
+});
 el('menuBtn').onclick = openDrawer;
 el('drawerX').onclick = closeDrawer;
 el('dscrim').onclick = closeDrawer;
