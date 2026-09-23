@@ -19,6 +19,7 @@ function defaults() {
     prog: {}, days: {},
     settings: { rate: 1, theme: 'auto', voiceURI: '', vonly: false },
     vpos: {},
+    vdone: {},                                               // 看完的影片：vdone[課程||單元] = 日期（今日任務用）
     notes: {},                                               // 我的筆記：notes[課程/單元/w序號] = { t: 文字, at: 時間 }
     updatedAt: 0
   };
@@ -29,7 +30,8 @@ function normState(o) {
     settings: Object.assign(d.settings, (o && o.settings) || {}),
     days: (o && o.days) || {},
     prog: (o && o.prog) || {},
-    notes: (o && o.notes) || {}
+    notes: (o && o.notes) || {},
+    vdone: (o && o.vdone) || {}
   });
   if (![0.5, 0.75, 1, 1.25, 1.5].includes(s.settings.rate)) s.settings.rate = 1;
   fixDayWords(s);
@@ -710,6 +712,103 @@ function openDrawer() {
 }
 function closeDrawer() { el('drawer').classList.remove('open'); el('dscrim').classList.remove('show'); }
 
+/* ===================== 今日任務 ===================== */
+/* 每天一份任務清單：到期複習 → 新單字 → 今日測驗（緊接剛學的字）→ 今日影片。
+   每項都能單獨開始或略過；狀態存在 S.days[今天].tk（'done'／'skip'，只記是否，不累加，重複進入不會重複計算）。
+   略過只改任務狀態，不動任何單字的記憶曲線或複習日期。
+   當天要學的單元（tu）與影片（tv）第一次算出來就固定，一天內不會因為學完而跳到別的單元。 */
+const GOALS = [10, 20, 30, 40];
+function newGoal() { const g = S.settings.goalNew; return GOALS.includes(g) ? g : 20; }
+function dayRec() { const k = today(); if (!days()[k]) days()[k] = { w: 0, q: 0, in: false }; return days()[k]; }
+function ukeyOf(c, u) { return c.id + '||' + u.id; }
+function unitByKey(k) {
+  if (!k) return null;
+  const [cid, uid] = k.split('||'), c = DATA.courses.find(x => x.id === cid), u = c && c.units.find(x => x.id === uid);
+  return u ? { c, u } : null;
+}
+function pickNewUnit() {                                     // 單字教材依順序，第一個還有沒學過的字的單元
+  for (const c of DATA.courses) {
+    if (c.kind === 'video') continue;
+    for (const u of c.units.filter(released)) if ((u.words || []).some(w => pget(gid(c.id, u.id, w.n)).st === 'new')) return ukeyOf(c, u);
+  }
+  return '';
+}
+function pickVideoUnit() {                                   // 最新上架、還沒看完的影片
+  if (!S.vdone || typeof S.vdone !== 'object') S.vdone = {};
+  const vs = [];
+  DATA.courses.forEach(c => { if (c.kind === 'video') c.units.filter(released).forEach(u => vs.push({ c, u })); });
+  vs.sort((a, b) => byNewest(a.u, b.u));
+  const hit = vs.find(({ c, u }) => !S.vdone[ukeyOf(c, u)]);
+  return hit ? ukeyOf(hit.c, hit.u) : '';
+}
+function todayTasks() {
+  const rec = dayRec(); let dirty = false;
+  if (!rec.tk) { rec.tk = {}; dirty = true; }
+  if (rec.tu === undefined || (rec.tu && !unitByKey(rec.tu))) { rec.tu = pickNewUnit(); dirty = true; }
+  if (rec.tv === undefined || (rec.tv && !unitByKey(rec.tv))) { rec.tv = pickVideoUnit(); dirty = true; }
+  if (dirty) saveLocal();
+  const tk = rec.tk, due = dueList().length, nu = unitByKey(rec.tu), vu = unitByKey(rec.tv), goal = newGoal(), w = rec.w || 0;
+  const uname = x => x.u.label + '・' + (x.u.theme || '');
+  return [
+    { id: 'rev', ic: '🔁', t: '到期複習', s: tk.rev || (due ? 'todo' : 'none'),
+      sub: due ? due + ' 個字到期，做一次複習測驗' : tk.rev === 'done' ? '今天的到期字已複習' : '今天沒有到期的字' },
+    { id: 'new', ic: '📘', t: '新單字', s: !nu ? 'none' : tk.new === 'skip' ? 'skip' : w >= goal ? 'done' : 'todo',
+      sub: nu ? uname(nu) + '　今天 ' + Math.min(w, goal) + '／' + goal + ' 個' : '所有單字都學過了' },
+    { id: 'quiz', ic: '📝', t: '今日測驗', s: !nu ? 'none' : tk.quiz || 'todo',
+      sub: nu ? nu.u.label + '　單字＋填空' : '—' },
+    { id: 'vid', ic: '🎬', t: '今日影片', s: !vu ? 'none' : tk.vid || 'todo',
+      sub: vu ? uname(vu) + '　做完隨堂測驗即完成' : '目前沒有新影片' }
+  ];
+}
+function setTask(id, v) { const rec = dayRec(); rec.tk = rec.tk || {}; if (v) rec.tk[id] = v; else delete rec.tk[id]; touch(); }
+function markVideoDone() {
+  const rec = dayRec(); if (!rec.tv) return;
+  if (!S.vdone || typeof S.vdone !== 'object') S.vdone = {};
+  S.vdone[rec.tv] = today(); setTask('vid', 'done');
+}
+function startTask(id) {
+  const t = todayTasks().find(x => x.id === id); if (!t || t.s === 'none') return;
+  const rec = dayRec(), nu = unitByKey(rec.tu), vu = unitByKey(rec.tv);
+  const setU = x => { S.courseId = x.c.id; S.unitId = x.u.id; touch(); buildDeck(); LS.revealed = {}; };
+  stopAudio(); shadowRelease();
+  if (id === 'rev') { buildReview(); TAB = 'quiz'; render(); }
+  else if (id === 'new') { setU(nu); go('vocab'); }
+  else if (id === 'vid') { setU(vu); go('listen'); }
+  else if (id === 'quiz') { setU(nu); buildToday(); TAB = 'quiz'; render(); }
+  el('main').scrollTop = 0;
+}
+/* 測驗做完時記錄對應任務（QZ.logged 防止重複） */
+function logQuizTask() {
+  if (!QZ || QZ.logged) return; QZ.logged = true;
+  const rec = dayRec(), cur = ukeyOf(curCourse(), curUnit());
+  if (QZ.mode === 'review') setTask('rev', 'done');
+  else if (curCourse().kind === 'video') { if (cur === rec.tv) markVideoDone(); }
+  else if (QZ.mode === 'today' && cur === rec.tu) setTask('quiz', 'done');
+}
+function taskCard() {
+  const ts = todayTasks(), act = ts.filter(t => t.s !== 'none'), done = act.filter(t => t.s === 'done').length, nx = ts.find(t => t.s === 'todo');
+  return `<div class="card pad task-card">
+    <div class="row"><div><div style="font-family:var(--disp);font-weight:800;font-size:19px">今日任務</div>
+      <div class="tiny muted">完成 ${done}／${act.length}　・每一項都可以單獨做，也可以略過</div></div></div>
+    ${nx ? `<button class="btn" data-task="${nx.id}" style="margin-top:12px">${done ? '繼續今日學習' : '開始今日學習'} ▶　<span style="font-weight:500;opacity:.9">${nx.ic} ${esc(nx.t)}</span></button>`
+      : '<div class="task-all">🎉 今天的任務都處理完了</div>'}
+    <div class="tasks">${ts.map(t => `<div class="task ${t.s}">
+      <span class="tk-ic">${t.s === 'done' ? '✅' : t.ic}</span>
+      <span class="tk-t"><b>${esc(t.t)}</b><span>${esc(t.sub)}</span></span>
+      <span class="tk-act">${t.s === 'todo'
+        ? `<button class="sbtn" data-task="${t.id}">開始</button>${t.id === 'vid' ? '<button class="tk-link" data-tdone="vid">看完了</button>' : ''}<button class="tk-link" data-tskip="${t.id}">略過</button>`
+        : t.s === 'skip' ? `<span class="pill">已略過</span><button class="tk-link" data-tunskip="${t.id}">復原</button>`
+        : t.s === 'done' ? `<span class="pill known">完成</span>${t.id !== 'rev' || dueList().length ? `<button class="tk-link" data-task="${t.id}">再做</button>` : ''}`
+        : ''}</span></div>`).join('')}</div>
+  </div>`;
+}
+function bindTasks() {
+  document.querySelectorAll('[data-task]').forEach(b => b.onclick = () => startTask(b.dataset.task));
+  document.querySelectorAll('[data-tskip]').forEach(b => b.onclick = () => { setTask(b.dataset.tskip, 'skip'); render(); toast('已略過（不影響單字複習紀錄）'); });
+  document.querySelectorAll('[data-tunskip]').forEach(b => b.onclick = () => { setTask(b.dataset.tunskip, ''); render(); });
+  document.querySelectorAll('[data-tdone]').forEach(b => b.onclick = () => { markVideoDone(); render(); toast('影片任務完成'); });
+}
+
 /* ===================== 首頁 ===================== */
 function viewHome() {
   const d = days()[today()] || { w: 0, q: 0, in: false }, lt = learnedTotal(), due = dueList().length, sk = streak();
@@ -723,6 +822,7 @@ function viewHome() {
     us.forEach(u => act.push({ c, u, s: unitStats(c, u) }));
   });
   return `<div class="view fade">
+    ${taskCard()}
     <div class="card pad">
       <div class="row"><div>
         <div class="tiny muted">${today()}　${d.in ? '<span class="pill known">已打卡</span>' : '<span class="pill new">尚未打卡</span>'}</div>
@@ -919,7 +1019,9 @@ function grade(kind) {
     ? { st: 'known', lv: Math.min((p.lv || 0) + 1, IVL.length - 1), seen: p.seen + 1, last: Date.now() }
     : { st: 'known', seen: p.seen + 1 });
   else pset(i, { st: 'learning', lv: 0, seen: p.seen + 1, last: Date.now() });
-  markWordToday(i); touch(); shadowRelease(); di++; flipped = false; vjump = false; savePos(); render();
+  const before = dayRec().w || 0; markWordToday(i);
+  if (before < newGoal() && (dayRec().w || 0) >= newGoal()) toast('🎯 今日新單字目標達成！回首頁看下一項任務');
+  touch(); shadowRelease(); di++; flipped = false; vjump = false; savePos(); render();
 }
 
 /* ===================== 影片＋同步逐字稿 ===================== */
@@ -1235,7 +1337,7 @@ function answer(idx) {
   if (q.ref) {
     const i = gid(q.ref.c, q.ref.u, q.ref.n), p = pget(i);
     if (ok) pset(i, canLevelUp(p)
-      ? { lv: Math.min((p.lv || 0) + 1, IVL.length - 1), cor: p.cor + 1, last: Date.now(), st: (p.lv || 0) >= 2 ? 'known' : 'learning' }
+      ? { lv: Math.min((p.lv || 0) + 1, IVL.length - 1), cor: p.cor + 1, last: Date.now(), st: (p.st === 'known' || (p.lv || 0) >= 2) ? 'known' : 'learning' }
       : { cor: p.cor + 1 });
     else pset(i, { lv: 0, wro: p.wro + 1, last: Date.now(), st: 'learning' });
   }
@@ -1245,12 +1347,15 @@ function answer(idx) {
   const n = el('qnext'); if (n) n.onclick = () => { QZ.i++; QZ.answered = false; render(); };
 }
 function quizResult() {
+  logQuizTask();
+  const nx = todayTasks().find(x => x.s === 'todo');
   const t = QZ.qs.length, s = QZ.score, p = t ? Math.round(s / t * 100) : 0;
   return `<div class="view fade"><div class="card pad" style="text-align:center">
     <div class="tiny muted">${QZ.mode === 'review' ? '複習測驗結果' : QZ.mode === 'checkup' ? (curCourse().kind === 'video' ? '影片隨堂測驗結果' : '課本隨堂測驗結果') : '今日測驗結果'}</div>
     <div class="score-big" style="color:${p >= 70 ? 'var(--good)' : 'var(--amber)'};margin:8px 0 4px">${s}<span style="font-size:20px;color:var(--ink-3)"> / ${t}</span></div>
     <div class="tiny muted" style="margin-bottom:14px">${p >= 90 ? '掌握得很好！' : p >= 70 ? '不錯，錯的再看一次就更穩。' : '多回單字頁刷幾輪。'}</div>
-    <div class="two"><button class="btn ghost" data-goq="${QZ.mode}">再測一次</button><button class="btn" data-goto="vocab">回單字</button></div>
+    <div class="two"><button class="btn ghost" data-goq="${QZ.mode}">再測一次</button><button class="btn ghost" data-goto="home">回首頁</button></div>
+    ${nx ? `<button class="btn" data-task="${nx.id}" style="margin-top:10px">下一項今日任務 ▶　${nx.ic} ${esc(nx.t)}</button>` : '<div class="task-all" style="margin-top:10px">🎉 今天的任務都處理完了</div>'}
   </div>
   ${QZ.wrong.length ? `<h2 class="sect">答錯的（${QZ.wrong.length}）</h2>${QZ.wrong.map(q => `<div class="sent"><div class="en">${esc(q.prompt || q.say || '')}</div><div class="zh">正解：${esc((q.opts.find(o => o.ok) || {}).t || '')}</div>${sbar(q.prompt || q.say || '', '跟讀')}</div>`).join('')}` : ''}
   </div>`;
@@ -1287,6 +1392,7 @@ function viewCheckin() {
 
 /* ===================== BIND ===================== */
 function bindAll() {
+  bindTasks();
   document.querySelectorAll('[data-say]').forEach(b => b.onclick = e => { e.stopPropagation(); say(b.getAttribute('data-say')); });
   document.querySelectorAll('[data-spd]').forEach(b => b.onclick = e => {
     e.stopPropagation(); S.settings.rate = parseFloat(b.dataset.spd); touch();
@@ -1427,12 +1533,17 @@ function fillRateSeg() {
     S.settings.rate = parseFloat(b.dataset.rate); touch(); fillRateSeg(); say('for example, a professional résumé');
   });
 }
+function fillGoalSeg() {
+  const r = el('goalSeg'); if (!r) return;
+  r.innerHTML = GOALS.map(x => '<button data-goal="' + x + '" class="' + (newGoal() === x ? 'on' : '') + '">' + x + '</button>').join('');
+  r.querySelectorAll('button').forEach(b => b.onclick = () => { S.settings.goalNew = +b.dataset.goal; touch(); fillGoalSeg(); render(); });
+}
 function closeSheet() { const s = el('scrim'); s.classList.remove('show'); setTimeout(() => s.hidden = true, 240); }
 el('gearBtn').onclick = () => {
   const s = el('scrim'); s.hidden = false;
   const show = () => s.classList.add('show');
   requestAnimationFrame(show); setTimeout(show, 60);   // rAF 在背景分頁會被凍結，補一道 setTimeout 保險
-  fillRateSeg(); loadVoices(); fillPackList();   // 每次打開設定都重讀一次語音清單
+  fillRateSeg(); fillGoalSeg(); loadVoices(); fillPackList();   // 每次打開設定都重讀一次語音清單
   el('accSetting').innerHTML = accSeg(); bindAcc(el('accSetting'));
   el('syncUrl').value = SYNC.url; el('syncKey').value = SYNC.key;
   document.querySelectorAll('#themeSeg button').forEach(b => b.classList.toggle('on', b.dataset.th === S.settings.theme));
