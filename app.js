@@ -839,7 +839,9 @@ function fillRateSeg() {
 }
 function closeSheet() { const s = el('scrim'); s.classList.remove('show'); setTimeout(() => s.hidden = true, 240); }
 el('gearBtn').onclick = () => {
-  const s = el('scrim'); s.hidden = false; requestAnimationFrame(() => s.classList.add('show'));
+  const s = el('scrim'); s.hidden = false;
+  const show = () => s.classList.add('show');
+  requestAnimationFrame(show); setTimeout(show, 60);   // rAF 在背景分頁會被凍結，補一道 setTimeout 保險
   fillRateSeg(); fillVoice(); fillPackList();
   el('syncUrl').value = SYNC.url; el('syncKey').value = SYNC.key;
   document.querySelectorAll('#themeSeg button').forEach(b => b.classList.toggle('on', b.dataset.th === S.settings.theme));
