@@ -766,7 +766,7 @@ function txView(u, mode) {
       <div class="tiny muted">📄 原文出處</div>
       ${u.source ? `<a href="${esc(u.source)}" target="_blank" rel="noopener">${esc(u.source)}</a>` : ''}
       <a href="${esc(u.video)}" target="_blank" rel="noopener">${esc(u.video)}</a>
-      <div class="tiny muted" style="margin-top:5px">BBC Learning English《6 Minute English》。英文逐字稿取自 YouTube 字幕，中文為學習用翻譯，版權屬原作者，僅供個人學習。</div>
+      <div class="tiny muted" style="margin-top:5px">${u.publisher ? esc(u.publisher) + '。' : ''}英文逐字稿取自 YouTube 字幕，中文為學習用翻譯，版權屬原作者，僅供個人學習。</div>
     </div>
     ${mode === 'read' && vocab ? `<div class="card pad"><div class="tiny muted" style="margin-bottom:2px">本集重點單字（文中以綠色標出）</div><div class="chips">${vocab}</div></div>` : ''}
     <div class="tx-tools">

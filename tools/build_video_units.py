@@ -20,7 +20,12 @@ import io, json, os, sys, glob
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EP_DIR = os.path.join(ROOT, 'tools', 'episodes')
 TX_DIR = os.path.join(ROOT, 'transcripts')
-COURSE = os.path.join(ROOT, 'courses', 'bbc-6min.js')
+# 影片課程：單元資料的 course 欄位決定放進哪一個課程檔（沒寫就是 BBC）
+COURSES = {
+    'bbc-6min':    {'name': 'BBC 6 Minute English', 'file': 'courses/bbc-6min.js',
+                    'publisher': 'BBC Learning English《6 Minute English》'},
+    'daily-video': {'name': '每日影片', 'file': 'courses/daily-video.js', 'publisher': ''},
+}
 
 
 def load(p):
@@ -47,7 +52,7 @@ def build_transcript(vid, lines_path, zh_path):
         'source': {
             'video': spec['video'],
             'original': spec.get('bbc', ''),
-            'publisher': 'BBC Learning English — 6 Minute English',
+            'publisher': publisher_of(spec),
             'note': '英文逐字稿取自 YouTube 字幕；中文為學習用翻譯。版權屬原作者，僅供個人學習。'
         },
         'title': spec['themeEn'],
@@ -59,33 +64,43 @@ def build_transcript(vid, lines_path, zh_path):
     print('逐字稿 →', os.path.relpath(out, ROOT), '（%d 句）' % len(lines))
 
 
+def publisher_of(spec):
+    return spec.get('publisher') or COURSES[spec.get('course', 'bbc-6min')]['publisher']
+
+
 def build_course():
-    units = []
+    groups = {cid: [] for cid in COURSES}
     for p in sorted(glob.glob(os.path.join(EP_DIR, '*.json'))):
         s = load(p)
         vid = os.path.splitext(os.path.basename(p))[0]
+        cid = s.get('course', 'bbc-6min')
+        if cid not in COURSES:
+            sys.exit('%s 的 course「%s」不認得，請加進 COURSES。' % (vid, cid))
         tx = os.path.join(TX_DIR, vid + '.json')
         if not os.path.exists(tx):
             sys.exit('%s 還沒有逐字稿，先跑 transcript 模式。' % vid)
         n = len(load(tx)['lines'])
-        u = {
+        groups[cid].append({
             'id': s['id'], 'label': s['label'], 'theme': s['theme'], 'themeEn': s['themeEn'],
-            'video': s['video'], 'source': s.get('bbc', ''), 'release': s['release'],
+            'video': s['video'], 'source': s.get('bbc', ''), 'publisher': publisher_of(s), 'release': s['release'],
             'transcript': 'transcripts/%s.json' % vid, 'lines': n, 'audioSrc': '',
             'words': s['words'], 'cloze': s.get('cloze', []), 'comp': s.get('comp', [])
-        }
-        units.append(u)
-    units.sort(key=lambda u: u['label'])
-    course = {'id': 'bbc-6min', 'name': 'BBC 6 Minute English', 'kind': 'video', 'units': units}
-    body = json.dumps(course, ensure_ascii=False, indent=1)
-    head = ('/* BBC 6 Minute English 影片課程 — 由 tools/build_video_units.py 產生，請勿手改。\n'
-            '   要改內容：編 tools/episodes/<影片ID>.json 後重跑 `python tools/build_video_units.py course`。\n'
-            '   逐字稿（含原文出處）在 transcripts/<影片ID>.json，App 看影片時才載入。 */\n')
-    io.open(COURSE, 'w', encoding='utf-8').write(head + 'TVJ.register(' + body + ');\n')
-    print('課程檔 →', os.path.relpath(COURSE, ROOT), '（%d 集）' % len(units))
-    for u in units:
-        print('  %s  %s  上架 %s  單字 %d  克漏字 %d  理解題 %d  逐字稿 %d 句' % (
-            u['label'], u['theme'], u['release'], len(u['words']), len(u['cloze']), len(u['comp']), u['lines']))
+        })
+    for cid, units in groups.items():
+        if not units:
+            continue
+        meta = COURSES[cid]
+        units.sort(key=lambda u: u['label'])
+        course = {'id': cid, 'name': meta['name'], 'kind': 'video', 'units': units}
+        head = ('/* %s 影片課程 — 由 tools/build_video_units.py 產生，請勿手改。\n'
+                '   要改內容：編 tools/episodes/<影片ID>.json 後重跑 `python tools/build_video_units.py course`。\n'
+                '   逐字稿（含原文出處）在 transcripts/<影片ID>.json，App 看影片時才載入。 */\n') % meta['name']
+        out = os.path.join(ROOT, meta['file'])
+        io.open(out, 'w', encoding='utf-8').write(head + 'TVJ.register(' + json.dumps(course, ensure_ascii=False, indent=1) + ');\n')
+        print('課程檔 →', meta['file'], '（%d 集）' % len(units))
+        for u in units:
+            print('  %s  %s  上架 %s  單字 %d  克漏字 %d  理解題 %d  逐字稿 %d 句' % (
+                u['label'], u['theme'], u['release'], len(u['words']), len(u['cloze']), len(u['comp']), u['lines']))
 
 
 if __name__ == '__main__':

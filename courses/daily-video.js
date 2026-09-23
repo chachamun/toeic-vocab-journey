@@ -1,5 +1,6 @@
-/* 每日影片課程 — 加新影片就往 units 陣列尾端丟一個物件
-   逐字稿抓取：python tools/yt_transcript.py <YouTube網址> <輸出資料夾> */
+/* 每日影片 影片課程 — 由 tools/build_video_units.py 產生，請勿手改。
+   要改內容：編 tools/episodes/<影片ID>.json 後重跑 `python tools/build_video_units.py course`。
+   逐字稿（含原文出處）在 transcripts/<影片ID>.json，App 看影片時才載入。 */
 TVJ.register({
  "id": "daily-video",
  "name": "每日影片",
@@ -11,6 +12,11 @@ TVJ.register({
    "theme": "保持正向",
    "themeEn": "Stay Positive (without pretending)",
    "video": "https://youtu.be/5ISyv18N52M",
+   "source": "",
+   "publisher": "English Podcast 1314",
+   "release": "2026-09-22",
+   "transcript": "transcripts/5ISyv18N52M.json",
+   "lines": 217,
    "audioSrc": "",
    "words": [
     {
