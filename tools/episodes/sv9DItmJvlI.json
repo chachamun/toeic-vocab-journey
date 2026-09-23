@@ -1,0 +1,455 @@
+{
+ "id": "yt-sv9DItmJvlI",
+ "video": "https://youtu.be/sv9DItmJvlI",
+ "bbc": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260806",
+ "label": "BBC 005",
+ "theme": "氣候科學家如何預測",
+ "themeEn": "How do climate scientists make predictions?",
+ "release": "2026-09-26",
+ "words": [
+  {
+   "n": 1,
+   "w": "exceed",
+   "s": 3,
+   "ph": "[ɪkˋsid]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "超過，超出"
+    }
+   ],
+   "ex": [
+    {
+     "en": "In 2015, the COP21 summit agreed to limit global warming to 1.5°C, but since then research shows temperatures exceeding that, leading to warnings of catastrophic damage to Earth's life support systems.",
+     "zh": "2015 年，COP21 高峰會同意把全球暖化限制在攝氏 1.5 度以內，但之後的研究顯示氣溫已經超過這個數字，於是有人警告地球的維生系統會遭受災難性的破壞。",
+     "t": 34.2
+    }
+   ],
+   "fam": [
+    "excess n. 過量",
+    "excessive adj. 過度的",
+    "exceedingly adv. 極其"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "exceed expectations 超出預期；exceed the budget / limit 超出預算／限制。注意 exceed 是及物動詞，不加 than（✗ exceed than）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "exceeds"
+      ],
+      [
+       "過去式",
+       "exceeded"
+      ],
+      [
+       "過去分詞",
+       "exceeded"
+      ],
+      [
+       "現在分詞",
+       "exceeding"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "monitor",
+   "s": 3,
+   "ph": "[ˋmɑnətɚ]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "監測，監控"
+    },
+    {
+     "p": "n.",
+     "m": "螢幕，監視器"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Scientists monitor climate change using the Earth's energy imbalance – the difference between the solar energy entering the Earth's atmosphere and the radiation going back out into space.",
+     "zh": "科學家用「地球能量失衡」來監測氣候變遷——也就是進入地球大氣層的太陽能量，和輻射回太空的能量之間的差距。",
+     "t": 66.6
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "closely monitor 密切監控；monitor progress / performance 追蹤進度／績效。Part 1：The man is looking at a computer monitor. 男子正看著電腦螢幕。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "monitors"
+      ],
+      [
+       "過去式",
+       "monitored"
+      ],
+      [
+       "過去分詞",
+       "monitored"
+      ],
+      [
+       "現在分詞",
+       "monitoring"
+      ]
+     ]
+    },
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "monitors"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "monitoring n. 監控"
+   ]
+  },
+  {
+   "n": 3,
+   "w": "prediction",
+   "s": 2,
+   "ph": "[prɪˋdɪkʃən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "預測，預言"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Climate models don't make predictions – they make projections.",
+     "zh": "氣候模型不做預測（prediction）——它們做的是推估（projection）。",
+     "t": 125.8
+    }
+   ],
+   "fam": [
+    "predict v. 預測",
+    "predictable adj. 可預測的",
+    "unpredictable adj. 無法預測的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "make a prediction 做出預測。Part 5 詞性題常考 predict（v.）、prediction（n.）、predictable（adj.）的區分。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "predictions"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "projection",
+   "s": 3,
+   "ph": "[prəˋdʒɛkʃən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "推估，預估；投影"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Instead, they make projections about different possible futures, and these depend on many things.",
+     "zh": "相反地，它們針對各種可能的未來做出推估，而這些推估取決於很多因素。",
+     "t": 143.8
+    }
+   ],
+   "fam": [
+    "project v. 預估；投射",
+    "projector n. 投影機"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "sales projections 銷售預估；revenue projections 營收預估（財報、會議情境常見）。projected growth 預估的成長。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "projections"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "conditional",
+   "s": 2,
+   "ph": "[kənˋdɪʃənḷ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "有條件的，取決於～的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "In other words, climate models are conditional, meaning that they depend on other factors.",
+     "zh": "換句話說，氣候模型是有條件的，意思是它們取決於其他因素。",
+     "t": 150.8
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "be conditional on / upon 取決於～：The offer is conditional on a background check. 錄取與否取決於背景調查。conditional approval 有條件的核准。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ],
+   "der": [
+    "condition n. 條件",
+    "unconditional adj. 無條件的"
+   ]
+  },
+  {
+   "n": 6,
+   "w": "emission",
+   "s": 2,
+   "ph": "[ɪˋmɪʃən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "排放；排放物"
+    }
+   ],
+   "ex": [
+    {
+     "en": "The main factor in climate change, of course, is human activity, especially greenhouse gas emissions.",
+     "zh": "當然，氣候變遷的主要因素是人類活動，特別是溫室氣體排放。",
+     "t": 157.2
+    }
+   ],
+   "fam": [
+    "emit v. 排放，散發"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "reduce carbon emissions 減少碳排放；emission standards 排放標準（企業永續、環保政策文章常見）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "emissions"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "out of whack",
+   "s": 1,
+   "ph": "[aʊt əv hwæk]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "失去平衡，運作不正常"
+    }
+   ],
+   "ex": [
+    {
+     "en": "If something is out of whack, it's out of balance and not working properly.",
+     "zh": "如果某樣東西「out of whack」，就是它失去平衡、運作不正常。",
+     "t": 225.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "口語說法，正式文章會用 out of balance 或 not working properly：The printer is out of whack again. 印表機又怪怪的了。"
+    }
+   ],
+   "forms": []
+  },
+  {
+   "n": 8,
+   "w": "not on the table",
+   "s": 1,
+   "ph": "[nɑt ɑn ðə ˋtebḷ]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "不在考慮範圍內，不是選項"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Models are complex, but they're necessary because unfortunately no climate change at all is not on the table, and that's an idiom, meaning it's not an option.",
+     "zh": "模型很複雜，但它們是必要的，因為很遺憾，「完全沒有氣候變遷」已經 not on the table，這是一個慣用語，意思是它不是一個選項。",
+     "t": 277.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "相反說法 on the table（提出來討論、可考慮）：Several proposals are on the table. 有幾個提案正在考慮中。談判、會議情境常見。"
+    }
+   ],
+   "forms": []
+  }
+ ],
+ "cloze": [
+  {
+   "s": "Since then research shows temperatures ___ that, leading to warnings of catastrophic damage to Earth's life support systems.",
+   "a": "exceeding",
+   "opts": [
+    "exceeding",
+    "monitoring",
+    "predicting",
+    "limiting"
+   ]
+  },
+  {
+   "s": "Scientists ___ climate change using the Earth's energy imbalance…",
+   "a": "monitor",
+   "opts": [
+    "monitor",
+    "exceed",
+    "emit",
+    "project"
+   ]
+  },
+  {
+   "s": "Climate models don't make ___ – they make projections.",
+   "a": "predictions",
+   "opts": [
+    "predictions",
+    "emissions",
+    "conditions",
+    "whacks"
+   ]
+  },
+  {
+   "s": "Instead, they make ___ about different possible futures, and these depend on many things.",
+   "a": "projections",
+   "opts": [
+    "projections",
+    "emissions",
+    "tables",
+    "balances"
+   ]
+  },
+  {
+   "s": "In other words, climate models are ___, meaning that they depend on other factors.",
+   "a": "conditional",
+   "opts": [
+    "conditional",
+    "accurate",
+    "certain",
+    "hopeful"
+   ]
+  },
+  {
+   "s": "The main factor in climate change, of course, is human activity, especially greenhouse gas ___.",
+   "a": "emissions",
+   "opts": [
+    "emissions",
+    "predictions",
+    "projections",
+    "models"
+   ]
+  },
+  {
+   "s": "If something is out of ___, it's out of balance and not working properly.",
+   "a": "whack",
+   "opts": [
+    "whack",
+    "table",
+    "order",
+    "balance"
+   ]
+  },
+  {
+   "s": "Unfortunately no climate change at all is not on the ___, and that's an idiom, meaning it's not an option.",
+   "a": "table",
+   "opts": [
+    "table",
+    "whack",
+    "agenda",
+    "list"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "節目問答題：科學家用哪一種單位衡量地球的能量失衡？",
+   "a": "每平方公尺瓦特數（Watts per square metre）",
+   "opts": [
+    "每平方公尺瓦特數（Watts per square metre）",
+    "焦耳（Joules）",
+    "華氏度（Fahrenheit）"
+   ]
+  },
+  {
+   "q": "Kate Marvel 說氣候模型做的是 projection 而不是 prediction，差別在哪？",
+   "a": "projection 是有條件的：如果我們這樣做，就會發生那樣的事",
+   "opts": [
+    "projection 是有條件的：如果我們這樣做，就會發生那樣的事",
+    "projection 一定會發生，prediction 不一定",
+    "兩者意思完全相同"
+   ]
+  },
+  {
+   "q": "雲對氣候有什麼「雙重作用」？",
+   "a": "既會遮擋陽光讓地球降溫，也會困住熱讓地球變暖",
+   "opts": [
+    "既會遮擋陽光讓地球降溫，也會困住熱讓地球變暖",
+    "只會讓地球降溫",
+    "只會製造雨水，對氣溫沒影響"
+   ]
+  },
+  {
+   "q": "Kate 最後帶來的希望訊息是什麼？",
+   "a": "既然全球暖化是人類造成的，解決方法也掌握在人類手中",
+   "opts": [
+    "既然全球暖化是人類造成的，解決方法也掌握在人類手中",
+    "氣溫很快就會自然下降",
+    "超級電腦可以直接阻止暖化"
+   ]
+  }
+ ]
+}

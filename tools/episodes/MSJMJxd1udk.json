@@ -1,0 +1,431 @@
+{
+ "id": "yt-MSJMJxd1udk",
+ "video": "https://youtu.be/MSJMJxd1udk",
+ "bbc": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260716",
+ "label": "BBC 008",
+ "theme": "足球員如何面對高壓",
+ "themeEn": "How do footballers cope with high-pressure scenarios?",
+ "release": "2026-09-29",
+ "words": [
+  {
+   "n": 1,
+   "w": "peer",
+   "s": 2,
+   "ph": "[pɪr]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "同儕，同輩"
+    }
+   ],
+   "ex": [
+    {
+     "en": "They found that his brain was a lot less active than the brains of his peers when he rotated his right ankle.",
+     "zh": "他們發現，他轉動右腳踝時，大腦的活躍程度比同儕低很多。",
+     "t": 128.0
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "peer review 同儕審查；peer pressure 同儕壓力；compared with its peers 與同業相比（財經報導常見）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "peers"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "peer v. 凝視（同形異義字）"
+   ]
+  },
+  {
+   "n": 2,
+   "w": "expertise",
+   "s": 3,
+   "ph": "[͵ɛkspɚˋtiz]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "專業知識，專業技能"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Expertise means a high level of skill or knowledge gained with experience.",
+     "zh": "Expertise 是指透過經驗累積的高水準技能或知識。",
+     "t": 157.9
+    }
+   ],
+   "fam": [
+    "expert n. 專家；adj. 熟練的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "徵才、合作信超常見：expertise in marketing 行銷方面的專業；area of expertise 專業領域。expertise 不可數，不加 s。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "conscious",
+   "s": 2,
+   "ph": "[ˋkɑnʃəs]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "有意識的，刻意的；察覺到的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Conscious describes something done with awareness, not by accident.",
+     "zh": "Conscious 形容某件事是有意識地去做的，不是意外。",
+     "t": 166.7
+    }
+   ],
+   "fam": [
+    "consciously adv. 有意識地",
+    "consciousness n. 意識"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "make a conscious effort 刻意努力；be conscious of 察覺到；cost-conscious 注重成本的、environmentally conscious 有環保意識的。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more conscious"
+      ],
+      [
+       "最高級",
+       "most conscious"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "overwhelm",
+   "s": 2,
+   "ph": "[͵ovɚˋhwɛlm]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "使不知所措；壓倒，使應接不暇"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So we're trying to overwhelm them in a safe environment like training.",
+     "zh": "所以我們試著在像訓練這樣安全的環境中，讓他們承受超出負荷的資訊量。",
+     "t": 200.8
+    }
+   ],
+   "fam": [
+    "overwhelming adj. 壓倒性的",
+    "overwhelmed adj. 不知所措的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "be overwhelmed by / with requests 被大量請求淹沒；the response was overwhelming 反應熱烈（客服、活動公告常見）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "overwhelms"
+      ],
+      [
+       "過去式",
+       "overwhelmed"
+      ],
+      [
+       "過去分詞",
+       "overwhelmed"
+      ],
+      [
+       "現在分詞",
+       "overwhelming"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "driven by",
+   "s": 2,
+   "ph": "[ˋdrɪvən baɪ]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "受～驅動，由～推動"
+    }
+   ],
+   "ex": [
+    {
+     "en": "A lot of performance is also driven by your emotional state, and that is something you can learn to control.",
+     "zh": "很多表現也是由你的情緒狀態所驅動的，而這是你可以學著控制的。",
+     "t": 219.3
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "Growth was driven by strong demand. 成長來自強勁的需求（財報必考句型）；data-driven 資料導向的、customer-driven 以顧客為導向的。"
+    }
+   ],
+   "forms": [],
+   "der": [
+    "drive v. 驅動",
+    "driver n. 驅動因素；駕駛"
+   ]
+  },
+  {
+   "n": 6,
+   "w": "precision",
+   "s": 2,
+   "ph": "[prɪˋsɪʒən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "精準，精確"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Holly says that too many emotions can lead to a lack of precision and focus.",
+     "zh": "Holly 說，情緒太多會導致缺乏精準度和專注力。",
+     "t": 236.4
+    }
+   ],
+   "fam": [
+    "precise adj. 精確的",
+    "precisely adv. 精確地；正是"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "with precision 精確地；precision instruments 精密儀器（製造業文章常見）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "all over the place",
+   "s": 1,
+   "ph": "[ɔl ˋovɚ ðə ples]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "亂七八糟，混亂；到處"
+    }
+   ],
+   "ex": [
+    {
+     "en": "When we describe something as all over the place, we mean that it's chaotic, disorganised, or confused.",
+     "zh": "當我們形容某件事 all over the place，意思是它很混亂、沒有條理或讓人困惑。",
+     "t": 278.5
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "也有字面意思「到處」：Files were scattered all over the place. 檔案散落各處。"
+    }
+   ],
+   "forms": []
+  },
+  {
+   "n": 8,
+   "w": "margin",
+   "s": 3,
+   "ph": "[ˋmɑrdʒɪn]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "差距；利潤；頁邊空白"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Niklas said that small margins can make all the difference to a game.",
+     "zh": "Niklas 說，小小的差距可以決定一場比賽的結果。",
+     "t": 284.9
+    }
+   ],
+   "fam": [
+    "marginal adj. 微小的；邊緣的",
+    "marginally adv. 些微地"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "多益最常考「利潤」：profit margin 利潤率、low-margin products 低毛利產品；win by a narrow margin 以些微差距獲勝。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "margins"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "They found that his brain was a lot less active than the brains of his ___ when he rotated his right ankle.",
+   "a": "peers",
+   "opts": [
+    "peers",
+    "margins",
+    "experts",
+    "players"
+   ]
+  },
+  {
+   "s": "___ means a high level of skill or knowledge gained with experience.",
+   "a": "Expertise",
+   "opts": [
+    "Expertise",
+    "Precision",
+    "Margin",
+    "Pressure"
+   ]
+  },
+  {
+   "s": "___ describes something done with awareness, not by accident.",
+   "a": "Conscious",
+   "opts": [
+    "Conscious",
+    "Precise",
+    "Overwhelming",
+    "Driven"
+   ]
+  },
+  {
+   "s": "So we're trying to ___ them in a safe environment like training.",
+   "a": "overwhelm",
+   "opts": [
+    "overwhelm",
+    "drive",
+    "focus",
+    "relax"
+   ]
+  },
+  {
+   "s": "A lot of performance is also ___ by your emotional state, and that is something you can learn to control.",
+   "a": "driven",
+   "opts": [
+    "driven",
+    "overwhelmed",
+    "caused",
+    "made"
+   ]
+  },
+  {
+   "s": "Holly says that too many emotions can lead to a lack of ___ and focus.",
+   "a": "precision",
+   "opts": [
+    "precision",
+    "expertise",
+    "margin",
+    "pressure"
+   ]
+  },
+  {
+   "s": "When we describe something as all over the ___, we mean that it's chaotic, disorganised, or confused.",
+   "a": "place",
+   "opts": [
+    "place",
+    "margin",
+    "world",
+    "field"
+   ]
+  },
+  {
+   "s": "Niklas said that small ___ can make all the difference to a game.",
+   "a": "margins",
+   "opts": [
+    "margins",
+    "peers",
+    "details",
+    "emotions"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "節目問答題：大腦哪個部位最為人所知的是負責處理恐懼、偵測威脅？",
+   "a": "杏仁核（amygdala）",
+   "opts": [
+    "杏仁核（amygdala）",
+    "腦幹（brain stem）",
+    "小腦（cerebellum）"
+   ]
+  },
+  {
+   "q": "2014 年日本科學家研究內馬爾的大腦，發現了什麼？",
+   "a": "他轉動腳踝時，大腦活躍程度比同儕低很多",
+   "opts": [
+    "他轉動腳踝時，大腦活躍程度比同儕低很多",
+    "他的大腦比一般人大",
+    "他踢球時大腦特別活躍"
+   ]
+  },
+  {
+   "q": "諾丁漢森林俱樂部的心理師在訓練中做了什麼？",
+   "a": "在安全的訓練環境中讓球員承受大量資訊，以提升應對能力",
+   "opts": [
+    "在安全的訓練環境中讓球員承受大量資訊，以提升應對能力",
+    "要求球員每天冥想兩小時",
+    "讓球員多看比賽影片"
+   ]
+  },
+  {
+   "q": "Neuro 11 在罰球、角球前會做什麼？",
+   "a": "測量球員腦波，教他們保持放鬆",
+   "opts": [
+    "測量球員腦波，教他們保持放鬆",
+    "幫球員換上新球鞋",
+    "讓教練大聲鼓勵球員"
+   ]
+  }
+ ]
+}

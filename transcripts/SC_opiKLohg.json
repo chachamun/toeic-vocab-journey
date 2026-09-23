@@ -1,0 +1,356 @@
+{
+ "source": {
+  "video": "https://youtu.be/SC_opiKLohg",
+  "original": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260820",
+  "publisher": "BBC Learning English《6 Minute English》",
+  "note": "英文逐字稿取自 YouTube 字幕；中文為學習用翻譯。版權屬原作者，僅供個人學習。"
+ },
+ "title": "Sharing the road with driverless cars",
+ "lines": [
+  {
+   "t": 8.0,
+   "en": "Hello, this is 6 Minute English from BBC Learning English. I'm Phil.",
+   "zh": "哈囉，這裡是 BBC Learning English 的《6 Minute English》。我是 Phil。"
+  },
+  {
+   "t": 12.9,
+   "en": "And I'm Pippa.",
+   "zh": "我是 Pippa。"
+  },
+  {
+   "t": 14.2,
+   "en": "Here at 6 Minute English, we love discussing new tech.",
+   "zh": "在《6 Minute English》，我們很喜歡討論新科技。"
+  },
+  {
+   "t": 18.2,
+   "en": "One of the most controversial technologies of recent years is driverless cars, also known as self-driving cars, autonomous cars or robotaxis.",
+   "zh": "近年來最具爭議的科技之一就是無人駕駛車，也叫自動駕駛車、自主車或無人計程車。"
+  },
+  {
+   "t": 29.3,
+   "en": "Many people say they wouldn't feel safe in a car without a human driver, but there are concerns from other road users too – pedestrians, runners and cyclists.",
+   "zh": "很多人說，坐在沒有人類駕駛的車裡會覺得不安全，但其他用路人也有疑慮——行人、跑者和騎單車的人。"
+  },
+  {
+   "t": 40.2,
+   "en": "How will driverless cars interact with them?",
+   "zh": "無人駕駛車要怎麼和他們互動呢？"
+  },
+  {
+   "t": 43.1,
+   "en": "It's a problem Professor Stephen Brewster, from Glasgow University, has been working on.",
+   "zh": "這正是格拉斯哥大學的 Stephen Brewster 教授一直在研究的問題。"
+  },
+  {
+   "t": 48.5,
+   "en": "He explained more to BBC World Service programme Tech Life.",
+   "zh": "他向 BBC 世界廣播的節目《Tech Life》做了進一步說明。"
+  },
+  {
+   "t": 52.7,
+   "en": "If you're outside a vehicle right now, you can see the driver inside the vehicle, you can wave to them, they can see you, you can make eye contact.",
+   "zh": "如果你現在人在車外，你可以看到車內的駕駛，你可以向他揮手，他看得到你，你們可以有眼神接觸。"
+  },
+  {
+   "t": 59.1,
+   "en": "But when you come to an autonomous vehicle, there's no person in the driving seat, so how do you negotiate whether they're going to go, whether they're going to let you go?",
+   "zh": "但換成自動駕駛車時，駕駛座上沒有人，那你要怎麼協調是他們要先走，還是他們會讓你先走？"
+  },
+  {
+   "t": 68.6,
+   "en": "On my walk to work, I need to cross the road.",
+   "zh": "我走路上班途中需要過馬路。"
+  },
+  {
+   "t": 71.4,
+   "en": "Usually a driver makes eye contact with me.",
+   "zh": "通常駕駛會和我有眼神接觸。"
+  },
+  {
+   "t": 74.2,
+   "en": "They look directly into my eyes and then wave me across.",
+   "zh": "他們會直視我的眼睛，然後揮手示意我過去。"
+  },
+  {
+   "t": 78.0,
+   "en": "'To wave' means to raise your hand and move it from side to side.",
+   "zh": "「to wave」的意思是舉起手左右擺動。"
+  },
+  {
+   "t": 82.5,
+   "en": "It's a gesture for saying hello, or a way of telling a person to do something.",
+   "zh": "這是用來打招呼的手勢，也可以用來示意別人做某件事。"
+  },
+  {
+   "t": 87.3,
+   "en": "Luckily, Phil, you usually arrive safely at work and as yet there are no driverless cars in London.",
+   "zh": "幸好，Phil，你通常都能平安抵達公司，而且倫敦目前還沒有無人駕駛車。"
+  },
+  {
+   "t": 94.6,
+   "en": "But, Phil, how would you feel about crossing that road in front of a robotaxi?",
+   "zh": "不過，Phil，如果要在無人計程車前面過馬路，你會有什麼感覺？"
+  },
+  {
+   "t": 100.2,
+   "en": "Well, maybe a little bit nervous.",
+   "zh": "嗯，可能會有點緊張。"
+  },
+  {
+   "t": 102.0,
+   "en": "I might wait for it to go and go behind it or something.",
+   "zh": "我可能會等它先開走，再從它後面過去之類的。"
+  },
+  {
+   "t": 105.2,
+   "en": "Mmm... yeah, I get that.",
+   "zh": "嗯……對，我懂。"
+  },
+  {
+   "t": 106.7,
+   "en": "I think maybe as we get more used to these technologies we'll get more used to how to deal with them and when to cross.",
+   "zh": "我想，也許隨著我們越來越習慣這些科技，就會越來越知道該怎麼應對、什麼時候可以過馬路。"
+  },
+  {
+   "t": 114.4,
+   "en": "But in this episode we investigate the tech helping driverless cars communicate on the roads.",
+   "zh": "不過在這一集，我們要探討幫助無人駕駛車在道路上溝通的科技。"
+  },
+  {
+   "t": 120.8,
+   "en": "We'll learn some useful new words and phrases, and as usual you'll find all the vocabulary on our website, bbclearningenglish.com.",
+   "zh": "我們會學到一些實用的新單字和片語，一如往常，所有詞彙都可以在我們的網站 bbclearningenglish.com 找到。"
+  },
+  {
+   "t": 129.9,
+   "en": "But first, I have a question for you, Pippa.",
+   "zh": "但首先，Pippa，我有個問題要問你。"
+  },
+  {
+   "t": 133.6,
+   "en": "As you mentioned, we don't have self-driving cars here in London yet.",
+   "zh": "就像你剛剛提到的，倫敦這裡還沒有自動駕駛車。"
+  },
+  {
+   "t": 137.7,
+   "en": "So, which was the first city to have fully driverless robotaxis on the streets?",
+   "zh": "那麼，第一個有全自動無人計程車上路的城市是哪一個？"
+  },
+  {
+   "t": 144.2,
+   "en": "Was it: a) Philadelphia, b) Phoenix, or c) San Francisco?",
+   "zh": "是：a) 費城、b) 鳳凰城，還是 c) 舊金山？"
+  },
+  {
+   "t": 149.7,
+   "en": "I'm going to say b) Phoenix because I think it's quite a car-friendly city.",
+   "zh": "我要選 b) 鳳凰城，因為我覺得那是個對汽車相當友善的城市。"
+  },
+  {
+   "t": 156.4,
+   "en": "OK. Well, we will find out the answer, but at the end of the programme.",
+   "zh": "好。我們會揭曉答案，不過要等到節目最後。"
+  },
+  {
+   "t": 160.8,
+   "en": "Because accidents are often caused by not seeing the oncoming danger, Professor Brewster wants to make driverless cars more visible.",
+   "zh": "因為事故常常是沒看到迎面而來的危險所造成的，Brewster 教授希望讓無人駕駛車更容易被看見。"
+  },
+  {
+   "t": 169.6,
+   "en": "He discussed his work with BBC Tech Life's presenter Chris Vallance.",
+   "zh": "他和 BBC《Tech Life》的主持人 Chris Vallance 討論了他的研究。"
+  },
+  {
+   "t": 175.0,
+   "en": "What kind of signals worked in terms of alerting pedestrians and runners and cyclists to the intentions of the vehicle?",
+   "zh": "在提醒行人、跑者和騎單車的人注意車輛意圖這方面，哪些訊號是有效的？"
+  },
+  {
+   "t": 183.8,
+   "en": "We tested two things.",
+   "zh": "我們測試了兩種東西。"
+  },
+  {
+   "t": 184.7,
+   "en": "We tested animations and fixed, coloured light rings.",
+   "zh": "我們測試了動畫，以及固定的彩色光環。"
+  },
+  {
+   "t": 189.0,
+   "en": "The animations – they work well for pedestrians, but when it came to runners and cyclists, they have much less time to make their decisions, so if you do a quick glance at a vehicle, you don't really see the animation.",
+   "zh": "動畫對行人效果很好，但對跑者和騎單車的人來說，他們做決定的時間少得多，所以如果只是很快地瞄一眼車子，其實看不到動畫。"
+  },
+  {
+   "t": 199.5,
+   "en": "It's important to alert people to driverless cars.",
+   "zh": "提醒大家注意無人駕駛車是很重要的。"
+  },
+  {
+   "t": 203.5,
+   "en": "To alert somebody means to warn them about a potential danger.",
+   "zh": "alert 某人，意思是警告他們可能有危險。"
+  },
+  {
+   "t": 207.8,
+   "en": "Some cars do this with animations – displays of moving images.",
+   "zh": "有些車會用動畫來做到這一點——也就是顯示移動的影像。"
+  },
+  {
+   "t": 211.9,
+   "en": "For example, a green man walking to signal it's safe to cross.",
+   "zh": "例如一個綠色小人在走路，表示可以安全通過。"
+  },
+  {
+   "t": 216.4,
+   "en": "Animations alert pedestrians but are not suitable for runners and cyclists, who are travelling too fast to react.",
+   "zh": "動畫能提醒行人，但不適合跑者和騎單車的人，因為他們移動速度太快，來不及反應。"
+  },
+  {
+   "t": 223.5,
+   "en": "They only have time for a glance.",
+   "zh": "他們只來得及瞥一眼。"
+  },
+  {
+   "t": 226.2,
+   "en": "'A glance at something' means a quick look.",
+   "zh": "「a glance at something」是指很快地看一眼。"
+  },
+  {
+   "t": 229.2,
+   "en": "So, instead Stephen's team used coloured light rings, similar to traffic lights, to warn cyclists and runners.",
+   "zh": "所以 Stephen 的團隊改用類似紅綠燈的彩色光環，來警示騎單車的人和跑者。"
+  },
+  {
+   "t": 236.8,
+   "en": "Culture is another problem.",
+   "zh": "文化是另一個問題。"
+  },
+  {
+   "t": 239.0,
+   "en": "The meaning of body language can change.",
+   "zh": "肢體語言的意思可能會改變。"
+  },
+  {
+   "t": 241.4,
+   "en": "For example, hand waving can mean 'please proceed' in one culture, but 'thank you' in another.",
+   "zh": "例如，揮手在某個文化裡可能是「請先走」，在另一個文化裡卻是「謝謝」。"
+  },
+  {
+   "t": 248.2,
+   "en": "Ammar Al-Taie is a researcher at the Advanced Institute of Science and Technology in South Korea.",
+   "zh": "Ammar Al-Taie 是韓國科學技術院（KAIST）的研究員。"
+  },
+  {
+   "t": 254.0,
+   "en": "Here, Ammar tells BBC World Service's Tech Life why Korean culture is especially suited to self-driving cars.",
+   "zh": "在這裡，Ammar 向 BBC 世界廣播的《Tech Life》說明，為什麼韓國文化特別適合自動駕駛車。"
+  },
+  {
+   "t": 262.8,
+   "en": "In South Korea, for example, jaywalking is illegal, whereas in the UK, you know, we tend to jaywalk a lot.",
+   "zh": "例如在韓國，任意穿越馬路是違法的，但在英國，你知道的，我們很常任意穿越馬路。"
+  },
+  {
+   "t": 268.8,
+   "en": "'Jaywalking' is an American-English word.",
+   "zh": "「Jaywalking」是美式英文的用字。"
+  },
+  {
+   "t": 271.5,
+   "en": "It means crossing the road at a place where crossing is not allowed or without taking care.",
+   "zh": "意思是在不允許穿越的地方過馬路，或是過馬路時不注意安全。"
+  },
+  {
+   "t": 277.0,
+   "en": "Unlike Britain, jaywalking is rare in South Korea, making the country safer for autonomous cars.",
+   "zh": "和英國不同，任意穿越馬路在韓國很少見，這讓韓國對自動駕駛車來說更安全。"
+  },
+  {
+   "t": 283.7,
+   "en": "We've heard a lot about making driverless cars safer, and with plans to introduce them to London later this year, we'll soon see how safe they really are.",
+   "zh": "我們聽了很多讓無人駕駛車更安全的做法，而倫敦計畫在今年稍晚引進無人駕駛車，我們很快就會知道它們到底有多安全。"
+  },
+  {
+   "t": 294.3,
+   "en": "Now, isn't it time to reveal the answer to your question, Phil?",
+   "zh": "好了，Phil，現在是不是該揭曉你的問題答案了？"
+  },
+  {
+   "t": 298.1,
+   "en": "I asked you which city was the first to have self-driving cars on the road, and you said it was Phoenix...",
+   "zh": "我問你第一個有自動駕駛車上路的城市是哪一個，你說是鳳凰城……"
+  },
+  {
+   "t": 304.5,
+   "en": "and that is the correct answer.",
+   "zh": "答對了。"
+  },
+  {
+   "t": 307.2,
+   "en": "Phoenix, Arizona, was the first city in the world to have self-driving cars operating on public roads without a human safety driver, and that was in 2017.",
+   "zh": "亞利桑那州的鳳凰城是全世界第一個在公共道路上運行、而且沒有人類安全駕駛員的自動駕駛車城市，那是在 2017 年。"
+  },
+  {
+   "t": 317.2,
+   "en": "Let's recap the vocabulary we've learned, starting with 'eye contact' – looking directly into someone's eyes.",
+   "zh": "我們來複習今天學到的詞彙，首先是「eye contact」——直視某人的眼睛。"
+  },
+  {
+   "t": 324.9,
+   "en": "'To wave at someone' is a way of saying hi, by raising your hand and waving it from side to side.",
+   "zh": "「To wave at someone」是打招呼的一種方式，舉起手左右擺動。"
+  },
+  {
+   "t": 330.8,
+   "en": "If you alert someone, you warn them of potential danger.",
+   "zh": "如果你 alert 某人，就是警告他們可能有危險。"
+  },
+  {
+   "t": 334.3,
+   "en": "An animation is a display made up of moving images.",
+   "zh": "animation 是由移動影像組成的畫面。"
+  },
+  {
+   "t": 338.4,
+   "en": "A glance is a quick, brief look at something.",
+   "zh": "glance 是很快、很短暫地看某樣東西一眼。"
+  },
+  {
+   "t": 341.4,
+   "en": "And finally, the American-English term 'jaywalking' means crossing the road where you're not supposed to.",
+   "zh": "最後，美式英文的「jaywalking」是指在不該過馬路的地方穿越馬路。"
+  },
+  {
+   "t": 348.0,
+   "en": "Once again, our six minutes are up.",
+   "zh": "我們的六分鐘又到了。"
+  },
+  {
+   "t": 350.2,
+   "en": "If you'd like to hear more programmes about technology, you'll find plenty on our tech topic page, all on our website.",
+   "zh": "如果你想聽更多關於科技的節目，我們網站上的科技主題頁有很多。"
+  },
+  {
+   "t": 357.2,
+   "en": "And there you'll also find a quiz and worksheet for this episode.",
+   "zh": "在那裡你也可以找到這一集的測驗和學習單。"
+  },
+  {
+   "t": 361.1,
+   "en": "Visit bbclearningenglish.com.",
+   "zh": "請造訪 bbclearningenglish.com。"
+  },
+  {
+   "t": 363.8,
+   "en": "We'll see you again soon, but for now it's goodbye.",
+   "zh": "我們很快會再見面，但現在要說再見了。"
+  },
+  {
+   "t": 366.7,
+   "en": "Goodbye!",
+   "zh": "再見！"
+  }
+ ]
+}

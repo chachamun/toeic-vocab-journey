@@ -1,0 +1,467 @@
+{
+ "id": "yt-hb1CBEENiPQ",
+ "video": "https://youtu.be/hb1CBEENiPQ",
+ "bbc": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260709",
+ "label": "BBC 009",
+ "theme": "我們該多騎單車嗎？",
+ "themeEn": "Should we cycle more?",
+ "release": "2026-09-30",
+ "words": [
+  {
+   "n": 1,
+   "w": "accessible",
+   "s": 3,
+   "ph": "[ækˋsɛsəbḷ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "可取得的，可使用的；容易到達的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And electric bikes are making cycling accessible to more people, including older people.",
+     "zh": "而電動自行車讓更多人能騎單車，包括年長者。",
+     "t": 25.4
+    }
+   ],
+   "fam": [
+    "access n. 使用權；v. 存取",
+    "accessibility n. 可及性，無障礙"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "accessible by public transportation 搭大眾運輸可到達（場地、飯店介紹常見）；wheelchair accessible 輪椅可通行。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more accessible"
+      ],
+      [
+       "最高級",
+       "most accessible"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "deeply ingrained",
+   "s": 1,
+   "ph": "[ˋdiplɪ ɪnˋgrend]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "根深蒂固的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "The bicycle is deeply ingrained into Dutch culture.",
+     "zh": "自行車深深根植於荷蘭文化中。",
+     "t": 100.6
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "deeply ingrained habits / beliefs 根深蒂固的習慣／觀念。同義：deep-rooted、firmly established。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more deeply ingrained"
+      ],
+      [
+       "最高級",
+       "most deeply ingrained"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "take off",
+   "s": 3,
+   "ph": "[tek ɔf]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "突然成功，迅速發展；（飛機）起飛；脫下"
+    }
+   ],
+   "ex": [
+    {
+     "en": "But the rise of cycling started in the industrial era, when bicycle manufacturing took off.",
+     "zh": "但騎單車的興起始於工業時代，當時自行車製造業蓬勃發展起來。",
+     "t": 105.0
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "一字多義必考：Sales really took off. 銷量大幅起飛；The plane took off on time. 飛機準時起飛；take a day off 請一天假；take off his jacket 脫外套（Part 1）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "takes off"
+      ],
+      [
+       "過去式",
+       "took off"
+      ],
+      [
+       "過去分詞",
+       "taken off"
+      ],
+      [
+       "現在分詞",
+       "taking off"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "takeoff n. 起飛"
+   ]
+  },
+  {
+   "n": 4,
+   "w": "milestone",
+   "s": 3,
+   "ph": "[ˋmaɪl͵ston]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "里程碑，重要事件"
+    }
+   ],
+   "ex": [
+    {
+     "en": "A milestone is an important event in someone's life or in the development of something.",
+     "zh": "milestone 是某人一生中或某件事發展過程中的重要事件。",
+     "t": 159.6
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "reach a milestone 達到里程碑；project milestones 專案里程碑（專案管理、公司沿革文章常見）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "milestones"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "quality of life",
+   "s": 2,
+   "ph": "[ˋkwɑlətɪ əv laɪf]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "生活品質"
+    }
+   ],
+   "ex": [
+    {
+     "en": "The phrase quality of life refers to someone's level of enjoyment, comfort and health when living in a particular place.",
+     "zh": "quality of life 這個片語，是指一個人住在某個地方時享受、舒適和健康的程度。",
+     "t": 208.5
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "improve employees' quality of life 提升員工生活品質（福利、彈性工時文章常見）；work-life balance 工作與生活平衡。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "liveability",
+   "s": 1,
+   "ph": "[͵lɪvəˋbɪlətɪ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "宜居性"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Gulf cities are also interested in liveability – the degree to which somewhere is a pleasant place to live.",
+     "zh": "波斯灣城市也很重視 liveability（宜居性）——也就是一個地方住起來有多舒適。",
+     "t": 219.9
+    }
+   ],
+   "fam": [
+    "liveable adj. 適合居住的"
+   ],
+   "tips": [
+    {
+     "k": "易混淆",
+     "t": "英式拼法 liveability，美式常寫 livability；形容詞 liveable／livable。most livable cities 最宜居城市排名。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "copy and paste",
+   "s": 1,
+   "ph": "[ˋkɑpɪ ænd pest]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "照搬，一模一樣的複製"
+    },
+    {
+     "p": "v.",
+     "m": "複製貼上"
+    }
+   ],
+   "ex": [
+    {
+     "en": "It's certainly not a copy and paste of what is good in Holland or Denmark, but the key is that we're looking for the principles.",
+     "zh": "這絕對不是把荷蘭或丹麥的好做法直接複製貼上，關鍵在於我們要找出背後的原則。",
+     "t": 259.3
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "電腦操作說明常見：Copy and paste the link into your browser. 把連結複製貼到瀏覽器。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "copies and pastes"
+      ],
+      [
+       "過去式",
+       "copied and pasted"
+      ],
+      [
+       "過去分詞",
+       "copied and pasted"
+      ],
+      [
+       "現在分詞",
+       "copying and pasting"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "alternative",
+   "s": 3,
+   "ph": "[ɔlˋtɝnətɪv]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "替代方案，其他選擇"
+    },
+    {
+     "p": "adj.",
+     "m": "替代的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "But in some places, it can be a popular and green alternative.",
+     "zh": "但在某些地方，它可以成為受歡迎又環保的替代選擇。",
+     "t": 292.7
+    }
+   ],
+   "fam": [
+    "alternatively adv. 或者",
+    "alternate v. 輪流；adj. 交替的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "an alternative to ～的替代方案（介系詞用 to）；alternative energy 替代能源。Part 5 常考 alternative（n./adj.）與 alternatively（adv.）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "alternatives"
+      ]
+     ]
+    },
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "And electric bikes are making cycling ___ to more people, including older people.",
+   "a": "accessible",
+   "opts": [
+    "accessible",
+    "ingrained",
+    "alternative",
+    "competitive"
+   ]
+  },
+  {
+   "s": "The bicycle is deeply ___ into Dutch culture.",
+   "a": "ingrained",
+   "opts": [
+    "ingrained",
+    "accessible",
+    "established",
+    "copied"
+   ]
+  },
+  {
+   "s": "But the rise of cycling started in the industrial era, when bicycle manufacturing took ___.",
+   "a": "off",
+   "opts": [
+    "off",
+    "up",
+    "over",
+    "on"
+   ]
+  },
+  {
+   "s": "A ___ is an important event in someone's life or in the development of something.",
+   "a": "milestone",
+   "opts": [
+    "milestone",
+    "liveability",
+    "network",
+    "symbol"
+   ]
+  },
+  {
+   "s": "The phrase ___ refers to someone's level of enjoyment, comfort and health when living in a particular place.",
+   "a": "quality of life",
+   "opts": [
+    "quality of life",
+    "liveability",
+    "copy and paste",
+    "milestone"
+   ]
+  },
+  {
+   "s": "Gulf cities are also interested in ___ – the degree to which somewhere is a pleasant place to live.",
+   "a": "liveability",
+   "opts": [
+    "liveability",
+    "accessibility",
+    "reputation",
+    "alternative"
+   ]
+  },
+  {
+   "s": "It's certainly not a ___ of what is good in Holland or Denmark, but the key is that we're looking for the principles.",
+   "a": "copy and paste",
+   "opts": [
+    "copy and paste",
+    "milestone",
+    "quality of life",
+    "take off"
+   ]
+  },
+  {
+   "s": "But in some places, it can be a popular and green ___.",
+   "a": "alternative",
+   "opts": [
+    "alternative",
+    "milestone",
+    "principle",
+    "solution"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "節目問答題：荷蘭大約有多少輛自行車？",
+   "a": "大約 2 千 4 百萬輛",
+   "opts": [
+    "大約 2 千 4 百萬輛",
+    "大約 2 千萬輛",
+    "大約 3 千 4 百萬輛"
+   ]
+  },
+  {
+   "q": "荷蘭的自行車是怎麼從「有錢人的玩具」變成日常交通工具的？",
+   "a": "工業時代自行車製造業起飛，新工廠讓自行車變便宜",
+   "opts": [
+    "工業時代自行車製造業起飛，新工廠讓自行車變便宜",
+    "政府免費發放自行車",
+    "汽車被全面禁止"
+   ]
+  },
+  {
+   "q": "杜拜等波斯灣城市為什麼推動騎單車？",
+   "a": "想提升生活品質與宜居性，在全球城市排名中名列前茅",
+   "opts": [
+    "想提升生活品質與宜居性，在全球城市排名中名列前茅",
+    "因為當地汽油太貴",
+    "因為法律禁止開車"
+   ]
+  },
+  {
+   "q": "為了在高溫下騎車，杜拜設置了哪些措施？",
+   "a": "補水站和有遮蔭的休息區",
+   "opts": [
+    "補水站和有遮蔭的休息區",
+    "有冷氣的自行車專用隧道",
+    "只在晚上開放自行車道"
+   ]
+  }
+ ]
+}

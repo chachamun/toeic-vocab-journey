@@ -31,3 +31,60 @@ auditory	adj: 無比較級	—
 olfactory	adj: 無比較級	—
 shut something down	v: shuts ~ down, shut ~ down, shut ~ down, shutting ~ down	shutdown n. 停工；關閉
 extensively	adv: more extensively, most extensively	—
+# ── BBC 003–009（2026-09-24～09-30 上架）──
+pedestrian	n: pedestrians	—
+autonomous	adj: more autonomous, most autonomous	autonomy n. 自主權 | autonomously adv. 自主地
+eye contact	n: 不可數	—
+wave	v: waves, waved, waved, waving ; n: waves	—
+alert	v: alerts, alerted, alerted, alerting ; adj: more alert, most alert ; n: alerts	alertness n. 警覺
+animation	n: animations	—
+glance	n: glances ; v: glances, glanced, glanced, glancing	—
+jaywalking	n: 不可數	—
+chore	n: chores	—
+fair share	n: 常用單數（one's fair share）	—
+domestic	adj: 無比較級	domestically adv. 在國內 | domesticate v. 馴化
+unpaid	adj: 無比較級	pay v. 支付 | paid adj. 有薪的（反義）
+division of labour	n: 不可數	—
+appreciate	v: appreciates, appreciated, appreciated, appreciating	appreciation n. 感激；欣賞 | appreciative adj. 感激的
+take a breather	v: takes a breather, took a breather, taken a breather, taking a breather	breathe v. 呼吸 | breath n. 氣息
+pull one's weight	v: pulls ~ weight, pulled ~ weight, pulled ~ weight, pulling ~ weight	—
+exceed	v: exceeds, exceeded, exceeded, exceeding	—
+monitor	v: monitors, monitored, monitored, monitoring ; n: monitors	monitoring n. 監控
+prediction	n: predictions	—
+projection	n: projections	—
+conditional	adj: 無比較級	condition n. 條件 | unconditional adj. 無條件的
+emission	n: emissions	—
+out of whack	—	—
+not on the table	—	—
+controversial	adj: more controversial, most controversial	—
+it's fair to say	—	—
+divisive	adj: more divisive, most divisive	—
+supervision	n: 不可數	—
+integrity	n: 不可數	integral adj. 不可或缺的
+cross the line	v: crosses the line, crossed the line, crossed the line, crossing the line	—
+set a bad example	v: sets a bad example, set a bad example, set a bad example, setting a bad example	—
+normalise	v: normalises, normalised, normalised, normalising	—
+vigilant	adj: more vigilant, most vigilant	—
+of one mind	—	—
+relatively	adv: 無比較級	—
+consistently	adv: more consistently, most consistently	—
+confront	v: confronts, confronted, confronted, confronting	—
+nightmare	n: nightmares	nightmarish adj. 惡夢般的
+phenomenally	adv: 無比較級	—
+resilient	adj: more resilient, most resilient	—
+peer	n: peers	peer v. 凝視（同形異義字）
+expertise	n: 不可數	—
+conscious	adj: more conscious, most conscious	—
+overwhelm	v: overwhelms, overwhelmed, overwhelmed, overwhelming	—
+driven by	—	drive v. 驅動 | driver n. 驅動因素；駕駛
+precision	n: 不可數	—
+all over the place	—	—
+margin	n: margins	—
+accessible	adj: more accessible, most accessible	—
+deeply ingrained	adj: more deeply ingrained, most deeply ingrained	—
+take off	v: takes off, took off, taken off, taking off	takeoff n. 起飛
+milestone	n: milestones	—
+quality of life	n: 不可數	—
+liveability	n: 不可數	—
+copy and paste	v: copies and pastes, copied and pasted, copied and pasted, copying and pasting	—
+alternative	n: alternatives ; adj: 無比較級	—

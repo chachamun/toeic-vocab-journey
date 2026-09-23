@@ -1,0 +1,448 @@
+{
+ "id": "yt-ut3b9qDHvEQ",
+ "video": "https://youtu.be/ut3b9qDHvEQ",
+ "bbc": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260723",
+ "label": "BBC 007",
+ "theme": "戰區裡的孩子",
+ "themeEn": "Children in war zones",
+ "release": "2026-09-28",
+ "words": [
+  {
+   "n": 1,
+   "w": "vigilant",
+   "s": 2,
+   "ph": "[ˋvɪdʒələnt]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "警覺的，時時留意的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "The adjective vigilant means to always be careful to notice things, particularly when there's a possibility of danger.",
+     "zh": "形容詞 vigilant 的意思是總是小心留意周遭，特別是在可能有危險的時候。",
+     "t": 105.8
+    }
+   ],
+   "fam": [
+    "vigilance n. 警覺",
+    "hypervigilant adj. 高度警覺的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "remain vigilant 保持警覺（公告常見：Please remain vigilant about suspicious emails. 請對可疑郵件保持警覺）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more vigilant"
+      ],
+      [
+       "最高級",
+       "most vigilant"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "of one mind",
+   "s": 1,
+   "ph": "[əv wʌn maɪnd]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "意見一致，想法相同"
+    }
+   ],
+   "ex": [
+    {
+     "en": "I mean, they disagree about a few things, but on this they're absolutely of one mind.",
+     "zh": "我是說，他們對一些事情意見不同，但在這一點上，他們的看法完全一致。",
+     "t": 146.0
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "同義說法：in agreement、on the same page（We need to make sure everyone is on the same page. 要確保大家想法一致，職場很常用）。"
+    }
+   ],
+   "forms": []
+  },
+  {
+   "n": 3,
+   "w": "relatively",
+   "s": 3,
+   "ph": "[ˋrɛlətɪvlɪ]",
+   "pos": [
+    {
+     "p": "adv.",
+     "m": "相對地，比較上"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And so there's a new field of theory, well, I mean, relatively new field of theory, which encourages children to slowly and carefully try to confront, obviously not death and massacre again, but things like learning to sleep alone, not having to sleep with a parent",
+     "zh": "所以有一個新的理論領域——嗯，我是說相對新的理論領域——鼓勵孩子慢慢地、小心地試著去面對，當然不是再去面對死亡和屠殺，而是像學習自己一個人睡、不用和爸媽一起睡這樣的事，",
+     "t": 188.1
+    }
+   ],
+   "fam": [
+    "relative adj. 相對的；n. 親戚",
+    "relatively speaking phr. 相對來說"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "Part 5 常考副詞修飾形容詞：relatively low cost 相對低的成本、relatively easy 相對容易。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adv.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "consistently",
+   "s": 3,
+   "ph": "[kənˋsɪstəntlɪ]",
+   "pos": [
+    {
+     "p": "adv.",
+     "m": "持續地，一貫地"
+    }
+   ],
+   "ex": [
+    {
+     "en": "because that's what they did during the war, because they were so consistently terrified.",
+     "zh": "因為那是他們在戰爭期間的做法，因為他們一直處在極度恐懼中。",
+     "t": 206.8
+    }
+   ],
+   "fam": [
+    "consistent adj. 一致的，始終如一的",
+    "consistency n. 一致性"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "consistently high quality 始終如一的高品質；has consistently exceeded sales targets 一貫超越業績目標（推薦信、績效評語常見）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adv.",
+     "f": [
+      [
+       "比較級",
+       "more consistently"
+      ],
+      [
+       "最高級",
+       "most consistently"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "confront",
+   "s": 2,
+   "ph": "[kənˋfrʌnt]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "面對，處理；對抗"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Fergal says that children should be encouraged to slowly and carefully try to confront their experiences.",
+     "zh": "Fergal 說應該鼓勵孩子慢慢地、小心地試著面對自己的經歷。",
+     "t": 223.6
+    }
+   ],
+   "fam": [
+    "confrontation n. 對峙，衝突"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "confront a problem / challenge 正面處理問題／挑戰；be confronted with 面臨（The company is confronted with rising costs. 公司面臨成本上升）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "confronts"
+      ],
+      [
+       "過去式",
+       "confronted"
+      ],
+      [
+       "過去分詞",
+       "confronted"
+      ],
+      [
+       "現在分詞",
+       "confronting"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "nightmare",
+   "s": 1,
+   "ph": "[ˋnaɪt͵mɛr]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "惡夢；可怕的經歷"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Yes, and a nightmare is a very scary or upsetting dream.",
+     "zh": "對，nightmare 是非常可怕或令人不安的夢。",
+     "t": 250.0
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "比喻用法很常見：The traffic was a nightmare. 交通糟透了；a logistical nightmare 後勤上的一場惡夢。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "nightmares"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "nightmarish adj. 惡夢般的"
+   ]
+  },
+  {
+   "n": 7,
+   "w": "phenomenally",
+   "s": 1,
+   "ph": "[fəˋnɑmənḷɪ]",
+   "pos": [
+    {
+     "p": "adv.",
+     "m": "驚人地，非凡地"
+    }
+   ],
+   "ex": [
+    {
+     "en": "The big lesson is, is that given a chance, the human spirit and especially children, are phenomenally resilient.",
+     "zh": "最大的一課是，只要給機會，人的精神——尤其是孩子——都有驚人的韌性。",
+     "t": 265.6
+    }
+   ],
+   "fam": [
+    "phenomenon n. 現象（複數 phenomena）",
+    "phenomenal adj. 驚人的，非凡的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "phenomenal success / growth 驚人的成功／成長。phenomenon 的複數是 phenomena（不規則），閱讀題偶爾出現。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adv.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "resilient",
+   "s": 2,
+   "ph": "[rɪˋzɪlɪənt]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "有韌性的，能迅速復原的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "To be resilient is to be able to recover from and come back from something difficult or bad that's happened.",
+     "zh": "resilient 就是能夠從困難或糟糕的遭遇中復原、重新站起來。",
+     "t": 295.2
+    }
+   ],
+   "fam": [
+    "resilience n. 韌性，復原力"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a resilient economy / supply chain 有韌性的經濟／供應鏈（財經新聞常用）；build resilience 培養韌性。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more resilient"
+      ],
+      [
+       "最高級",
+       "most resilient"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "The adjective ___ means to always be careful to notice things, particularly when there's a possibility of danger.",
+   "a": "vigilant",
+   "opts": [
+    "vigilant",
+    "resilient",
+    "relative",
+    "consistent"
+   ]
+  },
+  {
+   "s": "They disagree about a few things, but on this they're absolutely of one ___.",
+   "a": "mind",
+   "opts": [
+    "mind",
+    "heart",
+    "voice",
+    "view"
+   ]
+  },
+  {
+   "s": "And so there's a new field of theory, well, I mean, ___ new field of theory…",
+   "a": "relatively",
+   "opts": [
+    "relatively",
+    "consistently",
+    "phenomenally",
+    "slowly"
+   ]
+  },
+  {
+   "s": "Because that's what they did during the war, because they were so ___ terrified.",
+   "a": "consistently",
+   "opts": [
+    "consistently",
+    "relatively",
+    "carefully",
+    "simply"
+   ]
+  },
+  {
+   "s": "Children should be encouraged to slowly and carefully try to ___ their experiences.",
+   "a": "confront",
+   "opts": [
+    "confront",
+    "recover",
+    "report",
+    "compare"
+   ]
+  },
+  {
+   "s": "Yes, and a ___ is a very scary or upsetting dream.",
+   "a": "nightmare",
+   "opts": [
+    "nightmare",
+    "phenomenon",
+    "trauma",
+    "threat"
+   ]
+  },
+  {
+   "s": "Given a chance, the human spirit and especially children, are ___ resilient.",
+   "a": "phenomenally",
+   "opts": [
+    "phenomenally",
+    "relatively",
+    "consistently",
+    "vigilantly"
+   ]
+  },
+  {
+   "s": "To be ___ is to be able to recover from and come back from something difficult or bad that's happened.",
+   "a": "resilient",
+   "opts": [
+    "resilient",
+    "vigilant",
+    "confident",
+    "consistent"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "節目問答題：PTSD 代表什麼？",
+   "a": "創傷後壓力症候群（post-traumatic stress disorder）",
+   "opts": [
+    "創傷後壓力症候群（post-traumatic stress disorder）",
+    "長期壓力疾患（prolonged tension stress disorder）",
+    "預防性創傷篩檢（preventive trauma screening）"
+   ]
+  },
+  {
+   "q": "根據 2024 年的數據，全世界大約有多少比例的兒童生活在衝突地區？",
+   "a": "大約每五個兒童就有一個",
+   "opts": [
+    "大約每五個兒童就有一個",
+    "大約每二十個兒童有一個",
+    "大約一半的兒童"
+   ]
+  },
+  {
+   "q": "研究人員在哪一點上看法完全一致？",
+   "a": "如果持續生活在創傷中，就無法從戰爭創傷中復原",
+   "opts": [
+    "如果持續生活在創傷中，就無法從戰爭創傷中復原",
+    "戰區兒童的處境正在快速改善",
+    "孩子應該儘快忘記戰爭經歷"
+   ]
+  },
+  {
+   "q": "節目舉了什麼例子，說明孩子可以從簡單的事開始面對經歷？",
+   "a": "學習自己一個人睡",
+   "opts": [
+    "學習自己一個人睡",
+    "每天寫日記",
+    "回到以前住的地方"
+   ]
+  }
+ ]
+}

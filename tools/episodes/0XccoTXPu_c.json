@@ -1,0 +1,463 @@
+{
+ "id": "yt-0XccoTXPu_c",
+ "video": "https://youtu.be/0XccoTXPu_c",
+ "bbc": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260730",
+ "label": "BBC 006",
+ "theme": "如果運動員能用禁藥",
+ "themeEn": "What if athletes were allowed to take drugs?",
+ "release": "2026-09-27",
+ "words": [
+  {
+   "n": 1,
+   "w": "controversial",
+   "s": 3,
+   "ph": "[͵kɑntrəˋvɝʃəl]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "有爭議的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Now, it's no exaggeration to say that The Enhanced Games are controversial.",
+     "zh": "說增強運動會充滿爭議，一點也不誇張。",
+     "t": 162.3
+    }
+   ],
+   "fam": [
+    "controversy n. 爭議",
+    "uncontroversial adj. 無爭議的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a controversial decision / proposal 有爭議的決定／提案；spark controversy 引發爭議。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more controversial"
+      ],
+      [
+       "最高級",
+       "most controversial"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "it's fair to say",
+   "s": 2,
+   "ph": "[ɪts fɛr tə se]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "可以說，平心而論"
+    }
+   ],
+   "ex": [
+    {
+     "en": "I think it's fair to say it's one of the most divisive and controversial events that the world of sport has seen for a long time.",
+     "zh": "我想可以說，這是體育界很久以來最具分歧、最具爭議的賽事之一。",
+     "t": 180.7
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "會議、報告中用來提出持平的看法：It's fair to say that sales have improved. 平心而論，業績已經改善了。"
+    }
+   ],
+   "forms": []
+  },
+  {
+   "n": 3,
+   "w": "divisive",
+   "s": 2,
+   "ph": "[dəˋvaɪsɪv]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "造成分歧的，引起不和的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Dan also describes the games as divisive – an adjective that means causing a lot of disagreement between people.",
+     "zh": "Dan 也形容這個運動會 divisive——這個形容詞的意思是在人與人之間造成很多分歧。",
+     "t": 211.9
+    }
+   ],
+   "fam": [
+    "divide v. 分開；分配",
+    "division n. 分割；部門"
+   ],
+   "tips": [
+    {
+     "k": "易混淆",
+     "t": "divisive（造成分歧的）≠ divisible（可分割的）。divisive issue 引起分歧的議題。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more divisive"
+      ],
+      [
+       "最高級",
+       "most divisive"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "supervision",
+   "s": 3,
+   "ph": "[͵supɚˋvɪʒən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "監督，管理"
+    }
+   ],
+   "ex": [
+    {
+     "en": "It's an event where performance-enhancing drugs, banned elsewhere in mainstream sport of course, are actually allowed to be taken by the competitors under medical supervision.",
+     "zh": "在這個賽事中，提升表現的藥物——當然，在其他主流運動中是禁止的——實際上允許參賽者在醫療監督下使用。",
+     "t": 187.1
+    }
+   ],
+   "fam": [
+    "supervise v. 監督",
+    "supervisor n. 主管，監督者",
+    "supervisory adj. 監督的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "under the supervision of 在～的監督下；under medical supervision 在醫療監督下（國際學村 Day 03 核心字）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "integrity",
+   "s": 3,
+   "ph": "[ɪnˋtɛgrətɪ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "誠信，正直；完整性"
+    }
+   ],
+   "ex": [
+    {
+     "en": "It could harm the integrity, therefore, of sport, and it could be dangerous to the health of those taking part.",
+     "zh": "因此，它可能會損害運動的誠信，也可能危害參賽者的健康。",
+     "t": 251.0
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "企業價值觀常見：honesty and integrity 誠實與正直；data integrity 資料完整性；structural integrity 結構完整性。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ],
+   "der": [
+    "integral adj. 不可或缺的"
+   ]
+  },
+  {
+   "n": 6,
+   "w": "cross the line",
+   "s": 2,
+   "ph": "[krɔs ðə laɪn]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "越界，做出不可接受的行為"
+    }
+   ],
+   "ex": [
+    {
+     "en": "For the Games' critics, doping crosses an ethical line.",
+     "zh": "對運動會的批評者來說，用禁藥越過了道德界線。",
+     "t": 256.0
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "cross an ethical line 越過道德界線；draw the line 劃清界線（I draw the line at working weekends. 週末加班我不接受）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "crosses the line"
+      ],
+      [
+       "過去式",
+       "crossed the line"
+      ],
+      [
+       "過去分詞",
+       "crossed the line"
+      ],
+      [
+       "現在分詞",
+       "crossing the line"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "set a bad example",
+   "s": 2,
+   "ph": "[sɛt ə bæd ɪgˋzæmpḷ]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "樹立壞榜樣"
+    }
+   ],
+   "ex": [
+    {
+     "en": "These critics say the Games set a bad example, meaning that they encourage others to behave badly as well.",
+     "zh": "這些批評者說這個運動會 set a bad example，意思是它會鼓勵其他人也做出不好的行為。",
+     "t": 265.3
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "相反：set a good example (for) 樹立好榜樣：Managers should set a good example for their staff. 主管應為員工樹立好榜樣。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "sets a bad example"
+      ],
+      [
+       "過去式",
+       "set a bad example"
+      ],
+      [
+       "過去分詞",
+       "set a bad example"
+      ],
+      [
+       "現在分詞",
+       "setting a bad example"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "normalise",
+   "s": 2,
+   "ph": "[ˋnɔrmḷ͵aɪz]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "使正常化，使成為常態"
+    }
+   ],
+   "ex": [
+    {
+     "en": "If you normalise something, you treat it as normal or acceptable when previously it wasn't.",
+     "zh": "如果你 normalise 某件事，就是把以前不被接受的事當成正常或可以接受的。",
+     "t": 278.3
+    }
+   ],
+   "fam": [
+    "normal adj. 正常的",
+    "normalisation n. 正常化"
+   ],
+   "tips": [
+    {
+     "k": "易混淆",
+     "t": "normalise 是英式拼法，美式是 normalize（多益以美式為主）；-ise/-ize 的差別也出現在 organise/organize、realise/realize。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "normalises"
+      ],
+      [
+       "過去式",
+       "normalised"
+      ],
+      [
+       "過去分詞",
+       "normalised"
+      ],
+      [
+       "現在分詞",
+       "normalising"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "Now, it's no exaggeration to say that The Enhanced Games are ___.",
+   "a": "controversial",
+   "opts": [
+    "controversial",
+    "divisible",
+    "supervised",
+    "normal"
+   ]
+  },
+  {
+   "s": "I think it's ___ to say it's one of the most divisive and controversial events that the world of sport has seen for a long time.",
+   "a": "fair",
+   "opts": [
+    "fair",
+    "right",
+    "equal",
+    "just"
+   ]
+  },
+  {
+   "s": "Dan also describes the games as ___ – an adjective that means causing a lot of disagreement between people.",
+   "a": "divisive",
+   "opts": [
+    "divisive",
+    "controversial",
+    "divided",
+    "decisive"
+   ]
+  },
+  {
+   "s": "It's an event where performance-enhancing drugs, banned elsewhere in mainstream sport of course, are actually allowed to be taken by the competitors under medical ___.",
+   "a": "supervision",
+   "opts": [
+    "supervision",
+    "integrity",
+    "example",
+    "doping"
+   ]
+  },
+  {
+   "s": "It could harm the ___, therefore, of sport, and it could be dangerous to the health of those taking part.",
+   "a": "integrity",
+   "opts": [
+    "integrity",
+    "supervision",
+    "controversy",
+    "division"
+   ]
+  },
+  {
+   "s": "For the Games' critics, doping crosses an ethical ___.",
+   "a": "line",
+   "opts": [
+    "line",
+    "example",
+    "border",
+    "limit"
+   ]
+  },
+  {
+   "s": "These critics say the Games set a bad ___, meaning that they encourage others to behave badly as well.",
+   "a": "example",
+   "opts": [
+    "example",
+    "line",
+    "sample",
+    "record"
+   ]
+  },
+  {
+   "s": "If you ___ something, you treat it as normal or acceptable when previously it wasn't.",
+   "a": "normalise",
+   "opts": [
+    "normalise",
+    "supervise",
+    "divide",
+    "exceed"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "節目問答題：Lance Armstrong 被抓到之前贏過環法自行車賽幾次？",
+   "a": "七次",
+   "opts": [
+    "七次",
+    "五次",
+    "六次"
+   ]
+  },
+  {
+   "q": "增強運動會和奧運最大的不同是什麼？",
+   "a": "允許運動員使用職業運動禁止的提升表現藥物",
+   "opts": [
+    "允許運動員使用職業運動禁止的提升表現藥物",
+    "只開放業餘選手參加",
+    "沒有任何獎金"
+   ]
+  },
+  {
+   "q": "主辦單位認為他們的做法比較安全，理由是？",
+   "a": "藥物經過核准，並在醫療監督下公開使用",
+   "opts": [
+    "藥物經過核准，並在醫療監督下公開使用",
+    "運動員不需要做任何檢查",
+    "比賽項目只有游泳"
+   ]
+  },
+  {
+   "q": "批評者擔心增強運動會會帶來什麼影響？",
+   "a": "讓用禁藥變得正常化，損害運動誠信與選手健康",
+   "opts": [
+    "讓用禁藥變得正常化，損害運動誠信與選手健康",
+    "讓奧運門票變貴",
+    "讓游泳比賽變得不受歡迎"
+   ]
+  }
+ ]
+}

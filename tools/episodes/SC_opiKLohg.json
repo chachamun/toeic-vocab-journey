@@ -1,0 +1,514 @@
+{
+ "id": "yt-SC_opiKLohg",
+ "video": "https://youtu.be/SC_opiKLohg",
+ "bbc": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260820",
+ "label": "BBC 003",
+ "theme": "與自駕車共用道路",
+ "themeEn": "Sharing the road with driverless cars",
+ "release": "2026-09-24",
+ "words": [
+  {
+   "n": 1,
+   "w": "pedestrian",
+   "s": 3,
+   "ph": "[pəˋdɛstrɪən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "行人"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Many people say they wouldn't feel safe in a car without a human driver, but there are concerns from other road users too – pedestrians, runners and cyclists.",
+     "zh": "很多人說，坐在沒有人類駕駛的車裡會覺得不安全，但其他用路人也有疑慮——行人、跑者和騎單車的人。",
+     "t": 29.3
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "Part 1 看圖題常見：Pedestrians are crossing the street. 行人正在過馬路；pedestrian crossing 行人穿越道；a pedestrian-only zone 行人徒步區。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "pedestrians"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "autonomous",
+   "s": 2,
+   "ph": "[ɔˋtɑnəməs]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "自主的；（車輛）自動駕駛的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "But when you come to an autonomous vehicle, there's no person in the driving seat, so how do you negotiate whether they're going to go, whether they're going to let you go?",
+     "zh": "但換成自動駕駛車時，駕駛座上沒有人，那你要怎麼協調是他們要先走，還是他們會讓你先走？",
+     "t": 59.1
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "autonomous vehicle 自動駕駛車；an autonomous team 自主運作的團隊。同義字 self-driving、driverless。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more autonomous"
+      ],
+      [
+       "最高級",
+       "most autonomous"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "autonomy n. 自主權",
+    "autonomously adv. 自主地"
+   ]
+  },
+  {
+   "n": 3,
+   "w": "eye contact",
+   "s": 2,
+   "ph": "[aɪ ˋkɑntækt]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "眼神接觸"
+    }
+   ],
+   "ex": [
+    {
+     "en": "If you're outside a vehicle right now, you can see the driver inside the vehicle, you can wave to them, they can see you, you can make eye contact.",
+     "zh": "如果你現在人在車外，你可以看到車內的駕駛，你可以向他揮手，他看得到你，你們可以有眼神接觸。",
+     "t": 52.7
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "make eye contact with 與～有眼神接觸；maintain eye contact 保持眼神接觸（面試、簡報技巧文章常出現）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "wave",
+   "s": 2,
+   "ph": "[wev]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "揮手（示意）"
+    },
+    {
+     "p": "n.",
+     "m": "揮手；波浪；一波（潮流、浪潮）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "They look directly into my eyes and then wave me across.",
+     "zh": "他們會直視我的眼睛，然後揮手示意我過去。",
+     "t": 74.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "wave at someone 對某人揮手；wave goodbye 揮手道別。名詞 a wave of layoffs / orders 一波裁員／訂單，多益文章常用。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "waves"
+      ],
+      [
+       "過去式",
+       "waved"
+      ],
+      [
+       "過去分詞",
+       "waved"
+      ],
+      [
+       "現在分詞",
+       "waving"
+      ]
+     ]
+    },
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "waves"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "alert",
+   "s": 3,
+   "ph": "[əˋlɝt]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "警告；提醒（某人）注意"
+    },
+    {
+     "p": "adj.",
+     "m": "警覺的"
+    },
+    {
+     "p": "n.",
+     "m": "警報"
+    }
+   ],
+   "ex": [
+    {
+     "en": "It's important to alert people to driverless cars.",
+     "zh": "提醒大家注意無人駕駛車是很重要的。",
+     "t": 199.5
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "alert A to B 提醒 A 注意 B；stay alert 保持警覺；a security alert 安全警報；email alerts 電子郵件通知。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "alerts"
+      ],
+      [
+       "過去式",
+       "alerted"
+      ],
+      [
+       "過去分詞",
+       "alerted"
+      ],
+      [
+       "現在分詞",
+       "alerting"
+      ]
+     ]
+    },
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more alert"
+      ],
+      [
+       "最高級",
+       "most alert"
+      ]
+     ]
+    },
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "alerts"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "alertness n. 警覺"
+   ]
+  },
+  {
+   "n": 6,
+   "w": "animation",
+   "s": 1,
+   "ph": "[͵ænəˋmeʃən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "動畫"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Some cars do this with animations – displays of moving images.",
+     "zh": "有些車會用動畫來做到這一點——也就是顯示移動的影像。",
+     "t": 207.8
+    }
+   ],
+   "fam": [
+    "animate v. 使有活力；製作動畫",
+    "animated adj. 熱烈的；動畫的"
+   ],
+   "tips": [
+    {
+     "k": "易混淆",
+     "t": "animated 除了「動畫的」，更常指「熱烈的、生動的」：an animated discussion 熱烈的討論。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "animations"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "glance",
+   "s": 2,
+   "ph": "[glæns]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "一瞥，很快地看一眼"
+    },
+    {
+     "p": "v.",
+     "m": "瞥，匆匆一看"
+    }
+   ],
+   "ex": [
+    {
+     "en": "They only have time for a glance.",
+     "zh": "他們只來得及瞥一眼。",
+     "t": 223.5
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "glance at 瞄一下（Part 1：The man is glancing at his watch. 男子正瞄了一眼手錶）；at a glance 一眼就看出（The chart shows sales at a glance. 這張圖表讓銷售狀況一目了然）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "glances"
+      ]
+     ]
+    },
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "glances"
+      ],
+      [
+       "過去式",
+       "glanced"
+      ],
+      [
+       "過去分詞",
+       "glanced"
+      ],
+      [
+       "現在分詞",
+       "glancing"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "jaywalking",
+   "s": 1,
+   "ph": "[ˋdʒe͵wɔkɪŋ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "任意穿越馬路，不守交通規則過馬路"
+    }
+   ],
+   "ex": [
+    {
+     "en": "In South Korea, for example, jaywalking is illegal, whereas in the UK, you know, we tend to jaywalk a lot.",
+     "zh": "例如在韓國，任意穿越馬路是違法的，但在英國，你知道的，我們很常任意穿越馬路。",
+     "t": 262.8
+    }
+   ],
+   "fam": [
+    "jaywalk v. 任意穿越馬路",
+    "jaywalker n. 任意穿越馬路的人"
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "Many people say they wouldn't feel safe in a car without a human driver, but there are concerns from other road users too – ___, runners and cyclists.",
+   "a": "pedestrians",
+   "opts": [
+    "pedestrians",
+    "passengers",
+    "animations",
+    "drivers"
+   ]
+  },
+  {
+   "s": "But when you come to an ___ vehicle, there's no person in the driving seat…",
+   "a": "autonomous",
+   "opts": [
+    "autonomous",
+    "alert",
+    "illegal",
+    "oncoming"
+   ]
+  },
+  {
+   "s": "Usually a driver makes ___ with me.",
+   "a": "eye contact",
+   "opts": [
+    "eye contact",
+    "a glance",
+    "a wave",
+    "an animation"
+   ]
+  },
+  {
+   "s": "They look directly into my eyes and then ___ me across.",
+   "a": "wave",
+   "opts": [
+    "wave",
+    "alert",
+    "glance",
+    "negotiate"
+   ]
+  },
+  {
+   "s": "It's important to ___ people to driverless cars.",
+   "a": "alert",
+   "opts": [
+    "alert",
+    "wave",
+    "glance",
+    "cross"
+   ]
+  },
+  {
+   "s": "Some cars do this with ___ – displays of moving images.",
+   "a": "animations",
+   "opts": [
+    "animations",
+    "pedestrians",
+    "signals",
+    "glances"
+   ]
+  },
+  {
+   "s": "They only have time for a ___.",
+   "a": "glance",
+   "opts": [
+    "glance",
+    "wave",
+    "contact",
+    "alert"
+   ]
+  },
+  {
+   "s": "In South Korea, for example, ___ is illegal, whereas in the UK, you know, we tend to jaywalk a lot.",
+   "a": "jaywalking",
+   "opts": [
+    "jaywalking",
+    "speeding",
+    "waving",
+    "cycling"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "節目問答題：第一個有全自動無人計程車上路的城市是？",
+   "a": "Phoenix（鳳凰城）",
+   "opts": [
+    "Phoenix（鳳凰城）",
+    "Philadelphia（費城）",
+    "San Francisco（舊金山）"
+   ]
+  },
+  {
+   "q": "Brewster 教授發現，動畫訊號對哪些人比較沒用？為什麼？",
+   "a": "跑者和騎單車的人，因為速度快，只來得及瞄一眼",
+   "opts": [
+    "跑者和騎單車的人，因為速度快，只來得及瞄一眼",
+    "行人，因為他們通常在看手機",
+    "其他駕駛，因為車窗會反光"
+   ]
+  },
+  {
+   "q": "節目提到，揮手在不同文化中可能代表什麼？",
+   "a": "在某個文化是「請先走」，在另一個文化是「謝謝」",
+   "opts": [
+    "在某個文化是「請先走」，在另一個文化是「謝謝」",
+    "在所有文化都是「請停下來」",
+    "只有在英國才代表打招呼"
+   ]
+  },
+  {
+   "q": "為什麼研究員認為韓國特別適合自動駕駛車？",
+   "a": "韓國任意穿越馬路是違法的，很少人這樣做",
+   "opts": [
+    "韓國任意穿越馬路是違法的，很少人這樣做",
+    "韓國的道路比英國寬",
+    "韓國的車子都有彩色光環"
+   ]
+  }
+ ]
+}

@@ -223,6 +223,7 @@ def cmd_video(voice, dry, mix):
     report(todo)
     if dry:
         return
+    prefetch([(speakable(t), v) for t, _, v in todo])
     for t, f, v in todo:
         data, _ = synth(speakable(t), v)
         out = os.path.join(ROOT, f); os.makedirs(os.path.dirname(out), exist_ok=True)

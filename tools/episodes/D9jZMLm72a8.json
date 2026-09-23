@@ -1,0 +1,451 @@
+{
+ "id": "yt-D9jZMLm72a8",
+ "video": "https://youtu.be/D9jZMLm72a8",
+ "bbc": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260813",
+ "label": "BBC 004",
+ "theme": "誰做家事？",
+ "themeEn": "Who does the housework?",
+ "release": "2026-09-25",
+ "words": [
+  {
+   "n": 1,
+   "w": "chore",
+   "s": 2,
+   "ph": "[tʃor]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "家務；例行雜事"
+    }
+   ],
+   "ex": [
+    {
+     "en": "When it comes to household chores, jobs like cleaning, washing clothes or looking after the kids, it's often women who do most of the work.",
+     "zh": "說到家務——像是打掃、洗衣服或照顧小孩這些工作——通常都是女性做了大部分。",
+     "t": 13.1
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "household chores 家務；do the chores 做家事。職場上也可指例行雜事：Filing is a chore. 歸檔是件苦差事。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "chores"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "fair share",
+   "s": 2,
+   "ph": "[fɛr ʃɛr]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "應有的一份；應分擔的部分"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Do you do your fair share of household chores?",
+     "zh": "你有分擔你應做的那份家事嗎？",
+     "t": 48.4
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "do one's fair share 做好自己的本分；pay one's fair share 支付應付的份額。more than one's fair share 超過應有的份量（例：has had more than his fair share of problems 遇到的問題多得不公平）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "常用單數（one's fair share）"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "domestic",
+   "s": 3,
+   "ph": "[dəˋmɛstɪk]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "家庭的，家務的；國內的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "But with few washing machines and no running water, these domestic chores take a long time.",
+     "zh": "但因為洗衣機很少、又沒有自來水，這些家務要花很長的時間。",
+     "t": 148.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "易混淆",
+     "t": "多益更常考「國內的」：domestic flights 國內航班、domestic market 國內市場（↔ international / overseas）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ],
+   "der": [
+    "domestically adv. 在國內",
+    "domesticate v. 馴化"
+   ]
+  },
+  {
+   "n": 4,
+   "w": "unpaid",
+   "s": 2,
+   "ph": "[ʌnˋped]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "無償的，無薪的；未付款的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Figures from UN Women, an organisation promoting gender equality, suggest that every day women around the world spend three hours more than men on unpaid care and domestic work.",
+     "zh": "推動性別平等的組織「聯合國婦女署」的數據顯示，全世界的女性每天花在無償照護與家務上的時間比男性多三個小時。",
+     "t": 76.9
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "unpaid leave 無薪假；an unpaid invoice / bill 未付的發票／帳單（帳款催繳信常見）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ],
+   "der": [
+    "pay v. 支付",
+    "paid adj. 有薪的（反義）"
+   ]
+  },
+  {
+   "n": 5,
+   "w": "division of labour",
+   "s": 2,
+   "ph": "[dəˋvɪʒən əv ˋlebɚ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "分工"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Many cultures have a division of labour – a way of organising work where different tasks are done by different groups of people.",
+     "zh": "許多文化都有分工——一種讓不同群體的人做不同工作的組織方式。",
+     "t": 203.8
+    }
+   ],
+   "tips": [
+    {
+     "k": "易混淆",
+     "t": "labour 是英式拼法，美式是 labor（多益以美式為主）。division 在職場也是「部門」：the sales division 業務部。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "appreciate",
+   "s": 3,
+   "ph": "[əˋpriʃɪ͵et]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "感激；欣賞；重視"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Women tend to especially appreciate men who do these kinds of chores.",
+     "zh": "女性通常特別感激會做這類家事的男性。",
+     "t": 256.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "書信必考：We appreciate your patience. 感謝您的耐心；I would appreciate it if you could… 如果您能～我將很感激。注意 appreciate 後面直接接事物，不接人（不說 appreciate you for）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "appreciates"
+      ],
+      [
+       "過去式",
+       "appreciated"
+      ],
+      [
+       "過去分詞",
+       "appreciated"
+      ],
+      [
+       "現在分詞",
+       "appreciating"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "appreciation n. 感激；欣賞",
+    "appreciative adj. 感激的"
+   ]
+  },
+  {
+   "n": 7,
+   "w": "take a breather",
+   "s": 1,
+   "ph": "[tek ə ˋbriðɚ]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "喘口氣，稍作休息"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Sometimes mums need to take a breather – an informal way of saying stop and rest a while.",
+     "zh": "有時候媽媽需要「take a breather」——這是「停下來休息一會兒」的非正式說法。",
+     "t": 270.7
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "同義說法：take a break、take a rest。會議中常聽到 Let's take a short breather. 我們稍微休息一下。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "takes a breather"
+      ],
+      [
+       "過去式",
+       "took a breather"
+      ],
+      [
+       "過去分詞",
+       "taken a breather"
+      ],
+      [
+       "現在分詞",
+       "taking a breather"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "breathe v. 呼吸",
+    "breath n. 氣息"
+   ]
+  },
+  {
+   "n": 8,
+   "w": "pull one's weight",
+   "s": 2,
+   "ph": "[pʊl wʌnz wet]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "盡自己的本分，做好分內工作"
+    }
+   ],
+   "ex": [
+    {
+     "en": "If you pull your weight, you work as hard as everyone else.",
+     "zh": "如果你「pull your weight」，就是你和其他人一樣努力。",
+     "t": 281.1
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "團隊合作情境常用：Everyone on the team needs to pull their weight. 團隊每個人都要做好分內工作。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "pulls ~ weight"
+      ],
+      [
+       "過去式",
+       "pulled ~ weight"
+      ],
+      [
+       "過去分詞",
+       "pulled ~ weight"
+      ],
+      [
+       "現在分詞",
+       "pulling ~ weight"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "When it comes to household ___, jobs like cleaning, washing clothes or looking after the kids, it's often women who do most of the work.",
+   "a": "chores",
+   "opts": [
+    "chores",
+    "shares",
+    "divisions",
+    "breathers"
+   ]
+  },
+  {
+   "s": "Do you do your ___ of household chores?",
+   "a": "fair share",
+   "opts": [
+    "fair share",
+    "division",
+    "weight",
+    "breather"
+   ]
+  },
+  {
+   "s": "But with few washing machines and no running water, these ___ chores take a long time.",
+   "a": "domestic",
+   "opts": [
+    "domestic",
+    "unpaid",
+    "remote",
+    "traditional"
+   ]
+  },
+  {
+   "s": "Every day women around the world spend three hours more than men on ___ care and domestic work.",
+   "a": "unpaid",
+   "opts": [
+    "unpaid",
+    "domestic",
+    "fair",
+    "repetitive"
+   ]
+  },
+  {
+   "s": "Many cultures have a ___ – a way of organising work where different tasks are done by different groups of people.",
+   "a": "division of labour",
+   "opts": [
+    "division of labour",
+    "fair share",
+    "chore",
+    "breather"
+   ]
+  },
+  {
+   "s": "Women tend to especially ___ men who do these kinds of chores.",
+   "a": "appreciate",
+   "opts": [
+    "appreciate",
+    "encourage",
+    "nag",
+    "divide"
+   ]
+  },
+  {
+   "s": "Sometimes mums need to take a ___ – an informal way of saying stop and rest a while.",
+   "a": "breather",
+   "opts": [
+    "breather",
+    "share",
+    "weight",
+    "chore"
+   ]
+  },
+  {
+   "s": "If you pull your ___, you work as hard as everyone else.",
+   "a": "weight",
+   "opts": [
+    "weight",
+    "share",
+    "labour",
+    "breath"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "節目問答題：英國人最討厭的家事是哪一項？",
+   "a": "擦窗戶",
+   "opts": [
+    "擦窗戶",
+    "深層清潔烤箱",
+    "刷馬桶"
+   ]
+  },
+  {
+   "q": "根據聯合國婦女署，全世界女性每天花在無償照護與家務的時間比男性多多少？",
+   "a": "三個小時",
+   "opts": [
+    "三個小時",
+    "一個小時",
+    "五個小時"
+   ]
+  },
+  {
+   "q": "在印尼羅特島，為什麼「男人在田裡忙」不算公平分工？",
+   "a": "因為女性除了家務，也要到田裡幫忙",
+   "opts": [
+    "因為女性除了家務，也要到田裡幫忙",
+    "因為男性其實不用下田",
+    "因為島上有很多洗衣機"
+   ]
+  },
+  {
+   "q": "克羅埃西亞「超級爸爸」計畫認為，男性多分擔家事會帶來什麼結果？",
+   "a": "媽媽有更多時間休息或發展事業，家庭更快樂",
+   "opts": [
+    "媽媽有更多時間休息或發展事業，家庭更快樂",
+    "家裡的開銷會變少",
+    "小孩的成績會變好"
+   ]
+  }
+ ]
+}

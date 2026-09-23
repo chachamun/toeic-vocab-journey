@@ -1,0 +1,356 @@
+{
+ "source": {
+  "video": "https://youtu.be/sv9DItmJvlI",
+  "original": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260806",
+  "publisher": "BBC Learning English《6 Minute English》",
+  "note": "英文逐字稿取自 YouTube 字幕；中文為學習用翻譯。版權屬原作者，僅供個人學習。"
+ },
+ "title": "How do climate scientists make predictions?",
+ "lines": [
+  {
+   "t": 7.8,
+   "en": "Hello, this is 6 Minute English from BBC Learning English. I'm Phil.",
+   "zh": "哈囉，這裡是 BBC Learning English 的《6 Minute English》。我是 Phil。"
+  },
+  {
+   "t": 12.5,
+   "en": "And I'm Pippa.",
+   "zh": "我是 Pippa。"
+  },
+  {
+   "t": 13.8,
+   "en": "This summer is becoming one of the hottest ever with heatwaves across Europe.",
+   "zh": "今年夏天正成為史上最熱的夏天之一，歐洲各地都出現熱浪。"
+  },
+  {
+   "t": 19.8,
+   "en": "Here in the UK, a new record for the highest June temperature was set at a sweltering 37.7°C.",
+   "zh": "在英國這裡，六月最高溫創下新紀錄，高達悶熱的攝氏 37.7 度。"
+  },
+  {
+   "t": 29.4,
+   "en": "It seems that year after year, temperatures are going up.",
+   "zh": "氣溫似乎一年比一年高。"
+  },
+  {
+   "t": 34.2,
+   "en": "In 2015, the COP21 summit agreed to limit global warming to 1.5°C, but since then research shows temperatures exceeding that, leading to warnings of catastrophic damage to Earth's life support systems.",
+   "zh": "2015 年，COP21 高峰會同意把全球暖化限制在攝氏 1.5 度以內，但之後的研究顯示氣溫已經超過這個數字，於是有人警告地球的維生系統會遭受災難性的破壞。"
+  },
+  {
+   "t": 51.0,
+   "en": "In this episode, we'll be discussing how hot the planet could get, using some useful new vocabulary.",
+   "zh": "在這一集，我們會用一些實用的新詞彙，討論地球可能會變得多熱。"
+  },
+  {
+   "t": 57.3,
+   "en": "And remember, you'll find a free transcript to read along with on our website, bbclearningenglish.com.",
+   "zh": "別忘了，我們的網站 bbclearningenglish.com 上有免費的逐字稿，可以邊聽邊看。"
+  },
+  {
+   "t": 63.8,
+   "en": "But first, I have a question for you, Phil.",
+   "zh": "不過首先，Phil，我有個問題要問你。"
+  },
+  {
+   "t": 66.6,
+   "en": "Scientists monitor climate change using the Earth's energy imbalance – the difference between the solar energy entering the Earth's atmosphere and the radiation going back out into space.",
+   "zh": "科學家用「地球能量失衡」來監測氣候變遷——也就是進入地球大氣層的太陽能量，和輻射回太空的能量之間的差距。"
+  },
+  {
+   "t": 77.9,
+   "en": "But which unit do scientists use for this?",
+   "zh": "那麼，科學家用哪一種單位來衡量它？"
+  },
+  {
+   "t": 80.7,
+   "en": "Is it: a) Fahrenheit, b) Watts per square metre, or c) Joules?",
+   "zh": "是：a) 華氏度、b) 每平方公尺瓦特數，還是 c) 焦耳？"
+  },
+  {
+   "t": 87.8,
+   "en": "Ooh, I know Joules is something to do with energy, so I'm going to go with c).",
+   "zh": "喔，我知道焦耳跟能量有關，所以我選 c)。"
+  },
+  {
+   "t": 93.2,
+   "en": "Well, we'll find out the answer at the end of the programme, although careful listeners might hear the answer sooner.",
+   "zh": "我們會在節目最後揭曉答案，不過仔細聽的人可能會提早聽到答案。"
+  },
+  {
+   "t": 100.2,
+   "en": "Ooh!",
+   "zh": "喔！"
+  },
+  {
+   "t": 101.0,
+   "en": "Yes, exciting!",
+   "zh": "對，很刺激吧！"
+  },
+  {
+   "t": 102.6,
+   "en": "So, how do scientists calculate the effects of climate change in the first place?",
+   "zh": "那麼，科學家一開始是怎麼計算氣候變遷的影響的？"
+  },
+  {
+   "t": 107.6,
+   "en": "The answer is with models.",
+   "zh": "答案是用模型。"
+  },
+  {
+   "t": 109.7,
+   "en": "Huge amounts of physical and chemical data are fed into supercomputers, which then paint pictures of possible futures on Earth.",
+   "zh": "大量的物理和化學數據被輸入超級電腦，超級電腦再描繪出地球可能的未來樣貌。"
+  },
+  {
+   "t": 117.6,
+   "en": "But, as NASA climate scientist Kate Marvel explained to BBC World Service programme The Climate Question, nothing is certain.",
+   "zh": "但正如 NASA 氣候科學家 Kate Marvel 向 BBC 世界廣播節目《The Climate Question》所解釋的，沒有什麼是確定的。"
+  },
+  {
+   "t": 125.8,
+   "en": "Climate models don't make predictions – they make projections.",
+   "zh": "氣候模型不做預測（prediction）——它們做的是推估（projection）。"
+  },
+  {
+   "t": 129.2,
+   "en": "Predictions are saying this is what will happen and a projection is conditional.",
+   "zh": "預測是說「這件事會發生」，而推估是有條件的。"
+  },
+  {
+   "t": 135.2,
+   "en": "A projection is: If we do this, then this will happen.",
+   "zh": "推估是：如果我們這樣做，就會發生這樣的事。"
+  },
+  {
+   "t": 138.8,
+   "en": "Climate models don't make predictions.",
+   "zh": "氣候模型不做預測。"
+  },
+  {
+   "t": 141.2,
+   "en": "Those are statements about what's likely to happen.",
+   "zh": "預測是關於可能會發生什麼事的陳述。"
+  },
+  {
+   "t": 143.8,
+   "en": "Instead, they make projections about different possible futures, and these depend on many things.",
+   "zh": "相反地，它們針對各種可能的未來做出推估，而這些推估取決於很多因素。"
+  },
+  {
+   "t": 150.8,
+   "en": "In other words, climate models are conditional, meaning that they depend on other factors.",
+   "zh": "換句話說，氣候模型是有條件的，意思是它們取決於其他因素。"
+  },
+  {
+   "t": 157.2,
+   "en": "The main factor in climate change, of course, is human activity, especially greenhouse gas emissions.",
+   "zh": "當然，氣候變遷的主要因素是人類活動，特別是溫室氣體排放。"
+  },
+  {
+   "t": 163.6,
+   "en": "Another influence on climate models is clouds.",
+   "zh": "另一個影響氣候模型的是雲。"
+  },
+  {
+   "t": 167.0,
+   "en": "We usually associate hot summers with cloudless blue skies, but in fact clouds play a big part in the climate, as Kate Marvel explained to the BBC World Service.",
+   "zh": "我們通常會把炎熱的夏天和萬里無雲的藍天聯想在一起，但其實雲在氣候中扮演很重要的角色，正如 Kate Marvel 向 BBC 世界廣播解釋的。"
+  },
+  {
+   "t": 177.2,
+   "en": "So, the thing about clouds is that they have this dual effect.",
+   "zh": "雲的重點在於它們有雙重作用。"
+  },
+  {
+   "t": 181.5,
+   "en": "They both cool the planet by blocking sunlight, and they warm the planet because they have their own greenhouse effect.",
+   "zh": "它們一方面會遮擋陽光讓地球降溫，另一方面又會讓地球變暖，因為它們本身有溫室效應。"
+  },
+  {
+   "t": 188.9,
+   "en": "Right now, the unit that scientists use to measure the energy imbalance of the planet – how much it's out of whack – is Watts, like in a light bulb, per square metre.",
+   "zh": "目前，科學家用來衡量地球能量失衡——也就是地球失衡到什麼程度——的單位，是每平方公尺的瓦特數，就是燈泡用的那個瓦特。"
+  },
+  {
+   "t": 199.4,
+   "en": "Kate starts by saying, The thing about clouds is.",
+   "zh": "Kate 一開始說：The thing about clouds is（雲的重點在於）。"
+  },
+  {
+   "t": 203.8,
+   "en": "She uses the expression 'the thing about' to introduce the most important detail about something.",
+   "zh": "她用「the thing about」這個說法，來帶出某件事最重要的細節。"
+  },
+  {
+   "t": 211.2,
+   "en": "Here, that detail is that clouds both cool the planet by blocking sunlight, but also warm it by trapping heat.",
+   "zh": "在這裡，那個細節就是：雲一方面遮擋陽光讓地球降溫，另一方面也會困住熱讓地球變暖。"
+  },
+  {
+   "t": 219.0,
+   "en": "So, climate models monitor clouds to accurately measure how much the Earth is out of whack.",
+   "zh": "所以氣候模型會監測雲，才能準確衡量地球失衡的程度。"
+  },
+  {
+   "t": 225.2,
+   "en": "If something is out of whack, it's out of balance and not working properly.",
+   "zh": "如果某樣東西「out of whack」，就是它失去平衡、運作不正常。"
+  },
+  {
+   "t": 229.9,
+   "en": "Hmm. Climate models sound very complicated to me, Pippa.",
+   "zh": "嗯。Pippa，我覺得氣候模型聽起來非常複雜。"
+  },
+  {
+   "t": 234.1,
+   "en": "For one thing, how can you monitor clouds which are constantly moving and changing?",
+   "zh": "首先，要怎麼監測不斷移動和變化的雲呢？"
+  },
+  {
+   "t": 239.8,
+   "en": "Yeah. And how much information from around the world would the supercomputers need to make accurate projections?",
+   "zh": "對啊。而且超級電腦需要多少來自世界各地的資訊，才能做出準確的推估？"
+  },
+  {
+   "t": 246.8,
+   "en": "It's a concern that BBC presenter Graihagh Jackson raised with Kate Marvel for BBC World Service programme The Climate Question.",
+   "zh": "這是 BBC 主持人 Graihagh Jackson 在 BBC 世界廣播節目《The Climate Question》中向 Kate Marvel 提出的疑慮。"
+  },
+  {
+   "t": 254.4,
+   "en": "Surely we need to know the trajectory we're heading in, in order to adapt.",
+   "zh": "我們當然需要知道自己正朝哪個方向走，才能去調適吧。"
+  },
+  {
+   "t": 260.3,
+   "en": "Oh absolutely.",
+   "zh": "喔，絕對是。"
+  },
+  {
+   "t": 261.5,
+   "en": "You know, I am very pro-science.",
+   "zh": "你知道，我非常支持科學。"
+  },
+  {
+   "t": 263.5,
+   "en": "I am very pro-doing science because no climate change is unfortunately not on the table.",
+   "zh": "我非常支持做科學研究，因為很遺憾，「完全沒有氣候變遷」已經不是選項了。"
+  },
+  {
+   "t": 270.2,
+   "en": "Kate is very pro-science.",
+   "zh": "Kate 非常支持科學。"
+  },
+  {
+   "t": 272.9,
+   "en": "If you're pro-something, it means you're in favour of it.",
+   "zh": "如果你是 pro-某件事，意思是你贊成它。"
+  },
+  {
+   "t": 277.2,
+   "en": "Models are complex, but they're necessary because unfortunately no climate change at all is not on the table, and that's an idiom, meaning it's not an option.",
+   "zh": "模型很複雜，但它們是必要的，因為很遺憾，「完全沒有氣候變遷」已經 not on the table，這是一個慣用語，意思是它不是一個選項。"
+  },
+  {
+   "t": 289.0,
+   "en": "If all this sounds a bit depressing.",
+   "zh": "如果這些聽起來有點令人沮喪的話——"
+  },
+  {
+   "t": 291.5,
+   "en": "Kate's final message is more hopeful.",
+   "zh": "Kate 最後的訊息比較有希望。"
+  },
+  {
+   "t": 294.2,
+   "en": "Climate models prove beyond doubt that the problem of global warming is created by humans, so we know beyond doubt that the solution is also in our hands.",
+   "zh": "氣候模型毫無疑問地證明全球暖化的問題是人類造成的，所以我們也確定，解決方法同樣掌握在我們手中。"
+  },
+  {
+   "t": 303.9,
+   "en": "Now, Pippa, careful listeners might already know, but go ahead and reveal the correct answer to your question.",
+   "zh": "好了，Pippa，仔細聽的人可能已經知道了，不過還是請你揭曉問題的正確答案。"
+  },
+  {
+   "t": 311.3,
+   "en": "Yes. I asked you, Which unit do scientists use to measure the Earth's energy imbalance?",
+   "zh": "好。我問你：科學家用哪一種單位來衡量地球的能量失衡？"
+  },
+  {
+   "t": 316.9,
+   "en": "And the answer was Watts per square metre.",
+   "zh": "答案是每平方公尺瓦特數。"
+  },
+  {
+   "t": 319.3,
+   "en": "And I didn't know that, Phil.",
+   "zh": "我之前不知道耶，Phil。"
+  },
+  {
+   "t": 320.8,
+   "en": "Right, it's time to recap the vocabulary we heard during this programme.",
+   "zh": "好，現在來複習這集節目中聽到的詞彙。"
+  },
+  {
+   "t": 325.0,
+   "en": "A prediction is a statement about what you think will happen in the future.",
+   "zh": "prediction 是你對未來會發生什麼事的陳述。"
+  },
+  {
+   "t": 329.2,
+   "en": "The adjective 'conditional' means depending on other factors.",
+   "zh": "形容詞「conditional」的意思是取決於其他因素。"
+  },
+  {
+   "t": 333.6,
+   "en": "You can use the informal expression 'the thing about' to introduce the most important feature or detail of something.",
+   "zh": "你可以用非正式的說法「the thing about」來帶出某件事最重要的特點或細節。"
+  },
+  {
+   "t": 340.5,
+   "en": "The phrase 'out of whack' means out of balance and not working properly.",
+   "zh": "片語「out of whack」的意思是失去平衡、運作不正常。"
+  },
+  {
+   "t": 345.6,
+   "en": "If you're pro-something, you're in favour of it.",
+   "zh": "如果你是 pro-某件事，就表示你贊成它。"
+  },
+  {
+   "t": 348.8,
+   "en": "And if something is not on the table, it's not an option.",
+   "zh": "如果某件事 not on the table，就表示它不是一個選項。"
+  },
+  {
+   "t": 353.1,
+   "en": "It's not available to us.",
+   "zh": "我們沒有這個選擇。"
+  },
+  {
+   "t": 355.1,
+   "en": "That's the end of this episode of 6 Minute English.",
+   "zh": "這一集的《6 Minute English》就到這裡。"
+  },
+  {
+   "t": 358.1,
+   "en": "Find a worksheet and quiz on our website to test what you've learned.",
+   "zh": "到我們的網站找學習單和測驗，檢驗你學到了什麼。"
+  },
+  {
+   "t": 362.2,
+   "en": "We'll be back next week with another episode, so make sure you don't miss it.",
+   "zh": "我們下週會帶來另一集，千萬別錯過。"
+  },
+  {
+   "t": 366.1,
+   "en": "Bye for now.",
+   "zh": "先說再見了。"
+  },
+  {
+   "t": 367.2,
+   "en": "Bye!",
+   "zh": "再見！"
+  }
+ ]
+}
