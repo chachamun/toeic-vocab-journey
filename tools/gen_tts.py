@@ -8,13 +8,14 @@
 用法：
   python tools/gen_tts.py sample                     # 同一句話用幾個聲音各做一個，給人試聽挑選
   python tools/gen_tts.py pack  <教材包.json> [--days day01,day02]   # 國際學村：音檔直接嵌進教材包（不進 git）
+  python tools/gen_tts.py split <教材包.json> [--out 資料夾]        # 拆成一天一個檔（App 匯入時自動合併）
   python tools/gen_tts.py video                       # 影片課程單字：產生到 tts/<影片ID>/，再跑 build_video_units.py course
   共用參數：--voice en-US-Chirp3-HD-Aoede  --dry（只算字數與費用，不呼叫 API）
 
 已經產生過的檔案會跳過，不重複計費。
 費用（2026-09 官網）：Chirp 3 HD 每月前 100 萬字元免費，超過 US$30／100 萬字元。
 """
-import base64, glob, hashlib, io, json, os, re, sys, time
+import base64, glob, hashlib, io, json, os, re, sys, threading, time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KEY = os.environ.get('TVJ_GCP_KEY', 'H:/Mischa/小恰/key/mischa-tools-80142180bf28.json')
@@ -60,21 +61,27 @@ def synth(text, voice):
     body = {'input': {'text': text},
             'voice': {'languageCode': voice[:5], 'name': voice},
             'audioConfig': {'audioEncoding': 'MP3', 'sampleRateHertz': 24000}}
-    for attempt in range(4):
+    for attempt in range(8):
         r = session().post('https://texttospeech.googleapis.com/v1/text:synthesize', json=body, timeout=60)
-        if r.status_code == 429 or r.status_code >= 500:
-            time.sleep(2 * (attempt + 1)); continue
+        if r.status_code == 429 or r.status_code >= 500:           # 每分鐘有請求上限，被擋就等久一點
+            time.sleep(min(60, 3 * 2 ** attempt)); continue
         if not r.ok:
             sys.exit('API 錯誤 %d：%s' % (r.status_code, r.text[:400]))
         data = base64.b64decode(r.json()['audioContent'])
         os.makedirs(os.path.dirname(p), exist_ok=True)
-        open(p, 'wb').write(data)
+        tmp = p + '.%d.tmp' % threading.get_ident()           # 先寫暫存再換名，中途被中斷不會留下半截檔
+        with open(tmp, 'wb') as f:
+            f.write(data)
+        os.replace(tmp, p)
         return data, True
     sys.exit('API 一直忙線，稍後再試。')
 
 
 def speakable(t):
     """給語音用的文字：去掉 ___ 之類的符號、~ 等。"""
+    t = re.sub(r'\(=[^)]*\)', '', t)                           # in a strict way (= strictly) → 只念前面
+    t = re.sub(r'\((\w+)\)', r'\1', t)                         # have a problem (in) -ing → in
+    t = re.sub(r'(^|\s)-ing\b', r'\1doing', t)                 # -ing → doing
     return re.sub(r'_{2,}', ' blank ', t).replace('～', ' ').strip()
 
 
@@ -87,6 +94,19 @@ def report(items, voice=None):
     print('要產生 %d 段（快取已有 %d 段）；計費字元 %d（本月免費額度 %d 的 %.1f%%）；超出部分估 US$%.2f' % (
         len(todo), len(items) - len(todo), chars, FREE_PER_MONTH, chars / FREE_PER_MONTH * 100, over / 1e6 * USD_PER_M))
     return todo
+
+
+def prefetch(items, workers=3):
+    """[(文字, 語音)] 先平行呼叫 API 填好快取（一段一段打約 5 秒一段，太慢）。"""
+    from concurrent.futures import ThreadPoolExecutor
+    todo = list({it for it in items if not os.path.exists(cache_path(*it))})
+    if not todo:
+        return
+    session()                                                 # 先在主執行緒登入，避免多執行緒同時建立
+    with ThreadPoolExecutor(workers) as ex:
+        for i, _ in enumerate(ex.map(lambda it: synth(*it), todo), 1):
+            if i % 100 == 0 or i == len(todo):
+                print('  產生中 %d/%d' % (i, len(todo)), flush=True)
 
 
 def arg(name, default=None):
@@ -132,6 +152,7 @@ def cmd_pack(pack_path, voice, days, dry, mix):
     report([(t, f, v) for t, f, v, _, _ in plan])
     if dry:
         return
+    prefetch([(speakable(t), v) for t, _, v, _, _ in plan])
     clips = pack.get('clips', {})
     for obj in {id(p[3]): p[3] for p in plan}.values():       # 清掉舊格式欄位
         obj.pop('au', None); obj.pop('acc', None); obj['aus'] = {}
@@ -153,6 +174,40 @@ def cmd_pack(pack_path, voice, days, dry, mix):
     pack['ttsVoice'] = voice_of(voice, 'en-US') + (' ＋英澳口音' if mix else '')
     json.dump(pack, io.open(pack_path, 'w', encoding='utf-8'), ensure_ascii=False)
     print('已嵌入 %d 段音檔 → %s（%.1f MB）' % (len(clips), pack_path, os.path.getsize(pack_path) / 1e6))
+
+
+def cmd_split(pack_path, out_dir):
+    """把合併的教材包拆成一天一個檔（<名稱>_Day01.json…），App 匯入時同一門課會自動合併。
+    之後新增一天，只要把那一天的檔給使用者匯入就好，不用整包重來。"""
+    pack = json.load(io.open(pack_path, encoding='utf-8'))
+    clips = pack.get('clips', {})
+    base = re.sub(r'_Day\d+(-\d+)?$', '', os.path.splitext(os.path.basename(pack_path))[0])
+    os.makedirs(out_dir, exist_ok=True)
+    for c in pack['courses']:
+        groups = {}                                            # day01 與 day01-full（滿分單字）放同一個檔
+        for u in c['units']:
+            groups.setdefault(u['id'].split('-')[0], []).append(u)
+        for key, units in groups.items():
+            u = units[0]
+            files = set()
+            for x in units:
+                for w in x.get('words', []):
+                    files.update((w.get('aus') or {}).values())
+                    for e in w.get('ex', []):
+                        files.update((e.get('aus') or {}).values())
+            course = {k: v for k, v in c.items() if k != 'units'}
+            course['units'] = units
+            day = {'pack': '%s-%s' % (pack['pack'], key),
+                   'name': '%s %s' % (pack.get('name', pack['pack']), u.get('label', u['id'])),
+                   'note': pack.get('note', ''),
+                   'replaces': [pack['pack']],               # 匯入時順便刪掉舊的合併檔，避免重複
+                   'courses': [course],
+                   'clips': {f: clips[f] for f in sorted(files) if f in clips}}
+            if pack.get('ttsVoice'):
+                day['ttsVoice'] = pack['ttsVoice']
+            out = os.path.join(out_dir, '%s_%s.json' % (base, u.get('label', u['id']).replace(' ', '')))
+            json.dump(day, io.open(out, 'w', encoding='utf-8'), ensure_ascii=False)
+            print('%s：%d 段語音，%.1f MB' % (os.path.basename(out), len(day['clips']), os.path.getsize(out) / 1e6))
 
 
 def cmd_video(voice, dry, mix):
@@ -192,6 +247,8 @@ if __name__ == '__main__':
     elif sys.argv[1] == 'pack':
         d = arg('--days')
         cmd_pack(sys.argv[2], voice, set(d.split(',')) if d else None, dry, mix)
+    elif sys.argv[1] == 'split':
+        cmd_split(sys.argv[2], arg('--out', os.path.dirname(os.path.abspath(sys.argv[2]))))
     elif sys.argv[1] == 'video':
         cmd_video(voice, dry, mix)
     else:

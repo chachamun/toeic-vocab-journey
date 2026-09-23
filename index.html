@@ -264,10 +264,13 @@
   :root[data-theme="dark"] .nav-inner button.on,:root:not([data-theme="light"]) .nav-inner button.on{color:var(--accent)}
   .nav-inner svg{width:21px;height:21px}
 
-  .scrim{position:fixed;inset:0;z-index:40;background:rgba(10,20,17,.5);display:flex;align-items:flex-end;justify-content:center;opacity:0;transition:opacity .2s}
+  .scrim{position:fixed;inset:0;z-index:40;background:rgba(10,20,17,.5);display:flex;align-items:flex-end;justify-content:center;opacity:0;transition:opacity .2s;cursor:pointer}
+  .scrim .sheet{cursor:auto}
+  .sheet-head{position:sticky;top:-8px;z-index:2;background:var(--surface);margin:-8px -18px 0;padding:0 18px 10px;border-bottom:1px solid var(--line);touch-action:none}
+  .sheet-done{border:0;background:var(--accent);color:var(--on-accent);font:inherit;font-weight:700;font-size:15px;padding:8px 18px;border-radius:99px;cursor:pointer}
   .scrim[hidden]{display:none!important}
   .scrim.show{opacity:1}
-  .sheet{width:100%;max-width:640px;max-height:86vh;overflow-y:auto;background:var(--surface);border-radius:22px 22px 0 0;
+  .sheet{width:100%;max-width:640px;max-height:86vh;max-height:86dvh;overflow-y:auto;background:var(--surface);border-radius:22px 22px 0 0;
     padding:8px 18px calc(24px + env(safe-area-inset-bottom,0px));transform:translateY(100%);transition:transform .28s cubic-bezier(.3,.8,.3,1)}
   .scrim.show .sheet{transform:translateY(0)}
   .grab{width:38px;height:4px;border-radius:99px;background:var(--line-2);margin:8px auto 14px}
@@ -402,7 +405,8 @@
 
 <div class="scrim" id="scrim" hidden>
   <div class="sheet" role="dialog" aria-label="設定">
-    <div class="grab"></div>
+    <div class="sheet-head" id="sheetHead"><div class="grab"></div>
+      <div class="row"><b style="flex:1;font-size:17px">設定</b><button class="sheet-done" id="sheetDone">完成</button></div></div>
     <div class="set-row"><div class="lab"><b>朗讀語速</b><span>所有跟讀／範讀共用</span></div>
       <div class="spd" id="rateSeg" style="margin-left:0"></div></div>
     <div class="set-row"><div class="lab"><b>朗讀口音</b><span>自然語音的單字與例句都有美／英／澳三種；「三種連播」會同一句各念一次</span></div>

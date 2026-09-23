@@ -130,33 +130,69 @@ const idbSet = (k, v) => idbTx('readwrite', s => s.put(v, k));
 const idbDel = k => idbTx('readwrite', s => s.delete(k));
 const idbKeys = () => idbTx('readonly', s => s.getAllKeys());
 
-let PACKS = [];
+/* 教材包可以「一天一個檔」：同一門課（同 course id）的單元會合併在一起，
+   之後加新的一天只要匯入那一天的檔。語音不在開 App 時讀，播放時才從 IndexedDB 取（idb:檔名），
+   所以不管累積幾天，開啟速度都一樣。 */
+let PACKS = [], BUILTIN = null;
+const packFiles = p => {                                     // 教材包用到的所有音檔名稱
+  const out = [], of = o => { if (o.au) out.push(o.au); out.push(...Object.values(o.aus || {})); };
+  (p.courses || []).forEach(c => (c.units || []).forEach(u => {
+    if (u.audioFile) out.push(u.audioFile);
+    (u.words || []).forEach(w => { of(w); (w.ex || []).forEach(of); });
+  }));
+  return out;
+};
 async function loadPacks() {
+  if (!BUILTIN) BUILTIN = TVJ.courses.slice();
   PACKS = [];
   let keys = [];
   try { keys = await idbKeys(); } catch (e) { return; }
-  const packKeys = keys.filter(k => String(k).startsWith('pack:')).sort();
-  for (const k of packKeys) {
+  const merged = {}, order = [];
+  for (const k of keys.filter(k => String(k).startsWith('pack:')).sort()) {
     let p;
     try { p = await idbGet(k); } catch (e) { continue; }
     if (!p || !Array.isArray(p.courses)) continue;
     PACKS.push({ key: k, id: p.pack, name: p.name || p.pack, n: p.courses.reduce((a, c) => a + (c.units || []).length, 0), clips: p.clipCount || 0 });
-    const blobUrl = async name => { try { const b = await idbGet('media:' + name); return b ? URL.createObjectURL(b) : ''; } catch (e) { return ''; } };
     for (const c of p.courses) {
       for (const u of (c.units || [])) {
-        if (u.audioFile) u.audioSrc = await blobUrl(u.audioFile);
-        const urlsOf = async aus => { const o = {}; for (const [a, f] of Object.entries(aus || {})) { const x = await blobUrl(f); if (x) o[a] = x; } return o; };
-        for (const w of (u.words || [])) {                 // 自然語音檔（單字＋例句，美／英／澳三種口音）
-          if (w.aus) w.ausUrl = await urlsOf(w.aus); else if (w.au) w.ausUrl = { US: await blobUrl(w.au) };
-          for (const e of (w.ex || [])) { if (e.aus) e.ausUrl = await urlsOf(e.aus); else if (e.au) e.ausUrl = { US: await blobUrl(e.au) }; }
-        }
+        if (u.audioFile) { try { const b = await idbGet('media:' + u.audioFile); u.audioSrc = b ? URL.createObjectURL(b) : ''; } catch (e) { u.audioSrc = ''; } }
+        const lazy = o => { const a = o.aus || (o.au ? { US: o.au } : null); if (a) { o.ausUrl = {}; for (const [x, f] of Object.entries(a)) o.ausUrl[x] = 'idb:' + f; } };
+        (u.words || []).forEach(w => { lazy(w); (w.ex || []).forEach(lazy); });
       }
-      /* 教材包排在內建課程前面 */
-      const i = TVJ.courses.findIndex(x => x.id === c.id);
-      if (i >= 0) TVJ.courses[i] = c; else TVJ.courses.unshift(c);
+      if (!merged[c.id]) { merged[c.id] = Object.assign({}, c, { units: [] }); order.push(c.id); }
+      const m = merged[c.id];
+      for (const u of (c.units || [])) {                   // 同一單元重複匯入 → 後面的蓋前面的
+        const i = m.units.findIndex(x => x.id === u.id);
+        if (i >= 0) m.units[i] = u; else m.units.push(u);
+      }
     }
   }
+  /* 重建課程清單：教材包排在內建課程前面 */
+  const list = BUILTIN.filter(b => !merged[b.id]);
+  const packCourses = order.map(id => {
+    const m = merged[id];
+    m.units.sort((a, b) => String(a.id).localeCompare(String(b.id), undefined, { numeric: true }));
+    return m;
+  });
+  TVJ.courses.length = 0;
+  TVJ.courses.push(...packCourses, ...list);
+  for (const k in CLIP) delete CLIP[k];
+  for (const k in CLIPBLOB) if (/^idb:/.test(k)) { URL.revokeObjectURL(CLIPBLOB[k]); delete CLIPBLOB[k]; }   // 重新匯入後別播到舊版
   regClips();
+}
+/* 刪掉沒有任何教材包用到的自然語音（重新匯入新版後，舊版留下的音檔） */
+async function gcClips() {
+  const keys = await idbKeys(), used = new Set();
+  for (const k of keys.filter(k => String(k).startsWith('pack:'))) {
+    const p = await idbGet(k); if (p) packFiles(p).forEach(f => used.add(f));
+  }
+  const stale = keys.filter(k => /^media:.*\.mp3$/i.test(k) && !used.has(String(k).slice(6)));
+  if (stale.length) await idbOpen().then(d => new Promise((res, rej) => {
+    const tx = d.transaction('kv', 'readwrite'), s = tx.objectStore('kv');
+    stale.forEach(k => s.delete(k));
+    tx.oncomplete = res; tx.onerror = () => rej(tx.error);
+  }));
+  return stale.length;
 }
 async function importPackFiles(files) {
   let packs = 0, media = 0, bad = [];
@@ -174,6 +210,7 @@ async function importPackFiles(files) {
           await idbPutMany(entries); media += entries.length;
           p.clipCount = entries.length; delete p.clips;
         }
+        for (const old of (p.replaces || [])) { try { await idbDel('pack:' + old); } catch (e) {} }   // 例：分天檔取代舊的合併檔
         await idbSet('pack:' + p.pack, p); packs++;
       } catch (e) { bad.push(f.name + '（' + (e.message || e) + '）'); }
     } else {
@@ -181,8 +218,10 @@ async function importPackFiles(files) {
       catch (e) { bad.push(f.name + '（存不進去，檔案可能太大）'); }
     }
   }
+  let cleaned = 0;
+  try { cleaned = await gcClips(); } catch (e) {}
   if (bad.length) toast('有檔案讀不進來：' + bad[0]);
-  else toast('已匯入 ' + packs + ' 個教材包、' + media + ' 個音檔');
+  else toast('已匯入 ' + packs + ' 個教材包、' + media + ' 個音檔' + (cleaned ? '（清掉舊語音 ' + cleaned + ' 段）' : ''));
   await loadPacks();
   if (!S.updatedAt && DATA.courses.length) { S.courseId = DATA.courses[0].id; S.unitId = DATA.courses[0].units[0].id; }
   fillPackList(); buildDeck(); render();
@@ -196,15 +235,7 @@ function fillPackList() {
   box.querySelectorAll('[data-rmpack]').forEach(b => b.onclick = async () => {
     const k = b.dataset.rmpack;
     const p = await idbGet(k);
-    if (p) for (const c of (p.courses || [])) {
-      const i = TVJ.courses.findIndex(x => x.id === c.id);
-      if (i >= 0) TVJ.courses.splice(i, 1);
-      for (const u of (c.units || [])) {
-        const filesOf = o => [o.au].concat(Object.values(o.aus || {}));
-        const names = [u.audioFile].concat(...(u.words || []).map(w => filesOf(w).concat(...(w.ex || []).map(filesOf)))).filter(Boolean);
-        for (const nm of names) { try { await idbDel('media:' + nm); } catch (e) {} }
-      }
-    }
+    if (p) for (const nm of packFiles(p)) { try { await idbDel('media:' + nm); } catch (e) {} }
     await idbDel(k); await loadPacks(); fillPackList();
     if (!DATA.courses.find(c => c.id === S.courseId) && DATA.courses.length) {
       S.courseId = DATA.courses[0].id; S.unitId = DATA.courses[0].units[0].id; touch();
@@ -328,7 +359,7 @@ const CLIP = {}, CLIPBLOB = {};                              // CLIP[文字] = {
 let clipAudio = null, playToken = 0;
 const ACC = [['US', '美式'], ['UK', '英式'], ['AU', '澳式']];
 function regClips() {
-  const pick = o => o.ausUrl || o.aus || (o.au ? { US: o.au } : null);   // 教材包用 blob 網址；影片課程用 tts/ 路徑
+  const pick = o => o.ausUrl || o.aus || (o.au ? { US: o.au } : null);   // 教材包用 idb:檔名（播放時才取）；影片課程用 tts/ 路徑
   DATA.courses.forEach(c => (c.units || []).forEach(u => (u.words || []).forEach(w => {
     const a = pick(w); if (a && Object.keys(a).length) CLIP[w.w] = a;
     (w.ex || []).forEach(e => { const b = pick(e); if (b && Object.keys(b).length) CLIP[e.en] = b; });
@@ -338,11 +369,15 @@ function regClips() {
 async function playClip(src, rate) {
   if (!clipAudio) clipAudio = new Audio();
   clipAudio.pause();
-  let url = src;
-  if (!/^blob:/.test(src)) {                                // 先完整抓下來（讓離線快取存得到），同一檔只抓一次
-    if (!CLIPBLOB[src]) { const r = await fetch(src); if (!r.ok) throw new Error(r.status); CLIPBLOB[src] = URL.createObjectURL(await r.blob()); }
-    url = CLIPBLOB[src];
+  if (!CLIPBLOB[src]) {                                     // 同一檔只取一次
+    if (/^idb:/.test(src)) {                                // 教材包：播放時才從本機資料庫取
+      const b = await idbGet('media:' + src.slice(4)); if (!b) throw new Error('missing');
+      CLIPBLOB[src] = URL.createObjectURL(b);
+    } else {                                                // 影片課程：先完整抓下來（讓離線快取存得到）
+      const r = await fetch(src); if (!r.ok) throw new Error(r.status); CLIPBLOB[src] = URL.createObjectURL(await r.blob());
+    }
   }
+  const url = CLIPBLOB[src];
   clipAudio.src = url; clipAudio.playbackRate = rate; clipAudio.preservesPitch = true;
   await clipAudio.play();
   await new Promise(res => { clipAudio.onended = res; clipAudio.onpause = res; });
@@ -770,7 +805,7 @@ function viewVocab() {
     <div class="tiny muted" style="text-align:center">點單字可以直接跳到那張卡</div>
     ${(u.words || []).map(w => { const p = pget(wid(w));
       return `<div class="sent" data-vgo="${w.n}" style="cursor:pointer"><div class="row"><b class="en" style="font-family:var(--disp);font-size:16px">#${w.n} ${esc(w.w)}</b>
-        <span class="stars">${'★'.repeat(w.s || 1)}</span>
+        <span class="stars">${'★'.repeat(w.s || 1)}</span>${w.tag ? `<span class="tiny muted">${esc(w.tag)}</span>` : ''}
         <span class="pill ${p.st}" style="margin-left:auto">${p.st === 'known' ? '已懂' : p.st === 'learning' ? '學習中' : '未學'}</span></div>
         <div class="tiny muted" style="margin-top:3px">${esc((w.pos || []).map(x => x.p + ' ' + x.m).join('　'))}</div>
         ${sbar(w.w, '發音')}</div>`; }).join('')}
@@ -816,6 +851,7 @@ function viewVocab() {
         <div class="num">#${w.n}</div><div class="st stars">${'★'.repeat(w.s || 1)}</div>
         <div class="headword en${(w.w || '').length > 11 ? ' long' : ''}">${esc(w.w)}</div>
         ${w.ph ? `<div class="ph" style="margin-top:8px">${esc(w.ph)}</div>` : ''}
+        ${w.tag ? `<div class="tiny muted" style="margin-top:8px">${esc(w.tag)}</div>` : ''}
         ${sbar(w.w, '聽發音')}
         <div class="hint">點卡片看解釋・例句・文法　・左右滑換卡</div>
       </div></div>
@@ -993,6 +1029,9 @@ function viewListen() {
   if (u0.transcript) return `<div class="view fade">${uswitch()}${txView(u0, 'listen')}
     <div class="two"><button class="btn ghost" data-goq="checkup">影片隨堂測驗</button><button class="btn" data-goq="today">做這集的測驗</button></div></div>`;
   const u = curUnit(), sents = (u.words || []).filter(w => w.ex && w.ex.length);
+  /* 沒有例句的單元（滿分單字）→ 改成「聽單字 → 想意思 → 再看拼字與中文」 */
+  const wordOnly = !sents.length && (u.words || []).length > 0;
+  const items = wordOnly ? u.words.map(w => ({ w, e: { en: w.w, zh: posText(w) } })) : sents.map(w => ({ w, e: w.ex[0] }));
   let src = '';
   if (u.audioSrc) src = `<div class="card pad player">
       <div class="tiny muted">${esc(u.label)}・真人原音（整天完整錄音，可拖曳進度）</div>
@@ -1009,29 +1048,42 @@ function viewListen() {
   else if (u.video) src = `<div class="card pad">
       <div class="tiny muted" style="margin-bottom:9px;text-align:center">聽力來源：影片</div>
       ${ytEmbed(u.video)}</div>`;
-  else src = `<div class="card pad tiny muted" style="text-align:center">此單元沒有音檔，可用下方逐句朗讀練習。</div>`;
+  else src = wordOnly ? '' : `<div class="card pad tiny muted" style="text-align:center">此單元沒有音檔，可用下方逐句朗讀練習。</div>`;
   return `<div class="view fade">${uswitch()}
     ${src}
     ${(u.audioSrc && u.video) ? `<div class="card pad">${ytEmbed(u.video)}</div>` : ''}
-    <h2 class="sect">逐句聽讀（先聽，再看文字）</h2>
+    <h2 class="sect">${wordOnly ? '單字聽力（先聽、想意思，再看拼字）' : '逐句聽讀（先聽，再看文字）'}</h2>
     ${accRow(u)}
-    ${sents.map((w, k) => { const e = w.ex[0], rv = LS.revealed[w.n];
-      return `<div class="sent" data-sent="${w.n}"><div class="idx">${k + 1} / ${sents.length}</div>
+    ${items.map(({ w, e }, k) => { const rv = LS.revealed[w.n];
+      return `<div class="sent" data-sent="${w.n}"><div class="idx">${k + 1} / ${items.length}${wordOnly && w.tag ? '　' + esc(w.tag) : ''}</div>
         <div class="en ${rv ? '' : 'hidden-text'}" data-en>${hl(e.en, w.w)}</div>
         <div class="zh" data-zh style="${rv ? '' : 'display:none'}">${esc(e.zh)}</div>
         <button class="reveal-btn" data-rev="${w.n}">${rv ? '隱藏文字' : '顯示文字與中譯'}</button>
-        ${sbar(e.en, '聽／跟讀')}</div>`; }).join('')}
+        ${sbar(e.en, wordOnly ? '聽發音' : '聽／跟讀')}</div>`; }).join('')}
     <button class="btn ghost" data-goq="today">做今日測驗（含聽力題）</button>
   </div>`;
 }
 
 /* ===================== 閱讀 ===================== */
+function posText(w) { return (w.pos || []).map(x => x.p + ' ' + x.m).join('　'); }
 const RS = { zh: true };
 function viewRead() {
   const u0 = curUnit();
   if (u0.transcript) return `<div class="view fade">${uswitch()}${txView(u0, 'read')}
     <div class="two"><button class="btn ghost" data-goq="checkup">影片隨堂測驗</button><button class="btn" data-goq="today">做這集的測驗</button></div></div>`;
   const u = curUnit(), sents = (u.words || []).filter(w => w.ex && w.ex.length);
+  if (!sents.length && (u.words || []).length) {           // 滿分單字：依程度／Part 分組的單字表
+    let last = '';
+    return `<div class="view fade">${uswitch()}${accRow(u)}
+    <div class="row"><h2 class="sect" style="margin:0">${esc(u.label)}・單字表</h2>
+      <button class="btn ghost sm" data-zh="1" style="margin-left:auto">${RS.zh ? '遮住中文' : '顯示中文'}</button></div>
+    ${u.words.map(w => { const head = w.tag && w.tag !== last ? `<h2 class="sect">${esc(w.tag)}</h2>` : ''; last = w.tag || last;
+      return `${head}<div class="sent"><div class="row"><b class="en" style="font-family:var(--disp);font-size:16px">${esc(w.w)}</b><span class="stars" style="margin-left:auto">${'★'.repeat(w.s || 1)}</span></div>
+        ${RS.zh ? `<div class="zh">${esc(posText(w))}</div>` : ''}
+        ${sbar(w.w, '發音')}</div>`; }).join('')}
+    <button class="btn" data-goq="today">做這個單元的測驗</button>
+  </div>`;
+  }
   return `<div class="view fade">${uswitch()}
     ${u.video ? `<div class="card pad">${ytEmbed(u.video)}</div>` : ''}
     ${accRow(u)}
@@ -1318,6 +1370,19 @@ el('gearBtn').onclick = () => {
   document.querySelectorAll('#themeSeg button').forEach(b => b.classList.toggle('on', b.dataset.th === S.settings.theme));
 };
 el('scrim').onclick = e => { if (e.target === el('scrim')) closeSheet(); };
+el('sheetDone').onclick = closeSheet;
+/* iPhone：設定面板幾乎佔滿螢幕，點不到外面 → 標題列往下滑也能關 */
+(function () {
+  const h = el('sheetHead'), sh = h.parentElement; let y0 = null, dy = 0;
+  h.addEventListener('touchstart', e => { y0 = e.touches[0].clientY; dy = 0; sh.style.transition = 'none'; }, { passive: true });
+  h.addEventListener('touchmove', e => { if (y0 == null) return; dy = Math.max(0, e.touches[0].clientY - y0); sh.style.transform = 'translateY(' + dy + 'px)'; }, { passive: true });
+  h.addEventListener('touchend', () => {
+    sh.style.transition = ''; sh.style.transform = '';
+    if (y0 != null && dy > 80) closeSheet();
+    y0 = null;
+  });
+})();
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && !el('scrim').hidden) closeSheet(); });
 document.querySelectorAll('#themeSeg button').forEach(b => b.onclick = () => {
   S.settings.theme = b.dataset.th; touch(); applyTheme();
   document.querySelectorAll('#themeSeg button').forEach(x => x.classList.toggle('on', x === b));
