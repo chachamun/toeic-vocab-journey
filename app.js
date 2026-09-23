@@ -198,7 +198,10 @@ function gid(cid, uid, n) { return cid + '/' + uid + '/w' + n; }
 function wid(w) { return gid(curCourse().id, curUnit().id, w.n); }
 function pget(i) { return S.prog[i] || { st: 'new', lv: 0, seen: 0, cor: 0, wro: 0, last: 0 }; }
 function pset(i, patch) { S.prog[i] = Object.assign(pget(i), patch); touch(); }
-function allUnits() { const out = []; DATA.courses.forEach(c => c.units.forEach(u => out.push({ c, u }))); return out; }
+/* 影片單元有上架日（release），還沒到的先藏起來，做到「每天自動多一集」 */
+function released(u) { return !u.release || u.release <= today(); }
+function allUnits() { const out = []; DATA.courses.forEach(c => c.units.forEach(u => { if (released(u)) out.push({ c, u }); })); return out; }
+function byNewest(a, b) { return (b.release || '').localeCompare(a.release || '') || (b.label || '').localeCompare(a.label || ''); }
 function unitStats(c, u) {
   let k = 0, l = 0;
   (u.words || []).forEach(w => { const st = pget(gid(c.id, u.id, w.n)).st; if (st === 'known') k++; else if (st === 'learning') l++; });
@@ -326,6 +329,7 @@ async function shadowStart(id, ref) {
     if (panel) panel.innerHTML = spMsg('拿不到麥克風：' + (e.name === 'NotAllowedError' ? '你（或瀏覽器設定）拒絕了麥克風權限。請在網址列左側的鎖頭圖示裡允許麥克風。' : (e.message || e)));
     return;
   }
+  vpPause();   // 錄音時先暫停影片，避免把影片聲音錄進去
   SH.id = id; SH.ref = ref; SH.heard = ''; SH.chunks = []; SH.recogOK = false; SH.t0 = Date.now();
 
   let mime = '';
@@ -462,6 +466,7 @@ const TITLES = { home: '多益字彙旅程', vocab: '單字', listen: '聽力', 
 function render() {
   const m = el('main');
   SBN = 0;
+  vpDestroy();
   try {
     m.innerHTML = TAB === 'home' ? viewHome() : TAB === 'vocab' ? viewVocab() : TAB === 'listen' ? viewListen() :
       TAB === 'read' ? viewRead() : TAB === 'quiz' ? viewQuiz() : viewCheckin();
@@ -472,24 +477,70 @@ function render() {
   }
   el('hTitle').textContent = TITLES[TAB] || '多益字彙旅程';
   document.querySelectorAll('#nav button').forEach(b => b.classList.toggle('on', b.dataset.tab === TAB));
+  fillDrawer();
   bindAll();
 }
 function go(t) { stopAudio(); shadowRelease(); TAB = t; if (t === 'vocab') buildDeck(); if (t === 'quiz') QZ = null; render(); el('main').scrollTop = 0; }
 
+/* 目前單元列（取代原本橫排標籤）：點了打開左側選單 */
 function uswitch() {
-  return '<div class="uswitch">' + allUnits().map(({ c, u }) => {
-    const on = (c.id === S.courseId && u.id === S.unitId);
-    return '<button class="uchip' + (on ? ' on' : '') + '" data-u="' + esc(c.id) + '||' + esc(u.id) + '">' +
-      '<span class="dot"></span>' + esc(u.label) + '　' + esc(u.theme || '') + '</button>';
-  }).join('') + '</div>';
+  const c = curCourse(), u = curUnit();
+  return `<button class="ubar" data-drawer="1"><span class="ubar-ic">${c.kind === 'video' ? '🎬' : '📘'}</span>
+    <span class="ubar-t"><b>${esc(u.label)}　${esc(u.theme || '')}</b><span>${esc(c.name)}</span></span>
+    <span class="ubar-go">切換 ›</span></button>`;
 }
+
+/* ===================== 左側選單（依教材分組、可折疊） ===================== */
+const DR = { open: {} };
+function drawerOpen(c) { return DR.open[c.id] !== undefined ? DR.open[c.id] : c.id === S.courseId; }
+function fillDrawer() {
+  const body = el('drawerBody'); if (!body) return;
+  body.innerHTML = DATA.courses.map(c => {
+    const rel = c.units.filter(released), queued = c.units.length - rel.length;
+    const list = c.kind === 'video' ? rel.slice().sort(byNewest) : rel;
+    const open = drawerOpen(c);
+    let k = 0, t = 0; rel.forEach(u => { const s = unitStats(c, u); k += s.k; t += s.total; });
+    return `<div class="dgroup">
+      <button class="dg-head" data-dg="${esc(c.id)}"><span class="chev${open ? ' open' : ''}">›</span>
+        <span>${c.kind === 'video' ? '🎬' : '📘'}</span><b>${esc(c.name)}</b><span class="dg-n">${rel.length} 單元・${k}/${t}</span></button>
+      ${open ? `<div class="dg-list">${list.map(u => {
+        const s = unitStats(c, u), cur = c.id === S.courseId && u.id === S.unitId;
+        return `<button class="dunit${cur ? ' cur' : ''}" data-du="${esc(c.id)}||${esc(u.id)}">
+          <span class="du-l">${esc(u.label)}</span><span class="du-t">${esc(u.theme || '')}${u.release === today() ? '<span class="du-new">NEW</span>' : ''}</span>
+          <span class="du-p">${s.pct}%</span><i class="du-bar"><i style="width:${s.pct}%"></i></i></button>`;
+      }).join('')}${queued ? `<div class="dg-queue">還有 ${queued} 集排隊中，每天自動上架一集</div>` : ''}</div>` : ''}
+    </div>`;
+  }).join('');
+  body.querySelectorAll('[data-dg]').forEach(b => b.onclick = () => {
+    const c = DATA.courses.find(x => x.id === b.dataset.dg); DR.open[c.id] = !drawerOpen(c); fillDrawer();
+  });
+  body.querySelectorAll('[data-du]').forEach(b => b.onclick = () => {
+    const [cid, uid] = b.dataset.du.split('||'), c = DATA.courses.find(x => x.id === cid);
+    stopAudio(); shadowRelease();
+    S.courseId = cid; S.unitId = uid; touch(); buildDeck(); QZ = null; LS.revealed = {};
+    closeDrawer();
+    if (TAB === 'home' || TAB === 'checkin') go(c.kind === 'video' ? 'listen' : 'vocab');
+    else { render(); el('main').scrollTop = 0; }
+  });
+}
+function openDrawer() {
+  fillDrawer();
+  el('drawer').classList.add('open'); el('dscrim').classList.add('show');
+}
+function closeDrawer() { el('drawer').classList.remove('open'); el('dscrim').classList.remove('show'); }
 
 /* ===================== 首頁 ===================== */
 function viewHome() {
   const d = days()[today()] || { w: 0, q: 0, in: false }, lt = learnedTotal(), due = dueList().length, sk = streak();
   const R = 42, C = 2 * Math.PI * R, pct = lt.total ? Math.round(lt.k / lt.total * 100) : 0;
   const off = C * (1 - (lt.total ? (lt.k + lt.l * .5) / lt.total : 0));
-  const act = allUnits().map(({ c, u }) => ({ c, u, s: unitStats(c, u) }));
+  // 單字教材全列；影片只列最新 3 集（其餘在左側選單）
+  const act = [];
+  DATA.courses.forEach(c => {
+    let us = c.units.filter(released);
+    if (c.kind === 'video') us = us.slice().sort(byNewest).slice(0, 3);
+    us.forEach(u => act.push({ c, u, s: unitStats(c, u) }));
+  });
   return `<div class="view fade">
     <div class="card pad">
       <div class="row"><div>
@@ -518,9 +569,11 @@ function viewHome() {
       </div>
     </div>
 
-    <h2 class="sect">各教材進度（單字＋影片）</h2>
+    <div class="row"><h2 class="sect" style="margin:0">各教材進度（單字＋影片）</h2>
+      <button class="btn ghost sm" data-drawer="1" style="margin-left:auto">☰ 全部教材</button></div>
     ${act.map(({ c, u, s }) => `<div class="card pad" style="padding:13px">
       <div class="row"><b style="font-size:14.5px">${esc(u.theme || u.label)}</b>
+        ${u.release === today() ? '<span class="du-new">NEW</span>' : ''}
         <span class="tiny muted">${esc(c.name)}・${esc(u.label)}</span>
         <b style="margin-left:auto;font-family:var(--disp);font-variant-numeric:tabular-nums">${s.pct}%</b></div>
       <div class="bar" style="margin-top:9px"><i style="width:${s.pct}%"></i></div>
@@ -604,10 +657,161 @@ function grade(kind) {
   bumpDay('w', 1); touch(); shadowRelease(); di++; flipped = false; render();
 }
 
+/* ===================== 影片＋同步逐字稿 ===================== */
+/* 有 transcript 的影片單元：影片內嵌在頁面最上方（捲動時黏住），
+   逐字稿每句帶時間點——點時間鈕播這一句的真人原音、點英文從這裡接著播，
+   播放時目前那句會亮起並自動捲到視線內。逐字稿檔看影片時才載入，看過就能離線。 */
+const TX = {};
+const VP = { player: null, ready: false, timer: 0, cur: -1, segEnd: null, zh: true, hideEn: false, auto: true };
+let ytApi = null;
+function loadYT() {
+  if (ytApi) return ytApi;
+  ytApi = new Promise(res => {
+    if (window.YT && window.YT.Player) return res(window.YT);
+    const prev = window.onYouTubeIframeAPIReady;
+    window.onYouTubeIframeAPIReady = () => { if (prev) prev(); res(window.YT); };
+    const s = document.createElement('script');
+    s.src = 'https://www.youtube.com/iframe_api'; s.async = true;
+    s.onerror = () => { ytApi = null; res(null); };
+    document.head.appendChild(s);
+    setTimeout(() => res(window.YT && window.YT.Player ? window.YT : null), 12000);
+  });
+  return ytApi;
+}
+function vpDestroy() {
+  clearInterval(VP.timer); VP.timer = 0;
+  try { if (VP.player && VP.player.destroy) VP.player.destroy(); } catch (e) {}
+  VP.player = null; VP.ready = false; VP.cur = -1; VP.segEnd = null;
+}
+function vpPause() { try { if (VP.player && VP.ready) VP.player.pauseVideo(); } catch (e) {} }
+function vpCreate(u) {
+  const host = el('ytp'); if (!host) return;
+  const vid = host.dataset.vid;
+  loadYT().then(YT => {
+    if (el('ytp') !== host) return;                       // 已經換頁了
+    if (!YT) {                                            // API 載不到：退回一般內嵌（仍在頁面內播放）
+      host.outerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + vid + '?rel=0&playsinline=1" title="影片" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>';
+      return;
+    }
+    VP.player = new YT.Player(host, {
+      videoId: vid, host: 'https://www.youtube-nocookie.com',
+      playerVars: { playsinline: 1, rel: 0, modestbranding: 1 },
+      events: { onReady: () => { VP.ready = true; try { VP.player.setPlaybackRate(S.settings.rate || 1); } catch (e) {} } }
+    });
+    clearInterval(VP.timer); VP.timer = setInterval(vpTick, 250);
+  });
+}
+function vpTick() {
+  const p = VP.player, u = curUnit(), tx = TX[u.id];
+  if (!p || !VP.ready || !tx || !p.getCurrentTime) return;
+  const now = p.getCurrentTime();
+  if (VP.segEnd != null && now >= VP.segEnd) { p.pauseVideo(); VP.segEnd = null; }
+  let i = -1; for (let k = 0; k < tx.lines.length; k++) { if (tx.lines[k].t <= now + 0.2) i = k; else break; }
+  if (i === VP.cur) return;
+  VP.cur = i;
+  const box = el('txbox'); if (!box) return;
+  const prev = box.querySelector('.tx-line.cur'); if (prev) prev.classList.remove('cur');
+  const ln = box.querySelector('.tx-line[data-i="' + i + '"]'); if (!ln) return;
+  ln.classList.add('cur');
+  if (VP.auto && p.getPlayerState && p.getPlayerState() === 1) {
+    const m = el('main'), st = document.querySelector('.ytsticky');
+    const top = ln.getBoundingClientRect().top - m.getBoundingClientRect().top, sh = st ? st.offsetHeight : 0;
+    if (top < sh + 8 || top > m.clientHeight - 140) m.scrollTo({ top: m.scrollTop + top - sh - 60, behavior: 'smooth' });
+  }
+}
+function vpPlayLine(i, onlyThis) {
+  const u = curUnit(), L = TX[u.id] && TX[u.id].lines, p = VP.player;
+  if (!L) return;
+  if (!p || !VP.ready) { toast('影片還在載入，稍等一下再點'); return; }
+  shadowRelease();
+  p.seekTo(Math.max(0, L[i].t - 0.1), true); p.playVideo();
+  VP.segEnd = onlyThis && i + 1 < L.length ? L[i + 1].t - 0.05 : null;
+  setTimeout(() => {   // iPhone 限制：沒先親手點過影片時，程式無法幫你按播放
+    try { if (VP.player && VP.player.getPlayerState() !== 1 && VP.player.getPlayerState() !== 3) toast('iPhone 請先點一下影片的播放鍵，之後點句子就能跳播'); } catch (e) {}
+  }, 1200);
+}
+function hlMany(en, ws) {
+  let o = esc(en);
+  (ws || []).forEach(w => {
+    const parts = w.toLowerCase().split(' ');
+    let pat;
+    if (parts.length === 1) {
+      const b = parts[0].replace(/[^a-z]/g, ''); if (b.length < 3) return;
+      pat = '\\b(' + b.replace(/(e|y)$/, '') + '[a-z]*)\\b';
+    } else {
+      if (parts.includes('something')) return;
+      pat = '\\b(' + parts.map(p => p.replace(/[^a-z]/g, '')).join('\\s+') + ')\\b';
+    }
+    o = o.replace(new RegExp(pat, 'gi'), '<b>$1</b>');
+  });
+  return o;
+}
+function txLines(u) {
+  const ws = (u.words || []).map(w => w.w);
+  return TX[u.id].lines.map((l, i) => `<div class="tx-line" data-i="${i}">
+    <button class="tx-t" data-seg="${i}" title="只播這一句的原音">▶ ${fmtT(l.t)}</button>
+    <div class="tx-body">
+      <div class="tx-en" data-seek="${i}">${hlMany(l.en, ws)}</div>
+      <div class="tx-zh">${esc(l.zh || '')}</div>
+      <div class="sbar mini"><button class="sbtn" data-say="${esc(l.en)}" title="電腦朗讀（可調語速）">${spk} 朗讀</button>
+        <button class="sbtn mic" data-mic="tx${i}" data-ref="${esc(l.en)}">🎙 錄音跟讀</button></div>
+      <div class="shadow-mount" data-sp="tx${i}"></div>
+    </div></div>`).join('');
+}
+function txView(u, mode) {
+  const vid = ytid(u.video);
+  const vocab = (u.words || []).map(w => `<span class="chip"><span class="en">${esc(w.w)}</span> ${esc((w.pos || []).map(p => p.m).join('；'))}</span>`).join('');
+  return `<div class="ytsticky"><div class="ytwrap"><div id="ytp" data-vid="${esc(vid)}"></div></div></div>
+    <div class="card pad src-box">
+      <div class="tiny muted">📄 原文出處</div>
+      ${u.source ? `<a href="${esc(u.source)}" target="_blank" rel="noopener">${esc(u.source)}</a>` : ''}
+      <a href="${esc(u.video)}" target="_blank" rel="noopener">${esc(u.video)}</a>
+      <div class="tiny muted" style="margin-top:5px">BBC Learning English《6 Minute English》。英文逐字稿取自 YouTube 字幕，中文為學習用翻譯，版權屬原作者，僅供個人學習。</div>
+    </div>
+    ${mode === 'read' && vocab ? `<div class="card pad"><div class="tiny muted" style="margin-bottom:2px">本集重點單字（文中以綠色標出）</div><div class="chips">${vocab}</div></div>` : ''}
+    <div class="tx-tools">
+      <button class="sbtn${VP.zh ? ' on' : ''}" data-txz="1">中譯：${VP.zh ? '顯示' : '隱藏'}</button>
+      ${mode === 'listen' ? `<button class="sbtn${VP.hideEn ? ' on' : ''}" data-txh="1">${VP.hideEn ? '英文：遮住中' : '英文：顯示'}</button>` : ''}
+      <button class="sbtn${VP.auto ? ' on' : ''}" data-txa="1">自動捲動：${VP.auto ? '開' : '關'}</button>
+      <div class="spd">${SPDS.map(r => `<button data-spd="${r}" class="${S.settings.rate === r ? 'on' : ''}">${r}×</button>`).join('')}</div>
+    </div>
+    <div class="tiny muted">點 <b>▶ 時間</b> 只播那一句原音，點英文句子從那裡接著播。${mode === 'listen' && VP.hideEn ? '英文遮住時，點句子可單獨顯示。' : ''}</div>
+    <div id="txbox" class="txbox${VP.zh ? '' : ' nozh'}${mode === 'listen' && VP.hideEn ? ' hideen' : ''}">${TX[u.id] ? txLines(u) : '<div class="tiny muted" style="text-align:center;padding:24px">載入逐字稿中…</div>'}</div>`;
+}
+function bindTx(box, mode) {
+  box.querySelectorAll('[data-say]').forEach(b => b.onclick = e => { e.stopPropagation(); vpPause(); say(b.getAttribute('data-say')); });
+  bindShadow(box);
+  box.querySelectorAll('[data-seg]').forEach(b => b.onclick = () => vpPlayLine(+b.dataset.seg, true));
+  box.querySelectorAll('[data-seek]').forEach(b => b.onclick = () => {
+    const line = b.closest('.tx-line');
+    if (mode === 'listen' && VP.hideEn && !line.classList.contains('show')) { line.classList.add('show'); return; }
+    vpPlayLine(+b.dataset.seek, false);
+  });
+}
+function txMount(mode) {
+  const u = curUnit(), box = el('txbox'); if (!box) return;
+  if (TX[u.id]) bindTx(box, mode);
+  else fetch(u.transcript).then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(doc => {
+      TX[u.id] = doc;
+      if (el('txbox') !== box) return;
+      box.innerHTML = txLines(u); bindTx(box, mode);
+    })
+    .catch(e => { if (el('txbox') === box) box.innerHTML = '<div class="tiny muted" style="text-align:center;padding:20px">逐字稿載入失敗（' + esc(e.message || e) + '）。第一次看需要網路，看過之後就能離線。</div>'; });
+  vpCreate(u);
+  const tog = (sel, fn) => { const b = document.querySelector(sel); if (b) b.onclick = fn; };
+  tog('[data-txz]', () => { VP.zh = !VP.zh; box.classList.toggle('nozh', !VP.zh); const b = document.querySelector('[data-txz]'); b.classList.toggle('on', VP.zh); b.textContent = '中譯：' + (VP.zh ? '顯示' : '隱藏'); });
+  tog('[data-txh]', () => { VP.hideEn = !VP.hideEn; box.classList.toggle('hideen', VP.hideEn); box.querySelectorAll('.tx-line.show').forEach(x => x.classList.remove('show')); const b = document.querySelector('[data-txh]'); b.classList.toggle('on', VP.hideEn); b.textContent = VP.hideEn ? '英文：遮住中' : '英文：顯示'; });
+  tog('[data-txa]', () => { VP.auto = !VP.auto; const b = document.querySelector('[data-txa]'); b.classList.toggle('on', VP.auto); b.textContent = '自動捲動：' + (VP.auto ? '開' : '關'); });
+}
+
 /* ===================== 聽力 ===================== */
 const LS = { audio: null, rate: 1, revealed: {} };
-function stopAudio() { try { if (LS.audio) LS.audio.pause(); } catch (e) {} LS.audio = null; }
+function stopAudio() { try { if (LS.audio) LS.audio.pause(); } catch (e) {} LS.audio = null; vpPause(); }
 function viewListen() {
+  const u0 = curUnit();
+  if (u0.transcript) return `<div class="view fade">${uswitch()}${txView(u0, 'listen')}
+    <div class="two"><button class="btn ghost" data-goq="checkup">影片隨堂測驗</button><button class="btn" data-goq="today">做這集的測驗</button></div></div>`;
   const u = curUnit(), sents = (u.words || []).filter(w => w.ex && w.ex.length);
   let src = '';
   if (u.audioSrc) src = `<div class="card pad player">
@@ -643,6 +847,9 @@ function viewListen() {
 /* ===================== 閱讀 ===================== */
 const RS = { zh: true };
 function viewRead() {
+  const u0 = curUnit();
+  if (u0.transcript) return `<div class="view fade">${uswitch()}${txView(u0, 'read')}
+    <div class="two"><button class="btn ghost" data-goq="checkup">影片隨堂測驗</button><button class="btn" data-goq="today">做這集的測驗</button></div></div>`;
   const u = curUnit(), sents = (u.words || []).filter(w => w.ex && w.ex.length);
   return `<div class="view fade">${uswitch()}
     ${u.video ? `<div class="card pad">${ytEmbed(u.video)}</div>` : ''}
@@ -680,8 +887,11 @@ function buildCheckup() {
     const o = shuffle((u.words || []).filter(x => x.n !== w.n)).slice(0, 3); if (o.length < 3) return;
     qs.push({ kind: 'word', prompt: w.w, ph: w.ph, say: w.w, sub: '連連看：選出中文意思', opts: shuffle([w, ...o].map(x => ({ t: (x.pos || []).map(p => p.m).join('；'), ok: x.n === w.n }))), ref: { c: curCourse().id, u: u.id, n: w.n } });
   });
-  // 填空：課本 Daily Checkup 原題（依原順序）
-  (u.cloze || []).forEach(c => qs.push({ kind: 'cloze', prompt: c.s, sub: '課本填空', opts: shuffle(c.opts.map(o => ({ t: o, ok: o === c.a, en: 1 }))) }));
+  // 填空：課本 Daily Checkup 原題／影片逐字稿原句（依原順序）
+  const fillSub = curCourse().kind === 'video' ? '逐字稿填空' : '課本填空';
+  (u.cloze || []).forEach(c => qs.push({ kind: 'cloze', prompt: c.s, sub: fillSub, opts: shuffle(c.opts.map(o => ({ t: o, ok: o === c.a, en: 1 }))) }));
+  // 影片另加內容理解題
+  if (curCourse().kind === 'video') (u.comp || []).forEach(c => qs.push({ kind: 'mc', prompt: c.q, sub: '內容理解', opts: shuffle(c.opts.map(o => ({ t: o, ok: o === c.a }))) }));
   QZ = { mode: 'checkup', qs, i: 0, score: 0, wrong: [], answered: false };
 }
 function buildReview() {
@@ -701,9 +911,13 @@ function viewQuiz() {
       <button class="mode-card" data-goq="today"><div class="mi" style="background:var(--accent-soft)">📝</div>
         <div class="t"><b>今日學習內容</b><span>${esc(u.label)}・${esc(u.theme || '')}　單字＋克漏字${(u.comp && u.comp.length) ? '＋理解題' : ''}</span></div>
         <div class="n">${(u.words || []).length}</div></button>
-      ${(u.cloze && u.cloze.length) ? `<button class="mode-card" data-goq="checkup"><div class="mi" style="background:#eef3ff">📖</div>
+      ${(u.cloze && u.cloze.length) ? (curCourse().kind === 'video'
+        ? `<button class="mode-card" data-goq="checkup"><div class="mi" style="background:#eef3ff">🎬</div>
+        <div class="t"><b>影片隨堂測驗</b><span>${esc(u.label)}　連連看＋逐字稿填空＋內容理解</span></div>
+        <div class="n">${Math.min(5, (u.words || []).length) + u.cloze.length + (u.comp || []).length}</div></button>`
+        : `<button class="mode-card" data-goq="checkup"><div class="mi" style="background:#eef3ff">📖</div>
         <div class="t"><b>課本隨堂測驗</b><span>${esc(u.label)} Daily Checkup　連連看＋課本填空原題</span></div>
-        <div class="n">${5 + u.cloze.length}</div></button>` : ''}
+        <div class="n">${5 + u.cloze.length}</div></button>`) : ''}
       <h2 class="sect">複習測驗（記憶曲線）</h2>
       <button class="mode-card" data-goq="review" ${due ? '' : 'disabled style="opacity:.55"'}>
         <div class="mi" style="background:#fff4e2">🔁</div>
@@ -747,7 +961,7 @@ function answer(idx) {
 function quizResult() {
   const t = QZ.qs.length, s = QZ.score, p = t ? Math.round(s / t * 100) : 0;
   return `<div class="view fade"><div class="card pad" style="text-align:center">
-    <div class="tiny muted">${QZ.mode === 'review' ? '複習測驗結果' : QZ.mode === 'checkup' ? '課本隨堂測驗結果' : '今日測驗結果'}</div>
+    <div class="tiny muted">${QZ.mode === 'review' ? '複習測驗結果' : QZ.mode === 'checkup' ? (curCourse().kind === 'video' ? '影片隨堂測驗結果' : '課本隨堂測驗結果') : '今日測驗結果'}</div>
     <div class="score-big" style="color:${p >= 70 ? 'var(--good)' : 'var(--amber)'};margin:8px 0 4px">${s}<span style="font-size:20px;color:var(--ink-3)"> / ${t}</span></div>
     <div class="tiny muted" style="margin-bottom:14px">${p >= 90 ? '掌握得很好！' : p >= 70 ? '不錯，錯的再看一次就更穩。' : '多回單字頁刷幾輪。'}</div>
     <div class="two"><button class="btn ghost" data-goq="${QZ.mode}">再測一次</button><button class="btn" data-goto="vocab">回單字</button></div>
@@ -791,8 +1005,11 @@ function bindAll() {
   document.querySelectorAll('[data-spd]').forEach(b => b.onclick = e => {
     e.stopPropagation(); S.settings.rate = parseFloat(b.dataset.spd); touch();
     document.querySelectorAll('[data-spd]').forEach(x => x.classList.toggle('on', parseFloat(x.dataset.spd) === S.settings.rate));
+    try { if (VP.player && VP.ready) VP.player.setPlaybackRate(S.settings.rate); } catch (err) {}   // 影片也跟著變速
   });
   bindShadow(document);
+  document.querySelectorAll('[data-drawer]').forEach(b => b.onclick = () => openDrawer());
+  if ((TAB === 'listen' || TAB === 'read') && curUnit().transcript) txMount(TAB);
   document.querySelectorAll('[data-u]').forEach(b => b.onclick = () => {
     const p = b.dataset.u.split('||'); stopAudio(); shadowRelease();
     S.courseId = p[0]; S.unitId = p[1]; touch(); buildDeck(); QZ = null; LS.revealed = {}; render();
@@ -932,6 +1149,9 @@ el('impFile').onchange = e => {
 };
 
 document.querySelectorAll('#nav button').forEach(b => b.onclick = () => go(b.dataset.tab));
+el('menuBtn').onclick = openDrawer;
+el('drawerX').onclick = closeDrawer;
+el('dscrim').onclick = closeDrawer;
 window.addEventListener('pagehide', shadowRelease);
 document.addEventListener('visibilitychange', () => { if (document.hidden) { stopAudio(); shadowRelease(); } });
 

@@ -271,6 +271,74 @@
     border-radius:10px;padding:7px 10px;font-size:12.5px;margin-top:6px}
   .pack-item b{font-weight:700} .pack-item .s{color:var(--ink-3);font-size:11px}
   .pack-item button{margin-left:auto;border:0;background:none;color:var(--bad);font-size:12px;font-weight:700;padding:2px 4px}
+  /* ── 左側教材選單 ─────────────────────────── */
+  .drawer{position:fixed;top:0;bottom:0;left:0;z-index:50;width:min(86vw,300px);background:var(--surface);
+    border-right:1px solid var(--line);box-shadow:var(--shadow-lift);transform:translateX(-105%);
+    transition:transform .26s cubic-bezier(.3,.8,.3,1);display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px)}
+  .drawer.open{transform:none}
+  .dscrim{position:fixed;inset:0;z-index:45;background:rgba(10,20,17,.45);display:none}
+  .dscrim.show{display:block}
+  .drawer-head{display:flex;align-items:center;gap:8px;padding:12px 14px;border-bottom:1px solid var(--line)}
+  .drawer-head b{font-family:var(--disp);font-weight:800;font-size:16px}
+  .drawer-head .icon-btn{margin-left:auto}
+  .drawer-body{flex:1;overflow-y:auto;padding:6px 10px calc(24px + env(safe-area-inset-bottom,0px))}
+  .dg-head{display:flex;align-items:center;gap:7px;width:100%;border:0;background:none;padding:12px 4px 8px;font-size:14px;color:var(--ink);text-align:left}
+  .dg-head b{font-weight:700;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .dg-head .chev{display:inline-block;width:12px;color:var(--ink-3);font-size:17px;transition:transform .2s}
+  .dg-head .chev.open{transform:rotate(90deg)}
+  .dg-n{font-size:10.5px;color:var(--ink-3);flex:none;font-variant-numeric:tabular-nums}
+  .dg-list{display:flex;flex-direction:column;gap:3px;padding:0 0 6px 14px}
+  .dunit{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:3px 8px;width:100%;border:1px solid transparent;
+    background:none;border-radius:11px;padding:8px 9px;text-align:left;color:var(--ink)}
+  .dunit:hover{background:var(--surface-2)}
+  .dunit.cur{background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 40%,var(--line))}
+  .du-l{font-family:var(--disp);font-weight:800;font-size:11.5px;color:var(--ink-2);white-space:nowrap}
+  .du-t{font-size:13.5px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .du-p{font-size:11px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+  .du-bar{grid-column:1/-1;display:block;height:3px;border-radius:99px;background:var(--surface-2);overflow:hidden}
+  .du-bar i{display:block;height:100%;background:var(--accent)}
+  .du-new{display:inline-block;font-size:9.5px;font-weight:800;color:#fff;background:var(--rec);border-radius:6px;padding:1px 5px;margin-left:5px;vertical-align:1px}
+  .dg-queue{font-size:11px;color:var(--ink-3);padding:4px 9px 6px}
+  @media (min-width:1240px){
+    .drawer{transform:none;box-shadow:none;z-index:30}
+    #menuBtn,#drawerX{display:none}
+    .dscrim{display:none!important}
+  }
+
+  /* ── 目前單元列 ───────────────────────────── */
+  .ubar{display:flex;align-items:center;gap:10px;width:100%;border:1px solid var(--line-2);background:var(--surface);
+    border-radius:14px;padding:9px 12px;text-align:left;color:var(--ink);box-shadow:var(--shadow)}
+  .ubar-ic{width:30px;height:30px;border-radius:9px;background:var(--accent-soft);display:grid;place-items:center;font-size:15px;flex:none}
+  .ubar-t{flex:1;min-width:0;display:flex;flex-direction:column}
+  .ubar-t b{font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .ubar-t span{font-size:11px;color:var(--ink-2)}
+  .ubar-go{font-size:12px;font-weight:700;color:var(--accent-deep);flex:none}
+  :root[data-theme="dark"] .ubar-go,:root:not([data-theme="light"]) .ubar-go{color:var(--accent)}
+
+  /* ── 影片＋同步逐字稿 ─────────────────────── */
+  .ytsticky{position:sticky;top:-14px;z-index:6;background:var(--bg);margin-top:-14px;padding:14px 0 8px}
+  .ytwrap #ytp{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .src-box a{display:block;color:var(--accent-deep);font-size:12px;font-weight:700;margin-top:5px;word-break:break-all;text-decoration:none}
+  :root[data-theme="dark"] .src-box a,:root:not([data-theme="light"]) .src-box a{color:var(--accent)}
+  .tx-tools{display:flex;flex-wrap:wrap;gap:7px;align-items:center}
+  .tx-tools .spd{margin-left:0}
+  .sbtn.on{background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 40%,var(--line))}
+  .txbox{display:flex;flex-direction:column;gap:4px}
+  .tx-line{display:flex;gap:9px;align-items:flex-start;padding:9px 10px;border-radius:12px;border:1px solid transparent;transition:background .2s,border-color .2s}
+  .tx-line.cur{background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 35%,var(--line))}
+  .tx-t{flex:none;border:1px solid var(--line-2);background:var(--surface);border-radius:8px;padding:4px 7px;font-family:var(--mono);
+    font-size:11px;color:var(--ink-2);margin-top:1px;white-space:nowrap}
+  .tx-line.cur .tx-t{background:var(--accent);color:var(--on-accent);border-color:transparent}
+  .tx-body{flex:1;min-width:0}
+  .tx-en{font-family:var(--en);font-size:15px;line-height:1.55;cursor:pointer}
+  .tx-en b{color:var(--accent-deep);font-weight:800}
+  :root[data-theme="dark"] .tx-en b,:root:not([data-theme="light"]) .tx-en b{color:var(--accent)}
+  .tx-zh{font-size:13px;color:var(--ink-2);margin-top:3px;line-height:1.55}
+  .txbox.nozh .tx-zh{display:none}
+  .txbox.hideen .tx-line:not(.show) .tx-en{filter:blur(5px);opacity:.6}
+  .sbar.mini{margin-top:6px;gap:6px}
+  .sbar.mini .sbtn{padding:5px 9px;font-size:11.5px}
+
   .toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom,0px));transform:translateX(-50%) translateY(12px);
     z-index:60;background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:12px;font-size:13px;font-weight:700;
     box-shadow:var(--shadow-lift);opacity:0;transition:opacity .2s,transform .2s;pointer-events:none;max-width:88vw;text-align:center}
@@ -284,6 +352,9 @@
 <body>
 <div id="app">
   <header><div class="head-in">
+    <button class="icon-btn" id="menuBtn" aria-label="教材選單">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
     <div class="brand"><div class="brand-mark">字</div><b id="hTitle">多益字彙旅程</b></div>
     <button class="icon-btn" id="gearBtn" aria-label="設定">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19 12a7 7 0 0 0-.1-1l2-1.6-2-3.4-2.4 1a7 7 0 0 0-1.7-1L14.5 2h-4l-.4 2.6a7 7 0 0 0-1.7 1l-2.4-1-2 3.4L6 11a7 7 0 0 0 0 2l-2 1.6 2 3.4 2.4-1a7 7 0 0 0 1.7 1l.4 2.6h4l.4-2.6a7 7 0 0 0 1.7-1l2.4 1 2-3.4-2-1.6a7 7 0 0 0 .1-1z"/></svg>
@@ -299,6 +370,14 @@
     <button data-tab="checkin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="2.5"/><path d="M3 10h18M8 3v4M16 3v4"/><path d="M9 15l2 2 4-4"/></svg>打卡</button>
   </div></nav>
 </div>
+
+<!-- 左側教材選單：手機滑出、寬螢幕常駐 -->
+<div class="dscrim" id="dscrim"></div>
+<aside class="drawer" id="drawer" aria-label="教材選單">
+  <div class="drawer-head"><b>教材</b><span class="tiny muted">點標題可展開／收合</span>
+    <button class="icon-btn" id="drawerX" aria-label="關閉選單">✕</button></div>
+  <div class="drawer-body" id="drawerBody"></div>
+</aside>
 
 <div class="scrim" id="scrim" hidden>
   <div class="sheet" role="dialog" aria-label="設定">
@@ -332,6 +411,7 @@
 <script src="data.js"></script>
 <!-- 內建課程：加新的就在這裡多一行 -->
 <script src="courses/daily-video.js"></script>
+<script src="courses/bbc-6min.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

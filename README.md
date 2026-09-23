@@ -70,7 +70,31 @@ Mischa 的個人多益 800+ 備考 App。純靜態網頁，手機加到主畫面
 
 欄位只有 `n / w / pos` 是必填，其他留空或不寫都可以。
 
-### 加一支每日影片
+### BBC 6 Minute English（影片課程，每天自動上架一集）
+
+來源播放清單：https://youtube.com/playlist?list=PLcetZ6gSk96-FECmH9l7Vlx5VDigvgZpt（459 集）。
+每集 = 內嵌影片 ＋ 同步逐字稿（英＋中，點句子跳播、只播單句原音、播放時亮句）＋ 重點單字 ＋ 測驗。
+
+一集由兩個檔組成：
+
+| 檔案 | 內容 |
+|---|---|
+| `tools/episodes/<影片ID>.json` | 標籤、主題、**上架日 `release`**、BBC 官方頁、單字、克漏字、理解題（手寫） |
+| `transcripts/<影片ID>.json` | 逐字稿，**第一段 `source` 是原文出處網址**，之後每句 `{t 秒, en, zh}` |
+
+加一批新集數：
+
+```bash
+python tools/yt_transcript.py <影片ID> work/            # 產出 work/<ID>_lines.json（帶時間的句子）
+# 寫中譯 work/zh_<ID>.json（與 lines 一句對一句）與 tools/episodes/<ID>.json
+python tools/build_video_units.py transcript <ID> work/<ID>_lines.json work/zh_<ID>.json
+python tools/build_video_units.py course                # 重建 courses/bbc-6min.js
+```
+
+`release` 設成未來日期的集數，App 會先藏起來（選單顯示「排隊中」），到那天自動出現——
+所以一次轉 7 集、日期各差一天，就是「每天自動多一集」。句數不符或中譯留空，工具會直接報錯。
+
+### 加一支每日影片（舊格式，無同步逐字稿）
 
 1. 抓逐字稿：`python tools/yt_transcript.py <YouTube網址> <輸出資料夾>`
 2. 在 `courses/daily-video.js` 的 `units` 陣列尾端加一個單元：
