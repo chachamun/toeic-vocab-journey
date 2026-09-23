@@ -7,47 +7,440 @@
  "themeEn": "How are smell adjectives different?",
  "release": "2026-09-23",
  "words": [
-  {"n":1,"w":"stinky","s":1,"ph":"[ˋstɪŋkɪ]","pos":[{"p":"adj.","m":"很臭的，難聞的"}],
-   "ex":[{"en":"I might think a perfume is stinky, an adjective meaning bad smelling, while Neil might find the same perfume fragrant, meaning pleasant smelling.","zh":"我可能覺得某款香水很臭，而 Neil 可能覺得同一款香水很香。","t":174.0}],
-   "fam":["stink v. 發出臭味"],"ant":"fragrant 香的"},
-  {"n":2,"w":"fragrant","s":2,"ph":"[ˋfreɡrənt]","pos":[{"p":"adj.","m":"香的，芬芳的"}],
-   "ex":[{"en":"I could say, oh this perfume you think is really fragrant, I think is stinky, and both can be true.","zh":"你覺得很香的這瓶香水，我覺得很臭，而兩者都可以成立。","t":163.1}],
-   "fam":["fragrance n. 香味；香水"],
-   "tips":[{"k":"常考語句","t":"fragrance-free products 無香料產品；a line of fragrances 一系列香水。名詞 fragrance 在多益產品說明中常見。"}]},
-  {"n":3,"w":"subjective","s":2,"ph":"[səbˋdʒɛktɪv]","pos":[{"p":"adj.","m":"主觀的"}],
-   "ex":[{"en":"It seems to be a subjective thing.","zh":"它似乎是一種主觀的東西。","t":161.0}],
-   "ant":"objective 客觀的",
-   "tips":[{"k":"易混淆","t":"subjective 主觀的 ↔ objective 客觀的。objective 當名詞是「目標」（the main objective of the meeting 會議的主要目標），多益更常考這個用法。"}]},
-  {"n":4,"w":"visual","s":2,"ph":"[ˋvɪʒʊəl]","pos":[{"p":"adj.","m":"視覺的"}],
-   "ex":[{"en":"The adjective 'visual' means related to seeing, and 'auditory' means related to hearing.","zh":"形容詞 visual 的意思是和視覺有關的，auditory 則是和聽覺有關的。","t":254.0}],
-   "tips":[{"k":"常考語句","t":"visual aids 視覺輔助工具（簡報用的圖表、投影片），多益簡報情境常見。"}]},
-  {"n":5,"w":"auditory","s":1,"ph":"[ˋɔdə͵torɪ]","pos":[{"p":"adj.","m":"聽覺的"}],
-   "ex":[{"en":"Asifa's research shows that, here in the UK at least, people talk about visual or auditory things much more than they talk about smells.","zh":"Asifa 的研究顯示，至少在英國，人們談論視覺或聽覺事物遠多於談論氣味。","t":246.0}],
-   "fam":["audio n. 音訊","audience n. 聽眾，觀眾","auditorium n. 禮堂"]},
-  {"n":6,"w":"olfactory","s":1,"ph":"[ɑlˋfæktərɪ]","pos":[{"p":"adj.","m":"嗅覺的"}],
-   "ex":[{"en":"The adjective for things related to smelling is 'olfactory'.","zh":"和嗅覺有關的形容詞是 olfactory。","t":259.8}]},
-  {"n":7,"w":"shut something down","s":3,"ph":"","pos":[{"p":"phr. v.","m":"使停止；關閉"}],
-   "ex":[{"en":"When children start talking about smells, especially unpleasant ones, parents often react by shutting the conversation down.","zh":"當孩子開始談論氣味，尤其是難聞的氣味，父母常常會直接打斷這個話題。","t":267.1}],
-   "tips":[{"k":"常考語句","t":"shut down a factory / a production line / the system 關閉工廠／生產線／系統。多益公告題常見：The plant will be shut down for maintenance. 工廠將停工維修。"}]},
-  {"n":8,"w":"extensively","s":2,"ph":"[ɪkˋstɛnsɪvlɪ]","pos":[{"p":"adv.","m":"廣泛地，大量地"}],
-   "ex":[{"en":"Oxford University psychologist Asifa Majid has researched the subject of smell extensively.","zh":"牛津大學心理學家 Asifa Majid 對嗅覺做過大量研究。","t":137.2}],
-   "fam":["extensive adj. 廣泛的","extend v. 延長"],
-   "tips":[{"k":"常考語句","t":"travel extensively 到處出差；extensive experience in 在～方面有豐富經驗（履歷、徵才廣告高頻）。"}]}
+  {
+   "n": 1,
+   "w": "stinky",
+   "s": 1,
+   "ph": "[ˋstɪŋkɪ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "很臭的，難聞的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "I might think a perfume is stinky, an adjective meaning bad smelling, while Neil might find the same perfume fragrant, meaning pleasant smelling.",
+     "zh": "我可能覺得某款香水很臭，而 Neil 可能覺得同一款香水很香。",
+     "t": 174.0
+    }
+   ],
+   "fam": [
+    "stink v. 發出臭味"
+   ],
+   "ant": "fragrant 香的",
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "stinkier"
+      ],
+      [
+       "最高級",
+       "stinkiest"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "fragrant",
+   "s": 2,
+   "ph": "[ˋfreɡrənt]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "香的，芬芳的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "I could say, oh this perfume you think is really fragrant, I think is stinky, and both can be true.",
+     "zh": "你覺得很香的這瓶香水，我覺得很臭，而兩者都可以成立。",
+     "t": 163.1
+    }
+   ],
+   "fam": [
+    "fragrance n. 香味；香水"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "fragrance-free products 無香料產品；a line of fragrances 一系列香水。名詞 fragrance 在多益產品說明中常見。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more fragrant"
+      ],
+      [
+       "最高級",
+       "most fragrant"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "subjective",
+   "s": 2,
+   "ph": "[səbˋdʒɛktɪv]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "主觀的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "It seems to be a subjective thing.",
+     "zh": "它似乎是一種主觀的東西。",
+     "t": 161.0
+    }
+   ],
+   "ant": "objective 客觀的",
+   "tips": [
+    {
+     "k": "易混淆",
+     "t": "subjective 主觀的 ↔ objective 客觀的。objective 當名詞是「目標」（the main objective of the meeting 會議的主要目標），多益更常考這個用法。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more subjective"
+      ],
+      [
+       "最高級",
+       "most subjective"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "subject n. 主題；科目",
+    "subjectively adv. 主觀地",
+    "objective adj. 客觀的（反義）"
+   ]
+  },
+  {
+   "n": 4,
+   "w": "visual",
+   "s": 2,
+   "ph": "[ˋvɪʒʊəl]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "視覺的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "The adjective 'visual' means related to seeing, and 'auditory' means related to hearing.",
+     "zh": "形容詞 visual 的意思是和視覺有關的，auditory 則是和聽覺有關的。",
+     "t": 254.0
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "visual aids 視覺輔助工具（簡報用的圖表、投影片），多益簡報情境常見。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ],
+   "der": [
+    "visualize v. 想像；使視覺化",
+    "visually adv. 視覺上"
+   ]
+  },
+  {
+   "n": 5,
+   "w": "auditory",
+   "s": 1,
+   "ph": "[ˋɔdə͵torɪ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "聽覺的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Asifa's research shows that, here in the UK at least, people talk about visual or auditory things much more than they talk about smells.",
+     "zh": "Asifa 的研究顯示，至少在英國，人們談論視覺或聽覺事物遠多於談論氣味。",
+     "t": 246.0
+    }
+   ],
+   "fam": [
+    "audio n. 音訊",
+    "audience n. 聽眾，觀眾",
+    "auditorium n. 禮堂"
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "olfactory",
+   "s": 1,
+   "ph": "[ɑlˋfæktərɪ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "嗅覺的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "The adjective for things related to smelling is 'olfactory'.",
+     "zh": "和嗅覺有關的形容詞是 olfactory。",
+     "t": 259.8
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "shut something down",
+   "s": 3,
+   "ph": "",
+   "pos": [
+    {
+     "p": "phr. v.",
+     "m": "使停止；關閉"
+    }
+   ],
+   "ex": [
+    {
+     "en": "When children start talking about smells, especially unpleasant ones, parents often react by shutting the conversation down.",
+     "zh": "當孩子開始談論氣味，尤其是難聞的氣味，父母常常會直接打斷這個話題。",
+     "t": 267.1
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "shut down a factory / a production line / the system 關閉工廠／生產線／系統。多益公告題常見：The plant will be shut down for maintenance. 工廠將停工維修。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "shuts ~ down"
+      ],
+      [
+       "過去式",
+       "shut ~ down"
+      ],
+      [
+       "過去分詞",
+       "shut ~ down"
+      ],
+      [
+       "現在分詞",
+       "shutting ~ down"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "shutdown n. 停工；關閉"
+   ]
+  },
+  {
+   "n": 8,
+   "w": "extensively",
+   "s": 2,
+   "ph": "[ɪkˋstɛnsɪvlɪ]",
+   "pos": [
+    {
+     "p": "adv.",
+     "m": "廣泛地，大量地"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Oxford University psychologist Asifa Majid has researched the subject of smell extensively.",
+     "zh": "牛津大學心理學家 Asifa Majid 對嗅覺做過大量研究。",
+     "t": 137.2
+    }
+   ],
+   "fam": [
+    "extensive adj. 廣泛的",
+    "extend v. 延長"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "travel extensively 到處出差；extensive experience in 在～方面有豐富經驗（履歷、徵才廣告高頻）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adv.",
+     "f": [
+      [
+       "比較級",
+       "more extensively"
+      ],
+      [
+       "最高級",
+       "most extensively"
+      ]
+     ]
+    }
+   ]
+  }
  ],
  "cloze": [
-  {"s":"I might think a perfume is ___, an adjective meaning bad smelling.","a":"stinky","opts":["stinky","fragrant","visual","musty"]},
-  {"s":"Neil might find the same perfume ___, meaning pleasant smelling.","a":"fragrant","opts":["fragrant","stinky","auditory","subjective"]},
-  {"s":"It seems to be a ___ thing.","a":"subjective","opts":["subjective","objective","visual","olfactory"]},
-  {"s":"The adjective '___' means related to seeing.","a":"visual","opts":["visual","auditory","olfactory","fragrant"]},
-  {"s":"'Auditory' means related to ___.","a":"hearing","opts":["hearing","seeing","smelling","tasting"]},
-  {"s":"The adjective for things related to smelling is '___'.","a":"olfactory","opts":["olfactory","auditory","visual","subjective"]},
-  {"s":"When children start talking about smells, parents often react by shutting the conversation ___.","a":"down","opts":["down","up","off","out"]},
-  {"s":"Oxford University psychologist Asifa Majid has researched the subject of smell ___.","a":"extensively","opts":["extensively","rarely","briefly","recently"]}
+  {
+   "s": "I might think a perfume is ___, an adjective meaning bad smelling.",
+   "a": "stinky",
+   "opts": [
+    "stinky",
+    "fragrant",
+    "visual",
+    "musty"
+   ]
+  },
+  {
+   "s": "Neil might find the same perfume ___, meaning pleasant smelling.",
+   "a": "fragrant",
+   "opts": [
+    "fragrant",
+    "stinky",
+    "auditory",
+    "subjective"
+   ]
+  },
+  {
+   "s": "It seems to be a ___ thing.",
+   "a": "subjective",
+   "opts": [
+    "subjective",
+    "objective",
+    "visual",
+    "olfactory"
+   ]
+  },
+  {
+   "s": "The adjective '___' means related to seeing.",
+   "a": "visual",
+   "opts": [
+    "visual",
+    "auditory",
+    "olfactory",
+    "fragrant"
+   ]
+  },
+  {
+   "s": "'Auditory' means related to ___.",
+   "a": "hearing",
+   "opts": [
+    "hearing",
+    "seeing",
+    "smelling",
+    "tasting"
+   ]
+  },
+  {
+   "s": "The adjective for things related to smelling is '___'.",
+   "a": "olfactory",
+   "opts": [
+    "olfactory",
+    "auditory",
+    "visual",
+    "subjective"
+   ]
+  },
+  {
+   "s": "When children start talking about smells, parents often react by shutting the conversation ___.",
+   "a": "down",
+   "opts": [
+    "down",
+    "up",
+    "off",
+    "out"
+   ]
+  },
+  {
+   "s": "Oxford University psychologist Asifa Majid has researched the subject of smell ___.",
+   "a": "extensively",
+   "opts": [
+    "extensively",
+    "rarely",
+    "briefly",
+    "recently"
+   ]
+  }
  ],
  "comp": [
-  {"q":"節目問答題：哪個字是指「舊書的味道」？","a":"vellichor","opts":["vellichor","petrichor","nidor"]},
-  {"q":"petrichor 是指什麼氣味？","a":"雨後地面／泥土的味道","opts":["雨後地面／泥土的味道","舊書的味道","烹煮肉類與油脂的味道","剛打開的咖啡粉香味"]},
-  {"q":"根據 Asifa Majid 的說法，為什麼 stinky、fragrant 這類字沒有說出氣味本身？","a":"氣味詞多半是主觀的，取決於個人感受","opts":["氣味詞多半是主觀的，取決於個人感受","英文完全沒有描述氣味的字","氣味比顏色容易描述","這些字只用在香水上"]},
-  {"q":"研究顯示，英國人最少談論哪一類感官經驗？","a":"嗅覺（聞到的東西）","opts":["嗅覺（聞到的東西）","視覺（看到的東西）","聽覺（聽到的東西）","味覺（吃到的東西）"]}
+  {
+   "q": "節目問答題：哪個字是指「舊書的味道」？",
+   "a": "vellichor",
+   "opts": [
+    "vellichor",
+    "petrichor",
+    "nidor"
+   ]
+  },
+  {
+   "q": "petrichor 是指什麼氣味？",
+   "a": "雨後地面／泥土的味道",
+   "opts": [
+    "雨後地面／泥土的味道",
+    "舊書的味道",
+    "烹煮肉類與油脂的味道",
+    "剛打開的咖啡粉香味"
+   ]
+  },
+  {
+   "q": "根據 Asifa Majid 的說法，為什麼 stinky、fragrant 這類字沒有說出氣味本身？",
+   "a": "氣味詞多半是主觀的，取決於個人感受",
+   "opts": [
+    "氣味詞多半是主觀的，取決於個人感受",
+    "英文完全沒有描述氣味的字",
+    "氣味比顏色容易描述",
+    "這些字只用在香水上"
+   ]
+  },
+  {
+   "q": "研究顯示，英國人最少談論哪一類感官經驗？",
+   "a": "嗅覺（聞到的東西）",
+   "opts": [
+    "嗅覺（聞到的東西）",
+    "視覺（看到的東西）",
+    "聽覺（聽到的東西）",
+    "味覺（吃到的東西）"
+   ]
+  }
  ]
 }

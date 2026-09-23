@@ -7,45 +7,463 @@
  "themeEn": "How do you feel when someone says 'no'?",
  "release": "2026-09-23",
  "words": [
-  {"n":1,"w":"rejection","s":3,"ph":"[rɪˋdʒɛkʃən]","pos":[{"p":"n.","m":"拒絕；被拒絕"}],
-   "ex":[{"en":"Well, nobody likes rejection.","zh":"嗯，沒有人喜歡被拒絕。","t":28.2}],
-   "fam":["reject v. 拒絕，駁回"],
-   "tips":[{"k":"常考語句","t":"reject an offer / a proposal / an application 拒絕提議／提案／申請；a letter of rejection 拒絕信（應徵落選通知）。多益常考動詞 reject 與名詞 rejection 的詞性區分。"}]},
-  {"n":2,"w":"spike","s":2,"ph":"[spaɪk]","pos":[{"p":"v.","m":"急遽上升，突然增加"},{"p":"n.","m":"急遽上升"}],
-   "ex":[{"en":"If something spikes, it increases sharply.","zh":"如果某樣東西 spike，就是它急遽上升。","t":188.4}],
-   "tips":[{"k":"常考語句","t":"a spike in sales / demand / prices 銷售／需求／價格暴增。多益圖表題常用 spike、surge、soar 描述數字急升。"}]},
-  {"n":3,"w":"socially anxious","s":1,"ph":"[ˋsoʃəlɪ ˋæŋkʃəs]","pos":[{"p":"adj.","m":"有社交焦慮的"}],
-   "ex":[{"en":"Someone who is socially anxious is nervous or worried about speaking to other people.","zh":"有社交焦慮的人，會對和別人說話感到緊張或擔心。","t":195.0}],
-   "fam":["anxiety n. 焦慮","anxious adj. 焦慮的；渴望的"],
-   "tips":[{"k":"易混淆","t":"be anxious about 擔心～；be anxious to do 渴望做～（多益常考後者：We are anxious to hear from you. 我們急於收到您的回覆）。"}]},
-  {"n":4,"w":"come easier","s":1,"ph":"","pos":[{"p":"phr.","m":"（做起來）變得比較容易"}],
-   "ex":[{"en":"And once I'd done one, the second one came easier and the third one came even easier.","zh":"做完一次之後，第二次就容易多了，第三次又更容易。","t":173.8}],
-   "tips":[{"k":"文法","t":"come + 形容詞比較級，表示「變得更～」，屬口語說法。正式書寫可改用 become easier。"}]},
-  {"n":5,"w":"perfectionism","s":1,"ph":"[pɚˋfɛkʃən͵ɪzəm]","pos":[{"p":"n.","m":"完美主義"}],
-   "ex":[{"en":"Perfectionism is the feeling that everything you do needs to be perfect.","zh":"完美主義就是覺得自己做的每件事都必須完美。","t":275.6}],
-   "fam":["perfectionist n. 完美主義者"]},
-  {"n":6,"w":"appraise","s":3,"ph":"[əˋprez]","pos":[{"p":"v.","m":"評價，評估"}],
-   "ex":[{"en":"Young people are also worried about how people will appraise them, which means judge them.","zh":"年輕人也擔心別人會怎麼評價他們。","t":280.5}],
-   "fam":["appraisal n. 評價，評估"],
-   "tips":[{"k":"常考語句","t":"performance appraisal 績效考核（多益高頻）；appraise the value of a property 評估房產價值。"}]},
-  {"n":7,"w":"boost","s":3,"ph":"[bust]","pos":[{"p":"v.","m":"提升，增強"},{"p":"n.","m":"提升，推動"}],
-   "ex":[{"en":"But people who post the videos say they boost their confidence.","zh":"但發布影片的人說，這能提升他們的自信。","t":228.0}],
-   "tips":[{"k":"常考語句","t":"boost sales / productivity / morale 提高銷售／生產力／士氣，多益商業情境高頻。"}]}
+  {
+   "n": 1,
+   "w": "rejection",
+   "s": 3,
+   "ph": "[rɪˋdʒɛkʃən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "拒絕；被拒絕"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Well, nobody likes rejection.",
+     "zh": "嗯，沒有人喜歡被拒絕。",
+     "t": 28.2
+    }
+   ],
+   "fam": [
+    "reject v. 拒絕，駁回"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "reject an offer / a proposal / an application 拒絕提議／提案／申請；a letter of rejection 拒絕信（應徵落選通知）。多益常考動詞 reject 與名詞 rejection 的詞性區分。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "rejections"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "spike",
+   "s": 2,
+   "ph": "[spaɪk]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "急遽上升，突然增加"
+    },
+    {
+     "p": "n.",
+     "m": "急遽上升"
+    }
+   ],
+   "ex": [
+    {
+     "en": "If something spikes, it increases sharply.",
+     "zh": "如果某樣東西 spike，就是它急遽上升。",
+     "t": 188.4
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a spike in sales / demand / prices 銷售／需求／價格暴增。多益圖表題常用 spike、surge、soar 描述數字急升。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "spikes"
+      ],
+      [
+       "過去式",
+       "spiked"
+      ],
+      [
+       "過去分詞",
+       "spiked"
+      ],
+      [
+       "現在分詞",
+       "spiking"
+      ]
+     ]
+    },
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "spikes"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "socially anxious",
+   "s": 1,
+   "ph": "[ˋsoʃəlɪ ˋæŋkʃəs]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "有社交焦慮的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Someone who is socially anxious is nervous or worried about speaking to other people.",
+     "zh": "有社交焦慮的人，會對和別人說話感到緊張或擔心。",
+     "t": 195.0
+    }
+   ],
+   "fam": [
+    "anxiety n. 焦慮",
+    "anxious adj. 焦慮的；渴望的"
+   ],
+   "tips": [
+    {
+     "k": "易混淆",
+     "t": "be anxious about 擔心～；be anxious to do 渴望做～（多益常考後者：We are anxious to hear from you. 我們急於收到您的回覆）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more socially anxious"
+      ],
+      [
+       "最高級",
+       "most socially anxious"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "come easier",
+   "s": 1,
+   "ph": "",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "（做起來）變得比較容易"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And once I'd done one, the second one came easier and the third one came even easier.",
+     "zh": "做完一次之後，第二次就容易多了，第三次又更容易。",
+     "t": 173.8
+    }
+   ],
+   "tips": [
+    {
+     "k": "文法",
+     "t": "come + 形容詞比較級，表示「變得更～」，屬口語說法。正式書寫可改用 become easier。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "comes easier"
+      ],
+      [
+       "過去式",
+       "came easier"
+      ],
+      [
+       "過去分詞",
+       "come easier"
+      ],
+      [
+       "現在分詞",
+       "coming easier"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "perfectionism",
+   "s": 1,
+   "ph": "[pɚˋfɛkʃən͵ɪzəm]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "完美主義"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Perfectionism is the feeling that everything you do needs to be perfect.",
+     "zh": "完美主義就是覺得自己做的每件事都必須完美。",
+     "t": 275.6
+    }
+   ],
+   "fam": [
+    "perfectionist n. 完美主義者"
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "appraise",
+   "s": 3,
+   "ph": "[əˋprez]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "評價，評估"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Young people are also worried about how people will appraise them, which means judge them.",
+     "zh": "年輕人也擔心別人會怎麼評價他們。",
+     "t": 280.5
+    }
+   ],
+   "fam": [
+    "appraisal n. 評價，評估"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "performance appraisal 績效考核（多益高頻）；appraise the value of a property 評估房產價值。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "appraises"
+      ],
+      [
+       "過去式",
+       "appraised"
+      ],
+      [
+       "過去分詞",
+       "appraised"
+      ],
+      [
+       "現在分詞",
+       "appraising"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "boost",
+   "s": 3,
+   "ph": "[bust]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "提升，增強"
+    },
+    {
+     "p": "n.",
+     "m": "提升，推動"
+    }
+   ],
+   "ex": [
+    {
+     "en": "But people who post the videos say they boost their confidence.",
+     "zh": "但發布影片的人說，這能提升他們的自信。",
+     "t": 228.0
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "boost sales / productivity / morale 提高銷售／生產力／士氣，多益商業情境高頻。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "boosts"
+      ],
+      [
+       "過去式",
+       "boosted"
+      ],
+      [
+       "過去分詞",
+       "boosted"
+      ],
+      [
+       "現在分詞",
+       "boosting"
+      ]
+     ]
+    },
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "boosts"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "booster n. 增強物；助推器"
+   ]
+  }
  ],
  "cloze": [
-  {"s":"Well, nobody likes ___.","a":"rejection","opts":["rejection","perfectionism","adrenaline","therapy"]},
-  {"s":"If something ___, it increases sharply.","a":"spikes","opts":["spikes","appraises","rejects","boosts"]},
-  {"s":"Someone who is socially ___ is nervous or worried about speaking to other people.","a":"anxious","opts":["anxious","confident","perfect","friendly"]},
-  {"s":"And once I'd done one, the second one came ___.","a":"easier","opts":["easier","harder","faster","later"]},
-  {"s":"Claudia says there's an increase in ___ among young people.","a":"perfectionism","opts":["perfectionism","rejection","confidence","therapy"]},
-  {"s":"Young people are also worried about how people will ___ them, which means judge them.","a":"appraise","opts":["appraise","reject","spike","boost"]},
-  {"s":"But people who post the videos say they ___ their confidence.","a":"boost","opts":["boost","appraise","reject","spike"]},
-  {"s":"It's a social media ___ where people record themselves talking to strangers and sometimes being rejected.","a":"trend","opts":["trend","therapy","rejection","habit"]}
+  {
+   "s": "Well, nobody likes ___.",
+   "a": "rejection",
+   "opts": [
+    "rejection",
+    "perfectionism",
+    "adrenaline",
+    "therapy"
+   ]
+  },
+  {
+   "s": "If something ___, it increases sharply.",
+   "a": "spikes",
+   "opts": [
+    "spikes",
+    "appraises",
+    "rejects",
+    "boosts"
+   ]
+  },
+  {
+   "s": "Someone who is socially ___ is nervous or worried about speaking to other people.",
+   "a": "anxious",
+   "opts": [
+    "anxious",
+    "confident",
+    "perfect",
+    "friendly"
+   ]
+  },
+  {
+   "s": "And once I'd done one, the second one came ___.",
+   "a": "easier",
+   "opts": [
+    "easier",
+    "harder",
+    "faster",
+    "later"
+   ]
+  },
+  {
+   "s": "Claudia says there's an increase in ___ among young people.",
+   "a": "perfectionism",
+   "opts": [
+    "perfectionism",
+    "rejection",
+    "confidence",
+    "therapy"
+   ]
+  },
+  {
+   "s": "Young people are also worried about how people will ___ them, which means judge them.",
+   "a": "appraise",
+   "opts": [
+    "appraise",
+    "reject",
+    "spike",
+    "boost"
+   ]
+  },
+  {
+   "s": "But people who post the videos say they ___ their confidence.",
+   "a": "boost",
+   "opts": [
+    "boost",
+    "appraise",
+    "reject",
+    "spike"
+   ]
+  },
+  {
+   "s": "It's a social media ___ where people record themselves talking to strangers and sometimes being rejected.",
+   "a": "trend",
+   "opts": [
+    "trend",
+    "therapy",
+    "rejection",
+    "habit"
+   ]
+  }
  ],
  "comp": [
-  {"q":"節目問答題：以下哪件事「沒有」發生在華特・迪士尼成功之前？","a":"他的第一部長片失敗了","opts":["他的第一部長片失敗了","他丟了畫家的工作","他的第一個事業資金用光了"]},
-  {"q":"「拒絕療法（rejection therapy）」是什麼？","a":"拍下自己向陌生人提出請求、有時被拒絕的社群潮流","opts":["拍下自己向陌生人提出請求、有時被拒絕的社群潮流","經過驗證的正式心理治療方法","教人如何拒絕別人的課程","一種線上面試訓練"]},
-  {"q":"Hannah 實際嘗試後發現什麼？","a":"大多數陌生人都很友善、樂於幫忙","opts":["大多數陌生人都很友善、樂於幫忙","幾乎每個人都拒絕了她","她的社交焦慮變得更嚴重","計程車司機讓她開了車"]},
-  {"q":"心理學家 Claudia 認為，年輕人可能想主動找拒絕的原因是？","a":"完美主義增加，擔心別人的評價","opts":["完美主義增加，擔心別人的評價","想在社群媒體上賺錢","心理學家建議他們這樣做","他們不在乎別人的看法"]}
+  {
+   "q": "節目問答題：以下哪件事「沒有」發生在華特・迪士尼成功之前？",
+   "a": "他的第一部長片失敗了",
+   "opts": [
+    "他的第一部長片失敗了",
+    "他丟了畫家的工作",
+    "他的第一個事業資金用光了"
+   ]
+  },
+  {
+   "q": "「拒絕療法（rejection therapy）」是什麼？",
+   "a": "拍下自己向陌生人提出請求、有時被拒絕的社群潮流",
+   "opts": [
+    "拍下自己向陌生人提出請求、有時被拒絕的社群潮流",
+    "經過驗證的正式心理治療方法",
+    "教人如何拒絕別人的課程",
+    "一種線上面試訓練"
+   ]
+  },
+  {
+   "q": "Hannah 實際嘗試後發現什麼？",
+   "a": "大多數陌生人都很友善、樂於幫忙",
+   "opts": [
+    "大多數陌生人都很友善、樂於幫忙",
+    "幾乎每個人都拒絕了她",
+    "她的社交焦慮變得更嚴重",
+    "計程車司機讓她開了車"
+   ]
+  },
+  {
+   "q": "心理學家 Claudia 認為，年輕人可能想主動找拒絕的原因是？",
+   "a": "完美主義增加，擔心別人的評價",
+   "opts": [
+    "完美主義增加，擔心別人的評價",
+    "想在社群媒體上賺錢",
+    "心理學家建議他們這樣做",
+    "他們不在乎別人的看法"
+   ]
+  }
  ]
 }

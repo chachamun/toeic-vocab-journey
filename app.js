@@ -796,6 +796,14 @@ function vnav(step) {
   if (t === di) return;
   shadowRelease(); di = t; flipped = false; vjump = false; savePos(); render();
 }
+/* 時態／詞形變化：動詞三單・過去式・過去分詞・現在分詞，名詞複數，形容詞副詞比較級 */
+function formsBox(w) {
+  const fs = w.forms || [];
+  if (!fs.length) return '';
+  return `<div class="forms"><div class="fk">🔁 時態／詞形變化</div>${fs.map(g => `<div class="frow"><span class="pos-tag">${esc(g.p)}</span>${g.note
+    ? `<span class="fnote">${esc(g.note)}</span>`
+    : `<span class="fcells">${g.f.map(([k, v]) => `<span class="fcell"><i>${esc(k)}</i><b class="en">${esc(v)}</b></span>`).join('')}</span>`}</div>`).join('')}</div>`;
+}
 function vjumpTo(k) { shadowRelease(); di = k; flipped = false; vjump = false; savePos(); render(); }
 function viewVocab() {
   const u = curUnit();
@@ -836,7 +844,9 @@ function viewVocab() {
     </div>` : '';
   const tips = (w.tips || []).map(t => `<div class="tip"><div class="k">${t.k === '文法' ? '📘 文法解析' : t.k === '常考語句' ? '🎯 常考語句' : t.k === '易混淆' ? '⚠️ 易混淆' : '🔁 ' + esc(t.k)}</div><div class="t">${esc(t.t)}</div></div>`).join('');
   const fam = (w.fam || []).map(f => `<span class="chip"><span class="en">${esc(f.split(' ')[0])}</span> ${esc(f.split(' ').slice(1).join(' '))}</span>`).join('');
-  const ex = (w.ex || []).map(e => `<div><div class="en">${hl(e.en, w.w)}</div><div class="zh">${esc(e.zh)}</div>${sbar(e.en, '跟讀例句')}</div>`).join('');
+  const ex = (w.ex || []).map(e => `<div><div class="en">${hl(e.en, w.w)}</div><div class="zh">${esc(e.zh)}${e.ai ? '<span class="aitag">AI 自編</span>' : ''}</div>${sbar(e.en, '跟讀例句')}</div>`).join('');
+  const forms = formsBox(w);
+  const der = (w.der || []).map(f => `<span class="chip der"><span class="en">${esc(f.split(' ')[0])}</span> ${esc(f.split(' ').slice(1).join(' '))}<span class="sup">補充</span></span>`).join('');
   return `<div class="view fade">${uswitch()}
     <div class="fc-top">
       <button class="navbtn" data-vnav="-1" aria-label="上一張" ${di <= 0 ? 'disabled' : ''}>‹</button>
@@ -858,8 +868,10 @@ function viewVocab() {
       <div class="face back"><div class="face-scroll">
         <div class="back-word"><span class="w en">${esc(w.w)}</span>${w.ph ? `<span class="ph">${esc(w.ph)}</span>` : ''}</div>
         <div class="pos-line">${(w.pos || []).map(x => `<div class="p"><span class="pos-tag">${esc(x.p)}</span><span>${esc(x.m)}</span></div>`).join('')}</div>
+        ${forms}
         <div class="exbox">${ex}</div>
-        ${(fam || w.syn || w.ant) ? `<div class="chips">${fam}${w.syn ? `<span class="chip">同義 <span class="en">${esc(w.syn)}</span></span>` : ''}${w.ant ? `<span class="chip">反義 <span class="en">${esc(w.ant.split(' ')[0])}</span></span>` : ''}</div>` : ''}
+        ${(fam || der) ? '<div class="famk">🌱 詞性變化（同字根）</div>' : ''}
+        ${(fam || der || w.syn || w.ant) ? `<div class="chips">${fam}${der}${w.syn ? `<span class="chip">同義 <span class="en">${esc(w.syn)}</span></span>` : ''}${w.ant ? `<span class="chip">反義 <span class="en">${esc(w.ant.split(' ')[0])}</span></span>` : ''}</div>` : ''}
         ${tips}
       </div></div>
     </div></div>
@@ -1090,9 +1102,10 @@ function viewRead() {
     <div class="row"><h2 class="sect" style="margin:0">閱讀・${esc(u.theme || u.label)}</h2>
       <button class="btn ghost sm" data-zh="1" style="margin-left:auto">${RS.zh ? '隱藏中譯' : '顯示中譯'}</button></div>
     ${sents.map((w, k) => { const e = w.ex[0];
-      return `<div class="sent"><div class="idx">${k + 1}　<span class="en">${esc(w.w)}</span>　${esc((w.pos || []).map(x => x.m).join('；'))}</div>
+      const head = w.tag && (k === 0 || sents[k - 1].tag !== w.tag) ? `<h2 class="sect">${esc(w.tag)}</h2>` : '';   // 滿分單字依程度／Part 分組
+      return `${head}<div class="sent"><div class="idx">${k + 1}　<span class="en">${esc(w.w)}</span>　${esc((w.pos || []).map(x => x.m).join('；'))}</div>
         <div class="en">${hl(e.en, w.w)}</div>
-        ${RS.zh ? `<div class="zh">${esc(e.zh)}</div>` : ''}
+        ${RS.zh ? `<div class="zh">${esc(e.zh)}${e.ai ? '<span class="aitag">AI 自編</span>' : ''}</div>` : ''}
         ${sbar(e.en, '跟讀')}</div>`; }).join('')}
     ${(u.comp && u.comp.length) ? `<button class="btn" data-goq="today">做閱讀理解測驗（${u.comp.length} 題）</button>` : ''}
   </div>`;

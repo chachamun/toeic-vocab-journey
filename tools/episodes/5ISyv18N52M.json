@@ -25,6 +25,12 @@
      "en": "Self-talk is the quiet language you use inside your own mind.",
      "zh": "自我對話就是你在心裡對自己說的話。"
     }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
    ]
   },
   {
@@ -43,6 +49,32 @@
      "en": "I can't control the result, so I'll focus on my preparation.",
      "zh": "我無法控制結果，所以我會專注在我的準備上。"
     }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "focuses on"
+      ],
+      [
+       "過去式",
+       "focused on"
+      ],
+      [
+       "過去分詞",
+       "focused on"
+      ],
+      [
+       "現在分詞",
+       "focusing on"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "focus n. 焦點"
    ]
   },
   {
@@ -60,6 +92,17 @@
     {
      "en": "My small step today is studying English for 10 minutes.",
      "zh": "我今天的一小步是讀十分鐘英文。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "small steps"
+      ]
+     ]
     }
    ]
   },
@@ -79,6 +122,29 @@
      "en": "She was disappointed, but she slowly bounced back.",
      "zh": "她很失望，但慢慢地重新振作了起來。"
     }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "bounces back"
+      ],
+      [
+       "過去式",
+       "bounced back"
+      ],
+      [
+       "過去分詞",
+       "bounced back"
+      ],
+      [
+       "現在分詞",
+       "bouncing back"
+      ]
+     ]
+    }
    ]
   },
   {
@@ -96,6 +162,29 @@
     {
      "en": "I'm talking with a friend to work through this problem.",
      "zh": "我正和朋友談，一步步處理這個問題。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "works through"
+      ],
+      [
+       "過去式",
+       "worked through"
+      ],
+      [
+       "過去分詞",
+       "worked through"
+      ],
+      [
+       "現在分詞",
+       "working through"
+      ]
+     ]
     }
    ]
   },
@@ -115,6 +204,16 @@
      "en": "Real positivity is not about hiding sadness, stress or fear.",
      "zh": "真正的正向不是隱藏悲傷、壓力或恐懼。"
     }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ],
+   "der": [
+    "positive adj. 正向的，樂觀的",
+    "positively adv. 正面地"
    ]
   },
   {
@@ -133,6 +232,32 @@
      "en": "How to stay positive without pretending that everything is perfect.",
      "zh": "如何在不假裝一切完美的情況下保持正向。"
     }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "pretends"
+      ],
+      [
+       "過去式",
+       "pretended"
+      ],
+      [
+       "過去分詞",
+       "pretended"
+      ],
+      [
+       "現在分詞",
+       "pretending"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "pretense n. 假裝"
    ]
   },
   {
@@ -151,6 +276,33 @@
      "en": "You admitted the mistake, but you did not turn it into a story about who you are.",
      "zh": "你承認了錯誤，但沒把它變成對自己是誰的評斷。"
     }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "admits"
+      ],
+      [
+       "過去式",
+       "admitted"
+      ],
+      [
+       "過去分詞",
+       "admitted"
+      ],
+      [
+       "現在分詞",
+       "admitting"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "admission n. 承認；入場（許可）",
+    "admittedly adv. 誠然，不可否認地"
    ]
   },
   {
@@ -173,6 +325,36 @@
      "en": "A lot of stress comes from trying to solve things that are not ours to control.",
      "zh": "很多壓力來自於想解決不是我們能控制的事。"
     }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "controls"
+      ],
+      [
+       "過去式",
+       "controlled"
+      ],
+      [
+       "過去分詞",
+       "controlled"
+      ],
+      [
+       "現在分詞",
+       "controlling"
+      ]
+     ]
+    },
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ],
+   "der": [
+    "controller n. 管理者；控制器"
    ]
   },
   {
@@ -191,6 +373,33 @@
      "en": "I can prepare my answers, choose my clothes, and arrive early.",
      "zh": "我可以準備回答、挑好衣服、並早點到。"
     }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "prepares"
+      ],
+      [
+       "過去式",
+       "prepared"
+      ],
+      [
+       "過去分詞",
+       "prepared"
+      ],
+      [
+       "現在分詞",
+       "preparing"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "preparation n. 準備",
+    "prepared adj. 準備好的"
    ]
   },
   {
@@ -209,6 +418,15 @@
      "en": "Gratitude means noticing something good that is already here.",
      "zh": "感恩就是注意到已經在身邊的美好事物。"
     }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ],
+   "der": [
+    "grateful adj. 感激的"
    ]
   },
   {
@@ -227,6 +445,22 @@
      "en": "Comparison can change your mood very quickly.",
      "zh": "比較會很快地改變你的心情。"
     }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "comparisons"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "compare v. 比較",
+    "comparable adj. 可比較的；相當的",
+    "comparative adj. 比較的"
    ]
   },
   {
@@ -245,6 +479,20 @@
      "en": "Can we make a simple daily routine from all of this?",
      "zh": "我們可以把這些變成一套簡單的每日慣例嗎？"
     }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "routines"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "routinely adv. 例行地，慣常地"
    ]
   },
   {
@@ -263,6 +511,25 @@
      "en": "That is realistic positivity.",
      "zh": "那才是務實的正向。"
     }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more realistic"
+      ],
+      [
+       "最高級",
+       "most realistic"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "reality n. 現實",
+    "realistically adv. 實際地"
    ]
   },
   {
@@ -281,6 +548,26 @@
      "en": "I still felt disappointed, but I was moving again.",
      "zh": "我仍感到失望，但我又重新前進了。"
     }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more disappointed"
+      ],
+      [
+       "最高級",
+       "most disappointed"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "disappoint v. 使失望",
+    "disappointing adj. 令人失望的",
+    "disappointment n. 失望"
    ]
   },
   {
@@ -303,6 +590,37 @@
      "en": "Support from other people matters.",
      "zh": "來自他人的支持很重要。"
     }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    },
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "supports"
+      ],
+      [
+       "過去式",
+       "supported"
+      ],
+      [
+       "過去分詞",
+       "supported"
+      ],
+      [
+       "現在分詞",
+       "supporting"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "supporter n. 支持者",
+    "supportive adj. 支持的，給予鼓勵的"
    ]
   }
  ],

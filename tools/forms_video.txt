@@ -1,0 +1,33 @@
+# 影片課程單字：時態／詞形變化（forms）＋衍生字（der；已有 fam 的填 —）。格式同 packs/src/forms_core.txt
+# 跑 python tools/add_wordforms.py video 寫進 tools/episodes/*.json，再跑 build_video_units.py course
+self-talk	n: 不可數	—
+focus on	v: focuses on, focused on, focused on, focusing on	focus n. 焦點
+small step	n: small steps	—
+bounce back	v: bounces back, bounced back, bounced back, bouncing back	—
+work through	v: works through, worked through, worked through, working through	—
+positivity	n: 不可數	positive adj. 正向的，樂觀的 | positively adv. 正面地
+pretend	v: pretends, pretended, pretended, pretending	pretense n. 假裝
+admit	v: admits, admitted, admitted, admitting	admission n. 承認；入場（許可） | admittedly adv. 誠然，不可否認地
+control	v: controls, controlled, controlled, controlling ; n: 不可數	controller n. 管理者；控制器
+prepare	v: prepares, prepared, prepared, preparing	preparation n. 準備 | prepared adj. 準備好的
+gratitude	n: 不可數	grateful adj. 感激的
+comparison	n: comparisons	compare v. 比較 | comparable adj. 可比較的；相當的 | comparative adj. 比較的
+routine	n: routines	routinely adv. 例行地，慣常地
+realistic	adj: more realistic, most realistic	reality n. 現實 | realistically adv. 實際地
+disappointed	adj: more disappointed, most disappointed	disappoint v. 使失望 | disappointing adj. 令人失望的 | disappointment n. 失望
+support	n: 不可數 ; v: supports, supported, supported, supporting	supporter n. 支持者 | supportive adj. 支持的，給予鼓勵的
+rejection	n: rejections	—
+spike	v: spikes, spiked, spiked, spiking ; n: spikes	—
+socially anxious	adj: more socially anxious, most socially anxious	—
+come easier	v: comes easier, came easier, come easier, coming easier	—
+perfectionism	n: 不可數	—
+appraise	v: appraises, appraised, appraised, appraising	—
+boost	v: boosts, boosted, boosted, boosting ; n: boosts	booster n. 增強物；助推器
+stinky	adj: stinkier, stinkiest	—
+fragrant	adj: more fragrant, most fragrant	—
+subjective	adj: more subjective, most subjective	subject n. 主題；科目 | subjectively adv. 主觀地 | objective adj. 客觀的（反義）
+visual	adj: 無比較級	visualize v. 想像；使視覺化 | visually adv. 視覺上
+auditory	adj: 無比較級	—
+olfactory	adj: 無比較級	—
+shut something down	v: shuts ~ down, shut ~ down, shut ~ down, shutting ~ down	shutdown n. 停工；關閉
+extensively	adv: more extensively, most extensively	—

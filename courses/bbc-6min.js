@@ -51,6 +51,17 @@ TVJ.register({
        "t": "reject an offer / a proposal / an application 拒絕提議／提案／申請；a letter of rejection 拒絕信（應徵落選通知）。多益常考動詞 reject 與名詞 rejection 的詞性區分。"
       }
      ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "rejections"
+        ]
+       ]
+      }
+     ],
      "aus": {
       "US": "tts/rCIs5x0SGTY/w1_US.mp3",
       "UK": "tts/rCIs5x0SGTY/w1_UK.mp3",
@@ -88,6 +99,38 @@ TVJ.register({
       {
        "k": "常考語句",
        "t": "a spike in sales / demand / prices 銷售／需求／價格暴增。多益圖表題常用 spike、surge、soar 描述數字急升。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "spikes"
+        ],
+        [
+         "過去式",
+         "spiked"
+        ],
+        [
+         "過去分詞",
+         "spiked"
+        ],
+        [
+         "現在分詞",
+         "spiking"
+        ]
+       ]
+      },
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "spikes"
+        ]
+       ]
       }
      ],
      "aus": {
@@ -129,6 +172,21 @@ TVJ.register({
        "t": "be anxious about 擔心～；be anxious to do 渴望做～（多益常考後者：We are anxious to hear from you. 我們急於收到您的回覆）。"
       }
      ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more socially anxious"
+        ],
+        [
+         "最高級",
+         "most socially anxious"
+        ]
+       ]
+      }
+     ],
      "aus": {
       "US": "tts/rCIs5x0SGTY/w3_US.mp3",
       "UK": "tts/rCIs5x0SGTY/w3_UK.mp3",
@@ -164,6 +222,29 @@ TVJ.register({
        "t": "come + 形容詞比較級，表示「變得更～」，屬口語說法。正式書寫可改用 become easier。"
       }
      ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "comes easier"
+        ],
+        [
+         "過去式",
+         "came easier"
+        ],
+        [
+         "過去分詞",
+         "come easier"
+        ],
+        [
+         "現在分詞",
+         "coming easier"
+        ]
+       ]
+      }
+     ],
      "aus": {
       "US": "tts/rCIs5x0SGTY/w4_US.mp3",
       "UK": "tts/rCIs5x0SGTY/w4_UK.mp3",
@@ -195,6 +276,12 @@ TVJ.register({
      ],
      "fam": [
       "perfectionist n. 完美主義者"
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
      ],
      "aus": {
       "US": "tts/rCIs5x0SGTY/w5_US.mp3",
@@ -232,6 +319,29 @@ TVJ.register({
       {
        "k": "常考語句",
        "t": "performance appraisal 績效考核（多益高頻）；appraise the value of a property 評估房產價值。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "appraises"
+        ],
+        [
+         "過去式",
+         "appraised"
+        ],
+        [
+         "過去分詞",
+         "appraised"
+        ],
+        [
+         "現在分詞",
+         "appraising"
+        ]
+       ]
       }
      ],
      "aus": {
@@ -272,6 +382,41 @@ TVJ.register({
        "k": "常考語句",
        "t": "boost sales / productivity / morale 提高銷售／生產力／士氣，多益商業情境高頻。"
       }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "boosts"
+        ],
+        [
+         "過去式",
+         "boosted"
+        ],
+        [
+         "過去分詞",
+         "boosted"
+        ],
+        [
+         "現在分詞",
+         "boosting"
+        ]
+       ]
+      },
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "boosts"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "booster n. 增強物；助推器"
      ],
      "aus": {
       "US": "tts/rCIs5x0SGTY/w7_US.mp3",
@@ -444,6 +589,21 @@ TVJ.register({
       "stink v. 發出臭味"
      ],
      "ant": "fragrant 香的",
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "stinkier"
+        ],
+        [
+         "最高級",
+         "stinkiest"
+        ]
+       ]
+      }
+     ],
      "aus": {
       "US": "tts/xwseWCSXD3Y/w1_US.mp3",
       "UK": "tts/xwseWCSXD3Y/w1_UK.mp3",
@@ -482,6 +642,21 @@ TVJ.register({
        "t": "fragrance-free products 無香料產品；a line of fragrances 一系列香水。名詞 fragrance 在多益產品說明中常見。"
       }
      ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more fragrant"
+        ],
+        [
+         "最高級",
+         "most fragrant"
+        ]
+       ]
+      }
+     ],
      "aus": {
       "US": "tts/xwseWCSXD3Y/w2_US.mp3",
       "UK": "tts/xwseWCSXD3Y/w2_UK.mp3",
@@ -518,6 +693,26 @@ TVJ.register({
        "t": "subjective 主觀的 ↔ objective 客觀的。objective 當名詞是「目標」（the main objective of the meeting 會議的主要目標），多益更常考這個用法。"
       }
      ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more subjective"
+        ],
+        [
+         "最高級",
+         "most subjective"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "subject n. 主題；科目",
+      "subjectively adv. 主觀地",
+      "objective adj. 客觀的（反義）"
+     ],
      "aus": {
       "US": "tts/xwseWCSXD3Y/w3_US.mp3",
       "UK": "tts/xwseWCSXD3Y/w3_UK.mp3",
@@ -553,6 +748,16 @@ TVJ.register({
        "t": "visual aids 視覺輔助工具（簡報用的圖表、投影片），多益簡報情境常見。"
       }
      ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "der": [
+      "visualize v. 想像；使視覺化",
+      "visually adv. 視覺上"
+     ],
      "aus": {
       "US": "tts/xwseWCSXD3Y/w4_US.mp3",
       "UK": "tts/xwseWCSXD3Y/w4_UK.mp3",
@@ -587,6 +792,12 @@ TVJ.register({
       "audience n. 聽眾，觀眾",
       "auditorium n. 禮堂"
      ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
      "aus": {
       "US": "tts/xwseWCSXD3Y/w5_US.mp3",
       "UK": "tts/xwseWCSXD3Y/w5_UK.mp3",
@@ -614,6 +825,12 @@ TVJ.register({
         "UK": "tts/xwseWCSXD3Y/w6_e0_UK.mp3",
         "AU": "tts/xwseWCSXD3Y/w6_e0_AU.mp3"
        }
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
       }
      ],
      "aus": {
@@ -650,6 +867,32 @@ TVJ.register({
        "k": "常考語句",
        "t": "shut down a factory / a production line / the system 關閉工廠／生產線／系統。多益公告題常見：The plant will be shut down for maintenance. 工廠將停工維修。"
       }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "shuts ~ down"
+        ],
+        [
+         "過去式",
+         "shut ~ down"
+        ],
+        [
+         "過去分詞",
+         "shut ~ down"
+        ],
+        [
+         "現在分詞",
+         "shutting ~ down"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "shutdown n. 停工；關閉"
      ],
      "aus": {
       "US": "tts/xwseWCSXD3Y/w7_US.mp3",
@@ -688,6 +931,21 @@ TVJ.register({
       {
        "k": "常考語句",
        "t": "travel extensively 到處出差；extensive experience in 在～方面有豐富經驗（履歷、徵才廣告高頻）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adv.",
+       "f": [
+        [
+         "比較級",
+         "more extensively"
+        ],
+        [
+         "最高級",
+         "most extensively"
+        ]
+       ]
       }
      ],
      "aus": {

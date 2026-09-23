@@ -41,6 +41,12 @@ TVJ.register({
        }
       }
      ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
      "aus": {
       "US": "tts/5ISyv18N52M/w1_US.mp3",
       "UK": "tts/5ISyv18N52M/w1_UK.mp3",
@@ -69,6 +75,32 @@ TVJ.register({
        }
       }
      ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "focuses on"
+        ],
+        [
+         "過去式",
+         "focused on"
+        ],
+        [
+         "過去分詞",
+         "focused on"
+        ],
+        [
+         "現在分詞",
+         "focusing on"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "focus n. 焦點"
+     ],
      "aus": {
       "US": "tts/5ISyv18N52M/w2_US.mp3",
       "UK": "tts/5ISyv18N52M/w2_UK.mp3",
@@ -95,6 +127,17 @@ TVJ.register({
         "UK": "tts/5ISyv18N52M/w3_e0_UK.mp3",
         "AU": "tts/5ISyv18N52M/w3_e0_AU.mp3"
        }
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "small steps"
+        ]
+       ]
       }
      ],
      "aus": {
@@ -125,6 +168,29 @@ TVJ.register({
        }
       }
      ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "bounces back"
+        ],
+        [
+         "過去式",
+         "bounced back"
+        ],
+        [
+         "過去分詞",
+         "bounced back"
+        ],
+        [
+         "現在分詞",
+         "bouncing back"
+        ]
+       ]
+      }
+     ],
      "aus": {
       "US": "tts/5ISyv18N52M/w4_US.mp3",
       "UK": "tts/5ISyv18N52M/w4_UK.mp3",
@@ -151,6 +217,29 @@ TVJ.register({
         "UK": "tts/5ISyv18N52M/w5_e0_UK.mp3",
         "AU": "tts/5ISyv18N52M/w5_e0_AU.mp3"
        }
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "works through"
+        ],
+        [
+         "過去式",
+         "worked through"
+        ],
+        [
+         "過去分詞",
+         "worked through"
+        ],
+        [
+         "現在分詞",
+         "working through"
+        ]
+       ]
       }
      ],
      "aus": {
@@ -181,6 +270,16 @@ TVJ.register({
        }
       }
      ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "der": [
+      "positive adj. 正向的，樂觀的",
+      "positively adv. 正面地"
+     ],
      "aus": {
       "US": "tts/5ISyv18N52M/w6_US.mp3",
       "UK": "tts/5ISyv18N52M/w6_UK.mp3",
@@ -209,6 +308,32 @@ TVJ.register({
        }
       }
      ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "pretends"
+        ],
+        [
+         "過去式",
+         "pretended"
+        ],
+        [
+         "過去分詞",
+         "pretended"
+        ],
+        [
+         "現在分詞",
+         "pretending"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "pretense n. 假裝"
+     ],
      "aus": {
       "US": "tts/5ISyv18N52M/w7_US.mp3",
       "UK": "tts/5ISyv18N52M/w7_UK.mp3",
@@ -236,6 +361,33 @@ TVJ.register({
         "AU": "tts/5ISyv18N52M/w8_e0_AU.mp3"
        }
       }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "admits"
+        ],
+        [
+         "過去式",
+         "admitted"
+        ],
+        [
+         "過去分詞",
+         "admitted"
+        ],
+        [
+         "現在分詞",
+         "admitting"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "admission n. 承認；入場（許可）",
+      "admittedly adv. 誠然，不可否認地"
      ],
      "aus": {
       "US": "tts/5ISyv18N52M/w8_US.mp3",
@@ -269,6 +421,36 @@ TVJ.register({
        }
       }
      ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "controls"
+        ],
+        [
+         "過去式",
+         "controlled"
+        ],
+        [
+         "過去分詞",
+         "controlled"
+        ],
+        [
+         "現在分詞",
+         "controlling"
+        ]
+       ]
+      },
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "der": [
+      "controller n. 管理者；控制器"
+     ],
      "aus": {
       "US": "tts/5ISyv18N52M/w9_US.mp3",
       "UK": "tts/5ISyv18N52M/w9_UK.mp3",
@@ -296,6 +478,33 @@ TVJ.register({
         "AU": "tts/5ISyv18N52M/w10_e0_AU.mp3"
        }
       }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "prepares"
+        ],
+        [
+         "過去式",
+         "prepared"
+        ],
+        [
+         "過去分詞",
+         "prepared"
+        ],
+        [
+         "現在分詞",
+         "preparing"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "preparation n. 準備",
+      "prepared adj. 準備好的"
      ],
      "aus": {
       "US": "tts/5ISyv18N52M/w10_US.mp3",
@@ -325,6 +534,15 @@ TVJ.register({
        }
       }
      ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "der": [
+      "grateful adj. 感激的"
+     ],
      "aus": {
       "US": "tts/5ISyv18N52M/w11_US.mp3",
       "UK": "tts/5ISyv18N52M/w11_UK.mp3",
@@ -352,6 +570,22 @@ TVJ.register({
         "AU": "tts/5ISyv18N52M/w12_e0_AU.mp3"
        }
       }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "comparisons"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "compare v. 比較",
+      "comparable adj. 可比較的；相當的",
+      "comparative adj. 比較的"
      ],
      "aus": {
       "US": "tts/5ISyv18N52M/w12_US.mp3",
@@ -381,6 +615,20 @@ TVJ.register({
        }
       }
      ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "routines"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "routinely adv. 例行地，慣常地"
+     ],
      "aus": {
       "US": "tts/5ISyv18N52M/w13_US.mp3",
       "UK": "tts/5ISyv18N52M/w13_UK.mp3",
@@ -409,6 +657,25 @@ TVJ.register({
        }
       }
      ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more realistic"
+        ],
+        [
+         "最高級",
+         "most realistic"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "reality n. 現實",
+      "realistically adv. 實際地"
+     ],
      "aus": {
       "US": "tts/5ISyv18N52M/w14_US.mp3",
       "UK": "tts/5ISyv18N52M/w14_UK.mp3",
@@ -436,6 +703,26 @@ TVJ.register({
         "AU": "tts/5ISyv18N52M/w15_e0_AU.mp3"
        }
       }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more disappointed"
+        ],
+        [
+         "最高級",
+         "most disappointed"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "disappoint v. 使失望",
+      "disappointing adj. 令人失望的",
+      "disappointment n. 失望"
      ],
      "aus": {
       "US": "tts/5ISyv18N52M/w15_US.mp3",
@@ -468,6 +755,37 @@ TVJ.register({
         "AU": "tts/5ISyv18N52M/w16_e0_AU.mp3"
        }
       }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      },
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "supports"
+        ],
+        [
+         "過去式",
+         "supported"
+        ],
+        [
+         "過去分詞",
+         "supported"
+        ],
+        [
+         "現在分詞",
+         "supporting"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "supporter n. 支持者",
+      "supportive adj. 支持的，給予鼓勵的"
      ],
      "aus": {
       "US": "tts/5ISyv18N52M/w16_US.mp3",
