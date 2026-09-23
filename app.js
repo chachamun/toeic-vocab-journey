@@ -1219,7 +1219,7 @@ el('gearBtn').onclick = () => {
   const s = el('scrim'); s.hidden = false;
   const show = () => s.classList.add('show');
   requestAnimationFrame(show); setTimeout(show, 60);   // rAF 在背景分頁會被凍結，補一道 setTimeout 保險
-  fillRateSeg(); fillVoice(); fillPackList();
+  fillRateSeg(); loadVoices(); fillPackList();   // 每次打開設定都重讀一次語音清單
   el('syncUrl').value = SYNC.url; el('syncKey').value = SYNC.key;
   document.querySelectorAll('#themeSeg button').forEach(b => b.classList.toggle('on', b.dataset.th === S.settings.theme));
 };
@@ -1230,6 +1230,33 @@ document.querySelectorAll('#themeSeg button').forEach(b => b.onclick = () => {
 });
 el('voiceSel').onchange = e => { S.settings.voiceURI = e.target.value; S.settings.voiceAuto = false; touch(); say('Professional business attire is required.'); };
 el('voiceTry').onclick = () => say('Hello! Professional business attire is required of all staff giving presentations.');
+/* 語音檢查：列出裝置實際開放給網頁的英文語音，讓使用者截圖或複製回報 */
+function voiceReport() {
+  const all = window.speechSynthesis ? speechSynthesis.getVoices() : [];
+  const en = all.filter(v => /^en/i.test(v.lang));
+  const tag = v => {
+    const s = (v.voiceURI + ' ' + v.name).toLowerCase();
+    return /premium|高品質/.test(s) ? '高品質' : /enhanced|增強|加強/.test(s) ? '增強版' : /siri/.test(s) ? 'Siri'
+      : /natural|neural/.test(s) ? 'Natural' : /compact/.test(s) ? '精簡版' : '一般';
+  };
+  return { all: all.length, en, tag,
+    text: '裝置回報語音 ' + all.length + ' 個（英文 ' + en.length + ' 個）\n' + navigator.userAgent + '\n' +
+      en.map(v => v.name + '｜' + v.lang + '｜' + tag(v) + '｜' + v.voiceURI).join('\n') };
+}
+el('voiceDiagBtn').onclick = () => {
+  loadVoices();
+  const box = el('voiceDiag'), r = voiceReport();
+  box.innerHTML = `<div class="tiny"><b>這台裝置開放給網頁的語音：共 ${r.all} 個，英文 ${r.en.length} 個</b></div>
+    <div class="diaglist">${r.en.map(v => `<div><span class="dq dq-${esc(r.tag(v))}">${esc(r.tag(v))}</span> ${esc(v.name)} <span class="muted">${esc(v.lang)}</span></div>`).join('') || '<div class="muted">（一個英文語音都沒有）</div>'}</div>
+    <div class="tiny muted" style="line-height:1.6">清單裡如果沒有你下載的聲音，代表 iPhone 沒有開放給網頁使用。請截這張圖，或按下面複製後貼給小恰。</div>
+    <button class="btn ghost sm" id="voiceCopy">複製清單</button>`;
+  box.classList.add('show');
+  el('voiceCopy').onclick = () => {
+    const t = r.text;
+    (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).then(() => toast('已複製，貼給小恰就好'))
+      .catch(() => { const ta = document.createElement('textarea'); ta.value = t; document.body.appendChild(ta); ta.select(); try { document.execCommand('copy'); toast('已複製'); } catch (e) { toast('複製失敗，請改用截圖'); } ta.remove(); });
+  };
+};
 el('resetBtn').onclick = () => {
   const c = curCourse(), u = curUnit();
   (u.words || []).forEach(w => { delete S.prog[gid(c.id, u.id, w.n)]; });
@@ -1283,7 +1310,10 @@ document.addEventListener('visibilitychange', () => { if (document.hidden) { sto
 
 /* ===================== BOOT ===================== */
 (async function boot() {
-  if (window.speechSynthesis) { loadVoices(); speechSynthesis.onvoiceschanged = loadVoices; }
+  if (window.speechSynthesis) {
+    loadVoices(); speechSynthesis.onvoiceschanged = loadVoices;
+    [800, 2500, 6000].forEach(t => setTimeout(loadVoices, t));   // iPhone Safari 的清單常常晚一點才補齊，而且不一定會通知
+  }
   syncLoadCfg();
   applyTheme();
   try { await loadPacks(); } catch (e) {}
