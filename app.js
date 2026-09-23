@@ -822,13 +822,7 @@ function viewHome() {
   const d = days()[today()] || { w: 0, q: 0, in: false }, lt = learnedTotal(), due = dueList().length, sk = streak();
   const R = 42, C = 2 * Math.PI * R, pct = lt.total ? Math.round(lt.k / lt.total * 100) : 0;
   const off = C * (1 - (lt.total ? (lt.k + lt.l * .5) / lt.total : 0));
-  // 單字教材全列；影片只列最新 3 集（其餘在左側選單）
-  const act = [];
-  DATA.courses.forEach(c => {
-    let us = c.units.filter(released);
-    if (c.kind === 'video') us = us.slice().sort(byNewest).slice(0, 3);
-    us.forEach(u => act.push({ c, u, s: unitStats(c, u) }));
-  });
+  // 各單元進度不在首頁列（首頁太長），改看左上 ☰ 選單
   return `<div class="view fade">
     ${taskCard()}
     <div class="card pad">
@@ -857,25 +851,6 @@ function viewHome() {
         </div>
       </div>
     </div>
-
-    <div class="row"><h2 class="sect" style="margin:0">各教材進度（單字＋影片）</h2>
-      <button class="btn ghost sm" data-drawer="1" style="margin-left:auto">☰ 全部教材</button></div>
-    ${act.map(({ c, u, s }) => `<div class="card pad" style="padding:13px">
-      <div class="row"><b style="font-size:14.5px">${esc(u.theme || u.label)}</b>
-        ${u.release === today() ? '<span class="du-new">NEW</span>' : ''}
-        <span class="tiny muted">${esc(c.name)}・${esc(u.label)}</span>
-        <b style="margin-left:auto;font-family:var(--disp);font-variant-numeric:tabular-nums">${s.pct}%</b></div>
-      <div class="bar" style="margin-top:9px"><i style="width:${s.pct}%"></i></div>
-      <div class="row tiny muted" style="margin-top:7px">
-        <span>已精熟 ${s.k}／${s.total}</span>
-        <span style="margin-left:auto">${u.video ? '🎬 影片　' : ''}${u.audioSrc ? '🔊 真人原音' : ''}</span>
-      </div>
-      <div class="two" style="margin-top:11px">
-        <button class="btn ghost sm" data-open="${esc(c.id)}||${esc(u.id)}||vocab">背單字</button>
-        <button class="btn ghost sm" data-open="${esc(c.id)}||${esc(u.id)}||listen">聽力</button>
-        <button class="btn ghost sm" data-open="${esc(c.id)}||${esc(u.id)}||read">閱讀</button>
-      </div>
-    </div>`).join('')}
 
     ${due ? `<button class="btn" data-goq="review">🔁　複習測驗（${due} 個到期）</button>` : ''}
     ${!d.in ? `<button class="btn ghost" data-goto="checkin">📅　今天還沒打卡</button>` : ''}
