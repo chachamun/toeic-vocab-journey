@@ -107,19 +107,21 @@ def cmd_sample(voice_list):
 
 
 def plan_unit(words, prefix, voice, mix):
-    """一個單元要產生的音檔：[(文字, 檔名, 語音, 物件, 口音)]。例句口音在單元內依序輪流。"""
-    out, k_all = [], 0
+    """一個單元要產生的音檔：[(文字, 檔名, 語音, 物件, 口音)]。
+    mix：每個單字、每句例句都做美／英／澳三種口音（App 可選口音或三種連播）；否則只做美式。"""
+    accs = ACCENTS if mix else ACCENTS[:1]
+    out = []
     for w in words:
-        out.append((w['w'], '%s_w%d.mp3' % (prefix, w['n']), voice_of(voice, 'en-US'), w, None))
+        for lang, acc in accs:
+            out.append((w['w'], '%s_w%d_%s.mp3' % (prefix, w['n'], acc), voice_of(voice, lang), w, acc))
         for k, e in enumerate(w.get('ex', [])):
-            lang, acc = ACCENTS[k_all % len(ACCENTS)] if mix else ('en-US', 'US')
-            k_all += 1
-            out.append((e['en'], '%s_w%d_e%d.mp3' % (prefix, w['n'], k), voice_of(voice, lang), e, acc))
+            for lang, acc in accs:
+                out.append((e['en'], '%s_w%d_e%d_%s.mp3' % (prefix, w['n'], k, acc), voice_of(voice, lang), e, acc))
     return out
 
 
 def cmd_pack(pack_path, voice, days, dry, mix):
-    """國際學村：單字＋例句的音檔以 base64 嵌進教材包 clips 欄位，單字與例句加上 au（例句另加口音 acc）。"""
+    """國際學村：音檔以 base64 嵌進教材包 clips，單字與例句加上 aus = {US, UK, AU: 檔名}。"""
     pack = json.load(io.open(pack_path, encoding='utf-8'))
     plan = []
     for c in pack['courses']:
@@ -131,16 +133,22 @@ def cmd_pack(pack_path, voice, days, dry, mix):
     if dry:
         return
     clips = pack.get('clips', {})
+    for obj in {id(p[3]): p[3] for p in plan}.values():       # 清掉舊格式欄位
+        obj.pop('au', None); obj.pop('acc', None); obj['aus'] = {}
     for i, (t, f, v, obj, acc) in enumerate(plan, 1):
         data, _ = synth(speakable(t), v)
         clips[f] = base64.b64encode(data).decode('ascii')
-        obj['au'] = f
-        if acc:
-            obj['acc'] = acc
-        else:
-            obj.pop('acc', None)
-        if i % 40 == 0:
+        obj['aus'][acc] = f
+        if i % 100 == 0:
             print('  %d/%d' % (i, len(plan)))
+    used = {f for _, f, _, _, _ in plan}
+    for c in pack['courses']:                                  # 其他單元已有的也算用到
+        for u in c['units']:
+            for w in u.get('words', []):
+                used.update((w.get('aus') or {}).values())
+                for e in w.get('ex', []):
+                    used.update((e.get('aus') or {}).values())
+    clips = {k: v for k, v in clips.items() if k in used}      # 丟掉舊格式留下的音檔
     pack['clips'] = clips
     pack['ttsVoice'] = voice_of(voice, 'en-US') + (' ＋英澳口音' if mix else '')
     json.dump(pack, io.open(pack_path, 'w', encoding='utf-8'), ensure_ascii=False)
@@ -148,16 +156,13 @@ def cmd_pack(pack_path, voice, days, dry, mix):
 
 
 def cmd_video(voice, dry, mix):
-    """影片課程：音檔放 tts/<影片ID>/，例句檔名帶口音（w3_e0_UK.mp3），build_video_units.py 會掛上 au 與 acc。"""
+    """影片課程：音檔放 tts/<影片ID>/w3_UK.mp3、w3_e0_AU.mp3，build_video_units.py 會掛上 aus。"""
     plan = []
     for p in sorted(glob.glob(os.path.join(ROOT, 'tools', 'episodes', '*.json'))):
         vid = os.path.splitext(os.path.basename(p))[0]
         s = json.load(io.open(p, encoding='utf-8'))
         for t, f, v, obj, acc in plan_unit(s['words'], 'tts/%s/' % vid, voice, mix):
-            f = f.replace('/_w', '/w')
-            if acc:
-                f = f[:-4] + '_' + acc + '.mp3'
-            plan.append((t, f, v))
+            plan.append((t, f.replace('/_w', '/w'), v))
     todo = [it for it in plan if not os.path.exists(os.path.join(ROOT, it[1]))]
     print('影片單字音檔：共 %d 段，尚缺 %d 段' % (len(plan), len(todo)))
     report(todo)
@@ -167,7 +172,12 @@ def cmd_video(voice, dry, mix):
         data, _ = synth(speakable(t), v)
         out = os.path.join(ROOT, f); os.makedirs(os.path.dirname(out), exist_ok=True)
         open(out, 'wb').write(data)
-    print('完成。記得重跑：python tools/build_video_units.py course')
+    # 清掉舊命名（w3.mp3、只有單一口音的例句）留下的檔案
+    keep = {os.path.normpath(os.path.join(ROOT, f)) for _, f, _ in plan}
+    stale = [p for p in glob.glob(os.path.join(ROOT, 'tts', '*', '*.mp3')) if os.path.normpath(p) not in keep]
+    for p in stale:
+        os.remove(p)
+    print('完成（清掉舊檔 %d 個）。記得重跑：python tools/build_video_units.py course' % len(stale))
 
 
 if __name__ == '__main__':

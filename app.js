@@ -145,9 +145,10 @@ async function loadPacks() {
     for (const c of p.courses) {
       for (const u of (c.units || [])) {
         if (u.audioFile) u.audioSrc = await blobUrl(u.audioFile);
-        for (const w of (u.words || [])) {                 // 自然語音檔（單字＋例句）
-          if (w.au) w.auUrl = await blobUrl(w.au);
-          for (const e of (w.ex || [])) if (e.au) e.auUrl = await blobUrl(e.au);
+        const urlsOf = async aus => { const o = {}; for (const [a, f] of Object.entries(aus || {})) { const x = await blobUrl(f); if (x) o[a] = x; } return o; };
+        for (const w of (u.words || [])) {                 // 自然語音檔（單字＋例句，美／英／澳三種口音）
+          if (w.aus) w.ausUrl = await urlsOf(w.aus); else if (w.au) w.ausUrl = { US: await blobUrl(w.au) };
+          for (const e of (w.ex || [])) { if (e.aus) e.ausUrl = await urlsOf(e.aus); else if (e.au) e.ausUrl = { US: await blobUrl(e.au) }; }
         }
       }
       /* 教材包排在內建課程前面 */
@@ -199,7 +200,8 @@ function fillPackList() {
       const i = TVJ.courses.findIndex(x => x.id === c.id);
       if (i >= 0) TVJ.courses.splice(i, 1);
       for (const u of (c.units || [])) {
-        const names = [u.audioFile].concat(...(u.words || []).map(w => [w.au].concat((w.ex || []).map(e => e.au)))).filter(Boolean);
+        const filesOf = o => [o.au].concat(Object.values(o.aus || {}));
+        const names = [u.audioFile].concat(...(u.words || []).map(w => filesOf(w).concat(...(w.ex || []).map(filesOf)))).filter(Boolean);
         for (const nm of names) { try { await idbDel('media:' + nm); } catch (e) {} }
       }
     }
@@ -322,38 +324,71 @@ function loadVoices() {
 function isGoodVoice(v) { return /premium|enhanced|natural|neural|高品質|增強|加強/i.test(v.name + ' ' + (v.voiceURI || '')); }
 /* ── 自然語音音檔（Google Chirp 3 HD 預先產生）──
    文字 → 音檔網址。教材包的在 IndexedDB（blob:），影片課程的在 tts/。say() 先查這裡，沒有才用裝置內建語音。 */
-const CLIP = {}, CLIPBLOB = {};
-let clipAudio = null;
+const CLIP = {}, CLIPBLOB = {};                              // CLIP[文字] = { US, UK, AU: 音檔網址 }
+let clipAudio = null, playToken = 0;
+const ACC = [['US', '美式'], ['UK', '英式'], ['AU', '澳式']];
 function regClips() {
+  const pick = o => o.ausUrl || o.aus || (o.au ? { US: o.au } : null);   // 教材包用 blob 網址；影片課程用 tts/ 路徑
   DATA.courses.forEach(c => (c.units || []).forEach(u => (u.words || []).forEach(w => {
-    const a = w.auUrl || w.au; if (a) CLIP[w.w] = a;
-    (w.ex || []).forEach(e => { const b = e.auUrl || e.au; if (b) CLIP[e.en] = b; });
+    const a = pick(w); if (a && Object.keys(a).length) CLIP[w.w] = a;
+    (w.ex || []).forEach(e => { const b = pick(e); if (b && Object.keys(b).length) CLIP[e.en] = b; });
   })));
 }
-async function playClip(src, text, rate) {
-  try { if (window.speechSynthesis) speechSynthesis.cancel(); } catch (e) {}
+/* 播一段音檔；播完才 resolve（三種連播要一段接一段） */
+async function playClip(src, rate) {
   if (!clipAudio) clipAudio = new Audio();
   clipAudio.pause();
-  try {
-    let url = src;
-    if (!/^blob:/.test(src)) {                              // 先完整抓下來（讓離線快取存得到），同一檔只抓一次
-      if (!CLIPBLOB[src]) { const r = await fetch(src); if (!r.ok) throw new Error(r.status); CLIPBLOB[src] = URL.createObjectURL(await r.blob()); }
-      url = CLIPBLOB[src];
-    }
-    clipAudio.src = url; clipAudio.playbackRate = rate; clipAudio.preservesPitch = true;
-    await clipAudio.play();
-  } catch (e) { ttsSay(text, { rate }); }                 // 音檔不能播就退回內建語音
+  let url = src;
+  if (!/^blob:/.test(src)) {                                // 先完整抓下來（讓離線快取存得到），同一檔只抓一次
+    if (!CLIPBLOB[src]) { const r = await fetch(src); if (!r.ok) throw new Error(r.status); CLIPBLOB[src] = URL.createObjectURL(await r.blob()); }
+    url = CLIPBLOB[src];
+  }
+  clipAudio.src = url; clipAudio.playbackRate = rate; clipAudio.preservesPitch = true;
+  await clipAudio.play();
+  await new Promise(res => { clipAudio.onended = res; clipAudio.onpause = res; });
 }
-/* 例句口音標籤：自然語音的例句輪流美／英／澳口音 */
-function accLabel(e) { return e && e.acc ? '・' + ({ US: '美式', UK: '英式', AU: '澳式' }[e.acc] || '') : ''; }
-function say(t, o) {
+/* 口音模式：US／UK／AU＝只念那一種；ALL＝同一句美→英→澳各念一次 */
+function accMode() { const m = S.settings.accent; return ['US', 'UK', 'AU', 'ALL'].includes(m) ? m : 'ALL'; }
+async function say(t, o) {
   o = o || {};
-  const src = CLIP[t];
-  if (src) { playClip(src, t, o.rate || S.settings.rate || 1); return; }
-  ttsSay(t, o);
+  const c = CLIP[t];
+  if (!c) { ttsSay(t, o); return; }
+  try { if (window.speechSynthesis) speechSynthesis.cancel(); } catch (e) {}
+  const my = ++playToken, rate = o.rate || S.settings.rate || 1, mode = accMode();
+  const list = mode === 'ALL' ? ACC.filter(([a]) => c[a]) : [[c[mode] ? mode : Object.keys(c)[0], '']];
+  try {
+    for (let i = 0; i < list.length; i++) {
+      if (my !== playToken) return;                          // 使用者又點了別的，停止這一串
+      const [a] = list[i];
+      if (mode === 'ALL') toast('🔊 ' + ACC.find(x => x[0] === a)[1] + '　' + (i + 1) + '/' + list.length);
+      await playClip(c[a], rate);
+      if (i < list.length - 1) await new Promise(r => setTimeout(r, 350));
+    }
+  } catch (e) { if (my === playToken) ttsSay(t, o); }       // 音檔不能播就退回內建語音
+}
+/* 這個單元有自然語音才顯示口音選擇列 */
+function accRow(u) {
+  if (!(u.words || []).some(w => CLIP[w.w])) return '';
+  return '<div class="row" style="gap:8px;flex-wrap:wrap"><span class="tiny muted">朗讀口音</span>' + accSeg() + '</div>';
+}
+/* 口音選擇器（每頁上方、設定頁共用同一個設定） */
+function bindAcc(root) {
+  root.querySelectorAll('[data-acc]').forEach(b => b.onclick = e => {
+    e.stopPropagation();
+    S.settings.accent = b.dataset.acc; touch();
+    document.querySelectorAll('[data-acc]').forEach(x => x.classList.toggle('on', x.dataset.acc === S.settings.accent));
+    const label = b.dataset.acc === 'ALL' ? '三種連播：同一句美→英→澳各念一次' : '朗讀口音：' + b.textContent;
+    toast(label);
+  });
+}
+function accSeg() {
+  const m = accMode();
+  return '<div class="spd accseg" title="朗讀口音">' + ACC.concat([['ALL', '三種連播']]).map(([a, l]) =>
+    '<button data-acc="' + a + '" class="' + (m === a ? 'on' : '') + '">' + l + '</button>').join('') + '</div>';
 }
 function ttsSay(t, o) {
   o = o || {}; if (!window.speechSynthesis) return;
+  playToken++;
   try { if (clipAudio) clipAudio.pause(); } catch (e) {}
   try {
     speechSynthesis.cancel();
@@ -743,7 +778,7 @@ function viewVocab() {
   const all = u.words || [], knownN = all.filter(x => pget(wid(x)).st === 'known').length;
   const filterRow = `<div class="row" style="gap:8px;flex-wrap:wrap">
       <button class="sbtn${S.settings.vonly ? ' on' : ''}" data-vonly="1">${S.settings.vonly ? '✓ ' : ''}只看還沒記住的</button>
-      <span class="tiny muted">已記住 ${knownN}／${all.length}</span></div>`;
+      <span class="tiny muted">已記住 ${knownN}／${all.length}</span></div>${accRow(u)}`;
   if (!deck.length) return `<div class="view fade">${uswitch()}${filterRow}
     <div class="card pad" style="text-align:center;padding:30px">
       <div style="font-size:38px">🏆</div><b style="font-size:18px;display:block;margin:8px 0 4px">這個單元的字你全都記住了</b>
@@ -766,7 +801,7 @@ function viewVocab() {
     </div>` : '';
   const tips = (w.tips || []).map(t => `<div class="tip"><div class="k">${t.k === '文法' ? '📘 文法解析' : t.k === '常考語句' ? '🎯 常考語句' : t.k === '易混淆' ? '⚠️ 易混淆' : '🔁 ' + esc(t.k)}</div><div class="t">${esc(t.t)}</div></div>`).join('');
   const fam = (w.fam || []).map(f => `<span class="chip"><span class="en">${esc(f.split(' ')[0])}</span> ${esc(f.split(' ').slice(1).join(' '))}</span>`).join('');
-  const ex = (w.ex || []).map(e => `<div><div class="en">${hl(e.en, w.w)}</div><div class="zh">${esc(e.zh)}</div>${sbar(e.en, '跟讀例句' + accLabel(e))}</div>`).join('');
+  const ex = (w.ex || []).map(e => `<div><div class="en">${hl(e.en, w.w)}</div><div class="zh">${esc(e.zh)}</div>${sbar(e.en, '跟讀例句')}</div>`).join('');
   return `<div class="view fade">${uswitch()}
     <div class="fc-top">
       <button class="navbtn" data-vnav="-1" aria-label="上一張" ${di <= 0 ? 'disabled' : ''}>‹</button>
@@ -979,12 +1014,13 @@ function viewListen() {
     ${src}
     ${(u.audioSrc && u.video) ? `<div class="card pad">${ytEmbed(u.video)}</div>` : ''}
     <h2 class="sect">逐句聽讀（先聽，再看文字）</h2>
+    ${accRow(u)}
     ${sents.map((w, k) => { const e = w.ex[0], rv = LS.revealed[w.n];
       return `<div class="sent" data-sent="${w.n}"><div class="idx">${k + 1} / ${sents.length}</div>
         <div class="en ${rv ? '' : 'hidden-text'}" data-en>${hl(e.en, w.w)}</div>
         <div class="zh" data-zh style="${rv ? '' : 'display:none'}">${esc(e.zh)}</div>
         <button class="reveal-btn" data-rev="${w.n}">${rv ? '隱藏文字' : '顯示文字與中譯'}</button>
-        ${sbar(e.en, '聽／跟讀' + accLabel(e))}</div>`; }).join('')}
+        ${sbar(e.en, '聽／跟讀')}</div>`; }).join('')}
     <button class="btn ghost" data-goq="today">做今日測驗（含聽力題）</button>
   </div>`;
 }
@@ -998,13 +1034,14 @@ function viewRead() {
   const u = curUnit(), sents = (u.words || []).filter(w => w.ex && w.ex.length);
   return `<div class="view fade">${uswitch()}
     ${u.video ? `<div class="card pad">${ytEmbed(u.video)}</div>` : ''}
+    ${accRow(u)}
     <div class="row"><h2 class="sect" style="margin:0">閱讀・${esc(u.theme || u.label)}</h2>
       <button class="btn ghost sm" data-zh="1" style="margin-left:auto">${RS.zh ? '隱藏中譯' : '顯示中譯'}</button></div>
     ${sents.map((w, k) => { const e = w.ex[0];
       return `<div class="sent"><div class="idx">${k + 1}　<span class="en">${esc(w.w)}</span>　${esc((w.pos || []).map(x => x.m).join('；'))}</div>
         <div class="en">${hl(e.en, w.w)}</div>
         ${RS.zh ? `<div class="zh">${esc(e.zh)}</div>` : ''}
-        ${sbar(e.en, '跟讀' + accLabel(e))}</div>`; }).join('')}
+        ${sbar(e.en, '跟讀')}</div>`; }).join('')}
     ${(u.comp && u.comp.length) ? `<button class="btn" data-goq="today">做閱讀理解測驗（${u.comp.length} 題）</button>` : ''}
   </div>`;
 }
@@ -1153,6 +1190,7 @@ function bindAll() {
     try { if (VP.player && VP.ready) VP.player.setPlaybackRate(S.settings.rate); } catch (err) {}   // 影片也跟著變速
   });
   bindShadow(document);
+  bindAcc(document);
   document.querySelectorAll('[data-drawer]').forEach(b => b.onclick = () => openDrawer());
   if ((TAB === 'listen' || TAB === 'read') && curUnit().transcript) txMount(TAB);
   document.querySelectorAll('[data-u]').forEach(b => b.onclick = () => {
@@ -1275,6 +1313,7 @@ el('gearBtn').onclick = () => {
   const show = () => s.classList.add('show');
   requestAnimationFrame(show); setTimeout(show, 60);   // rAF 在背景分頁會被凍結，補一道 setTimeout 保險
   fillRateSeg(); loadVoices(); fillPackList();   // 每次打開設定都重讀一次語音清單
+  el('accSetting').innerHTML = accSeg(); bindAcc(el('accSetting'));
   el('syncUrl').value = SYNC.url; el('syncKey').value = SYNC.key;
   document.querySelectorAll('#themeSeg button').forEach(b => b.classList.toggle('on', b.dataset.th === S.settings.theme));
 };
