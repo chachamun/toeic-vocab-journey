@@ -19,6 +19,7 @@ function defaults() {
     prog: {}, days: {},
     settings: { rate: 1, theme: 'auto', voiceURI: '', vonly: false },
     vpos: {},
+    notes: {},                                               // 我的筆記：notes[課程/單元/w序號] = { t: 文字, at: 時間 }
     updatedAt: 0
   };
 }
@@ -27,7 +28,8 @@ function normState(o) {
   const s = Object.assign(d, o || {}, {
     settings: Object.assign(d.settings, (o && o.settings) || {}),
     days: (o && o.days) || {},
-    prog: (o && o.prog) || {}
+    prog: (o && o.prog) || {},
+    notes: (o && o.notes) || {}
   });
   if (![0.5, 0.75, 1, 1.25, 1.5].includes(s.settings.rate)) s.settings.rate = 1;
   fixDayWords(s);
@@ -255,6 +257,14 @@ function gid(cid, uid, n) { return cid + '/' + uid + '/w' + n; }
 function wid(w) { return gid(curCourse().id, curUnit().id, w.n); }
 function pget(i) { return S.prog[i] || { st: 'new', lv: 0, seen: 0, cor: 0, wro: 0, last: 0 }; }
 function pset(i, patch) { S.prog[i] = Object.assign(pget(i), patch); touch(); }
+/* 我的筆記：跟學習進度存在一起（匯出備份、同步都會帶著走） */
+function noteOf(w) { const n = S.notes[wid(w)]; return n ? n.t : ''; }
+function noteSet(w, t) {
+  t = (t || '').trim();
+  if (t) S.notes[wid(w)] = { t, at: Date.now() }; else delete S.notes[wid(w)];
+  touch();
+}
+let noteEdit = null;                                         // 正在編輯哪個字的筆記（wid）
 /* 影片單元有上架日（release），還沒到的先藏起來，做到「每天自動多一集」 */
 function released(u) { return !u.release || u.release <= today(); }
 function allUnits() { const out = []; DATA.courses.forEach(c => c.units.forEach(u => { if (released(u)) out.push({ c, u }); })); return out; }
@@ -770,7 +780,7 @@ function iosHint() {
 }
 
 /* ===================== 單字 ===================== */
-let deck = [], di = 0, flipped = false, vocabList = false, vjump = false, swiped = false;
+let deck = [], di = 0, flipped = false, vocabList = false, vjump = false, swiped = false, vnoteOnly = false;
 /* 每個單元各自記住看到哪一張（記單字編號 n，不記索引，這樣切換「只看未記住」也對得上） */
 function ukey() { return curCourse().id + '/' + curUnit().id; }
 function savePos() {
@@ -796,6 +806,20 @@ function vnav(step) {
   if (t === di) return;
   shadowRelease(); di = t; flipped = false; vjump = false; savePos(); render();
 }
+/* 我的筆記（單字卡背面）：沒寫過＝一個「新增筆記」鈕；寫過＝顯示內容＋編輯；編輯中＝輸入框 */
+function noteBox(w) {
+  const t = noteOf(w);
+  if (noteEdit === wid(w)) return `<div class="note-box editing">
+      <div class="nk">📝 我的筆記</div>
+      <textarea id="noteTa" rows="4" placeholder="記憶法、容易搞混的字、在哪裡看到的…">${esc(t)}</textarea>
+      <div class="row" style="gap:8px;margin-top:8px">
+        <button class="btn sm" data-nsave="1">儲存</button>
+        <button class="btn ghost sm" data-ncancel="1">取消</button>
+        ${t ? '<button class="btn ghost sm" data-ndel="1" style="margin-left:auto;color:var(--bad)">刪除</button>' : ''}</div></div>`;
+  if (t) return `<div class="note-box"><div class="row"><div class="nk">📝 我的筆記</div>
+      <button class="note-edit" data-nedit="1">編輯</button></div><div class="ntext">${esc(t)}</div></div>`;
+  return `<div class="note-box empty"><button class="note-add" data-nedit="1">＋ 新增我的筆記</button></div>`;
+}
 /* 時態／詞形變化：動詞三單・過去式・過去分詞・現在分詞，名詞複數，形容詞副詞比較級 */
 function formsBox(w) {
   const fs = w.forms || [];
@@ -808,16 +832,23 @@ function vjumpTo(k) { shadowRelease(); di = k; flipped = false; vjump = false; s
 function viewVocab() {
   const u = curUnit();
   if (!deck.length || (deck[0] && !(u.words || []).includes(deck[0]))) buildDeck();
-  if (vocabList) return `<div class="view fade">${uswitch()}
+  if (vocabList) {
+    const noteN = (u.words || []).filter(noteOf).length;
+    const shown = vnoteOnly ? (u.words || []).filter(noteOf) : (u.words || []);
+    return `<div class="view fade">${uswitch()}
     <button class="btn ghost sm" data-vmode="card" style="width:100%">← 回單字卡</button>
-    <div class="tiny muted" style="text-align:center">點單字可以直接跳到那張卡</div>
-    ${(u.words || []).map(w => { const p = pget(wid(w));
+    <div class="row" style="gap:8px;flex-wrap:wrap"><button class="sbtn${vnoteOnly ? ' on' : ''}" data-vnote="1">${vnoteOnly ? '✓ ' : ''}📝 只看有筆記的（${noteN}）</button>
+      <span class="tiny muted">點單字可以直接跳到那張卡</span></div>
+    ${vnoteOnly && !noteN ? '<div class="card pad tiny muted" style="text-align:center">這個單元還沒有筆記。翻到單字卡背面就能寫。</div>' : ''}
+    ${shown.map(w => { const p = pget(wid(w)), nt = noteOf(w);
       return `<div class="sent" data-vgo="${w.n}" style="cursor:pointer"><div class="row"><b class="en" style="font-family:var(--disp);font-size:16px">#${w.n} ${esc(w.w)}</b>
         <span class="stars">${'★'.repeat(w.s || 1)}</span>${w.tag ? `<span class="tiny muted">${esc(w.tag)}</span>` : ''}
         <span class="pill ${p.st}" style="margin-left:auto">${p.st === 'known' ? '已懂' : p.st === 'learning' ? '學習中' : '未學'}</span></div>
         <div class="tiny muted" style="margin-top:3px">${esc((w.pos || []).map(x => x.p + ' ' + x.m).join('　'))}</div>
+        ${nt ? `<div class="note-line">📝 ${esc(nt)}</div>` : ''}
         ${sbar(w.w, '發音')}</div>`; }).join('')}
   </div>`;
+  }
   const all = u.words || [], knownN = all.filter(x => pget(wid(x)).st === 'known').length;
   const filterRow = `<div class="row" style="gap:8px;flex-wrap:wrap">
       <button class="sbtn${S.settings.vonly ? ' on' : ''}" data-vonly="1">${S.settings.vonly ? '✓ ' : ''}只看還沒記住的</button>
@@ -858,7 +889,7 @@ function viewVocab() {
     ${grid}
     <div class="flip${flipped ? ' flipped' : ''}" id="flip"><div class="flip-inner">
       <div class="face"><div class="fc-front">
-        <div class="num">#${w.n}</div><div class="st stars">${'★'.repeat(w.s || 1)}</div>
+        <div class="num">#${w.n}${noteOf(w) ? ' <span class="note-dot" title="有筆記">📝</span>' : ''}</div><div class="st stars">${'★'.repeat(w.s || 1)}</div>
         <div class="headword en${(w.w || '').length > 11 ? ' long' : ''}">${esc(w.w)}</div>
         ${w.ph ? `<div class="ph" style="margin-top:8px">${esc(w.ph)}</div>` : ''}
         ${w.tag ? `<div class="tiny muted" style="margin-top:8px">${esc(w.tag)}</div>` : ''}
@@ -868,6 +899,7 @@ function viewVocab() {
       <div class="face back"><div class="face-scroll">
         <div class="back-word"><span class="w en">${esc(w.w)}</span>${w.ph ? `<span class="ph">${esc(w.ph)}</span>` : ''}</div>
         <div class="pos-line">${(w.pos || []).map(x => `<div class="p"><span class="pos-tag">${esc(x.p)}</span><span>${esc(x.m)}</span></div>`).join('')}</div>
+        ${noteBox(w)}
         ${forms}
         <div class="exbox">${ex}</div>
         ${(fam || der) ? '<div class="famk">🌱 詞性變化（同字根）</div>' : ''}
@@ -1279,12 +1311,13 @@ function bindAll() {
       f.onclick = e => {
         if (swiped) return;                                   // 剛滑動換卡，不要順便翻面
         if (e.target.closest('[data-say]') || e.target.closest('[data-spd]') || e.target.closest('[data-mic]') ||
-            e.target.closest('.shadow-panel') || e.target.closest('[data-sp]')) return;
+            e.target.closest('.shadow-panel') || e.target.closest('[data-sp]') || e.target.closest('.note-box')) return;
         flipped = !flipped; f.classList.toggle('flipped', flipped);
       };
       let sx = 0, sy = 0;                                     // 左右滑換卡
       f.addEventListener('touchstart', e => { const t = e.changedTouches[0]; sx = t.clientX; sy = t.clientY; }, { passive: true });
       f.addEventListener('touchend', e => {
+        if (e.target.closest('.note-box')) return;             // 在筆記框裡選字、捲動，不要換卡
         const t = e.changedTouches[0], dx = t.clientX - sx, dy = t.clientY - sy;
         if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) {
           swiped = true; setTimeout(() => { swiped = false; }, 400);
@@ -1293,6 +1326,21 @@ function bindAll() {
       }, { passive: true });
     }
     document.querySelectorAll('[data-g]').forEach(b => b.onclick = () => grade(b.dataset.g));
+    const cw = deck[di];
+    document.querySelectorAll('[data-nedit]').forEach(b => b.onclick = () => {
+      noteEdit = wid(cw); render();
+      const ta = el('noteTa'); if (ta) { ta.focus(); ta.setSelectionRange(ta.value.length, ta.value.length); }
+    });
+    document.querySelectorAll('[data-nsave]').forEach(b => b.onclick = () => {
+      const had = !!noteOf(cw); noteSet(cw, el('noteTa').value); noteEdit = null; render();
+      toast(noteOf(cw) ? '筆記已儲存' : had ? '筆記已刪除' : '沒有內容，未儲存');
+    });
+    document.querySelectorAll('[data-ncancel]').forEach(b => b.onclick = () => { noteEdit = null; render(); });
+    document.querySelectorAll('[data-ndel]').forEach(b => b.onclick = () => {
+      if (!confirm('刪除這則筆記？')) return;
+      noteSet(cw, ''); noteEdit = null; render(); toast('筆記已刪除');
+    });
+    document.querySelectorAll('[data-vnote]').forEach(b => b.onclick = () => { vnoteOnly = !vnoteOnly; render(); });
     document.querySelectorAll('[data-vnav]').forEach(b => b.onclick = () => vnav(+b.dataset.vnav));
     document.querySelectorAll('[data-vjump]').forEach(b => b.onclick = () => { vjump = !vjump; render(); });
     document.querySelectorAll('[data-vj]').forEach(b => b.onclick = () => vjumpTo(+b.dataset.vj));
