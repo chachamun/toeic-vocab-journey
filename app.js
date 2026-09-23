@@ -276,6 +276,9 @@ function unitStats(c, u) {
   return { k, l, n: t - k - l, total: t, pct: t ? Math.round(k / t * 100) : 0 };
 }
 function isDue(p) { if (p.st === 'new') return false; const d = (Date.now() - (p.last || 0)) / 86400000; return d >= IVL[Math.min(p.lv || 0, IVL.length - 1)]; }
+/* 答對／記住時能不能升級：新字或已到期才升；還沒到期（例如同一天刷第二輪）只算「看過」，
+   不升級、也不更新 last，原本排定的複習日不會被往後推。答錯的規則不變（歸零）。 */
+function canLevelUp(p) { return p.st === 'new' || isDue(p); }
 function dueList() {
   const out = [];
   allUnits().forEach(({ c, u }) => (u.words || []).forEach(w => { const i = gid(c.id, u.id, w.n), p = pget(i); if (isDue(p)) out.push({ c, u, w, i, p }); }));
@@ -912,7 +915,9 @@ function viewVocab() {
 }
 function grade(kind) {
   const w = deck[di], i = wid(w), p = pget(i);
-  if (kind === 'known') pset(i, { st: 'known', lv: Math.min((p.lv || 0) + 1, IVL.length - 1), seen: p.seen + 1, last: Date.now() });
+  if (kind === 'known') pset(i, canLevelUp(p)
+    ? { st: 'known', lv: Math.min((p.lv || 0) + 1, IVL.length - 1), seen: p.seen + 1, last: Date.now() }
+    : { st: 'known', seen: p.seen + 1 });
   else pset(i, { st: 'learning', lv: 0, seen: p.seen + 1, last: Date.now() });
   markWordToday(i); touch(); shadowRelease(); di++; flipped = false; vjump = false; savePos(); render();
 }
@@ -1229,7 +1234,9 @@ function answer(idx) {
   document.querySelectorAll('#opts .opt').forEach((b, i) => { b.setAttribute('disabled', ''); if (q.opts[i].ok) b.classList.add('correct'); else if (i === idx) b.classList.add('wrong'); });
   if (q.ref) {
     const i = gid(q.ref.c, q.ref.u, q.ref.n), p = pget(i);
-    if (ok) pset(i, { lv: Math.min((p.lv || 0) + 1, IVL.length - 1), cor: p.cor + 1, last: Date.now(), st: (p.lv || 0) >= 2 ? 'known' : 'learning' });
+    if (ok) pset(i, canLevelUp(p)
+      ? { lv: Math.min((p.lv || 0) + 1, IVL.length - 1), cor: p.cor + 1, last: Date.now(), st: (p.lv || 0) >= 2 ? 'known' : 'learning' }
+      : { cor: p.cor + 1 });
     else pset(i, { lv: 0, wro: p.wro + 1, last: Date.now(), st: 'learning' });
   }
   if (ok) QZ.score++; else { QZ.wrong.push(q); if (q.say) say(q.say); }
