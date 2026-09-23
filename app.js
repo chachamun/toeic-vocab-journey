@@ -301,10 +301,18 @@ function markWordToday(id) {
   if (!rec.ws.includes(id)) rec.ws.push(id);
   rec.w = rec.ws.length; days()[d] = rec;
 }
+/* 「今日新單字」= 今天第一次學的字（評分或作答當下仍是 st:'new'）。存 nws 清單去重、nw 為數量。
+   和上面的「今日單字」分開：到期複習的舊字不算；還不熟之後重學，字已不是 new，也不會再算一次。 */
+function markNewToday(id) {
+  const d = today(), rec = days()[d] || { w: 0, q: 0, in: false };
+  if (!Array.isArray(rec.nws)) rec.nws = [];
+  if (!rec.nws.includes(id)) rec.nws.push(id);
+  rec.nw = rec.nws.length; days()[d] = rec;
+}
 function fixDayWords(s) {
   if (!s.days || typeof s.days !== 'object') return;
   const t = today();
-  Object.keys(s.days).forEach(k => { if (k !== t && s.days[k] && s.days[k].ws) delete s.days[k].ws; });
+  Object.keys(s.days).forEach(k => { if (k !== t && s.days[k]) { delete s.days[k].ws; delete s.days[k].nws; } });
   const rec = s.days[t];
   if (rec && rec.w && !Array.isArray(rec.ws)) {
     // 舊版把「按評分的次數」當單字數 → 用每個字最後評分時間重算今天學過的不同單字
@@ -747,7 +755,7 @@ function todayTasks() {
   if (rec.tu === undefined || (rec.tu && !unitByKey(rec.tu))) { rec.tu = pickNewUnit(); dirty = true; }
   if (rec.tv === undefined || (rec.tv && !unitByKey(rec.tv))) { rec.tv = pickVideoUnit(); dirty = true; }
   if (dirty) saveLocal();
-  const tk = rec.tk, due = dueList().length, nu = unitByKey(rec.tu), vu = unitByKey(rec.tv), goal = newGoal(), w = rec.w || 0;
+  const tk = rec.tk, due = dueList().length, nu = unitByKey(rec.tu), vu = unitByKey(rec.tv), goal = newGoal(), w = rec.nw || 0;
   const uname = x => x.u.label + '・' + (x.u.theme || '');
   return [
     { id: 'rev', ic: '🔁', t: '到期複習', s: tk.rev || (due ? 'todo' : 'none'),
@@ -1014,13 +1022,14 @@ function viewVocab() {
   </div>`;
 }
 function grade(kind) {
-  const w = deck[di], i = wid(w), p = pget(i);
+  const w = deck[di], i = wid(w), p = pget(i), wasNew = p.st === 'new';   // pset 會直接改 p，先記下評分前是不是新字
   if (kind === 'known') pset(i, canLevelUp(p)
     ? { st: 'known', lv: Math.min((p.lv || 0) + 1, IVL.length - 1), seen: p.seen + 1, last: Date.now() }
     : { st: 'known', seen: p.seen + 1 });
   else pset(i, { st: 'learning', lv: 0, seen: p.seen + 1, last: Date.now() });
-  const before = dayRec().w || 0; markWordToday(i);
-  if (before < newGoal() && (dayRec().w || 0) >= newGoal()) toast('🎯 今日新單字目標達成！回首頁看下一項任務');
+  const before = dayRec().nw || 0; markWordToday(i);
+  if (wasNew) markNewToday(i);
+  if (before < newGoal() && (dayRec().nw || 0) >= newGoal()) toast('🎯 今日新單字目標達成！回首頁看下一項任務');
   touch(); shadowRelease(); di++; flipped = false; vjump = false; savePos(); render();
 }
 
@@ -1336,6 +1345,7 @@ function answer(idx) {
   document.querySelectorAll('#opts .opt').forEach((b, i) => { b.setAttribute('disabled', ''); if (q.opts[i].ok) b.classList.add('correct'); else if (i === idx) b.classList.add('wrong'); });
   if (q.ref) {
     const i = gid(q.ref.c, q.ref.u, q.ref.n), p = pget(i);
+    if (p.st === 'new') markNewToday(i);                    // 先做測驗才遇到的新字，也算今天新學（在 pset 之前判斷）
     if (ok) pset(i, canLevelUp(p)
       ? { lv: Math.min((p.lv || 0) + 1, IVL.length - 1), cor: p.cor + 1, last: Date.now(), st: (p.st === 'known' || (p.lv || 0) >= 2) ? 'known' : 'learning' }
       : { cor: p.cor + 1 });
