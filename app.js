@@ -1,5 +1,5 @@
 /* ============================================================================
-   多益字彙旅程 — 應用邏輯
+   追分計劃 — 應用邏輯
    ----------------------------------------------------------------------------
    擴充方式：資料全在 data.js（課程 → 單元 → 單字），加 Day 或加新教材
    只要往 DATA.courses 丟物件，介面自動長出來。這支檔案不用動。
@@ -648,7 +648,7 @@ function sbar(text, label, opt) {
 
 /* ===================== ROUTER ===================== */
 let TAB = 'home';
-const TITLES = { home: '多益字彙旅程', vocab: '單字', listen: '聽力', read: '閱讀', quiz: '測驗', checkin: '每日打卡' };
+const TITLES = { home: '追分計劃', vocab: '單字', listen: '聽力', read: '閱讀', quiz: '測驗', checkin: '每日打卡' };
 function render() {
   const m = el('main');
   SBN = 0;
@@ -661,7 +661,7 @@ function render() {
       '<div class="tiny muted" style="margin-top:8px;word-break:break-word">' + esc((err && err.message) || err) + '</div>' +
       '<button class="btn ghost sm" data-goto="home" style="margin-top:12px">回首頁</button></div>';
   }
-  el('hTitle').textContent = TITLES[TAB] || '多益字彙旅程';
+  el('hTitle').textContent = TITLES[TAB] || '追分計劃';
   document.querySelectorAll('#nav button').forEach(b => b.classList.toggle('on', b.dataset.tab === TAB));
   fillDrawer();
   bindAll();
