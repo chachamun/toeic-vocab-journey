@@ -474,6 +474,10 @@ function fillVoice() {
 const SH = { id: null, rec: null, stream: null, chunks: [], url: null, recog: null, heard: '', ref: '', ac: null, raf: 0, recogOK: false, t0: 0 };
 const MICOK = !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia && window.MediaRecorder);
 const SRCls = window.SpeechRecognition || window.webkitSpeechRecognition || null;
+/* iPhone／iPad（含 iPhone 上的 Chrome，底層都是 Safari 引擎）：同時開錄音和語音辨識會搶麥克風，
+   常常變成錄到空白或整個沒反應 → 在這些裝置只錄音、不開辨識。 */
+const IOS_WEBKIT = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+const SR_ON = !!SRCls && !IOS_WEBKIT;
 
 function norm(s) { return (s || '').toLowerCase().replace(/[^a-z0-9'\s]/g, ' ').replace(/\s+/g, ' ').trim(); }
 function toks(s) { const n = norm(s); return n ? n.split(' ') : []; }
@@ -500,33 +504,57 @@ function shadowRelease() {
   if (SH.url) { try { URL.revokeObjectURL(SH.url); } catch (e) {} }
   cancelAnimationFrame(SH.raf);
   SH.id = null; SH.rec = null; SH.stream = null; SH.chunks = []; SH.url = null;
-  SH.recog = null; SH.heard = ''; SH.ref = ''; SH.ac = null; SH.recogOK = false;
+  SH.recog = null; SH.heard = ''; SH.ref = ''; SH.ac = null; SH.recogOK = false; SH.starting = false; SH.err = '';
 }
 function shadowPanel(id) { return document.querySelector('[data-sp="' + id + '"]'); }
 function shadowBtn(id) { return document.querySelector('[data-mic="' + id + '"]'); }
 
+/* 開始錄音前把所有正在播的聲音停掉（範讀、三口音連播、原音、影片），iPhone 邊播邊錄容易失敗 */
+function stopAllSound() {
+  playToken++;
+  try { if (clipAudio) clipAudio.pause(); } catch (e) {}
+  try { if (window.speechSynthesis) speechSynthesis.cancel(); } catch (e) {}
+  stopAudio();
+}
 async function shadowStart(id, ref) {
-  if (SH.id && SH.id !== id) shadowRelease();
+  if (SH.starting) return;                                  // 還在等麥克風（例如權限視窗）時連點，不要再開第二條
+  if (SH.id) shadowRelease();
   const panel = shadowPanel(id), btn = shadowBtn(id);
   if (!MICOK) { if (panel) panel.innerHTML = spMsg('這個瀏覽器不支援錄音。iPhone 請用 Safari，電腦請用 Chrome。'); return; }
+  SH.starting = true;
+  stopAllSound();
+  if (btn) btn.innerHTML = '⏳ 準備麥克風…';
   try {
     SH.stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true } });
   } catch (e) {
-    if (panel) panel.innerHTML = spMsg('拿不到麥克風：' + (e.name === 'NotAllowedError' ? '你（或瀏覽器設定）拒絕了麥克風權限。請在網址列左側的鎖頭圖示裡允許麥克風。' : (e.message || e)));
+    SH.starting = false;
+    if (btn) btn.innerHTML = '🎙 錄音跟讀';
+    if (panel) panel.innerHTML = spMsg('拿不到麥克風：' + (e.name === 'NotAllowedError' ? '麥克風權限被拒絕了。iPhone：設定 → Chrome（或 Safari）→ 開啟「麥克風」；電腦：點網址列左側的圖示允許麥克風。'
+      : e.name === 'NotReadableError' ? '麥克風正被別的 App 使用中（例如通話、錄音 App），關掉後再試。' : (e.message || e)));
     return;
   }
-  vpPause();   // 錄音時先暫停影片，避免把影片聲音錄進去
-  SH.id = id; SH.ref = ref; SH.heard = ''; SH.chunks = []; SH.recogOK = false; SH.t0 = Date.now();
+  SH.starting = false;
+  SH.id = id; SH.ref = ref; SH.heard = ''; SH.chunks = []; SH.recogOK = false; SH.t0 = Date.now(); SH.err = '';
+  /* 麥克風中途被系統拿走（來電、切到別的 App）→ 停下來並說明 */
+  SH.stream.getAudioTracks().forEach(t => { t.onended = () => { if (SH.id === id && SH.rec && SH.rec.state === 'recording') { SH.err = '錄音被系統中斷了（可能有來電或切到別的 App），請再錄一次。'; shadowStop(); } }; });
 
   let mime = '';
   ['audio/webm;codecs=opus', 'audio/webm', 'audio/mp4', 'audio/aac'].some(m => {
     if (window.MediaRecorder.isTypeSupported && MediaRecorder.isTypeSupported(m)) { mime = m; return true; } return false;
   });
-  try { SH.rec = mime ? new MediaRecorder(SH.stream, { mimeType: mime }) : new MediaRecorder(SH.stream); }
-  catch (e) { SH.rec = new MediaRecorder(SH.stream); }
-  SH.rec.ondataavailable = e => { if (e.data && e.data.size) SH.chunks.push(e.data); };
-  SH.rec.onstop = () => shadowFinish(id);
-  SH.rec.start();
+  try {
+    try { SH.rec = mime ? new MediaRecorder(SH.stream, { mimeType: mime }) : new MediaRecorder(SH.stream); }
+    catch (e) { SH.rec = new MediaRecorder(SH.stream); }
+    SH.rec.ondataavailable = e => { if (e.data && e.data.size) SH.chunks.push(e.data); };
+    SH.rec.onstop = () => shadowFinish(id);
+    SH.rec.onerror = ev => { SH.err = '錄音發生錯誤：' + ((ev && ev.error && ev.error.name) || '未知'); };
+    SH.rec.start(1000);                                     // 每秒交一段資料，中途出錯也留得住已錄的部分
+  } catch (e) {
+    const msg = '無法開始錄音：' + (e.message || e);
+    shadowRelease(); if (btn) btn.innerHTML = '🎙 錄音跟讀';
+    if (panel) panel.innerHTML = spMsg(msg);
+    return;
+  }
 
   /* 音量條 */
   try {
@@ -545,8 +573,8 @@ async function shadowStart(id, ref) {
     tick();
   } catch (e) {}
 
-  /* 語音辨識（有就自動抓漏字，沒有就只錄音比對） */
-  if (SRCls) {
+  /* 語音辨識（有就自動抓漏字，沒有就只錄音比對）；iPhone 不開，避免和錄音搶麥克風 */
+  if (SR_ON) {
     try {
       const r = new SRCls();
       r.lang = 'en-US'; r.continuous = true; r.interimResults = true; r.maxAlternatives = 1;
@@ -578,7 +606,10 @@ function shadowFinish(id) {
   const btn = shadowBtn(id);
   if (btn) { btn.classList.remove('rec'); btn.innerHTML = '🎙 錄音跟讀'; }
   const secs = (Date.now() - SH.t0) / 1000;
-  const blob = SH.chunks.length ? new Blob(SH.chunks, { type: SH.chunks[0].type || 'audio/webm' }) : null;
+  const size = SH.chunks.reduce((a, c) => a + c.size, 0);
+  const blob = size ? new Blob(SH.chunks, { type: SH.chunks[0].type || 'audio/webm' }) : null;
+  if (!SH.err && secs < 0.8) SH.err = '錄音時間太短，按下後念完整句再按停止。';
+  else if (!SH.err && !blob) SH.err = '這次沒有錄到聲音。請確認沒有其他 App 在用麥克風，再錄一次。';
   if (SH.url) { try { URL.revokeObjectURL(SH.url); } catch (e) {} }
   SH.url = blob ? URL.createObjectURL(blob) : null;
   /* 辨識結果可能晚一點才進來 */
@@ -590,6 +621,7 @@ function shadowRender(id, secs) {
   const panel = shadowPanel(id); if (!panel) return;
   const a = toks(SH.ref), b = toks(SH.heard);
   let html = '<div class="sp-head"><b>跟讀結果</b><span class="tiny muted">' + secs.toFixed(1) + ' 秒</span><button class="x" data-spx="1">✕</button></div>';
+  if (SH.err) html += '<div class="sp-note" style="font-size:12.5px;color:var(--bad)">⚠️ ' + esc(SH.err) + '</div>';
 
   if (SH.recogOK && b.length) {
     const d = lcsDiff(a, b);
@@ -608,7 +640,8 @@ function shadowRender(id, secs) {
     html += '<div class="sp-note">灰色＝念到了　<span style="color:var(--bad)">紅色刪除線＝漏掉／念錯</span>　<span style="color:var(--amber)">黃色＝多念的</span><br>辨識由瀏覽器完成，口音重或環境吵時會誤判，聽自己的錄音為準。</div>';
   } else {
     html += '<div class="sp-note" style="font-size:12.5px;color:var(--ink-2)">' +
-      (SRCls ? '這次沒有辨識到文字（可能太小聲、太吵，或這個瀏覽器的辨識不穩）。' : '這個瀏覽器不支援自動辨識（iPhone Safari 常見）。') +
+      (SR_ON ? '這次沒有辨識到文字（可能太小聲、太吵，或這個瀏覽器的辨識不穩）。'
+        : IOS_WEBKIT ? 'iPhone 上只錄音、不自動抓漏字（同時辨識會和錄音搶麥克風，反而常常錄不到）。' : '這個瀏覽器不支援自動辨識。') +
       '<br>可以直接播下面的錄音，和範讀比對。</div>';
   }
   if (SH.url) html += '<audio class="sp-audio" controls src="' + SH.url + '"></audio>';
