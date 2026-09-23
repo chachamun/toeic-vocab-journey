@@ -852,7 +852,6 @@ function viewHome() {
       </div>
     </div>
 
-    ${due ? `<button class="btn" data-goq="review">🔁　複習測驗（${due} 個到期）</button>` : ''}
     ${!d.in ? `<button class="btn ghost" data-goto="checkin">📅　今天還沒打卡</button>` : ''}
     ${iosHint()}
   </div>`;
