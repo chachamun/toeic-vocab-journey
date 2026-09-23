@@ -13,3 +13,7 @@ toeic-progress-*.json
 audio/
 _tvj_pack_*.json
 packs/
+
+# Python 快取
+__pycache__/
+*.pyc
