@@ -401,7 +401,12 @@ async function playClip(src, rate) {
     }
   }
   const url = CLIPBLOB[src];
-  clipAudio.src = url; clipAudio.playbackRate = rate; clipAudio.preservesPitch = true;
+  /* iPhone 換新的 src 時會把 playbackRate 重設成 defaultPlaybackRate（1×），只設一次會時快時慢 →
+     default 也一起設，載入後與開始播放時再補設一次 */
+  const setRate = () => { try { clipAudio.defaultPlaybackRate = rate; clipAudio.playbackRate = rate; } catch (e) {} };
+  clipAudio.preservesPitch = true; clipAudio.webkitPreservesPitch = true;
+  setRate(); clipAudio.src = url; setRate();
+  clipAudio.onloadedmetadata = setRate; clipAudio.onplay = setRate;
   await clipAudio.play();
   await new Promise(res => { clipAudio.onended = res; clipAudio.onpause = res; });
 }
@@ -1495,7 +1500,9 @@ function bindAll() {
   if (TAB === 'listen') {
     const a = el('laud');
     if (a) {
-      LS.audio = a; a.playbackRate = LS.rate;
+      LS.audio = a;
+      const setRate = () => { try { a.defaultPlaybackRate = LS.rate; a.playbackRate = LS.rate; } catch (e) {} };
+      setRate(); a.addEventListener('loadedmetadata', setRate); a.addEventListener('play', setRate);   // iPhone 載入後會重設成 1×
       const pb = el('lplay'), seek = el('lseek'), tcur = el('ltcur'), tdur = el('ltdur');
       const setSeekFill = () => { if (seek) seek.style.setProperty('--p', (seek.value / 10) + '%'); };
       if (pb) pb.onclick = () => { if (a.paused) { a.play().catch(() => toast('播放失敗，請再按一次')); pb.textContent = '❚❚'; } else { a.pause(); pb.textContent = '▶'; } };
@@ -1515,7 +1522,7 @@ function bindAll() {
         seek.onchange = () => { if (a.duration) a.currentTime = seek.value / 1000 * a.duration; LS.seeking = false; };
       }
       document.querySelectorAll('[data-arate]').forEach(b => b.onclick = () => {
-        LS.rate = parseFloat(b.dataset.arate); a.playbackRate = LS.rate;
+        LS.rate = parseFloat(b.dataset.arate); a.defaultPlaybackRate = LS.rate; a.playbackRate = LS.rate;
         document.querySelectorAll('[data-arate]').forEach(x => x.classList.toggle('on', x === b));
       });
     }
