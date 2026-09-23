@@ -196,6 +196,19 @@
   .ytfall{position:absolute;inset:0;display:none;flex-direction:column;align-items:center;justify-content:center;gap:10px;background:var(--surface-2);padding:16px;text-align:center}
   .player{display:flex;flex-direction:column;gap:12px;align-items:center;text-align:center}
   .play-big{width:62px;height:62px;border-radius:50%;border:0;background:var(--accent);color:var(--on-accent);display:grid;place-items:center;font-size:22px;box-shadow:var(--shadow-lift)}
+  .seekwrap{width:100%;display:flex;align-items:center;gap:9px;margin-top:2px}
+  .seekwrap .t{font-family:var(--mono);font-size:11px;color:var(--ink-2);flex:none;font-variant-numeric:tabular-nums}
+  input[type=range].seek{-webkit-appearance:none;appearance:none;flex:1;height:22px;background:transparent;cursor:pointer}
+  input[type=range].seek::-webkit-slider-runnable-track{height:6px;border-radius:99px;
+    background:linear-gradient(to right,var(--accent) 0%,var(--accent) var(--p,0%),var(--surface-2) var(--p,0%),var(--surface-2) 100%)}
+  input[type=range].seek::-moz-range-track{height:6px;border-radius:99px;background:var(--surface-2)}
+  input[type=range].seek::-moz-range-progress{height:6px;border-radius:99px;background:var(--accent)}
+  input[type=range].seek::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:16px;height:16px;border-radius:50%;
+    background:var(--accent);border:2px solid var(--surface);box-shadow:var(--shadow);margin-top:-5px}
+  input[type=range].seek::-moz-range-thumb{width:16px;height:16px;border-radius:50%;background:var(--accent);border:2px solid var(--surface);box-shadow:var(--shadow)}
+  .lctrl{display:flex;align-items:center;gap:12px;width:100%;justify-content:center}
+  .lskip{width:40px;height:40px;border-radius:50%;border:1px solid var(--line-2);background:var(--surface);color:var(--ink-2);display:grid;place-items:center;font-size:11px;font-weight:700}
+  .lskip:active{transform:scale(.94)}
 
   .opts{display:flex;flex-direction:column;gap:9px;margin-top:8px}
   .opt{text-align:left;border:1px solid var(--line-2);background:var(--surface);border-radius:13px;padding:12px 13px;font-size:15px;display:flex;align-items:center;gap:10px}

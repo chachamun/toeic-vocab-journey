@@ -611,11 +611,17 @@ function viewListen() {
   const u = curUnit(), sents = (u.words || []).filter(w => w.ex && w.ex.length);
   let src = '';
   if (u.audioSrc) src = `<div class="card pad player">
-      <div class="tiny muted">${esc(u.label)}・真人原音</div>
+      <div class="tiny muted">${esc(u.label)}・真人原音（整天完整錄音，可拖曳進度）</div>
       <audio id="laud" src="${esc(u.audioSrc)}" preload="metadata"></audio>
-      <button class="play-big" id="lplay">▶</button>
-      <div class="spd" style="margin-left:0">${SPDS.map(r => `<button data-arate="${r}" class="${LS.rate === r ? 'on' : ''}">${r}×</button>`).join('')}</div>
-      <div class="tiny muted" id="ltime">00:00</div></div>`;
+      <div class="lctrl">
+        <button class="lskip" id="lback" aria-label="倒退5秒">⏪5</button>
+        <button class="play-big" id="lplay">▶</button>
+        <button class="lskip" id="lfwd" aria-label="快轉5秒">5⏩</button>
+      </div>
+      <div class="seekwrap"><span class="t" id="ltcur">00:00</span>
+        <input type="range" class="seek" id="lseek" min="0" max="1000" value="0" step="1" aria-label="播放進度">
+        <span class="t" id="ltdur">00:00</span></div>
+      <div class="spd" style="margin-left:0">${SPDS.map(r => `<button data-arate="${r}" class="${LS.rate === r ? 'on' : ''}">${r}×</button>`).join('')}</div></div>`;
   else if (u.video) src = `<div class="card pad">
       <div class="tiny muted" style="margin-bottom:9px;text-align:center">聽力來源：影片</div>
       ${ytEmbed(u.video)}</div>`;
@@ -625,9 +631,9 @@ function viewListen() {
     ${(u.audioSrc && u.video) ? `<div class="card pad">${ytEmbed(u.video)}</div>` : ''}
     <h2 class="sect">逐句聽讀（先聽，再看文字）</h2>
     ${sents.map((w, k) => { const e = w.ex[0], rv = LS.revealed[w.n];
-      return `<div class="sent"><div class="idx">${k + 1} / ${sents.length}</div>
-        <div class="en ${rv ? '' : 'hidden-text'}">${hl(e.en, w.w)}</div>
-        ${rv ? `<div class="zh">${esc(e.zh)}</div>` : ''}
+      return `<div class="sent" data-sent="${w.n}"><div class="idx">${k + 1} / ${sents.length}</div>
+        <div class="en ${rv ? '' : 'hidden-text'}" data-en>${hl(e.en, w.w)}</div>
+        <div class="zh" data-zh style="${rv ? '' : 'display:none'}">${esc(e.zh)}</div>
         <button class="reveal-btn" data-rev="${w.n}">${rv ? '隱藏文字' : '顯示文字與中譯'}</button>
         ${sbar(e.en, '聽／跟讀')}</div>`; }).join('')}
     <button class="btn ghost" data-goq="today">做今日測驗（含聽力題）</button>
@@ -820,16 +826,38 @@ function bindAll() {
     const a = el('laud');
     if (a) {
       LS.audio = a; a.playbackRate = LS.rate;
-      const pb = el('lplay');
+      const pb = el('lplay'), seek = el('lseek'), tcur = el('ltcur'), tdur = el('ltdur');
+      const setSeekFill = () => { if (seek) seek.style.setProperty('--p', (seek.value / 10) + '%'); };
       if (pb) pb.onclick = () => { if (a.paused) { a.play().catch(() => toast('播放失敗，請再按一次')); pb.textContent = '❚❚'; } else { a.pause(); pb.textContent = '▶'; } };
-      a.ontimeupdate = () => { const t = el('ltime'); if (t) t.textContent = fmtT(a.currentTime) + ' / ' + fmtT(a.duration || 0); };
-      a.onended = () => { const p2 = el('lplay'); if (p2) p2.textContent = '▶'; };
+      const back = el('lback'), fwd = el('lfwd');
+      if (back) back.onclick = () => { a.currentTime = Math.max(0, a.currentTime - 5); };
+      if (fwd) fwd.onclick = () => { a.currentTime = Math.min(a.duration || 0, a.currentTime + 5); };
+      const showDur = () => { if (tdur) tdur.textContent = fmtT(a.duration || 0); };
+      a.onloadedmetadata = showDur; showDur();
+      a.ontimeupdate = () => {
+        if (tcur) tcur.textContent = fmtT(a.currentTime);
+        if (seek && !LS.seeking && a.duration) { seek.value = Math.round(a.currentTime / a.duration * 1000); setSeekFill(); }
+      };
+      a.onended = () => { if (pb) pb.textContent = '▶'; };
+      if (seek) {
+        setSeekFill();
+        seek.oninput = () => { LS.seeking = true; setSeekFill(); if (a.duration && tcur) tcur.textContent = fmtT(seek.value / 1000 * a.duration); };
+        seek.onchange = () => { if (a.duration) a.currentTime = seek.value / 1000 * a.duration; LS.seeking = false; };
+      }
       document.querySelectorAll('[data-arate]').forEach(b => b.onclick = () => {
         LS.rate = parseFloat(b.dataset.arate); a.playbackRate = LS.rate;
         document.querySelectorAll('[data-arate]').forEach(x => x.classList.toggle('on', x === b));
       });
     }
-    document.querySelectorAll('[data-rev]').forEach(b => b.onclick = () => { const n = b.dataset.rev; LS.revealed[n] = !LS.revealed[n]; shadowRelease(); render(); });
+    /* 顯示/隱藏文字：只改那一句，不重畫整頁，避免打斷正在播放的原音 */
+    document.querySelectorAll('[data-rev]').forEach(b => b.onclick = () => {
+      const n = b.dataset.rev; LS.revealed[n] = !LS.revealed[n];
+      const sent = b.closest('[data-sent]'); if (!sent) return;
+      const en = sent.querySelector('[data-en]'), zh = sent.querySelector('[data-zh]');
+      if (en) en.classList.toggle('hidden-text', !LS.revealed[n]);
+      if (zh) zh.style.display = LS.revealed[n] ? '' : 'none';
+      b.textContent = LS.revealed[n] ? '隱藏文字' : '顯示文字與中譯';
+    });
   }
   if (TAB === 'read') document.querySelectorAll('[data-zh]').forEach(b => b.onclick = () => { RS.zh = !RS.zh; shadowRelease(); render(); });
   if (TAB === 'quiz') document.querySelectorAll('#opts .opt').forEach(b => b.onclick = () => answer(parseInt(b.dataset.opt)));
