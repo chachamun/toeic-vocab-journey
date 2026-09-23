@@ -274,21 +274,30 @@ let VOICES = [];
 function vscore(v) {
   const n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase(); let s = 0;
   if (/en[-_]us/i.test(v.lang)) s += 3; else if (/en[-_]gb/i.test(v.lang)) s += 2; else s += 1;
-  if (/neural|natural|enhanced|premium/.test(n)) s += 6;
+  if (/neural|natural|enhanced|premium|高品質|增強|加強/.test(n)) s += 6;   // iPhone 中文介面會把 Premium 顯示成「高品質」
   if (/siri/.test(n)) s += 6;
   if (/google/.test(n)) s += 4;
-  if (/samantha|ava|allison|zoe|evan|nathan|aaron|nicky|serena|karen|daniel|joelle|tom|fred/.test(n)) s += 3;
+  if (/samantha|ava|allison|zoe|evan|nathan|aaron|nicky|serena|karen|daniel|joelle|tom/.test(n)) s += 3;
   if (v.localService === false) s += 1;
-  if (/compact|eloquence|espeak|zira|david|mark|hazel/.test(n)) s -= 4;
+  if (/compact|eloquence|espeak|zira|david|mark|hazel/.test(n)) s -= 2;
+  // Apple 的趣味／老式機器人語音，永遠排最後
+  if (/\b(fred|albert|bahh|bells|boing|bubbles|cellos|wobble|good news|bad news|jester|organ|superstar|trinoids|whisper|zarvox|junior|kathy|ralph|grandma|grandpa|rocko|shelley|flo|eddy|reed|sandy)\b/.test(n)) s -= 10;
   return s;
 }
 function ranked() { return VOICES.slice().sort((a, b) => vscore(b) - vscore(a)); }
 function pickVoice() { if (!VOICES.length) return null; return VOICES.find(v => v.voiceURI === S.settings.voiceURI) || ranked()[0]; }
 function loadVoices() {
   VOICES = (window.speechSynthesis ? speechSynthesis.getVoices() : []).filter(v => /^en(-|_)/i.test(v.lang));
-  if (!S.settings.voiceURI && VOICES.length) { S.settings.voiceURI = ranked()[0].voiceURI; saveLocal(); }
+  if (VOICES.length) {
+    // 沒選過、選的聲音不見了、或當初是 App 自動挑的而現在有更好的（例如剛下載 Premium 語音）→ 自動換上最好的
+    const cur = VOICES.find(v => v.voiceURI === S.settings.voiceURI), best = ranked()[0];
+    if (!cur || (S.settings.voiceAuto !== false && vscore(best) > vscore(cur))) {
+      S.settings.voiceURI = best.voiceURI; S.settings.voiceAuto = true; saveLocal();
+    }
+  }
   fillVoice();
 }
+function isGoodVoice(v) { return /premium|enhanced|natural|neural|高品質|增強|加強/i.test(v.name + ' ' + (v.voiceURI || '')); }
 function say(t, o) {
   o = o || {}; if (!window.speechSynthesis) return;
   try {
@@ -304,6 +313,13 @@ function fillVoice() {
   if (!VOICES.length) { s.innerHTML = '<option>裝置無英語語音</option>'; return; }
   s.innerHTML = ranked().map(v => '<option value="' + esc(v.voiceURI) + '"' + (v.voiceURI === S.settings.voiceURI ? ' selected' : '') + '>' +
     (vscore(v) >= 8 ? '⭐ ' : '') + esc(v.name.replace(/Microsoft |Google /, '')) + '</option>').join('');
+  const h = el('voiceHint'); if (!h) return;
+  const ios = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  const mac = !ios && /Mac/.test(navigator.platform || '');
+  h.innerHTML = VOICES.some(isGoodVoice) ? '' :
+    ios ? '這台 iPhone 目前只有精簡版英文語音，所以聽起來像機器。<br>到「<b>設定 → 輔助使用 → 朗讀內容 → 聲音 → 英文 → 英文（美國）</b>」，下載 <b>Ava</b> 或 <b>Zoe</b> 的「<b>高品質</b>」版（建議連 Wi-Fi），完全關掉 App 再開，就會自動換上。'
+    : mac ? '這台 Mac 還沒有高品質英文語音。到「系統設定 → 輔助使用 → 朗讀內容 → 系統語音 → 管理聲音」下載英文（美國）的 Ava 或 Zoe「高品質」版。'
+    : '目前沒有高品質語音。電腦建議改用 <b>Microsoft Edge</b> 開啟這個網頁，會多出「Natural」線上語音，聲音自然很多。';
 }
 
 /* ===================== 影子跟讀（錄音・自動抓漏字） ===================== */
@@ -1212,7 +1228,8 @@ document.querySelectorAll('#themeSeg button').forEach(b => b.onclick = () => {
   S.settings.theme = b.dataset.th; touch(); applyTheme();
   document.querySelectorAll('#themeSeg button').forEach(x => x.classList.toggle('on', x === b));
 });
-el('voiceSel').onchange = e => { S.settings.voiceURI = e.target.value; touch(); say('professional'); };
+el('voiceSel').onchange = e => { S.settings.voiceURI = e.target.value; S.settings.voiceAuto = false; touch(); say('Professional business attire is required.'); };
+el('voiceTry').onclick = () => say('Hello! Professional business attire is required of all staff giving presentations.');
 el('resetBtn').onclick = () => {
   const c = curCourse(), u = curUnit();
   (u.words || []).forEach(w => { delete S.prog[gid(c.id, u.id, w.n)]; });
