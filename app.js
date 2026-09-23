@@ -666,6 +666,18 @@ function buildToday() {
   (u.comp || []).forEach(c => qs.push({ kind: 'mc', prompt: c.q, sub: '內容理解', opts: shuffle(c.opts.map(o => ({ t: o, ok: o === c.a }))) }));
   QZ = { mode: 'today', qs: shuffle(qs).slice(0, 18), i: 0, score: 0, wrong: [], answered: false };
 }
+function buildCheckup() {
+  const u = curUnit(); let qs = [];
+  // 連連看：從本單元隨機挑 5 個字，考中文意思（對應課本的配對題）
+  const ws = shuffle(u.words || []).slice(0, 5);
+  ws.forEach(w => {
+    const o = shuffle((u.words || []).filter(x => x.n !== w.n)).slice(0, 3); if (o.length < 3) return;
+    qs.push({ kind: 'word', prompt: w.w, ph: w.ph, say: w.w, sub: '連連看：選出中文意思', opts: shuffle([w, ...o].map(x => ({ t: (x.pos || []).map(p => p.m).join('；'), ok: x.n === w.n }))), ref: { c: curCourse().id, u: u.id, n: w.n } });
+  });
+  // 填空：課本 Daily Checkup 原題（依原順序）
+  (u.cloze || []).forEach(c => qs.push({ kind: 'cloze', prompt: c.s, sub: '課本填空', opts: shuffle(c.opts.map(o => ({ t: o, ok: o === c.a, en: 1 }))) }));
+  QZ = { mode: 'checkup', qs, i: 0, score: 0, wrong: [], answered: false };
+}
 function buildReview() {
   const due = dueList().slice(0, 20); let qs = [];
   due.forEach(({ c, u, w }, idx) => {
@@ -683,6 +695,9 @@ function viewQuiz() {
       <button class="mode-card" data-goq="today"><div class="mi" style="background:var(--accent-soft)">📝</div>
         <div class="t"><b>今日學習內容</b><span>${esc(u.label)}・${esc(u.theme || '')}　單字＋克漏字${(u.comp && u.comp.length) ? '＋理解題' : ''}</span></div>
         <div class="n">${(u.words || []).length}</div></button>
+      ${(u.cloze && u.cloze.length) ? `<button class="mode-card" data-goq="checkup"><div class="mi" style="background:#eef3ff">📖</div>
+        <div class="t"><b>課本隨堂測驗</b><span>${esc(u.label)} Daily Checkup　連連看＋課本填空原題</span></div>
+        <div class="n">${5 + u.cloze.length}</div></button>` : ''}
       <h2 class="sect">複習測驗（記憶曲線）</h2>
       <button class="mode-card" data-goq="review" ${due ? '' : 'disabled style="opacity:.55"'}>
         <div class="mi" style="background:#fff4e2">🔁</div>
@@ -704,7 +719,7 @@ function viewQuiz() {
       <div class="bar" style="flex:1"><i style="width:${Math.round(QZ.i / QZ.qs.length * 100)}%"></i></div>
       <div class="fc-count">${QZ.i + 1}/${QZ.qs.length}</div></div>
     <div class="card pad">
-      <div class="row tiny muted"><span>${QZ.mode === 'review' ? '🔁 複習' : '📝 今日'}</span><span>${esc(q.sub)}</span><span style="margin-left:auto">得分 ${QZ.score}</span></div>
+      <div class="row tiny muted"><span>${QZ.mode === 'review' ? '🔁 複習' : QZ.mode === 'checkup' ? '📖 隨堂' : '📝 今日'}</span><span>${esc(q.sub)}</span><span style="margin-left:auto">得分 ${QZ.score}</span></div>
       <div style="margin-top:10px">${stem}</div>
       <div class="opts" id="opts">${q.opts.map((o, i) => `<button class="opt" data-opt="${i}"><span class="k">${String.fromCharCode(65 + i)}</span><span class="${o.en ? 'en' : ''}" style="${o.en ? 'font-weight:700' : ''}">${esc(o.t)}</span></button>`).join('')}</div>
     </div><div id="qfoot"></div></div>`;
@@ -726,7 +741,7 @@ function answer(idx) {
 function quizResult() {
   const t = QZ.qs.length, s = QZ.score, p = t ? Math.round(s / t * 100) : 0;
   return `<div class="view fade"><div class="card pad" style="text-align:center">
-    <div class="tiny muted">${QZ.mode === 'review' ? '複習測驗結果' : '今日測驗結果'}</div>
+    <div class="tiny muted">${QZ.mode === 'review' ? '複習測驗結果' : QZ.mode === 'checkup' ? '課本隨堂測驗結果' : '今日測驗結果'}</div>
     <div class="score-big" style="color:${p >= 70 ? 'var(--good)' : 'var(--amber)'};margin:8px 0 4px">${s}<span style="font-size:20px;color:var(--ink-3)"> / ${t}</span></div>
     <div class="tiny muted" style="margin-bottom:14px">${p >= 90 ? '掌握得很好！' : p >= 70 ? '不錯，錯的再看一次就更穩。' : '多回單字頁刷幾輪。'}</div>
     <div class="two"><button class="btn ghost" data-goq="${QZ.mode}">再測一次</button><button class="btn" data-goto="vocab">回單字</button></div>
@@ -784,7 +799,7 @@ function bindAll() {
   document.querySelectorAll('[data-goq]').forEach(b => b.onclick = () => {
     const m = b.dataset.goq; shadowRelease();
     if (m === 'exit') { QZ = null; render(); return; }
-    if (m === 'today') buildToday(); else buildReview();
+    if (m === 'today') buildToday(); else if (m === 'checkup') buildCheckup(); else buildReview();
     TAB = 'quiz'; render(); el('main').scrollTop = 0;
   });
   if (TAB === 'vocab') {
