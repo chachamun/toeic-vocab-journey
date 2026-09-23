@@ -33,9 +33,12 @@ TVJ.register({
      "ex": [
       {
        "en": "Self-talk is the quiet language you use inside your own mind.",
-       "zh": "自我對話就是你在心裡對自己說的話。"
+       "zh": "自我對話就是你在心裡對自己說的話。",
+       "au": "tts/5ISyv18N52M/w1_e0_US.mp3",
+       "acc": "US"
       }
-     ]
+     ],
+     "au": "tts/5ISyv18N52M/w1.mp3"
     },
     {
      "n": 2,
@@ -51,9 +54,12 @@ TVJ.register({
      "ex": [
       {
        "en": "I can't control the result, so I'll focus on my preparation.",
-       "zh": "我無法控制結果，所以我會專注在我的準備上。"
+       "zh": "我無法控制結果，所以我會專注在我的準備上。",
+       "au": "tts/5ISyv18N52M/w2_e0_UK.mp3",
+       "acc": "UK"
       }
-     ]
+     ],
+     "au": "tts/5ISyv18N52M/w2.mp3"
     },
     {
      "n": 3,
@@ -69,9 +75,12 @@ TVJ.register({
      "ex": [
       {
        "en": "My small step today is studying English for 10 minutes.",
-       "zh": "我今天的一小步是讀十分鐘英文。"
+       "zh": "我今天的一小步是讀十分鐘英文。",
+       "au": "tts/5ISyv18N52M/w3_e0_AU.mp3",
+       "acc": "AU"
       }
-     ]
+     ],
+     "au": "tts/5ISyv18N52M/w3.mp3"
     },
     {
      "n": 4,
@@ -87,9 +96,12 @@ TVJ.register({
      "ex": [
       {
        "en": "She was disappointed, but she slowly bounced back.",
-       "zh": "她很失望，但慢慢地重新振作了起來。"
+       "zh": "她很失望，但慢慢地重新振作了起來。",
+       "au": "tts/5ISyv18N52M/w4_e0_US.mp3",
+       "acc": "US"
       }
-     ]
+     ],
+     "au": "tts/5ISyv18N52M/w4.mp3"
     },
     {
      "n": 5,
@@ -105,9 +117,12 @@ TVJ.register({
      "ex": [
       {
        "en": "I'm talking with a friend to work through this problem.",
-       "zh": "我正和朋友談，一步步處理這個問題。"
+       "zh": "我正和朋友談，一步步處理這個問題。",
+       "au": "tts/5ISyv18N52M/w5_e0_UK.mp3",
+       "acc": "UK"
       }
-     ]
+     ],
+     "au": "tts/5ISyv18N52M/w5.mp3"
     },
     {
      "n": 6,
@@ -123,9 +138,12 @@ TVJ.register({
      "ex": [
       {
        "en": "Real positivity is not about hiding sadness, stress or fear.",
-       "zh": "真正的正向不是隱藏悲傷、壓力或恐懼。"
+       "zh": "真正的正向不是隱藏悲傷、壓力或恐懼。",
+       "au": "tts/5ISyv18N52M/w6_e0_AU.mp3",
+       "acc": "AU"
       }
-     ]
+     ],
+     "au": "tts/5ISyv18N52M/w6.mp3"
     },
     {
      "n": 7,
@@ -141,9 +159,12 @@ TVJ.register({
      "ex": [
       {
        "en": "How to stay positive without pretending that everything is perfect.",
-       "zh": "如何在不假裝一切完美的情況下保持正向。"
+       "zh": "如何在不假裝一切完美的情況下保持正向。",
+       "au": "tts/5ISyv18N52M/w7_e0_US.mp3",
+       "acc": "US"
       }
-     ]
+     ],
+     "au": "tts/5ISyv18N52M/w7.mp3"
     },
     {
      "n": 8,
@@ -159,9 +180,12 @@ TVJ.register({
      "ex": [
       {
        "en": "You admitted the mistake, but you did not turn it into a story about who you are.",
-       "zh": "你承認了錯誤，但沒把它變成對自己是誰的評斷。"
+       "zh": "你承認了錯誤，但沒把它變成對自己是誰的評斷。",
+       "au": "tts/5ISyv18N52M/w8_e0_UK.mp3",
+       "acc": "UK"
       }
-     ]
+     ],
+     "au": "tts/5ISyv18N52M/w8.mp3"
     },
     {
      "n": 9,
@@ -181,9 +205,12 @@ TVJ.register({
      "ex": [
       {
        "en": "A lot of stress comes from trying to solve things that are not ours to control.",
-       "zh": "很多壓力來自於想解決不是我們能控制的事。"
+       "zh": "很多壓力來自於想解決不是我們能控制的事。",
+       "au": "tts/5ISyv18N52M/w9_e0_AU.mp3",
+       "acc": "AU"
       }
-     ]
+     ],
+     "au": "tts/5ISyv18N52M/w9.mp3"
     },
     {
      "n": 10,
@@ -199,9 +226,12 @@ TVJ.register({
      "ex": [
       {
        "en": "I can prepare my answers, choose my clothes, and arrive early.",
-       "zh": "我可以準備回答、挑好衣服、並早點到。"
+       "zh": "我可以準備回答、挑好衣服、並早點到。",
+       "au": "tts/5ISyv18N52M/w10_e0_US.mp3",
+       "acc": "US"
       }
-     ]
+     ],
+     "au": "tts/5ISyv18N52M/w10.mp3"
     },
     {
      "n": 11,
@@ -217,9 +247,12 @@ TVJ.register({
      "ex": [
       {
        "en": "Gratitude means noticing something good that is already here.",
-       "zh": "感恩就是注意到已經在身邊的美好事物。"
+       "zh": "感恩就是注意到已經在身邊的美好事物。",
+       "au": "tts/5ISyv18N52M/w11_e0_UK.mp3",
+       "acc": "UK"
       }
-     ]
+     ],
+     "au": "tts/5ISyv18N52M/w11.mp3"
     },
     {
      "n": 12,
@@ -235,9 +268,12 @@ TVJ.register({
      "ex": [
       {
        "en": "Comparison can change your mood very quickly.",
-       "zh": "比較會很快地改變你的心情。"
+       "zh": "比較會很快地改變你的心情。",
+       "au": "tts/5ISyv18N52M/w12_e0_AU.mp3",
+       "acc": "AU"
       }
-     ]
+     ],
+     "au": "tts/5ISyv18N52M/w12.mp3"
     },
     {
      "n": 13,
@@ -253,9 +289,12 @@ TVJ.register({
      "ex": [
       {
        "en": "Can we make a simple daily routine from all of this?",
-       "zh": "我們可以把這些變成一套簡單的每日慣例嗎？"
+       "zh": "我們可以把這些變成一套簡單的每日慣例嗎？",
+       "au": "tts/5ISyv18N52M/w13_e0_US.mp3",
+       "acc": "US"
       }
-     ]
+     ],
+     "au": "tts/5ISyv18N52M/w13.mp3"
     },
     {
      "n": 14,
@@ -271,9 +310,12 @@ TVJ.register({
      "ex": [
       {
        "en": "That is realistic positivity.",
-       "zh": "那才是務實的正向。"
+       "zh": "那才是務實的正向。",
+       "au": "tts/5ISyv18N52M/w14_e0_UK.mp3",
+       "acc": "UK"
       }
-     ]
+     ],
+     "au": "tts/5ISyv18N52M/w14.mp3"
     },
     {
      "n": 15,
@@ -289,9 +331,12 @@ TVJ.register({
      "ex": [
       {
        "en": "I still felt disappointed, but I was moving again.",
-       "zh": "我仍感到失望，但我又重新前進了。"
+       "zh": "我仍感到失望，但我又重新前進了。",
+       "au": "tts/5ISyv18N52M/w15_e0_AU.mp3",
+       "acc": "AU"
       }
-     ]
+     ],
+     "au": "tts/5ISyv18N52M/w15.mp3"
     },
     {
      "n": 16,
@@ -311,9 +356,12 @@ TVJ.register({
      "ex": [
       {
        "en": "Support from other people matters.",
-       "zh": "來自他人的支持很重要。"
+       "zh": "來自他人的支持很重要。",
+       "au": "tts/5ISyv18N52M/w16_e0_US.mp3",
+       "acc": "US"
       }
-     ]
+     ],
+     "au": "tts/5ISyv18N52M/w16.mp3"
     }
    ],
    "cloze": [

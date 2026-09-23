@@ -17,3 +17,7 @@ packs/
 # Python 快取
 __pycache__/
 *.pyc
+
+# 語音快取與試聽檔
+tools/.tts_cache/
+tools/tts_samples/

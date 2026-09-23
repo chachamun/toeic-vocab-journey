@@ -80,6 +80,19 @@ def build_course():
         if not os.path.exists(tx):
             sys.exit('%s 還沒有逐字稿，先跑 transcript 模式。' % vid)
         n = len(load(tx)['lines'])
+        # 有自然語音檔（tools/gen_tts.py video 產生）就掛上 au
+        for w in s['words']:
+            f = 'tts/%s/w%d.mp3' % (vid, w['n'])
+            if os.path.exists(os.path.join(ROOT, f)):
+                w['au'] = f
+            for k, e in enumerate(w.get('ex', [])):
+                for acc in ('US', 'UK', 'AU', None):          # 例句檔名帶口音：w3_e0_UK.mp3
+                    f = 'tts/%s/w%d_e%d%s.mp3' % (vid, w['n'], k, '_' + acc if acc else '')
+                    if os.path.exists(os.path.join(ROOT, f)):
+                        e['au'] = f
+                        if acc:
+                            e['acc'] = acc
+                        break
         groups[cid].append({
             'id': s['id'], 'label': s['label'], 'theme': s['theme'], 'themeEn': s['themeEn'],
             'video': s['video'], 'source': s.get('bbc', ''), 'publisher': publisher_of(s), 'release': s['release'],

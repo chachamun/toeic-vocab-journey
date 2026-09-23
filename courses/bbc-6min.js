@@ -34,7 +34,9 @@ TVJ.register({
       {
        "en": "Well, nobody likes rejection.",
        "zh": "嗯，沒有人喜歡被拒絕。",
-       "t": 28.2
+       "t": 28.2,
+       "au": "tts/rCIs5x0SGTY/w1_e0_US.mp3",
+       "acc": "US"
       }
      ],
      "fam": [
@@ -45,7 +47,8 @@ TVJ.register({
        "k": "常考語句",
        "t": "reject an offer / a proposal / an application 拒絕提議／提案／申請；a letter of rejection 拒絕信（應徵落選通知）。多益常考動詞 reject 與名詞 rejection 的詞性區分。"
       }
-     ]
+     ],
+     "au": "tts/rCIs5x0SGTY/w1.mp3"
     },
     {
      "n": 2,
@@ -66,7 +69,9 @@ TVJ.register({
       {
        "en": "If something spikes, it increases sharply.",
        "zh": "如果某樣東西 spike，就是它急遽上升。",
-       "t": 188.4
+       "t": 188.4,
+       "au": "tts/rCIs5x0SGTY/w2_e0_UK.mp3",
+       "acc": "UK"
       }
      ],
      "tips": [
@@ -74,7 +79,8 @@ TVJ.register({
        "k": "常考語句",
        "t": "a spike in sales / demand / prices 銷售／需求／價格暴增。多益圖表題常用 spike、surge、soar 描述數字急升。"
       }
-     ]
+     ],
+     "au": "tts/rCIs5x0SGTY/w2.mp3"
     },
     {
      "n": 3,
@@ -91,7 +97,9 @@ TVJ.register({
       {
        "en": "Someone who is socially anxious is nervous or worried about speaking to other people.",
        "zh": "有社交焦慮的人，會對和別人說話感到緊張或擔心。",
-       "t": 195.0
+       "t": 195.0,
+       "au": "tts/rCIs5x0SGTY/w3_e0_AU.mp3",
+       "acc": "AU"
       }
      ],
      "fam": [
@@ -103,7 +111,8 @@ TVJ.register({
        "k": "易混淆",
        "t": "be anxious about 擔心～；be anxious to do 渴望做～（多益常考後者：We are anxious to hear from you. 我們急於收到您的回覆）。"
       }
-     ]
+     ],
+     "au": "tts/rCIs5x0SGTY/w3.mp3"
     },
     {
      "n": 4,
@@ -120,7 +129,9 @@ TVJ.register({
       {
        "en": "And once I'd done one, the second one came easier and the third one came even easier.",
        "zh": "做完一次之後，第二次就容易多了，第三次又更容易。",
-       "t": 173.8
+       "t": 173.8,
+       "au": "tts/rCIs5x0SGTY/w4_e0_US.mp3",
+       "acc": "US"
       }
      ],
      "tips": [
@@ -128,7 +139,8 @@ TVJ.register({
        "k": "文法",
        "t": "come + 形容詞比較級，表示「變得更～」，屬口語說法。正式書寫可改用 become easier。"
       }
-     ]
+     ],
+     "au": "tts/rCIs5x0SGTY/w4.mp3"
     },
     {
      "n": 5,
@@ -145,12 +157,15 @@ TVJ.register({
       {
        "en": "Perfectionism is the feeling that everything you do needs to be perfect.",
        "zh": "完美主義就是覺得自己做的每件事都必須完美。",
-       "t": 275.6
+       "t": 275.6,
+       "au": "tts/rCIs5x0SGTY/w5_e0_UK.mp3",
+       "acc": "UK"
       }
      ],
      "fam": [
       "perfectionist n. 完美主義者"
-     ]
+     ],
+     "au": "tts/rCIs5x0SGTY/w5.mp3"
     },
     {
      "n": 6,
@@ -167,7 +182,9 @@ TVJ.register({
       {
        "en": "Young people are also worried about how people will appraise them, which means judge them.",
        "zh": "年輕人也擔心別人會怎麼評價他們。",
-       "t": 280.5
+       "t": 280.5,
+       "au": "tts/rCIs5x0SGTY/w6_e0_AU.mp3",
+       "acc": "AU"
       }
      ],
      "fam": [
@@ -178,7 +195,8 @@ TVJ.register({
        "k": "常考語句",
        "t": "performance appraisal 績效考核（多益高頻）；appraise the value of a property 評估房產價值。"
       }
-     ]
+     ],
+     "au": "tts/rCIs5x0SGTY/w6.mp3"
     },
     {
      "n": 7,
@@ -199,7 +217,9 @@ TVJ.register({
       {
        "en": "But people who post the videos say they boost their confidence.",
        "zh": "但發布影片的人說，這能提升他們的自信。",
-       "t": 228.0
+       "t": 228.0,
+       "au": "tts/rCIs5x0SGTY/w7_e0_US.mp3",
+       "acc": "US"
       }
      ],
      "tips": [
@@ -207,7 +227,8 @@ TVJ.register({
        "k": "常考語句",
        "t": "boost sales / productivity / morale 提高銷售／生產力／士氣，多益商業情境高頻。"
       }
-     ]
+     ],
+     "au": "tts/rCIs5x0SGTY/w7.mp3"
     }
    ],
    "cloze": [
@@ -362,13 +383,16 @@ TVJ.register({
       {
        "en": "I might think a perfume is stinky, an adjective meaning bad smelling, while Neil might find the same perfume fragrant, meaning pleasant smelling.",
        "zh": "我可能覺得某款香水很臭，而 Neil 可能覺得同一款香水很香。",
-       "t": 174.0
+       "t": 174.0,
+       "au": "tts/xwseWCSXD3Y/w1_e0_US.mp3",
+       "acc": "US"
       }
      ],
      "fam": [
       "stink v. 發出臭味"
      ],
-     "ant": "fragrant 香的"
+     "ant": "fragrant 香的",
+     "au": "tts/xwseWCSXD3Y/w1.mp3"
     },
     {
      "n": 2,
@@ -385,7 +409,9 @@ TVJ.register({
       {
        "en": "I could say, oh this perfume you think is really fragrant, I think is stinky, and both can be true.",
        "zh": "你覺得很香的這瓶香水，我覺得很臭，而兩者都可以成立。",
-       "t": 163.1
+       "t": 163.1,
+       "au": "tts/xwseWCSXD3Y/w2_e0_UK.mp3",
+       "acc": "UK"
       }
      ],
      "fam": [
@@ -396,7 +422,8 @@ TVJ.register({
        "k": "常考語句",
        "t": "fragrance-free products 無香料產品；a line of fragrances 一系列香水。名詞 fragrance 在多益產品說明中常見。"
       }
-     ]
+     ],
+     "au": "tts/xwseWCSXD3Y/w2.mp3"
     },
     {
      "n": 3,
@@ -413,7 +440,9 @@ TVJ.register({
       {
        "en": "It seems to be a subjective thing.",
        "zh": "它似乎是一種主觀的東西。",
-       "t": 161.0
+       "t": 161.0,
+       "au": "tts/xwseWCSXD3Y/w3_e0_AU.mp3",
+       "acc": "AU"
       }
      ],
      "ant": "objective 客觀的",
@@ -422,7 +451,8 @@ TVJ.register({
        "k": "易混淆",
        "t": "subjective 主觀的 ↔ objective 客觀的。objective 當名詞是「目標」（the main objective of the meeting 會議的主要目標），多益更常考這個用法。"
       }
-     ]
+     ],
+     "au": "tts/xwseWCSXD3Y/w3.mp3"
     },
     {
      "n": 4,
@@ -439,7 +469,9 @@ TVJ.register({
       {
        "en": "The adjective 'visual' means related to seeing, and 'auditory' means related to hearing.",
        "zh": "形容詞 visual 的意思是和視覺有關的，auditory 則是和聽覺有關的。",
-       "t": 254.0
+       "t": 254.0,
+       "au": "tts/xwseWCSXD3Y/w4_e0_US.mp3",
+       "acc": "US"
       }
      ],
      "tips": [
@@ -447,7 +479,8 @@ TVJ.register({
        "k": "常考語句",
        "t": "visual aids 視覺輔助工具（簡報用的圖表、投影片），多益簡報情境常見。"
       }
-     ]
+     ],
+     "au": "tts/xwseWCSXD3Y/w4.mp3"
     },
     {
      "n": 5,
@@ -464,14 +497,17 @@ TVJ.register({
       {
        "en": "Asifa's research shows that, here in the UK at least, people talk about visual or auditory things much more than they talk about smells.",
        "zh": "Asifa 的研究顯示，至少在英國，人們談論視覺或聽覺事物遠多於談論氣味。",
-       "t": 246.0
+       "t": 246.0,
+       "au": "tts/xwseWCSXD3Y/w5_e0_UK.mp3",
+       "acc": "UK"
       }
      ],
      "fam": [
       "audio n. 音訊",
       "audience n. 聽眾，觀眾",
       "auditorium n. 禮堂"
-     ]
+     ],
+     "au": "tts/xwseWCSXD3Y/w5.mp3"
     },
     {
      "n": 6,
@@ -488,9 +524,12 @@ TVJ.register({
       {
        "en": "The adjective for things related to smelling is 'olfactory'.",
        "zh": "和嗅覺有關的形容詞是 olfactory。",
-       "t": 259.8
+       "t": 259.8,
+       "au": "tts/xwseWCSXD3Y/w6_e0_AU.mp3",
+       "acc": "AU"
       }
-     ]
+     ],
+     "au": "tts/xwseWCSXD3Y/w6.mp3"
     },
     {
      "n": 7,
@@ -507,7 +546,9 @@ TVJ.register({
       {
        "en": "When children start talking about smells, especially unpleasant ones, parents often react by shutting the conversation down.",
        "zh": "當孩子開始談論氣味，尤其是難聞的氣味，父母常常會直接打斷這個話題。",
-       "t": 267.1
+       "t": 267.1,
+       "au": "tts/xwseWCSXD3Y/w7_e0_US.mp3",
+       "acc": "US"
       }
      ],
      "tips": [
@@ -515,7 +556,8 @@ TVJ.register({
        "k": "常考語句",
        "t": "shut down a factory / a production line / the system 關閉工廠／生產線／系統。多益公告題常見：The plant will be shut down for maintenance. 工廠將停工維修。"
       }
-     ]
+     ],
+     "au": "tts/xwseWCSXD3Y/w7.mp3"
     },
     {
      "n": 8,
@@ -532,7 +574,9 @@ TVJ.register({
       {
        "en": "Oxford University psychologist Asifa Majid has researched the subject of smell extensively.",
        "zh": "牛津大學心理學家 Asifa Majid 對嗅覺做過大量研究。",
-       "t": 137.2
+       "t": 137.2,
+       "au": "tts/xwseWCSXD3Y/w8_e0_UK.mp3",
+       "acc": "UK"
       }
      ],
      "fam": [
@@ -544,7 +588,8 @@ TVJ.register({
        "k": "常考語句",
        "t": "travel extensively 到處出差；extensive experience in 在～方面有豐富經驗（履歷、徵才廣告高頻）。"
       }
-     ]
+     ],
+     "au": "tts/xwseWCSXD3Y/w8.mp3"
     }
    ],
    "cloze": [
