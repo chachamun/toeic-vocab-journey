@@ -30,6 +30,7 @@ function normState(o) {
     prog: (o && o.prog) || {}
   });
   if (![0.5, 0.75, 1, 1.25, 1.5].includes(s.settings.rate)) s.settings.rate = 1;
+  fixDayWords(s);
   return s;
 }
 function loadLocal() {
@@ -222,6 +223,26 @@ function learnedTotal() {
 }
 function days() { if (!S.days || typeof S.days !== 'object') S.days = {}; return S.days; }
 function bumpDay(field, inc) { const d = today(); const rec = days()[d] || { w: 0, q: 0, in: false }; rec[field] = (rec[field] || 0) + (inc || 1); days()[d] = rec; }
+/* 「今日單字」= 今天評分過幾個「不同的」字（同一字刷好幾輪只算一次）。
+   今天的字存成清單 ws，過了那天只留數字 w，避免資料越存越大。 */
+function markWordToday(id) {
+  const d = today(), rec = days()[d] || { w: 0, q: 0, in: false };
+  if (!Array.isArray(rec.ws)) rec.ws = [];
+  if (!rec.ws.includes(id)) rec.ws.push(id);
+  rec.w = rec.ws.length; days()[d] = rec;
+}
+function fixDayWords(s) {
+  if (!s.days || typeof s.days !== 'object') return;
+  const t = today();
+  Object.keys(s.days).forEach(k => { if (k !== t && s.days[k] && s.days[k].ws) delete s.days[k].ws; });
+  const rec = s.days[t];
+  if (rec && rec.w && !Array.isArray(rec.ws)) {
+    // 舊版把「按評分的次數」當單字數 → 用每個字最後評分時間重算今天學過的不同單字
+    const start = new Date(); start.setHours(0, 0, 0, 0);
+    rec.ws = Object.keys(s.prog || {}).filter(k => (s.prog[k].last || 0) >= start.getTime() && (s.prog[k].seen || 0) > 0);
+    rec.w = rec.ws.length;
+  }
+}
 function streak() { const D = days(); let n = 0; for (let i = 0; i < 400; i++) { const r = D[dayKey(i)]; if (r && (r.in || r.w || r.q)) n++; else if (i > 0) break; } return n; }
 function hl(en, w) {
   let o = esc(en); const b = (w || '').replace(/[^a-zA-Z].*$/, '');
@@ -707,7 +728,7 @@ function grade(kind) {
   const w = deck[di], i = wid(w), p = pget(i);
   if (kind === 'known') pset(i, { st: 'known', lv: Math.min((p.lv || 0) + 1, IVL.length - 1), seen: p.seen + 1, last: Date.now() });
   else pset(i, { st: 'learning', lv: 0, seen: p.seen + 1, last: Date.now() });
-  bumpDay('w', 1); touch(); shadowRelease(); di++; flipped = false; vjump = false; savePos(); render();
+  markWordToday(i); touch(); shadowRelease(); di++; flipped = false; vjump = false; savePos(); render();
 }
 
 /* ===================== 影片＋同步逐字稿 ===================== */

@@ -1,7 +1,7 @@
 /* 多益字彙旅程 — Service Worker
    離線可用：App 殼層預先快取，音檔第一次播過之後才快取。
    改版時把 VER 加一，舊快取會自動清掉。 */
-const VER = 'tvj-v7';
+const VER = 'tvj-v8';
 const SHELL = ['./', './index.html', './data.js', './courses/daily-video.js', './courses/bbc-6min.js', './app.js', './manifest.webmanifest',
   './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
 
