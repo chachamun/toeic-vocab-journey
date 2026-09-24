@@ -60,11 +60,12 @@ def main(pack_path):
                 'theme': base.get('theme', '') + '・滿分單字', 'themeZh': base.get('themeZh', ''),
                 'themeEn': base.get('themeEn', ''), 'full': True, 'words': words}
         old = next((u for u in course['units'] if u['id'] == unit['id']), None)
-        if old:                                               # 保留已經產生好的語音檔名
-            prev = {w['w']: w.get('aus') for w in old.get('words', [])}
+        if old:                                               # 保留已經產生好的語音檔名、音標
+            prev = {w['w']: w for w in old.get('words', [])}
             for w in words:
-                if prev.get(w['w']):
-                    w['aus'] = prev[w['w']]
+                for k in ('aus', 'ph'):
+                    if prev.get(w['w'], {}).get(k):
+                        w[k] = prev[w['w']][k]
             course['units'][course['units'].index(old)] = unit
         else:
             course['units'].append(unit)
