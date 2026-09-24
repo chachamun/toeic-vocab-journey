@@ -76,6 +76,7 @@ IRREG = {  # 會用到的不規則動詞：原形 → (過去式, 過去分詞)
     'speak': ('spoke', 'spoken'), 'throw': ('threw', 'thrown'), 'shut': ('shut', 'shut'), 'is': ('was', 'been'),
     'has': ('had', 'had'), 'have': ('had', 'had'), 'strive': ('strove/strived', 'striven/strived'), 'strew': ('strewed', 'strewn/strewed'),
     'upsell': ('upsold', 'upsold'), 'overcome': ('overcame', 'overcome'), 'pay': ('paid', 'paid'), 'think': ('thought', 'thought'),
+    'undertake': ('undertook', 'undertaken'), 'sit': ('sat', 'sat'), 'lose': ('lost', 'lost'),
 }
 
 
@@ -94,7 +95,7 @@ def regular(base):
     return third, past, ing
 
 
-DOUBLE = {'set', 'get', 'let', 'put', 'shut', 'stop', 'ban', 'submit', 'admit', 'excel', 'lag', 'scrub', 'control', 'drop', 'plan', 'regret', 'refer', 'occur', 'prefer', 'permit', 'spike'}
+DOUBLE = {'log', 'set', 'get', 'let', 'put', 'shut', 'wrap', 'propel', 'sit', 'stop', 'ban', 'submit', 'admit', 'excel', 'lag', 'scrub', 'control', 'drop', 'plan', 'regret', 'refer', 'occur', 'prefer', 'permit', 'spike'}
 
 
 def check_verb(word, f):
