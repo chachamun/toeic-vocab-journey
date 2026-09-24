@@ -75,6 +75,7 @@ IRREG = {  # 會用到的不規則動詞：原形 → (過去式, 過去分詞)
     'stand': ('stood', 'stood'), 'draw': ('drew', 'drawn'), 'oversee': ('oversaw', 'overseen'), 'leave': ('left', 'left'),
     'speak': ('spoke', 'spoken'), 'throw': ('threw', 'thrown'), 'shut': ('shut', 'shut'), 'is': ('was', 'been'),
     'has': ('had', 'had'), 'have': ('had', 'had'), 'strive': ('strove/strived', 'striven/strived'), 'strew': ('strewed', 'strewn/strewed'),
+    'upsell': ('upsold', 'upsold'), 'overcome': ('overcame', 'overcome'), 'pay': ('paid', 'paid'), 'think': ('thought', 'thought'),
 }
 
 

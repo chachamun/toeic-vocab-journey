@@ -4895,6 +4895,3983 @@ TVJ.register({
      ]
     }
    ]
+  },
+  {
+   "id": "yt-vxoPApiNZBU",
+   "label": "BBC 010",
+   "theme": "沒禮貌的電子郵件",
+   "themeEn": "Rude emails",
+   "video": "https://youtu.be/vxoPApiNZBU",
+   "source": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260702",
+   "publisher": "BBC Learning English《6 Minute English》",
+   "release": "2026-10-01",
+   "transcript": "transcripts/vxoPApiNZBU.json",
+   "lines": 58,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "put someone on the defensive",
+     "s": 1,
+     "ph": "[pʊt ˋsʌm͵wʌn ɑn ðə dɪˋfɛnsɪv]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "使某人產生防衛心，使某人覺得受威脅"
+      }
+     ],
+     "ex": [
+      {
+       "en": "The phrase to put someone on the defensive means to do or say something which makes them feel threatened or unsure.",
+       "zh": "「to put someone on the defensive」這個片語的意思是，做或說了某件事，讓對方覺得受到威脅或不確定。",
+       "t": 65.7,
+       "aus": {
+        "US": "tts/vxoPApiNZBU/w1_e0_US.mp3",
+        "UK": "tts/vxoPApiNZBU/w1_e0_UK.mp3",
+        "AU": "tts/vxoPApiNZBU/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "be on the defensive 處於防守狀態；defensive 形容詞「防衛的」（國際學村 Day 02 滿分字）：Try not to become defensive when receiving feedback."
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "puts ~ on the defensive"
+        ],
+        [
+         "過去式",
+         "put ~ on the defensive"
+        ],
+        [
+         "過去分詞",
+         "put ~ on the defensive"
+        ],
+        [
+         "現在分詞",
+         "putting ~ on the defensive"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/vxoPApiNZBU/w1_US.mp3",
+      "UK": "tts/vxoPApiNZBU/w1_UK.mp3",
+      "AU": "tts/vxoPApiNZBU/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "uncivil",
+     "s": 2,
+     "ph": "[ʌnˋsɪvḷ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "無禮的，不客氣的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "These emails are examples of people being uncivil – an adjective meaning rude or impolite.",
+       "zh": "這些信都是有人 uncivil 的例子——這個形容詞的意思是粗魯或不禮貌。",
+       "t": 82.2,
+       "aus": {
+        "US": "tts/vxoPApiNZBU/w2_e0_US.mp3",
+        "UK": "tts/vxoPApiNZBU/w2_e0_UK.mp3",
+        "AU": "tts/vxoPApiNZBU/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "incivility n. 無禮的言行",
+      "civil adj. 有禮貌的；民事的",
+      "civility n. 禮貌"
+     ],
+     "tips": [
+      {
+       "k": "易混淆",
+       "t": "civil 另一個常見意思是「民事的、公民的」：civil engineer 土木工程師、civil servant 公務員。workplace incivility 職場無禮，是人資常見議題。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more uncivil"
+        ],
+        [
+         "最高級",
+         "most uncivil"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/vxoPApiNZBU/w2_US.mp3",
+      "UK": "tts/vxoPApiNZBU/w2_UK.mp3",
+      "AU": "tts/vxoPApiNZBU/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "justify",
+     "s": 3,
+     "ph": "[ˋdʒʌstə͵faɪ]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "證明～有理，為～辯護"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Last year, thousands of US government workers received an email requiring them to justify their job by listing five things they had accomplished that week...",
+       "zh": "去年，數千名美國政府員工收到一封電子郵件，要求他們列出當週完成的五件事，來證明自己的工作有存在的必要……",
+       "t": 110.7,
+       "aus": {
+        "US": "tts/vxoPApiNZBU/w3_e0_US.mp3",
+        "UK": "tts/vxoPApiNZBU/w3_e0_UK.mp3",
+        "AU": "tts/vxoPApiNZBU/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "justification n. 正當理由",
+      "justifiable adj. 正當的，合理的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "justify the cost / expense 說明費用的正當性；Can you justify this decision? 你能說明這個決定的理由嗎？預算、採購情境常見。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "justifies"
+        ],
+        [
+         "過去式",
+         "justified"
+        ],
+        [
+         "過去分詞",
+         "justified"
+        ],
+        [
+         "現在分詞",
+         "justifying"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/vxoPApiNZBU/w3_US.mp3",
+      "UK": "tts/vxoPApiNZBU/w3_UK.mp3",
+      "AU": "tts/vxoPApiNZBU/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "personnel",
+     "s": 3,
+     "ph": "[͵pɝsṇˋɛl]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "（全體）人員，員工；人事部門"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Emails that are hostile in tone and language, or even cc'ing senior personnel in on the message in order to elevate an issue and put someone in their place.",
+       "zh": "像是語氣和用字充滿敵意的信，甚至把資深人員加進副本，好把事情升級、讓對方知道自己的分量。",
+       "t": 162.2,
+       "aus": {
+        "US": "tts/vxoPApiNZBU/w4_e0_US.mp3",
+        "UK": "tts/vxoPApiNZBU/w4_e0_UK.mp3",
+        "AU": "tts/vxoPApiNZBU/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "易混淆",
+       "t": "personnel（人員，重音在最後）≠ personal（個人的，重音在第一音節）。authorized personnel only 閒人勿進；personnel department 人事部。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "集合名詞（通常當複數用）"
+      }
+     ],
+     "der": [
+      "personal adj. 個人的（易混淆）"
+     ],
+     "aus": {
+      "US": "tts/vxoPApiNZBU/w4_US.mp3",
+      "UK": "tts/vxoPApiNZBU/w4_UK.mp3",
+      "AU": "tts/vxoPApiNZBU/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "belittle",
+     "s": 2,
+     "ph": "[bɪˋlɪtḷ]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "貶低，輕視"
+      }
+     ],
+     "ex": [
+      {
+       "en": "The fight response can make us belittle someone – make them feel inferior or unimportant.",
+       "zh": "「戰」的反應可能讓我們貶低別人——讓對方覺得自己低人一等或不重要。",
+       "t": 186.2,
+       "aus": {
+        "US": "tts/vxoPApiNZBU/w5_e0_US.mp3",
+        "UK": "tts/vxoPApiNZBU/w5_e0_UK.mp3",
+        "AU": "tts/vxoPApiNZBU/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "同義：look down on、undermine。職場霸凌相關文件常見：belittling remarks 貶低人的言論。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "belittles"
+        ],
+        [
+         "過去式",
+         "belittled"
+        ],
+        [
+         "過去分詞",
+         "belittled"
+        ],
+        [
+         "現在分詞",
+         "belittling"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "belittling adj. 貶低人的"
+     ],
+     "aus": {
+      "US": "tts/vxoPApiNZBU/w5_US.mp3",
+      "UK": "tts/vxoPApiNZBU/w5_UK.mp3",
+      "AU": "tts/vxoPApiNZBU/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "credit",
+     "s": 3,
+     "ph": "[ˋkrɛdɪt]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "功勞，讚揚；信用；（帳戶）存款"
+      },
+      {
+       "p": "v.",
+       "m": "把～歸功於；存入（帳戶）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "For example, a boss sends a group email in which they give someone else the credit for the work you did.",
+       "zh": "例如，主管寄了一封群組信，把你做的工作功勞歸給別人。",
+       "t": 192.8,
+       "aus": {
+        "US": "tts/vxoPApiNZBU/w6_e0_US.mp3",
+        "UK": "tts/vxoPApiNZBU/w6_e0_UK.mp3",
+        "AU": "tts/vxoPApiNZBU/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "一字多義必考：take credit for 把功勞攬在自己身上；credit card 信用卡；store credit 購物金；The refund will be credited to your account. 退款將存入您的帳戶。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "credits"
+        ]
+       ]
+      },
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "credits"
+        ],
+        [
+         "過去式",
+         "credited"
+        ],
+        [
+         "過去分詞",
+         "credited"
+        ],
+        [
+         "現在分詞",
+         "crediting"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "creditor n. 債權人",
+      "creditable adj. 值得稱讚的"
+     ],
+     "aus": {
+      "US": "tts/vxoPApiNZBU/w6_US.mp3",
+      "UK": "tts/vxoPApiNZBU/w6_UK.mp3",
+      "AU": "tts/vxoPApiNZBU/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "get something off your plate",
+     "s": 1,
+     "ph": "[gɛt ˋsʌmθɪŋ ɔf jʊr plet]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "把事情從自己手上移走（交給別人處理）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Such colleagues want to get work off their plate – another idiom, meaning to remove tasks from your own workload and give them to someone else to deal with.",
+       "zh": "這樣的同事想 get work off their plate——這是另一個慣用語，意思是把工作從自己的工作量中移走，丟給別人處理。",
+       "t": 218.4,
+       "aus": {
+        "US": "tts/vxoPApiNZBU/w7_e0_US.mp3",
+        "UK": "tts/vxoPApiNZBU/w7_e0_UK.mp3",
+        "AU": "tts/vxoPApiNZBU/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "相關：have a lot on one's plate 手上事情很多（I have a lot on my plate this week. 我這週很忙）。workload 工作量，多益常見。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "gets ~ off ~ plate"
+        ],
+        [
+         "過去式",
+         "got ~ off ~ plate"
+        ],
+        [
+         "過去分詞",
+         "got/gotten ~ off ~ plate"
+        ],
+        [
+         "現在分詞",
+         "getting ~ off ~ plate"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/vxoPApiNZBU/w7_US.mp3",
+      "UK": "tts/vxoPApiNZBU/w7_UK.mp3",
+      "AU": "tts/vxoPApiNZBU/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "frazzled",
+     "s": 1,
+     "ph": "[ˋfræzḷd]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "疲憊不堪的，心力交瘁的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "We're more likely to be uncivil when we're frazzled – an informal adjective describing feeling tired or anxious because you're doing too many things at the same time.",
+       "zh": "我們 frazzled 時更容易無禮——這個非正式的形容詞，形容因為同時做太多事而感到疲憊或焦慮。",
+       "t": 250.2,
+       "aus": {
+        "US": "tts/vxoPApiNZBU/w8_e0_US.mp3",
+        "UK": "tts/vxoPApiNZBU/w8_e0_UK.mp3",
+        "AU": "tts/vxoPApiNZBU/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "口語說法，正式文章常用 exhausted、overwhelmed、burned out（職業倦怠）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more frazzled"
+        ],
+        [
+         "最高級",
+         "most frazzled"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "frazzle v. 使疲憊不堪"
+     ],
+     "aus": {
+      "US": "tts/vxoPApiNZBU/w8_US.mp3",
+      "UK": "tts/vxoPApiNZBU/w8_UK.mp3",
+      "AU": "tts/vxoPApiNZBU/w8_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "The phrase to put someone on the ___ means to do or say something which makes them feel threatened or unsure.",
+     "a": "defensive",
+     "opts": [
+      "defensive",
+      "offensive",
+      "spot",
+      "record"
+     ]
+    },
+    {
+     "s": "These emails are examples of people being ___ – an adjective meaning rude or impolite.",
+     "a": "uncivil",
+     "opts": [
+      "uncivil",
+      "frazzled",
+      "civil",
+      "hostile"
+     ]
+    },
+    {
+     "s": "Last year, thousands of US government workers received an email requiring them to ___ their job by listing five things they had accomplished that week...",
+     "a": "justify",
+     "opts": [
+      "justify",
+      "belittle",
+      "credit",
+      "resign"
+     ]
+    },
+    {
+     "s": "Emails that are hostile in tone and language, or even cc'ing senior ___ in on the message in order to elevate an issue and put someone in their place.",
+     "a": "personnel",
+     "opts": [
+      "personnel",
+      "personal",
+      "persons",
+      "personality"
+     ]
+    },
+    {
+     "s": "The fight response can make us ___ someone – make them feel inferior or unimportant.",
+     "a": "belittle",
+     "opts": [
+      "belittle",
+      "justify",
+      "credit",
+      "protect"
+     ]
+    },
+    {
+     "s": "For example, a boss sends a group email in which they give someone else the ___ for the work you did.",
+     "a": "credit",
+     "opts": [
+      "credit",
+      "plate",
+      "place",
+      "blame"
+     ]
+    },
+    {
+     "s": "Such colleagues want to get work off their ___ – another idiom, meaning to remove tasks from your own workload and give them to someone else to deal with.",
+     "a": "plate",
+     "opts": [
+      "plate",
+      "place",
+      "desk",
+      "mind"
+     ]
+    },
+    {
+     "s": "We're more likely to be uncivil when we're ___ – an informal adjective describing feeling tired or anxious because you're doing too many things at the same time.",
+     "a": "frazzled",
+     "opts": [
+      "frazzled",
+      "uncivil",
+      "defensive",
+      "relaxed"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "節目問答題：要求美國政府員工列出五件工作成果、否則就辭職的信，是誰寄的？",
+     "a": "馬斯克（Elon Musk）",
+     "opts": [
+      "馬斯克（Elon Musk）",
+      "川普（Donald Trump）",
+      "JD 范斯（JD Vance）"
+     ]
+    },
+    {
+     "q": "曼徹斯特的聽眾 Rachel 覺得哪一種信很沒禮貌？",
+     "a": "開頭只寫名字，沒有「嗨」之類的問候",
+     "opts": [
+      "開頭只寫名字，沒有「嗨」之類的問候",
+      "信件太長",
+      "用了太多表情符號"
+     ]
+    },
+    {
+     "q": "心理學家說「逃」的反應在郵件裡會怎麼表現？",
+     "a": "不回信，或回信時不回答所有問題",
+     "opts": [
+      "不回信，或回信時不回答所有問題",
+      "把主管加進副本",
+      "用很強硬的語氣回覆"
+     ]
+    },
+    {
+     "q": "節目建議寫信生氣時該怎麼做？",
+     "a": "按下寄出前先停一下",
+     "opts": [
+      "按下寄出前先停一下",
+      "立刻打電話給對方",
+      "把信轉寄給主管"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yt--idY8F7LOSE",
+   "label": "BBC 011",
+   "theme": "輕鬆的家庭用餐",
+   "themeEn": "Stress-free family meals",
+   "video": "https://youtu.be/-idY8F7LOSE",
+   "source": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260625",
+   "publisher": "BBC Learning English《6 Minute English》",
+   "release": "2026-10-02",
+   "transcript": "transcripts/-idY8F7LOSE.json",
+   "lines": 73,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "appetite",
+     "s": 2,
+     "ph": "[ˋæpə͵taɪt]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "食慾；渴望，興趣"
+      }
+     ],
+     "ex": [
+      {
+       "en": "We go through multiple periods of ups and downs where their appetite is much lower, and then all of a sudden it comes right back.",
+       "zh": "我們會經歷好幾段起起伏伏的時期，有時他們食慾很差，然後突然之間又完全恢復。",
+       "t": 70.2,
+       "aus": {
+        "US": "tts/-idY8F7LOSE/w1_e0_US.mp3",
+        "UK": "tts/-idY8F7LOSE/w1_e0_UK.mp3",
+        "AU": "tts/-idY8F7LOSE/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "商業用法：investors' appetite for risk 投資人的風險胃納；strong consumer appetite for ～ 消費者對～的強烈需求。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "appetites"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "appetizer n. 開胃菜"
+     ],
+     "aus": {
+      "US": "tts/-idY8F7LOSE/w1_US.mp3",
+      "UK": "tts/-idY8F7LOSE/w1_UK.mp3",
+      "AU": "tts/-idY8F7LOSE/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "ups and downs",
+     "s": 1,
+     "ph": "[ʌps ænd daʊnz]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "起起伏伏，好壞交替"
+      }
+     ],
+     "ex": [
+      {
+       "en": "At dinner time, Charlotte's children go through ups and downs, a phrase meaning that a mixture of good and bad things happen to them.",
+       "zh": "在晚餐時間，Charlotte 的孩子會經歷 ups and downs（起起伏伏），這個片語的意思是好事和壞事交替發生。",
+       "t": 82.2,
+       "aus": {
+        "US": "tts/-idY8F7LOSE/w2_e0_US.mp3",
+        "UK": "tts/-idY8F7LOSE/w2_e0_UK.mp3",
+        "AU": "tts/-idY8F7LOSE/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "the ups and downs of the market 市場的起伏；every business has its ups and downs 每家公司都有起有落。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "複數形"
+      }
+     ],
+     "aus": {
+      "US": "tts/-idY8F7LOSE/w2_US.mp3",
+      "UK": "tts/-idY8F7LOSE/w2_UK.mp3",
+      "AU": "tts/-idY8F7LOSE/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "trigger",
+     "s": 3,
+     "ph": "[ˋtrɪgɚ]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "引發，觸發"
+      },
+      {
+       "p": "n.",
+       "m": "引發事件的原因，導火線"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Many parents say dinnertime can become a battleground, so why is it that what you're eating can trigger so much tension?",
+       "zh": "很多父母說晚餐時間可能變成戰場，為什麼吃什麼這件事會引發這麼多緊張？",
+       "t": 180.2,
+       "aus": {
+        "US": "tts/-idY8F7LOSE/w3_e0_US.mp3",
+        "UK": "tts/-idY8F7LOSE/w3_e0_UK.mp3",
+        "AU": "tts/-idY8F7LOSE/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "trigger an alarm 觸動警報；trigger a price increase 引發漲價。同義：cause、set off、spark。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "triggers"
+        ],
+        [
+         "過去式",
+         "triggered"
+        ],
+        [
+         "過去分詞",
+         "triggered"
+        ],
+        [
+         "現在分詞",
+         "triggering"
+        ]
+       ]
+      },
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "triggers"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/-idY8F7LOSE/w3_US.mp3",
+      "UK": "tts/-idY8F7LOSE/w3_UK.mp3",
+      "AU": "tts/-idY8F7LOSE/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "battleground",
+     "s": 1,
+     "ph": "[ˋbætḷ͵graʊnd]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "戰場；衝突的地方"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Dinnertime often becomes a battleground – a place where argument or conflict happens.",
+       "zh": "晚餐時間常常變成 battleground——發生爭吵或衝突的地方。",
+       "t": 205.9,
+       "aus": {
+        "US": "tts/-idY8F7LOSE/w4_e0_US.mp3",
+        "UK": "tts/-idY8F7LOSE/w4_e0_UK.mp3",
+        "AU": "tts/-idY8F7LOSE/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "商業比喻：Online sales have become the new battleground for retailers. 網路銷售成了零售業的新戰場。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "battlegrounds"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "battle n. 戰鬥"
+     ],
+     "aus": {
+      "US": "tts/-idY8F7LOSE/w4_US.mp3",
+      "UK": "tts/-idY8F7LOSE/w4_UK.mp3",
+      "AU": "tts/-idY8F7LOSE/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "big deal",
+     "s": 2,
+     "ph": "[bɪg dil]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "重要的事，大事"
+      }
+     ],
+     "ex": [
+      {
+       "en": "For kids, controlling what they're willing to eat is a big deal – something of special importance to them.",
+       "zh": "對孩子來說，掌控自己願意吃什麼是 a big deal——對他們特別重要的事。",
+       "t": 215.3,
+       "aus": {
+        "US": "tts/-idY8F7LOSE/w5_e0_US.mp3",
+        "UK": "tts/-idY8F7LOSE/w5_e0_UK.mp3",
+        "AU": "tts/-idY8F7LOSE/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "口語常見：It's no big deal. 沒什麼大不了；make a big deal out of ～ 小題大作。deal 另有「交易」意思：close a deal 成交。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "big deals"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/-idY8F7LOSE/w5_US.mp3",
+      "UK": "tts/-idY8F7LOSE/w5_UK.mp3",
+      "AU": "tts/-idY8F7LOSE/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "allergy",
+     "s": 2,
+     "ph": "[ˋælɚdʒɪ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "過敏（症）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "If experts like Charlotte and Anne struggle at mealtimes, imagine how hard it could be if your child has a food allergy – a condition where the body makes you sick after eating certain foods.",
+       "zh": "如果連 Charlotte 和 Anne 這樣的專家在用餐時間都會頭痛，想像一下如果你的孩子有食物過敏會有多難——這是一種吃了某些食物後身體會不舒服的狀況。",
+       "t": 221.5,
+       "aus": {
+        "US": "tts/-idY8F7LOSE/w6_e0_US.mp3",
+        "UK": "tts/-idY8F7LOSE/w6_e0_UK.mp3",
+        "AU": "tts/-idY8F7LOSE/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "allergic adj. 過敏的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "be allergic to 對～過敏；餐廳、活動報名常見：Please let us know of any food allergies or dietary restrictions. 如有食物過敏或飲食限制請告知。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "allergies"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/-idY8F7LOSE/w6_US.mp3",
+      "UK": "tts/-idY8F7LOSE/w6_UK.mp3",
+      "AU": "tts/-idY8F7LOSE/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "restrict",
+     "s": 3,
+     "ph": "[rɪˋstrɪkt]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "限制，限定"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Sharon's daughter's allergies restricted what she could eat, making cooking for the whole family a struggle.",
+       "zh": "Sharon 女兒的過敏限制了她能吃的東西，讓幫全家煮飯變得很辛苦。",
+       "t": 257.6,
+       "aus": {
+        "US": "tts/-idY8F7LOSE/w7_e0_US.mp3",
+        "UK": "tts/-idY8F7LOSE/w7_e0_UK.mp3",
+        "AU": "tts/-idY8F7LOSE/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "restriction n. 限制",
+      "restricted adj. 受限制的",
+      "restrictive adj. 限制性的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "國際學村 Day 02 核心字。restricted area 限制區；dietary restrictions 飲食限制；restrict access to ～ 限制進入～。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "restricts"
+        ],
+        [
+         "過去式",
+         "restricted"
+        ],
+        [
+         "過去分詞",
+         "restricted"
+        ],
+        [
+         "現在分詞",
+         "restricting"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/-idY8F7LOSE/w7_US.mp3",
+      "UK": "tts/-idY8F7LOSE/w7_UK.mp3",
+      "AU": "tts/-idY8F7LOSE/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "winning formula",
+     "s": 1,
+     "ph": "[ˋwɪnɪŋ ˋfɔrmjələ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "致勝的方法，成功的組合"
+      }
+     ],
+     "ex": [
+      {
+       "en": "A winning formula is a method or strategy that produces successful results.",
+       "zh": "winning formula 是能帶來成功結果的方法或策略。",
+       "t": 269.6,
+       "aus": {
+        "US": "tts/-idY8F7LOSE/w8_e0_US.mp3",
+        "UK": "tts/-idY8F7LOSE/w8_e0_UK.mp3",
+        "AU": "tts/-idY8F7LOSE/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "formula 也指「配方、公式」：a new formula 新配方（產品廣告常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "winning formulas"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/-idY8F7LOSE/w8_US.mp3",
+      "UK": "tts/-idY8F7LOSE/w8_UK.mp3",
+      "AU": "tts/-idY8F7LOSE/w8_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "We go through multiple periods of ups and downs where their ___ is much lower, and then all of a sudden it comes right back.",
+     "a": "appetite",
+     "opts": [
+      "appetite",
+      "allergy",
+      "mood",
+      "formula"
+     ]
+    },
+    {
+     "s": "At dinner time, Charlotte's children go through ___, a phrase meaning that a mixture of good and bad things happen to them.",
+     "a": "ups and downs",
+     "opts": [
+      "ups and downs",
+      "big deals",
+      "battlegrounds",
+      "winning formulas"
+     ]
+    },
+    {
+     "s": "Many parents say dinnertime can become a battleground, so why is it that what you're eating can ___ so much tension?",
+     "a": "trigger",
+     "opts": [
+      "trigger",
+      "restrict",
+      "control",
+      "reduce"
+     ]
+    },
+    {
+     "s": "Dinnertime often becomes a ___ – a place where argument or conflict happens.",
+     "a": "battleground",
+     "opts": [
+      "battleground",
+      "big deal",
+      "playground",
+      "formula"
+     ]
+    },
+    {
+     "s": "For kids, controlling what they're willing to eat is a big ___ – something of special importance to them.",
+     "a": "deal",
+     "opts": [
+      "deal",
+      "mood",
+      "thing",
+      "point"
+     ]
+    },
+    {
+     "s": "Imagine how hard it could be if your child has a food ___ – a condition where the body makes you sick after eating certain foods.",
+     "a": "allergy",
+     "opts": [
+      "allergy",
+      "appetite",
+      "allergic",
+      "tension"
+     ]
+    },
+    {
+     "s": "Sharon's daughter's allergies ___ what she could eat, making cooking for the whole family a struggle.",
+     "a": "restricted",
+     "opts": [
+      "restricted",
+      "triggered",
+      "restriction",
+      "restrictive"
+     ]
+    },
+    {
+     "s": "A winning ___ is a method or strategy that produces successful results.",
+     "a": "formula",
+     "opts": [
+      "formula",
+      "deal",
+      "mood",
+      "battleground"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "節目問答題：兒童營養師 Charlotte 推薦哪一種讓家庭用餐不緊繃的做法？",
+     "a": "不要逼孩子把盤子裡的東西全部吃完",
+     "opts": [
+      "不要逼孩子把盤子裡的東西全部吃完",
+      "確保孩子每天吃五份蔬果",
+      "很快讓孩子嘗試很多新口味"
+     ]
+    },
+    {
+     "q": "Anne Fishel 認為晚餐時間容易變成戰場的原因是？",
+     "a": "吃不吃是孩子少數能自己掌控的事",
+     "opts": [
+      "吃不吃是孩子少數能自己掌控的事",
+      "父母煮的菜不好吃",
+      "孩子晚餐前吃太多點心"
+     ]
+    },
+    {
+     "q": "Sharon Wee 為過敏的女兒找到的「致勝組合」是什麼？",
+     "a": "米飯配豆子",
+     "opts": [
+      "米飯配豆子",
+      "麵包配起司",
+      "蔬菜湯"
+     ]
+    },
+    {
+     "q": "專家們都同意的做法之一是？",
+     "a": "給孩子選擇，例如餐前提供少量健康點心",
+     "opts": [
+      "給孩子選擇，例如餐前提供少量健康點心",
+      "晚餐一定要全家一起準時開始",
+      "每天換不同的新菜色"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yt-m7IlyBEyi3c",
+   "label": "BBC 012",
+   "theme": "限制孩子的螢幕時間",
+   "themeEn": "Limiting screen time for children",
+   "video": "https://youtu.be/m7IlyBEyi3c",
+   "source": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260618",
+   "publisher": "BBC Learning English《6 Minute English》",
+   "release": "2026-10-03",
+   "transcript": "transcripts/m7IlyBEyi3c.json",
+   "lines": 69,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "device",
+     "s": 3,
+     "ph": "[dɪˋvaɪs]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "裝置，設備"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Yes. And it's a particular worry of many parents that their children spend too much time on these devices.",
+       "zh": "對。很多父母特別擔心孩子花太多時間在這些裝置上。",
+       "t": 48.7,
+       "aus": {
+        "US": "tts/m7IlyBEyi3c/w1_e0_US.mp3",
+        "UK": "tts/m7IlyBEyi3c/w1_e0_UK.mp3",
+        "AU": "tts/m7IlyBEyi3c/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "mobile devices 行動裝置；electronic devices must be turned off 電子裝置必須關機（機上廣播、考場公告常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "devices"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "devise v. 設計，想出（易混淆）"
+     ],
+     "aus": {
+      "US": "tts/m7IlyBEyi3c/w1_US.mp3",
+      "UK": "tts/m7IlyBEyi3c/w1_UK.mp3",
+      "AU": "tts/m7IlyBEyi3c/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "measure",
+     "s": 3,
+     "ph": "[ˋmɛʒɚ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "措施，辦法"
+      },
+      {
+       "p": "v.",
+       "m": "測量，衡量"
+      }
+     ],
+     "ex": [
+      {
+       "en": "At the end of last year, Australia banned access to social media apps for under 16s, and countries like the UK are considering similar measures.",
+       "zh": "去年年底，澳洲禁止 16 歲以下使用社群媒體 App，英國等國家也在考慮類似的措施。",
+       "t": 55.3,
+       "aus": {
+        "US": "tts/m7IlyBEyi3c/w2_e0_US.mp3",
+        "UK": "tts/m7IlyBEyi3c/w2_e0_UK.mp3",
+        "AU": "tts/m7IlyBEyi3c/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "measurement n. 測量；尺寸",
+      "measurable adj. 可衡量的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "take measures to ～ 採取措施；safety / cost-cutting measures 安全／節約成本措施；measure performance 衡量績效。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "measures"
+        ]
+       ]
+      },
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "measures"
+        ],
+        [
+         "過去式",
+         "measured"
+        ],
+        [
+         "過去分詞",
+         "measured"
+        ],
+        [
+         "現在分詞",
+         "measuring"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/m7IlyBEyi3c/w2_US.mp3",
+      "UK": "tts/m7IlyBEyi3c/w2_UK.mp3",
+      "AU": "tts/m7IlyBEyi3c/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "intentional",
+     "s": 2,
+     "ph": "[ɪnˋtɛnʃənḷ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "有意識的，刻意的，故意的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So, to be intentional is to act with that plan or reason in mind.",
+       "zh": "所以 intentional 就是心中帶著那個計畫或理由去行動。",
+       "t": 167.4,
+       "aus": {
+        "US": "tts/m7IlyBEyi3c/w3_e0_US.mp3",
+        "UK": "tts/m7IlyBEyi3c/w3_e0_UK.mp3",
+        "AU": "tts/m7IlyBEyi3c/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "intention n. 意圖，打算",
+      "intentionally adv. 故意地",
+      "intend v. 打算"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "Part 5 常考 intend to do 打算做～；unintentional 無意的：an unintentional error 無心的錯誤。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/m7IlyBEyi3c/w3_US.mp3",
+      "UK": "tts/m7IlyBEyi3c/w3_UK.mp3",
+      "AU": "tts/m7IlyBEyi3c/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "set the bar higher",
+     "s": 1,
+     "ph": "[sɛt ðə bɑr ˋhaɪɚ]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "提高標準、期望"
+      }
+     ],
+     "ex": [
+      {
+       "en": "You might also hear people say set the bar higher or lower.",
+       "zh": "你也可能聽到有人說 set the bar higher or lower（把標準訂高或訂低）。",
+       "t": 198.9,
+       "aus": {
+        "US": "tts/m7IlyBEyi3c/w4_e0_US.mp3",
+        "UK": "tts/m7IlyBEyi3c/w4_e0_UK.mp3",
+        "AU": "tts/m7IlyBEyi3c/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "raise the bar 提高標準（最常見）；set a high bar 訂下高標準；The new model raises the bar for quality. 新機型提高了品質標準。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "sets the bar higher"
+        ],
+        [
+         "過去式",
+         "set the bar higher"
+        ],
+        [
+         "過去分詞",
+         "set the bar higher"
+        ],
+        [
+         "現在分詞",
+         "setting the bar higher"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/m7IlyBEyi3c/w4_US.mp3",
+      "UK": "tts/m7IlyBEyi3c/w4_UK.mp3",
+      "AU": "tts/m7IlyBEyi3c/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "enable",
+     "s": 3,
+     "ph": "[ɪnˋebḷ]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "使能夠，讓～成為可能"
+      }
+     ],
+     "ex": [
+      {
+       "en": "If you enable something, you encourage somebody's ability to do something or to make something possible.",
+       "zh": "如果你 enable 某件事，就是你促進某人做某件事的能力，或讓某件事成為可能。",
+       "t": 211.2,
+       "aus": {
+        "US": "tts/m7IlyBEyi3c/w5_e0_US.mp3",
+        "UK": "tts/m7IlyBEyi3c/w5_e0_UK.mp3",
+        "AU": "tts/m7IlyBEyi3c/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "able adj. 能夠的",
+      "ability n. 能力"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "國際學村 Day 02 核心字。句型 enable A to do：The new software enables employees to work remotely. 新軟體讓員工能遠距工作（Part 5 常考 to do）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "enables"
+        ],
+        [
+         "過去式",
+         "enabled"
+        ],
+        [
+         "過去分詞",
+         "enabled"
+        ],
+        [
+         "現在分詞",
+         "enabling"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/m7IlyBEyi3c/w5_US.mp3",
+      "UK": "tts/m7IlyBEyi3c/w5_UK.mp3",
+      "AU": "tts/m7IlyBEyi3c/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "eager",
+     "s": 2,
+     "ph": "[ˋigɚ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "渴望的，熱切的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "'Eager' is an adjective that describes wanting to do or have something very much.",
+       "zh": "「Eager」是形容詞，形容非常想做或想要某樣東西。",
+       "t": 250.2,
+       "aus": {
+        "US": "tts/m7IlyBEyi3c/w6_e0_US.mp3",
+        "UK": "tts/m7IlyBEyi3c/w6_e0_UK.mp3",
+        "AU": "tts/m7IlyBEyi3c/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "eagerly adv. 熱切地",
+      "eagerness n. 熱切"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "be eager to do 渴望做～：We are eager to hear your feedback. 我們很期待聽到您的意見（書信常見）。eagerness 是國際學村 Day 01 滿分字。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more eager"
+        ],
+        [
+         "最高級",
+         "most eager"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/m7IlyBEyi3c/w6_US.mp3",
+      "UK": "tts/m7IlyBEyi3c/w6_UK.mp3",
+      "AU": "tts/m7IlyBEyi3c/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "shift",
+     "s": 3,
+     "ph": "[ʃɪft]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "轉變，改變；（輪班的）班"
+      },
+      {
+       "p": "v.",
+       "m": "轉移，改變"
+      }
+     ],
+     "ex": [
+      {
+       "en": "A shift is a small change.",
+       "zh": "shift 是一個小改變。",
+       "t": 258.7,
+       "aus": {
+        "US": "tts/m7IlyBEyi3c/w7_e0_US.mp3",
+        "UK": "tts/m7IlyBEyi3c/w7_e0_UK.mp3",
+        "AU": "tts/m7IlyBEyi3c/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "多益最常考「輪班」：the night shift 夜班、work a double shift 連上兩班、cover one's shift 代班（國際學村 Day 03 滿分字）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "shifts"
+        ]
+       ]
+      },
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "shifts"
+        ],
+        [
+         "過去式",
+         "shifted"
+        ],
+        [
+         "過去分詞",
+         "shifted"
+        ],
+        [
+         "現在分詞",
+         "shifting"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/m7IlyBEyi3c/w7_US.mp3",
+      "UK": "tts/m7IlyBEyi3c/w7_UK.mp3",
+      "AU": "tts/m7IlyBEyi3c/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "set someone up for",
+     "s": 2,
+     "ph": "[sɛt ˋsʌm͵wʌn ʌp fɔr]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "讓某人為～做好準備，為某人打好～的基礎"
+      }
+     ],
+     "ex": [
+      {
+       "en": "If you set someone up for something, you prepare them for it.",
+       "zh": "如果你 set someone up for 某件事，就是你讓他們為那件事做好準備。",
+       "t": 294.7,
+       "aus": {
+        "US": "tts/m7IlyBEyi3c/w8_e0_US.mp3",
+        "UK": "tts/m7IlyBEyi3c/w8_e0_UK.mp3",
+        "AU": "tts/m7IlyBEyi3c/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "set someone up for success 幫某人打好成功的基礎（主管、訓練情境常見）。set up 另有「設立、安排」：set up a meeting 安排會議。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "sets ~ up for"
+        ],
+        [
+         "過去式",
+         "set ~ up for"
+        ],
+        [
+         "過去分詞",
+         "set ~ up for"
+        ],
+        [
+         "現在分詞",
+         "setting ~ up for"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "setup n. 設定；安排"
+     ],
+     "aus": {
+      "US": "tts/m7IlyBEyi3c/w8_US.mp3",
+      "UK": "tts/m7IlyBEyi3c/w8_UK.mp3",
+      "AU": "tts/m7IlyBEyi3c/w8_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "Yes. And it's a particular worry of many parents that their children spend too much time on these ___.",
+     "a": "devices",
+     "opts": [
+      "devices",
+      "measures",
+      "shifts",
+      "screens"
+     ]
+    },
+    {
+     "s": "At the end of last year, Australia banned access to social media apps for under 16s, and countries like the UK are considering similar ___.",
+     "a": "measures",
+     "opts": [
+      "measures",
+      "devices",
+      "shifts",
+      "intentions"
+     ]
+    },
+    {
+     "s": "So, to be ___ is to act with that plan or reason in mind.",
+     "a": "intentional",
+     "opts": [
+      "intentional",
+      "intention",
+      "intentionally",
+      "eager"
+     ]
+    },
+    {
+     "s": "You might also hear people say set the ___ higher or lower.",
+     "a": "bar",
+     "opts": [
+      "bar",
+      "shift",
+      "table",
+      "line"
+     ]
+    },
+    {
+     "s": "If you ___ something, you encourage somebody's ability to do something or to make something possible.",
+     "a": "enable",
+     "opts": [
+      "enable",
+      "shift",
+      "measure",
+      "set"
+     ]
+    },
+    {
+     "s": "'___' is an adjective that describes wanting to do or have something very much.",
+     "a": "Eager",
+     "opts": [
+      "Eager",
+      "Intentional",
+      "Realistic",
+      "Practical"
+     ]
+    },
+    {
+     "s": "A ___ is a small change.",
+     "a": "shift",
+     "opts": [
+      "shift",
+      "measure",
+      "device",
+      "bar"
+     ]
+    },
+    {
+     "s": "If you set someone up ___ something, you prepare them for it.",
+     "a": "for",
+     "opts": [
+      "for",
+      "with",
+      "to",
+      "on"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "節目問答題：根據英國媒體監管機構，三到四歲的孩子有多少比例擁有智慧型手機？",
+     "a": "五分之一",
+     "opts": [
+      "五分之一",
+      "二十分之一",
+      "十分之一"
+     ]
+    },
+    {
+     "q": "去年年底，澳洲採取了什麼措施？",
+     "a": "禁止 16 歲以下使用社群媒體 App",
+     "opts": [
+      "禁止 16 歲以下使用社群媒體 App",
+      "禁止兒童使用智慧型手機",
+      "限制每天上網兩小時"
+     ]
+    },
+    {
+     "q": "Emily Goodacre 認為父母該怎麼做？",
+     "a": "不是讓孩子遠離科技，而是更有意識地使用科技",
+     "opts": [
+      "不是讓孩子遠離科技，而是更有意識地使用科技",
+      "完全拿走孩子的螢幕裝置",
+      "只讓孩子在週末使用裝置"
+     ]
+    },
+    {
+     "q": "Becky Kennedy 舉了什麼例子幫孩子減少螢幕時間？",
+     "a": "把裝置移到孩子看不見的地方",
+     "opts": [
+      "把裝置移到孩子看不見的地方",
+      "把網路關掉",
+      "用獎勵交換使用時間"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yt-vOuhs1mA0xo",
+   "label": "BBC 013",
+   "theme": "廣告如何讓我們花錢",
+   "themeEn": "How advertisers make us spend money",
+   "video": "https://youtu.be/vOuhs1mA0xo",
+   "source": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260611",
+   "publisher": "BBC Learning English《6 Minute English》",
+   "release": "2026-10-04",
+   "transcript": "transcripts/vOuhs1mA0xo.json",
+   "lines": 77,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "endorsement",
+     "s": 3,
+     "ph": "[ɪnˋdɔrsmənt]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "代言；背書，認可"
+      }
+     ],
+     "ex": [
+      {
+       "en": "We call this a celebrity endorsement.",
+       "zh": "我們稱這種做法為名人代言。",
+       "t": 35.6,
+       "aus": {
+        "US": "tts/vOuhs1mA0xo/w1_e0_US.mp3",
+        "UK": "tts/vOuhs1mA0xo/w1_e0_UK.mp3",
+        "AU": "tts/vOuhs1mA0xo/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "endorse v. 代言；贊同；背書"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "celebrity endorsement 名人代言；endorse a candidate 支持候選人；endorse a check 在支票背面背書。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "endorsements"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/vOuhs1mA0xo/w1_US.mp3",
+      "UK": "tts/vOuhs1mA0xo/w1_UK.mp3",
+      "AU": "tts/vOuhs1mA0xo/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "credible",
+     "s": 2,
+     "ph": "[ˋkrɛdəbḷ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "可信的，可靠的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "When we're unsure, we don't know what to do, it's kind of easy to follow the lead of those who we think are credible or knowledgeable.",
+       "zh": "當我們不確定、不知道該怎麼做時，跟隨那些我們認為可信或有知識的人，是相當容易的。",
+       "t": 47.8,
+       "aus": {
+        "US": "tts/vOuhs1mA0xo/w2_e0_US.mp3",
+        "UK": "tts/vOuhs1mA0xo/w2_e0_UK.mp3",
+        "AU": "tts/vOuhs1mA0xo/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "credibility n. 可信度",
+      "incredible adj. 難以置信的；極好的"
+     ],
+     "tips": [
+      {
+       "k": "易混淆",
+       "t": "credible（可信的）≠ credulous（輕信的）≠ creditable（值得稱讚的）。a credible source 可靠的消息來源。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more credible"
+        ],
+        [
+         "最高級",
+         "most credible"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/vOuhs1mA0xo/w2_US.mp3",
+      "UK": "tts/vOuhs1mA0xo/w2_UK.mp3",
+      "AU": "tts/vOuhs1mA0xo/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "install",
+     "s": 3,
+     "ph": "[ɪnˋstɔl]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "安裝，設置"
+      }
+     ],
+     "ex": [
+      {
+       "en": "In recent years, many fast-food chains have installed touchscreen machines for people to order their food.",
+       "zh": "近年來，很多速食連鎖店都裝了觸控螢幕點餐機讓人點餐。",
+       "t": 127.5,
+       "aus": {
+        "US": "tts/vOuhs1mA0xo/w3_e0_US.mp3",
+        "UK": "tts/vOuhs1mA0xo/w3_e0_UK.mp3",
+        "AU": "tts/vOuhs1mA0xo/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "installation n. 安裝",
+      "installment n. 分期付款（的一期）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "Part 1、Part 7 常見：Workers are installing a new sign. 工人正在安裝新招牌；pay in installments 分期付款。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "installs"
+        ],
+        [
+         "過去式",
+         "installed"
+        ],
+        [
+         "過去分詞",
+         "installed"
+        ],
+        [
+         "現在分詞",
+         "installing"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/vOuhs1mA0xo/w3_US.mp3",
+      "UK": "tts/vOuhs1mA0xo/w3_UK.mp3",
+      "AU": "tts/vOuhs1mA0xo/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "proportion",
+     "s": 3,
+     "ph": "[prəˋporʃən]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "比例，部分"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Not all people, but I think there's definitely a large proportion of people who may feel judged in those instances and may say no.",
+       "zh": "不是所有人，但我覺得確實有很大比例的人在那些情況下可能會覺得被評判，然後說不要。",
+       "t": 156.0,
+       "aus": {
+        "US": "tts/vOuhs1mA0xo/w4_e0_US.mp3",
+        "UK": "tts/vOuhs1mA0xo/w4_e0_UK.mp3",
+        "AU": "tts/vOuhs1mA0xo/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "proportional adj. 成比例的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a large / small proportion of ～ 大／小部分的～；in proportion to 與～成比例（The fee is in proportion to the size of the order. 費用依訂單大小比例計算）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "proportions"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/vOuhs1mA0xo/w4_US.mp3",
+      "UK": "tts/vOuhs1mA0xo/w4_UK.mp3",
+      "AU": "tts/vOuhs1mA0xo/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "inclined",
+     "s": 2,
+     "ph": "[ɪnˋklaɪnd]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "傾向於～的，有意～的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Because you've got more time and you're not being judged, you're very much more inclined to actually say yes to these things.",
+       "zh": "因為你有比較多時間，又不會被評判，所以你會更傾向對這些東西說好。",
+       "t": 174.0,
+       "aus": {
+        "US": "tts/vOuhs1mA0xo/w5_e0_US.mp3",
+        "UK": "tts/vOuhs1mA0xo/w5_e0_UK.mp3",
+        "AU": "tts/vOuhs1mA0xo/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "inclination n. 傾向，意願",
+      "incline v. 使傾向"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "be inclined to do 傾向做～（to 後接原形動詞，Part 5 常考）：Customers are more inclined to buy when prices are clearly displayed."
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more inclined"
+        ],
+        [
+         "最高級",
+         "most inclined"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/vOuhs1mA0xo/w5_US.mp3",
+      "UK": "tts/vOuhs1mA0xo/w5_UK.mp3",
+      "AU": "tts/vOuhs1mA0xo/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "upsell",
+     "s": 2,
+     "ph": "[ˋʌp͵sɛl]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "向上銷售，推銷加購（更貴或更多的商品）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "If you upsell something, then you get someone to spend more.",
+       "zh": "如果你 upsell 某樣東西，就是讓某人花更多錢。",
+       "t": 196.3,
+       "aus": {
+        "US": "tts/vOuhs1mA0xo/w6_e0_US.mp3",
+        "UK": "tts/vOuhs1mA0xo/w6_e0_UK.mp3",
+        "AU": "tts/vOuhs1mA0xo/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "相關：cross-sell 交叉銷售（推薦相關產品）；upgrade 升級。業務、零售情境常見。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "upsells"
+        ],
+        [
+         "過去式",
+         "upsold"
+        ],
+        [
+         "過去分詞",
+         "upsold"
+        ],
+        [
+         "現在分詞",
+         "upselling"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "upselling n. 向上銷售"
+     ],
+     "aus": {
+      "US": "tts/vOuhs1mA0xo/w6_US.mp3",
+      "UK": "tts/vOuhs1mA0xo/w6_UK.mp3",
+      "AU": "tts/vOuhs1mA0xo/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "transaction",
+     "s": 3,
+     "ph": "[trænˋzækʃən]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "交易，（一筆）買賣"
+      }
+     ],
+     "ex": [
+      {
+       "en": "A basket spend is the total amount that someone spends in one transaction, on everything that's in their basket.",
+       "zh": "basket spend 是某人在一筆交易中，為購物籃裡所有東西花的總金額。",
+       "t": 210.7,
+       "aus": {
+        "US": "tts/vOuhs1mA0xo/w7_e0_US.mp3",
+        "UK": "tts/vOuhs1mA0xo/w7_e0_UK.mp3",
+        "AU": "tts/vOuhs1mA0xo/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "transact v. 交易，處理"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "銀行、信用卡情境必考：online transactions 網路交易；a transaction fee 交易手續費；transaction history 交易紀錄。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "transactions"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/vOuhs1mA0xo/w7_US.mp3",
+      "UK": "tts/vOuhs1mA0xo/w7_UK.mp3",
+      "AU": "tts/vOuhs1mA0xo/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "think outside the box",
+     "s": 2,
+     "ph": "[θɪŋk ˋaʊtˋsaɪd ðə bɑks]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "跳脫框架思考，發揮創意"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Takwa says that they needed to think outside the box.",
+       "zh": "Takwa 說他們需要 think outside the box。",
+       "t": 274.4,
+       "aus": {
+        "US": "tts/vOuhs1mA0xo/w8_e0_US.mp3",
+        "UK": "tts/vOuhs1mA0xo/w8_e0_UK.mp3",
+        "AU": "tts/vOuhs1mA0xo/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "徵才廣告常見：We are looking for someone who can think outside the box. 我們在找能跳脫框架思考的人。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "thinks outside the box"
+        ],
+        [
+         "過去式",
+         "thought outside the box"
+        ],
+        [
+         "過去分詞",
+         "thought outside the box"
+        ],
+        [
+         "現在分詞",
+         "thinking outside the box"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/vOuhs1mA0xo/w8_US.mp3",
+      "UK": "tts/vOuhs1mA0xo/w8_UK.mp3",
+      "AU": "tts/vOuhs1mA0xo/w8_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "We call this a celebrity ___.",
+     "a": "endorsement",
+     "opts": [
+      "endorsement",
+      "transaction",
+      "proportion",
+      "installation"
+     ]
+    },
+    {
+     "s": "It's kind of easy to follow the lead of those who we think are ___ or knowledgeable.",
+     "a": "credible",
+     "opts": [
+      "credible",
+      "incredible",
+      "inclined",
+      "judged"
+     ]
+    },
+    {
+     "s": "In recent years, many fast-food chains have ___ touchscreen machines for people to order their food.",
+     "a": "installed",
+     "opts": [
+      "installed",
+      "upsold",
+      "endorsed",
+      "inclined"
+     ]
+    },
+    {
+     "s": "Not all people, but I think there's definitely a large ___ of people who may feel judged in those instances and may say no.",
+     "a": "proportion",
+     "opts": [
+      "proportion",
+      "transaction",
+      "endorsement",
+      "basket"
+     ]
+    },
+    {
+     "s": "Because you've got more time and you're not being judged, you're very much more ___ to actually say yes to these things.",
+     "a": "inclined",
+     "opts": [
+      "inclined",
+      "credible",
+      "installed",
+      "judged"
+     ]
+    },
+    {
+     "s": "If you ___ something, then you get someone to spend more.",
+     "a": "upsell",
+     "opts": [
+      "upsell",
+      "install",
+      "endorse",
+      "model"
+     ]
+    },
+    {
+     "s": "A basket spend is the total amount that someone spends in one ___, on everything that's in their basket.",
+     "a": "transaction",
+     "opts": [
+      "transaction",
+      "proportion",
+      "endorsement",
+      "shortcut"
+     ]
+    },
+    {
+     "s": "Takwa says that they needed to think outside the ___.",
+     "a": "box",
+     "opts": [
+      "box",
+      "basket",
+      "line",
+      "table"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "節目問答題：認為人會因小小提示而改變行為的理論叫什麼？",
+     "a": "推力提示理論（nudge theory）",
+     "opts": [
+      "推力提示理論（nudge theory）",
+      "拉力理論（pull theory）",
+      "推力理論（push theory）"
+     ]
+    },
+    {
+     "q": "為什麼速食店裝了觸控點餐機後營收增加？",
+     "a": "顧客不會覺得被店員評判，也有更多時間看，較容易答應加購",
+     "opts": [
+      "顧客不會覺得被店員評判，也有更多時間看，較容易答應加購",
+      "觸控點餐機的價格比較便宜",
+      "店裡的員工變多了"
+     ]
+    },
+    {
+     "q": "Dean Ward 說使用觸控點餐後，每筆消費金額通常增加多少？",
+     "a": "25% 到 30%",
+     "opts": [
+      "25% 到 30%",
+      "5% 到 10%",
+      "50% 以上"
+     ]
+    },
+    {
+     "q": "聯合國世界糧食計劃署在突尼西亞做了什麼，鼓勵大家更常一起吃飯？",
+     "a": "製作一部以餐廳為背景的電視節目",
+     "opts": [
+      "製作一部以餐廳為背景的電視節目",
+      "發放免費餐券",
+      "請名人拍廣告代言"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yt-Cq8v437OWyU",
+   "label": "BBC 014",
+   "theme": "詩的力量",
+   "themeEn": "The power of poetry",
+   "video": "https://youtu.be/Cq8v437OWyU",
+   "source": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260604",
+   "publisher": "BBC Learning English《6 Minute English》",
+   "release": "2026-10-05",
+   "transcript": "transcripts/Cq8v437OWyU.json",
+   "lines": 64,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "open mic night",
+     "s": 1,
+     "ph": "[ˋopən maɪk naɪt]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "開放麥克風之夜（任何人都能上台表演的活動）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "A good place to hear poetry is an open mic night, a live event where anyone is allowed to stand up on stage to sing or recite poems.",
+       "zh": "聽詩的好地方是開放麥克風之夜，這是一種任何人都可以上台唱歌或朗誦詩的現場活動。",
+       "t": 38.6,
+       "aus": {
+        "US": "tts/Cq8v437OWyU/w1_e0_US.mp3",
+        "UK": "tts/Cq8v437OWyU/w1_e0_UK.mp3",
+        "AU": "tts/Cq8v437OWyU/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "mic 是 microphone 的縮寫。活動公告常見：Sign-up for the open mic starts at 7 P.M."
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "open mic nights"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/Cq8v437OWyU/w1_US.mp3",
+      "UK": "tts/Cq8v437OWyU/w1_UK.mp3",
+      "AU": "tts/Cq8v437OWyU/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "come in handy",
+     "s": 2,
+     "ph": "[kʌm ɪn ˋhændɪ]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "派上用場，有用處"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Hmm. Finally, my English degree might come in handy!",
+       "zh": "嗯。我的英文學位終於要派上用場了！",
+       "t": 135.5,
+       "aus": {
+        "US": "tts/Cq8v437OWyU/w2_e0_US.mp3",
+        "UK": "tts/Cq8v437OWyU/w2_e0_UK.mp3",
+        "AU": "tts/Cq8v437OWyU/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "handy adj. 方便的，好用的；就在手邊的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "Part 2、Part 3 常見：This umbrella will come in handy. 這把傘會派上用場；keep ～ handy 把～放在手邊。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "comes in handy"
+        ],
+        [
+         "過去式",
+         "came in handy"
+        ],
+        [
+         "過去分詞",
+         "come in handy"
+        ],
+        [
+         "現在分詞",
+         "coming in handy"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/Cq8v437OWyU/w2_US.mp3",
+      "UK": "tts/Cq8v437OWyU/w2_UK.mp3",
+      "AU": "tts/Cq8v437OWyU/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "overcome",
+     "s": 3,
+     "ph": "[͵ovɚˋkʌm]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "克服，戰勝"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Now, poetry helped Maria overcome sadness, but could its power to heal work in other areas too?",
+       "zh": "詩幫助 Maria 走出了悲傷，但它的療癒力量在其他領域也有用嗎？",
+       "t": 145.8,
+       "aus": {
+        "US": "tts/Cq8v437OWyU/w3_e0_US.mp3",
+        "UK": "tts/Cq8v437OWyU/w3_e0_UK.mp3",
+        "AU": "tts/Cq8v437OWyU/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "overcome challenges / obstacles / difficulties 克服挑戰／障礙／困難（推薦信、面試常見）。不規則變化：overcome – overcame – overcome。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "overcomes"
+        ],
+        [
+         "過去式",
+         "overcame"
+        ],
+        [
+         "過去分詞",
+         "overcome"
+        ],
+        [
+         "現在分詞",
+         "overcoming"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/Cq8v437OWyU/w3_US.mp3",
+      "UK": "tts/Cq8v437OWyU/w3_UK.mp3",
+      "AU": "tts/Cq8v437OWyU/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "complex",
+     "s": 3,
+     "ph": "[kəmˋplɛks]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "複雜的"
+      },
+      {
+       "p": "n.",
+       "m": "綜合設施，建築群"
+      }
+     ],
+     "ex": [
+      {
+       "en": "It's a complex research project that many find hard to understand.",
+       "zh": "那是一個很多人都難以理解的複雜研究計畫。",
+       "t": 195.4,
+       "aus": {
+        "US": "tts/Cq8v437OWyU/w4_e0_US.mp3",
+        "UK": "tts/Cq8v437OWyU/w4_e0_UK.mp3",
+        "AU": "tts/Cq8v437OWyU/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "complexity n. 複雜性",
+      "complicated adj. 複雜的"
+     ],
+     "tips": [
+      {
+       "k": "易混淆",
+       "t": "名詞 complex 多益很常考：an office complex 辦公大樓群、a sports complex 運動中心、an apartment complex 公寓社區。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more complex"
+        ],
+        [
+         "最高級",
+         "most complex"
+        ]
+       ]
+      },
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "complexes"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/Cq8v437OWyU/w4_US.mp3",
+      "UK": "tts/Cq8v437OWyU/w4_UK.mp3",
+      "AU": "tts/Cq8v437OWyU/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "jargon",
+     "s": 2,
+     "ph": "[ˋdʒɑrgən]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "術語，行話"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Science uses lots of jargon – specialist or technical vocabulary which is quite different from everyday language.",
+       "zh": "科學用了很多 jargon（術語）——和日常用語很不一樣的專業或技術詞彙。",
+       "t": 221.2,
+       "aus": {
+        "US": "tts/Cq8v437OWyU/w5_e0_US.mp3",
+        "UK": "tts/Cq8v437OWyU/w5_e0_UK.mp3",
+        "AU": "tts/Cq8v437OWyU/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "legal / technical jargon 法律／技術術語；avoid jargon 避免使用術語（寫給客戶的信、簡報建議常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/Cq8v437OWyU/w5_US.mp3",
+      "UK": "tts/Cq8v437OWyU/w5_UK.mp3",
+      "AU": "tts/Cq8v437OWyU/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "impenetrable",
+     "s": 1,
+     "ph": "[ɪmˋpɛnətrəbḷ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "難以理解的；無法穿透的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Jargon can make scientific papers impenetrable, an adjective meaning impossible to understand.",
+       "zh": "術語會讓科學論文 impenetrable，這個形容詞的意思是完全無法理解。",
+       "t": 235.5,
+       "aus": {
+        "US": "tts/Cq8v437OWyU/w6_e0_US.mp3",
+        "UK": "tts/Cq8v437OWyU/w6_e0_UK.mp3",
+        "AU": "tts/Cq8v437OWyU/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "penetrate v. 穿透；打入（市場）",
+      "penetration n. 滲透；市場滲透率"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "字根 penetrate 在商業英文常見：penetrate the Asian market 打入亞洲市場。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/Cq8v437OWyU/w6_US.mp3",
+      "UK": "tts/Cq8v437OWyU/w6_UK.mp3",
+      "AU": "tts/Cq8v437OWyU/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "turn-off",
+     "s": 1,
+     "ph": "[ˋtɝn͵ɔf]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "令人反感或失去興趣的事物"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And worse, it makes science a turn-off – something that people dislike or find uninteresting.",
+       "zh": "更糟的是，它讓科學變成 a turn-off——讓人討厭或覺得無趣的東西。",
+       "t": 241.9,
+       "aus": {
+        "US": "tts/Cq8v437OWyU/w7_e0_US.mp3",
+        "UK": "tts/Cq8v437OWyU/w7_e0_UK.mp3",
+        "AU": "tts/Cq8v437OWyU/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "易混淆",
+       "t": "動詞片語 turn off 是「關掉」：Please turn off your mobile phones.（Part 4 公告必聽）。名詞 turnoff 另有「交流道出口」的意思。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "turn-offs"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "turn off phr. 關掉（動詞片語）"
+     ],
+     "aus": {
+      "US": "tts/Cq8v437OWyU/w7_US.mp3",
+      "UK": "tts/Cq8v437OWyU/w7_UK.mp3",
+      "AU": "tts/Cq8v437OWyU/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "goosebumps",
+     "s": 1,
+     "ph": "[ˋgus͵bʌmps]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "雞皮疙瘩"
+      }
+     ],
+     "ex": [
+      {
+       "en": "It still gives me goosebumps when I hear it now.",
+       "zh": "我現在再聽，還是會起雞皮疙瘩。",
+       "t": 271.6,
+       "aus": {
+        "US": "tts/Cq8v437OWyU/w8_e0_US.mp3",
+        "UK": "tts/Cq8v437OWyU/w8_e0_UK.mp3",
+        "AU": "tts/Cq8v437OWyU/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "give someone goosebumps 讓某人起雞皮疙瘩（感動、害怕或冷）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "複數形"
+      }
+     ],
+     "aus": {
+      "US": "tts/Cq8v437OWyU/w8_US.mp3",
+      "UK": "tts/Cq8v437OWyU/w8_UK.mp3",
+      "AU": "tts/Cq8v437OWyU/w8_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "A good place to hear poetry is an open ___ night, a live event where anyone is allowed to stand up on stage to sing or recite poems.",
+     "a": "mic",
+     "opts": [
+      "mic",
+      "air",
+      "house",
+      "stage"
+     ]
+    },
+    {
+     "s": "Hmm. Finally, my English degree might come in ___!",
+     "a": "handy",
+     "opts": [
+      "handy",
+      "hand",
+      "useful",
+      "hands"
+     ]
+    },
+    {
+     "s": "Now, poetry helped Maria ___ sadness, but could its power to heal work in other areas too?",
+     "a": "overcome",
+     "opts": [
+      "overcome",
+      "overlook",
+      "overtake",
+      "overdo"
+     ]
+    },
+    {
+     "s": "It's a ___ research project that many find hard to understand.",
+     "a": "complex",
+     "opts": [
+      "complex",
+      "complexity",
+      "impenetrable",
+      "handy"
+     ]
+    },
+    {
+     "s": "Science uses lots of ___ – specialist or technical vocabulary which is quite different from everyday language.",
+     "a": "jargon",
+     "opts": [
+      "jargon",
+      "poetry",
+      "goosebumps",
+      "alliteration"
+     ]
+    },
+    {
+     "s": "Jargon can make scientific papers ___, an adjective meaning impossible to understand.",
+     "a": "impenetrable",
+     "opts": [
+      "impenetrable",
+      "complex",
+      "handy",
+      "credible"
+     ]
+    },
+    {
+     "s": "And worse, it makes science a ___ – something that people dislike or find uninteresting.",
+     "a": "turn-off",
+     "opts": [
+      "turn-off",
+      "turnout",
+      "turnover",
+      "turn-on"
+     ]
+    },
+    {
+     "s": "It still gives me ___ when I hear it now.",
+     "a": "goosebumps",
+     "opts": [
+      "goosebumps",
+      "jargon",
+      "headaches",
+      "turn-offs"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "節目問答題：一串字用同樣的音開頭（例如 the positive power of poetry），這叫什麼？",
+     "a": "頭韻（alliteration）",
+     "opts": [
+      "頭韻（alliteration）",
+      "諧母音（assonance）",
+      "明喻（simile）"
+     ]
+    },
+    {
+     "q": "Maria 在開放麥克風之夜朗誦的詩是關於什麼？",
+     "a": "一位中風的朋友",
+     "opts": [
+      "一位中風的朋友",
+      "她的家鄉",
+      "氣候變遷"
+     ]
+    },
+    {
+     "q": "Hot Poets 這個團體在做什麼？",
+     "a": "把科學研究寫成詩，讓大家更容易理解全球議題",
+     "opts": [
+      "把科學研究寫成詩，讓大家更容易理解全球議題",
+      "舉辦詩歌比賽",
+      "教小孩寫詩"
+     ]
+    },
+    {
+     "q": "Liv Torc 認為科學溝通的問題在哪裡？",
+     "a": "術語太多，一般人看不懂，很快就失去興趣",
+     "opts": [
+      "術語太多，一般人看不懂，很快就失去興趣",
+      "科學家不願意發表研究",
+      "研究經費不足"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yt-dgFm7A8pyzo",
+   "label": "BBC 015",
+   "theme": "與債務共處",
+   "themeEn": "Living with debt",
+   "video": "https://youtu.be/dgFm7A8pyzo",
+   "source": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260528",
+   "publisher": "BBC Learning English《6 Minute English》",
+   "release": "2026-10-06",
+   "transcript": "transcripts/dgFm7A8pyzo.json",
+   "lines": 68,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "debt",
+     "s": 3,
+     "ph": "[dɛt]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "債務，欠款"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Debt refers to money a person has borrowed to buy something and which they have to pay back, usually to a bank, a credit card company, or another person.",
+       "zh": "Debt（債務）是指一個人為了買東西而借的錢，之後必須還，通常是還給銀行、信用卡公司或其他人。",
+       "t": 48.4,
+       "aus": {
+        "US": "tts/dgFm7A8pyzo/w1_e0_US.mp3",
+        "UK": "tts/dgFm7A8pyzo/w1_e0_UK.mp3",
+        "AU": "tts/dgFm7A8pyzo/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "debtor n. 債務人",
+      "indebted adj. 負債的；感激的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "b 不發音，念 [dɛt]。be in debt 負債；pay off a debt 還清債務；debt-free 無負債的。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "debts"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/dgFm7A8pyzo/w1_US.mp3",
+      "UK": "tts/dgFm7A8pyzo/w1_UK.mp3",
+      "AU": "tts/dgFm7A8pyzo/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "take out a loan",
+     "s": 3,
+     "ph": "[tek aʊt ə lon]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "（向銀行等）借貸款"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Sometimes you need to take out loans.",
+       "zh": "有時候就得去借貸。",
+       "t": 85.3,
+       "aus": {
+        "US": "tts/dgFm7A8pyzo/w2_e0_US.mp3",
+        "UK": "tts/dgFm7A8pyzo/w2_e0_UK.mp3",
+        "AU": "tts/dgFm7A8pyzo/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "loan 貸款：apply for a loan 申請貸款、approve a loan 核准貸款、a loan officer 貸款專員。take out insurance 投保，也用 take out。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "takes out a loan"
+        ],
+        [
+         "過去式",
+         "took out a loan"
+        ],
+        [
+         "過去分詞",
+         "taken out a loan"
+        ],
+        [
+         "現在分詞",
+         "taking out a loan"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "loan n. 貸款",
+      "lender n. 貸方"
+     ],
+     "aus": {
+      "US": "tts/dgFm7A8pyzo/w2_US.mp3",
+      "UK": "tts/dgFm7A8pyzo/w2_UK.mp3",
+      "AU": "tts/dgFm7A8pyzo/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "pay off",
+     "s": 3,
+     "ph": "[pe ɔf]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "還清（債務）；（努力）得到回報"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Jason uses three phrases, pay back, pay off, and clear debt, all of which mean the same thing – to give back the money you've borrowed.",
+       "zh": "Jason 用了三個片語：pay back、pay off 和 clear debt，意思都一樣——把借來的錢還回去。",
+       "t": 97.6,
+       "aus": {
+        "US": "tts/dgFm7A8pyzo/w3_e0_US.mp3",
+        "UK": "tts/dgFm7A8pyzo/w3_e0_UK.mp3",
+        "AU": "tts/dgFm7A8pyzo/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "易混淆",
+       "t": "另一個常考意思是「有回報」：All the hard work finally paid off. 所有的努力終於有了回報。payoff 名詞「回報」。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "pays off"
+        ],
+        [
+         "過去式",
+         "paid off"
+        ],
+        [
+         "過去分詞",
+         "paid off"
+        ],
+        [
+         "現在分詞",
+         "paying off"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "payoff n. 回報"
+     ],
+     "aus": {
+      "US": "tts/dgFm7A8pyzo/w3_US.mp3",
+      "UK": "tts/dgFm7A8pyzo/w3_UK.mp3",
+      "AU": "tts/dgFm7A8pyzo/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "make ends meet",
+     "s": 2,
+     "ph": "[mek ɛndz mit]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "勉強維持收支，量入為出"
+      }
+     ],
+     "ex": [
+      {
+       "en": "To make ends meet means having just enough money to pay for basic living expenses like food, bills and rent.",
+       "zh": "To make ends meet 的意思是錢剛好夠支付食物、帳單、房租等基本生活開銷。",
+       "t": 201.9,
+       "aus": {
+        "US": "tts/dgFm7A8pyzo/w4_e0_US.mp3",
+        "UK": "tts/dgFm7A8pyzo/w4_e0_UK.mp3",
+        "AU": "tts/dgFm7A8pyzo/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "struggle to make ends meet 難以維持生計；Many workers take second jobs to make ends meet. 很多人兼差來維持生計。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "makes ends meet"
+        ],
+        [
+         "過去式",
+         "made ends meet"
+        ],
+        [
+         "過去分詞",
+         "made ends meet"
+        ],
+        [
+         "現在分詞",
+         "making ends meet"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/dgFm7A8pyzo/w4_US.mp3",
+      "UK": "tts/dgFm7A8pyzo/w4_UK.mp3",
+      "AU": "tts/dgFm7A8pyzo/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "expense",
+     "s": 3,
+     "ph": "[ɪkˋspɛns]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "費用，開銷"
+      }
+     ],
+     "ex": [
+      {
+       "en": "To make ends meet means having just enough money to pay for basic living expenses like food, bills and rent.",
+       "zh": "To make ends meet 的意思是錢剛好夠支付食物、帳單、房租等基本生活開銷。",
+       "t": 201.9,
+       "aus": {
+        "US": "tts/dgFm7A8pyzo/w5_e0_US.mp3",
+        "UK": "tts/dgFm7A8pyzo/w5_e0_UK.mp3",
+        "AU": "tts/dgFm7A8pyzo/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "expensive adj. 昂貴的",
+      "expend v. 花費",
+      "expenditure n. 支出，開支"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "多益超高頻：travel expenses 差旅費、submit an expense report 繳交費用報告、at the company's expense 由公司負擔。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "expenses"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/dgFm7A8pyzo/w5_US.mp3",
+      "UK": "tts/dgFm7A8pyzo/w5_UK.mp3",
+      "AU": "tts/dgFm7A8pyzo/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "in arrears",
+     "s": 1,
+     "ph": "[ɪn əˋrɪrz]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "拖欠（款項），逾期未付"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Ryan found that many residents were in arrears, a phrase meaning to still owe money that should have already been repaid.",
+       "zh": "Ryan 發現很多居民都 in arrears，這個說法的意思是仍欠著早就該還的錢。",
+       "t": 209.4,
+       "aus": {
+        "US": "tts/dgFm7A8pyzo/w6_e0_US.mp3",
+        "UK": "tts/dgFm7A8pyzo/w6_e0_UK.mp3",
+        "AU": "tts/dgFm7A8pyzo/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "同義：overdue、past due（國際學村 Day 03 滿分字）。rent arrears 積欠的房租。另有「（薪資）事後支付」：paid monthly in arrears 每月月底後發薪。"
+      }
+     ],
+     "forms": [],
+     "aus": {
+      "US": "tts/dgFm7A8pyzo/w6_US.mp3",
+      "UK": "tts/dgFm7A8pyzo/w6_UK.mp3",
+      "AU": "tts/dgFm7A8pyzo/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "income",
+     "s": 3,
+     "ph": "[ˋɪn͵kʌm]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "收入，所得"
+      }
+     ],
+     "ex": [
+      {
+       "en": "With a regular income, debt can be managed, but for those who are unemployed or on low incomes, it can cause serious distress.",
+       "zh": "有固定收入的話，債務還能管理，但對失業或低收入的人來說，它可能造成嚴重的困擾。",
+       "t": 221.6,
+       "aus": {
+        "US": "tts/dgFm7A8pyzo/w7_e0_US.mp3",
+        "UK": "tts/dgFm7A8pyzo/w7_e0_UK.mp3",
+        "AU": "tts/dgFm7A8pyzo/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "annual income 年收入；income tax 所得稅；low-income households 低收入家庭；net income 淨收入。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "incomes"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/dgFm7A8pyzo/w7_US.mp3",
+      "UK": "tts/dgFm7A8pyzo/w7_UK.mp3",
+      "AU": "tts/dgFm7A8pyzo/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "financial strain",
+     "s": 2,
+     "ph": "[faɪˋnænʃəl stren]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "經濟壓力，財務負擔"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Jason experienced financial strain – emotional stress caused by a lack of money to meet his basic needs or to repay his debt.",
+       "zh": "Jason 承受著 financial strain——因為沒錢滿足基本需求或還債而產生的情緒壓力。",
+       "t": 276.1,
+       "aus": {
+        "US": "tts/dgFm7A8pyzo/w8_e0_US.mp3",
+        "UK": "tts/dgFm7A8pyzo/w8_e0_UK.mp3",
+        "AU": "tts/dgFm7A8pyzo/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "strain v. 使緊繃；n. 壓力，負擔"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "put a strain on ～ 對～造成壓力（The extra orders put a strain on our staff. 額外訂單讓員工壓力很大）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "多為不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/dgFm7A8pyzo/w8_US.mp3",
+      "UK": "tts/dgFm7A8pyzo/w8_UK.mp3",
+      "AU": "tts/dgFm7A8pyzo/w8_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "___ refers to money a person has borrowed to buy something and which they have to pay back, usually to a bank, a credit card company, or another person.",
+     "a": "Debt",
+     "opts": [
+      "Debt",
+      "Income",
+      "Expense",
+      "Credit"
+     ]
+    },
+    {
+     "s": "Sometimes you need to take out ___.",
+     "a": "loans",
+     "opts": [
+      "loans",
+      "debts",
+      "incomes",
+      "arrears"
+     ]
+    },
+    {
+     "s": "Jason uses three phrases, pay back, pay ___, and clear debt, all of which mean the same thing – to give back the money you've borrowed.",
+     "a": "off",
+     "opts": [
+      "off",
+      "out",
+      "up",
+      "for"
+     ]
+    },
+    {
+     "s": "To make ends ___ means having just enough money to pay for basic living expenses like food, bills and rent.",
+     "a": "meet",
+     "opts": [
+      "meet",
+      "end",
+      "match",
+      "close"
+     ]
+    },
+    {
+     "s": "To make ends meet means having just enough money to pay for basic living ___ like food, bills and rent.",
+     "a": "expenses",
+     "opts": [
+      "expenses",
+      "incomes",
+      "loans",
+      "debts"
+     ]
+    },
+    {
+     "s": "Ryan found that many residents were in ___, a phrase meaning to still owe money that should have already been repaid.",
+     "a": "arrears",
+     "opts": [
+      "arrears",
+      "advance",
+      "debt",
+      "strain"
+     ]
+    },
+    {
+     "s": "With a regular ___, debt can be managed, but for those who are unemployed or on low incomes, it can cause serious distress.",
+     "a": "income",
+     "opts": [
+      "income",
+      "expense",
+      "loan",
+      "outcome"
+     ]
+    },
+    {
+     "s": "Jason experienced financial ___ – emotional stress caused by a lack of money to meet his basic needs or to repay his debt.",
+     "a": "strain",
+     "opts": [
+      "strain",
+      "income",
+      "arrears",
+      "support"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "節目問答題：英國成年人透過信用卡、透支和個人貸款平均負債多少？",
+     "a": "約 4,200 英鎊（4,232 英鎊）",
+     "opts": [
+      "約 4,200 英鎊（4,232 英鎊）",
+      "約 2,200 英鎊",
+      "約 6,200 英鎊"
+     ]
+    },
+    {
+     "q": "2025 年，每天大約有多少人聯絡英國公民諮詢局尋求債務協助？",
+     "a": "超過 1,000 人",
+     "opts": [
+      "超過 1,000 人",
+      "大約 100 人",
+      "超過 10,000 人"
+     ]
+    },
+    {
+     "q": "社會學家 Ryan Davey 怎麼做研究？",
+     "a": "在低收入住宅社區住了幾個月，訪問居民",
+     "opts": [
+      "在低收入住宅社區住了幾個月，訪問居民",
+      "分析銀行的貸款資料",
+      "寄問卷給全國民眾"
+     ]
+    },
+    {
+     "q": "Jason 和伴侶的經濟壓力變大後，發生了什麼事？",
+     "a": "漏繳帳單，網路被斷線",
+     "opts": [
+      "漏繳帳單，網路被斷線",
+      "搬到另一個城市",
+      "中了樂透"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yt-LZYCjqAOhEE",
+   "label": "BBC 016",
+   "theme": "讓城市感覺更安靜",
+   "themeEn": "Making cities feel quieter",
+   "video": "https://youtu.be/LZYCjqAOhEE",
+   "source": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260521",
+   "publisher": "BBC Learning English《6 Minute English》",
+   "release": "2026-10-07",
+   "transcript": "transcripts/LZYCjqAOhEE.json",
+   "lines": 70,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "exposure",
+     "s": 3,
+     "ph": "[ɪkˋspoʒɚ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "暴露，接觸；曝光（度）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "The World Health Organisation reports that by 2050, around 2.5 billion people will experience hearing loss, and exposure to loud noise has been linked to stress and anxiety.",
+       "zh": "世界衛生組織報告指出，到 2050 年，大約 25 億人會出現聽力損失，而長期暴露在巨大噪音中也和壓力、焦慮有關。",
+       "t": 61.5,
+       "aus": {
+        "US": "tts/LZYCjqAOhEE/w1_e0_US.mp3",
+        "UK": "tts/LZYCjqAOhEE/w1_e0_UK.mp3",
+        "AU": "tts/LZYCjqAOhEE/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "expose v. 使暴露；揭露"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "exposure to ～ 接觸～（介系詞用 to）；media exposure 媒體曝光；gain exposure 獲得曝光（行銷情境）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "多為不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/LZYCjqAOhEE/w1_US.mp3",
+      "UK": "tts/LZYCjqAOhEE/w1_UK.mp3",
+      "AU": "tts/LZYCjqAOhEE/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "decibel",
+     "s": 1,
+     "ph": "[ˋdɛsə͵bɛl]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "分貝（聲音的單位）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Sound is measured in units called decibels.",
+       "zh": "聲音的計量單位叫做分貝。",
+       "t": 91.3,
+       "aus": {
+        "US": "tts/LZYCjqAOhEE/w2_e0_US.mp3",
+        "UK": "tts/LZYCjqAOhEE/w2_e0_UK.mp3",
+        "AU": "tts/LZYCjqAOhEE/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "縮寫 dB。noise levels above 85 decibels 超過 85 分貝的噪音（職業安全衛生常見，工廠需提供耳塞）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "decibels"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/LZYCjqAOhEE/w2_US.mp3",
+      "UK": "tts/LZYCjqAOhEE/w2_UK.mp3",
+      "AU": "tts/LZYCjqAOhEE/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "handle",
+     "s": 3,
+     "ph": "[ˋhændḷ]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "處理，應付；搬運"
+      },
+      {
+       "p": "n.",
+       "m": "把手"
+      }
+     ],
+     "ex": [
+      {
+       "en": "If you can't handle something, you find it difficult to deal or cope with.",
+       "zh": "如果你 can't handle 某件事，就是你覺得很難處理或應付它。",
+       "t": 174.6,
+       "aus": {
+        "US": "tts/LZYCjqAOhEE/w3_e0_US.mp3",
+        "UK": "tts/LZYCjqAOhEE/w3_e0_UK.mp3",
+        "AU": "tts/LZYCjqAOhEE/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "handling n. 處理；搬運"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "handle complaints / inquiries 處理客訴／詢問；Handle with care. 小心輕放（包裹標示）；shipping and handling 運費與處理費。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "handles"
+        ],
+        [
+         "過去式",
+         "handled"
+        ],
+        [
+         "過去分詞",
+         "handled"
+        ],
+        [
+         "現在分詞",
+         "handling"
+        ]
+       ]
+      },
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "handles"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/LZYCjqAOhEE/w3_US.mp3",
+      "UK": "tts/LZYCjqAOhEE/w3_UK.mp3",
+      "AU": "tts/LZYCjqAOhEE/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "tackle",
+     "s": 3,
+     "ph": "[ˋtækḷ]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "處理，著手解決（問題）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So, what can be done to tackle noise in cities like Mumbai?",
+       "zh": "那麼，要怎麼處理孟買這類城市的噪音呢？",
+       "t": 179.0,
+       "aus": {
+        "US": "tts/LZYCjqAOhEE/w4_e0_US.mp3",
+        "UK": "tts/LZYCjqAOhEE/w4_e0_UK.mp3",
+        "AU": "tts/LZYCjqAOhEE/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "tackle a problem / an issue / a challenge 著手解決問題。同義：deal with、address、handle。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "tackles"
+        ],
+        [
+         "過去式",
+         "tackled"
+        ],
+        [
+         "過去分詞",
+         "tackled"
+        ],
+        [
+         "現在分詞",
+         "tackling"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/LZYCjqAOhEE/w4_US.mp3",
+      "UK": "tts/LZYCjqAOhEE/w4_UK.mp3",
+      "AU": "tts/LZYCjqAOhEE/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "inspired",
+     "s": 2,
+     "ph": "[ɪnˋspaɪrd]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "受到啟發的，有靈感的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Charles was inspired to recreate the ocean sounds he heard on holiday in the Magdalen Islands in his city park back home.",
+       "zh": "Charles 受到啟發，想在家鄉的城市公園重現他在馬德蓮群島度假時聽到的海洋聲音。",
+       "t": 202.4,
+       "aus": {
+        "US": "tts/LZYCjqAOhEE/w5_e0_US.mp3",
+        "UK": "tts/LZYCjqAOhEE/w5_e0_UK.mp3",
+        "AU": "tts/LZYCjqAOhEE/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "inspire v. 激勵，啟發",
+      "inspiration n. 靈感",
+      "inspiring adj. 激勵人心的"
+     ],
+     "tips": [
+      {
+       "k": "易混淆",
+       "t": "inspired（感到受啟發的，修飾人）vs. inspiring（令人受啟發的，修飾事物）：an inspiring speech 激勵人心的演說。Part 5 常考 -ed／-ing。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more inspired"
+        ],
+        [
+         "最高級",
+         "most inspired"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/LZYCjqAOhEE/w5_US.mp3",
+      "UK": "tts/LZYCjqAOhEE/w5_UK.mp3",
+      "AU": "tts/LZYCjqAOhEE/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "installation",
+     "s": 2,
+     "ph": "[͵ɪnstəˋleʃən]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "裝置（藝術）；安裝"
+      }
+     ],
+     "ex": [
+      {
+       "en": "He created an art installation – a work of art designed to give people an interactive experience.",
+       "zh": "他創作了一件 art installation（裝置藝術）——一種設計來讓人有互動體驗的藝術作品。",
+       "t": 271.6,
+       "aus": {
+        "US": "tts/LZYCjqAOhEE/w6_e0_US.mp3",
+        "UK": "tts/LZYCjqAOhEE/w6_e0_UK.mp3",
+        "AU": "tts/LZYCjqAOhEE/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "install v. 安裝"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "多益更常考「安裝」：free installation 免費安裝；The installation of the new system will take two days. 新系統安裝需要兩天。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "installations"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/LZYCjqAOhEE/w6_US.mp3",
+      "UK": "tts/LZYCjqAOhEE/w6_UK.mp3",
+      "AU": "tts/LZYCjqAOhEE/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "squeaky",
+     "s": 1,
+     "ph": "[ˋskwikɪ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "發出吱吱聲的，尖細聲音的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "The sand on the Magdalen Islands is squeaky – it makes a high-pitched sound called a squeak when stepped on.",
+       "zh": "馬德蓮群島的沙子是 squeaky——踩上去時會發出一種叫 squeak 的尖細聲音。",
+       "t": 258.5,
+       "aus": {
+        "US": "tts/LZYCjqAOhEE/w7_e0_US.mp3",
+        "UK": "tts/LZYCjqAOhEE/w7_e0_UK.mp3",
+        "AU": "tts/LZYCjqAOhEE/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "squeak n./v. 吱吱聲；發出吱吱聲"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "俗語：The squeaky wheel gets the grease. 會吵的孩子有糖吃（愛抱怨的人會先得到處理）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "squeakier"
+        ],
+        [
+         "最高級",
+         "squeakiest"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/LZYCjqAOhEE/w7_US.mp3",
+      "UK": "tts/LZYCjqAOhEE/w7_UK.mp3",
+      "AU": "tts/LZYCjqAOhEE/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "counterintuitive",
+     "s": 2,
+     "ph": "[͵kaʊntɚɪnˋtjuɪtɪv]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "違反直覺的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "It's an example of something that's counterintuitive, meaning it happens differently from how you would expect.",
+       "zh": "這是 counterintuitive（違反直覺）的例子，意思是事情發生的方式和你預期的不同。",
+       "t": 283.8,
+       "aus": {
+        "US": "tts/LZYCjqAOhEE/w8_e0_US.mp3",
+        "UK": "tts/LZYCjqAOhEE/w8_e0_UK.mp3",
+        "AU": "tts/LZYCjqAOhEE/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "intuitive adj. 直覺的；直觀易用的",
+      "intuition n. 直覺"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "intuitive 在科技產品描述常見：an intuitive interface 直覺易用的介面。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/LZYCjqAOhEE/w8_US.mp3",
+      "UK": "tts/LZYCjqAOhEE/w8_UK.mp3",
+      "AU": "tts/LZYCjqAOhEE/w8_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "Around 2.5 billion people will experience hearing loss, and ___ to loud noise has been linked to stress and anxiety.",
+     "a": "exposure",
+     "opts": [
+      "exposure",
+      "expose",
+      "installation",
+      "decibel"
+     ]
+    },
+    {
+     "s": "Sound is measured in units called ___.",
+     "a": "decibels",
+     "opts": [
+      "decibels",
+      "installations",
+      "squeaks",
+      "exposures"
+     ]
+    },
+    {
+     "s": "If you can't ___ something, you find it difficult to deal or cope with.",
+     "a": "handle",
+     "opts": [
+      "handle",
+      "tackle",
+      "inspire",
+      "install"
+     ]
+    },
+    {
+     "s": "So, what can be done to ___ noise in cities like Mumbai?",
+     "a": "tackle",
+     "opts": [
+      "tackle",
+      "handle",
+      "expose",
+      "inspire"
+     ]
+    },
+    {
+     "s": "Charles was ___ to recreate the ocean sounds he heard on holiday in the Magdalen Islands in his city park back home.",
+     "a": "inspired",
+     "opts": [
+      "inspired",
+      "inspiring",
+      "inspiration",
+      "handled"
+     ]
+    },
+    {
+     "s": "He created an art ___ – a work of art designed to give people an interactive experience.",
+     "a": "installation",
+     "opts": [
+      "installation",
+      "install",
+      "exposure",
+      "exhibition"
+     ]
+    },
+    {
+     "s": "The sand on the Magdalen Islands is ___ – it makes a high-pitched sound called a squeak when stepped on.",
+     "a": "squeaky",
+     "opts": [
+      "squeaky",
+      "counterintuitive",
+      "loud",
+      "quiet"
+     ]
+    },
+    {
+     "s": "It's an example of something that's ___, meaning it happens differently from how you would expect.",
+     "a": "counterintuitive",
+     "opts": [
+      "counterintuitive",
+      "intuitive",
+      "squeaky",
+      "inspired"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "節目問答題：悄悄話大約是幾分貝？",
+     "a": "30 分貝",
+     "opts": [
+      "30 分貝",
+      "3 分貝",
+      "13 分貝"
+     ]
+    },
+    {
+     "q": "孟買白天的噪音比世界衛生組織建議值高出多少？",
+     "a": "高出 20 分貝以上（經常達 80 分貝）",
+     "opts": [
+      "高出 20 分貝以上（經常達 80 分貝）",
+      "差不多相同",
+      "高出 5 分貝"
+     ]
+    },
+    {
+     "q": "Chhavi 在國外住 12 年後回到印度，她最懷念國外的什麼？",
+     "a": "安靜",
+     "opts": [
+      "安靜",
+      "食物",
+      "天氣"
+     ]
+    },
+    {
+     "q": "Charles 在蒙特婁公園做了什麼，讓公園感覺更安靜？",
+     "a": "用藏在花圃的喇叭播放海浪、沙子等放鬆的聲音",
+     "opts": [
+      "用藏在花圃的喇叭播放海浪、沙子等放鬆的聲音",
+      "在公園四周蓋隔音牆",
+      "禁止汽車開進公園附近"
+     ]
+    }
+   ]
   }
  ]
 });

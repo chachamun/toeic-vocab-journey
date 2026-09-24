@@ -1,0 +1,487 @@
+{
+ "id": "yt-vOuhs1mA0xo",
+ "video": "https://youtu.be/vOuhs1mA0xo",
+ "bbc": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260611",
+ "label": "BBC 013",
+ "theme": "廣告如何讓我們花錢",
+ "themeEn": "How advertisers make us spend money",
+ "release": "2026-10-04",
+ "words": [
+  {
+   "n": 1,
+   "w": "endorsement",
+   "s": 3,
+   "ph": "[ɪnˋdɔrsmənt]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "代言；背書，認可"
+    }
+   ],
+   "ex": [
+    {
+     "en": "We call this a celebrity endorsement.",
+     "zh": "我們稱這種做法為名人代言。",
+     "t": 35.6
+    }
+   ],
+   "fam": [
+    "endorse v. 代言；贊同；背書"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "celebrity endorsement 名人代言；endorse a candidate 支持候選人；endorse a check 在支票背面背書。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "endorsements"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "credible",
+   "s": 2,
+   "ph": "[ˋkrɛdəbḷ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "可信的，可靠的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "When we're unsure, we don't know what to do, it's kind of easy to follow the lead of those who we think are credible or knowledgeable.",
+     "zh": "當我們不確定、不知道該怎麼做時，跟隨那些我們認為可信或有知識的人，是相當容易的。",
+     "t": 47.8
+    }
+   ],
+   "fam": [
+    "credibility n. 可信度",
+    "incredible adj. 難以置信的；極好的"
+   ],
+   "tips": [
+    {
+     "k": "易混淆",
+     "t": "credible（可信的）≠ credulous（輕信的）≠ creditable（值得稱讚的）。a credible source 可靠的消息來源。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more credible"
+      ],
+      [
+       "最高級",
+       "most credible"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "install",
+   "s": 3,
+   "ph": "[ɪnˋstɔl]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "安裝，設置"
+    }
+   ],
+   "ex": [
+    {
+     "en": "In recent years, many fast-food chains have installed touchscreen machines for people to order their food.",
+     "zh": "近年來，很多速食連鎖店都裝了觸控螢幕點餐機讓人點餐。",
+     "t": 127.5
+    }
+   ],
+   "fam": [
+    "installation n. 安裝",
+    "installment n. 分期付款（的一期）"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "Part 1、Part 7 常見：Workers are installing a new sign. 工人正在安裝新招牌；pay in installments 分期付款。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "installs"
+      ],
+      [
+       "過去式",
+       "installed"
+      ],
+      [
+       "過去分詞",
+       "installed"
+      ],
+      [
+       "現在分詞",
+       "installing"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "proportion",
+   "s": 3,
+   "ph": "[prəˋporʃən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "比例，部分"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Not all people, but I think there's definitely a large proportion of people who may feel judged in those instances and may say no.",
+     "zh": "不是所有人，但我覺得確實有很大比例的人在那些情況下可能會覺得被評判，然後說不要。",
+     "t": 156.0
+    }
+   ],
+   "fam": [
+    "proportional adj. 成比例的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a large / small proportion of ～ 大／小部分的～；in proportion to 與～成比例（The fee is in proportion to the size of the order. 費用依訂單大小比例計算）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "proportions"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "inclined",
+   "s": 2,
+   "ph": "[ɪnˋklaɪnd]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "傾向於～的，有意～的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Because you've got more time and you're not being judged, you're very much more inclined to actually say yes to these things.",
+     "zh": "因為你有比較多時間，又不會被評判，所以你會更傾向對這些東西說好。",
+     "t": 174.0
+    }
+   ],
+   "fam": [
+    "inclination n. 傾向，意願",
+    "incline v. 使傾向"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "be inclined to do 傾向做～（to 後接原形動詞，Part 5 常考）：Customers are more inclined to buy when prices are clearly displayed."
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more inclined"
+      ],
+      [
+       "最高級",
+       "most inclined"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "upsell",
+   "s": 2,
+   "ph": "[ˋʌp͵sɛl]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "向上銷售，推銷加購（更貴或更多的商品）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "If you upsell something, then you get someone to spend more.",
+     "zh": "如果你 upsell 某樣東西，就是讓某人花更多錢。",
+     "t": 196.3
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "相關：cross-sell 交叉銷售（推薦相關產品）；upgrade 升級。業務、零售情境常見。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "upsells"
+      ],
+      [
+       "過去式",
+       "upsold"
+      ],
+      [
+       "過去分詞",
+       "upsold"
+      ],
+      [
+       "現在分詞",
+       "upselling"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "upselling n. 向上銷售"
+   ]
+  },
+  {
+   "n": 7,
+   "w": "transaction",
+   "s": 3,
+   "ph": "[trænˋzækʃən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "交易，（一筆）買賣"
+    }
+   ],
+   "ex": [
+    {
+     "en": "A basket spend is the total amount that someone spends in one transaction, on everything that's in their basket.",
+     "zh": "basket spend 是某人在一筆交易中，為購物籃裡所有東西花的總金額。",
+     "t": 210.7
+    }
+   ],
+   "fam": [
+    "transact v. 交易，處理"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "銀行、信用卡情境必考：online transactions 網路交易；a transaction fee 交易手續費；transaction history 交易紀錄。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "transactions"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "think outside the box",
+   "s": 2,
+   "ph": "[θɪŋk ˋaʊtˋsaɪd ðə bɑks]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "跳脫框架思考，發揮創意"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Takwa says that they needed to think outside the box.",
+     "zh": "Takwa 說他們需要 think outside the box。",
+     "t": 274.4
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "徵才廣告常見：We are looking for someone who can think outside the box. 我們在找能跳脫框架思考的人。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "thinks outside the box"
+      ],
+      [
+       "過去式",
+       "thought outside the box"
+      ],
+      [
+       "過去分詞",
+       "thought outside the box"
+      ],
+      [
+       "現在分詞",
+       "thinking outside the box"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "We call this a celebrity ___.",
+   "a": "endorsement",
+   "opts": [
+    "endorsement",
+    "transaction",
+    "proportion",
+    "installation"
+   ]
+  },
+  {
+   "s": "It's kind of easy to follow the lead of those who we think are ___ or knowledgeable.",
+   "a": "credible",
+   "opts": [
+    "credible",
+    "incredible",
+    "inclined",
+    "judged"
+   ]
+  },
+  {
+   "s": "In recent years, many fast-food chains have ___ touchscreen machines for people to order their food.",
+   "a": "installed",
+   "opts": [
+    "installed",
+    "upsold",
+    "endorsed",
+    "inclined"
+   ]
+  },
+  {
+   "s": "Not all people, but I think there's definitely a large ___ of people who may feel judged in those instances and may say no.",
+   "a": "proportion",
+   "opts": [
+    "proportion",
+    "transaction",
+    "endorsement",
+    "basket"
+   ]
+  },
+  {
+   "s": "Because you've got more time and you're not being judged, you're very much more ___ to actually say yes to these things.",
+   "a": "inclined",
+   "opts": [
+    "inclined",
+    "credible",
+    "installed",
+    "judged"
+   ]
+  },
+  {
+   "s": "If you ___ something, then you get someone to spend more.",
+   "a": "upsell",
+   "opts": [
+    "upsell",
+    "install",
+    "endorse",
+    "model"
+   ]
+  },
+  {
+   "s": "A basket spend is the total amount that someone spends in one ___, on everything that's in their basket.",
+   "a": "transaction",
+   "opts": [
+    "transaction",
+    "proportion",
+    "endorsement",
+    "shortcut"
+   ]
+  },
+  {
+   "s": "Takwa says that they needed to think outside the ___.",
+   "a": "box",
+   "opts": [
+    "box",
+    "basket",
+    "line",
+    "table"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "節目問答題：認為人會因小小提示而改變行為的理論叫什麼？",
+   "a": "推力提示理論（nudge theory）",
+   "opts": [
+    "推力提示理論（nudge theory）",
+    "拉力理論（pull theory）",
+    "推力理論（push theory）"
+   ]
+  },
+  {
+   "q": "為什麼速食店裝了觸控點餐機後營收增加？",
+   "a": "顧客不會覺得被店員評判，也有更多時間看，較容易答應加購",
+   "opts": [
+    "顧客不會覺得被店員評判，也有更多時間看，較容易答應加購",
+    "觸控點餐機的價格比較便宜",
+    "店裡的員工變多了"
+   ]
+  },
+  {
+   "q": "Dean Ward 說使用觸控點餐後，每筆消費金額通常增加多少？",
+   "a": "25% 到 30%",
+   "opts": [
+    "25% 到 30%",
+    "5% 到 10%",
+    "50% 以上"
+   ]
+  },
+  {
+   "q": "聯合國世界糧食計劃署在突尼西亞做了什麼，鼓勵大家更常一起吃飯？",
+   "a": "製作一部以餐廳為背景的電視節目",
+   "opts": [
+    "製作一部以餐廳為背景的電視節目",
+    "發放免費餐券",
+    "請名人拍廣告代言"
+   ]
+  }
+ ]
+}

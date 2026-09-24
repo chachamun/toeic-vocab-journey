@@ -1,0 +1,459 @@
+{
+ "id": "yt-dgFm7A8pyzo",
+ "video": "https://youtu.be/dgFm7A8pyzo",
+ "bbc": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260528",
+ "label": "BBC 015",
+ "theme": "與債務共處",
+ "themeEn": "Living with debt",
+ "release": "2026-10-06",
+ "words": [
+  {
+   "n": 1,
+   "w": "debt",
+   "s": 3,
+   "ph": "[dɛt]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "債務，欠款"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Debt refers to money a person has borrowed to buy something and which they have to pay back, usually to a bank, a credit card company, or another person.",
+     "zh": "Debt（債務）是指一個人為了買東西而借的錢，之後必須還，通常是還給銀行、信用卡公司或其他人。",
+     "t": 48.4
+    }
+   ],
+   "fam": [
+    "debtor n. 債務人",
+    "indebted adj. 負債的；感激的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "b 不發音，念 [dɛt]。be in debt 負債；pay off a debt 還清債務；debt-free 無負債的。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "debts"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "take out a loan",
+   "s": 3,
+   "ph": "[tek aʊt ə lon]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "（向銀行等）借貸款"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Sometimes you need to take out loans.",
+     "zh": "有時候就得去借貸。",
+     "t": 85.3
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "loan 貸款：apply for a loan 申請貸款、approve a loan 核准貸款、a loan officer 貸款專員。take out insurance 投保，也用 take out。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "takes out a loan"
+      ],
+      [
+       "過去式",
+       "took out a loan"
+      ],
+      [
+       "過去分詞",
+       "taken out a loan"
+      ],
+      [
+       "現在分詞",
+       "taking out a loan"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "loan n. 貸款",
+    "lender n. 貸方"
+   ]
+  },
+  {
+   "n": 3,
+   "w": "pay off",
+   "s": 3,
+   "ph": "[pe ɔf]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "還清（債務）；（努力）得到回報"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Jason uses three phrases, pay back, pay off, and clear debt, all of which mean the same thing – to give back the money you've borrowed.",
+     "zh": "Jason 用了三個片語：pay back、pay off 和 clear debt，意思都一樣——把借來的錢還回去。",
+     "t": 97.6
+    }
+   ],
+   "tips": [
+    {
+     "k": "易混淆",
+     "t": "另一個常考意思是「有回報」：All the hard work finally paid off. 所有的努力終於有了回報。payoff 名詞「回報」。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "pays off"
+      ],
+      [
+       "過去式",
+       "paid off"
+      ],
+      [
+       "過去分詞",
+       "paid off"
+      ],
+      [
+       "現在分詞",
+       "paying off"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "payoff n. 回報"
+   ]
+  },
+  {
+   "n": 4,
+   "w": "make ends meet",
+   "s": 2,
+   "ph": "[mek ɛndz mit]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "勉強維持收支，量入為出"
+    }
+   ],
+   "ex": [
+    {
+     "en": "To make ends meet means having just enough money to pay for basic living expenses like food, bills and rent.",
+     "zh": "To make ends meet 的意思是錢剛好夠支付食物、帳單、房租等基本生活開銷。",
+     "t": 201.9
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "struggle to make ends meet 難以維持生計；Many workers take second jobs to make ends meet. 很多人兼差來維持生計。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "makes ends meet"
+      ],
+      [
+       "過去式",
+       "made ends meet"
+      ],
+      [
+       "過去分詞",
+       "made ends meet"
+      ],
+      [
+       "現在分詞",
+       "making ends meet"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "expense",
+   "s": 3,
+   "ph": "[ɪkˋspɛns]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "費用，開銷"
+    }
+   ],
+   "ex": [
+    {
+     "en": "To make ends meet means having just enough money to pay for basic living expenses like food, bills and rent.",
+     "zh": "To make ends meet 的意思是錢剛好夠支付食物、帳單、房租等基本生活開銷。",
+     "t": 201.9
+    }
+   ],
+   "fam": [
+    "expensive adj. 昂貴的",
+    "expend v. 花費",
+    "expenditure n. 支出，開支"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "多益超高頻：travel expenses 差旅費、submit an expense report 繳交費用報告、at the company's expense 由公司負擔。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "expenses"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "in arrears",
+   "s": 1,
+   "ph": "[ɪn əˋrɪrz]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "拖欠（款項），逾期未付"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Ryan found that many residents were in arrears, a phrase meaning to still owe money that should have already been repaid.",
+     "zh": "Ryan 發現很多居民都 in arrears，這個說法的意思是仍欠著早就該還的錢。",
+     "t": 209.4
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "同義：overdue、past due（國際學村 Day 03 滿分字）。rent arrears 積欠的房租。另有「（薪資）事後支付」：paid monthly in arrears 每月月底後發薪。"
+    }
+   ],
+   "forms": []
+  },
+  {
+   "n": 7,
+   "w": "income",
+   "s": 3,
+   "ph": "[ˋɪn͵kʌm]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "收入，所得"
+    }
+   ],
+   "ex": [
+    {
+     "en": "With a regular income, debt can be managed, but for those who are unemployed or on low incomes, it can cause serious distress.",
+     "zh": "有固定收入的話，債務還能管理，但對失業或低收入的人來說，它可能造成嚴重的困擾。",
+     "t": 221.6
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "annual income 年收入；income tax 所得稅；low-income households 低收入家庭；net income 淨收入。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "incomes"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "financial strain",
+   "s": 2,
+   "ph": "[faɪˋnænʃəl stren]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "經濟壓力，財務負擔"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Jason experienced financial strain – emotional stress caused by a lack of money to meet his basic needs or to repay his debt.",
+     "zh": "Jason 承受著 financial strain——因為沒錢滿足基本需求或還債而產生的情緒壓力。",
+     "t": 276.1
+    }
+   ],
+   "fam": [
+    "strain v. 使緊繃；n. 壓力，負擔"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "put a strain on ～ 對～造成壓力（The extra orders put a strain on our staff. 額外訂單讓員工壓力很大）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "多為不可數"
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "___ refers to money a person has borrowed to buy something and which they have to pay back, usually to a bank, a credit card company, or another person.",
+   "a": "Debt",
+   "opts": [
+    "Debt",
+    "Income",
+    "Expense",
+    "Credit"
+   ]
+  },
+  {
+   "s": "Sometimes you need to take out ___.",
+   "a": "loans",
+   "opts": [
+    "loans",
+    "debts",
+    "incomes",
+    "arrears"
+   ]
+  },
+  {
+   "s": "Jason uses three phrases, pay back, pay ___, and clear debt, all of which mean the same thing – to give back the money you've borrowed.",
+   "a": "off",
+   "opts": [
+    "off",
+    "out",
+    "up",
+    "for"
+   ]
+  },
+  {
+   "s": "To make ends ___ means having just enough money to pay for basic living expenses like food, bills and rent.",
+   "a": "meet",
+   "opts": [
+    "meet",
+    "end",
+    "match",
+    "close"
+   ]
+  },
+  {
+   "s": "To make ends meet means having just enough money to pay for basic living ___ like food, bills and rent.",
+   "a": "expenses",
+   "opts": [
+    "expenses",
+    "incomes",
+    "loans",
+    "debts"
+   ]
+  },
+  {
+   "s": "Ryan found that many residents were in ___, a phrase meaning to still owe money that should have already been repaid.",
+   "a": "arrears",
+   "opts": [
+    "arrears",
+    "advance",
+    "debt",
+    "strain"
+   ]
+  },
+  {
+   "s": "With a regular ___, debt can be managed, but for those who are unemployed or on low incomes, it can cause serious distress.",
+   "a": "income",
+   "opts": [
+    "income",
+    "expense",
+    "loan",
+    "outcome"
+   ]
+  },
+  {
+   "s": "Jason experienced financial ___ – emotional stress caused by a lack of money to meet his basic needs or to repay his debt.",
+   "a": "strain",
+   "opts": [
+    "strain",
+    "income",
+    "arrears",
+    "support"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "節目問答題：英國成年人透過信用卡、透支和個人貸款平均負債多少？",
+   "a": "約 4,200 英鎊（4,232 英鎊）",
+   "opts": [
+    "約 4,200 英鎊（4,232 英鎊）",
+    "約 2,200 英鎊",
+    "約 6,200 英鎊"
+   ]
+  },
+  {
+   "q": "2025 年，每天大約有多少人聯絡英國公民諮詢局尋求債務協助？",
+   "a": "超過 1,000 人",
+   "opts": [
+    "超過 1,000 人",
+    "大約 100 人",
+    "超過 10,000 人"
+   ]
+  },
+  {
+   "q": "社會學家 Ryan Davey 怎麼做研究？",
+   "a": "在低收入住宅社區住了幾個月，訪問居民",
+   "opts": [
+    "在低收入住宅社區住了幾個月，訪問居民",
+    "分析銀行的貸款資料",
+    "寄問卷給全國民眾"
+   ]
+  },
+  {
+   "q": "Jason 和伴侶的經濟壓力變大後，發生了什麼事？",
+   "a": "漏繳帳單，網路被斷線",
+   "opts": [
+    "漏繳帳單，網路被斷線",
+    "搬到另一個城市",
+    "中了樂透"
+   ]
+  }
+ ]
+}

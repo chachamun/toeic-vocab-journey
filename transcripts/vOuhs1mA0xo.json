@@ -1,0 +1,396 @@
+{
+ "source": {
+  "video": "https://youtu.be/vOuhs1mA0xo",
+  "original": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260611",
+  "publisher": "BBC Learning English《6 Minute English》",
+  "note": "英文逐字稿取自 YouTube 字幕；中文為學習用翻譯。版權屬原作者，僅供個人學習。"
+ },
+ "title": "How advertisers make us spend money",
+ "lines": [
+  {
+   "t": 8.3,
+   "en": "Hello, this is 6 Minute English from BBC Learning English. I'm Pippa.",
+   "zh": "哈囉，這裡是 BBC Learning English 的《6 Minute English》。我是 Pippa。"
+  },
+  {
+   "t": 12.9,
+   "en": "And I'm Phil.",
+   "zh": "我是 Phil。"
+  },
+  {
+   "t": 14.3,
+   "en": "What's the last thing you bought and why did you buy it?",
+   "zh": "你最近買的東西是什麼？為什麼買它？"
+  },
+  {
+   "t": 18.8,
+   "en": "I bought a new pair of headphones recently because my old ones broke, and I did lots of research to try and find a good pair.",
+   "zh": "我最近買了一副新耳機，因為舊的壞了，我做了很多功課，想找一副好的。"
+  },
+  {
+   "t": 26.9,
+   "en": "How about you?",
+   "zh": "你呢？"
+  },
+  {
+   "t": 28.4,
+   "en": "I bought a soft drink on the way to work this morning.",
+   "zh": "我今天早上上班途中買了一瓶汽水。"
+  },
+  {
+   "t": 31.6,
+   "en": "It might be because I saw someone I like promoting it in an advert.",
+   "zh": "可能是因為我看到一個我喜歡的人在廣告裡推薦它。"
+  },
+  {
+   "t": 35.6,
+   "en": "We call this a celebrity endorsement.",
+   "zh": "我們稱這種做法為名人代言。"
+  },
+  {
+   "t": 38.2,
+   "en": "But why do they work?",
+   "zh": "但為什麼它們有效呢？"
+  },
+  {
+   "t": 40.1,
+   "en": "Let's start by hearing from Ben Jones, a behavioural research expert, speaking to BBC World Service programme Business Daily.",
+   "zh": "我們先來聽聽行為研究專家 Ben Jones 對 BBC 世界廣播節目《Business Daily》說的話。"
+  },
+  {
+   "t": 47.8,
+   "en": "When we're unsure, we don't know what to do, it's kind of easy to follow the lead of those who we think are credible or knowledgeable.",
+   "zh": "當我們不確定、不知道該怎麼做時，跟隨那些我們認為可信或有知識的人，是相當容易的。"
+  },
+  {
+   "t": 54.2,
+   "en": "It's a mental shortcut.",
+   "zh": "這是一種心理捷徑。"
+  },
+  {
+   "t": 55.4,
+   "en": "It's something that helps us navigate uncertain times or make quick choices.",
+   "zh": "它幫助我們度過不確定的時期，或快速做出選擇。"
+  },
+  {
+   "t": 60.3,
+   "en": "We start doing that from an early age.",
+   "zh": "我們從很小的時候就開始這樣做了。"
+  },
+  {
+   "t": 62.1,
+   "en": "Our parents... for some people, it's about our teachers – you know, these people who help us learn and make sense of the world.",
+   "zh": "我們的父母……對有些人來說是老師——你知道，就是這些幫助我們學習、理解世界的人。"
+  },
+  {
+   "t": 67.4,
+   "en": "And some businesses can draw on this through things like endorsements – you know, dentists recommending toothpaste, athletes endorsing sportswear.",
+   "zh": "有些企業就能利用這一點，透過代言之類的方式——你知道，牙醫推薦牙膏、運動員代言運動服。"
+  },
+  {
+   "t": 75.6,
+   "en": "Ben says that endorsements work as a mental shortcut.",
+   "zh": "Ben 說，代言是一種心理捷徑。"
+  },
+  {
+   "t": 79.2,
+   "en": "This is something that helps us make a decision quickly.",
+   "zh": "這是幫助我們快速做決定的東西。"
+  },
+  {
+   "t": 82.0,
+   "en": "If we trust the endorsement, then we don't need to think about it that much.",
+   "zh": "如果我們相信代言，就不需要想太多。"
+  },
+  {
+   "t": 85.9,
+   "en": "In this episode, we're going to look at the way that people can be convinced to do things.",
+   "zh": "在這一集，我們要看看人是怎麼被說服去做某些事的。"
+  },
+  {
+   "t": 90.9,
+   "en": "And as usual, we'll learn some useful new words and phrases.",
+   "zh": "一如往常，我們會學一些實用的新單字和片語。"
+  },
+  {
+   "t": 94.6,
+   "en": "And remember, you'll find all the vocabulary and a quiz on our website, bbclearningenglish.com.",
+   "zh": "別忘了，所有詞彙和測驗都在我們的網站 bbclearningenglish.com。"
+  },
+  {
+   "t": 101.0,
+   "en": "OK. But first I have a question for you, Pippa.",
+   "zh": "好。不過首先，Pippa，我有個問題要問你。"
+  },
+  {
+   "t": 104.5,
+   "en": "Today we're talking about behavioural science.",
+   "zh": "今天我們談的是行為科學。"
+  },
+  {
+   "t": 108.2,
+   "en": "What's the name of the theory that says people respond to small prompts?",
+   "zh": "認為人會對小小的提示做出反應的理論叫什麼名字？"
+  },
+  {
+   "t": 113.1,
+   "en": "Is it: a) push theory, b) pull theory, or c) nudge theory?",
+   "zh": "是：a) 推力理論、b) 拉力理論，還是 c) 推力提示理論（nudge theory）？"
+  },
+  {
+   "t": 120.0,
+   "en": "Oh, I'm not sure. I'm going to say b) pull theory.",
+   "zh": "喔，我不確定。我要選 b) 拉力理論。"
+  },
+  {
+   "t": 123.8,
+   "en": "OK. Well, we'll find out the answer at the end of the programme.",
+   "zh": "好。我們會在節目最後揭曉答案。"
+  },
+  {
+   "t": 127.5,
+   "en": "In recent years, many fast-food chains have installed touchscreen machines for people to order their food.",
+   "zh": "近年來，很多速食連鎖店都裝了觸控螢幕點餐機讓人點餐。"
+  },
+  {
+   "t": 134.3,
+   "en": "They've reported taking more money as a result.",
+   "zh": "他們回報營收因此增加了。"
+  },
+  {
+   "t": 137.9,
+   "en": "Could behavioural science tell us why this happens?",
+   "zh": "行為科學能告訴我們為什麼會這樣嗎？"
+  },
+  {
+   "t": 141.6,
+   "en": "Here's product designer Dean Ward speaking to BBC World Service's Business Daily.",
+   "zh": "這是產品設計師 Dean Ward 對 BBC 世界廣播《Business Daily》說的話。"
+  },
+  {
+   "t": 147.3,
+   "en": "Firstly, the psychology of speaking to someone and feeling judged – we think is a key factor.",
+   "zh": "首先，我們認為和人說話、覺得被評判的心理，是一個關鍵因素。"
+  },
+  {
+   "t": 152.7,
+   "en": "So, would you like extra fries?",
+   "zh": "比如：要不要加點薯條？"
+  },
+  {
+   "t": 154.3,
+   "en": "Would you like to go large?",
+   "zh": "要不要升級大份？"
+  },
+  {
+   "t": 156.0,
+   "en": "Not all people, but I think there's definitely a large proportion of people who may feel judged in those instances and may say no.",
+   "zh": "不是所有人，但我覺得確實有很大比例的人在那些情況下可能會覺得被評判，然後說不要。"
+  },
+  {
+   "t": 162.8,
+   "en": "There's the fact that you've got more time to look.",
+   "zh": "還有一點是你有比較多時間可以看。"
+  },
+  {
+   "t": 165.5,
+   "en": "You can see the product, you can see what's in it, you can see all the products linked to it as well.",
+   "zh": "你可以看到產品、看到裡面有什麼，也可以看到所有相關聯的產品。"
+  },
+  {
+   "t": 169.8,
+   "en": "And also around upsell as well.",
+   "zh": "還有加購推銷的部分。"
+  },
+  {
+   "t": 171.6,
+   "en": "Would you like to add this?",
+   "zh": "要不要加這個？"
+  },
+  {
+   "t": 172.7,
+   "en": "Would you like to do that?",
+   "zh": "要不要那樣做？"
+  },
+  {
+   "t": 174.0,
+   "en": "Because you've got more time and you're not being judged, you're very much more inclined to actually say yes to these things.",
+   "zh": "因為你有比較多時間，又不會被評判，所以你會更傾向對這些東西說好。"
+  },
+  {
+   "t": 179.8,
+   "en": "And that's typically what we're seeing – an increased basket spend of typically 25–30%.",
+   "zh": "這通常就是我們看到的——每筆消費金額增加，通常是 25% 到 30%。"
+  },
+  {
+   "t": 184.5,
+   "en": "If people feel judged, then it means that they worry what other people will think of them.",
+   "zh": "如果人們覺得被評判，意思是他們擔心別人會怎麼看自己。"
+  },
+  {
+   "t": 189.1,
+   "en": "If we have to ask a human for extra fries, we might worry what they think of us, but no one feels judged by a computer screen.",
+   "zh": "如果我們必須跟一個人要求加點薯條，可能會擔心對方怎麼看我們，但沒有人會覺得被電腦螢幕評判。"
+  },
+  {
+   "t": 196.3,
+   "en": "If you upsell something, then you get someone to spend more.",
+   "zh": "如果你 upsell 某樣東西，就是讓某人花更多錢。"
+  },
+  {
+   "t": 200.7,
+   "en": "For example, waiters often try to get people to buy larger portions, more drinks, or dessert.",
+   "zh": "例如，服務生常會試著讓人點更大份、更多飲料或甜點。"
+  },
+  {
+   "t": 206.9,
+   "en": "Dean says that upselling can increase people's basket spend.",
+   "zh": "Dean 說加購推銷能增加人們的 basket spend。"
+  },
+  {
+   "t": 210.7,
+   "en": "A basket spend is the total amount that someone spends in one transaction, on everything that's in their basket.",
+   "zh": "basket spend 是某人在一筆交易中，為購物籃裡所有東西花的總金額。"
+  },
+  {
+   "t": 217.2,
+   "en": "Now, this is an example of a business using behavioural science to nudge people to do things.",
+   "zh": "這就是企業利用行為科學「輕推」人們做某些事的例子。"
+  },
+  {
+   "t": 222.6,
+   "en": "But it's not just businesses that use behavioural science in this way.",
+   "zh": "但不只是企業會這樣利用行為科學。"
+  },
+  {
+   "t": 226.3,
+   "en": "In Tunisia, the United Nations World Food Programme wanted to encourage people to eat food together more often.",
+   "zh": "在突尼西亞，聯合國世界糧食計劃署想鼓勵大家更常一起吃飯。"
+  },
+  {
+   "t": 233.1,
+   "en": "They made a TV show set in a restaurant.",
+   "zh": "他們製作了一個以餐廳為背景的電視節目。"
+  },
+  {
+   "t": 236.0,
+   "en": "Let's hear from Takwa Khelifi from the World Food Programme, talking to BBC World Service's Business Daily.",
+   "zh": "我們來聽世界糧食計劃署的 Takwa Khelifi 對 BBC 世界廣播《Business Daily》說的話。"
+  },
+  {
+   "t": 242.1,
+   "en": "So, we needed something really creative and really different to think outside of the box, or to let people see themselves in those stories, because people are learning and changing by imitating and modelling and, like, observing others' behaviours and others' actions",
+   "zh": "所以我們需要非常有創意、很不一樣的東西，跳脫框架思考，或讓人們在那些故事裡看見自己，因為人們是透過模仿、效法，還有觀察別人的行為和行動，"
+  },
+  {
+   "t": 263.6,
+   "en": "and emotional reactions to things.",
+   "zh": "以及對事情的情緒反應，來學習和改變的。"
+  },
+  {
+   "t": 265.6,
+   "en": "So, this is why we tried this project or this...",
+   "zh": "所以這就是我們嘗試這個計畫，或這個……"
+  },
+  {
+   "t": 269.6,
+   "en": "tried this product or this TV series – in order that you impact people.",
+   "zh": "嘗試這個產品或這部電視劇的原因——為了影響人們。"
+  },
+  {
+   "t": 274.4,
+   "en": "Takwa says that they needed to think outside the box.",
+   "zh": "Takwa 說他們需要 think outside the box。"
+  },
+  {
+   "t": 278.3,
+   "en": "This means to try and think in a different way, to come up with something creative.",
+   "zh": "意思是試著用不同的方式思考，想出有創意的東西。"
+  },
+  {
+   "t": 283.2,
+   "en": "The TV programme leads to people modelling behaviour.",
+   "zh": "這個電視節目讓人們模仿（model）其中的行為。"
+  },
+  {
+   "t": 287.1,
+   "en": "If you model behaviour, then you behave in a way that other people can copy.",
+   "zh": "如果你 model behaviour，就是你的行為方式可以讓別人學習模仿。"
+  },
+  {
+   "t": 291.5,
+   "en": "Now Phil, I think it's time to hear the answer to your question.",
+   "zh": "好了，Phil，我想該聽你的問題答案了。"
+  },
+  {
+   "t": 294.9,
+   "en": "Yes, it is.",
+   "zh": "對，沒錯。"
+  },
+  {
+   "t": 296.1,
+   "en": "I asked what theory says that people respond to small prompts to change their behaviour.",
+   "zh": "我問的是：認為人會因為小小的提示而改變行為的理論是哪一個。"
+  },
+  {
+   "t": 301.8,
+   "en": "I thought it was pull theory...",
+   "zh": "我以為是拉力理論……"
+  },
+  {
+   "t": 304.7,
+   "en": "...which I'm afraid was the wrong answer.",
+   "zh": "……很遺憾，這是錯的答案。"
+  },
+  {
+   "t": 307.6,
+   "en": "Nudge theory says that people's behaviour can be changed by small prompts or nudges.",
+   "zh": "Nudge theory（推力提示理論）認為，人的行為可以被小小的提示或「輕推」改變。"
+  },
+  {
+   "t": 314.3,
+   "en": "OK. Let's recap the vocabulary we've learned, starting with mental shortcut, which is something that helps us make a decision quickly, usually because we don't need to think about it.",
+   "zh": "好。我們來複習學到的詞彙，首先是 mental shortcut（心理捷徑），它是幫助我們快速做決定的東西，通常是因為我們不需要多想。"
+  },
+  {
+   "t": 325.2,
+   "en": "If someone feels judged, then they're worried about what other people think about them.",
+   "zh": "如果某人 feels judged，就是他們擔心別人怎麼看自己。"
+  },
+  {
+   "t": 330.4,
+   "en": "Upsell refers to persuading someone to buy something extra, like a dessert at a restaurant.",
+   "zh": "Upsell 是說服某人加買額外的東西，例如在餐廳加點甜點。"
+  },
+  {
+   "t": 336.5,
+   "en": "Basket spend is what you spend in one transaction on the things in your shopping basket.",
+   "zh": "Basket spend 是你在一筆交易中，為購物籃裡的東西花的錢。"
+  },
+  {
+   "t": 342.4,
+   "en": "If you think outside the box, then you think about something in a different way to come up with a creative solution.",
+   "zh": "如果你 think outside the box，就是用不同的方式思考，想出有創意的解決辦法。"
+  },
+  {
+   "t": 348.6,
+   "en": "And finally, modelling is behaving in a way that others can copy.",
+   "zh": "最後，modelling 是做出可以讓別人學習模仿的行為。"
+  },
+  {
+   "t": 353.3,
+   "en": "Once again, our six minutes are up, but why not head over to our website, bbclearningenglish.com, to try the quiz and worksheet for this episode.",
+   "zh": "我們的六分鐘又到了，何不到我們的網站 bbclearningenglish.com 試試這一集的測驗和學習單。"
+  },
+  {
+   "t": 363.7,
+   "en": "See you again soon!",
+   "zh": "很快再見！"
+  },
+  {
+   "t": 365.1,
+   "en": "Bye!",
+   "zh": "拜拜！"
+  }
+ ]
+}

@@ -1,0 +1,475 @@
+{
+ "id": "yt-LZYCjqAOhEE",
+ "video": "https://youtu.be/LZYCjqAOhEE",
+ "bbc": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260521",
+ "label": "BBC 016",
+ "theme": "讓城市感覺更安靜",
+ "themeEn": "Making cities feel quieter",
+ "release": "2026-10-07",
+ "words": [
+  {
+   "n": 1,
+   "w": "exposure",
+   "s": 3,
+   "ph": "[ɪkˋspoʒɚ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "暴露，接觸；曝光（度）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "The World Health Organisation reports that by 2050, around 2.5 billion people will experience hearing loss, and exposure to loud noise has been linked to stress and anxiety.",
+     "zh": "世界衛生組織報告指出，到 2050 年，大約 25 億人會出現聽力損失，而長期暴露在巨大噪音中也和壓力、焦慮有關。",
+     "t": 61.5
+    }
+   ],
+   "fam": [
+    "expose v. 使暴露；揭露"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "exposure to ～ 接觸～（介系詞用 to）；media exposure 媒體曝光；gain exposure 獲得曝光（行銷情境）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "多為不可數"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "decibel",
+   "s": 1,
+   "ph": "[ˋdɛsə͵bɛl]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "分貝（聲音的單位）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Sound is measured in units called decibels.",
+     "zh": "聲音的計量單位叫做分貝。",
+     "t": 91.3
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "縮寫 dB。noise levels above 85 decibels 超過 85 分貝的噪音（職業安全衛生常見，工廠需提供耳塞）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "decibels"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "handle",
+   "s": 3,
+   "ph": "[ˋhændḷ]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "處理，應付；搬運"
+    },
+    {
+     "p": "n.",
+     "m": "把手"
+    }
+   ],
+   "ex": [
+    {
+     "en": "If you can't handle something, you find it difficult to deal or cope with.",
+     "zh": "如果你 can't handle 某件事，就是你覺得很難處理或應付它。",
+     "t": 174.6
+    }
+   ],
+   "fam": [
+    "handling n. 處理；搬運"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "handle complaints / inquiries 處理客訴／詢問；Handle with care. 小心輕放（包裹標示）；shipping and handling 運費與處理費。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "handles"
+      ],
+      [
+       "過去式",
+       "handled"
+      ],
+      [
+       "過去分詞",
+       "handled"
+      ],
+      [
+       "現在分詞",
+       "handling"
+      ]
+     ]
+    },
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "handles"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "tackle",
+   "s": 3,
+   "ph": "[ˋtækḷ]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "處理，著手解決（問題）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So, what can be done to tackle noise in cities like Mumbai?",
+     "zh": "那麼，要怎麼處理孟買這類城市的噪音呢？",
+     "t": 179.0
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "tackle a problem / an issue / a challenge 著手解決問題。同義：deal with、address、handle。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "tackles"
+      ],
+      [
+       "過去式",
+       "tackled"
+      ],
+      [
+       "過去分詞",
+       "tackled"
+      ],
+      [
+       "現在分詞",
+       "tackling"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "inspired",
+   "s": 2,
+   "ph": "[ɪnˋspaɪrd]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "受到啟發的，有靈感的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Charles was inspired to recreate the ocean sounds he heard on holiday in the Magdalen Islands in his city park back home.",
+     "zh": "Charles 受到啟發，想在家鄉的城市公園重現他在馬德蓮群島度假時聽到的海洋聲音。",
+     "t": 202.4
+    }
+   ],
+   "fam": [
+    "inspire v. 激勵，啟發",
+    "inspiration n. 靈感",
+    "inspiring adj. 激勵人心的"
+   ],
+   "tips": [
+    {
+     "k": "易混淆",
+     "t": "inspired（感到受啟發的，修飾人）vs. inspiring（令人受啟發的，修飾事物）：an inspiring speech 激勵人心的演說。Part 5 常考 -ed／-ing。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more inspired"
+      ],
+      [
+       "最高級",
+       "most inspired"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "installation",
+   "s": 2,
+   "ph": "[͵ɪnstəˋleʃən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "裝置（藝術）；安裝"
+    }
+   ],
+   "ex": [
+    {
+     "en": "He created an art installation – a work of art designed to give people an interactive experience.",
+     "zh": "他創作了一件 art installation（裝置藝術）——一種設計來讓人有互動體驗的藝術作品。",
+     "t": 271.6
+    }
+   ],
+   "fam": [
+    "install v. 安裝"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "多益更常考「安裝」：free installation 免費安裝；The installation of the new system will take two days. 新系統安裝需要兩天。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "installations"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "squeaky",
+   "s": 1,
+   "ph": "[ˋskwikɪ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "發出吱吱聲的，尖細聲音的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "The sand on the Magdalen Islands is squeaky – it makes a high-pitched sound called a squeak when stepped on.",
+     "zh": "馬德蓮群島的沙子是 squeaky——踩上去時會發出一種叫 squeak 的尖細聲音。",
+     "t": 258.5
+    }
+   ],
+   "fam": [
+    "squeak n./v. 吱吱聲；發出吱吱聲"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "俗語：The squeaky wheel gets the grease. 會吵的孩子有糖吃（愛抱怨的人會先得到處理）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "squeakier"
+      ],
+      [
+       "最高級",
+       "squeakiest"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "counterintuitive",
+   "s": 2,
+   "ph": "[͵kaʊntɚɪnˋtjuɪtɪv]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "違反直覺的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "It's an example of something that's counterintuitive, meaning it happens differently from how you would expect.",
+     "zh": "這是 counterintuitive（違反直覺）的例子，意思是事情發生的方式和你預期的不同。",
+     "t": 283.8
+    }
+   ],
+   "fam": [
+    "intuitive adj. 直覺的；直觀易用的",
+    "intuition n. 直覺"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "intuitive 在科技產品描述常見：an intuitive interface 直覺易用的介面。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "Around 2.5 billion people will experience hearing loss, and ___ to loud noise has been linked to stress and anxiety.",
+   "a": "exposure",
+   "opts": [
+    "exposure",
+    "expose",
+    "installation",
+    "decibel"
+   ]
+  },
+  {
+   "s": "Sound is measured in units called ___.",
+   "a": "decibels",
+   "opts": [
+    "decibels",
+    "installations",
+    "squeaks",
+    "exposures"
+   ]
+  },
+  {
+   "s": "If you can't ___ something, you find it difficult to deal or cope with.",
+   "a": "handle",
+   "opts": [
+    "handle",
+    "tackle",
+    "inspire",
+    "install"
+   ]
+  },
+  {
+   "s": "So, what can be done to ___ noise in cities like Mumbai?",
+   "a": "tackle",
+   "opts": [
+    "tackle",
+    "handle",
+    "expose",
+    "inspire"
+   ]
+  },
+  {
+   "s": "Charles was ___ to recreate the ocean sounds he heard on holiday in the Magdalen Islands in his city park back home.",
+   "a": "inspired",
+   "opts": [
+    "inspired",
+    "inspiring",
+    "inspiration",
+    "handled"
+   ]
+  },
+  {
+   "s": "He created an art ___ – a work of art designed to give people an interactive experience.",
+   "a": "installation",
+   "opts": [
+    "installation",
+    "install",
+    "exposure",
+    "exhibition"
+   ]
+  },
+  {
+   "s": "The sand on the Magdalen Islands is ___ – it makes a high-pitched sound called a squeak when stepped on.",
+   "a": "squeaky",
+   "opts": [
+    "squeaky",
+    "counterintuitive",
+    "loud",
+    "quiet"
+   ]
+  },
+  {
+   "s": "It's an example of something that's ___, meaning it happens differently from how you would expect.",
+   "a": "counterintuitive",
+   "opts": [
+    "counterintuitive",
+    "intuitive",
+    "squeaky",
+    "inspired"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "節目問答題：悄悄話大約是幾分貝？",
+   "a": "30 分貝",
+   "opts": [
+    "30 分貝",
+    "3 分貝",
+    "13 分貝"
+   ]
+  },
+  {
+   "q": "孟買白天的噪音比世界衛生組織建議值高出多少？",
+   "a": "高出 20 分貝以上（經常達 80 分貝）",
+   "opts": [
+    "高出 20 分貝以上（經常達 80 分貝）",
+    "差不多相同",
+    "高出 5 分貝"
+   ]
+  },
+  {
+   "q": "Chhavi 在國外住 12 年後回到印度，她最懷念國外的什麼？",
+   "a": "安靜",
+   "opts": [
+    "安靜",
+    "食物",
+    "天氣"
+   ]
+  },
+  {
+   "q": "Charles 在蒙特婁公園做了什麼，讓公園感覺更安靜？",
+   "a": "用藏在花圃的喇叭播放海浪、沙子等放鬆的聲音",
+   "opts": [
+    "用藏在花圃的喇叭播放海浪、沙子等放鬆的聲音",
+    "在公園四周蓋隔音牆",
+    "禁止汽車開進公園附近"
+   ]
+  }
+ ]
+}

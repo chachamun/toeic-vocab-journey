@@ -1,0 +1,527 @@
+{
+ "id": "yt-m7IlyBEyi3c",
+ "video": "https://youtu.be/m7IlyBEyi3c",
+ "bbc": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260618",
+ "label": "BBC 012",
+ "theme": "限制孩子的螢幕時間",
+ "themeEn": "Limiting screen time for children",
+ "release": "2026-10-03",
+ "words": [
+  {
+   "n": 1,
+   "w": "device",
+   "s": 3,
+   "ph": "[dɪˋvaɪs]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "裝置，設備"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Yes. And it's a particular worry of many parents that their children spend too much time on these devices.",
+     "zh": "對。很多父母特別擔心孩子花太多時間在這些裝置上。",
+     "t": 48.7
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "mobile devices 行動裝置；electronic devices must be turned off 電子裝置必須關機（機上廣播、考場公告常見）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "devices"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "devise v. 設計，想出（易混淆）"
+   ]
+  },
+  {
+   "n": 2,
+   "w": "measure",
+   "s": 3,
+   "ph": "[ˋmɛʒɚ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "措施，辦法"
+    },
+    {
+     "p": "v.",
+     "m": "測量，衡量"
+    }
+   ],
+   "ex": [
+    {
+     "en": "At the end of last year, Australia banned access to social media apps for under 16s, and countries like the UK are considering similar measures.",
+     "zh": "去年年底，澳洲禁止 16 歲以下使用社群媒體 App，英國等國家也在考慮類似的措施。",
+     "t": 55.3
+    }
+   ],
+   "fam": [
+    "measurement n. 測量；尺寸",
+    "measurable adj. 可衡量的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "take measures to ～ 採取措施；safety / cost-cutting measures 安全／節約成本措施；measure performance 衡量績效。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "measures"
+      ]
+     ]
+    },
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "measures"
+      ],
+      [
+       "過去式",
+       "measured"
+      ],
+      [
+       "過去分詞",
+       "measured"
+      ],
+      [
+       "現在分詞",
+       "measuring"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "intentional",
+   "s": 2,
+   "ph": "[ɪnˋtɛnʃənḷ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "有意識的，刻意的，故意的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So, to be intentional is to act with that plan or reason in mind.",
+     "zh": "所以 intentional 就是心中帶著那個計畫或理由去行動。",
+     "t": 167.4
+    }
+   ],
+   "fam": [
+    "intention n. 意圖，打算",
+    "intentionally adv. 故意地",
+    "intend v. 打算"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "Part 5 常考 intend to do 打算做～；unintentional 無意的：an unintentional error 無心的錯誤。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "set the bar higher",
+   "s": 1,
+   "ph": "[sɛt ðə bɑr ˋhaɪɚ]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "提高標準、期望"
+    }
+   ],
+   "ex": [
+    {
+     "en": "You might also hear people say set the bar higher or lower.",
+     "zh": "你也可能聽到有人說 set the bar higher or lower（把標準訂高或訂低）。",
+     "t": 198.9
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "raise the bar 提高標準（最常見）；set a high bar 訂下高標準；The new model raises the bar for quality. 新機型提高了品質標準。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "sets the bar higher"
+      ],
+      [
+       "過去式",
+       "set the bar higher"
+      ],
+      [
+       "過去分詞",
+       "set the bar higher"
+      ],
+      [
+       "現在分詞",
+       "setting the bar higher"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "enable",
+   "s": 3,
+   "ph": "[ɪnˋebḷ]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "使能夠，讓～成為可能"
+    }
+   ],
+   "ex": [
+    {
+     "en": "If you enable something, you encourage somebody's ability to do something or to make something possible.",
+     "zh": "如果你 enable 某件事，就是你促進某人做某件事的能力，或讓某件事成為可能。",
+     "t": 211.2
+    }
+   ],
+   "fam": [
+    "able adj. 能夠的",
+    "ability n. 能力"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "國際學村 Day 02 核心字。句型 enable A to do：The new software enables employees to work remotely. 新軟體讓員工能遠距工作（Part 5 常考 to do）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "enables"
+      ],
+      [
+       "過去式",
+       "enabled"
+      ],
+      [
+       "過去分詞",
+       "enabled"
+      ],
+      [
+       "現在分詞",
+       "enabling"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "eager",
+   "s": 2,
+   "ph": "[ˋigɚ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "渴望的，熱切的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "'Eager' is an adjective that describes wanting to do or have something very much.",
+     "zh": "「Eager」是形容詞，形容非常想做或想要某樣東西。",
+     "t": 250.2
+    }
+   ],
+   "fam": [
+    "eagerly adv. 熱切地",
+    "eagerness n. 熱切"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "be eager to do 渴望做～：We are eager to hear your feedback. 我們很期待聽到您的意見（書信常見）。eagerness 是國際學村 Day 01 滿分字。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more eager"
+      ],
+      [
+       "最高級",
+       "most eager"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "shift",
+   "s": 3,
+   "ph": "[ʃɪft]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "轉變，改變；（輪班的）班"
+    },
+    {
+     "p": "v.",
+     "m": "轉移，改變"
+    }
+   ],
+   "ex": [
+    {
+     "en": "A shift is a small change.",
+     "zh": "shift 是一個小改變。",
+     "t": 258.7
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "多益最常考「輪班」：the night shift 夜班、work a double shift 連上兩班、cover one's shift 代班（國際學村 Day 03 滿分字）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "shifts"
+      ]
+     ]
+    },
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "shifts"
+      ],
+      [
+       "過去式",
+       "shifted"
+      ],
+      [
+       "過去分詞",
+       "shifted"
+      ],
+      [
+       "現在分詞",
+       "shifting"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "set someone up for",
+   "s": 2,
+   "ph": "[sɛt ˋsʌm͵wʌn ʌp fɔr]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "讓某人為～做好準備，為某人打好～的基礎"
+    }
+   ],
+   "ex": [
+    {
+     "en": "If you set someone up for something, you prepare them for it.",
+     "zh": "如果你 set someone up for 某件事，就是你讓他們為那件事做好準備。",
+     "t": 294.7
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "set someone up for success 幫某人打好成功的基礎（主管、訓練情境常見）。set up 另有「設立、安排」：set up a meeting 安排會議。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "sets ~ up for"
+      ],
+      [
+       "過去式",
+       "set ~ up for"
+      ],
+      [
+       "過去分詞",
+       "set ~ up for"
+      ],
+      [
+       "現在分詞",
+       "setting ~ up for"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "setup n. 設定；安排"
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "Yes. And it's a particular worry of many parents that their children spend too much time on these ___.",
+   "a": "devices",
+   "opts": [
+    "devices",
+    "measures",
+    "shifts",
+    "screens"
+   ]
+  },
+  {
+   "s": "At the end of last year, Australia banned access to social media apps for under 16s, and countries like the UK are considering similar ___.",
+   "a": "measures",
+   "opts": [
+    "measures",
+    "devices",
+    "shifts",
+    "intentions"
+   ]
+  },
+  {
+   "s": "So, to be ___ is to act with that plan or reason in mind.",
+   "a": "intentional",
+   "opts": [
+    "intentional",
+    "intention",
+    "intentionally",
+    "eager"
+   ]
+  },
+  {
+   "s": "You might also hear people say set the ___ higher or lower.",
+   "a": "bar",
+   "opts": [
+    "bar",
+    "shift",
+    "table",
+    "line"
+   ]
+  },
+  {
+   "s": "If you ___ something, you encourage somebody's ability to do something or to make something possible.",
+   "a": "enable",
+   "opts": [
+    "enable",
+    "shift",
+    "measure",
+    "set"
+   ]
+  },
+  {
+   "s": "'___' is an adjective that describes wanting to do or have something very much.",
+   "a": "Eager",
+   "opts": [
+    "Eager",
+    "Intentional",
+    "Realistic",
+    "Practical"
+   ]
+  },
+  {
+   "s": "A ___ is a small change.",
+   "a": "shift",
+   "opts": [
+    "shift",
+    "measure",
+    "device",
+    "bar"
+   ]
+  },
+  {
+   "s": "If you set someone up ___ something, you prepare them for it.",
+   "a": "for",
+   "opts": [
+    "for",
+    "with",
+    "to",
+    "on"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "節目問答題：根據英國媒體監管機構，三到四歲的孩子有多少比例擁有智慧型手機？",
+   "a": "五分之一",
+   "opts": [
+    "五分之一",
+    "二十分之一",
+    "十分之一"
+   ]
+  },
+  {
+   "q": "去年年底，澳洲採取了什麼措施？",
+   "a": "禁止 16 歲以下使用社群媒體 App",
+   "opts": [
+    "禁止 16 歲以下使用社群媒體 App",
+    "禁止兒童使用智慧型手機",
+    "限制每天上網兩小時"
+   ]
+  },
+  {
+   "q": "Emily Goodacre 認為父母該怎麼做？",
+   "a": "不是讓孩子遠離科技，而是更有意識地使用科技",
+   "opts": [
+    "不是讓孩子遠離科技，而是更有意識地使用科技",
+    "完全拿走孩子的螢幕裝置",
+    "只讓孩子在週末使用裝置"
+   ]
+  },
+  {
+   "q": "Becky Kennedy 舉了什麼例子幫孩子減少螢幕時間？",
+   "a": "把裝置移到孩子看不見的地方",
+   "opts": [
+    "把裝置移到孩子看不見的地方",
+    "把網路關掉",
+    "用獎勵交換使用時間"
+   ]
+  }
+ ]
+}

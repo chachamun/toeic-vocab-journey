@@ -1,0 +1,459 @@
+{
+ "id": "yt-Cq8v437OWyU",
+ "video": "https://youtu.be/Cq8v437OWyU",
+ "bbc": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260604",
+ "label": "BBC 014",
+ "theme": "詩的力量",
+ "themeEn": "The power of poetry",
+ "release": "2026-10-05",
+ "words": [
+  {
+   "n": 1,
+   "w": "open mic night",
+   "s": 1,
+   "ph": "[ˋopən maɪk naɪt]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "開放麥克風之夜（任何人都能上台表演的活動）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "A good place to hear poetry is an open mic night, a live event where anyone is allowed to stand up on stage to sing or recite poems.",
+     "zh": "聽詩的好地方是開放麥克風之夜，這是一種任何人都可以上台唱歌或朗誦詩的現場活動。",
+     "t": 38.6
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "mic 是 microphone 的縮寫。活動公告常見：Sign-up for the open mic starts at 7 P.M."
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "open mic nights"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "come in handy",
+   "s": 2,
+   "ph": "[kʌm ɪn ˋhændɪ]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "派上用場，有用處"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Hmm. Finally, my English degree might come in handy!",
+     "zh": "嗯。我的英文學位終於要派上用場了！",
+     "t": 135.5
+    }
+   ],
+   "fam": [
+    "handy adj. 方便的，好用的；就在手邊的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "Part 2、Part 3 常見：This umbrella will come in handy. 這把傘會派上用場；keep ～ handy 把～放在手邊。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "comes in handy"
+      ],
+      [
+       "過去式",
+       "came in handy"
+      ],
+      [
+       "過去分詞",
+       "come in handy"
+      ],
+      [
+       "現在分詞",
+       "coming in handy"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "overcome",
+   "s": 3,
+   "ph": "[͵ovɚˋkʌm]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "克服，戰勝"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Now, poetry helped Maria overcome sadness, but could its power to heal work in other areas too?",
+     "zh": "詩幫助 Maria 走出了悲傷，但它的療癒力量在其他領域也有用嗎？",
+     "t": 145.8
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "overcome challenges / obstacles / difficulties 克服挑戰／障礙／困難（推薦信、面試常見）。不規則變化：overcome – overcame – overcome。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "overcomes"
+      ],
+      [
+       "過去式",
+       "overcame"
+      ],
+      [
+       "過去分詞",
+       "overcome"
+      ],
+      [
+       "現在分詞",
+       "overcoming"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "complex",
+   "s": 3,
+   "ph": "[kəmˋplɛks]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "複雜的"
+    },
+    {
+     "p": "n.",
+     "m": "綜合設施，建築群"
+    }
+   ],
+   "ex": [
+    {
+     "en": "It's a complex research project that many find hard to understand.",
+     "zh": "那是一個很多人都難以理解的複雜研究計畫。",
+     "t": 195.4
+    }
+   ],
+   "fam": [
+    "complexity n. 複雜性",
+    "complicated adj. 複雜的"
+   ],
+   "tips": [
+    {
+     "k": "易混淆",
+     "t": "名詞 complex 多益很常考：an office complex 辦公大樓群、a sports complex 運動中心、an apartment complex 公寓社區。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more complex"
+      ],
+      [
+       "最高級",
+       "most complex"
+      ]
+     ]
+    },
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "complexes"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "jargon",
+   "s": 2,
+   "ph": "[ˋdʒɑrgən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "術語，行話"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Science uses lots of jargon – specialist or technical vocabulary which is quite different from everyday language.",
+     "zh": "科學用了很多 jargon（術語）——和日常用語很不一樣的專業或技術詞彙。",
+     "t": 221.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "legal / technical jargon 法律／技術術語；avoid jargon 避免使用術語（寫給客戶的信、簡報建議常見）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "impenetrable",
+   "s": 1,
+   "ph": "[ɪmˋpɛnətrəbḷ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "難以理解的；無法穿透的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Jargon can make scientific papers impenetrable, an adjective meaning impossible to understand.",
+     "zh": "術語會讓科學論文 impenetrable，這個形容詞的意思是完全無法理解。",
+     "t": 235.5
+    }
+   ],
+   "fam": [
+    "penetrate v. 穿透；打入（市場）",
+    "penetration n. 滲透；市場滲透率"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "字根 penetrate 在商業英文常見：penetrate the Asian market 打入亞洲市場。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "turn-off",
+   "s": 1,
+   "ph": "[ˋtɝn͵ɔf]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "令人反感或失去興趣的事物"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And worse, it makes science a turn-off – something that people dislike or find uninteresting.",
+     "zh": "更糟的是，它讓科學變成 a turn-off——讓人討厭或覺得無趣的東西。",
+     "t": 241.9
+    }
+   ],
+   "tips": [
+    {
+     "k": "易混淆",
+     "t": "動詞片語 turn off 是「關掉」：Please turn off your mobile phones.（Part 4 公告必聽）。名詞 turnoff 另有「交流道出口」的意思。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "turn-offs"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "turn off phr. 關掉（動詞片語）"
+   ]
+  },
+  {
+   "n": 8,
+   "w": "goosebumps",
+   "s": 1,
+   "ph": "[ˋgus͵bʌmps]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "雞皮疙瘩"
+    }
+   ],
+   "ex": [
+    {
+     "en": "It still gives me goosebumps when I hear it now.",
+     "zh": "我現在再聽，還是會起雞皮疙瘩。",
+     "t": 271.6
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "give someone goosebumps 讓某人起雞皮疙瘩（感動、害怕或冷）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "複數形"
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "A good place to hear poetry is an open ___ night, a live event where anyone is allowed to stand up on stage to sing or recite poems.",
+   "a": "mic",
+   "opts": [
+    "mic",
+    "air",
+    "house",
+    "stage"
+   ]
+  },
+  {
+   "s": "Hmm. Finally, my English degree might come in ___!",
+   "a": "handy",
+   "opts": [
+    "handy",
+    "hand",
+    "useful",
+    "hands"
+   ]
+  },
+  {
+   "s": "Now, poetry helped Maria ___ sadness, but could its power to heal work in other areas too?",
+   "a": "overcome",
+   "opts": [
+    "overcome",
+    "overlook",
+    "overtake",
+    "overdo"
+   ]
+  },
+  {
+   "s": "It's a ___ research project that many find hard to understand.",
+   "a": "complex",
+   "opts": [
+    "complex",
+    "complexity",
+    "impenetrable",
+    "handy"
+   ]
+  },
+  {
+   "s": "Science uses lots of ___ – specialist or technical vocabulary which is quite different from everyday language.",
+   "a": "jargon",
+   "opts": [
+    "jargon",
+    "poetry",
+    "goosebumps",
+    "alliteration"
+   ]
+  },
+  {
+   "s": "Jargon can make scientific papers ___, an adjective meaning impossible to understand.",
+   "a": "impenetrable",
+   "opts": [
+    "impenetrable",
+    "complex",
+    "handy",
+    "credible"
+   ]
+  },
+  {
+   "s": "And worse, it makes science a ___ – something that people dislike or find uninteresting.",
+   "a": "turn-off",
+   "opts": [
+    "turn-off",
+    "turnout",
+    "turnover",
+    "turn-on"
+   ]
+  },
+  {
+   "s": "It still gives me ___ when I hear it now.",
+   "a": "goosebumps",
+   "opts": [
+    "goosebumps",
+    "jargon",
+    "headaches",
+    "turn-offs"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "節目問答題：一串字用同樣的音開頭（例如 the positive power of poetry），這叫什麼？",
+   "a": "頭韻（alliteration）",
+   "opts": [
+    "頭韻（alliteration）",
+    "諧母音（assonance）",
+    "明喻（simile）"
+   ]
+  },
+  {
+   "q": "Maria 在開放麥克風之夜朗誦的詩是關於什麼？",
+   "a": "一位中風的朋友",
+   "opts": [
+    "一位中風的朋友",
+    "她的家鄉",
+    "氣候變遷"
+   ]
+  },
+  {
+   "q": "Hot Poets 這個團體在做什麼？",
+   "a": "把科學研究寫成詩，讓大家更容易理解全球議題",
+   "opts": [
+    "把科學研究寫成詩，讓大家更容易理解全球議題",
+    "舉辦詩歌比賽",
+    "教小孩寫詩"
+   ]
+  },
+  {
+   "q": "Liv Torc 認為科學溝通的問題在哪裡？",
+   "a": "術語太多，一般人看不懂，很快就失去興趣",
+   "opts": [
+    "術語太多，一般人看不懂，很快就失去興趣",
+    "科學家不願意發表研究",
+    "研究經費不足"
+   ]
+  }
+ ]
+}

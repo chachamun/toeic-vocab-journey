@@ -88,3 +88,60 @@ quality of life	n: 不可數	—
 liveability	n: 不可數	—
 copy and paste	v: copies and pastes, copied and pasted, copied and pasted, copying and pasting	—
 alternative	n: alternatives ; adj: 無比較級	—
+# ── BBC 010–016（2026-10-01～10-07 上架）──
+put someone on the defensive	v: puts ~ on the defensive, put ~ on the defensive, put ~ on the defensive, putting ~ on the defensive	—
+uncivil	adj: more uncivil, most uncivil	—
+justify	v: justifies, justified, justified, justifying	—
+personnel	n: 集合名詞（通常當複數用）	personal adj. 個人的（易混淆）
+belittle	v: belittles, belittled, belittled, belittling	belittling adj. 貶低人的
+credit	n: credits ; v: credits, credited, credited, crediting	creditor n. 債權人 | creditable adj. 值得稱讚的
+get something off your plate	v: gets ~ off ~ plate, got ~ off ~ plate, got/gotten ~ off ~ plate, getting ~ off ~ plate	—
+frazzled	adj: more frazzled, most frazzled	frazzle v. 使疲憊不堪
+appetite	n: appetites	appetizer n. 開胃菜
+ups and downs	n: 複數形	—
+trigger	v: triggers, triggered, triggered, triggering ; n: triggers	—
+battleground	n: battlegrounds	battle n. 戰鬥
+big deal	n: big deals	—
+allergy	n: allergies	—
+restrict	v: restricts, restricted, restricted, restricting	—
+winning formula	n: winning formulas	—
+device	n: devices	devise v. 設計，想出（易混淆）
+measure	n: measures ; v: measures, measured, measured, measuring	—
+intentional	adj: 無比較級	—
+set the bar higher	v: sets the bar higher, set the bar higher, set the bar higher, setting the bar higher	—
+enable	v: enables, enabled, enabled, enabling	—
+eager	adj: more eager, most eager	—
+shift	n: shifts ; v: shifts, shifted, shifted, shifting	—
+set someone up for	v: sets ~ up for, set ~ up for, set ~ up for, setting ~ up for	setup n. 設定；安排
+endorsement	n: endorsements	—
+credible	adj: more credible, most credible	—
+install	v: installs, installed, installed, installing	—
+proportion	n: proportions	—
+inclined	adj: more inclined, most inclined	—
+upsell	v: upsells, upsold, upsold, upselling	upselling n. 向上銷售
+transaction	n: transactions	—
+think outside the box	v: thinks outside the box, thought outside the box, thought outside the box, thinking outside the box	—
+open mic night	n: open mic nights	—
+come in handy	v: comes in handy, came in handy, come in handy, coming in handy	—
+overcome	v: overcomes, overcame, overcome, overcoming	—
+complex	adj: more complex, most complex ; n: complexes	—
+jargon	n: 不可數	—
+impenetrable	adj: 無比較級	—
+turn-off	n: turn-offs	turn off phr. 關掉（動詞片語）
+goosebumps	n: 複數形	—
+debt	n: debts	—
+take out a loan	v: takes out a loan, took out a loan, taken out a loan, taking out a loan	loan n. 貸款 | lender n. 貸方
+pay off	v: pays off, paid off, paid off, paying off	payoff n. 回報
+make ends meet	v: makes ends meet, made ends meet, made ends meet, making ends meet	—
+expense	n: expenses	—
+in arrears	—	—
+income	n: incomes	—
+financial strain	n: 多為不可數	—
+exposure	n: 多為不可數	—
+decibel	n: decibels	—
+handle	v: handles, handled, handled, handling ; n: handles	—
+tackle	v: tackles, tackled, tackled, tackling	—
+inspired	adj: more inspired, most inspired	—
+installation	n: installations	—
+squeaky	adj: squeakier, squeakiest	—
+counterintuitive	adj: 無比較級	—

@@ -1,0 +1,465 @@
+{
+ "id": "yt--idY8F7LOSE",
+ "video": "https://youtu.be/-idY8F7LOSE",
+ "bbc": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260625",
+ "label": "BBC 011",
+ "theme": "輕鬆的家庭用餐",
+ "themeEn": "Stress-free family meals",
+ "release": "2026-10-02",
+ "words": [
+  {
+   "n": 1,
+   "w": "appetite",
+   "s": 2,
+   "ph": "[ˋæpə͵taɪt]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "食慾；渴望，興趣"
+    }
+   ],
+   "ex": [
+    {
+     "en": "We go through multiple periods of ups and downs where their appetite is much lower, and then all of a sudden it comes right back.",
+     "zh": "我們會經歷好幾段起起伏伏的時期，有時他們食慾很差，然後突然之間又完全恢復。",
+     "t": 70.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "商業用法：investors' appetite for risk 投資人的風險胃納；strong consumer appetite for ～ 消費者對～的強烈需求。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "appetites"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "appetizer n. 開胃菜"
+   ]
+  },
+  {
+   "n": 2,
+   "w": "ups and downs",
+   "s": 1,
+   "ph": "[ʌps ænd daʊnz]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "起起伏伏，好壞交替"
+    }
+   ],
+   "ex": [
+    {
+     "en": "At dinner time, Charlotte's children go through ups and downs, a phrase meaning that a mixture of good and bad things happen to them.",
+     "zh": "在晚餐時間，Charlotte 的孩子會經歷 ups and downs（起起伏伏），這個片語的意思是好事和壞事交替發生。",
+     "t": 82.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "the ups and downs of the market 市場的起伏；every business has its ups and downs 每家公司都有起有落。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "複數形"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "trigger",
+   "s": 3,
+   "ph": "[ˋtrɪgɚ]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "引發，觸發"
+    },
+    {
+     "p": "n.",
+     "m": "引發事件的原因，導火線"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Many parents say dinnertime can become a battleground, so why is it that what you're eating can trigger so much tension?",
+     "zh": "很多父母說晚餐時間可能變成戰場，為什麼吃什麼這件事會引發這麼多緊張？",
+     "t": 180.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "trigger an alarm 觸動警報；trigger a price increase 引發漲價。同義：cause、set off、spark。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "triggers"
+      ],
+      [
+       "過去式",
+       "triggered"
+      ],
+      [
+       "過去分詞",
+       "triggered"
+      ],
+      [
+       "現在分詞",
+       "triggering"
+      ]
+     ]
+    },
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "triggers"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "battleground",
+   "s": 1,
+   "ph": "[ˋbætḷ͵graʊnd]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "戰場；衝突的地方"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Dinnertime often becomes a battleground – a place where argument or conflict happens.",
+     "zh": "晚餐時間常常變成 battleground——發生爭吵或衝突的地方。",
+     "t": 205.9
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "商業比喻：Online sales have become the new battleground for retailers. 網路銷售成了零售業的新戰場。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "battlegrounds"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "battle n. 戰鬥"
+   ]
+  },
+  {
+   "n": 5,
+   "w": "big deal",
+   "s": 2,
+   "ph": "[bɪg dil]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "重要的事，大事"
+    }
+   ],
+   "ex": [
+    {
+     "en": "For kids, controlling what they're willing to eat is a big deal – something of special importance to them.",
+     "zh": "對孩子來說，掌控自己願意吃什麼是 a big deal——對他們特別重要的事。",
+     "t": 215.3
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "口語常見：It's no big deal. 沒什麼大不了；make a big deal out of ～ 小題大作。deal 另有「交易」意思：close a deal 成交。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "big deals"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "allergy",
+   "s": 2,
+   "ph": "[ˋælɚdʒɪ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "過敏（症）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "If experts like Charlotte and Anne struggle at mealtimes, imagine how hard it could be if your child has a food allergy – a condition where the body makes you sick after eating certain foods.",
+     "zh": "如果連 Charlotte 和 Anne 這樣的專家在用餐時間都會頭痛，想像一下如果你的孩子有食物過敏會有多難——這是一種吃了某些食物後身體會不舒服的狀況。",
+     "t": 221.5
+    }
+   ],
+   "fam": [
+    "allergic adj. 過敏的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "be allergic to 對～過敏；餐廳、活動報名常見：Please let us know of any food allergies or dietary restrictions. 如有食物過敏或飲食限制請告知。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "allergies"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "restrict",
+   "s": 3,
+   "ph": "[rɪˋstrɪkt]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "限制，限定"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Sharon's daughter's allergies restricted what she could eat, making cooking for the whole family a struggle.",
+     "zh": "Sharon 女兒的過敏限制了她能吃的東西，讓幫全家煮飯變得很辛苦。",
+     "t": 257.6
+    }
+   ],
+   "fam": [
+    "restriction n. 限制",
+    "restricted adj. 受限制的",
+    "restrictive adj. 限制性的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "國際學村 Day 02 核心字。restricted area 限制區；dietary restrictions 飲食限制；restrict access to ～ 限制進入～。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "restricts"
+      ],
+      [
+       "過去式",
+       "restricted"
+      ],
+      [
+       "過去分詞",
+       "restricted"
+      ],
+      [
+       "現在分詞",
+       "restricting"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "winning formula",
+   "s": 1,
+   "ph": "[ˋwɪnɪŋ ˋfɔrmjələ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "致勝的方法，成功的組合"
+    }
+   ],
+   "ex": [
+    {
+     "en": "A winning formula is a method or strategy that produces successful results.",
+     "zh": "winning formula 是能帶來成功結果的方法或策略。",
+     "t": 269.6
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "formula 也指「配方、公式」：a new formula 新配方（產品廣告常見）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "winning formulas"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "We go through multiple periods of ups and downs where their ___ is much lower, and then all of a sudden it comes right back.",
+   "a": "appetite",
+   "opts": [
+    "appetite",
+    "allergy",
+    "mood",
+    "formula"
+   ]
+  },
+  {
+   "s": "At dinner time, Charlotte's children go through ___, a phrase meaning that a mixture of good and bad things happen to them.",
+   "a": "ups and downs",
+   "opts": [
+    "ups and downs",
+    "big deals",
+    "battlegrounds",
+    "winning formulas"
+   ]
+  },
+  {
+   "s": "Many parents say dinnertime can become a battleground, so why is it that what you're eating can ___ so much tension?",
+   "a": "trigger",
+   "opts": [
+    "trigger",
+    "restrict",
+    "control",
+    "reduce"
+   ]
+  },
+  {
+   "s": "Dinnertime often becomes a ___ – a place where argument or conflict happens.",
+   "a": "battleground",
+   "opts": [
+    "battleground",
+    "big deal",
+    "playground",
+    "formula"
+   ]
+  },
+  {
+   "s": "For kids, controlling what they're willing to eat is a big ___ – something of special importance to them.",
+   "a": "deal",
+   "opts": [
+    "deal",
+    "mood",
+    "thing",
+    "point"
+   ]
+  },
+  {
+   "s": "Imagine how hard it could be if your child has a food ___ – a condition where the body makes you sick after eating certain foods.",
+   "a": "allergy",
+   "opts": [
+    "allergy",
+    "appetite",
+    "allergic",
+    "tension"
+   ]
+  },
+  {
+   "s": "Sharon's daughter's allergies ___ what she could eat, making cooking for the whole family a struggle.",
+   "a": "restricted",
+   "opts": [
+    "restricted",
+    "triggered",
+    "restriction",
+    "restrictive"
+   ]
+  },
+  {
+   "s": "A winning ___ is a method or strategy that produces successful results.",
+   "a": "formula",
+   "opts": [
+    "formula",
+    "deal",
+    "mood",
+    "battleground"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "節目問答題：兒童營養師 Charlotte 推薦哪一種讓家庭用餐不緊繃的做法？",
+   "a": "不要逼孩子把盤子裡的東西全部吃完",
+   "opts": [
+    "不要逼孩子把盤子裡的東西全部吃完",
+    "確保孩子每天吃五份蔬果",
+    "很快讓孩子嘗試很多新口味"
+   ]
+  },
+  {
+   "q": "Anne Fishel 認為晚餐時間容易變成戰場的原因是？",
+   "a": "吃不吃是孩子少數能自己掌控的事",
+   "opts": [
+    "吃不吃是孩子少數能自己掌控的事",
+    "父母煮的菜不好吃",
+    "孩子晚餐前吃太多點心"
+   ]
+  },
+  {
+   "q": "Sharon Wee 為過敏的女兒找到的「致勝組合」是什麼？",
+   "a": "米飯配豆子",
+   "opts": [
+    "米飯配豆子",
+    "麵包配起司",
+    "蔬菜湯"
+   ]
+  },
+  {
+   "q": "專家們都同意的做法之一是？",
+   "a": "給孩子選擇，例如餐前提供少量健康點心",
+   "opts": [
+    "給孩子選擇，例如餐前提供少量健康點心",
+    "晚餐一定要全家一起準時開始",
+    "每天換不同的新菜色"
+   ]
+  }
+ ]
+}

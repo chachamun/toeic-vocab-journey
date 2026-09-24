@@ -1,0 +1,517 @@
+{
+ "id": "yt-vxoPApiNZBU",
+ "video": "https://youtu.be/vxoPApiNZBU",
+ "bbc": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260702",
+ "label": "BBC 010",
+ "theme": "沒禮貌的電子郵件",
+ "themeEn": "Rude emails",
+ "release": "2026-10-01",
+ "words": [
+  {
+   "n": 1,
+   "w": "put someone on the defensive",
+   "s": 1,
+   "ph": "[pʊt ˋsʌm͵wʌn ɑn ðə dɪˋfɛnsɪv]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "使某人產生防衛心，使某人覺得受威脅"
+    }
+   ],
+   "ex": [
+    {
+     "en": "The phrase to put someone on the defensive means to do or say something which makes them feel threatened or unsure.",
+     "zh": "「to put someone on the defensive」這個片語的意思是，做或說了某件事，讓對方覺得受到威脅或不確定。",
+     "t": 65.7
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "be on the defensive 處於防守狀態；defensive 形容詞「防衛的」（國際學村 Day 02 滿分字）：Try not to become defensive when receiving feedback."
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "puts ~ on the defensive"
+      ],
+      [
+       "過去式",
+       "put ~ on the defensive"
+      ],
+      [
+       "過去分詞",
+       "put ~ on the defensive"
+      ],
+      [
+       "現在分詞",
+       "putting ~ on the defensive"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "uncivil",
+   "s": 2,
+   "ph": "[ʌnˋsɪvḷ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "無禮的，不客氣的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "These emails are examples of people being uncivil – an adjective meaning rude or impolite.",
+     "zh": "這些信都是有人 uncivil 的例子——這個形容詞的意思是粗魯或不禮貌。",
+     "t": 82.2
+    }
+   ],
+   "fam": [
+    "incivility n. 無禮的言行",
+    "civil adj. 有禮貌的；民事的",
+    "civility n. 禮貌"
+   ],
+   "tips": [
+    {
+     "k": "易混淆",
+     "t": "civil 另一個常見意思是「民事的、公民的」：civil engineer 土木工程師、civil servant 公務員。workplace incivility 職場無禮，是人資常見議題。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more uncivil"
+      ],
+      [
+       "最高級",
+       "most uncivil"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "justify",
+   "s": 3,
+   "ph": "[ˋdʒʌstə͵faɪ]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "證明～有理，為～辯護"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Last year, thousands of US government workers received an email requiring them to justify their job by listing five things they had accomplished that week...",
+     "zh": "去年，數千名美國政府員工收到一封電子郵件，要求他們列出當週完成的五件事，來證明自己的工作有存在的必要……",
+     "t": 110.7
+    }
+   ],
+   "fam": [
+    "justification n. 正當理由",
+    "justifiable adj. 正當的，合理的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "justify the cost / expense 說明費用的正當性；Can you justify this decision? 你能說明這個決定的理由嗎？預算、採購情境常見。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "justifies"
+      ],
+      [
+       "過去式",
+       "justified"
+      ],
+      [
+       "過去分詞",
+       "justified"
+      ],
+      [
+       "現在分詞",
+       "justifying"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "personnel",
+   "s": 3,
+   "ph": "[͵pɝsṇˋɛl]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "（全體）人員，員工；人事部門"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Emails that are hostile in tone and language, or even cc'ing senior personnel in on the message in order to elevate an issue and put someone in their place.",
+     "zh": "像是語氣和用字充滿敵意的信，甚至把資深人員加進副本，好把事情升級、讓對方知道自己的分量。",
+     "t": 162.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "易混淆",
+     "t": "personnel（人員，重音在最後）≠ personal（個人的，重音在第一音節）。authorized personnel only 閒人勿進；personnel department 人事部。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "集合名詞（通常當複數用）"
+    }
+   ],
+   "der": [
+    "personal adj. 個人的（易混淆）"
+   ]
+  },
+  {
+   "n": 5,
+   "w": "belittle",
+   "s": 2,
+   "ph": "[bɪˋlɪtḷ]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "貶低，輕視"
+    }
+   ],
+   "ex": [
+    {
+     "en": "The fight response can make us belittle someone – make them feel inferior or unimportant.",
+     "zh": "「戰」的反應可能讓我們貶低別人——讓對方覺得自己低人一等或不重要。",
+     "t": 186.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "同義：look down on、undermine。職場霸凌相關文件常見：belittling remarks 貶低人的言論。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "belittles"
+      ],
+      [
+       "過去式",
+       "belittled"
+      ],
+      [
+       "過去分詞",
+       "belittled"
+      ],
+      [
+       "現在分詞",
+       "belittling"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "belittling adj. 貶低人的"
+   ]
+  },
+  {
+   "n": 6,
+   "w": "credit",
+   "s": 3,
+   "ph": "[ˋkrɛdɪt]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "功勞，讚揚；信用；（帳戶）存款"
+    },
+    {
+     "p": "v.",
+     "m": "把～歸功於；存入（帳戶）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "For example, a boss sends a group email in which they give someone else the credit for the work you did.",
+     "zh": "例如，主管寄了一封群組信，把你做的工作功勞歸給別人。",
+     "t": 192.8
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "一字多義必考：take credit for 把功勞攬在自己身上；credit card 信用卡；store credit 購物金；The refund will be credited to your account. 退款將存入您的帳戶。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "credits"
+      ]
+     ]
+    },
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "credits"
+      ],
+      [
+       "過去式",
+       "credited"
+      ],
+      [
+       "過去分詞",
+       "credited"
+      ],
+      [
+       "現在分詞",
+       "crediting"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "creditor n. 債權人",
+    "creditable adj. 值得稱讚的"
+   ]
+  },
+  {
+   "n": 7,
+   "w": "get something off your plate",
+   "s": 1,
+   "ph": "[gɛt ˋsʌmθɪŋ ɔf jʊr plet]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "把事情從自己手上移走（交給別人處理）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Such colleagues want to get work off their plate – another idiom, meaning to remove tasks from your own workload and give them to someone else to deal with.",
+     "zh": "這樣的同事想 get work off their plate——這是另一個慣用語，意思是把工作從自己的工作量中移走，丟給別人處理。",
+     "t": 218.4
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "相關：have a lot on one's plate 手上事情很多（I have a lot on my plate this week. 我這週很忙）。workload 工作量，多益常見。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "gets ~ off ~ plate"
+      ],
+      [
+       "過去式",
+       "got ~ off ~ plate"
+      ],
+      [
+       "過去分詞",
+       "got/gotten ~ off ~ plate"
+      ],
+      [
+       "現在分詞",
+       "getting ~ off ~ plate"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "frazzled",
+   "s": 1,
+   "ph": "[ˋfræzḷd]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "疲憊不堪的，心力交瘁的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "We're more likely to be uncivil when we're frazzled – an informal adjective describing feeling tired or anxious because you're doing too many things at the same time.",
+     "zh": "我們 frazzled 時更容易無禮——這個非正式的形容詞，形容因為同時做太多事而感到疲憊或焦慮。",
+     "t": 250.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "口語說法，正式文章常用 exhausted、overwhelmed、burned out（職業倦怠）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more frazzled"
+      ],
+      [
+       "最高級",
+       "most frazzled"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "frazzle v. 使疲憊不堪"
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "The phrase to put someone on the ___ means to do or say something which makes them feel threatened or unsure.",
+   "a": "defensive",
+   "opts": [
+    "defensive",
+    "offensive",
+    "spot",
+    "record"
+   ]
+  },
+  {
+   "s": "These emails are examples of people being ___ – an adjective meaning rude or impolite.",
+   "a": "uncivil",
+   "opts": [
+    "uncivil",
+    "frazzled",
+    "civil",
+    "hostile"
+   ]
+  },
+  {
+   "s": "Last year, thousands of US government workers received an email requiring them to ___ their job by listing five things they had accomplished that week...",
+   "a": "justify",
+   "opts": [
+    "justify",
+    "belittle",
+    "credit",
+    "resign"
+   ]
+  },
+  {
+   "s": "Emails that are hostile in tone and language, or even cc'ing senior ___ in on the message in order to elevate an issue and put someone in their place.",
+   "a": "personnel",
+   "opts": [
+    "personnel",
+    "personal",
+    "persons",
+    "personality"
+   ]
+  },
+  {
+   "s": "The fight response can make us ___ someone – make them feel inferior or unimportant.",
+   "a": "belittle",
+   "opts": [
+    "belittle",
+    "justify",
+    "credit",
+    "protect"
+   ]
+  },
+  {
+   "s": "For example, a boss sends a group email in which they give someone else the ___ for the work you did.",
+   "a": "credit",
+   "opts": [
+    "credit",
+    "plate",
+    "place",
+    "blame"
+   ]
+  },
+  {
+   "s": "Such colleagues want to get work off their ___ – another idiom, meaning to remove tasks from your own workload and give them to someone else to deal with.",
+   "a": "plate",
+   "opts": [
+    "plate",
+    "place",
+    "desk",
+    "mind"
+   ]
+  },
+  {
+   "s": "We're more likely to be uncivil when we're ___ – an informal adjective describing feeling tired or anxious because you're doing too many things at the same time.",
+   "a": "frazzled",
+   "opts": [
+    "frazzled",
+    "uncivil",
+    "defensive",
+    "relaxed"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "節目問答題：要求美國政府員工列出五件工作成果、否則就辭職的信，是誰寄的？",
+   "a": "馬斯克（Elon Musk）",
+   "opts": [
+    "馬斯克（Elon Musk）",
+    "川普（Donald Trump）",
+    "JD 范斯（JD Vance）"
+   ]
+  },
+  {
+   "q": "曼徹斯特的聽眾 Rachel 覺得哪一種信很沒禮貌？",
+   "a": "開頭只寫名字，沒有「嗨」之類的問候",
+   "opts": [
+    "開頭只寫名字，沒有「嗨」之類的問候",
+    "信件太長",
+    "用了太多表情符號"
+   ]
+  },
+  {
+   "q": "心理學家說「逃」的反應在郵件裡會怎麼表現？",
+   "a": "不回信，或回信時不回答所有問題",
+   "opts": [
+    "不回信，或回信時不回答所有問題",
+    "把主管加進副本",
+    "用很強硬的語氣回覆"
+   ]
+  },
+  {
+   "q": "節目建議寫信生氣時該怎麼做？",
+   "a": "按下寄出前先停一下",
+   "opts": [
+    "按下寄出前先停一下",
+    "立刻打電話給對方",
+    "把信轉寄給主管"
+   ]
+  }
+ ]
+}

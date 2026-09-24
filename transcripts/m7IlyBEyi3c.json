@@ -1,0 +1,356 @@
+{
+ "source": {
+  "video": "https://youtu.be/m7IlyBEyi3c",
+  "original": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260618",
+  "publisher": "BBC Learning English《6 Minute English》",
+  "note": "英文逐字稿取自 YouTube 字幕；中文為學習用翻譯。版權屬原作者，僅供個人學習。"
+ },
+ "title": "Limiting screen time for children",
+ "lines": [
+  {
+   "t": 8.7,
+   "en": "Hello. This is 6 Minute English from BBC Learning English.",
+   "zh": "哈囉。這裡是 BBC Learning English 的《6 Minute English》。"
+  },
+  {
+   "t": 12.2,
+   "en": "I'm Neil.",
+   "zh": "我是 Neil。"
+  },
+  {
+   "t": 13.0,
+   "en": "And I'm Becca.",
+   "zh": "我是 Becca。"
+  },
+  {
+   "t": 14.2,
+   "en": "Neil, I noticed that you were checking your phone before you came into the studio to record this programme.",
+   "zh": "Neil，我注意到你進錄音室錄這集節目之前，一直在看手機。"
+  },
+  {
+   "t": 20.3,
+   "en": "Yes, I probably was.",
+   "zh": "對，我大概有。"
+  },
+  {
+   "t": 22.1,
+   "en": "You know, Becca, I spend far too much time looking at my phone, and I really don't like it. How about you?",
+   "zh": "你知道嗎，Becca，我花太多時間看手機了，我真的很不喜歡這樣。你呢？"
+  },
+  {
+   "t": 29.4,
+   "en": "I don't think you're alone.",
+   "zh": "我想不是只有你這樣。"
+  },
+  {
+   "t": 30.8,
+   "en": "I also spend way too much time looking at my phone.",
+   "zh": "我也花太多時間看手機了。"
+  },
+  {
+   "t": 34.9,
+   "en": "Well, Becca, we are both adults, but today we're talking about screen time and children. 'Screen time'.",
+   "zh": "嗯，Becca，我們兩個都是大人，但今天我們要談的是螢幕時間和孩子。「螢幕時間」。"
+  },
+  {
+   "t": 42.5,
+   "en": "That's how much time you spend using devices like smartphones, tablets and laptops.",
+   "zh": "就是你花在智慧型手機、平板和筆電這類裝置上的時間。"
+  },
+  {
+   "t": 48.7,
+   "en": "Yes. And it's a particular worry of many parents that their children spend too much time on these devices.",
+   "zh": "對。很多父母特別擔心孩子花太多時間在這些裝置上。"
+  },
+  {
+   "t": 55.3,
+   "en": "At the end of last year, Australia banned access to social media apps for under 16s, and countries like the UK are considering similar measures.",
+   "zh": "去年年底，澳洲禁止 16 歲以下使用社群媒體 App，英國等國家也在考慮類似的措施。"
+  },
+  {
+   "t": 65.0,
+   "en": "So why is this?",
+   "zh": "為什麼會這樣呢？"
+  },
+  {
+   "t": 66.9,
+   "en": "In this episode, we'll hear from a clinical psychologist and research associate at the University of Cambridge talking about screen time and children.",
+   "zh": "在這一集，我們會聽到一位臨床心理師和一位劍橋大學研究員談螢幕時間和孩子。"
+  },
+  {
+   "t": 76.0,
+   "en": "As usual, we'll be learning some useful new words and phrases.",
+   "zh": "一如往常，我們會學一些實用的新單字和片語。"
+  },
+  {
+   "t": 79.1,
+   "en": "And remember, you'll find all this episode's vocabulary along with the transcript on our website, bbclearningenglish.com.",
+   "zh": "別忘了，這一集的所有詞彙和逐字稿都在我們的網站 bbclearningenglish.com。"
+  },
+  {
+   "t": 86.5,
+   "en": "But first, Neil, I have a question for you.",
+   "zh": "不過首先，Neil，我有個問題要問你。"
+  },
+  {
+   "t": 89.8,
+   "en": "According to the UK media regulator, how many children aged three to four have a smartphone?",
+   "zh": "根據英國媒體監管機構的資料，三到四歲的孩子有多少比例擁有智慧型手機？"
+  },
+  {
+   "t": 96.9,
+   "en": "Is it a) one in 20, b) one in ten, or, c) one in five?",
+   "zh": "是 a) 二十分之一、b) 十分之一，還是 c) 五分之一？"
+  },
+  {
+   "t": 102.6,
+   "en": "Wow. Well, I'm gonna guess one in 20, but I think it's probably more than that.",
+   "zh": "哇。嗯，我要猜二十分之一，但我覺得實際上可能更多。"
+  },
+  {
+   "t": 108.4,
+   "en": "Well, we'll find out the answer later.",
+   "zh": "我們稍後會揭曉答案。"
+  },
+  {
+   "t": 110.8,
+   "en": "Doctor Emily Goodacre is a research associate at the University of Cambridge.",
+   "zh": "Emily Goodacre 博士是劍橋大學的研究員。"
+  },
+  {
+   "t": 116.1,
+   "en": "Here she tells Shiona McCallum, presenter of BBC World Service programme Tech Life, her thoughts on whether we should take away at children's screen devices completely.",
+   "zh": "她在這裡向 BBC 世界廣播節目《Tech Life》的主持人 Shiona McCallum 分享她的看法：我們是否應該完全拿走孩子的螢幕裝置。"
+  },
+  {
+   "t": 126.4,
+   "en": "Yeah, I think it's not as much as getting them away from technology, but being really intentional about how we use technology with children.",
+   "zh": "對，我覺得重點不是讓他們遠離科技，而是我們和孩子一起使用科技時要非常有意識、有目的。"
+  },
+  {
+   "t": 136.2,
+   "en": "For me, the bar absolutely needs to be higher, and therefore I think about how to design products that think about childhood first and really think about how children at different stages learn and develop, and then see if there's a way that technology can enable that.",
+   "zh": "對我來說，標準絕對需要更高，所以我會思考如何設計以童年為優先的產品，真正去想不同階段的孩子如何學習和發展，再看看科技有沒有辦法促成這件事。"
+  },
+  {
+   "t": 155.7,
+   "en": "Emily highlights how, rather than stopping children from using technology, parents need to be more intentional about how their children use it.",
+   "zh": "Emily 強調，與其阻止孩子使用科技，父母更需要對孩子怎麼使用科技更有意識、有目的。"
+  },
+  {
+   "t": 164.0,
+   "en": "An intention is a plan or reason to do something.",
+   "zh": "intention 是做某件事的計畫或理由。"
+  },
+  {
+   "t": 167.4,
+   "en": "So, to be intentional is to act with that plan or reason in mind.",
+   "zh": "所以 intentional 就是心中帶著那個計畫或理由去行動。"
+  },
+  {
+   "t": 172.0,
+   "en": "It may make you act more carefully as a result.",
+   "zh": "這可能也會讓你因此更謹慎地行動。"
+  },
+  {
+   "t": 175.2,
+   "en": "Emily also says the bar needs to be higher.",
+   "zh": "Emily 也說 the bar（標準）需要更高。"
+  },
+  {
+   "t": 178.5,
+   "en": "The idiom the bar is low means that the standards, expectations or requirements are minimal and very easy to meet.",
+   "zh": "慣用語「the bar is low」的意思是標準、期望或要求很低，很容易達到。"
+  },
+  {
+   "t": 186.3,
+   "en": "Therefore, she believes the bar needs to be higher.",
+   "zh": "所以她認為標準需要更高。"
+  },
+  {
+   "t": 189.7,
+   "en": "Parents need to make their expectations higher.",
+   "zh": "父母需要提高他們的期望。"
+  },
+  {
+   "t": 192.8,
+   "en": "They need to think or act more carefully when considering how much time children spend with technology.",
+   "zh": "在考慮孩子花多少時間在科技上時，他們需要更謹慎地思考或行動。"
+  },
+  {
+   "t": 198.9,
+   "en": "You might also hear people say set the bar higher or lower.",
+   "zh": "你也可能聽到有人說 set the bar higher or lower（把標準訂高或訂低）。"
+  },
+  {
+   "t": 203.0,
+   "en": "Emily believes that being more intentional and setting the bar higher will enable children to learn and develop alongside technology.",
+   "zh": "Emily 認為，更有意識、把標準訂高，能讓孩子在科技的陪伴下學習和發展。"
+  },
+  {
+   "t": 211.2,
+   "en": "If you enable something, you encourage somebody's ability to do something or to make something possible.",
+   "zh": "如果你 enable 某件事，就是你促進某人做某件事的能力，或讓某件事成為可能。"
+  },
+  {
+   "t": 217.7,
+   "en": "Now let's hear Doctor Becky Kennedy, a clinical psychologist and founder of an online parenting platform, talking about how parents feel about tech and children, for BBC at World Service programme, Tech Life: I find parents are very, very eager to understand what's really happening",
+   "zh": "現在來聽臨床心理師、也是線上育兒平台創辦人 Becky Kennedy 博士，在 BBC 世界廣播節目《Tech Life》談父母對科技和孩子的感受：我發現父母非常、非常渴望了解孩子和科技之間真正發生了什麼事，"
+  },
+  {
+   "t": 236.1,
+   "en": "around technology in kids and then have practical, realistic things they can do in their home to make little shifts that feel better.",
+   "zh": "然後希望有實際、可行的做法，能在家裡做些小調整，讓大家感覺好一點。"
+  },
+  {
+   "t": 244.6,
+   "en": "Becky has found that many parents are eager to understand their children's use of technology.",
+   "zh": "Becky 發現很多父母都渴望了解孩子使用科技的情況。"
+  },
+  {
+   "t": 250.2,
+   "en": "'Eager' is an adjective that describes wanting to do or have something very much.",
+   "zh": "「Eager」是形容詞，形容非常想做或想要某樣東西。"
+  },
+  {
+   "t": 255.3,
+   "en": "Becky also talks about making little shifts.",
+   "zh": "Becky 也談到做一些小小的 shifts。"
+  },
+  {
+   "t": 258.7,
+   "en": "A shift is a small change.",
+   "zh": "shift 是一個小改變。"
+  },
+  {
+   "t": 260.6,
+   "en": "It can be used as a verb or a noun.",
+   "zh": "它可以當動詞也可以當名詞。"
+  },
+  {
+   "t": 263.3,
+   "en": "Becky shares an example of a shift that can help parents reduce children's screen time, moving the device somewhere it can't be seen.",
+   "zh": "Becky 舉了一個能幫父母減少孩子螢幕時間的調整例子：把裝置移到看不見的地方。"
+  },
+  {
+   "t": 271.7,
+   "en": "You can even say to a kid, you know why I moved it?",
+   "zh": "你甚至可以跟孩子說，你知道我為什麼把它移走嗎？"
+  },
+  {
+   "t": 274.6,
+   "en": "It's actually because it's a really hard thing for me to expect from you, to see a screen in a room and not want to use it.",
+   "zh": "其實是因為，要你看到房間裡有螢幕卻不想用它，對你來說是很難的要求。"
+  },
+  {
+   "t": 281.4,
+   "en": "I wasn't setting you up for success.",
+   "zh": "我之前沒有讓你處在容易成功的環境。"
+  },
+  {
+   "t": 284.0,
+   "en": "Becky explains how it's difficult for children to be expected to reduce their screen time if they can see their device, having the device in view doesn't set them up for success.",
+   "zh": "Becky 解釋，如果孩子看得到自己的裝置，要他們減少螢幕時間是很難的；把裝置放在看得到的地方，並沒有 set them up for success（幫他們打好成功的基礎）。"
+  },
+  {
+   "t": 294.7,
+   "en": "If you set someone up for something, you prepare them for it.",
+   "zh": "如果你 set someone up for 某件事，就是你讓他們為那件事做好準備。"
+  },
+  {
+   "t": 298.6,
+   "en": "Yes. For example, earlier I set Neil up for a shock when I asked him a question about screen time.",
+   "zh": "對。例如，我剛才問 Neil 螢幕時間的問題時，就讓他準備好受到驚嚇了。"
+  },
+  {
+   "t": 306.1,
+   "en": "Neil, I asked you, according to the UK media regulator, how many children aged three to four have a smartphone?",
+   "zh": "Neil，我問你，根據英國媒體監管機構的資料，三到四歲的孩子有多少比例擁有智慧型手機？"
+  },
+  {
+   "t": 313.9,
+   "en": "And I said one in 20.",
+   "zh": "我說二十分之一。"
+  },
+  {
+   "t": 316.5,
+   "en": "Well, it is in fact, c) one in five.",
+   "zh": "嗯，事實上是 c) 五分之一。"
+  },
+  {
+   "t": 320.7,
+   "en": "Wow. I thought it might be more than I said.",
+   "zh": "哇。我就覺得可能比我說的多。"
+  },
+  {
+   "t": 323.4,
+   "en": "Now let's recap the vocabulary we've learned.",
+   "zh": "現在來複習我們學到的詞彙。"
+  },
+  {
+   "t": 326.0,
+   "en": "Starting with 'intentional'.",
+   "zh": "首先是「intentional」。"
+  },
+  {
+   "t": 328.0,
+   "en": "It's an adjective that describes acting with a plan or reason in mind.",
+   "zh": "這個形容詞形容心中帶著計畫或理由去行動。"
+  },
+  {
+   "t": 332.6,
+   "en": "We had the expression 'the bar needs to be higher'.",
+   "zh": "我們有「the bar needs to be higher」這個說法。"
+  },
+  {
+   "t": 336.0,
+   "en": "To set the bar higher is to make your expectations higher.",
+   "zh": "set the bar higher 就是把你的期望訂得更高。"
+  },
+  {
+   "t": 340.0,
+   "en": "We also had 'enable'.",
+   "zh": "我們還有「enable」。"
+  },
+  {
+   "t": 341.7,
+   "en": "This is to encourage someone's ability to do something or to make something possible.",
+   "zh": "意思是促進某人做某件事的能力，或讓某件事成為可能。"
+  },
+  {
+   "t": 346.1,
+   "en": "To be eager is to want to do or have something very much.",
+   "zh": "to be eager 就是非常想做或想要某樣東西。"
+  },
+  {
+   "t": 350.8,
+   "en": "A shift is a small change.",
+   "zh": "shift 是一個小改變。"
+  },
+  {
+   "t": 352.6,
+   "en": "You can also use it as a verb to mean changing something slightly.",
+   "zh": "也可以當動詞，意思是稍微改變某件事。"
+  },
+  {
+   "t": 356.9,
+   "en": "And if you set someone up for something, you prepare them for it.",
+   "zh": "如果你 set someone up for 某件事，就是你讓他們為那件事做好準備。"
+  },
+  {
+   "t": 360.8,
+   "en": "Once again, our six minutes are up.",
+   "zh": "我們的六分鐘又到了。"
+  },
+  {
+   "t": 363.1,
+   "en": "If you enjoyed this episode, you'll find a quiz and a free worksheet to practise the vocabulary you've learnt on our website, bbclearningenglish.com.",
+   "zh": "如果你喜歡這一集，可以到我們的網站 bbclearningenglish.com 做測驗、下載免費學習單，練習你學到的詞彙。"
+  },
+  {
+   "t": 373.0,
+   "en": "See you again soon, but for now it's goodbye. Goodbye.",
+   "zh": "很快再見，但現在要說再見了。再見。"
+  }
+ ]
+}
