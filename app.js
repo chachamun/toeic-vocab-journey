@@ -954,6 +954,7 @@ function formsBox(w) {
 function vjumpTo(k) { shadowRelease(); di = k; flipped = false; vjump = false; savePos(); render(); }
 function viewVocab() {
   const u = curUnit();
+  if (u.test) return testView(u, 'vocab');
   if (!deck.length || (deck[0] && !(u.words || []).includes(deck[0]))) buildDeck();
   if (vocabList) {
     const noteN = (u.words || []).filter(noteOf).length;
@@ -1200,23 +1201,13 @@ function viewListen() {
   const u0 = curUnit();
   if (u0.transcript) return `<div class="view fade">${uswitch()}${txView(u0, 'listen')}
     <div class="two"><button class="btn ghost" data-goq="checkup">影片隨堂測驗</button><button class="btn" data-goq="today">做這集的測驗</button></div></div>`;
+  if (u0.test) return testView(u0, 'listen');
   const u = curUnit(), sents = (u.words || []).filter(w => w.ex && w.ex.length);
   /* 沒有例句的單元（滿分單字）→ 改成「聽單字 → 想意思 → 再看拼字與中文」 */
   const wordOnly = !sents.length && (u.words || []).length > 0;
   const items = wordOnly ? u.words.map(w => ({ w, e: { en: w.w, zh: posText(w) } })) : sents.map(w => ({ w, e: w.ex[0] }));
   let src = '';
-  if (u.audioSrc) src = `<div class="card pad player">
-      <div class="tiny muted">${esc(u.label)}・真人原音（整天完整錄音，可拖曳進度）</div>
-      <audio id="laud" src="${esc(u.audioSrc)}" preload="metadata"></audio>
-      <div class="lctrl">
-        <button class="lskip" id="lback" aria-label="倒退5秒">⏪5</button>
-        <button class="play-big" id="lplay">▶</button>
-        <button class="lskip" id="lfwd" aria-label="快轉5秒">5⏩</button>
-      </div>
-      <div class="seekwrap"><span class="t" id="ltcur">00:00</span>
-        <input type="range" class="seek" id="lseek" min="0" max="1000" value="0" step="1" aria-label="播放進度">
-        <span class="t" id="ltdur">00:00</span></div>
-      <div class="spd" style="margin-left:0">${SPDS.map(r => `<button data-arate="${r}" class="${LS.rate === r ? 'on' : ''}">${r}×</button>`).join('')}</div></div>`;
+  if (u.audioSrc) src = audioCard(u, '真人原音（整天完整錄音，可拖曳進度）');
   else if (u.video) src = `<div class="card pad">
       <div class="tiny muted" style="margin-bottom:9px;text-align:center">聽力來源：影片</div>
       ${ytEmbed(u.video)}</div>`;
@@ -1235,12 +1226,61 @@ function viewListen() {
     <button class="btn ghost" data-goq="today">做今日測驗（含聽力題）</button>
   </div>`;
 }
+function audioCard(u, what) {                                  // 真人原音播放器（聽力頁、實戰測驗共用，事件在 bindAll 依 id 綁定）
+  return `<div class="card pad player">
+      <div class="tiny muted">${esc(u.label)}・${esc(what)}</div>
+      <audio id="laud" src="${esc(u.audioSrc)}" preload="metadata"></audio>
+      <div class="lctrl">
+        <button class="lskip" id="lback" aria-label="倒退5秒">⏪5</button>
+        <button class="play-big" id="lplay">▶</button>
+        <button class="lskip" id="lfwd" aria-label="快轉5秒">5⏩</button>
+      </div>
+      <div class="seekwrap"><span class="t" id="ltcur">00:00</span>
+        <input type="range" class="seek" id="lseek" min="0" max="1000" value="0" step="1" aria-label="播放進度">
+        <span class="t" id="ltdur">00:00</span></div>
+      <div class="spd" style="margin-left:0">${SPDS.map(r => `<button data-arate="${r}" class="${LS.rate === r ? 'on' : ''}">${r}×</button>`).join('')}</div></div>`;
+}
+
+/* ===================== 實戰測驗（課本 Test：unit.test＝題目、unit.passages＝Part 6/7 短文，沒有單字） ===================== */
+function testBlanks(txt, cur) {                              // 短文裡的 [[09]] → 空格，目前這題的空格加亮
+  return esc(txt).replace(/\[\[(\d+)\]\]/g, (m, n) => `<span class="tblank${+n === +cur ? ' on' : ''}">${n}</span>`).replace(/\n/g, '<br>');
+}
+function testView(u, tab) {
+  const r = (S.tests || {})[ukeyOf(curCourse(), u)], qs = u.test || [];
+  const intro = `<div class="card pad" style="text-align:center">
+      <div style="font-size:34px">📝</div>
+      <b style="font-size:18px;display:block;margin:6px 0 4px">${esc(u.label)}・${esc(u.theme || '')}</b>
+      <div class="tiny muted">共 ${qs.length} 題，照課本題號與選項順序作答（${esc([...new Set(qs.map(q => q.part))].join('、'))}）</div>
+      ${r ? `<div class="tiny" style="margin-top:8px">上次 ${r.last}／${qs.length}　最佳 ${r.best}／${qs.length}</div>` : ''}
+      <button class="btn" data-goq="test" style="margin-top:14px">${r ? '再做一次' : '開始作答'}</button>
+      <div class="tiny muted" style="margin-top:10px">解答與解析由 AI 整理（課本 PDF 沒有附解答頁）</div></div>`;
+  if (tab === 'listen') return `<div class="view fade">${uswitch()}
+    ${u.audioSrc ? audioCard(u, '課本 Test 音檔') : '<div class="card pad tiny muted" style="text-align:center">這份測驗沒有音檔</div>'}${intro}</div>`;
+  if (tab !== 'read') return `<div class="view fade">${uswitch()}${intro}</div>`;
+  let lastP = '';                                             // 閱讀頁＝整份題目＋解答（可遮住答案當練習卷）
+  return `<div class="view fade">${uswitch()}${intro}
+    <div class="row"><h2 class="sect" style="margin:0">題目與解析</h2>
+      <button class="btn ghost sm" data-zh="1" style="margin-left:auto">${RS.zh ? '遮住答案' : '顯示答案'}</button></div>
+    ${qs.map(q => { const ps = q.p && q.p !== lastP ? `<div class="card pad tpass">${testBlanks(u.passages[q.p])}</div>` : ''; lastP = q.p || lastP;
+      return `${ps}<div class="sent"><div class="idx">${String(q.no).padStart(2, '0')}　${esc(q.part)}</div>
+        <div class="en">${testBlanks(q.s, q.no)}</div>
+        <div class="tiny" style="margin-top:6px">${q.opts.map((o, i) => `<div class="en">(${String.fromCharCode(65 + i)}) ${esc(o)}</div>`).join('')}</div>
+        ${RS.zh ? `<div class="zh">正解 (${String.fromCharCode(65 + q.opts.indexOf(q.a))}) ${esc(q.a)}　${esc(q.ex || '')}</div>` : ''}</div>`; }).join('')}
+  </div>`;
+}
+function buildTest() {
+  const u = curUnit();
+  const qs = (u.test || []).map(t => ({ kind: 'test', no: t.no, passage: t.p ? (u.passages || {})[t.p] : '', prompt: t.s, sub: `${t.part}・第 ${t.no} 題`, ex: t.ex,
+    opts: t.opts.map(o => ({ t: o, ok: o === t.a, en: 1 })) }));   // 選項照課本 A–D 順序，不打亂
+  QZ = { mode: 'test', qs, i: 0, score: 0, wrong: [], answered: false };
+}
 
 /* ===================== 閱讀 ===================== */
 function posText(w) { return (w.pos || []).map(x => x.p + ' ' + x.m).join('　'); }
 const RS = { zh: true };
 function viewRead() {
   const u0 = curUnit();
+  if (u0.test) return testView(u0, 'read');
   if (u0.transcript) return `<div class="view fade">${uswitch()}${txView(u0, 'read')}
     <div class="two"><button class="btn ghost" data-goq="checkup">影片隨堂測驗</button><button class="btn" data-goq="today">做這集的測驗</button></div></div>`;
   const u = curUnit(), sents = (u.words || []).filter(w => w.ex && w.ex.length);
@@ -1314,7 +1354,10 @@ function viewQuiz() {
   if (!QZ) {
     const due = dueList().length, u = curUnit();
     return `<div class="view fade">${uswitch()}
-      <h2 class="sect">今日測驗</h2>
+      ${u.test ? `<h2 class="sect">實戰測驗</h2>
+      <button class="mode-card" data-goq="test"><div class="mi" style="background:var(--accent-soft)">📝</div>
+        <div class="t"><b>${esc(u.label)}</b><span>課本實戰題，照原題號與選項順序作答，答完看解析</span></div>
+        <div class="n">${u.test.length}</div></button>` : `<h2 class="sect">今日測驗</h2>
       <button class="mode-card" data-goq="today"><div class="mi" style="background:var(--accent-soft)">📝</div>
         <div class="t"><b>今日學習內容</b><span>${esc(u.label)}・${esc(u.theme || '')}　單字＋克漏字${(u.comp && u.comp.length) ? '＋理解題' : ''}</span></div>
         <div class="n">${(u.words || []).length}</div></button>
@@ -1324,7 +1367,7 @@ function viewQuiz() {
         <div class="n">${Math.min(5, (u.words || []).length) + u.cloze.length + (u.comp || []).length}</div></button>`
         : `<button class="mode-card" data-goq="checkup"><div class="mi" style="background:#eef3ff">📖</div>
         <div class="t"><b>課本隨堂測驗</b><span>${esc(u.label)} Daily Checkup　連連看＋課本填空原題</span></div>
-        <div class="n">${5 + u.cloze.length}</div></button>`) : ''}
+        <div class="n">${5 + u.cloze.length}</div></button>`) : ''}`}
       <h2 class="sect">複習測驗（記憶曲線）</h2>
       <button class="mode-card" data-goq="review" ${due ? '' : 'disabled style="opacity:.55"'}>
         <div class="mi" style="background:#fff4e2">🔁</div>
@@ -1340,13 +1383,14 @@ function viewQuiz() {
   else if (q.kind === 'zh') stem = `<div style="text-align:center;font-size:18px;font-weight:700">${esc(q.prompt)}</div>`;
   else if (q.kind === 'listen') stem = `<div style="text-align:center;padding:8px 0"><button class="sbtn play" data-say="${esc(q.say)}">${spk} 再聽一次</button></div>`;
   else if (q.kind === 'cloze') stem = `<div class="q-cloze">${esc(q.prompt).replace(/_{2,}/g, '<u>__</u>')}</div>`;
+  else if (q.kind === 'test') stem = `${q.passage ? `<div class="tpass">${testBlanks(q.passage, q.no)}</div>` : ''}<div class="q-cloze en">${testBlanks(q.prompt, q.no).replace(/_{2,}/g, '<u>__</u>')}</div>`;
   else stem = `<div style="font-size:16px;line-height:1.7;font-weight:700">${esc(q.prompt)}</div>`;
   return `<div class="view fade">
     <div class="fc-top"><button class="btn ghost sm" data-goq="exit">✕</button>
       <div class="bar" style="flex:1"><i style="width:${Math.round(QZ.i / QZ.qs.length * 100)}%"></i></div>
       <div class="fc-count">${QZ.i + 1}/${QZ.qs.length}</div></div>
     <div class="card pad">
-      <div class="row tiny muted"><span>${QZ.mode === 'review' ? '🔁 複習' : QZ.mode === 'checkup' ? '📖 隨堂' : '📝 今日'}</span><span>${esc(q.sub)}</span><span style="margin-left:auto">得分 ${QZ.score}</span></div>
+      <div class="row tiny muted"><span>${QZ.mode === 'review' ? '🔁 複習' : QZ.mode === 'checkup' ? '📖 隨堂' : QZ.mode === 'test' ? '📝 實戰' : '📝 今日'}</span><span>${esc(q.sub)}</span><span style="margin-left:auto">得分 ${QZ.score}</span></div>
       <div style="margin-top:10px">${stem}</div>
       <div class="opts" id="opts">${q.opts.map((o, i) => `<button class="opt" data-opt="${i}"><span class="k">${String.fromCharCode(65 + i)}</span><span class="${o.en ? 'en' : ''}" style="${o.en ? 'font-weight:700' : ''}">${esc(o.t)}</span></button>`).join('')}</div>
     </div><div id="qfoot"></div></div>`;
@@ -1365,21 +1409,28 @@ function answer(idx) {
   }
   if (ok) QZ.score++; else { QZ.wrong.push(q); if (q.say) say(q.say); }
   bumpDay('q', 1); touch();
-  const f = el('qfoot'); if (f) f.innerHTML = `<button class="btn" id="qnext">${QZ.i + 1 >= QZ.qs.length ? '看結果' : '下一題'}</button>`;
+  const f = el('qfoot'); if (f) f.innerHTML = `${q.ex ? `<div class="card pad tiny test-ex">💡 ${esc(q.ex)}</div>` : ''}<button class="btn" id="qnext">${QZ.i + 1 >= QZ.qs.length ? '看結果' : '下一題'}</button>`;
   const n = el('qnext'); if (n) n.onclick = () => { QZ.i++; QZ.answered = false; render(); };
 }
 function quizResult() {
   logQuizTask();
+  if (QZ.mode === 'test' && !QZ.saved) {                      // 實戰測驗記錄上次／最佳分數
+    QZ.saved = true; if (!S.tests || typeof S.tests !== 'object') S.tests = {};
+    const k = ukeyOf(curCourse(), curUnit()), o = S.tests[k] || { best: 0 };
+    S.tests[k] = { last: QZ.score, best: Math.max(o.best || 0, QZ.score), at: Date.now() }; touch();
+  }
   const nx = todayTasks().find(x => x.s === 'todo');
   const t = QZ.qs.length, s = QZ.score, p = t ? Math.round(s / t * 100) : 0;
   return `<div class="view fade"><div class="card pad" style="text-align:center">
-    <div class="tiny muted">${QZ.mode === 'review' ? '複習測驗結果' : QZ.mode === 'checkup' ? (curCourse().kind === 'video' ? '影片隨堂測驗結果' : '課本隨堂測驗結果') : '今日測驗結果'}</div>
+    <div class="tiny muted">${QZ.mode === 'review' ? '複習測驗結果' : QZ.mode === 'checkup' ? (curCourse().kind === 'video' ? '影片隨堂測驗結果' : '課本隨堂測驗結果') : QZ.mode === 'test' ? '實戰測驗結果' : '今日測驗結果'}</div>
     <div class="score-big" style="color:${p >= 70 ? 'var(--good)' : 'var(--amber)'};margin:8px 0 4px">${s}<span style="font-size:20px;color:var(--ink-3)"> / ${t}</span></div>
     <div class="tiny muted" style="margin-bottom:14px">${p >= 90 ? '掌握得很好！' : p >= 70 ? '不錯，錯的再看一次就更穩。' : '多回單字頁刷幾輪。'}</div>
     <div class="two"><button class="btn ghost" data-goq="${QZ.mode}">再測一次</button><button class="btn ghost" data-goto="home">回首頁</button></div>
     ${nx ? `<button class="btn" data-task="${nx.id}" style="margin-top:10px">下一項今日任務 ▶　${nx.ic} ${esc(nx.t)}</button>` : '<div class="task-all" style="margin-top:10px">🎉 今天的任務都處理完了</div>'}
   </div>
-  ${QZ.wrong.length ? `<h2 class="sect">答錯的（${QZ.wrong.length}）</h2>${QZ.wrong.map(q => `<div class="sent"><div class="en">${esc(q.prompt || q.say || '')}</div><div class="zh">正解：${esc((q.opts.find(o => o.ok) || {}).t || '')}</div>${sbar(q.prompt || q.say || '', '跟讀')}</div>`).join('')}` : ''}
+  ${QZ.wrong.length ? `<h2 class="sect">答錯的（${QZ.wrong.length}）</h2>${QZ.wrong.map(q => q.kind === 'test'
+    ? `<div class="sent"><div class="idx">${esc(q.sub)}</div><div class="en">${testBlanks(q.prompt, q.no)}</div><div class="zh">正解：${esc((q.opts.find(o => o.ok) || {}).t || '')}　${esc(q.ex || '')}</div></div>`
+    : `<div class="sent"><div class="en">${esc(q.prompt || q.say || '')}</div><div class="zh">正解：${esc((q.opts.find(o => o.ok) || {}).t || '')}</div>${sbar(q.prompt || q.say || '', '跟讀')}</div>`).join('')}` : ''}
   </div>`;
 }
 
@@ -1434,10 +1485,12 @@ function bindAll() {
     S.courseId = p[0]; S.unitId = p[1]; touch(); buildDeck(); QZ = null; LS.revealed = {}; go(p[2]);
   });
   document.querySelectorAll('[data-goto]').forEach(b => b.onclick = () => go(b.dataset.goto));
+  const tb = document.querySelector('.tpass .tblank.on');   // 實戰測驗：短文捲到這題的空格
+  if (tb) tb.parentElement.scrollTop = Math.max(0, tb.offsetTop - 60);
   document.querySelectorAll('[data-goq]').forEach(b => b.onclick = () => {
     const m = b.dataset.goq; shadowRelease();
     if (m === 'exit') { QZ = null; render(); return; }
-    if (m === 'today') buildToday(); else if (m === 'checkup') buildCheckup(); else buildReview();
+    if (m === 'today') buildToday(); else if (m === 'checkup') buildCheckup(); else if (m === 'test') buildTest(); else buildReview();
     TAB = 'quiz'; render(); el('main').scrollTop = 0;
   });
   if (TAB === 'vocab') {

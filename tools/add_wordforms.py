@@ -77,6 +77,12 @@ IRREG = {  # 會用到的不規則動詞：原形 → (過去式, 過去分詞)
     'has': ('had', 'had'), 'have': ('had', 'had'), 'strive': ('strove/strived', 'striven/strived'), 'strew': ('strewed', 'strewn/strewed'),
     'upsell': ('upsold', 'upsold'), 'overcome': ('overcame', 'overcome'), 'pay': ('paid', 'paid'), 'think': ('thought', 'thought'),
     'undertake': ('undertook', 'undertaken'), 'sit': ('sat', 'sat'), 'lose': ('lost', 'lost'),
+    'do': ('did', 'done'), 'redo': ('redid', 'redone'), 'bring': ('brought', 'brought'), 'proofread': ('proofread', 'proofread'),
+    'read': ('read', 'read'), 'begin': ('began', 'begun'), 'slide': ('slid', 'slid'), 'win': ('won', 'won'),
+    'show': ('showed', 'shown'), 'lend': ('lent', 'lent'), 'buy': ('bought', 'bought'), 'find': ('found', 'found'),
+    'run': ('ran', 'run'), 'drive': ('drove', 'driven'), 'wind': ('wound', 'wound'), 'fall': ('fell', 'fallen'),
+    'cast': ('cast', 'cast'), 'speed': ('sped', 'sped'), 'rise': ('rose', 'risen'), 'lead': ('led', 'led'),
+    'fit': ('fitted/fit', 'fitted/fit'), 'keep': ('kept', 'kept'), 'stand': ('stood', 'stood'),
 }
 
 
@@ -95,14 +101,16 @@ def regular(base):
     return third, past, ing
 
 
-DOUBLE = {'log', 'set', 'get', 'let', 'put', 'shut', 'wrap', 'propel', 'sit', 'stop', 'ban', 'submit', 'admit', 'excel', 'lag', 'scrub', 'control', 'drop', 'plan', 'regret', 'refer', 'occur', 'prefer', 'permit', 'spike'}
+DOUBLE = {'log', 'set', 'get', 'let', 'put', 'shut', 'wrap', 'propel', 'sit', 'stop', 'ban', 'submit', 'admit', 'excel', 'lag', 'scrub', 'control', 'drop', 'plan', 'regret', 'refer', 'occur', 'prefer', 'permit', 'spike', 'drag', 'grip', 'jog', 'win', 'begin', 'commit', 'run', 'unplug', 'shop', 'fit'}
 
 
 def check_verb(word, f):
     """檢查動詞四種形式的第一個字（片語只看動詞本身）。回傳問題清單。"""
-    head = lambda s: s.split()[0]
+    w0 = word.split()[0]                                   # eagerly await：副詞不變，看第二個字
+    k = 1 if len(word.split()) > 1 and all(v.split()[0] == w0 for _, v in f) else 0
+    head = lambda s: s.split()[k]
     got = [head(v) for _, v in f]
-    base = word.split()[0]
+    base = word.split()[k]
     if base in ('be',):
         base = 'is'
     probs = []
@@ -114,8 +122,8 @@ def check_verb(word, f):
         third, ing = 'is', 'being'
     if base in ('has', 'have'):
         third, ing = 'has', 'having'
-    if base == 'go':
-        third = 'goes'
+    if base.endswith(('go', 'do')):
+        third = base + 'es'
     exp = [third, exp_past, exp_pp, ing]
     for (lab, _), g, e in zip(f, got, exp):
         if g != e and not (base == 'get' and lab == '過去分詞' and g in ('got', 'got/gotten', 'gotten')):

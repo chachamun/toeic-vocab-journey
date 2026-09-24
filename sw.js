@@ -2,7 +2,7 @@
    開 App 要快：App 殼層（HTML／JS／課程檔）先用手機裡存好的版本「立刻」顯示，同時在背景抓新版存起來。
    改版時把 VER 加一 → 瀏覽器發現 sw.js 變了 → 新版安裝好後頁面自動重新整理一次（app.js 監聽 controllerchange）。
    音檔第一次播過之後才快取；逐字稿等其他檔案網路優先、離線用快取。 */
-const VER = 'tvj-v26';
+const VER = 'tvj-v27';
 const SHELL = ['./', './index.html', './data.js', './courses/daily-video.js', './courses/bbc-6min.js', './app.js', './manifest.webmanifest',
   './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
 const SHELL_PATHS = new Set(SHELL.map(p => new URL(p, self.location).pathname));
