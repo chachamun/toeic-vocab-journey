@@ -14,8 +14,12 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="icon" href="icons/icon-192.png">
+<!-- 英文標題／音標字型：背景載入，不擋畫面（原本 @import 連中文字型一起載，iPhone 光設定檔就 370 KB，開 App 會空白 2～3 秒）。
+     中文改用裝置內建字型（iPhone 蘋方、Windows 微軟正黑體）。 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'">
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+TC:wght@400;500;700&display=swap');
   :root{
     --bg:#f1f6f4; --surface:#fff; --surface-2:#e9f2ee;
     --ink:#16211d; --ink-2:#586a63; --ink-3:#8a9b93;
@@ -28,7 +32,7 @@
     --r:16px; --r-lg:22px;
     --disp:'Bricolage Grotesque',system-ui,sans-serif;
     --en:system-ui,-apple-system,'Segoe UI',sans-serif;
-    --zh:'Noto Sans TC',system-ui,sans-serif;
+    --zh:'PingFang TC','Heiti TC','Microsoft JhengHei','Noto Sans TC',system-ui,sans-serif;
     --mono:'IBM Plex Mono',ui-monospace,monospace;
   }
   :root:not([data-theme="light"]){ @media (prefers-color-scheme:dark){

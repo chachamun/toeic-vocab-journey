@@ -1686,5 +1686,14 @@ document.addEventListener('visibilitychange', () => { if (document.hidden) { sto
   if (SYNC.url && SYNC.key) syncPull(false);
 })();
 if ('serviceWorker' in navigator) {
+  /* 開 App 時先顯示手機裡的舊版；背景裝好新版（改版後）就自動重新整理一次換成新版。
+     第一次安裝（原本沒有 controller）不用重整。 */
+  const hadCtrl = !!navigator.serviceWorker.controller;
+  let reloading = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (!hadCtrl || reloading) return;
+    if (SH.rec && SH.rec.state === 'recording') return;       // 錄音中不打斷，下次開 App 就是新版
+    reloading = true; location.reload();
+  });
   window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
 }
