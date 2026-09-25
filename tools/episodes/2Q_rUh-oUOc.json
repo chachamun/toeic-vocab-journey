@@ -1,0 +1,774 @@
+{
+ "id": "yt-2Q_rUh-oUOc",
+ "course": "daily-video",
+ "publisher": "Jenn Im",
+ "video": "https://youtu.be/2Q_rUh-oUOc",
+ "bbc": "",
+ "label": "影片 3",
+ "theme": "成為父母前，我希望早點知道的事",
+ "themeEn": "What I Wish I Knew Before I Became A Parent",
+ "release": "2026-09-26",
+ "words": [
+  {
+   "n": 1,
+   "w": "inevitably",
+   "s": 2,
+   "ph": "[ɪnˋɛvətəblɪ]",
+   "pos": [
+    {
+     "p": "adv.",
+     "m": "必然地，不可避免地"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Most mothers will inevitably experience this moment: two little lines on a test, a definitive marker in your life.",
+     "zh": "大多數媽媽都一定會經歷這一刻：驗孕棒上的兩條線，人生中一個決定性的標記。",
+     "t": 9.6
+    }
+   ],
+   "fam": [
+    "inevitable adj. 不可避免的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "inevitably lead to 必然導致～；inevitable delays 無法避免的延誤。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adv.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "appropriate",
+   "s": 3,
+   "ph": "[əˋproprɪɪt]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "適當的，合適的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Despite all conditions pointing to an appropriate time, it still didn't feel like the right time.",
+     "zh": "儘管所有條件都顯示這是個適當的時機，感覺上還是不對。",
+     "t": 46.3
+    }
+   ],
+   "fam": [
+    "appropriately adv. 適當地",
+    "inappropriate adj. 不適當的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "appropriate for／to 適合～；take appropriate action 採取適當措施。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more appropriate"
+      ],
+      [
+       "最高級",
+       "most appropriate"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "unprecedented",
+   "s": 2,
+   "ph": "[ʌnˋprɛsə͵dɛntɪd]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "前所未有的，空前的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "But when it's an unprecedented change that's completely out of our control, now that is when we resist the most.",
+     "zh": "但當那是前所未有、完全不在我們掌控中的改變時，就是我們最抗拒的時候。",
+     "t": 89.2
+    }
+   ],
+   "fam": [
+    "precedent n. 先例"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "unprecedented growth／demand 前所未有的成長／需求（財經新聞常見）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "tangible",
+   "s": 2,
+   "ph": "[ˋtændʒəbḷ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "具體的，實際的；有形的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "You see, it's hard to see tangible change once you reach your 30s.",
+     "zh": "你知道，到了三十幾歲，就很難看到具體的改變。",
+     "t": 106.6
+    }
+   ],
+   "fam": [
+    "intangible adj. 無形的（反義）"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "tangible results／benefits 具體的成果／好處；tangible assets 有形資產。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more tangible"
+      ],
+      [
+       "最高級",
+       "most tangible"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "monumental",
+   "s": 1,
+   "ph": "[͵mɑnjəˋmɛntḷ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "巨大的，極重要的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Some people pick it up really quickly, while others take some time to accept this monumental change in their life.",
+     "zh": "有些人很快就上手，有些人則需要一些時間來接受人生中這個巨大的改變。",
+     "t": 158.1
+    }
+   ],
+   "fam": [
+    "monument n. 紀念碑"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a monumental task／change 艱鉅的任務／重大的改變。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more monumental"
+      ],
+      [
+       "最高級",
+       "most monumental"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "consistent",
+   "s": 3,
+   "ph": "[kənˋsɪstənt]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "一致的，持續穩定的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "But honestly, there wasn't much on the line if I didn't want to stay consistent.",
+     "zh": "但老實說，如果我沒有持之以恆，也沒什麼損失。",
+     "t": 238.5
+    }
+   ],
+   "fam": [
+    "consistently adv. 一貫地（Day 07）",
+    "consistency n. 一致性"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "stay consistent 保持穩定；be consistent with 和～一致（多益常考介系詞 with）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more consistent"
+      ],
+      [
+       "最高級",
+       "most consistent"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "repercussion",
+   "s": 1,
+   "ph": "[͵ripɚˋkʌʃən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "（不良的）後果，影響（常用複數）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "In the past, there were no real repercussions if I decided to go on a week-long bender across the country.",
+     "zh": "以前，就算我決定跑遍全國狂歡一整個星期，也不會有什麼真正的後果。",
+     "t": 242.3
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "repercussions of a decision 某個決定帶來的後果；serious repercussions 嚴重後果。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "repercussions"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "invaluable",
+   "s": 2,
+   "ph": "[ɪnˋvæljəbḷ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "非常寶貴的，無價的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "I've been going to therapy since 2017, and the sessions that I had during my pregnancy and all through my postpartum phase were invaluable.",
+     "zh": "我從 2017 年開始做心理諮商，懷孕期間和整個產後階段的諮商都非常寶貴。",
+     "t": 298.9
+    }
+   ],
+   "fam": [
+    "value n. 價值",
+    "valuable adj. 有價值的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "注意 invaluable 不是「沒價值」，而是「寶貴到無法估價」；invaluable experience／advice（Day 04 滿分單字也有）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "w": "seamless",
+   "s": 1,
+   "ph": "[ˋsimlɪs]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "順暢的，無縫接軌的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And starting therapy is seamless with BetterHelp.",
+     "zh": "而且用 BetterHelp 開始諮商非常順暢。",
+     "t": 336.1
+    }
+   ],
+   "fam": [
+    "seamlessly adv. 順暢地"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a seamless transition 無縫接軌的轉換（系統更新、人事交接的公告常見）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more seamless"
+      ],
+      [
+       "最高級",
+       "most seamless"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "w": "burnout",
+   "s": 1,
+   "ph": "[ˋbɝn͵aʊt]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "過勞，身心俱疲"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Now, I know a lot of people see self-sufficiency as a badge of honor, but I think it's nothing but a freeway to burnout.",
+     "zh": "我知道很多人把凡事自己來當成一種榮譽勳章，但我覺得那只是一條通往過勞的快速道路。",
+     "t": 475.1
+    }
+   ],
+   "fam": [
+    "burn out phr. 精疲力盡"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "prevent employee burnout 預防員工過勞（人資、職場文章常見）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "w": "realistic",
+   "s": 2,
+   "ph": "[͵rɪəˋlɪstɪk]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "實際的，務實的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "But to expect that he's going to get everything just out of one or two people just isn't realistic.",
+     "zh": "但期待他只從一兩個人身上得到一切，並不實際。",
+     "t": 493.1
+    }
+   ],
+   "fam": [
+    "realistically adv. 實際上（Day 05）"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "realistic goal／expectation 實際的目標／期望；It is not realistic to expect ~ 期待～是不切實際的。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more realistic"
+      ],
+      [
+       "最高級",
+       "most realistic"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "w": "take a backseat",
+   "s": 1,
+   "ph": "[tek ə ˋbækˋsit]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "退居次要，不再是優先"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Don't be surprised if your professional life takes a backseat.",
+     "zh": "如果你的職涯退居次要，不要太驚訝。",
+     "t": 624.8
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "take a backseat to ～ 讓位給～，比～次要。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "takes a backseat"
+      ],
+      [
+       "過去式",
+       "took a backseat"
+      ],
+      [
+       "過去分詞",
+       "taken a backseat"
+      ],
+      [
+       "現在分詞",
+       "taking a backseat"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "w": "productive",
+   "s": 3,
+   "ph": "[prəˋdʌktɪv]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "有生產力的，有成效的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Even now, I have to remind myself that it's okay if I'm not as productive as I once was.",
+     "zh": "就算是現在，我也得提醒自己，沒有以前那麼有生產力也沒關係。",
+     "t": 642.4
+    }
+   ],
+   "fam": [
+    "productivity n. 生產力",
+    "produce v. 生產"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "as productive as 和～一樣有生產力；a productive meeting 有成效的會議。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more productive"
+      ],
+      [
+       "最高級",
+       "most productive"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "w": "adjust",
+   "s": 3,
+   "ph": "[əˋdʒʌst]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "適應，調整"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And it took me a minute to adjust to this new schedule, because I was just exhausted all the time.",
+     "zh": "我花了一段時間才適應這個新作息，因為我總是累壞了。",
+     "t": 663.6
+    }
+   ],
+   "fam": [
+    "adjustment n. 調整"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "adjust to 適應～（Day 04 學過，to 後面接名詞或動名詞）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "adjusts"
+      ],
+      [
+       "過去式",
+       "adjusted"
+      ],
+      [
+       "過去分詞",
+       "adjusted"
+      ],
+      [
+       "現在分詞",
+       "adjusting"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "w": "result in",
+   "s": 3,
+   "ph": "[rɪˋzʌlt ɪn]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "導致，造成（某種結果）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So choosing motherhood is probably going to result in a shifting of priorities or delaying certain career goals.",
+     "zh": "所以選擇當媽媽，很可能會讓優先順序改變，或是延後某些職涯目標。",
+     "t": 687.4
+    }
+   ],
+   "fam": [
+    "result n. 結果"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "A result in B＝A 造成 B；A result from B＝A 起因於 B，多益常考兩者的差別。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "results in"
+      ],
+      [
+       "過去式",
+       "resulted in"
+      ],
+      [
+       "過去分詞",
+       "resulted in"
+      ],
+      [
+       "現在分詞",
+       "resulting in"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "Despite all conditions pointing to an ___ time, it still didn't feel like the right time.",
+   "a": "appropriate",
+   "opts": [
+    "appropriate",
+    "unprecedented",
+    "tangible",
+    "consistent"
+   ]
+  },
+  {
+   "s": "But when it's an ___ change that's completely out of our control, now that is when we resist the most.",
+   "a": "unprecedented",
+   "opts": [
+    "appropriate",
+    "unprecedented",
+    "tangible",
+    "consistent"
+   ]
+  },
+  {
+   "s": "You see, it's hard to see ___ change once you reach your 30s.",
+   "a": "tangible",
+   "opts": [
+    "appropriate",
+    "unprecedented",
+    "tangible",
+    "consistent"
+   ]
+  },
+  {
+   "s": "But honestly, there wasn't much on the line if I didn't want to stay ___.",
+   "a": "consistent",
+   "opts": [
+    "appropriate",
+    "unprecedented",
+    "tangible",
+    "consistent"
+   ]
+  },
+  {
+   "s": "I've been going to therapy since 2017, and the sessions that I had during my pregnancy and all through my postpartum phase were ___.",
+   "a": "invaluable",
+   "opts": [
+    "invaluable",
+    "seamless",
+    "realistic",
+    "productive"
+   ]
+  },
+  {
+   "s": "And starting therapy is ___ with BetterHelp.",
+   "a": "seamless",
+   "opts": [
+    "invaluable",
+    "seamless",
+    "realistic",
+    "productive"
+   ]
+  },
+  {
+   "s": "But to expect that he's going to get everything just out of one or two people just isn't ___.",
+   "a": "realistic",
+   "opts": [
+    "invaluable",
+    "seamless",
+    "realistic",
+    "productive"
+   ]
+  },
+  {
+   "s": "Even now, I have to remind myself that it's okay if I'm not as ___ as I once was.",
+   "a": "productive",
+   "opts": [
+    "invaluable",
+    "seamless",
+    "realistic",
+    "productive"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "她看到驗孕結果時的反應是？",
+   "a": "很焦慮，覺得時機不對",
+   "opts": [
+    "很焦慮，覺得時機不對",
+    "非常興奮，馬上告訴大家",
+    "完全沒有感覺",
+    "覺得一切都在計畫之中"
+   ]
+  },
+  {
+   "q": "她說當媽媽後最大的改變是什麼？",
+   "a": "只做自己真正想做的事，沒有立刻想做就拒絕",
+   "opts": [
+    "只做自己真正想做的事，沒有立刻想做就拒絕",
+    "每天都睡得比以前多",
+    "更常一個人出去旅行",
+    "工作產出比以前更多"
+   ]
+  },
+  {
+   "q": "她們挑選保母時問自己什麼問題？",
+   "a": "我會希望這個人當我的家長嗎？",
+   "opts": [
+    "我會希望這個人當我的家長嗎？",
+    "這個人的薪水要求高不高？",
+    "這個人有沒有帶過很多小孩？",
+    "這個人住得近不近？"
+   ]
+  },
+  {
+   "q": "她為什麼不讓兒子看 YouTube Kids？",
+   "a": "充斥搶注意力的 AI 影片和廣告，兒子看了會恍神",
+   "opts": [
+    "充斥搶注意力的 AI 影片和廣告，兒子看了會恍神",
+    "要付很貴的訂閱費",
+    "兒子不喜歡看卡通",
+    "上面都是教育節目太無聊"
+   ]
+  },
+  {
+   "q": "她想對剛當媽媽時的自己說什麼？",
+   "a": "工作退居次要是暫時的，不必要求和以前一樣專注、有產出",
+   "opts": [
+    "工作退居次要是暫時的，不必要求和以前一樣專注、有產出",
+    "應該立刻回去全職工作",
+    "要更努力維持影片觀看數",
+    "不要找任何人幫忙"
+   ]
+  }
+ ]
+}

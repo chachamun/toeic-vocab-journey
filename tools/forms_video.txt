@@ -155,7 +155,35 @@ assume	v: assumes, assumed, assumed, assuming	—
 content	adj: 無比較級 ; n: contents	—
 temporary	adj: 無比較級	permanent adj. 永久的（反義）
 perspective	n: perspectives	—
-confront	v: confronts, confronted, confronted, confronting	—
 commit	v: commits, committed, committed, committing	—
 on the fence	—	—
 undertaking	n: undertakings	—
+inevitably	adv: 無比較級	—
+appropriate	adj: more appropriate, most appropriate	—
+unprecedented	adj: 無比較級	—
+tangible	adj: more tangible, most tangible	—
+monumental	adj: more monumental, most monumental	—
+consistent	adj: more consistent, most consistent	—
+repercussion	n: repercussions	—
+invaluable	adj: 無比較級	—
+seamless	adj: more seamless, most seamless	—
+burnout	n: 不可數	—
+take a backseat	v: takes a backseat, took a backseat, taken a backseat, taking a backseat	—
+productive	adj: more productive, most productive	—
+adjust	v: adjusts, adjusted, adjusted, adjusting	—
+result in	v: results in, resulted in, resulted in, resulting in	—
+aversion	n: aversions	—
+referral	n: referrals	—
+category	n: categories	—
+irritable	adj: more irritable, most irritable	—
+participate	v: participates, participated, participated, participating	—
+curated	adj: 無比較級	—
+reasonable	adj: more reasonable, most reasonable	—
+unpredictable	adj: more unpredictable, most unpredictable	—
+cope	v: copes, coped, coped, coping	—
+transformative	adj: more transformative, most transformative	—
+rewarding	adj: more rewarding, most rewarding	—
+learning curve	n: learning curves	—
+cohesion	n: 不可數	—
+template	n: templates	—
+sustainable	adj: more sustainable, most sustainable	—
