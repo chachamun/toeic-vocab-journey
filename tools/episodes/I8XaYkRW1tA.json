@@ -1,0 +1,838 @@
+{
+ "id": "yt-I8XaYkRW1tA",
+ "course": "daily-video",
+ "publisher": "TED-Ed（Oliver Baumann）",
+ "video": "https://youtu.be/I8XaYkRW1tA",
+ "bbc": "",
+ "label": "影片 12",
+ "theme": "為什麼有些人方向感比較好？",
+ "themeEn": "Why do some people have a better sense of direction than others?",
+ "release": "2026-10-05",
+ "words": [
+  {
+   "n": 1,
+   "w": "compete",
+   "s": 3,
+   "ph": "[kəmˋpit]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "競爭，參賽"
+    }
+   ],
+   "ex": [
+    {
+     "en": "In July of 2025, top athletes competed in a kilometers-long race— but it had no set path.",
+     "zh": "2025 年 7 月，頂尖運動員參加了一場好幾公里長的賽跑，但這場比賽沒有固定的路線。",
+     "t": 6.9
+    }
+   ],
+   "fam": [
+    "competition n. 競爭（Day 07）",
+    "competitive adj. 有競爭力的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "compete in a race／with rivals 參加比賽／和對手競爭。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "competes"
+      ],
+      [
+       "過去式",
+       "competed"
+      ],
+      [
+       "過去分詞",
+       "competed"
+      ],
+      [
+       "現在分詞",
+       "competing"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "equipped",
+   "s": 2,
+   "ph": "[ɪˋkwɪpt]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "配備～的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "That's because it was the World Orienteering Championships, and participants equipped with only maps and compasses were expected to find their way between far-off checkpoints at high speeds,",
+     "zh": "因為那是世界定向越野錦標賽，參賽者只帶著地圖和指南針，必須高速在遙遠的檢查點之間找到路，",
+     "t": 15.0
+    }
+   ],
+   "fam": [
+    "equip v. 裝備",
+    "equipment n. 設備"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "be equipped with 配備～：rooms equipped with Wi-Fi 附 Wi-Fi 的房間（飯店介紹必考）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "daunting",
+   "s": 1,
+   "ph": "[ˋdɔntɪŋ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "令人卻步的，嚇人的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "This might sound a little daunting.",
+     "zh": "這聽起來可能有點嚇人。",
+     "t": 33.0
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a daunting task 艱鉅的任務。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more daunting"
+      ],
+      [
+       "最高級",
+       "most daunting"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "facilitate",
+   "s": 2,
+   "ph": "[fəˋsɪlə͵tet]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "促進，使容易"
+    }
+   ],
+   "ex": [
+    {
+     "en": "your brain has a built-in navigation system that facilitates spatial skills, from sensing which direction is north to map reading and route learning.",
+     "zh": "你的大腦都內建一套導航系統，幫助你發揮空間能力，從判斷哪邊是北方，到看地圖、記路線。",
+     "t": 40.5
+    }
+   ],
+   "fam": [
+    "facility n. 設施",
+    "facilitator n. 主持人"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "facilitate communication 促進溝通（Day 09 impede 的反義字）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "facilitates"
+      ],
+      [
+       "過去式",
+       "facilitated"
+      ],
+      [
+       "過去分詞",
+       "facilitated"
+      ],
+      [
+       "現在分詞",
+       "facilitating"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "consist of",
+   "s": 3,
+   "ph": "[kənˋsɪst əv]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "由～組成"
+    }
+   ],
+   "ex": [
+    {
+     "en": "It consists of two major parts: the striatum and the hippocampus.",
+     "zh": "它由兩個主要部分組成：紋狀體和海馬迴。",
+     "t": 51.0
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "The committee consists of five members. 委員會由五人組成（不能用被動）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "consists of"
+      ],
+      [
+       "過去式",
+       "consisted of"
+      ],
+      [
+       "過去分詞",
+       "consisted of"
+      ],
+      [
+       "現在分詞",
+       "consisting of"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "associate",
+   "s": 2,
+   "ph": "[əˋsoʃɪ͵et]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "把～聯想在一起"
+    },
+    {
+     "p": "n.",
+     "m": "同事，合夥人（念 [əˋsoʃɪɪt]）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "With repetition, it comes to associate specific stimuli and actions with certain responses and outcomes, linking these cues with set routes.",
+     "zh": "經過反覆練習，它會把特定的刺激和動作，與特定的反應和結果連結起來，把這些線索和固定路線綁在一起。",
+     "t": 62.1
+    }
+   ],
+   "fam": [
+    "association n. 協會；關聯"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "associate A with B 把 A 和 B 聯想在一起；sales associate 店員（徵才常見）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "associates"
+      ],
+      [
+       "過去式",
+       "associated"
+      ],
+      [
+       "過去分詞",
+       "associated"
+      ],
+      [
+       "現在分詞",
+       "associating"
+      ]
+     ]
+    },
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "associates"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "sequence",
+   "s": 2,
+   "ph": "[ˋsikwəns]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "順序，一連串"
+    }
+   ],
+   "ex": [
+    {
+     "en": "This forms navigation habits; for example, when you automatically take the same sequence of turns on your way home.",
+     "zh": "這就形成了導航習慣，例如你回家時會自動按同樣的順序轉彎。",
+     "t": 72.3
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "in sequence 依序；a sequence of events 一連串事件。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "sequences"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "breakthrough",
+   "s": 2,
+   "ph": "[ˋbrek͵θru]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "突破"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Together, the breakthrough discoveries that put place and grid cells on the map earned the 2014 Nobel Prize.",
+     "zh": "這些讓位置細胞和網格細胞廣為人知的突破性發現，共同獲得了 2014 年的諾貝爾獎。",
+     "t": 150.7
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a major breakthrough in research 研究上的重大突破；put ~ on the map＝讓～出名。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "breakthroughs"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "w": "adapt",
+   "s": 3,
+   "ph": "[əˋdæpt]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "適應；改編"
+    }
+   ],
+   "ex": [
+    {
+     "en": "But while the striatum and hippocampus form a navigation system that allows our brains to adapt between strategies depending on the task, we still struggle to find our ways.",
+     "zh": "但即使紋狀體和海馬迴組成了一套讓大腦能依任務切換策略的導航系統，我們還是常常找不到路。",
+     "t": 159.9
+    }
+   ],
+   "fam": [
+    "adaptable adj. 適應力強的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "adapt to change 適應改變；注意 adapt（適應）和 adopt（採納，Day 08）只差一個字母。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "adapts"
+      ],
+      [
+       "過去式",
+       "adapted"
+      ],
+      [
+       "過去分詞",
+       "adapted"
+      ],
+      [
+       "現在分詞",
+       "adapting"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "w": "account for",
+   "s": 3,
+   "ph": "[əˋkaʊnt fɔr]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "占（比例）；解釋"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Twin studies suggest that genetics account for around 60% of the variation in our navigation abilities.",
+     "zh": "雙胞胎研究顯示，我們導航能力的差異大約有 60% 來自基因。",
+     "t": 196.7
+    }
+   ],
+   "fam": [
+    "account n. 帳戶；說明"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "Sales in Asia account for 40% of revenue. 亞洲銷售占營收 40%（圖表題必考）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "accounts for"
+      ],
+      [
+       "過去式",
+       "accounted for"
+      ],
+      [
+       "過去分詞",
+       "accounted for"
+      ],
+      [
+       "現在分詞",
+       "accounting for"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "w": "distinct",
+   "s": 2,
+   "ph": "[dɪˋstɪŋkt]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "不同的，獨特的；清楚的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "These abilities appear independent of general intelligence, suggesting that navigation is its own distinct cognitive skill.",
+     "zh": "這些能力似乎和一般智力無關，顯示導航是一種獨立的認知技能。",
+     "t": 204.7
+    }
+   ],
+   "fam": [
+    "distinction n. 區別（Day 07 滿分單字）",
+    "distinctly adv. 清楚地"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "distinct from 與～不同；independent of＝不受～影響。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more distinct"
+      ],
+      [
+       "最高級",
+       "most distinct"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "w": "significant",
+   "s": 3,
+   "ph": "[sɪɡˋnɪfəkənt]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "顯著的，重大的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Those who successfully complete the training have been observed to experience significant hippocampal growth.",
+     "zh": "成功完成訓練的人，被觀察到海馬迴有明顯的增長。",
+     "t": 267.1
+    }
+   ],
+   "fam": [
+    "significantly adv. 顯著地",
+    "significance n. 重要性"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a significant increase in sales 銷售大幅增加（財報必考）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more significant"
+      ],
+      [
+       "最高級",
+       "most significant"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "w": "reliably",
+   "s": 2,
+   "ph": "[rɪˋlaɪəblɪ]",
+   "pos": [
+    {
+     "p": "adv.",
+     "m": "可靠地"
+    }
+   ],
+   "ex": [
+    {
+     "en": "While GPS devices reliably get us around, they lead to worse spatial reconstructions than verbal directions and paper maps do.",
+     "zh": "雖然 GPS 裝置能可靠地帶我們到處走，但和口頭指路、紙本地圖相比，會讓我們在腦中重建空間的能力變差。",
+     "t": 279.1
+    }
+   ],
+   "fam": [
+    "reliable adj. 可靠的",
+    "rely on phr. 依靠（影片 11）"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a reliably fast service 一向快速可靠的服務。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adv.",
+     "f": [
+      [
+       "比較級",
+       "more reliably"
+      ],
+      [
+       "最高級",
+       "most reliably"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "w": "impair",
+   "s": 1,
+   "ph": "[ɪmˋpɛr]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "損害，削弱"
+    }
+   ],
+   "ex": [
+    {
+     "en": "By allowing our brains to engage less actively with environmental cues, GPS may degrade the hippocampal navigation system and impair our own internal sense of direction.",
+     "zh": "GPS 讓大腦較少主動運用環境線索，可能會削弱海馬迴的導航系統，損害我們自己內在的方向感。",
+     "t": 288.5
+    }
+   ],
+   "fam": [
+    "impairment n. 損傷"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "impair performance 影響表現；hearing-impaired 聽障的。本句 degrade＝降低品質。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "impairs"
+      ],
+      [
+       "過去式",
+       "impaired"
+      ],
+      [
+       "過去分詞",
+       "impaired"
+      ],
+      [
+       "現在分詞",
+       "impairing"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "w": "familiar",
+   "s": 3,
+   "ph": "[fəˋmɪljɚ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "熟悉的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So, to help improve it, you can try putting your GPS away on more familiar routes and paying attention to distant landmarks.",
+     "zh": "所以要改善方向感，你可以試著在比較熟悉的路線上把 GPS 收起來，多注意遠處的地標。",
+     "t": 301.7
+    }
+   ],
+   "fam": [
+    "familiarize v. 使熟悉"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "be familiar with 熟悉～（Day 07 滿分單字）；familiarize yourself with the manual 請熟讀手冊。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more familiar"
+      ],
+      [
+       "最高級",
+       "most familiar"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "This might sound a little ___.",
+   "a": "daunting",
+   "opts": [
+    "daunting",
+    "facilitates",
+    "sequence",
+    "breakthrough"
+   ]
+  },
+  {
+   "s": "your brain has a built-in navigation system that ___ spatial skills, from sensing which direction is north to map reading and route learning.",
+   "a": "facilitates",
+   "opts": [
+    "daunting",
+    "facilitates",
+    "sequence",
+    "breakthrough"
+   ]
+  },
+  {
+   "s": "This forms navigation habits; for example, when you automatically take the same ___ of turns on your way home.",
+   "a": "sequence",
+   "opts": [
+    "daunting",
+    "facilitates",
+    "sequence",
+    "breakthrough"
+   ]
+  },
+  {
+   "s": "Together, the ___ discoveries that put place and grid cells on the map earned the 2014 Nobel Prize.",
+   "a": "breakthrough",
+   "opts": [
+    "daunting",
+    "facilitates",
+    "sequence",
+    "breakthrough"
+   ]
+  },
+  {
+   "s": "These abilities appear independent of general intelligence, suggesting that navigation is its own ___ cognitive skill.",
+   "a": "distinct",
+   "opts": [
+    "distinct",
+    "significant",
+    "impair",
+    "familiar"
+   ]
+  },
+  {
+   "s": "Those who successfully complete the training have been observed to experience ___ hippocampal growth.",
+   "a": "significant",
+   "opts": [
+    "distinct",
+    "significant",
+    "impair",
+    "familiar"
+   ]
+  },
+  {
+   "s": "By allowing our brains to engage less actively with environmental cues, GPS may degrade the hippocampal navigation system and ___ our own internal sense of direction.",
+   "a": "impair",
+   "opts": [
+    "distinct",
+    "significant",
+    "impair",
+    "familiar"
+   ]
+  },
+  {
+   "s": "So, to help improve it, you can try putting your GPS away on more ___ routes and paying attention to distant landmarks.",
+   "a": "familiar",
+   "opts": [
+    "distinct",
+    "significant",
+    "impair",
+    "familiar"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "世界定向越野錦標賽的參賽者靠什麼找路？",
+   "a": "只有地圖和指南針",
+   "opts": [
+    "只有地圖和指南針",
+    "GPS 導航",
+    "沿路的指示牌",
+    "跟著其他選手"
+   ]
+  },
+  {
+   "q": "海馬迴在導航中負責什麼？",
+   "a": "建構心智地圖，讓你即使沒去過也能想出路線",
+   "opts": [
+    "建構心智地圖，讓你即使沒去過也能想出路線",
+    "只負責記住固定的回家路線",
+    "控制跑步的速度",
+    "辨認顏色"
+   ]
+  },
+  {
+   "q": "雙胞胎研究顯示，導航能力的差異大約有多少來自基因？",
+   "a": "約 60%",
+   "opts": [
+    "約 60%",
+    "約 10%",
+    "約 90%",
+    "完全無關"
+   ]
+  },
+  {
+   "q": "倫敦計程車司機完成訓練後，大腦出現什麼變化？",
+   "a": "海馬迴明顯增長",
+   "opts": [
+    "海馬迴明顯增長",
+    "紋狀體縮小",
+    "智力大幅提升",
+    "完全沒有變化"
+   ]
+  },
+  {
+   "q": "影片建議怎麼提升方向感？",
+   "a": "熟悉的路線少用 GPS，多注意地標，用紙本地圖步行探索",
+   "opts": [
+    "熟悉的路線少用 GPS，多注意地標，用紙本地圖步行探索",
+    "隨時開著逐步導航",
+    "只走固定的路線",
+    "搬到街道整齊的城市"
+   ]
+  }
+ ]
+}

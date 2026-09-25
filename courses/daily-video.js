@@ -9491,6 +9491,2830 @@ TVJ.register({
      ]
     }
    ]
+  },
+  {
+   "id": "yt-N2uQWfV6Jr4",
+   "label": "影片 11",
+   "theme": "改善專注力的 4 個方法",
+   "themeEn": "4 ways to fix your attention span",
+   "video": "https://youtu.be/N2uQWfV6Jr4",
+   "source": "",
+   "publisher": "TED-Ed（Shannon Odell）",
+   "release": "2026-10-04",
+   "transcript": "transcripts/N2uQWfV6Jr4.json",
+   "lines": 43,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "attention span",
+     "s": 2,
+     "ph": "[əˋtɛnʃən spæn]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "注意力持續時間"
+      }
+     ],
+     "ex": [
+      {
+       "en": "The researchers set out to measure the length of, well, our attention spans.",
+       "zh": "研究人員著手測量的是，嗯，我們注意力持續的時間。",
+       "t": 19.3,
+       "aus": {
+        "US": "tts/N2uQWfV6Jr4/w1_e0_US.mp3",
+        "UK": "tts/N2uQWfV6Jr4/w1_e0_UK.mp3",
+        "AU": "tts/N2uQWfV6Jr4/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "attentive adj. 專心的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a short attention span 注意力短暫；set out to do＝著手做～。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "attention spans"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/N2uQWfV6Jr4/w1_US.mp3",
+      "UK": "tts/N2uQWfV6Jr4/w1_UK.mp3",
+      "AU": "tts/N2uQWfV6Jr4/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "participant",
+     "s": 3,
+     "ph": "[pɑrˋtɪsəpənt]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "參加者，參與者"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Participants downloaded a program that tracked how long they stayed focused on a single computer application before switching to another.",
+       "zh": "參與者下載了一個程式，記錄他們在切換到另一個應用程式之前，能專注在單一電腦程式上多久。",
+       "t": 25.2,
+       "aus": {
+        "US": "tts/N2uQWfV6Jr4/w2_e0_US.mp3",
+        "UK": "tts/N2uQWfV6Jr4/w2_e0_UK.mp3",
+        "AU": "tts/N2uQWfV6Jr4/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "participate v. 參加（影片 8）",
+      "participation n. 參與"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "survey participants 調查參與者（研究、會議報名題常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "participants"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/N2uQWfV6Jr4/w2_US.mp3",
+      "UK": "tts/N2uQWfV6Jr4/w2_UK.mp3",
+      "AU": "tts/N2uQWfV6Jr4/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "on average",
+     "s": 3,
+     "ph": "[ɑn ˋævərɪdʒ]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "平均而言"
+      }
+     ],
+     "ex": [
+      {
+       "en": "On average, users stuck with a single task for 40 seconds, down from 75 seconds, measured just five years earlier.",
+       "zh": "平均而言，使用者專注於單一任務 40 秒，比短短五年前測得的 75 秒還少。",
+       "t": 33.7,
+       "aus": {
+        "US": "tts/N2uQWfV6Jr4/w3_e0_US.mp3",
+        "UK": "tts/N2uQWfV6Jr4/w3_e0_UK.mp3",
+        "AU": "tts/N2uQWfV6Jr4/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "average adj. 平均的；n. 平均"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "On average, sales increased by 5%. 平均銷售成長 5%（圖表題常見）；down from＝從～下降。"
+      }
+     ],
+     "forms": [],
+     "aus": {
+      "US": "tts/N2uQWfV6Jr4/w3_US.mp3",
+      "UK": "tts/N2uQWfV6Jr4/w3_UK.mp3",
+      "AU": "tts/N2uQWfV6Jr4/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "fundamentally",
+     "s": 2,
+     "ph": "[͵fʌndəˋmɛntḷɪ]",
+     "pos": [
+      {
+       "p": "adv.",
+       "m": "根本上，本質上"
+      }
+     ],
+     "ex": [
+      {
+       "en": "This doesn’t necessarily mean our attention spans are fundamentally getting shorter.",
+       "zh": "這不一定代表我們的注意力持續時間本質上正在變短。",
+       "t": 43.2,
+       "aus": {
+        "US": "tts/N2uQWfV6Jr4/w4_e0_US.mp3",
+        "UK": "tts/N2uQWfV6Jr4/w4_e0_UK.mp3",
+        "AU": "tts/N2uQWfV6Jr4/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "fundamental adj. 基本的（Day 08 滿分單字）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "not necessarily＝不一定（Day 08 necessarily）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adv.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/N2uQWfV6Jr4/w4_US.mp3",
+      "UK": "tts/N2uQWfV6Jr4/w4_UK.mp3",
+      "AU": "tts/N2uQWfV6Jr4/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "constantly",
+     "s": 3,
+     "ph": "[ˋkɑnstəntlɪ]",
+     "pos": [
+      {
+       "p": "adv.",
+       "m": "不斷地，經常地"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Our brains are constantly receiving a flood of information, from sensory input to environmental cues to internal thoughts.",
+       "zh": "我們的大腦不斷接收大量資訊，從感官刺激、環境線索到內在想法。",
+       "t": 69.1,
+       "aus": {
+        "US": "tts/N2uQWfV6Jr4/w5_e0_US.mp3",
+        "UK": "tts/N2uQWfV6Jr4/w5_e0_UK.mp3",
+        "AU": "tts/N2uQWfV6Jr4/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "constant adj. 持續的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "constantly changing market 不斷變化的市場；本句 cues＝線索、提示。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adv.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/N2uQWfV6Jr4/w5_US.mp3",
+      "UK": "tts/N2uQWfV6Jr4/w5_UK.mp3",
+      "AU": "tts/N2uQWfV6Jr4/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "rely on",
+     "s": 3,
+     "ph": "[rɪˋlaɪ ɑn]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "依靠，仰賴"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Filtering through it all relies on several brain regions.",
+       "zh": "過濾這一切要仰賴幾個大腦區域。",
+       "t": 77.1,
+       "aus": {
+        "US": "tts/N2uQWfV6Jr4/w6_e0_US.mp3",
+        "UK": "tts/N2uQWfV6Jr4/w6_e0_UK.mp3",
+        "AU": "tts/N2uQWfV6Jr4/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "reliable adj. 可靠的",
+      "reliance n. 依賴"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "rely on＝depend on＝count on（Day 04 滿分單字）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "relies on"
+        ],
+        [
+         "過去式",
+         "relied on"
+        ],
+        [
+         "過去分詞",
+         "relied on"
+        ],
+        [
+         "現在分詞",
+         "relying on"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/N2uQWfV6Jr4/w6_US.mp3",
+      "UK": "tts/N2uQWfV6Jr4/w6_UK.mp3",
+      "AU": "tts/N2uQWfV6Jr4/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "sustained",
+     "s": 2,
+     "ph": "[səˋstend]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "持續的，持久的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "The challenge of sustained attention is keeping that flashlight focused in one place.",
+       "zh": "持續專注的挑戰，在於讓那支手電筒一直照在同一個地方。",
+       "t": 93.0,
+       "aus": {
+        "US": "tts/N2uQWfV6Jr4/w7_e0_US.mp3",
+        "UK": "tts/N2uQWfV6Jr4/w7_e0_UK.mp3",
+        "AU": "tts/N2uQWfV6Jr4/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "sustain v. 維持",
+      "sustainable adj. 永續的（影片 4）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "sustained growth 持續成長（財報常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/N2uQWfV6Jr4/w7_US.mp3",
+      "UK": "tts/N2uQWfV6Jr4/w7_UK.mp3",
+      "AU": "tts/N2uQWfV6Jr4/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "monitor",
+     "s": 3,
+     "ph": "[ˋmɑnətɚ]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "監控，監測"
+      },
+      {
+       "p": "n.",
+       "m": "螢幕"
+      }
+     ],
+     "ex": [
+      {
+       "en": "The brain is continuously monitoring all these competing signals.",
+       "zh": "大腦持續監控著這些互相競爭的訊號。",
+       "t": 98.7,
+       "aus": {
+        "US": "tts/N2uQWfV6Jr4/w8_e0_US.mp3",
+        "UK": "tts/N2uQWfV6Jr4/w8_e0_UK.mp3",
+        "AU": "tts/N2uQWfV6Jr4/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "monitor progress／performance 追蹤進度／表現（Day 09 滿分單字 need monitoring）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "monitors"
+        ],
+        [
+         "過去式",
+         "monitored"
+        ],
+        [
+         "過去分詞",
+         "monitored"
+        ],
+        [
+         "現在分詞",
+         "monitoring"
+        ]
+       ]
+      },
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "monitors"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "monitoring n. 監控"
+     ],
+     "aus": {
+      "US": "tts/N2uQWfV6Jr4/w8_US.mp3",
+      "UK": "tts/N2uQWfV6Jr4/w8_UK.mp3",
+      "AU": "tts/N2uQWfV6Jr4/w8_AU.mp3"
+     }
+    },
+    {
+     "n": 9,
+     "w": "inevitable",
+     "s": 2,
+     "ph": "[ɪnˋɛvətəbḷ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "不可避免的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So, while frustrating, getting distracted is inevitable.",
+       "zh": "所以，雖然令人沮喪，但分心是無法避免的。",
+       "t": 121.7,
+       "aus": {
+        "US": "tts/N2uQWfV6Jr4/w9_e0_US.mp3",
+        "UK": "tts/N2uQWfV6Jr4/w9_e0_UK.mp3",
+        "AU": "tts/N2uQWfV6Jr4/w9_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "inevitably adv. 必然地（影片 3）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "Delays are inevitable. 延誤是無法避免的。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/N2uQWfV6Jr4/w9_US.mp3",
+      "UK": "tts/N2uQWfV6Jr4/w9_UK.mp3",
+      "AU": "tts/N2uQWfV6Jr4/w9_AU.mp3"
+     }
+    },
+    {
+     "n": 10,
+     "w": "factor",
+     "s": 3,
+     "ph": "[ˋfæktɚ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "因素"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And our baseline ability to manage distractions can vary based on factors like genetics and brain differences.",
+       "zh": "而我們應付分心的基本能力，會因基因和大腦差異等因素而不同。",
+       "t": 126.7,
+       "aus": {
+        "US": "tts/N2uQWfV6Jr4/w10_e0_US.mp3",
+        "UK": "tts/N2uQWfV6Jr4/w10_e0_UK.mp3",
+        "AU": "tts/N2uQWfV6Jr4/w10_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a key factor in ～的關鍵因素；vary based on＝依～而不同（影片 6 vary）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "factors"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/N2uQWfV6Jr4/w10_US.mp3",
+      "UK": "tts/N2uQWfV6Jr4/w10_UK.mp3",
+      "AU": "tts/N2uQWfV6Jr4/w10_AU.mp3"
+     }
+    },
+    {
+     "n": 11,
+     "w": "resource",
+     "s": 3,
+     "ph": "[rɪˋsors]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "資源"
+      }
+     ],
+     "ex": [
+      {
+       "en": "In fact, some researchers theorize that attention is a limited resource.",
+       "zh": "事實上，有些研究人員認為，注意力是一種有限的資源。",
+       "t": 163.7,
+       "aus": {
+        "US": "tts/N2uQWfV6Jr4/w11_e0_US.mp3",
+        "UK": "tts/N2uQWfV6Jr4/w11_e0_UK.mp3",
+        "AU": "tts/N2uQWfV6Jr4/w11_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "resourceful adj. 足智多謀的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "human resources 人力資源；limited resources 有限的資源。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "resources"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/N2uQWfV6Jr4/w11_US.mp3",
+      "UK": "tts/N2uQWfV6Jr4/w11_UK.mp3",
+      "AU": "tts/N2uQWfV6Jr4/w11_AU.mp3"
+     }
+    },
+    {
+     "n": 12,
+     "w": "intentionally",
+     "s": 2,
+     "ph": "[ɪnˋtɛnʃənḷɪ]",
+     "pos": [
+      {
+       "p": "adv.",
+       "m": "刻意地，故意地"
+      }
+     ],
+     "ex": [
+      {
+       "en": "That's why focusing on one task and intentionally building in breaks can be helpful.",
+       "zh": "所以專注在一項任務上，並刻意安排休息時間，會很有幫助。",
+       "t": 186.2,
+       "aus": {
+        "US": "tts/N2uQWfV6Jr4/w12_e0_US.mp3",
+        "UK": "tts/N2uQWfV6Jr4/w12_e0_UK.mp3",
+        "AU": "tts/N2uQWfV6Jr4/w12_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "intention n. 意圖（Day 04）",
+      "intentional adj. 故意的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "反義 accidentally（Day 05）；build in breaks＝安排休息時間。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adv.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/N2uQWfV6Jr4/w12_US.mp3",
+      "UK": "tts/N2uQWfV6Jr4/w12_UK.mp3",
+      "AU": "tts/N2uQWfV6Jr4/w12_AU.mp3"
+     }
+    },
+    {
+     "n": 13,
+     "w": "momentary",
+     "s": 1,
+     "ph": "[ˋmomən͵tɛrɪ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "短暫的，片刻的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Studies even show a momentary break, to get a snack or just zone out, can reset this attentional resource.",
+       "zh": "研究甚至顯示，短暫的休息，像是去拿個點心或只是放空一下，就能重置這種注意力資源。",
+       "t": 191.1,
+       "aus": {
+        "US": "tts/N2uQWfV6Jr4/w13_e0_US.mp3",
+        "UK": "tts/N2uQWfV6Jr4/w13_e0_UK.mp3",
+        "AU": "tts/N2uQWfV6Jr4/w13_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "moment n. 片刻"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "Day 09 滿分單字；a momentary delay 短暫的延誤；zone out＝放空。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/N2uQWfV6Jr4/w13_US.mp3",
+      "UK": "tts/N2uQWfV6Jr4/w13_UK.mp3",
+      "AU": "tts/N2uQWfV6Jr4/w13_AU.mp3"
+     }
+    },
+    {
+     "n": 14,
+     "w": "estimate",
+     "s": 3,
+     "ph": "[ˋɛstə͵met]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "估計"
+      },
+      {
+       "p": "n.",
+       "m": "估價，估計（名詞念 [ˋɛstəmɪt]）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "But one recent survey estimated that Americans now check their phones around 200 times a day.",
+       "zh": "但最近一項調查估計，美國人現在一天大約查看手機 200 次。",
+       "t": 275.5,
+       "aus": {
+        "US": "tts/N2uQWfV6Jr4/w14_e0_US.mp3",
+        "UK": "tts/N2uQWfV6Jr4/w14_e0_UK.mp3",
+        "AU": "tts/N2uQWfV6Jr4/w14_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "estimated adj. 估計的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "an estimate for the repair 維修估價單（Part 3/7 必考）；estimated arrival time 預計抵達時間。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "estimates"
+        ],
+        [
+         "過去式",
+         "estimated"
+        ],
+        [
+         "過去分詞",
+         "estimated"
+        ],
+        [
+         "現在分詞",
+         "estimating"
+        ]
+       ]
+      },
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "estimates"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/N2uQWfV6Jr4/w14_US.mp3",
+      "UK": "tts/N2uQWfV6Jr4/w14_UK.mp3",
+      "AU": "tts/N2uQWfV6Jr4/w14_AU.mp3"
+     }
+    },
+    {
+     "n": 15,
+     "w": "designed to",
+     "s": 3,
+     "ph": "[dɪˋzaɪnd tə]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "設計來～，目的是～"
+      }
+     ],
+     "ex": [
+      {
+       "en": "The distractions on our screens are designed to grab and hold attention.",
+       "zh": "螢幕上那些讓人分心的東西，本來就是設計來抓住並留住注意力的。",
+       "t": 282.0,
+       "aus": {
+        "US": "tts/N2uQWfV6Jr4/w15_e0_US.mp3",
+        "UK": "tts/N2uQWfV6Jr4/w15_e0_UK.mp3",
+        "AU": "tts/N2uQWfV6Jr4/w15_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "design v. 設計"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "be designed to do 目的是～：The program is designed to help new employees. 這個計畫是為了幫助新進員工。"
+      }
+     ],
+     "forms": [],
+     "aus": {
+      "US": "tts/N2uQWfV6Jr4/w15_US.mp3",
+      "UK": "tts/N2uQWfV6Jr4/w15_UK.mp3",
+      "AU": "tts/N2uQWfV6Jr4/w15_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "___ downloaded a program that tracked how long they stayed focused on a single computer application before switching to another.",
+     "a": "Participants",
+     "opts": [
+      "Participants",
+      "Constantly",
+      "Sustained",
+      "Inevitable"
+     ]
+    },
+    {
+     "s": "Our brains are ___ receiving a flood of information, from sensory input to environmental cues to internal thoughts.",
+     "a": "constantly",
+     "opts": [
+      "participants",
+      "constantly",
+      "sustained",
+      "inevitable"
+     ]
+    },
+    {
+     "s": "The challenge of ___ attention is keeping that flashlight focused in one place.",
+     "a": "sustained",
+     "opts": [
+      "participants",
+      "constantly",
+      "sustained",
+      "inevitable"
+     ]
+    },
+    {
+     "s": "So, while frustrating, getting distracted is ___.",
+     "a": "inevitable",
+     "opts": [
+      "participants",
+      "constantly",
+      "sustained",
+      "inevitable"
+     ]
+    },
+    {
+     "s": "And our baseline ability to manage distractions can vary based on ___ like genetics and brain differences.",
+     "a": "factors",
+     "opts": [
+      "factors",
+      "resource",
+      "intentionally",
+      "estimated"
+     ]
+    },
+    {
+     "s": "In fact, some researchers theorize that attention is a limited ___.",
+     "a": "resource",
+     "opts": [
+      "factors",
+      "resource",
+      "intentionally",
+      "estimated"
+     ]
+    },
+    {
+     "s": "That's why focusing on one task and ___ building in breaks can be helpful.",
+     "a": "intentionally",
+     "opts": [
+      "factors",
+      "resource",
+      "intentionally",
+      "estimated"
+     ]
+    },
+    {
+     "s": "But one recent survey ___ that Americans now check their phones around 200 times a day.",
+     "a": "estimated",
+     "opts": [
+      "factors",
+      "resource",
+      "intentionally",
+      "estimated"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "研究發現，人們平均能專注在單一任務上多久？",
+     "a": "40 秒（五年前是 75 秒）",
+     "opts": [
+      "40 秒（五年前是 75 秒）",
+      "75 秒（五年前是 40 秒）",
+      "15 分鐘",
+      "12 分鐘"
+     ]
+    },
+    {
+     "q": "影片說注意力像什麼？",
+     "a": "一種會隨時間消耗的有限資源",
+     "opts": [
+      "一種會隨時間消耗的有限資源",
+      "一種用不完的能力",
+      "只有天生才有的天賦",
+      "和年齡完全無關的東西"
+     ]
+    },
+    {
+     "q": "為什麼短暫的休息有幫助？",
+     "a": "能重置注意力，大腦也會重播剛學的內容來鞏固記憶",
+     "opts": [
+      "能重置注意力，大腦也會重播剛學的內容來鞏固記憶",
+      "休息可以完全取代睡眠",
+      "休息時可以一心多用",
+      "休息會讓人忘記不重要的事"
+     ]
+    },
+    {
+     "q": "研究中，哪一種散步對專注力的提升比較大？",
+     "a": "在戶外散步 15 分鐘",
+     "opts": [
+      "在戶外散步 15 分鐘",
+      "在室內散步 15 分鐘",
+      "邊散步邊看手機",
+      "散步一小時"
+     ]
+    },
+    {
+     "q": "影片最後建議現在就能做的一件事是？",
+     "a": "排除讓你分心的東西，例如關掉多餘分頁、封鎖某些 app",
+     "opts": [
+      "排除讓你分心的東西，例如關掉多餘分頁、封鎖某些 app",
+      "立刻去學冥想",
+      "一天只看手機一次",
+      "換一份比較簡單的工作"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yt-I8XaYkRW1tA",
+   "label": "影片 12",
+   "theme": "為什麼有些人方向感比較好？",
+   "themeEn": "Why do some people have a better sense of direction than others?",
+   "video": "https://youtu.be/I8XaYkRW1tA",
+   "source": "",
+   "publisher": "TED-Ed（Oliver Baumann）",
+   "release": "2026-10-05",
+   "transcript": "transcripts/I8XaYkRW1tA.json",
+   "lines": 36,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "compete",
+     "s": 3,
+     "ph": "[kəmˋpit]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "競爭，參賽"
+      }
+     ],
+     "ex": [
+      {
+       "en": "In July of 2025, top athletes competed in a kilometers-long race— but it had no set path.",
+       "zh": "2025 年 7 月，頂尖運動員參加了一場好幾公里長的賽跑，但這場比賽沒有固定的路線。",
+       "t": 6.9,
+       "aus": {
+        "US": "tts/I8XaYkRW1tA/w1_e0_US.mp3",
+        "UK": "tts/I8XaYkRW1tA/w1_e0_UK.mp3",
+        "AU": "tts/I8XaYkRW1tA/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "competition n. 競爭（Day 07）",
+      "competitive adj. 有競爭力的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "compete in a race／with rivals 參加比賽／和對手競爭。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "competes"
+        ],
+        [
+         "過去式",
+         "competed"
+        ],
+        [
+         "過去分詞",
+         "competed"
+        ],
+        [
+         "現在分詞",
+         "competing"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/I8XaYkRW1tA/w1_US.mp3",
+      "UK": "tts/I8XaYkRW1tA/w1_UK.mp3",
+      "AU": "tts/I8XaYkRW1tA/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "equipped",
+     "s": 2,
+     "ph": "[ɪˋkwɪpt]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "配備～的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "That's because it was the World Orienteering Championships, and participants equipped with only maps and compasses were expected to find their way between far-off checkpoints at high speeds,",
+       "zh": "因為那是世界定向越野錦標賽，參賽者只帶著地圖和指南針，必須高速在遙遠的檢查點之間找到路，",
+       "t": 15.0,
+       "aus": {
+        "US": "tts/I8XaYkRW1tA/w2_e0_US.mp3",
+        "UK": "tts/I8XaYkRW1tA/w2_e0_UK.mp3",
+        "AU": "tts/I8XaYkRW1tA/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "equip v. 裝備",
+      "equipment n. 設備"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "be equipped with 配備～：rooms equipped with Wi-Fi 附 Wi-Fi 的房間（飯店介紹必考）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/I8XaYkRW1tA/w2_US.mp3",
+      "UK": "tts/I8XaYkRW1tA/w2_UK.mp3",
+      "AU": "tts/I8XaYkRW1tA/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "daunting",
+     "s": 1,
+     "ph": "[ˋdɔntɪŋ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "令人卻步的，嚇人的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "This might sound a little daunting.",
+       "zh": "這聽起來可能有點嚇人。",
+       "t": 33.0,
+       "aus": {
+        "US": "tts/I8XaYkRW1tA/w3_e0_US.mp3",
+        "UK": "tts/I8XaYkRW1tA/w3_e0_UK.mp3",
+        "AU": "tts/I8XaYkRW1tA/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a daunting task 艱鉅的任務。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more daunting"
+        ],
+        [
+         "最高級",
+         "most daunting"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/I8XaYkRW1tA/w3_US.mp3",
+      "UK": "tts/I8XaYkRW1tA/w3_UK.mp3",
+      "AU": "tts/I8XaYkRW1tA/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "facilitate",
+     "s": 2,
+     "ph": "[fəˋsɪlə͵tet]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "促進，使容易"
+      }
+     ],
+     "ex": [
+      {
+       "en": "your brain has a built-in navigation system that facilitates spatial skills, from sensing which direction is north to map reading and route learning.",
+       "zh": "你的大腦都內建一套導航系統，幫助你發揮空間能力，從判斷哪邊是北方，到看地圖、記路線。",
+       "t": 40.5,
+       "aus": {
+        "US": "tts/I8XaYkRW1tA/w4_e0_US.mp3",
+        "UK": "tts/I8XaYkRW1tA/w4_e0_UK.mp3",
+        "AU": "tts/I8XaYkRW1tA/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "facility n. 設施",
+      "facilitator n. 主持人"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "facilitate communication 促進溝通（Day 09 impede 的反義字）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "facilitates"
+        ],
+        [
+         "過去式",
+         "facilitated"
+        ],
+        [
+         "過去分詞",
+         "facilitated"
+        ],
+        [
+         "現在分詞",
+         "facilitating"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/I8XaYkRW1tA/w4_US.mp3",
+      "UK": "tts/I8XaYkRW1tA/w4_UK.mp3",
+      "AU": "tts/I8XaYkRW1tA/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "consist of",
+     "s": 3,
+     "ph": "[kənˋsɪst əv]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "由～組成"
+      }
+     ],
+     "ex": [
+      {
+       "en": "It consists of two major parts: the striatum and the hippocampus.",
+       "zh": "它由兩個主要部分組成：紋狀體和海馬迴。",
+       "t": 51.0,
+       "aus": {
+        "US": "tts/I8XaYkRW1tA/w5_e0_US.mp3",
+        "UK": "tts/I8XaYkRW1tA/w5_e0_UK.mp3",
+        "AU": "tts/I8XaYkRW1tA/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "The committee consists of five members. 委員會由五人組成（不能用被動）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "consists of"
+        ],
+        [
+         "過去式",
+         "consisted of"
+        ],
+        [
+         "過去分詞",
+         "consisted of"
+        ],
+        [
+         "現在分詞",
+         "consisting of"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/I8XaYkRW1tA/w5_US.mp3",
+      "UK": "tts/I8XaYkRW1tA/w5_UK.mp3",
+      "AU": "tts/I8XaYkRW1tA/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "associate",
+     "s": 2,
+     "ph": "[əˋsoʃɪ͵et]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "把～聯想在一起"
+      },
+      {
+       "p": "n.",
+       "m": "同事，合夥人（念 [əˋsoʃɪɪt]）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "With repetition, it comes to associate specific stimuli and actions with certain responses and outcomes, linking these cues with set routes.",
+       "zh": "經過反覆練習，它會把特定的刺激和動作，與特定的反應和結果連結起來，把這些線索和固定路線綁在一起。",
+       "t": 62.1,
+       "aus": {
+        "US": "tts/I8XaYkRW1tA/w6_e0_US.mp3",
+        "UK": "tts/I8XaYkRW1tA/w6_e0_UK.mp3",
+        "AU": "tts/I8XaYkRW1tA/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "association n. 協會；關聯"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "associate A with B 把 A 和 B 聯想在一起；sales associate 店員（徵才常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "associates"
+        ],
+        [
+         "過去式",
+         "associated"
+        ],
+        [
+         "過去分詞",
+         "associated"
+        ],
+        [
+         "現在分詞",
+         "associating"
+        ]
+       ]
+      },
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "associates"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/I8XaYkRW1tA/w6_US.mp3",
+      "UK": "tts/I8XaYkRW1tA/w6_UK.mp3",
+      "AU": "tts/I8XaYkRW1tA/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "sequence",
+     "s": 2,
+     "ph": "[ˋsikwəns]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "順序，一連串"
+      }
+     ],
+     "ex": [
+      {
+       "en": "This forms navigation habits; for example, when you automatically take the same sequence of turns on your way home.",
+       "zh": "這就形成了導航習慣，例如你回家時會自動按同樣的順序轉彎。",
+       "t": 72.3,
+       "aus": {
+        "US": "tts/I8XaYkRW1tA/w7_e0_US.mp3",
+        "UK": "tts/I8XaYkRW1tA/w7_e0_UK.mp3",
+        "AU": "tts/I8XaYkRW1tA/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "in sequence 依序；a sequence of events 一連串事件。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "sequences"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/I8XaYkRW1tA/w7_US.mp3",
+      "UK": "tts/I8XaYkRW1tA/w7_UK.mp3",
+      "AU": "tts/I8XaYkRW1tA/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "breakthrough",
+     "s": 2,
+     "ph": "[ˋbrek͵θru]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "突破"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Together, the breakthrough discoveries that put place and grid cells on the map earned the 2014 Nobel Prize.",
+       "zh": "這些讓位置細胞和網格細胞廣為人知的突破性發現，共同獲得了 2014 年的諾貝爾獎。",
+       "t": 150.7,
+       "aus": {
+        "US": "tts/I8XaYkRW1tA/w8_e0_US.mp3",
+        "UK": "tts/I8XaYkRW1tA/w8_e0_UK.mp3",
+        "AU": "tts/I8XaYkRW1tA/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a major breakthrough in research 研究上的重大突破；put ~ on the map＝讓～出名。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "breakthroughs"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/I8XaYkRW1tA/w8_US.mp3",
+      "UK": "tts/I8XaYkRW1tA/w8_UK.mp3",
+      "AU": "tts/I8XaYkRW1tA/w8_AU.mp3"
+     }
+    },
+    {
+     "n": 9,
+     "w": "adapt",
+     "s": 3,
+     "ph": "[əˋdæpt]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "適應；改編"
+      }
+     ],
+     "ex": [
+      {
+       "en": "But while the striatum and hippocampus form a navigation system that allows our brains to adapt between strategies depending on the task, we still struggle to find our ways.",
+       "zh": "但即使紋狀體和海馬迴組成了一套讓大腦能依任務切換策略的導航系統，我們還是常常找不到路。",
+       "t": 159.9,
+       "aus": {
+        "US": "tts/I8XaYkRW1tA/w9_e0_US.mp3",
+        "UK": "tts/I8XaYkRW1tA/w9_e0_UK.mp3",
+        "AU": "tts/I8XaYkRW1tA/w9_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "adaptable adj. 適應力強的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "adapt to change 適應改變；注意 adapt（適應）和 adopt（採納，Day 08）只差一個字母。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "adapts"
+        ],
+        [
+         "過去式",
+         "adapted"
+        ],
+        [
+         "過去分詞",
+         "adapted"
+        ],
+        [
+         "現在分詞",
+         "adapting"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/I8XaYkRW1tA/w9_US.mp3",
+      "UK": "tts/I8XaYkRW1tA/w9_UK.mp3",
+      "AU": "tts/I8XaYkRW1tA/w9_AU.mp3"
+     }
+    },
+    {
+     "n": 10,
+     "w": "account for",
+     "s": 3,
+     "ph": "[əˋkaʊnt fɔr]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "占（比例）；解釋"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Twin studies suggest that genetics account for around 60% of the variation in our navigation abilities.",
+       "zh": "雙胞胎研究顯示，我們導航能力的差異大約有 60% 來自基因。",
+       "t": 196.7,
+       "aus": {
+        "US": "tts/I8XaYkRW1tA/w10_e0_US.mp3",
+        "UK": "tts/I8XaYkRW1tA/w10_e0_UK.mp3",
+        "AU": "tts/I8XaYkRW1tA/w10_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "account n. 帳戶；說明"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "Sales in Asia account for 40% of revenue. 亞洲銷售占營收 40%（圖表題必考）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "accounts for"
+        ],
+        [
+         "過去式",
+         "accounted for"
+        ],
+        [
+         "過去分詞",
+         "accounted for"
+        ],
+        [
+         "現在分詞",
+         "accounting for"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/I8XaYkRW1tA/w10_US.mp3",
+      "UK": "tts/I8XaYkRW1tA/w10_UK.mp3",
+      "AU": "tts/I8XaYkRW1tA/w10_AU.mp3"
+     }
+    },
+    {
+     "n": 11,
+     "w": "distinct",
+     "s": 2,
+     "ph": "[dɪˋstɪŋkt]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "不同的，獨特的；清楚的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "These abilities appear independent of general intelligence, suggesting that navigation is its own distinct cognitive skill.",
+       "zh": "這些能力似乎和一般智力無關，顯示導航是一種獨立的認知技能。",
+       "t": 204.7,
+       "aus": {
+        "US": "tts/I8XaYkRW1tA/w11_e0_US.mp3",
+        "UK": "tts/I8XaYkRW1tA/w11_e0_UK.mp3",
+        "AU": "tts/I8XaYkRW1tA/w11_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "distinction n. 區別（Day 07 滿分單字）",
+      "distinctly adv. 清楚地"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "distinct from 與～不同；independent of＝不受～影響。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more distinct"
+        ],
+        [
+         "最高級",
+         "most distinct"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/I8XaYkRW1tA/w11_US.mp3",
+      "UK": "tts/I8XaYkRW1tA/w11_UK.mp3",
+      "AU": "tts/I8XaYkRW1tA/w11_AU.mp3"
+     }
+    },
+    {
+     "n": 12,
+     "w": "significant",
+     "s": 3,
+     "ph": "[sɪɡˋnɪfəkənt]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "顯著的，重大的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Those who successfully complete the training have been observed to experience significant hippocampal growth.",
+       "zh": "成功完成訓練的人，被觀察到海馬迴有明顯的增長。",
+       "t": 267.1,
+       "aus": {
+        "US": "tts/I8XaYkRW1tA/w12_e0_US.mp3",
+        "UK": "tts/I8XaYkRW1tA/w12_e0_UK.mp3",
+        "AU": "tts/I8XaYkRW1tA/w12_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "significantly adv. 顯著地",
+      "significance n. 重要性"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a significant increase in sales 銷售大幅增加（財報必考）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more significant"
+        ],
+        [
+         "最高級",
+         "most significant"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/I8XaYkRW1tA/w12_US.mp3",
+      "UK": "tts/I8XaYkRW1tA/w12_UK.mp3",
+      "AU": "tts/I8XaYkRW1tA/w12_AU.mp3"
+     }
+    },
+    {
+     "n": 13,
+     "w": "reliably",
+     "s": 2,
+     "ph": "[rɪˋlaɪəblɪ]",
+     "pos": [
+      {
+       "p": "adv.",
+       "m": "可靠地"
+      }
+     ],
+     "ex": [
+      {
+       "en": "While GPS devices reliably get us around, they lead to worse spatial reconstructions than verbal directions and paper maps do.",
+       "zh": "雖然 GPS 裝置能可靠地帶我們到處走，但和口頭指路、紙本地圖相比，會讓我們在腦中重建空間的能力變差。",
+       "t": 279.1,
+       "aus": {
+        "US": "tts/I8XaYkRW1tA/w13_e0_US.mp3",
+        "UK": "tts/I8XaYkRW1tA/w13_e0_UK.mp3",
+        "AU": "tts/I8XaYkRW1tA/w13_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "reliable adj. 可靠的",
+      "rely on phr. 依靠（影片 11）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a reliably fast service 一向快速可靠的服務。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adv.",
+       "f": [
+        [
+         "比較級",
+         "more reliably"
+        ],
+        [
+         "最高級",
+         "most reliably"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/I8XaYkRW1tA/w13_US.mp3",
+      "UK": "tts/I8XaYkRW1tA/w13_UK.mp3",
+      "AU": "tts/I8XaYkRW1tA/w13_AU.mp3"
+     }
+    },
+    {
+     "n": 14,
+     "w": "impair",
+     "s": 1,
+     "ph": "[ɪmˋpɛr]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "損害，削弱"
+      }
+     ],
+     "ex": [
+      {
+       "en": "By allowing our brains to engage less actively with environmental cues, GPS may degrade the hippocampal navigation system and impair our own internal sense of direction.",
+       "zh": "GPS 讓大腦較少主動運用環境線索，可能會削弱海馬迴的導航系統，損害我們自己內在的方向感。",
+       "t": 288.5,
+       "aus": {
+        "US": "tts/I8XaYkRW1tA/w14_e0_US.mp3",
+        "UK": "tts/I8XaYkRW1tA/w14_e0_UK.mp3",
+        "AU": "tts/I8XaYkRW1tA/w14_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "impairment n. 損傷"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "impair performance 影響表現；hearing-impaired 聽障的。本句 degrade＝降低品質。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "impairs"
+        ],
+        [
+         "過去式",
+         "impaired"
+        ],
+        [
+         "過去分詞",
+         "impaired"
+        ],
+        [
+         "現在分詞",
+         "impairing"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/I8XaYkRW1tA/w14_US.mp3",
+      "UK": "tts/I8XaYkRW1tA/w14_UK.mp3",
+      "AU": "tts/I8XaYkRW1tA/w14_AU.mp3"
+     }
+    },
+    {
+     "n": 15,
+     "w": "familiar",
+     "s": 3,
+     "ph": "[fəˋmɪljɚ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "熟悉的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So, to help improve it, you can try putting your GPS away on more familiar routes and paying attention to distant landmarks.",
+       "zh": "所以要改善方向感，你可以試著在比較熟悉的路線上把 GPS 收起來，多注意遠處的地標。",
+       "t": 301.7,
+       "aus": {
+        "US": "tts/I8XaYkRW1tA/w15_e0_US.mp3",
+        "UK": "tts/I8XaYkRW1tA/w15_e0_UK.mp3",
+        "AU": "tts/I8XaYkRW1tA/w15_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "familiarize v. 使熟悉"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "be familiar with 熟悉～（Day 07 滿分單字）；familiarize yourself with the manual 請熟讀手冊。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more familiar"
+        ],
+        [
+         "最高級",
+         "most familiar"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/I8XaYkRW1tA/w15_US.mp3",
+      "UK": "tts/I8XaYkRW1tA/w15_UK.mp3",
+      "AU": "tts/I8XaYkRW1tA/w15_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "This might sound a little ___.",
+     "a": "daunting",
+     "opts": [
+      "daunting",
+      "facilitates",
+      "sequence",
+      "breakthrough"
+     ]
+    },
+    {
+     "s": "your brain has a built-in navigation system that ___ spatial skills, from sensing which direction is north to map reading and route learning.",
+     "a": "facilitates",
+     "opts": [
+      "daunting",
+      "facilitates",
+      "sequence",
+      "breakthrough"
+     ]
+    },
+    {
+     "s": "This forms navigation habits; for example, when you automatically take the same ___ of turns on your way home.",
+     "a": "sequence",
+     "opts": [
+      "daunting",
+      "facilitates",
+      "sequence",
+      "breakthrough"
+     ]
+    },
+    {
+     "s": "Together, the ___ discoveries that put place and grid cells on the map earned the 2014 Nobel Prize.",
+     "a": "breakthrough",
+     "opts": [
+      "daunting",
+      "facilitates",
+      "sequence",
+      "breakthrough"
+     ]
+    },
+    {
+     "s": "These abilities appear independent of general intelligence, suggesting that navigation is its own ___ cognitive skill.",
+     "a": "distinct",
+     "opts": [
+      "distinct",
+      "significant",
+      "impair",
+      "familiar"
+     ]
+    },
+    {
+     "s": "Those who successfully complete the training have been observed to experience ___ hippocampal growth.",
+     "a": "significant",
+     "opts": [
+      "distinct",
+      "significant",
+      "impair",
+      "familiar"
+     ]
+    },
+    {
+     "s": "By allowing our brains to engage less actively with environmental cues, GPS may degrade the hippocampal navigation system and ___ our own internal sense of direction.",
+     "a": "impair",
+     "opts": [
+      "distinct",
+      "significant",
+      "impair",
+      "familiar"
+     ]
+    },
+    {
+     "s": "So, to help improve it, you can try putting your GPS away on more ___ routes and paying attention to distant landmarks.",
+     "a": "familiar",
+     "opts": [
+      "distinct",
+      "significant",
+      "impair",
+      "familiar"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "世界定向越野錦標賽的參賽者靠什麼找路？",
+     "a": "只有地圖和指南針",
+     "opts": [
+      "只有地圖和指南針",
+      "GPS 導航",
+      "沿路的指示牌",
+      "跟著其他選手"
+     ]
+    },
+    {
+     "q": "海馬迴在導航中負責什麼？",
+     "a": "建構心智地圖，讓你即使沒去過也能想出路線",
+     "opts": [
+      "建構心智地圖，讓你即使沒去過也能想出路線",
+      "只負責記住固定的回家路線",
+      "控制跑步的速度",
+      "辨認顏色"
+     ]
+    },
+    {
+     "q": "雙胞胎研究顯示，導航能力的差異大約有多少來自基因？",
+     "a": "約 60%",
+     "opts": [
+      "約 60%",
+      "約 10%",
+      "約 90%",
+      "完全無關"
+     ]
+    },
+    {
+     "q": "倫敦計程車司機完成訓練後，大腦出現什麼變化？",
+     "a": "海馬迴明顯增長",
+     "opts": [
+      "海馬迴明顯增長",
+      "紋狀體縮小",
+      "智力大幅提升",
+      "完全沒有變化"
+     ]
+    },
+    {
+     "q": "影片建議怎麼提升方向感？",
+     "a": "熟悉的路線少用 GPS，多注意地標，用紙本地圖步行探索",
+     "opts": [
+      "熟悉的路線少用 GPS，多注意地標，用紙本地圖步行探索",
+      "隨時開著逐步導航",
+      "只走固定的路線",
+      "搬到街道整齊的城市"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yt-JOs-q7rXqdk",
+   "label": "影片 13",
+   "theme": "說好一個故事的 4 個方法",
+   "themeEn": "4 ways to tell a great story",
+   "video": "https://youtu.be/JOs-q7rXqdk",
+   "source": "",
+   "publisher": "TED-Ed",
+   "release": "2026-10-06",
+   "transcript": "transcripts/JOs-q7rXqdk.json",
+   "lines": 49,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "bond",
+     "s": 2,
+     "ph": "[bɑnd]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "連結，情誼；債券"
+      },
+      {
+       "p": "v.",
+       "m": "建立感情"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Your first job as a speaker is to build a trusting human bond with your audience.",
+       "zh": "身為講者，你的第一份工作是和觀眾建立信任的人際連結。",
+       "t": 7.4,
+       "aus": {
+        "US": "tts/JOs-q7rXqdk/w1_e0_US.mp3",
+        "UK": "tts/JOs-q7rXqdk/w1_e0_UK.mp3",
+        "AU": "tts/JOs-q7rXqdk/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "build a bond with 和～建立連結；government bonds 政府公債（財經題的 bond）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "bonds"
+        ]
+       ]
+      },
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "bonds"
+        ],
+        [
+         "過去式",
+         "bonded"
+        ],
+        [
+         "過去分詞",
+         "bonded"
+        ],
+        [
+         "現在分詞",
+         "bonding"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/JOs-q7rXqdk/w1_US.mp3",
+      "UK": "tts/JOs-q7rXqdk/w1_UK.mp3",
+      "AU": "tts/JOs-q7rXqdk/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "connect",
+     "s": 3,
+     "ph": "[kəˋnɛkt]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "連結，產生共鳴"
+      }
+     ],
+     "ex": [
+      {
+       "en": "One excellent way to connect to an audience is to tell a story.",
+       "zh": "和觀眾建立連結的絕佳方法之一，就是說故事。",
+       "t": 12.6,
+       "aus": {
+        "US": "tts/JOs-q7rXqdk/w2_e0_US.mp3",
+        "UK": "tts/JOs-q7rXqdk/w2_e0_UK.mp3",
+        "AU": "tts/JOs-q7rXqdk/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "connection n. 連結；轉機",
+      "disconnected adj. 斷線的（Day 08 滿分單字）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "connect with an audience 打動觀眾；connecting flight 轉機航班。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "connects"
+        ],
+        [
+         "過去式",
+         "connected"
+        ],
+        [
+         "過去分詞",
+         "connected"
+        ],
+        [
+         "現在分詞",
+         "connecting"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/JOs-q7rXqdk/w2_US.mp3",
+      "UK": "tts/JOs-q7rXqdk/w2_UK.mp3",
+      "AU": "tts/JOs-q7rXqdk/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "ancestor",
+     "s": 2,
+     "ph": "[ˋænsɛstɚ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "祖先"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Really — evidence left behind from our ancient ancestors suggests that the human mind developed alongside human storytelling.",
+       "zh": "真的，遠古祖先留下的證據顯示，人類心智是隨著說故事一起發展的。",
+       "t": 19.8,
+       "aus": {
+        "US": "tts/JOs-q7rXqdk/w3_e0_US.mp3",
+        "UK": "tts/JOs-q7rXqdk/w3_e0_UK.mp3",
+        "AU": "tts/JOs-q7rXqdk/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "ancestry n. 血統"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "our ancient ancestors 我們的遠古祖先。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "ancestors"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/JOs-q7rXqdk/w3_US.mp3",
+      "UK": "tts/JOs-q7rXqdk/w3_UK.mp3",
+      "AU": "tts/JOs-q7rXqdk/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "communal",
+     "s": 1,
+     "ph": "[ˋkɑmjʊnḷ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "共同的，公共的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "In many cultures, one type of communal activity became very important: storytelling.",
+       "zh": "在許多文化中，有一種群體活動變得非常重要：說故事。",
+       "t": 47.5,
+       "aus": {
+        "US": "tts/JOs-q7rXqdk/w4_e0_US.mp3",
+        "UK": "tts/JOs-q7rXqdk/w4_e0_UK.mp3",
+        "AU": "tts/JOs-q7rXqdk/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "community n. 社區"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a communal kitchen 共用廚房（租屋、宿舍廣告常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/JOs-q7rXqdk/w4_US.mp3",
+      "UK": "tts/JOs-q7rXqdk/w4_UK.mp3",
+      "AU": "tts/JOs-q7rXqdk/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "obstacle",
+     "s": 2,
+     "ph": "[ˋɑbstəkḷ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "障礙"
+      }
+     ],
+     "ex": [
+      {
+       "en": "The most basic way of breaking down a story is this: a character with a goal meets an unexpected obstacle.",
+       "zh": "拆解故事最基本的方式是：一個有目標的角色遇到意想不到的阻礙。",
+       "t": 106.1,
+       "aus": {
+        "US": "tts/JOs-q7rXqdk/w5_e0_US.mp3",
+        "UK": "tts/JOs-q7rXqdk/w5_e0_UK.mp3",
+        "AU": "tts/JOs-q7rXqdk/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "overcome an obstacle 克服障礙；an obstacle to success 成功的阻礙。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "obstacles"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/JOs-q7rXqdk/w5_US.mp3",
+      "UK": "tts/JOs-q7rXqdk/w5_UK.mp3",
+      "AU": "tts/JOs-q7rXqdk/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "overcome",
+     "s": 3,
+     "ph": "[͵ovɚˋkʌm]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "克服"
+      }
+     ],
+     "ex": [
+      {
+       "en": "She tries to overcome that obstacle, which builds to a peak in the action.",
+       "zh": "她試圖克服那個阻礙，情節因此推向高潮。",
+       "t": 114.0,
+       "aus": {
+        "US": "tts/JOs-q7rXqdk/w6_e0_US.mp3",
+        "UK": "tts/JOs-q7rXqdk/w6_e0_UK.mp3",
+        "AU": "tts/JOs-q7rXqdk/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "不規則動詞：overcome, overcame, overcome（Day 03 滿分單字）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "overcomes"
+        ],
+        [
+         "過去式",
+         "overcame"
+        ],
+        [
+         "過去分詞",
+         "overcome"
+        ],
+        [
+         "現在分詞",
+         "overcoming"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/JOs-q7rXqdk/w6_US.mp3",
+      "UK": "tts/JOs-q7rXqdk/w6_UK.mp3",
+      "AU": "tts/JOs-q7rXqdk/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "resolution",
+     "s": 2,
+     "ph": "[͵rɛzəˋluʃən]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "解決；決心；解析度"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Finally, there’s some kind of resolution to the conflict.",
+       "zh": "最後，衝突以某種方式得到解決。",
+       "t": 118.6,
+       "aus": {
+        "US": "tts/JOs-q7rXqdk/w7_e0_US.mp3",
+        "UK": "tts/JOs-q7rXqdk/w7_e0_UK.mp3",
+        "AU": "tts/JOs-q7rXqdk/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "resolve v. 解決（Day 08）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "conflict resolution 衝突解決；New Year's resolution 新年新希望。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "resolutions"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/JOs-q7rXqdk/w7_US.mp3",
+      "UK": "tts/JOs-q7rXqdk/w7_UK.mp3",
+      "AU": "tts/JOs-q7rXqdk/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "empathize",
+     "s": 1,
+     "ph": "[ˋɛmpə͵θaɪz]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "產生共鳴，同理"
+      }
+     ],
+     "ex": [
+      {
+       "en": "1. Base the story around a character your audience can empathize with.",
+       "zh": "一，以觀眾能產生共鳴的角色為故事核心。",
+       "t": 128.5,
+       "aus": {
+        "US": "tts/JOs-q7rXqdk/w8_e0_US.mp3",
+        "UK": "tts/JOs-q7rXqdk/w8_e0_UK.mp3",
+        "AU": "tts/JOs-q7rXqdk/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "empathy n. 同理心"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "empathize with customers 同理顧客（客服訓練常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "empathizes"
+        ],
+        [
+         "過去式",
+         "empathized"
+        ],
+        [
+         "過去分詞",
+         "empathized"
+        ],
+        [
+         "現在分詞",
+         "empathizing"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/JOs-q7rXqdk/w8_US.mp3",
+      "UK": "tts/JOs-q7rXqdk/w8_UK.mp3",
+      "AU": "tts/JOs-q7rXqdk/w8_AU.mp3"
+     }
+    },
+    {
+     "n": 9,
+     "w": "tension",
+     "s": 2,
+     "ph": "[ˋtɛnʃən]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "緊張（感）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "2. Build tension, either through curiosity, relationship with other characters, or actual danger.",
+       "zh": "二，營造緊張感，可以透過好奇心、和其他角色的關係，或是真正的危險。",
+       "t": 134.2,
+       "aus": {
+        "US": "tts/JOs-q7rXqdk/w9_e0_US.mp3",
+        "UK": "tts/JOs-q7rXqdk/w9_e0_UK.mp3",
+        "AU": "tts/JOs-q7rXqdk/w9_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "tense adj. 緊張的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "build tension 營造緊張感；mounting tension 逐漸升高的緊張（Day 07）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "tensions"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/JOs-q7rXqdk/w9_US.mp3",
+      "UK": "tts/JOs-q7rXqdk/w9_UK.mp3",
+      "AU": "tts/JOs-q7rXqdk/w9_AU.mp3"
+     }
+    },
+    {
+     "n": 10,
+     "w": "actionable",
+     "s": 1,
+     "ph": "[ˋækʃənəbḷ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "可付諸行動的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "but they don’t necessarily give the audience something they can walk away with; a new way of understanding things, actionable information, context, hope.",
+       "zh": "但不一定能讓觀眾帶走什麼：一種理解事物的新方式、可以付諸行動的資訊、背景脈絡、希望。",
+       "t": 194.6,
+       "aus": {
+        "US": "tts/JOs-q7rXqdk/w10_e0_US.mp3",
+        "UK": "tts/JOs-q7rXqdk/w10_e0_UK.mp3",
+        "AU": "tts/JOs-q7rXqdk/w10_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "actionable insights 可執行的洞見（商業報告常用）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/JOs-q7rXqdk/w10_US.mp3",
+      "UK": "tts/JOs-q7rXqdk/w10_UK.mp3",
+      "AU": "tts/JOs-q7rXqdk/w10_AU.mp3"
+     }
+    },
+    {
+     "n": 11,
+     "w": "humility",
+     "s": 1,
+     "ph": "[hjuˋmɪlətɪ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "謙遜"
+      }
+     ],
+     "ex": [
+      {
+       "en": "But, if the journey reveals something powerful you have learned, and if each step in your journey is revealed with humility and honesty and vulnerability, it is a journey we will gladly take with you.",
+       "zh": "但如果這段旅程揭示了你學到的深刻道理，而且每一步都以謙遜、誠實和坦露脆弱的方式呈現，那我們會很樂意和你一起走這段旅程。",
+       "t": 221.0,
+       "aus": {
+        "US": "tts/JOs-q7rXqdk/w11_e0_US.mp3",
+        "UK": "tts/JOs-q7rXqdk/w11_e0_UK.mp3",
+        "AU": "tts/JOs-q7rXqdk/w11_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "humble adj. 謙虛的",
+      "humbling adj. 讓人謙卑的（影片 6）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "本句 vulnerability＝坦露脆弱；gladly＝樂意地。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/JOs-q7rXqdk/w11_US.mp3",
+      "UK": "tts/JOs-q7rXqdk/w11_UK.mp3",
+      "AU": "tts/JOs-q7rXqdk/w11_AU.mp3"
+     }
+    },
+    {
+     "n": 12,
+     "w": "essential",
+     "s": 3,
+     "ph": "[ɪˋsɛnʃəl]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "必要的，不可或缺的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "There is one other piece that is absolutely essential if you’re going to tell your own story: it has to be true.",
+       "zh": "如果你要講自己的故事，還有一件絕對必要的事：它必須是真的。",
+       "t": 235.8,
+       "aus": {
+        "US": "tts/JOs-q7rXqdk/w12_e0_US.mp3",
+        "UK": "tts/JOs-q7rXqdk/w12_e0_UK.mp3",
+        "AU": "tts/JOs-q7rXqdk/w12_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "essentially adv. 本質上"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "be essential to／for 對～是必要的（Day 05 核心字）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more essential"
+        ],
+        [
+         "最高級",
+         "most essential"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/JOs-q7rXqdk/w12_US.mp3",
+      "UK": "tts/JOs-q7rXqdk/w12_UK.mp3",
+      "AU": "tts/JOs-q7rXqdk/w12_AU.mp3"
+     }
+    },
+    {
+     "n": 13,
+     "w": "exaggerate",
+     "s": 2,
+     "ph": "[ɪɡˋzædʒə͵ret]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "誇大"
+      }
+     ],
+     "ex": [
+      {
+       "en": "This may seem obvious, but sometimes speakers are tempted to exaggerate or even make a story up entirely.",
+       "zh": "這看起來很理所當然，但有時講者會忍不住誇大，甚至完全捏造故事。",
+       "t": 244.9,
+       "aus": {
+        "US": "tts/JOs-q7rXqdk/w13_e0_US.mp3",
+        "UK": "tts/JOs-q7rXqdk/w13_e0_UK.mp3",
+        "AU": "tts/JOs-q7rXqdk/w13_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "exaggeration n. 誇張"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "be tempted to do＝忍不住想做～；make up＝捏造。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "exaggerates"
+        ],
+        [
+         "過去式",
+         "exaggerated"
+        ],
+        [
+         "過去分詞",
+         "exaggerated"
+        ],
+        [
+         "現在分詞",
+         "exaggerating"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/JOs-q7rXqdk/w13_US.mp3",
+      "UK": "tts/JOs-q7rXqdk/w13_UK.mp3",
+      "AU": "tts/JOs-q7rXqdk/w13_AU.mp3"
+     }
+    },
+    {
+     "n": 14,
+     "w": "reputation",
+     "s": 3,
+     "ph": "[͵rɛpjəˋteʃən]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "名聲，信譽"
+      }
+     ],
+     "ex": [
+      {
+       "en": "But even small exaggerations can quickly destroy your reputation.",
+       "zh": "但即使是小小的誇大，也可能迅速毀掉你的名聲。",
+       "t": 258.3,
+       "aus": {
+        "US": "tts/JOs-q7rXqdk/w14_e0_US.mp3",
+        "UK": "tts/JOs-q7rXqdk/w14_e0_UK.mp3",
+        "AU": "tts/JOs-q7rXqdk/w14_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "reputable adj. 聲譽好的（Day 07 滿分單字）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "have a reputation for 以～聞名；damage one's reputation 損害名聲。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "reputations"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/JOs-q7rXqdk/w14_US.mp3",
+      "UK": "tts/JOs-q7rXqdk/w14_UK.mp3",
+      "AU": "tts/JOs-q7rXqdk/w14_AU.mp3"
+     }
+    },
+    {
+     "n": 15,
+     "w": "extraordinary",
+     "s": 2,
+     "ph": "[ɪkˋstrɔrdṇ͵ɛrɪ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "非凡的，特別的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "When you combine a truthful story with a desire to benefit others, you can give your listeners an extraordinary gift.",
+       "zh": "當你把真實的故事和造福他人的心意結合起來，就能給聽眾一份非凡的禮物。",
+       "t": 266.4,
+       "aus": {
+        "US": "tts/JOs-q7rXqdk/w15_e0_US.mp3",
+        "UK": "tts/JOs-q7rXqdk/w15_e0_UK.mp3",
+        "AU": "tts/JOs-q7rXqdk/w15_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "Day 07 滿分單字；an extraordinary opportunity 難得的機會。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more extraordinary"
+        ],
+        [
+         "最高級",
+         "most extraordinary"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/JOs-q7rXqdk/w15_US.mp3",
+      "UK": "tts/JOs-q7rXqdk/w15_UK.mp3",
+      "AU": "tts/JOs-q7rXqdk/w15_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "In many cultures, one type of ___ activity became very important: storytelling.",
+     "a": "communal",
+     "opts": [
+      "communal",
+      "obstacle",
+      "resolution",
+      "empathize"
+     ]
+    },
+    {
+     "s": "The most basic way of breaking down a story is this: a character with a goal meets an unexpected ___.",
+     "a": "obstacle",
+     "opts": [
+      "communal",
+      "obstacle",
+      "resolution",
+      "empathize"
+     ]
+    },
+    {
+     "s": "Finally, there’s some kind of ___ to the conflict.",
+     "a": "resolution",
+     "opts": [
+      "communal",
+      "obstacle",
+      "resolution",
+      "empathize"
+     ]
+    },
+    {
+     "s": "1. Base the story around a character your audience can ___ with.",
+     "a": "empathize",
+     "opts": [
+      "communal",
+      "obstacle",
+      "resolution",
+      "empathize"
+     ]
+    },
+    {
+     "s": "but they don’t necessarily give the audience something they can walk away with; a new way of understanding things, ___ information, context, hope.",
+     "a": "actionable",
+     "opts": [
+      "actionable",
+      "essential",
+      "exaggerate",
+      "reputation"
+     ]
+    },
+    {
+     "s": "There is one other piece that is absolutely ___ if you’re going to tell your own story: it has to be true.",
+     "a": "essential",
+     "opts": [
+      "actionable",
+      "essential",
+      "exaggerate",
+      "reputation"
+     ]
+    },
+    {
+     "s": "This may seem obvious, but sometimes speakers are tempted to ___ or even make a story up entirely.",
+     "a": "exaggerate",
+     "opts": [
+      "actionable",
+      "essential",
+      "exaggerate",
+      "reputation"
+     ]
+    },
+    {
+     "s": "But even small exaggerations can quickly destroy your ___.",
+     "a": "reputation",
+     "opts": [
+      "actionable",
+      "essential",
+      "exaggerate",
+      "reputation"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "影片說講者的第一份工作是什麼？",
+     "a": "和觀眾建立信任的連結",
+     "opts": [
+      "和觀眾建立信任的連結",
+      "把投影片做得漂亮",
+      "講越多資訊越好",
+      "讓觀眾大笑"
+     ]
+    },
+    {
+     "q": "故事最基本的結構是？",
+     "a": "有目標的角色遇到阻礙、試圖克服，最後衝突得到解決",
+     "opts": [
+      "有目標的角色遇到阻礙、試圖克服，最後衝突得到解決",
+      "先講結論再講過程",
+      "只要有好笑的結尾就好",
+      "列出所有相關數據"
+     ]
+    },
+    {
+     "q": "在台上說故事的四個關鍵，不包括哪一個？",
+     "a": "細節越多越好",
+     "opts": [
+      "細節越多越好",
+      "讓觀眾能同理主角",
+      "營造緊張感",
+      "有令人滿意的結尾"
+     ]
+    },
+    {
+     "q": "只講個人故事有什麼陷阱？",
+     "a": "可能只是讓講者自我感覺良好，觀眾帶不走任何東西",
+     "opts": [
+      "可能只是讓講者自我感覺良好，觀眾帶不走任何東西",
+      "觀眾一定會覺得無聊",
+      "個人故事都不可信",
+      "會超過演講時間"
+     ]
+    },
+    {
+     "q": "為什麼講故事不能誇大？",
+     "a": "即使小小的誇大也可能迅速毀掉名聲",
+     "opts": [
+      "即使小小的誇大也可能迅速毀掉名聲",
+      "誇大會讓故事太長",
+      "觀眾不喜歡好笑的故事",
+      "主辦單位會禁止"
+     ]
+    }
+   ]
   }
  ]
 });

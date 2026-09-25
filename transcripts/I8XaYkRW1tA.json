@@ -1,0 +1,191 @@
+{
+ "source": {
+  "video": "https://youtu.be/I8XaYkRW1tA",
+  "original": "",
+  "publisher": "TED-Ed（Oliver Baumann）",
+  "note": "英文逐字稿取自 YouTube 字幕；中文為學習用翻譯。版權屬原作者，僅供個人學習。"
+ },
+ "title": "Why do some people have a better sense of direction than others?",
+ "lines": [
+  {
+   "t": 6.9,
+   "en": "In July of 2025, top athletes competed in a kilometers-long race— but it had no set path.",
+   "zh": "2025 年 7 月，頂尖運動員參加了一場好幾公里長的賽跑，但這場比賽沒有固定的路線。"
+  },
+  {
+   "t": 15.0,
+   "en": "That's because it was the World Orienteering Championships, and participants equipped with only maps and compasses were expected to find their way between far-off checkpoints at high speeds,",
+   "zh": "因為那是世界定向越野錦標賽，參賽者只帶著地圖和指南針，必須高速在遙遠的檢查點之間找到路，"
+  },
+  {
+   "t": 27.6,
+   "en": "weaving between trees, sprinting over rocks, and skirting cliffs.",
+   "zh": "在樹林間穿梭、衝過岩石、繞過懸崖。"
+  },
+  {
+   "t": 33.0,
+   "en": "This might sound a little daunting.",
+   "zh": "這聽起來可能有點嚇人。"
+  },
+  {
+   "t": 35.0,
+   "en": "But whether you identify as a wayfinding whiz or get lost returning from the grocery store,",
+   "zh": "但不論你自認是認路高手，還是從超市回家都會迷路，"
+  },
+  {
+   "t": 40.5,
+   "en": "your brain has a built-in navigation system that facilitates spatial skills, from sensing which direction is north to map reading and route learning.",
+   "zh": "你的大腦都內建一套導航系統，幫助你發揮空間能力，從判斷哪邊是北方，到看地圖、記路線。"
+  },
+  {
+   "t": 51.0,
+   "en": "It consists of two major parts: the striatum and the hippocampus.",
+   "zh": "它由兩個主要部分組成：紋狀體和海馬迴。"
+  },
+  {
+   "t": 57.0,
+   "en": "The striatum is clued into sensory inputs, like nearby landmarks.",
+   "zh": "紋狀體會留意感官訊息，像是附近的地標。"
+  },
+  {
+   "t": 62.1,
+   "en": "With repetition, it comes to associate specific stimuli and actions with certain responses and outcomes, linking these cues with set routes.",
+   "zh": "經過反覆練習，它會把特定的刺激和動作，與特定的反應和結果連結起來，把這些線索和固定路線綁在一起。"
+  },
+  {
+   "t": 72.3,
+   "en": "This forms navigation habits; for example, when you automatically take the same sequence of turns on your way home.",
+   "zh": "這就形成了導航習慣，例如你回家時會自動按同樣的順序轉彎。"
+  },
+  {
+   "t": 80.8,
+   "en": "The hippocampus, meanwhile, constructs continuous, dynamic mental maps of your environment.",
+   "zh": "而海馬迴則會為你的環境建構連續、動態的心智地圖。"
+  },
+  {
+   "t": 87.5,
+   "en": "It helps you figure out how to get somewhere, even if you've never been or haven't taken that exact route before.",
+   "zh": "它幫助你想出要怎麼到某個地方，即使你從沒去過，或沒走過那條確切的路線。"
+  },
+  {
+   "t": 94.0,
+   "en": "Researchers realized the hippocampus’ importance in mental mapping in the 70s, while observing rats’ brain activity and noticing that specific neurons in the hippocampus fired when the rats were in certain spaces.",
+   "zh": "研究人員在 1970 年代發現海馬迴在建立心智地圖上的重要性，當時他們觀察老鼠的腦部活動，注意到老鼠在某些空間時，海馬迴裡特定的神經元會放電。"
+  },
+  {
+   "t": 109.4,
+   "en": "The same thing also happened in complete darkness, indicating that these neurons, which came to be called “place cells,” formed cognitive maps independent of sensory input.",
+   "zh": "在完全黑暗中也發生同樣的情況，顯示這些後來被稱為「位置細胞」的神經元，能在沒有感官訊息的情況下形成認知地圖。"
+  },
+  {
+   "t": 121.2,
+   "en": "It seems that activity in these areas during sleep represents a kind of place replay as the brain consolidates spatial information.",
+   "zh": "這些區域在睡眠時的活動，似乎代表一種「位置重播」，是大腦在鞏固空間資訊。"
+  },
+  {
+   "t": 131.7,
+   "en": "And in 2005, researchers discovered additional types of navigational neurons in the region surrounding the hippocampus.",
+   "zh": "而在 2005 年，研究人員在海馬迴周圍的區域發現了更多種導航神經元。"
+  },
+  {
+   "t": 140.2,
+   "en": "This includes “grid cells,” which fire in a regular pattern as one moves, providing the brain with a kind of internal coordinate system.",
+   "zh": "其中包括「網格細胞」，當人移動時會以規律的模式放電，為大腦提供一種內建的座標系統。"
+  },
+  {
+   "t": 150.7,
+   "en": "Together, the breakthrough discoveries that put place and grid cells on the map earned the 2014 Nobel Prize.",
+   "zh": "這些讓位置細胞和網格細胞廣為人知的突破性發現，共同獲得了 2014 年的諾貝爾獎。"
+  },
+  {
+   "t": 159.9,
+   "en": "But while the striatum and hippocampus form a navigation system that allows our brains to adapt between strategies depending on the task, we still struggle to find our ways.",
+   "zh": "但即使紋狀體和海馬迴組成了一套讓大腦能依任務切換策略的導航系統，我們還是常常找不到路。"
+  },
+  {
+   "t": 171.7,
+   "en": "In the absence of strong external cues, people tend to make small errors that send them off course and into circles.",
+   "zh": "在缺乏明顯外在線索的情況下，人們往往會犯些小錯，讓自己偏離方向、繞起圈圈。"
+  },
+  {
+   "t": 180.2,
+   "en": "And generally, some of us find ourselves lost more often than others.",
+   "zh": "而且一般來說，我們有些人比別人更常迷路。"
+  },
+  {
+   "t": 184.5,
+   "en": "Most people can handle a striatum-centric, well-practiced route; but those who lean more on hippocampus-forward self-orienting tend to stand out as navigators.",
+   "zh": "大多數人都能應付以紋狀體為主、走熟了的路線；但比較依賴海馬迴來自我定位的人，往往是出色的導航者。"
+  },
+  {
+   "t": 196.7,
+   "en": "Twin studies suggest that genetics account for around 60% of the variation in our navigation abilities.",
+   "zh": "雙胞胎研究顯示，我們導航能力的差異大約有 60% 來自基因。"
+  },
+  {
+   "t": 204.7,
+   "en": "These abilities appear independent of general intelligence, suggesting that navigation is its own distinct cognitive skill.",
+   "zh": "這些能力似乎和一般智力無關，顯示導航是一種獨立的認知技能。"
+  },
+  {
+   "t": 212.7,
+   "en": "And crucially, research indicates that it’s one that can be practiced and improved.",
+   "zh": "而關鍵是，研究指出這是一種可以練習、可以提升的技能。"
+  },
+  {
+   "t": 219.0,
+   "en": "Compared to people from suburban and rural areas, those who grew up in cities— especially ones with more uniform, grid-like layouts— appear to struggle more with navigating less ordered environments.",
+   "zh": "和來自郊區或鄉村的人相比，在城市長大的人，尤其是街道規劃整齊、呈棋盤狀的城市，似乎比較難在沒那麼有秩序的環境中找路。"
+  },
+  {
+   "t": 231.7,
+   "en": "And in a 2010 study, rugby players and martial artists were blindfolded and asked to navigate back to a starting point.",
+   "zh": "在一項 2010 年的研究中，橄欖球員和武術選手被蒙上眼睛，要求走回起點。"
+  },
+  {
+   "t": 240.1,
+   "en": "The rugby players, who train at much larger scales, did so with more directional accuracy, suggesting that the difference in their spatial training improved their judgement across longer distances.",
+   "zh": "在大得多的場地上訓練的橄欖球員，方向準確度更高，顯示空間訓練的差異提升了他們對長距離的判斷力。"
+  },
+  {
+   "t": 254.0,
+   "en": "London cab drivers, meanwhile, must learn what’s referred to as “the knowledge,” which consists of extensive routes and landmarks across the city’s infamously complex maze of streets.",
+   "zh": "而倫敦的計程車司機必須學會所謂的「The Knowledge」，涵蓋這座城市出了名複雜的迷宮街道中大量的路線和地標。"
+  },
+  {
+   "t": 267.1,
+   "en": "Those who successfully complete the training have been observed to experience significant hippocampal growth.",
+   "zh": "成功完成訓練的人，被觀察到海馬迴有明顯的增長。"
+  },
+  {
+   "t": 274.8,
+   "en": "But the brain’s malleability can be a double-edged sword.",
+   "zh": "但大腦的可塑性可能是一把雙面刃。"
+  },
+  {
+   "t": 279.1,
+   "en": "While GPS devices reliably get us around, they lead to worse spatial reconstructions than verbal directions and paper maps do.",
+   "zh": "雖然 GPS 裝置能可靠地帶我們到處走，但和口頭指路、紙本地圖相比，會讓我們在腦中重建空間的能力變差。"
+  },
+  {
+   "t": 288.5,
+   "en": "By allowing our brains to engage less actively with environmental cues, GPS may degrade the hippocampal navigation system and impair our own internal sense of direction.",
+   "zh": "GPS 讓大腦較少主動運用環境線索，可能會削弱海馬迴的導航系統，損害我們自己內在的方向感。"
+  },
+  {
+   "t": 301.7,
+   "en": "So, to help improve it, you can try putting your GPS away on more familiar routes and paying attention to distant landmarks.",
+   "zh": "所以要改善方向感，你可以試著在比較熟悉的路線上把 GPS 收起來，多注意遠處的地標。"
+  },
+  {
+   "t": 310.6,
+   "en": "Instead of using turn-by-turn directions, consider experimenting with a paper map and exploring new places on foot, since physical movement helps the brain encode spatial information.",
+   "zh": "與其使用逐步導航，不妨試試紙本地圖，用步行探索新地方，因為身體的移動能幫助大腦記錄空間資訊。"
+  },
+  {
+   "t": 323.1,
+   "en": "Then, with a little practice, the next time you get turned around, maybe you can first look within yourself to find your way.",
+   "zh": "這樣稍加練習，下次你迷失方向時，也許可以先從自己內在找到方向。"
+  }
+ ]
+}

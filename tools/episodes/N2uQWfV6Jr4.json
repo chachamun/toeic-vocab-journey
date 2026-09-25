@@ -1,0 +1,745 @@
+{
+ "id": "yt-N2uQWfV6Jr4",
+ "course": "daily-video",
+ "publisher": "TED-Ed（Shannon Odell）",
+ "video": "https://youtu.be/N2uQWfV6Jr4",
+ "bbc": "",
+ "label": "影片 11",
+ "theme": "改善專注力的 4 個方法",
+ "themeEn": "4 ways to fix your attention span",
+ "release": "2026-10-04",
+ "words": [
+  {
+   "n": 1,
+   "w": "attention span",
+   "s": 2,
+   "ph": "[əˋtɛnʃən spæn]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "注意力持續時間"
+    }
+   ],
+   "ex": [
+    {
+     "en": "The researchers set out to measure the length of, well, our attention spans.",
+     "zh": "研究人員著手測量的是，嗯，我們注意力持續的時間。",
+     "t": 19.3
+    }
+   ],
+   "fam": [
+    "attentive adj. 專心的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a short attention span 注意力短暫；set out to do＝著手做～。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "attention spans"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "participant",
+   "s": 3,
+   "ph": "[pɑrˋtɪsəpənt]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "參加者，參與者"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Participants downloaded a program that tracked how long they stayed focused on a single computer application before switching to another.",
+     "zh": "參與者下載了一個程式，記錄他們在切換到另一個應用程式之前，能專注在單一電腦程式上多久。",
+     "t": 25.2
+    }
+   ],
+   "fam": [
+    "participate v. 參加（影片 8）",
+    "participation n. 參與"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "survey participants 調查參與者（研究、會議報名題常見）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "participants"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "on average",
+   "s": 3,
+   "ph": "[ɑn ˋævərɪdʒ]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "平均而言"
+    }
+   ],
+   "ex": [
+    {
+     "en": "On average, users stuck with a single task for 40 seconds, down from 75 seconds, measured just five years earlier.",
+     "zh": "平均而言，使用者專注於單一任務 40 秒，比短短五年前測得的 75 秒還少。",
+     "t": 33.7
+    }
+   ],
+   "fam": [
+    "average adj. 平均的；n. 平均"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "On average, sales increased by 5%. 平均銷售成長 5%（圖表題常見）；down from＝從～下降。"
+    }
+   ],
+   "forms": []
+  },
+  {
+   "n": 4,
+   "w": "fundamentally",
+   "s": 2,
+   "ph": "[͵fʌndəˋmɛntḷɪ]",
+   "pos": [
+    {
+     "p": "adv.",
+     "m": "根本上，本質上"
+    }
+   ],
+   "ex": [
+    {
+     "en": "This doesn’t necessarily mean our attention spans are fundamentally getting shorter.",
+     "zh": "這不一定代表我們的注意力持續時間本質上正在變短。",
+     "t": 43.2
+    }
+   ],
+   "fam": [
+    "fundamental adj. 基本的（Day 08 滿分單字）"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "not necessarily＝不一定（Day 08 necessarily）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adv.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "constantly",
+   "s": 3,
+   "ph": "[ˋkɑnstəntlɪ]",
+   "pos": [
+    {
+     "p": "adv.",
+     "m": "不斷地，經常地"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Our brains are constantly receiving a flood of information, from sensory input to environmental cues to internal thoughts.",
+     "zh": "我們的大腦不斷接收大量資訊，從感官刺激、環境線索到內在想法。",
+     "t": 69.1
+    }
+   ],
+   "fam": [
+    "constant adj. 持續的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "constantly changing market 不斷變化的市場；本句 cues＝線索、提示。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adv.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "rely on",
+   "s": 3,
+   "ph": "[rɪˋlaɪ ɑn]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "依靠，仰賴"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Filtering through it all relies on several brain regions.",
+     "zh": "過濾這一切要仰賴幾個大腦區域。",
+     "t": 77.1
+    }
+   ],
+   "fam": [
+    "reliable adj. 可靠的",
+    "reliance n. 依賴"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "rely on＝depend on＝count on（Day 04 滿分單字）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "relies on"
+      ],
+      [
+       "過去式",
+       "relied on"
+      ],
+      [
+       "過去分詞",
+       "relied on"
+      ],
+      [
+       "現在分詞",
+       "relying on"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "sustained",
+   "s": 2,
+   "ph": "[səˋstend]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "持續的，持久的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "The challenge of sustained attention is keeping that flashlight focused in one place.",
+     "zh": "持續專注的挑戰，在於讓那支手電筒一直照在同一個地方。",
+     "t": 93.0
+    }
+   ],
+   "fam": [
+    "sustain v. 維持",
+    "sustainable adj. 永續的（影片 4）"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "sustained growth 持續成長（財報常見）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "monitor",
+   "s": 3,
+   "ph": "[ˋmɑnətɚ]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "監控，監測"
+    },
+    {
+     "p": "n.",
+     "m": "螢幕"
+    }
+   ],
+   "ex": [
+    {
+     "en": "The brain is continuously monitoring all these competing signals.",
+     "zh": "大腦持續監控著這些互相競爭的訊號。",
+     "t": 98.7
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "monitor progress／performance 追蹤進度／表現（Day 09 滿分單字 need monitoring）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "monitors"
+      ],
+      [
+       "過去式",
+       "monitored"
+      ],
+      [
+       "過去分詞",
+       "monitored"
+      ],
+      [
+       "現在分詞",
+       "monitoring"
+      ]
+     ]
+    },
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "monitors"
+      ]
+     ]
+    }
+   ],
+   "der": [
+    "monitoring n. 監控"
+   ]
+  },
+  {
+   "n": 9,
+   "w": "inevitable",
+   "s": 2,
+   "ph": "[ɪnˋɛvətəbḷ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "不可避免的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So, while frustrating, getting distracted is inevitable.",
+     "zh": "所以，雖然令人沮喪，但分心是無法避免的。",
+     "t": 121.7
+    }
+   ],
+   "fam": [
+    "inevitably adv. 必然地（影片 3）"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "Delays are inevitable. 延誤是無法避免的。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "w": "factor",
+   "s": 3,
+   "ph": "[ˋfæktɚ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "因素"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And our baseline ability to manage distractions can vary based on factors like genetics and brain differences.",
+     "zh": "而我們應付分心的基本能力，會因基因和大腦差異等因素而不同。",
+     "t": 126.7
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a key factor in ～的關鍵因素；vary based on＝依～而不同（影片 6 vary）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "factors"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "w": "resource",
+   "s": 3,
+   "ph": "[rɪˋsors]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "資源"
+    }
+   ],
+   "ex": [
+    {
+     "en": "In fact, some researchers theorize that attention is a limited resource.",
+     "zh": "事實上，有些研究人員認為，注意力是一種有限的資源。",
+     "t": 163.7
+    }
+   ],
+   "fam": [
+    "resourceful adj. 足智多謀的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "human resources 人力資源；limited resources 有限的資源。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "resources"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "w": "intentionally",
+   "s": 2,
+   "ph": "[ɪnˋtɛnʃənḷɪ]",
+   "pos": [
+    {
+     "p": "adv.",
+     "m": "刻意地，故意地"
+    }
+   ],
+   "ex": [
+    {
+     "en": "That's why focusing on one task and intentionally building in breaks can be helpful.",
+     "zh": "所以專注在一項任務上，並刻意安排休息時間，會很有幫助。",
+     "t": 186.2
+    }
+   ],
+   "fam": [
+    "intention n. 意圖（Day 04）",
+    "intentional adj. 故意的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "反義 accidentally（Day 05）；build in breaks＝安排休息時間。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adv.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "w": "momentary",
+   "s": 1,
+   "ph": "[ˋmomən͵tɛrɪ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "短暫的，片刻的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Studies even show a momentary break, to get a snack or just zone out, can reset this attentional resource.",
+     "zh": "研究甚至顯示，短暫的休息，像是去拿個點心或只是放空一下，就能重置這種注意力資源。",
+     "t": 191.1
+    }
+   ],
+   "fam": [
+    "moment n. 片刻"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "Day 09 滿分單字；a momentary delay 短暫的延誤；zone out＝放空。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "w": "estimate",
+   "s": 3,
+   "ph": "[ˋɛstə͵met]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "估計"
+    },
+    {
+     "p": "n.",
+     "m": "估價，估計（名詞念 [ˋɛstəmɪt]）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "But one recent survey estimated that Americans now check their phones around 200 times a day.",
+     "zh": "但最近一項調查估計，美國人現在一天大約查看手機 200 次。",
+     "t": 275.5
+    }
+   ],
+   "fam": [
+    "estimated adj. 估計的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "an estimate for the repair 維修估價單（Part 3/7 必考）；estimated arrival time 預計抵達時間。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "estimates"
+      ],
+      [
+       "過去式",
+       "estimated"
+      ],
+      [
+       "過去分詞",
+       "estimated"
+      ],
+      [
+       "現在分詞",
+       "estimating"
+      ]
+     ]
+    },
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "estimates"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "w": "designed to",
+   "s": 3,
+   "ph": "[dɪˋzaɪnd tə]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "設計來～，目的是～"
+    }
+   ],
+   "ex": [
+    {
+     "en": "The distractions on our screens are designed to grab and hold attention.",
+     "zh": "螢幕上那些讓人分心的東西，本來就是設計來抓住並留住注意力的。",
+     "t": 282.0
+    }
+   ],
+   "fam": [
+    "design v. 設計"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "be designed to do 目的是～：The program is designed to help new employees. 這個計畫是為了幫助新進員工。"
+    }
+   ],
+   "forms": []
+  }
+ ],
+ "cloze": [
+  {
+   "s": "___ downloaded a program that tracked how long they stayed focused on a single computer application before switching to another.",
+   "a": "Participants",
+   "opts": [
+    "Participants",
+    "Constantly",
+    "Sustained",
+    "Inevitable"
+   ]
+  },
+  {
+   "s": "Our brains are ___ receiving a flood of information, from sensory input to environmental cues to internal thoughts.",
+   "a": "constantly",
+   "opts": [
+    "participants",
+    "constantly",
+    "sustained",
+    "inevitable"
+   ]
+  },
+  {
+   "s": "The challenge of ___ attention is keeping that flashlight focused in one place.",
+   "a": "sustained",
+   "opts": [
+    "participants",
+    "constantly",
+    "sustained",
+    "inevitable"
+   ]
+  },
+  {
+   "s": "So, while frustrating, getting distracted is ___.",
+   "a": "inevitable",
+   "opts": [
+    "participants",
+    "constantly",
+    "sustained",
+    "inevitable"
+   ]
+  },
+  {
+   "s": "And our baseline ability to manage distractions can vary based on ___ like genetics and brain differences.",
+   "a": "factors",
+   "opts": [
+    "factors",
+    "resource",
+    "intentionally",
+    "estimated"
+   ]
+  },
+  {
+   "s": "In fact, some researchers theorize that attention is a limited ___.",
+   "a": "resource",
+   "opts": [
+    "factors",
+    "resource",
+    "intentionally",
+    "estimated"
+   ]
+  },
+  {
+   "s": "That's why focusing on one task and ___ building in breaks can be helpful.",
+   "a": "intentionally",
+   "opts": [
+    "factors",
+    "resource",
+    "intentionally",
+    "estimated"
+   ]
+  },
+  {
+   "s": "But one recent survey ___ that Americans now check their phones around 200 times a day.",
+   "a": "estimated",
+   "opts": [
+    "factors",
+    "resource",
+    "intentionally",
+    "estimated"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "研究發現，人們平均能專注在單一任務上多久？",
+   "a": "40 秒（五年前是 75 秒）",
+   "opts": [
+    "40 秒（五年前是 75 秒）",
+    "75 秒（五年前是 40 秒）",
+    "15 分鐘",
+    "12 分鐘"
+   ]
+  },
+  {
+   "q": "影片說注意力像什麼？",
+   "a": "一種會隨時間消耗的有限資源",
+   "opts": [
+    "一種會隨時間消耗的有限資源",
+    "一種用不完的能力",
+    "只有天生才有的天賦",
+    "和年齡完全無關的東西"
+   ]
+  },
+  {
+   "q": "為什麼短暫的休息有幫助？",
+   "a": "能重置注意力，大腦也會重播剛學的內容來鞏固記憶",
+   "opts": [
+    "能重置注意力，大腦也會重播剛學的內容來鞏固記憶",
+    "休息可以完全取代睡眠",
+    "休息時可以一心多用",
+    "休息會讓人忘記不重要的事"
+   ]
+  },
+  {
+   "q": "研究中，哪一種散步對專注力的提升比較大？",
+   "a": "在戶外散步 15 分鐘",
+   "opts": [
+    "在戶外散步 15 分鐘",
+    "在室內散步 15 分鐘",
+    "邊散步邊看手機",
+    "散步一小時"
+   ]
+  },
+  {
+   "q": "影片最後建議現在就能做的一件事是？",
+   "a": "排除讓你分心的東西，例如關掉多餘分頁、封鎖某些 app",
+   "opts": [
+    "排除讓你分心的東西，例如關掉多餘分頁、封鎖某些 app",
+    "立刻去學冥想",
+    "一天只看手機一次",
+    "換一份比較簡單的工作"
+   ]
+  }
+ ]
+}

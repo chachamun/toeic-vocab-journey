@@ -1,0 +1,785 @@
+{
+ "id": "yt-JOs-q7rXqdk",
+ "course": "daily-video",
+ "publisher": "TED-Ed",
+ "video": "https://youtu.be/JOs-q7rXqdk",
+ "bbc": "",
+ "label": "影片 13",
+ "theme": "說好一個故事的 4 個方法",
+ "themeEn": "4 ways to tell a great story",
+ "release": "2026-10-06",
+ "words": [
+  {
+   "n": 1,
+   "w": "bond",
+   "s": 2,
+   "ph": "[bɑnd]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "連結，情誼；債券"
+    },
+    {
+     "p": "v.",
+     "m": "建立感情"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Your first job as a speaker is to build a trusting human bond with your audience.",
+     "zh": "身為講者，你的第一份工作是和觀眾建立信任的人際連結。",
+     "t": 7.4
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "build a bond with 和～建立連結；government bonds 政府公債（財經題的 bond）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "bonds"
+      ]
+     ]
+    },
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "bonds"
+      ],
+      [
+       "過去式",
+       "bonded"
+      ],
+      [
+       "過去分詞",
+       "bonded"
+      ],
+      [
+       "現在分詞",
+       "bonding"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "connect",
+   "s": 3,
+   "ph": "[kəˋnɛkt]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "連結，產生共鳴"
+    }
+   ],
+   "ex": [
+    {
+     "en": "One excellent way to connect to an audience is to tell a story.",
+     "zh": "和觀眾建立連結的絕佳方法之一，就是說故事。",
+     "t": 12.6
+    }
+   ],
+   "fam": [
+    "connection n. 連結；轉機",
+    "disconnected adj. 斷線的（Day 08 滿分單字）"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "connect with an audience 打動觀眾；connecting flight 轉機航班。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "connects"
+      ],
+      [
+       "過去式",
+       "connected"
+      ],
+      [
+       "過去分詞",
+       "connected"
+      ],
+      [
+       "現在分詞",
+       "connecting"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "ancestor",
+   "s": 2,
+   "ph": "[ˋænsɛstɚ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "祖先"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Really — evidence left behind from our ancient ancestors suggests that the human mind developed alongside human storytelling.",
+     "zh": "真的，遠古祖先留下的證據顯示，人類心智是隨著說故事一起發展的。",
+     "t": 19.8
+    }
+   ],
+   "fam": [
+    "ancestry n. 血統"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "our ancient ancestors 我們的遠古祖先。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "ancestors"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "communal",
+   "s": 1,
+   "ph": "[ˋkɑmjʊnḷ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "共同的，公共的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "In many cultures, one type of communal activity became very important: storytelling.",
+     "zh": "在許多文化中，有一種群體活動變得非常重要：說故事。",
+     "t": 47.5
+    }
+   ],
+   "fam": [
+    "community n. 社區"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a communal kitchen 共用廚房（租屋、宿舍廣告常見）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "obstacle",
+   "s": 2,
+   "ph": "[ˋɑbstəkḷ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "障礙"
+    }
+   ],
+   "ex": [
+    {
+     "en": "The most basic way of breaking down a story is this: a character with a goal meets an unexpected obstacle.",
+     "zh": "拆解故事最基本的方式是：一個有目標的角色遇到意想不到的阻礙。",
+     "t": 106.1
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "overcome an obstacle 克服障礙；an obstacle to success 成功的阻礙。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "obstacles"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "overcome",
+   "s": 3,
+   "ph": "[͵ovɚˋkʌm]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "克服"
+    }
+   ],
+   "ex": [
+    {
+     "en": "She tries to overcome that obstacle, which builds to a peak in the action.",
+     "zh": "她試圖克服那個阻礙，情節因此推向高潮。",
+     "t": 114.0
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "不規則動詞：overcome, overcame, overcome（Day 03 滿分單字）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "overcomes"
+      ],
+      [
+       "過去式",
+       "overcame"
+      ],
+      [
+       "過去分詞",
+       "overcome"
+      ],
+      [
+       "現在分詞",
+       "overcoming"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "resolution",
+   "s": 2,
+   "ph": "[͵rɛzəˋluʃən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "解決；決心；解析度"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Finally, there’s some kind of resolution to the conflict.",
+     "zh": "最後，衝突以某種方式得到解決。",
+     "t": 118.6
+    }
+   ],
+   "fam": [
+    "resolve v. 解決（Day 08）"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "conflict resolution 衝突解決；New Year's resolution 新年新希望。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "resolutions"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "empathize",
+   "s": 1,
+   "ph": "[ˋɛmpə͵θaɪz]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "產生共鳴，同理"
+    }
+   ],
+   "ex": [
+    {
+     "en": "1. Base the story around a character your audience can empathize with.",
+     "zh": "一，以觀眾能產生共鳴的角色為故事核心。",
+     "t": 128.5
+    }
+   ],
+   "fam": [
+    "empathy n. 同理心"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "empathize with customers 同理顧客（客服訓練常見）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "empathizes"
+      ],
+      [
+       "過去式",
+       "empathized"
+      ],
+      [
+       "過去分詞",
+       "empathized"
+      ],
+      [
+       "現在分詞",
+       "empathizing"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "w": "tension",
+   "s": 2,
+   "ph": "[ˋtɛnʃən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "緊張（感）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "2. Build tension, either through curiosity, relationship with other characters, or actual danger.",
+     "zh": "二，營造緊張感，可以透過好奇心、和其他角色的關係，或是真正的危險。",
+     "t": 134.2
+    }
+   ],
+   "fam": [
+    "tense adj. 緊張的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "build tension 營造緊張感；mounting tension 逐漸升高的緊張（Day 07）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "tensions"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "w": "actionable",
+   "s": 1,
+   "ph": "[ˋækʃənəbḷ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "可付諸行動的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "but they don’t necessarily give the audience something they can walk away with; a new way of understanding things, actionable information, context, hope.",
+     "zh": "但不一定能讓觀眾帶走什麼：一種理解事物的新方式、可以付諸行動的資訊、背景脈絡、希望。",
+     "t": 194.6
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "actionable insights 可執行的洞見（商業報告常用）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "w": "humility",
+   "s": 1,
+   "ph": "[hjuˋmɪlətɪ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "謙遜"
+    }
+   ],
+   "ex": [
+    {
+     "en": "But, if the journey reveals something powerful you have learned, and if each step in your journey is revealed with humility and honesty and vulnerability, it is a journey we will gladly take with you.",
+     "zh": "但如果這段旅程揭示了你學到的深刻道理，而且每一步都以謙遜、誠實和坦露脆弱的方式呈現，那我們會很樂意和你一起走這段旅程。",
+     "t": 221.0
+    }
+   ],
+   "fam": [
+    "humble adj. 謙虛的",
+    "humbling adj. 讓人謙卑的（影片 6）"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "本句 vulnerability＝坦露脆弱；gladly＝樂意地。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "w": "essential",
+   "s": 3,
+   "ph": "[ɪˋsɛnʃəl]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "必要的，不可或缺的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "There is one other piece that is absolutely essential if you’re going to tell your own story: it has to be true.",
+     "zh": "如果你要講自己的故事，還有一件絕對必要的事：它必須是真的。",
+     "t": 235.8
+    }
+   ],
+   "fam": [
+    "essentially adv. 本質上"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "be essential to／for 對～是必要的（Day 05 核心字）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more essential"
+      ],
+      [
+       "最高級",
+       "most essential"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "w": "exaggerate",
+   "s": 2,
+   "ph": "[ɪɡˋzædʒə͵ret]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "誇大"
+    }
+   ],
+   "ex": [
+    {
+     "en": "This may seem obvious, but sometimes speakers are tempted to exaggerate or even make a story up entirely.",
+     "zh": "這看起來很理所當然，但有時講者會忍不住誇大，甚至完全捏造故事。",
+     "t": 244.9
+    }
+   ],
+   "fam": [
+    "exaggeration n. 誇張"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "be tempted to do＝忍不住想做～；make up＝捏造。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "exaggerates"
+      ],
+      [
+       "過去式",
+       "exaggerated"
+      ],
+      [
+       "過去分詞",
+       "exaggerated"
+      ],
+      [
+       "現在分詞",
+       "exaggerating"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "w": "reputation",
+   "s": 3,
+   "ph": "[͵rɛpjəˋteʃən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "名聲，信譽"
+    }
+   ],
+   "ex": [
+    {
+     "en": "But even small exaggerations can quickly destroy your reputation.",
+     "zh": "但即使是小小的誇大，也可能迅速毀掉你的名聲。",
+     "t": 258.3
+    }
+   ],
+   "fam": [
+    "reputable adj. 聲譽好的（Day 07 滿分單字）"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "have a reputation for 以～聞名；damage one's reputation 損害名聲。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "reputations"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "w": "extraordinary",
+   "s": 2,
+   "ph": "[ɪkˋstrɔrdṇ͵ɛrɪ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "非凡的，特別的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "When you combine a truthful story with a desire to benefit others, you can give your listeners an extraordinary gift.",
+     "zh": "當你把真實的故事和造福他人的心意結合起來，就能給聽眾一份非凡的禮物。",
+     "t": 266.4
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "Day 07 滿分單字；an extraordinary opportunity 難得的機會。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more extraordinary"
+      ],
+      [
+       "最高級",
+       "most extraordinary"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "In many cultures, one type of ___ activity became very important: storytelling.",
+   "a": "communal",
+   "opts": [
+    "communal",
+    "obstacle",
+    "resolution",
+    "empathize"
+   ]
+  },
+  {
+   "s": "The most basic way of breaking down a story is this: a character with a goal meets an unexpected ___.",
+   "a": "obstacle",
+   "opts": [
+    "communal",
+    "obstacle",
+    "resolution",
+    "empathize"
+   ]
+  },
+  {
+   "s": "Finally, there’s some kind of ___ to the conflict.",
+   "a": "resolution",
+   "opts": [
+    "communal",
+    "obstacle",
+    "resolution",
+    "empathize"
+   ]
+  },
+  {
+   "s": "1. Base the story around a character your audience can ___ with.",
+   "a": "empathize",
+   "opts": [
+    "communal",
+    "obstacle",
+    "resolution",
+    "empathize"
+   ]
+  },
+  {
+   "s": "but they don’t necessarily give the audience something they can walk away with; a new way of understanding things, ___ information, context, hope.",
+   "a": "actionable",
+   "opts": [
+    "actionable",
+    "essential",
+    "exaggerate",
+    "reputation"
+   ]
+  },
+  {
+   "s": "There is one other piece that is absolutely ___ if you’re going to tell your own story: it has to be true.",
+   "a": "essential",
+   "opts": [
+    "actionable",
+    "essential",
+    "exaggerate",
+    "reputation"
+   ]
+  },
+  {
+   "s": "This may seem obvious, but sometimes speakers are tempted to ___ or even make a story up entirely.",
+   "a": "exaggerate",
+   "opts": [
+    "actionable",
+    "essential",
+    "exaggerate",
+    "reputation"
+   ]
+  },
+  {
+   "s": "But even small exaggerations can quickly destroy your ___.",
+   "a": "reputation",
+   "opts": [
+    "actionable",
+    "essential",
+    "exaggerate",
+    "reputation"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "影片說講者的第一份工作是什麼？",
+   "a": "和觀眾建立信任的連結",
+   "opts": [
+    "和觀眾建立信任的連結",
+    "把投影片做得漂亮",
+    "講越多資訊越好",
+    "讓觀眾大笑"
+   ]
+  },
+  {
+   "q": "故事最基本的結構是？",
+   "a": "有目標的角色遇到阻礙、試圖克服，最後衝突得到解決",
+   "opts": [
+    "有目標的角色遇到阻礙、試圖克服，最後衝突得到解決",
+    "先講結論再講過程",
+    "只要有好笑的結尾就好",
+    "列出所有相關數據"
+   ]
+  },
+  {
+   "q": "在台上說故事的四個關鍵，不包括哪一個？",
+   "a": "細節越多越好",
+   "opts": [
+    "細節越多越好",
+    "讓觀眾能同理主角",
+    "營造緊張感",
+    "有令人滿意的結尾"
+   ]
+  },
+  {
+   "q": "只講個人故事有什麼陷阱？",
+   "a": "可能只是讓講者自我感覺良好，觀眾帶不走任何東西",
+   "opts": [
+    "可能只是讓講者自我感覺良好，觀眾帶不走任何東西",
+    "觀眾一定會覺得無聊",
+    "個人故事都不可信",
+    "會超過演講時間"
+   ]
+  },
+  {
+   "q": "為什麼講故事不能誇大？",
+   "a": "即使小小的誇大也可能迅速毀掉名聲",
+   "opts": [
+    "即使小小的誇大也可能迅速毀掉名聲",
+    "誇大會讓故事太長",
+    "觀眾不喜歡好笑的故事",
+    "主辦單位會禁止"
+   ]
+  }
+ ]
+}

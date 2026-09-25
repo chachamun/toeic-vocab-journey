@@ -273,3 +273,46 @@ extensive	adj: more extensive, most extensive	—
 fluctuate	v: fluctuates, fluctuated, fluctuated, fluctuating	—
 multitask	v: multitasks, multitasked, multitasked, multitasking	—
 restrain	v: restrains, restrained, restrained, restraining	—
+attention span	n: attention spans	—
+participant	n: participants	—
+on average	—	—
+fundamentally	adv: 無比較級	—
+constantly	adv: 無比較級	—
+rely on	v: relies on, relied on, relied on, relying on	—
+sustained	adj: 無比較級	—
+inevitable	adj: 無比較級	—
+factor	n: factors	—
+resource	n: resources	—
+intentionally	adv: 無比較級	—
+momentary	adj: 無比較級	—
+estimate	v: estimates, estimated, estimated, estimating ; n: estimates	—
+designed to	—	—
+compete	v: competes, competed, competed, competing	—
+equipped	adj: 無比較級	—
+daunting	adj: more daunting, most daunting	—
+facilitate	v: facilitates, facilitated, facilitated, facilitating	—
+consist of	v: consists of, consisted of, consisted of, consisting of	—
+associate	v: associates, associated, associated, associating ; n: associates	—
+sequence	n: sequences	—
+breakthrough	n: breakthroughs	—
+adapt	v: adapts, adapted, adapted, adapting	—
+account for	v: accounts for, accounted for, accounted for, accounting for	—
+distinct	adj: more distinct, most distinct	—
+significant	adj: more significant, most significant	—
+reliably	adv: more reliably, most reliably	—
+impair	v: impairs, impaired, impaired, impairing	—
+familiar	adj: more familiar, most familiar	unfamiliar adj. 不熟悉的（反義）
+bond	n: bonds ; v: bonds, bonded, bonded, bonding	—
+connect	v: connects, connected, connected, connecting	—
+ancestor	n: ancestors	—
+communal	adj: 無比較級	—
+obstacle	n: obstacles	—
+resolution	n: resolutions	—
+empathize	v: empathizes, empathized, empathized, empathizing	—
+tension	n: tensions	—
+actionable	adj: 無比較級	—
+humility	n: 不可數	—
+essential	adj: more essential, most essential	—
+exaggerate	v: exaggerates, exaggerated, exaggerated, exaggerating	—
+reputation	n: reputations	—
+extraordinary	adj: more extraordinary, most extraordinary	—
