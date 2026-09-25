@@ -258,3 +258,18 @@ engage	v: engages, engaged, engaged, engaging	—
 alternate	v: alternates, alternated, alternated, alternating ; adj: 無比較級	—
 billboard	n: billboards	—
 admire	v: admires, admired, admired, admiring	—
+fruitful	adj: more fruitful, most fruitful	—
+disciplined	adj: more disciplined, most disciplined	—
+wording	n: wordings	—
+profound	adj: more profound, most profound	—
+conclusion	n: conclusions	—
+doable	adj: 無比較級	—
+hands-on	adj: 無比較級	—
+mimic	v: mimics, mimicked, mimicked, mimicking	—
+dictation	n: 不可數	—
+acquire	v: acquires, acquired, acquired, acquiring	—
+lengthy	adj: lengthier, lengthiest	—
+extensive	adj: more extensive, most extensive	—
+fluctuate	v: fluctuates, fluctuated, fluctuated, fluctuating	—
+multitask	v: multitasks, multitasked, multitasked, multitasking	—
+restrain	v: restrains, restrained, restrained, restraining	—

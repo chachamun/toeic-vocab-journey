@@ -117,6 +117,8 @@ def check_verb(word, f):
     third, past, ing = regular(base)
     if base in DOUBLE and base != 'spike':
         past, ing = base + base[-1] + 'ed', base + base[-1] + 'ing'
+    if base in ('mimic', 'panic', 'picnic', 'traffic'):          # -ic 結尾加 k：mimicked, mimicking
+        past, ing = base + 'ked', base + 'king'
     exp_past, exp_pp = IRREG.get(base, (past, past))
     if base == 'is':
         third, ing = 'is', 'being'

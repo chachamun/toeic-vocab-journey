@@ -15,7 +15,7 @@
      python tools/build_video_units.py course
        讀 tools/episodes/*.json → 寫 courses/bbc-6min.js（依標籤排序）
 """
-import io, json, os, sys, glob
+import io, json, os, re, sys, glob
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EP_DIR = os.path.join(ROOT, 'tools', 'episodes')
@@ -104,7 +104,7 @@ def build_course():
         if not units:
             continue
         meta = COURSES[cid]
-        units.sort(key=lambda u: u['label'])
+        units.sort(key=lambda u: [int(t) if t.isdigit() else t for t in re.split(r'(\d+)', u['label'])])   # 影片 10 排在影片 9 後面
         course = {'id': cid, 'name': meta['name'], 'kind': 'video', 'units': units}
         head = ('/* %s 影片課程 — 由 tools/build_video_units.py 產生，請勿手改。\n'
                 '   要改內容：編 tools/episodes/<影片ID>.json 後重跑 `python tools/build_video_units.py course`。\n'

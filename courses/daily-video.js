@@ -8550,6 +8550,947 @@ TVJ.register({
      ]
     }
    ]
+  },
+  {
+   "id": "yt-VtspPDHCBMQ",
+   "label": "影片 10",
+   "theme": "揭密成功人士的每日作息",
+   "themeEn": "Revealing the DAILY ROUTINES of SUCCESSFUL people | Hey Tablo Ep. 21",
+   "video": "https://youtu.be/VtspPDHCBMQ",
+   "source": "",
+   "publisher": "TABLO（Hey Tablo Podcast）",
+   "release": "2026-10-03",
+   "transcript": "transcripts/VtspPDHCBMQ.json",
+   "lines": 449,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "fruitful",
+     "s": 1,
+     "ph": "[ˋfrutfəl]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "有成果的，有收穫的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Like if you have some sort of structure or like a basic blueprint of how each day should go, uh it does help you have a more fruitful day.",
+       "zh": "如果你有某種架構，或是一天該怎麼過的基本藍圖，呃，真的能幫你過得更有收穫。",
+       "t": 58.9,
+       "aus": {
+        "US": "tts/VtspPDHCBMQ/w1_e0_US.mp3",
+        "UK": "tts/VtspPDHCBMQ/w1_e0_UK.mp3",
+        "AU": "tts/VtspPDHCBMQ/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "fruitless adj. 徒勞無功的（反義）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a fruitful discussion／meeting 有成果的討論／會議（會議紀錄、商業書信常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more fruitful"
+        ],
+        [
+         "最高級",
+         "most fruitful"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/VtspPDHCBMQ/w1_US.mp3",
+      "UK": "tts/VtspPDHCBMQ/w1_UK.mp3",
+      "AU": "tts/VtspPDHCBMQ/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "disciplined",
+     "s": 2,
+     "ph": "[ˋdɪsəplɪnd]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "自律的，有紀律的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "For a person who's so disciplined, he snacks a long time.",
+       "zh": "一個這麼自律的人，吃點心吃這麼久。",
+       "t": 181.1,
+       "aus": {
+        "US": "tts/VtspPDHCBMQ/w2_e0_US.mp3",
+        "UK": "tts/VtspPDHCBMQ/w2_e0_UK.mp3",
+        "AU": "tts/VtspPDHCBMQ/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "discipline n. 紀律（Day 08 滿分單字）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a disciplined approach 有紀律的做法；self-discipline 自律。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more disciplined"
+        ],
+        [
+         "最高級",
+         "most disciplined"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/VtspPDHCBMQ/w2_US.mp3",
+      "UK": "tts/VtspPDHCBMQ/w2_UK.mp3",
+      "AU": "tts/VtspPDHCBMQ/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "wording",
+     "s": 1,
+     "ph": "[ˋwɝdɪŋ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "措辭，用字"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So um so one lesson we can take from this uh Benjamin Franklin schedule is wording matters.",
+       "zh": "所以從富蘭克林的行程表可以學到一課：措辭很重要。",
+       "t": 555.1,
+       "aus": {
+        "US": "tts/VtspPDHCBMQ/w3_e0_US.mp3",
+        "UK": "tts/VtspPDHCBMQ/w3_e0_UK.mp3",
+        "AU": "tts/VtspPDHCBMQ/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "word v. 用字表達"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "change the wording of the contract 修改合約措辭（合約、公告修訂常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "wordings"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/VtspPDHCBMQ/w3_US.mp3",
+      "UK": "tts/VtspPDHCBMQ/w3_UK.mp3",
+      "AU": "tts/VtspPDHCBMQ/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "profound",
+     "s": 1,
+     "ph": "[prəˋfaʊnd]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "深刻的，深遠的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "But if you look at his day, it's not like he's doing anything like these famous people are doing anything like significantly more important or profound than than we do.",
+       "zh": "但你看他的一天，這些名人做的事並沒有比我們重要或深刻多少。",
+       "t": 584.7,
+       "aus": {
+        "US": "tts/VtspPDHCBMQ/w4_e0_US.mp3",
+        "UK": "tts/VtspPDHCBMQ/w4_e0_UK.mp3",
+        "AU": "tts/VtspPDHCBMQ/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "profoundly adv. 深深地"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a profound impact on 對～有深遠的影響。本句 significantly＝顯著地。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more profound"
+        ],
+        [
+         "最高級",
+         "most profound"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/VtspPDHCBMQ/w4_US.mp3",
+      "UK": "tts/VtspPDHCBMQ/w4_UK.mp3",
+      "AU": "tts/VtspPDHCBMQ/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "conclusion",
+     "s": 3,
+     "ph": "[kənˋkluʒən]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "結論；結束"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And usually the conclusion is I can't do this.",
+       "zh": "通常結論都是：我做不到。",
+       "t": 640.6,
+       "aus": {
+        "US": "tts/VtspPDHCBMQ/w5_e0_US.mp3",
+        "UK": "tts/VtspPDHCBMQ/w5_e0_UK.mp3",
+        "AU": "tts/VtspPDHCBMQ/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "conclude v. 下結論（Day 07 滿分單字）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "come to／reach a conclusion 得出結論；in conclusion 總而言之。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "conclusions"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/VtspPDHCBMQ/w5_US.mp3",
+      "UK": "tts/VtspPDHCBMQ/w5_UK.mp3",
+      "AU": "tts/VtspPDHCBMQ/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "doable",
+     "s": 1,
+     "ph": "[ˋduəbḷ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "做得到的，可行的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "It's actually pretty doable and cool and strangely enough very very similar to my daily routine.",
+       "zh": "這其實滿可行的，也很酷，而且奇怪的是，跟我的每日作息非常非常像。",
+       "t": 803.5,
+       "aus": {
+        "US": "tts/VtspPDHCBMQ/w6_e0_US.mp3",
+        "UK": "tts/VtspPDHCBMQ/w6_e0_UK.mp3",
+        "AU": "tts/VtspPDHCBMQ/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "口語常用，較正式的同義字是 feasible（Day 08 滿分單字）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/VtspPDHCBMQ/w6_US.mp3",
+      "UK": "tts/VtspPDHCBMQ/w6_UK.mp3",
+      "AU": "tts/VtspPDHCBMQ/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "hands-on",
+     "s": 2,
+     "ph": "[ˋhændzˋɑn]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "親力親為的；實際操作的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Yeah, Steve Jobs was um he was very hands-on with everything that was going on at Apple, but most of all uh the design lab because he wanted to look at how uh the future products actually felt like in the hand, right?",
+       "zh": "對，賈伯斯對蘋果的所有事都非常親力親為，但最重要的是設計實驗室，因為他想看未來的產品拿在手上是什麼感覺，對吧？",
+       "t": 927.5,
+       "aus": {
+        "US": "tts/VtspPDHCBMQ/w7_e0_US.mp3",
+        "UK": "tts/VtspPDHCBMQ/w7_e0_UK.mp3",
+        "AU": "tts/VtspPDHCBMQ/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "hands-on experience 實務經驗（徵才廣告必考）；a hands-on manager 事必躬親的主管。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/VtspPDHCBMQ/w7_US.mp3",
+      "UK": "tts/VtspPDHCBMQ/w7_UK.mp3",
+      "AU": "tts/VtspPDHCBMQ/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "mimic",
+     "s": 1,
+     "ph": "[ˋmɪmɪk]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "模仿"
+      }
+     ],
+     "ex": [
+      {
+       "en": "The fact that there are so many people trying just, you know, just flat out exactly mimicking a famous person or a successful person's daily schedule is it's not going to work is what I want to say.",
+       "zh": "我想說的是，這麼多人直接一模一樣地模仿名人或成功人士的每日行程，是不會成功的。",
+       "t": 1032.8,
+       "aus": {
+        "US": "tts/VtspPDHCBMQ/w8_e0_US.mp3",
+        "UK": "tts/VtspPDHCBMQ/w8_e0_UK.mp3",
+        "AU": "tts/VtspPDHCBMQ/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "注意變化：mimicked、mimicking（加 k）；同義 imitate、copy。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "mimics"
+        ],
+        [
+         "過去式",
+         "mimicked"
+        ],
+        [
+         "過去分詞",
+         "mimicked"
+        ],
+        [
+         "現在分詞",
+         "mimicking"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/VtspPDHCBMQ/w8_US.mp3",
+      "UK": "tts/VtspPDHCBMQ/w8_UK.mp3",
+      "AU": "tts/VtspPDHCBMQ/w8_AU.mp3"
+     }
+    },
+    {
+     "n": 9,
+     "w": "dictation",
+     "s": 1,
+     "ph": "[dɪkˋteʃən]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "聽寫，口述記錄"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Like he he's literally in bed uh with breakfast in bed and he has someone he always has someone taking dictation.",
+       "zh": "他真的就在床上吃早餐，而且身邊總有一個人在幫他聽寫。",
+       "t": 1259.0,
+       "aus": {
+        "US": "tts/VtspPDHCBMQ/w9_e0_US.mp3",
+        "UK": "tts/VtspPDHCBMQ/w9_e0_UK.mp3",
+        "AU": "tts/VtspPDHCBMQ/w9_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "dictate v. 口述；規定"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "take dictation 做口述記錄（祕書工作）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/VtspPDHCBMQ/w9_US.mp3",
+      "UK": "tts/VtspPDHCBMQ/w9_UK.mp3",
+      "AU": "tts/VtspPDHCBMQ/w9_AU.mp3"
+     }
+    },
+    {
+     "n": 10,
+     "w": "acquire",
+     "s": 2,
+     "ph": "[əˋkwaɪr]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "獲得，養成；收購"
+      }
+     ],
+     "ex": [
+      {
+       "en": "A habit acquired during his time in Cuba.",
+       "zh": "這是他在古巴時養成的習慣。",
+       "t": 1328.9,
+       "aus": {
+        "US": "tts/VtspPDHCBMQ/w10_e0_US.mp3",
+        "UK": "tts/VtspPDHCBMQ/w10_e0_UK.mp3",
+        "AU": "tts/VtspPDHCBMQ/w10_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "acquisition n. 收購"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "acquire a skill／habit 習得技能／養成習慣；acquire a company 收購公司（財經必考）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "acquires"
+        ],
+        [
+         "過去式",
+         "acquired"
+        ],
+        [
+         "過去分詞",
+         "acquired"
+        ],
+        [
+         "現在分詞",
+         "acquiring"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/VtspPDHCBMQ/w10_US.mp3",
+      "UK": "tts/VtspPDHCBMQ/w10_UK.mp3",
+      "AU": "tts/VtspPDHCBMQ/w10_AU.mp3"
+     }
+    },
+    {
+     "n": 11,
+     "w": "lengthy",
+     "s": 2,
+     "ph": "[ˋlɛŋθɪ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "冗長的，漫長的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Okay. 6:30, wake up, bath, dress for dinner. 8:00 p.m. lengthy uh dinner with guests with an imperial pint of champagne.",
+       "zh": "好。6:30 起床、洗澡、換裝準備晚餐。8:00 和賓客吃很久的晚餐，配一品脫香檳。",
+       "t": 1331.8,
+       "aus": {
+        "US": "tts/VtspPDHCBMQ/w11_e0_US.mp3",
+        "UK": "tts/VtspPDHCBMQ/w11_e0_UK.mp3",
+        "AU": "tts/VtspPDHCBMQ/w11_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "length n. 長度（Day 06 滿分單字）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a lengthy process／meeting 漫長的程序／會議。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "lengthier"
+        ],
+        [
+         "最高級",
+         "lengthiest"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/VtspPDHCBMQ/w11_US.mp3",
+      "UK": "tts/VtspPDHCBMQ/w11_UK.mp3",
+      "AU": "tts/VtspPDHCBMQ/w11_AU.mp3"
+     }
+    },
+    {
+     "n": 12,
+     "w": "extensive",
+     "s": 2,
+     "ph": "[ɪkˋstɛnsɪv]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "廣泛的，大量的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And most celebrities have like really like extensive uh like elaborate riders like some you know you know the famous thing about Mariah Carey her writer says like she needs a tub full of like Evian water.",
+       "zh": "大部分名人都有非常詳盡、很誇張的需求清單，像是瑪麗亞凱莉有個有名的說法，她的清單寫著需要一整缸的 Evian 礦泉水。",
+       "t": 2005.2,
+       "aus": {
+        "US": "tts/VtspPDHCBMQ/w12_e0_US.mp3",
+        "UK": "tts/VtspPDHCBMQ/w12_e0_UK.mp3",
+        "AU": "tts/VtspPDHCBMQ/w12_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "extend v. 延長（Day 05）",
+      "extensively adv. 廣泛地"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "extensive experience 豐富的經驗（履歷、徵才必考）；本句 elaborate＝精心複雜的，rider＝演出需求清單。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more extensive"
+        ],
+        [
+         "最高級",
+         "most extensive"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/VtspPDHCBMQ/w12_US.mp3",
+      "UK": "tts/VtspPDHCBMQ/w12_UK.mp3",
+      "AU": "tts/VtspPDHCBMQ/w12_AU.mp3"
+     }
+    },
+    {
+     "n": 13,
+     "w": "fluctuate",
+     "s": 2,
+     "ph": "[ˋflʌktʃʊ͵et]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "波動，變動"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Uh so it'll fluctuate. But if we have a pretty quiet week or so, this would be our typical daily schedule. Okay.",
+       "zh": "呃，所以會有變動。但如果是比較清閒的一週，這就是我們典型的每日行程。好。",
+       "t": 1861.8,
+       "aus": {
+        "US": "tts/VtspPDHCBMQ/w13_e0_US.mp3",
+        "UK": "tts/VtspPDHCBMQ/w13_e0_UK.mp3",
+        "AU": "tts/VtspPDHCBMQ/w13_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "fluctuation n. 波動（Day 09 滿分單字）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "Prices fluctuate depending on demand. 價格隨需求波動。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "fluctuates"
+        ],
+        [
+         "過去式",
+         "fluctuated"
+        ],
+        [
+         "過去分詞",
+         "fluctuated"
+        ],
+        [
+         "現在分詞",
+         "fluctuating"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/VtspPDHCBMQ/w13_US.mp3",
+      "UK": "tts/VtspPDHCBMQ/w13_UK.mp3",
+      "AU": "tts/VtspPDHCBMQ/w13_AU.mp3"
+     }
+    },
+    {
+     "n": 14,
+     "w": "multitask",
+     "s": 1,
+     "ph": "[͵mʌltɪˋtæsk]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "同時處理多項工作"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So, I'm always uh multitasking.",
+       "zh": "所以我總是在一心多用。",
+       "t": 2116.7,
+       "aus": {
+        "US": "tts/VtspPDHCBMQ/w14_e0_US.mp3",
+        "UK": "tts/VtspPDHCBMQ/w14_e0_UK.mp3",
+        "AU": "tts/VtspPDHCBMQ/w14_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "multitasking n. 多工處理"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "the ability to multitask 能同時處理多項任務（徵才條件常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "multitasks"
+        ],
+        [
+         "過去式",
+         "multitasked"
+        ],
+        [
+         "過去分詞",
+         "multitasked"
+        ],
+        [
+         "現在分詞",
+         "multitasking"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/VtspPDHCBMQ/w14_US.mp3",
+      "UK": "tts/VtspPDHCBMQ/w14_UK.mp3",
+      "AU": "tts/VtspPDHCBMQ/w14_AU.mp3"
+     }
+    },
+    {
+     "n": 15,
+     "w": "restrain",
+     "s": 2,
+     "ph": "[rɪˋstren]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "克制，抑制"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I have to restrain myself from going in more and have to work hard to like text more than they usually do.",
+       "zh": "我得克制自己不要傳更多，還得努力傳得比平常多。",
+       "t": 2604.2,
+       "aus": {
+        "US": "tts/VtspPDHCBMQ/w15_e0_US.mp3",
+        "UK": "tts/VtspPDHCBMQ/w15_e0_UK.mp3",
+        "AU": "tts/VtspPDHCBMQ/w15_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "restraint n. 克制（Day 05 滿分單字）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "restrain oneself from -ing 克制自己不去做～。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "restrains"
+        ],
+        [
+         "過去式",
+         "restrained"
+        ],
+        [
+         "過去分詞",
+         "restrained"
+        ],
+        [
+         "現在分詞",
+         "restraining"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/VtspPDHCBMQ/w15_US.mp3",
+      "UK": "tts/VtspPDHCBMQ/w15_UK.mp3",
+      "AU": "tts/VtspPDHCBMQ/w15_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "For a person who's so ___, he snacks a long time.",
+     "a": "disciplined",
+     "opts": [
+      "disciplined",
+      "conclusion",
+      "doable",
+      "hands-on"
+     ]
+    },
+    {
+     "s": "And usually the ___ is I can't do this.",
+     "a": "conclusion",
+     "opts": [
+      "disciplined",
+      "conclusion",
+      "doable",
+      "hands-on"
+     ]
+    },
+    {
+     "s": "It's actually pretty ___ and cool and strangely enough very very similar to my daily routine.",
+     "a": "doable",
+     "opts": [
+      "disciplined",
+      "conclusion",
+      "doable",
+      "hands-on"
+     ]
+    },
+    {
+     "s": "Yeah, Steve Jobs was um he was very ___ with everything that was going on at Apple, but most of all uh the design lab because he wanted to look at how uh the future products actually felt like in the hand, right?",
+     "a": "hands-on",
+     "opts": [
+      "disciplined",
+      "conclusion",
+      "doable",
+      "hands-on"
+     ]
+    },
+    {
+     "s": "A habit ___ during his time in Cuba.",
+     "a": "acquired",
+     "opts": [
+      "acquired",
+      "lengthy",
+      "fluctuate",
+      "restrain"
+     ]
+    },
+    {
+     "s": "Okay. 6:30, wake up, bath, dress for dinner. 8:00 p.m. ___ uh dinner with guests with an imperial pint of champagne.",
+     "a": "lengthy",
+     "opts": [
+      "acquired",
+      "lengthy",
+      "fluctuate",
+      "restrain"
+     ]
+    },
+    {
+     "s": "Uh so it'll ___. But if we have a pretty quiet week or so, this would be our typical daily schedule. Okay.",
+     "a": "fluctuate",
+     "opts": [
+      "acquired",
+      "lengthy",
+      "fluctuate",
+      "restrain"
+     ]
+    },
+    {
+     "s": "I have to ___ myself from going in more and have to work hard to like text more than they usually do.",
+     "a": "restrain",
+     "opts": [
+      "acquired",
+      "lengthy",
+      "fluctuate",
+      "restrain"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "Tablo 覺得馬克華伯格的作息哪裡最好笑？",
+     "a": "一天花兩個半小時吃點心",
+     "opts": [
+      "一天花兩個半小時吃點心",
+      "他每天洗三次澡",
+      "他晚上 11 點才吃晚餐",
+      "他從不運動"
+     ]
+    },
+    {
+     "q": "從富蘭克林的作息表，Tablo 說可以學到什麼？",
+     "a": "措辭很重要",
+     "opts": [
+      "措辭很重要",
+      "一定要早上 5 點起床",
+      "晚上要喝干邑",
+      "不要吃早餐"
+     ]
+    },
+    {
+     "q": "村上春樹的一天分成哪四個區塊？",
+     "a": "寫作、運動、休閒、睡覺",
+     "opts": [
+      "寫作、運動、休閒、睡覺",
+      "開會、打電話、吃飯、睡覺",
+      "跑步、游泳、打拳擊、睡覺",
+      "寫作、喝酒、午睡、工作"
+     ]
+    },
+    {
+     "q": "Tablo 的演出需求清單現在只寫了什麼？",
+     "a": "瑜伽墊",
+     "opts": [
+      "瑜伽墊",
+      "奶茶",
+      "一整缸礦泉水",
+      "特定的枕頭"
+     ]
+    },
+    {
+     "q": "Tablo 對每日作息的結論是？",
+     "a": "要有作息，但要找適合自己的，不要照抄名人",
+     "opts": [
+      "要有作息，但要找適合自己的，不要照抄名人",
+      "照抄成功人士的作息就會成功",
+      "作息一點都不重要",
+      "每個人都該凌晨起床"
+     ]
+    }
+   ]
   }
  ]
 });
