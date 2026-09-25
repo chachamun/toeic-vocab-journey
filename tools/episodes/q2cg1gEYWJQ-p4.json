@@ -1,0 +1,816 @@
+{
+ "id": "yt-q2cg1gEYWJQ-p4",
+ "course": "daily-video",
+ "publisher": "The Diary Of A CEO（Steven Bartlett）",
+ "video": "https://youtu.be/q2cg1gEYWJQ?t=6371",
+ "bbc": "",
+ "label": "影片 24（4/4）",
+ "theme": "Vanessa Van Edwards：五種原型、優雅退場與氣場",
+ "themeEn": "Vanessa Van Edwards: The Conversation Habit That Makes Smart People Unlikable (Part 4)",
+ "release": "2026-10-17",
+ "words": [
+  {
+   "n": 1,
+   "w": "fatigue",
+   "s": 2,
+   "ph": "[fəˋtig]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "疲勞"
+    }
+   ],
+   "ex": [
+    {
+     "en": "They have compassion burnout or compassion fatigue because they are giving and giving and giving and giving. They cannot say no.",
+     "zh": "他們會有同理心倦怠或同理心疲勞，因為他們一直付出、付出、付出、付出。他們沒辦法說不。",
+     "t": 6424.3
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "compassion fatigue 同理心疲勞；driver fatigue 駕駛疲勞。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "nurture",
+   "s": 1,
+   "ph": "[ˋnɝtʃɚ]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "培育，照顧"
+    },
+    {
+     "p": "n.",
+     "m": "養育"
+    }
+   ],
+   "ex": [
+    {
+     "en": "They are they are nurturers. They are giving.",
+     "zh": "他們是照顧者。他們很會付出。",
+     "t": 6436.8
+    }
+   ],
+   "fam": [
+    "nurturer n. 照顧者"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "nurture talent 培育人才；nurture client relationships 經營客戶關係。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "nurtures"
+      ],
+      [
+       "過去式",
+       "nurtured"
+      ],
+      [
+       "過去分詞",
+       "nurtured"
+      ],
+      [
+       "現在分詞",
+       "nurturing"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "conflict",
+   "s": 3,
+   "ph": "[ˋkɑnflɪkt]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "衝突；（時間）撞期"
+    }
+   ],
+   "ex": [
+    {
+     "en": "They attract high conflict people.",
+     "zh": "他們會吸引高衝突型的人。",
+     "t": 6482.5
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "schedule conflict 行程衝突（改約 email 必考）；conflict of interest 利益衝突。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "conflicts"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "performance",
+   "s": 3,
+   "ph": "[pɚˋfɔrməns]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "績效，表現；演出"
+    }
+   ],
+   "ex": [
+    {
+     "en": "These are great if you have a not always but often managers can do great things as selfless helpers because they are so attuned to others but they are very good at bringing out performance.",
+     "zh": "這些很棒，如果你有……不一定，但通常主管如果是無私的助人者，可以做得很出色，因為他們對別人非常敏銳，也非常擅長帶出績效。",
+     "t": 6626.5
+    }
+   ],
+   "fam": [
+    "perform v. 執行；表演"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "performance review 績效考核；bring out performance 激發表現。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "performances"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "avoidant",
+   "s": 1,
+   "ph": "[əˋvɔɪdənt]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "逃避的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "These people tend to be a little bit conflict avoidant.",
+     "zh": "這些人往往有點逃避衝突。",
+     "t": 6662.3
+    }
+   ],
+   "fam": [
+    "avoid v. 避免"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "conflict-avoidant 逃避衝突的；avoid + V-ing（Part 5 必考）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more avoidant"
+      ],
+      [
+       "最高級",
+       "most avoidant"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "refine",
+   "s": 2,
+   "ph": "[rɪˋfaɪn]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "改進，精煉"
+    }
+   ],
+   "ex": [
+    {
+     "en": "It helps me be sort of refine my my my own points of view",
+     "zh": "這幫助我精煉自己的觀點，",
+     "t": 6823.5
+    }
+   ],
+   "fam": [
+    "refinement n. 改良"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "refine the proposal 修改精進提案。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "refines"
+      ],
+      [
+       "過去式",
+       "refined"
+      ],
+      [
+       "過去分詞",
+       "refined"
+      ],
+      [
+       "現在分詞",
+       "refining"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "overlook",
+   "s": 2,
+   "ph": "[͵ovɚˋlʊk]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "忽視，忽略；俯瞰"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And they feel that no matter what they've done, they are unlucky. They are struggling. They often feel stuck. They often feel misunderstood. They often feel overlooked.",
+     "zh": "他們覺得不管自己做了什麼，都很倒楣。他們在掙扎。他們常覺得卡住。他們常覺得被誤解。他們常覺得被忽視。",
+     "t": 6878.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "feel overlooked 覺得被忽視；a room overlooking the ocean 海景房（飯店題）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "overlooks"
+      ],
+      [
+       "過去式",
+       "overlooked"
+      ],
+      [
+       "過去分詞",
+       "overlooked"
+      ],
+      [
+       "現在分詞",
+       "overlooking"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "graceful",
+   "s": 2,
+   "ph": "[ˋgresfəl]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "優雅的，得體的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Oh my goodness. Uh it's called a graceful exit.",
+     "zh": "天啊。呃，這叫做「優雅退場」。",
+     "t": 6954.0
+    }
+   ],
+   "fam": [
+    "grace n. 優雅；寬限期（grace period）"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a graceful exit 得體地離開。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more graceful"
+      ],
+      [
+       "最高級",
+       "most graceful"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "w": "broadcast",
+   "s": 2,
+   "ph": "[ˋbrɔd͵kæst]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "廣播，傳播；明顯表現"
+    },
+    {
+     "p": "n.",
+     "m": "廣播節目"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So we like people who are very clearly broadcasting likes.",
+     "zh": "所以我們喜歡非常明顯表達喜歡的人。",
+     "t": 7286.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "broadcast live 現場直播；三態 broadcast-broadcast-broadcast。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "broadcasts"
+      ],
+      [
+       "過去式",
+       "broadcast"
+      ],
+      [
+       "過去分詞",
+       "broadcast"
+      ],
+      [
+       "現在分詞",
+       "broadcasting"
+      ]
+     ]
+    },
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "broadcasts"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "w": "competence",
+   "s": 2,
+   "ph": "[ˋkɑmpətəns]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "能力，勝任"
+    }
+   ],
+   "ex": [
+    {
+     "en": "But also two, and we talked about this a little bit last time, is fundamentally 82% of our impressions of people are based on warmth and competence.",
+     "zh": "但第二，我們上次稍微談過，基本上我們對一個人的印象有 82% 是基於溫暖和能力。",
+     "t": 7415.1
+    }
+   ],
+   "fam": [
+    "competent adj. 能勝任的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "warmth and competence 溫暖與能力（第一印象兩大指標）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "w": "efficient",
+   "s": 3,
+   "ph": "[ɪˋfɪʃənt]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "有效率的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So people who are first and is first signaling I'm open, I'm friendly, and then competent, I'm capable, I'm efficient, I'm effective, make us feel like I'm in good hands.",
+     "zh": "所以那些首先表現出「我很開放、我很友善」，然後表現出能力，「我能幹、我有效率、我很有成效」的人，會讓我們覺得自己被照顧得很好。",
+     "t": 7422.6
+    }
+   ],
+   "fam": [
+    "efficiency n. 效率",
+    "efficiently adv. 有效率地"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "energy-efficient 節能的；efficient vs. effective（有效率 vs. 有成效）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more efficient"
+      ],
+      [
+       "最高級",
+       "most efficient"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "w": "accolade",
+   "s": 1,
+   "ph": "[ˋækə͵led]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "讚譽，榮譽"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Now, I have other accolades that I could have shared, but I was like, \"It's nothing in comparison.\"",
+     "zh": "我還有其他成就可以分享，但我想：「那根本比不上。」",
+     "t": 7617.8
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "receive accolades 獲得讚譽（得獎新聞）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "accolades"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "w": "deviate",
+   "s": 1,
+   "ph": "[ˋdivɪ͵et]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "偏離"
+    }
+   ],
+   "ex": [
+    {
+     "en": "But also, feel free to totally deviate from the plan.",
+     "zh": "但也請隨意完全偏離計畫。",
+     "t": 8528.4
+    }
+   ],
+   "fam": [
+    "deviation n. 偏差"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "deviate from the plan／schedule 偏離計畫／時程。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "deviates"
+      ],
+      [
+       "過去式",
+       "deviated"
+      ],
+      [
+       "過去分詞",
+       "deviated"
+      ],
+      [
+       "現在分詞",
+       "deviating"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "w": "epidemic",
+   "s": 2,
+   "ph": "[͵ɛpɪˋdɛmɪk]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "流行病；（壞事）盛行"
+    }
+   ],
+   "ex": [
+    {
+     "en": "I would like to get rid of the awkwardness in your life because and the deeper meaning is we are in a loneliness epidemic.",
+     "zh": "我想把你生活中的尷尬拿掉，因為更深層的意義是，我們正處在一場孤獨的流行病中。",
+     "t": 8582.5
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "loneliness epidemic 孤獨流行病。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "epidemics"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "w": "sacrifice",
+   "s": 2,
+   "ph": "[ˋsækrə͵faɪs]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "犧牲"
+    },
+    {
+     "p": "n.",
+     "m": "犧牲"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Um, and that was because I think I sacrificed friendship and family relationship in the hustle.",
+     "zh": "嗯，那是因為我覺得我在拚命工作的過程中，犧牲了友情和家人關係。",
+     "t": 8681.8
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "sacrifice quality for speed 為了速度犧牲品質。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "sacrifices"
+      ]
+     ]
+    },
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "sacrifices"
+      ],
+      [
+       "過去式",
+       "sacrificed"
+      ],
+      [
+       "過去分詞",
+       "sacrificed"
+      ],
+      [
+       "現在分詞",
+       "sacrificing"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "They are they are ___. They are giving.",
+   "a": "nurturers",
+   "opts": [
+    "nurturers",
+    "conflict",
+    "refine",
+    "overlooked"
+   ]
+  },
+  {
+   "s": "They attract high ___ people.",
+   "a": "conflict",
+   "opts": [
+    "nurturers",
+    "conflict",
+    "refine",
+    "overlooked"
+   ]
+  },
+  {
+   "s": "It helps me be sort of ___ my my my own points of view",
+   "a": "refine",
+   "opts": [
+    "nurturers",
+    "conflict",
+    "refine",
+    "overlooked"
+   ]
+  },
+  {
+   "s": "And they feel that no matter what they've done, they are unlucky. They are struggling. They often feel stuck. They often feel misunderstood. They often feel ___.",
+   "a": "overlooked",
+   "opts": [
+    "nurturers",
+    "conflict",
+    "refine",
+    "overlooked"
+   ]
+  },
+  {
+   "s": "But also two, and we talked about this a little bit last time, is fundamentally 82% of our impressions of people are based on warmth and ___.",
+   "a": "competence",
+   "opts": [
+    "competence",
+    "efficient",
+    "deviate",
+    "epidemic"
+   ]
+  },
+  {
+   "s": "So people who are first and is first signaling I'm open, I'm friendly, and then competent, I'm capable, I'm ___, I'm effective, make us feel like I'm in good hands.",
+   "a": "efficient",
+   "opts": [
+    "competence",
+    "efficient",
+    "deviate",
+    "epidemic"
+   ]
+  },
+  {
+   "s": "But also, feel free to totally ___ from the plan.",
+   "a": "deviate",
+   "opts": [
+    "competence",
+    "efficient",
+    "deviate",
+    "epidemic"
+   ]
+  },
+  {
+   "s": "I would like to get rid of the awkwardness in your life because and the deeper meaning is we are in a loneliness ___.",
+   "a": "epidemic",
+   "opts": [
+    "competence",
+    "efficient",
+    "deviate",
+    "epidemic"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "「無私的助人者」常見的困擾是？",
+   "a": "無法說不、同理心疲勞、把自己擺最後",
+   "opts": [
+    "無法說不、同理心疲勞、把自己擺最後",
+    "太愛出風頭",
+    "只想談論自己",
+    "不喜歡幫助別人"
+   ]
+  },
+  {
+   "q": "「優雅退場」的公式是？",
+   "a": "未來提示＋讚美或行動",
+   "opts": [
+    "未來提示＋讚美或行動",
+    "直接說我要走了",
+    "假裝接電話",
+    "一直沉默等對方離開"
+   ]
+  },
+  {
+   "q": "讓人覺得有魅力的兩大訊號是？",
+   "a": "溫暖（可以信任我）和能力（可以依靠我）",
+   "opts": [
+    "溫暖（可以信任我）和能力（可以依靠我）",
+    "外表和財富",
+    "幽默和音量",
+    "學歷和職稱"
+   ]
+  },
+  {
+   "q": "Vanessa 在 VIP 派對上怎麼自我介紹？",
+   "a": "說自己是「正在康復中的尷尬人」，不炫耀成就",
+   "opts": [
+    "說自己是「正在康復中的尷尬人」，不炫耀成就",
+    "列出所有得過的獎",
+    "說自己治癒了癌症",
+    "直接跳過不介紹"
+   ]
+  },
+  {
+   "q": "「最大共鳴點」是什麼？",
+   "a": "自然音域的最低端，在吐氣時說話，聽起來冷靜自信",
+   "opts": [
+    "自然音域的最低端，在吐氣時說話，聽起來冷靜自信",
+    "用最大的音量說話",
+    "說話越快越好",
+    "用最高的音調打招呼"
+   ]
+  }
+ ]
+}

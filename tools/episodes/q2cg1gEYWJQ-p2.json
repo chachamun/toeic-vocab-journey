@@ -1,0 +1,757 @@
+{
+ "id": "yt-q2cg1gEYWJQ-p2",
+ "course": "daily-video",
+ "publisher": "The Diary Of A CEO（Steven Bartlett）",
+ "video": "https://youtu.be/q2cg1gEYWJQ?t=2208",
+ "bbc": "",
+ "label": "影片 22（2/4）",
+ "theme": "Vanessa Van Edwards：回答「你做什麼」、話太多與對話型自戀",
+ "themeEn": "Vanessa Van Edwards: The Conversation Habit That Makes Smart People Unlikable (Part 2)",
+ "release": "2026-10-15",
+ "words": [
+  {
+   "n": 1,
+   "w": "counter",
+   "s": 2,
+   "ph": "[ˋkaʊntɚ]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "反駁，回應；抵銷"
+    },
+    {
+     "p": "n.",
+     "m": "櫃檯"
+    }
+   ],
+   "ex": [
+    {
+     "en": "What What how do I counter that?",
+     "zh": "我要怎麼回應？",
+     "t": 2233.6
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "counter an argument 反駁論點；at the front counter 在前面櫃檯（Part 1）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "counters"
+      ],
+      [
+       "過去式",
+       "countered"
+      ],
+      [
+       "過去分詞",
+       "countered"
+      ],
+      [
+       "現在分詞",
+       "countering"
+      ]
+     ]
+    },
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "counters"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "vague",
+   "s": 2,
+   "ph": "[veg]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "模糊的，含糊的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And we don't want to over complicate or be vague.",
+     "zh": "我們不想講得太複雜，也不想太模糊。",
+     "t": 2295.2
+    }
+   ],
+   "fam": [
+    "vaguely adv. 模糊地"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a vague answer 含糊的回答（反義 specific、clear）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "vaguer"
+      ],
+      [
+       "最高級",
+       "vaguest"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "eavesdrop",
+   "s": 1,
+   "ph": "[ˋivz͵drɑp]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "偷聽"
+    }
+   ],
+   "ex": [
+    {
+     "en": "I was researching this book and I was eavesdropping on everyone's conversations because that's the best way.",
+     "zh": "我在為這本書做研究，我在偷聽每個人的對話，因為那是最好的方法。",
+     "t": 2301.1
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "eavesdrop on a conversation 偷聽別人談話；三態 eavesdropped（p 要重複）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "eavesdrops"
+      ],
+      [
+       "過去式",
+       "eavesdropped"
+      ],
+      [
+       "過去分詞",
+       "eavesdropped"
+      ],
+      [
+       "現在分詞",
+       "eavesdropping"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "complexity",
+   "s": 2,
+   "ph": "[kəmˋplɛksətɪ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "複雜性"
+    }
+   ],
+   "ex": [
+    {
+     "en": "We We understand complexity as humans. We get it.",
+     "zh": "身為人類，我們能理解複雜性。我們懂的。",
+     "t": 2454.6
+    }
+   ],
+   "fam": [
+    "complex adj. 複雜的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "the complexity of the project 專案的複雜度。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "complexities"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "monologue",
+   "s": 1,
+   "ph": "[ˋmɑnḷ͵ɔg]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "獨白"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So, in um average conversation, we like 15 to 30 seconds. 45 seconds is okay, but we start to turn to a monologue.",
+     "zh": "一般的對話中，我們喜歡 15 到 30 秒。45 秒還可以，但我們就開始變成獨白了。",
+     "t": 2513.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "turn into a monologue 變成一個人唱獨角戲（反義 dialogue 對話）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "monologues"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "scarcity",
+   "s": 1,
+   "ph": "[ˋskɛrsətɪ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "稀少，短缺"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Right. under 15 seconds you might be actually creating conversational scarcity like not asking like not asking enough not talking to talking enough",
+     "zh": "對。少於 15 秒的話，你可能其實是在製造對話稀缺，像是問得不夠、說得不夠。",
+     "t": 2533.2
+    }
+   ],
+   "fam": [
+    "scarce adj. 稀少的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "scarcity of resources 資源短缺（＝shortage）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "asynchronous",
+   "s": 1,
+   "ph": "[eˋsɪŋkrənəs]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "非同步的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Second is we're having more and more asynchronous conversations.",
+     "zh": "第二，我們有越來越多非同步的對話。",
+     "t": 2592.1
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "asynchronous communication 非同步溝通（email、語音訊息；反義 real-time）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "respondent",
+   "s": 2,
+   "ph": "[rɪˋspɑndənt]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "（問卷）受訪者，回答者"
+    }
+   ],
+   "ex": [
+    {
+     "en": "These chatty co-workers spend an average of 90 minutes of their workday just talking and 71% of respondents said talkative co-workers prevented them from getting their work done.",
+     "zh": "這些愛聊天的同事，平均每個工作天花 90 分鐘在聊天，71% 的受訪者說，話多的同事讓他們無法完成工作。",
+     "t": 2732.9
+    }
+   ],
+   "fam": [
+    "respond v. 回應",
+    "response n. 回應"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "71% of respondents said... 71% 的受訪者表示（圖表題常見）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "respondents"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "w": "feedback",
+   "s": 3,
+   "ph": "[ˋfid͵bæk]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "回饋意見"
+    }
+   ],
+   "ex": [
+    {
+     "en": "You see it as continual feedback.",
+     "zh": "你把它看成持續的回饋。",
+     "t": 2824.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "customer feedback 顧客意見；give feedback on 對～給回饋（不可數，不加 s）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "w": "insecure",
+   "s": 2,
+   "ph": "[͵ɪnsɪˋkjʊr]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "沒安全感的；不安全的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "In your experience, where does that conversational narcissism come from? Like insecurity. Yeah. Right. This person's insecure.",
+     "zh": "根據你的經驗，那種對話型自戀是從哪裡來的？像是不安全感？對。對。這個人很沒安全感。",
+     "t": 3311.4
+    }
+   ],
+   "fam": [
+    "insecurity n. 不安全感"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "feel insecure about 對～沒信心。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more insecure"
+      ],
+      [
+       "最高級",
+       "most insecure"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "w": "logistics",
+   "s": 2,
+   "ph": "[loˋdʒɪstɪks]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "安排細節；物流"
+    }
+   ],
+   "ex": [
+    {
+     "en": "It can happen in marriages or marriages where you only talk about logistics.",
+     "zh": "也可能發生在婚姻中，或是只談生活瑣事的婚姻。",
+     "t": 3503.8
+    }
+   ],
+   "fam": [
+    "logistical adj. 後勤的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "discuss the logistics of the event 討論活動細節安排；logistics company 物流公司。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "w": "credential",
+   "s": 2,
+   "ph": "[krɪˋdɛnʃəl]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "資歷，資格證明（常用複數）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Their credentials unbelievable and then they went through the interview process and the interview feedback from the people that met them was like neutral or negative.",
+     "zh": "他的資歷不可思議，然後他進入面試流程，見過他的人給的面試回饋卻是中立或負面的。",
+     "t": 3841.5
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "impressive credentials 亮眼的資歷；login credentials 登入帳密。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "credentials"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "w": "suspicious",
+   "s": 2,
+   "ph": "[səˋspɪʃəs]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "懷疑的；可疑的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Competence without warmth is likely to leave us feeling suspicious.",
+     "zh": "有能力卻不溫暖，很可能讓我們感到懷疑。",
+     "t": 3890.7
+    }
+   ],
+   "fam": [
+    "suspect v. 懷疑 n. 嫌犯",
+    "suspicion n. 懷疑"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "report any suspicious activity 通報任何可疑活動（公告必考）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more suspicious"
+      ],
+      [
+       "最高級",
+       "most suspicious"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "w": "weakness",
+   "s": 2,
+   "ph": "[ˋwiknɪs]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "缺點，弱點"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So, for example, interviewers will make the mistake of asking, \"What's your greatest weakness?\"",
+     "zh": "例如，面試官常犯的錯是問：「你最大的缺點是什麼？」",
+     "t": 4001.3
+    }
+   ],
+   "fam": [
+    "weak adj. 弱的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "strengths and weaknesses 優缺點（面試必問）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "weaknesses"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "w": "verify",
+   "s": 3,
+   "ph": "[ˋvɛrə͵faɪ]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "查證，核實"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And you can go verify it.",
+     "zh": "而且你可以去查證。",
+     "t": 4047.4
+    }
+   ],
+   "fam": [
+    "verification n. 驗證"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "verify your identity／email address 驗證身分／電子郵件。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "verifies"
+      ],
+      [
+       "過去式",
+       "verified"
+      ],
+      [
+       "過去分詞",
+       "verified"
+      ],
+      [
+       "現在分詞",
+       "verifying"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "And we don't want to over complicate or be ___.",
+   "a": "vague",
+   "opts": [
+    "vague",
+    "eavesdropping",
+    "monologue",
+    "asynchronous"
+   ]
+  },
+  {
+   "s": "I was researching this book and I was ___ on everyone's conversations because that's the best way.",
+   "a": "eavesdropping",
+   "opts": [
+    "vague",
+    "eavesdropping",
+    "monologue",
+    "asynchronous"
+   ]
+  },
+  {
+   "s": "So, in um average conversation, we like 15 to 30 seconds. 45 seconds is okay, but we start to turn to a ___.",
+   "a": "monologue",
+   "opts": [
+    "vague",
+    "eavesdropping",
+    "monologue",
+    "asynchronous"
+   ]
+  },
+  {
+   "s": "Second is we're having more and more ___ conversations.",
+   "a": "asynchronous",
+   "opts": [
+    "vague",
+    "eavesdropping",
+    "monologue",
+    "asynchronous"
+   ]
+  },
+  {
+   "s": "These chatty co-workers spend an average of 90 minutes of their workday just talking and 71% of ___ said talkative co-workers prevented them from getting their work done.",
+   "a": "respondents",
+   "opts": [
+    "respondents",
+    "logistics",
+    "suspicious",
+    "verify"
+   ]
+  },
+  {
+   "s": "It can happen in marriages or marriages where you only talk about ___.",
+   "a": "logistics",
+   "opts": [
+    "respondents",
+    "logistics",
+    "suspicious",
+    "verify"
+   ]
+  },
+  {
+   "s": "Competence without warmth is likely to leave us feeling ___.",
+   "a": "suspicious",
+   "opts": [
+    "respondents",
+    "logistics",
+    "suspicious",
+    "verify"
+   ]
+  },
+  {
+   "s": "And you can go ___ it.",
+   "a": "verify",
+   "opts": [
+    "respondents",
+    "logistics",
+    "suspicious",
+    "verify"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "Vanessa 建議回答「你是做什麼的？」的公式是？",
+   "a": "我為（誰）做（什麼），方法是（怎麼做）",
+   "opts": [
+    "我為（誰）做（什麼），方法是（怎麼做）",
+    "先講學歷再講工作",
+    "只講職稱就好",
+    "先講薪水"
+   ]
+  },
+  {
+   "q": "對話中每一輪說話，理想的長度是多久？",
+   "a": "15 到 30 秒，最多 45 秒",
+   "opts": [
+    "15 到 30 秒，最多 45 秒",
+    "5 秒以內",
+    "一到兩分鐘",
+    "越長越好"
+   ]
+  },
+  {
+   "q": "為什麼她說語音訊息是最自私的對話形式？",
+   "a": "它是獨白，沒有你來我往",
+   "opts": [
+    "它是獨白，沒有你來我往",
+    "因為太花網路流量",
+    "因為別人聽不懂",
+    "因為只能傳給一個人"
+   ]
+  },
+  {
+   "q": "「娛樂者」和「欣賞者」的差別是？",
+   "a": "娛樂者想分享故事、被聽見；欣賞者喜歡聽別人的故事",
+   "opts": [
+    "娛樂者想分享故事、被聽見；欣賞者喜歡聽別人的故事",
+    "娛樂者比較內向",
+    "欣賞者話比較多",
+    "兩者完全一樣"
+   ]
+  },
+  {
+   "q": "面試時比「你最大的缺點是什麼？」更好的問法是？",
+   "a": "你上一任主管會說你最大的缺點是什麼？",
+   "opts": [
+    "你上一任主管會說你最大的缺點是什麼？",
+    "你最大的優點是什麼？",
+    "你為什麼想離職？",
+    "你五年後想做什麼？"
+   ]
+  }
+ ]
+}

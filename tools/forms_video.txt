@@ -417,3 +417,62 @@ evolve	v: evolves, evolved, evolved, evolving	—
 transcend	v: transcends, transcended, transcended, transcending	—
 nuanced	adj: more nuanced, most nuanced	—
 turbulent	adj: more turbulent, most turbulent	—
+devise	v: devises, devised, devised, devising	—
+bypass	v: bypasses, bypassed, bypassed, bypassing ; n: bypasses	—
+promotion	n: promotions	—
+insurance	n: 不可數	—
+longevity	n: 不可數	—
+symptom	n: symptoms	—
+assign	v: assigns, assigned, assigned, assigning	—
+hierarchy	n: hierarchies	—
+collaborate	v: collaborates, collaborated, collaborated, collaborating	—
+friction	n: 不可數	—
+withhold	v: withholds, withheld, withheld, withholding	—
+applicable	adj: 無比較級	—
+invasive	adj: more invasive, most invasive	—
+modify	v: modifies, modified, modified, modifying	—
+guideline	n: guidelines	—
+counter	v: counters, countered, countered, countering ; n: counters	—
+vague	adj: vaguer, vaguest	—
+eavesdrop	v: eavesdrops, eavesdropped, eavesdropped, eavesdropping	—
+complexity	n: complexities	—
+monologue	n: monologues	—
+scarcity	n: 不可數	—
+asynchronous	adj: 無比較級	—
+respondent	n: respondents	—
+feedback	n: 不可數	—
+insecure	adj: more insecure, most insecure	—
+logistics	n: 不可數	—
+credential	n: credentials	—
+suspicious	adj: more suspicious, most suspicious	—
+weakness	n: weaknesses	—
+verify	v: verifies, verified, verified, verifying	—
+potential	n: 不可數	—
+vulnerability	n: vulnerabilities	—
+circumstance	n: circumstances	—
+validate	v: validates, validated, validated, validating	—
+vanity	n: 不可數	—
+predetermined	adj: 無比較級	—
+diagnostic	n: diagnostics	—
+anxiety	n: anxieties	—
+empowering	adj: more empowering, most empowering	—
+initiative	n: initiatives	—
+tolerate	v: tolerates, tolerated, tolerated, tolerating	—
+ritual	n: rituals	—
+regulation	n: regulations	—
+conservative	adj: more conservative, most conservative	—
+savor	v: savors, savored, savored, savoring	—
+fatigue	n: 不可數	—
+nurture	v: nurtures, nurtured, nurtured, nurturing	—
+conflict	n: conflicts	—
+performance	n: performances	—
+avoidant	adj: more avoidant, most avoidant	—
+refine	v: refines, refined, refined, refining	—
+overlook	v: overlooks, overlooked, overlooked, overlooking	—
+graceful	adj: more graceful, most graceful	—
+broadcast	v: broadcasts, broadcast, broadcast, broadcasting ; n: broadcasts	—
+competence	n: 不可數	—
+efficient	adj: more efficient, most efficient	—
+accolade	n: accolades	—
+deviate	v: deviates, deviated, deviated, deviating	—
+epidemic	n: epidemics	—

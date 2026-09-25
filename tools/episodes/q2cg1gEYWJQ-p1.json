@@ -1,0 +1,781 @@
+{
+ "id": "yt-q2cg1gEYWJQ-p1",
+ "course": "daily-video",
+ "publisher": "The Diary Of A CEO（Steven Bartlett）",
+ "video": "https://youtu.be/q2cg1gEYWJQ",
+ "bbc": "",
+ "label": "影片 21（1/4）",
+ "theme": "Vanessa Van Edwards：好開場白與對話的第一、二層",
+ "themeEn": "Vanessa Van Edwards: The Conversation Habit That Makes Smart People Unlikable (Part 1)",
+ "release": "2026-10-14",
+ "words": [
+  {
+   "n": 1,
+   "w": "devise",
+   "s": 2,
+   "ph": "[dɪˋvaɪz]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "設計，想出（方法）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "For example, we devised three different speed networking experiments with 500 speed networkers.",
+     "zh": "例如，我們設計了三個不同的快速社交實驗，找了 500 位快速社交的參與者。",
+     "t": 63.9
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "devise a plan／strategy 擬定計畫／策略。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "devises"
+      ],
+      [
+       "過去式",
+       "devised"
+      ],
+      [
+       "過去分詞",
+       "devised"
+      ],
+      [
+       "現在分詞",
+       "devising"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "bypass",
+   "s": 1,
+   "ph": "[ˋbaɪ͵pæs]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "繞過，略過"
+    },
+    {
+     "p": "n.",
+     "m": "繞道，外環道"
+    }
+   ],
+   "ex": [
+    {
+     "en": "But the worst question in the history of conversations is but I also have a formula to immediately bypass that small talk.",
+     "zh": "但史上最糟的對話問題是……但我也有一個公式，可以立刻跳過那些閒聊。",
+     "t": 76.6
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "bypass the approval process 跳過核准流程；take the bypass 走外環道（交通廣播）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "bypasses"
+      ],
+      [
+       "過去式",
+       "bypassed"
+      ],
+      [
+       "過去分詞",
+       "bypassed"
+      ],
+      [
+       "現在分詞",
+       "bypassing"
+      ]
+     ]
+    },
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "bypasses"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "promotion",
+   "s": 3,
+   "ph": "[prəˋmoʃən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "升遷；促銷"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Also a secret door to charisma but also there are five archetypes and this is going to impact getting our promotion and finding your soulmate.",
+     "zh": "還有通往魅力的秘密之門，還有五種原型，這會影響你能不能升遷、能不能找到靈魂伴侶。",
+     "t": 82.6
+    }
+   ],
+   "fam": [
+    "promote v. 升遷；推廣"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "get a promotion 升職；a special promotion 特別促銷（Part 4 廣告題）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "promotions"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "insurance",
+   "s": 3,
+   "ph": "[ɪnˋʃʊrəns]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "保險；保障"
+    }
+   ],
+   "ex": [
+    {
+     "en": "People who are investing in conversation skills right now are creating career insurance.",
+     "zh": "現在投資在對話技巧上的人，是在為自己的職涯買保險。",
+     "t": 156.1
+    }
+   ],
+   "fam": [
+    "insure v. 為～投保"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "health insurance 健康保險；insurance policy 保單。本句 career insurance＝職涯保障。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "longevity",
+   "s": 1,
+   "ph": "[lɑnˋdʒɛvətɪ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "長壽；持久"
+    }
+   ],
+   "ex": [
+    {
+     "en": "If you are lonely, finding friends that are actually fulfilling and give you the joy of conversation is going to give you a longevity boost.",
+     "zh": "如果你很孤單，找到真正讓你感到充實、給你對話樂趣的朋友，會讓你更長壽。",
+     "t": 227.9
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "the longevity of the product 產品的耐用度。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "symptom",
+   "s": 2,
+   "ph": "[ˋsɪmptəm]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "症狀；徵兆"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Like are there symptoms one experiences when they when they're not good at conversation?",
+     "zh": "不會聊天的人會有什麼症狀嗎？",
+     "t": 277.9
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "show symptoms of 出現～的徵兆（醫療題、也可比喻問題的跡象）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "symptoms"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "assign",
+   "s": 3,
+   "ph": "[əˋsaɪn]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "指派，分配"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Then I assigned these networkers six conversation starters.",
+     "zh": "然後我給這些參與者六個開場白。",
+     "t": 476.2
+    }
+   ],
+   "fam": [
+    "assignment n. 任務，作業"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "be assigned to a project 被指派到某專案；assigned seat 指定座位。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "assigns"
+      ],
+      [
+       "過去式",
+       "assigned"
+      ],
+      [
+       "過去分詞",
+       "assigned"
+      ],
+      [
+       "現在分詞",
+       "assigning"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "hierarchy",
+   "s": 1,
+   "ph": "[ˋhaɪə͵rɑrkɪ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "層級，階層"
+    }
+   ],
+   "ex": [
+    {
+     "en": "This is when I realize there's a hierarchy.",
+     "zh": "那時我才明白，對話是有層級的。",
+     "t": 707.0
+    }
+   ],
+   "fam": [
+    "hierarchical adj. 階層的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "corporate hierarchy 公司階層；a flat hierarchy 扁平化組織。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "hierarchies"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "w": "collaborate",
+   "s": 3,
+   "ph": "[kəˋlæbə͵ret]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "合作，協作"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And also, logically, if you think this through, connected people collaborate better.",
+     "zh": "而且邏輯上，如果你仔細想想，彼此有連結的人合作得更好。",
+     "t": 1207.0
+    }
+   ],
+   "fam": [
+    "collaboration n. 合作",
+    "collaborative adj. 合作的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "collaborate with other departments 與其他部門合作（注意接 with）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "collaborates"
+      ],
+      [
+       "過去式",
+       "collaborated"
+      ],
+      [
+       "過去分詞",
+       "collaborated"
+      ],
+      [
+       "現在分詞",
+       "collaborating"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "w": "friction",
+   "s": 2,
+   "ph": "[ˋfrɪkʃən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "摩擦，不和"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And in fact, the key word here is friction.",
+     "zh": "事實上，這裡的關鍵字是「摩擦」。",
+     "t": 1222.3
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "reduce friction between teams 減少團隊間摩擦；frictionless＝順暢無阻的。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "w": "withhold",
+   "s": 2,
+   "ph": "[wɪðˋhold]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "保留，扣留，不給"
+    }
+   ],
+   "ex": [
+    {
+     "en": "You have people who withhold information.",
+     "zh": "會有人隱瞞資訊。",
+     "t": 1236.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "withhold information／payment 隱瞞資訊／暫緩付款；三態 withhold-withheld-withheld。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "withholds"
+      ],
+      [
+       "過去式",
+       "withheld"
+      ],
+      [
+       "過去分詞",
+       "withheld"
+      ],
+      [
+       "現在分詞",
+       "withholding"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "w": "applicable",
+   "s": 2,
+   "ph": "[ˋæplɪkəbḷ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "適用的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And this might be applicable for networking generally but what would you recommend? Okay.",
+     "zh": "這可能也適用於一般的社交場合，你會建議怎麼做？好。",
+     "t": 1529.4
+    }
+   ],
+   "fam": [
+    "apply v. 適用；申請"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "where applicable 在適用的情況下（表單說明常見）；applicable taxes 適用稅額。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "w": "invasive",
+   "s": 1,
+   "ph": "[ɪnˋvesɪv]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "侵犯隱私的；侵入性的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "They try to go too deep too quickly and people feel like it's invasive. Right?",
+     "zh": "他們試著太快太深入，對方會覺得被侵犯，對吧？",
+     "t": 1686.9
+    }
+   ],
+   "fam": [
+    "invade v. 侵入"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "an invasive question 過問隱私的問題；non-invasive 非侵入性的（醫療）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more invasive"
+      ],
+      [
+       "最高級",
+       "most invasive"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "w": "modify",
+   "s": 3,
+   "ph": "[ˋmɑdə͵faɪ]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "修改，調整"
+    }
+   ],
+   "ex": [
+    {
+     "en": "If you can modify them to the to fit what you are doing even better.",
+     "zh": "如果你能修改它們，讓它們更符合你在做的事，那就更好了。",
+     "t": 2055.8
+    }
+   ],
+   "fam": [
+    "modification n. 修改"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "modify the design／schedule 修改設計／時程。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "modifies"
+      ],
+      [
+       "過去式",
+       "modified"
+      ],
+      [
+       "過去分詞",
+       "modified"
+      ],
+      [
+       "現在分詞",
+       "modifying"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "w": "guideline",
+   "s": 3,
+   "ph": "[ˋgaɪd͵laɪn]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "指導方針，準則"
+    }
+   ],
+   "ex": [
+    {
+     "en": "They are guidelines to try to make the research applicable.",
+     "zh": "它們是指引，讓研究能實際應用。",
+     "t": 2081.8
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "follow the safety guidelines 遵守安全準則（公告必考）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "guidelines"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "For example, we ___ three different speed networking experiments with 500 speed networkers.",
+   "a": "devised",
+   "opts": [
+    "devised",
+    "bypass",
+    "assigned",
+    "collaborate"
+   ]
+  },
+  {
+   "s": "But the worst question in the history of conversations is but I also have a formula to immediately ___ that small talk.",
+   "a": "bypass",
+   "opts": [
+    "devised",
+    "bypass",
+    "assigned",
+    "collaborate"
+   ]
+  },
+  {
+   "s": "Then I ___ these networkers six conversation starters.",
+   "a": "assigned",
+   "opts": [
+    "devised",
+    "bypass",
+    "assigned",
+    "collaborate"
+   ]
+  },
+  {
+   "s": "And also, logically, if you think this through, connected people ___ better.",
+   "a": "collaborate",
+   "opts": [
+    "devised",
+    "bypass",
+    "assigned",
+    "collaborate"
+   ]
+  },
+  {
+   "s": "And in fact, the key word here is ___.",
+   "a": "friction",
+   "opts": [
+    "friction",
+    "withhold",
+    "applicable",
+    "invasive"
+   ]
+  },
+  {
+   "s": "You have people who ___ information.",
+   "a": "withhold",
+   "opts": [
+    "friction",
+    "withhold",
+    "applicable",
+    "invasive"
+   ]
+  },
+  {
+   "s": "And this might be ___ for networking generally but what would you recommend? Okay.",
+   "a": "applicable",
+   "opts": [
+    "friction",
+    "withhold",
+    "applicable",
+    "invasive"
+   ]
+  },
+  {
+   "s": "They try to go too deep too quickly and people feel like it's ___. Right?",
+   "a": "invasive",
+   "opts": [
+    "friction",
+    "withhold",
+    "applicable",
+    "invasive"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "快速社交實驗中，表現最好的開場白是？",
+   "a": "你今天最棒的事是什麼？",
+   "opts": [
+    "你今天最棒的事是什麼？",
+    "你是做什麼的？",
+    "你好嗎？",
+    "說說你的故事吧？"
+   ]
+  },
+  {
+   "q": "為什麼「你是做什麼的？」效果最差？",
+   "a": "它是制式社交劇本，讓大腦進入自動駕駛，話題很快就用完",
+   "opts": [
+    "它是制式社交劇本，讓大腦進入自動駕駛，話題很快就用完",
+    "問題太深入讓人不舒服",
+    "大家都不喜歡自己的工作",
+    "聽起來像在查戶口"
+   ]
+  },
+  {
+   "q": "為什麼「說說你的故事吧？」常讓人緊張？",
+   "a": "那是第三層的問題，太快問會讓人進入戰或逃模式",
+   "opts": [
+    "那是第三層的問題，太快問會讓人進入戰或逃模式",
+    "因為大家都沒有故事",
+    "因為問得太隨便",
+    "因為那是第一層的問題"
+   ]
+  },
+  {
+   "q": "Vanessa 建議團隊每週會議開頭做什麼？",
+   "a": "每個人很快分享一件好事",
+   "opts": [
+    "每個人很快分享一件好事",
+    "先檢討上週的問題",
+    "輪流報告工作進度",
+    "先聊天氣暖場"
+   ]
+  },
+  {
+   "q": "第二層「個人關注」談的是什麼？",
+   "a": "動機、目標、價值觀和煩惱",
+   "opts": [
+    "動機、目標、價值觀和煩惱",
+    "住哪裡、做什麼、結婚了沒",
+    "人生的自我敘事",
+    "最近的天氣和交通"
+   ]
+  }
+ ]
+}

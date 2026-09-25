@@ -18967,6 +18967,3715 @@ TVJ.register({
      ]
     }
    ]
+  },
+  {
+   "id": "yt-q2cg1gEYWJQ-p1",
+   "label": "影片 21（1/4）",
+   "theme": "Vanessa Van Edwards：好開場白與對話的第一、二層",
+   "themeEn": "Vanessa Van Edwards: The Conversation Habit That Makes Smart People Unlikable (Part 1)",
+   "video": "https://youtu.be/q2cg1gEYWJQ",
+   "source": "",
+   "publisher": "The Diary Of A CEO（Steven Bartlett）",
+   "release": "2026-10-14",
+   "transcript": "transcripts/q2cg1gEYWJQ-p1.json",
+   "lines": 518,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "devise",
+     "s": 2,
+     "ph": "[dɪˋvaɪz]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "設計，想出（方法）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "For example, we devised three different speed networking experiments with 500 speed networkers.",
+       "zh": "例如，我們設計了三個不同的快速社交實驗，找了 500 位快速社交的參與者。",
+       "t": 63.9,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p1/w1_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p1/w1_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p1/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "devise a plan／strategy 擬定計畫／策略。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "devises"
+        ],
+        [
+         "過去式",
+         "devised"
+        ],
+        [
+         "過去分詞",
+         "devised"
+        ],
+        [
+         "現在分詞",
+         "devising"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p1/w1_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p1/w1_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p1/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "bypass",
+     "s": 1,
+     "ph": "[ˋbaɪ͵pæs]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "繞過，略過"
+      },
+      {
+       "p": "n.",
+       "m": "繞道，外環道"
+      }
+     ],
+     "ex": [
+      {
+       "en": "But the worst question in the history of conversations is but I also have a formula to immediately bypass that small talk.",
+       "zh": "但史上最糟的對話問題是……但我也有一個公式，可以立刻跳過那些閒聊。",
+       "t": 76.6,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p1/w2_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p1/w2_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p1/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "bypass the approval process 跳過核准流程；take the bypass 走外環道（交通廣播）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "bypasses"
+        ],
+        [
+         "過去式",
+         "bypassed"
+        ],
+        [
+         "過去分詞",
+         "bypassed"
+        ],
+        [
+         "現在分詞",
+         "bypassing"
+        ]
+       ]
+      },
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "bypasses"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p1/w2_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p1/w2_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p1/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "promotion",
+     "s": 3,
+     "ph": "[prəˋmoʃən]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "升遷；促銷"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Also a secret door to charisma but also there are five archetypes and this is going to impact getting our promotion and finding your soulmate.",
+       "zh": "還有通往魅力的秘密之門，還有五種原型，這會影響你能不能升遷、能不能找到靈魂伴侶。",
+       "t": 82.6,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p1/w3_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p1/w3_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p1/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "promote v. 升遷；推廣"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "get a promotion 升職；a special promotion 特別促銷（Part 4 廣告題）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "promotions"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p1/w3_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p1/w3_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p1/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "insurance",
+     "s": 3,
+     "ph": "[ɪnˋʃʊrəns]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "保險；保障"
+      }
+     ],
+     "ex": [
+      {
+       "en": "People who are investing in conversation skills right now are creating career insurance.",
+       "zh": "現在投資在對話技巧上的人，是在為自己的職涯買保險。",
+       "t": 156.1,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p1/w4_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p1/w4_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p1/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "insure v. 為～投保"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "health insurance 健康保險；insurance policy 保單。本句 career insurance＝職涯保障。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p1/w4_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p1/w4_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p1/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "longevity",
+     "s": 1,
+     "ph": "[lɑnˋdʒɛvətɪ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "長壽；持久"
+      }
+     ],
+     "ex": [
+      {
+       "en": "If you are lonely, finding friends that are actually fulfilling and give you the joy of conversation is going to give you a longevity boost.",
+       "zh": "如果你很孤單，找到真正讓你感到充實、給你對話樂趣的朋友，會讓你更長壽。",
+       "t": 227.9,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p1/w5_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p1/w5_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p1/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "the longevity of the product 產品的耐用度。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p1/w5_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p1/w5_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p1/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "symptom",
+     "s": 2,
+     "ph": "[ˋsɪmptəm]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "症狀；徵兆"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Like are there symptoms one experiences when they when they're not good at conversation?",
+       "zh": "不會聊天的人會有什麼症狀嗎？",
+       "t": 277.9,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p1/w6_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p1/w6_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p1/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "show symptoms of 出現～的徵兆（醫療題、也可比喻問題的跡象）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "symptoms"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p1/w6_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p1/w6_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p1/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "assign",
+     "s": 3,
+     "ph": "[əˋsaɪn]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "指派，分配"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Then I assigned these networkers six conversation starters.",
+       "zh": "然後我給這些參與者六個開場白。",
+       "t": 476.2,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p1/w7_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p1/w7_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p1/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "assignment n. 任務，作業"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "be assigned to a project 被指派到某專案；assigned seat 指定座位。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "assigns"
+        ],
+        [
+         "過去式",
+         "assigned"
+        ],
+        [
+         "過去分詞",
+         "assigned"
+        ],
+        [
+         "現在分詞",
+         "assigning"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p1/w7_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p1/w7_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p1/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "hierarchy",
+     "s": 1,
+     "ph": "[ˋhaɪə͵rɑrkɪ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "層級，階層"
+      }
+     ],
+     "ex": [
+      {
+       "en": "This is when I realize there's a hierarchy.",
+       "zh": "那時我才明白，對話是有層級的。",
+       "t": 707.0,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p1/w8_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p1/w8_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p1/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "hierarchical adj. 階層的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "corporate hierarchy 公司階層；a flat hierarchy 扁平化組織。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "hierarchies"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p1/w8_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p1/w8_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p1/w8_AU.mp3"
+     }
+    },
+    {
+     "n": 9,
+     "w": "collaborate",
+     "s": 3,
+     "ph": "[kəˋlæbə͵ret]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "合作，協作"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And also, logically, if you think this through, connected people collaborate better.",
+       "zh": "而且邏輯上，如果你仔細想想，彼此有連結的人合作得更好。",
+       "t": 1207.0,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p1/w9_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p1/w9_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p1/w9_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "collaboration n. 合作",
+      "collaborative adj. 合作的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "collaborate with other departments 與其他部門合作（注意接 with）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "collaborates"
+        ],
+        [
+         "過去式",
+         "collaborated"
+        ],
+        [
+         "過去分詞",
+         "collaborated"
+        ],
+        [
+         "現在分詞",
+         "collaborating"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p1/w9_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p1/w9_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p1/w9_AU.mp3"
+     }
+    },
+    {
+     "n": 10,
+     "w": "friction",
+     "s": 2,
+     "ph": "[ˋfrɪkʃən]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "摩擦，不和"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And in fact, the key word here is friction.",
+       "zh": "事實上，這裡的關鍵字是「摩擦」。",
+       "t": 1222.3,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p1/w10_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p1/w10_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p1/w10_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "reduce friction between teams 減少團隊間摩擦；frictionless＝順暢無阻的。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p1/w10_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p1/w10_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p1/w10_AU.mp3"
+     }
+    },
+    {
+     "n": 11,
+     "w": "withhold",
+     "s": 2,
+     "ph": "[wɪðˋhold]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "保留，扣留，不給"
+      }
+     ],
+     "ex": [
+      {
+       "en": "You have people who withhold information.",
+       "zh": "會有人隱瞞資訊。",
+       "t": 1236.2,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p1/w11_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p1/w11_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p1/w11_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "withhold information／payment 隱瞞資訊／暫緩付款；三態 withhold-withheld-withheld。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "withholds"
+        ],
+        [
+         "過去式",
+         "withheld"
+        ],
+        [
+         "過去分詞",
+         "withheld"
+        ],
+        [
+         "現在分詞",
+         "withholding"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p1/w11_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p1/w11_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p1/w11_AU.mp3"
+     }
+    },
+    {
+     "n": 12,
+     "w": "applicable",
+     "s": 2,
+     "ph": "[ˋæplɪkəbḷ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "適用的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And this might be applicable for networking generally but what would you recommend? Okay.",
+       "zh": "這可能也適用於一般的社交場合，你會建議怎麼做？好。",
+       "t": 1529.4,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p1/w12_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p1/w12_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p1/w12_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "apply v. 適用；申請"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "where applicable 在適用的情況下（表單說明常見）；applicable taxes 適用稅額。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p1/w12_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p1/w12_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p1/w12_AU.mp3"
+     }
+    },
+    {
+     "n": 13,
+     "w": "invasive",
+     "s": 1,
+     "ph": "[ɪnˋvesɪv]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "侵犯隱私的；侵入性的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "They try to go too deep too quickly and people feel like it's invasive. Right?",
+       "zh": "他們試著太快太深入，對方會覺得被侵犯，對吧？",
+       "t": 1686.9,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p1/w13_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p1/w13_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p1/w13_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "invade v. 侵入"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "an invasive question 過問隱私的問題；non-invasive 非侵入性的（醫療）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more invasive"
+        ],
+        [
+         "最高級",
+         "most invasive"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p1/w13_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p1/w13_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p1/w13_AU.mp3"
+     }
+    },
+    {
+     "n": 14,
+     "w": "modify",
+     "s": 3,
+     "ph": "[ˋmɑdə͵faɪ]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "修改，調整"
+      }
+     ],
+     "ex": [
+      {
+       "en": "If you can modify them to the to fit what you are doing even better.",
+       "zh": "如果你能修改它們，讓它們更符合你在做的事，那就更好了。",
+       "t": 2055.8,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p1/w14_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p1/w14_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p1/w14_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "modification n. 修改"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "modify the design／schedule 修改設計／時程。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "modifies"
+        ],
+        [
+         "過去式",
+         "modified"
+        ],
+        [
+         "過去分詞",
+         "modified"
+        ],
+        [
+         "現在分詞",
+         "modifying"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p1/w14_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p1/w14_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p1/w14_AU.mp3"
+     }
+    },
+    {
+     "n": 15,
+     "w": "guideline",
+     "s": 3,
+     "ph": "[ˋgaɪd͵laɪn]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "指導方針，準則"
+      }
+     ],
+     "ex": [
+      {
+       "en": "They are guidelines to try to make the research applicable.",
+       "zh": "它們是指引，讓研究能實際應用。",
+       "t": 2081.8,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p1/w15_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p1/w15_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p1/w15_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "follow the safety guidelines 遵守安全準則（公告必考）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "guidelines"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p1/w15_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p1/w15_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p1/w15_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "For example, we ___ three different speed networking experiments with 500 speed networkers.",
+     "a": "devised",
+     "opts": [
+      "devised",
+      "bypass",
+      "assigned",
+      "collaborate"
+     ]
+    },
+    {
+     "s": "But the worst question in the history of conversations is but I also have a formula to immediately ___ that small talk.",
+     "a": "bypass",
+     "opts": [
+      "devised",
+      "bypass",
+      "assigned",
+      "collaborate"
+     ]
+    },
+    {
+     "s": "Then I ___ these networkers six conversation starters.",
+     "a": "assigned",
+     "opts": [
+      "devised",
+      "bypass",
+      "assigned",
+      "collaborate"
+     ]
+    },
+    {
+     "s": "And also, logically, if you think this through, connected people ___ better.",
+     "a": "collaborate",
+     "opts": [
+      "devised",
+      "bypass",
+      "assigned",
+      "collaborate"
+     ]
+    },
+    {
+     "s": "And in fact, the key word here is ___.",
+     "a": "friction",
+     "opts": [
+      "friction",
+      "withhold",
+      "applicable",
+      "invasive"
+     ]
+    },
+    {
+     "s": "You have people who ___ information.",
+     "a": "withhold",
+     "opts": [
+      "friction",
+      "withhold",
+      "applicable",
+      "invasive"
+     ]
+    },
+    {
+     "s": "And this might be ___ for networking generally but what would you recommend? Okay.",
+     "a": "applicable",
+     "opts": [
+      "friction",
+      "withhold",
+      "applicable",
+      "invasive"
+     ]
+    },
+    {
+     "s": "They try to go too deep too quickly and people feel like it's ___. Right?",
+     "a": "invasive",
+     "opts": [
+      "friction",
+      "withhold",
+      "applicable",
+      "invasive"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "快速社交實驗中，表現最好的開場白是？",
+     "a": "你今天最棒的事是什麼？",
+     "opts": [
+      "你今天最棒的事是什麼？",
+      "你是做什麼的？",
+      "你好嗎？",
+      "說說你的故事吧？"
+     ]
+    },
+    {
+     "q": "為什麼「你是做什麼的？」效果最差？",
+     "a": "它是制式社交劇本，讓大腦進入自動駕駛，話題很快就用完",
+     "opts": [
+      "它是制式社交劇本，讓大腦進入自動駕駛，話題很快就用完",
+      "問題太深入讓人不舒服",
+      "大家都不喜歡自己的工作",
+      "聽起來像在查戶口"
+     ]
+    },
+    {
+     "q": "為什麼「說說你的故事吧？」常讓人緊張？",
+     "a": "那是第三層的問題，太快問會讓人進入戰或逃模式",
+     "opts": [
+      "那是第三層的問題，太快問會讓人進入戰或逃模式",
+      "因為大家都沒有故事",
+      "因為問得太隨便",
+      "因為那是第一層的問題"
+     ]
+    },
+    {
+     "q": "Vanessa 建議團隊每週會議開頭做什麼？",
+     "a": "每個人很快分享一件好事",
+     "opts": [
+      "每個人很快分享一件好事",
+      "先檢討上週的問題",
+      "輪流報告工作進度",
+      "先聊天氣暖場"
+     ]
+    },
+    {
+     "q": "第二層「個人關注」談的是什麼？",
+     "a": "動機、目標、價值觀和煩惱",
+     "opts": [
+      "動機、目標、價值觀和煩惱",
+      "住哪裡、做什麼、結婚了沒",
+      "人生的自我敘事",
+      "最近的天氣和交通"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yt-q2cg1gEYWJQ-p2",
+   "label": "影片 22（2/4）",
+   "theme": "Vanessa Van Edwards：回答「你做什麼」、話太多與對話型自戀",
+   "themeEn": "Vanessa Van Edwards: The Conversation Habit That Makes Smart People Unlikable (Part 2)",
+   "video": "https://youtu.be/q2cg1gEYWJQ?t=2208",
+   "source": "",
+   "publisher": "The Diary Of A CEO（Steven Bartlett）",
+   "release": "2026-10-15",
+   "transcript": "transcripts/q2cg1gEYWJQ-p2.json",
+   "lines": 443,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "counter",
+     "s": 2,
+     "ph": "[ˋkaʊntɚ]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "反駁，回應；抵銷"
+      },
+      {
+       "p": "n.",
+       "m": "櫃檯"
+      }
+     ],
+     "ex": [
+      {
+       "en": "What What how do I counter that?",
+       "zh": "我要怎麼回應？",
+       "t": 2233.6,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p2/w1_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p2/w1_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p2/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "counter an argument 反駁論點；at the front counter 在前面櫃檯（Part 1）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "counters"
+        ],
+        [
+         "過去式",
+         "countered"
+        ],
+        [
+         "過去分詞",
+         "countered"
+        ],
+        [
+         "現在分詞",
+         "countering"
+        ]
+       ]
+      },
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "counters"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p2/w1_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p2/w1_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p2/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "vague",
+     "s": 2,
+     "ph": "[veg]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "模糊的，含糊的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And we don't want to over complicate or be vague.",
+       "zh": "我們不想講得太複雜，也不想太模糊。",
+       "t": 2295.2,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p2/w2_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p2/w2_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p2/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "vaguely adv. 模糊地"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a vague answer 含糊的回答（反義 specific、clear）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "vaguer"
+        ],
+        [
+         "最高級",
+         "vaguest"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p2/w2_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p2/w2_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p2/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "eavesdrop",
+     "s": 1,
+     "ph": "[ˋivz͵drɑp]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "偷聽"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I was researching this book and I was eavesdropping on everyone's conversations because that's the best way.",
+       "zh": "我在為這本書做研究，我在偷聽每個人的對話，因為那是最好的方法。",
+       "t": 2301.1,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p2/w3_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p2/w3_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p2/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "eavesdrop on a conversation 偷聽別人談話；三態 eavesdropped（p 要重複）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "eavesdrops"
+        ],
+        [
+         "過去式",
+         "eavesdropped"
+        ],
+        [
+         "過去分詞",
+         "eavesdropped"
+        ],
+        [
+         "現在分詞",
+         "eavesdropping"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p2/w3_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p2/w3_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p2/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "complexity",
+     "s": 2,
+     "ph": "[kəmˋplɛksətɪ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "複雜性"
+      }
+     ],
+     "ex": [
+      {
+       "en": "We We understand complexity as humans. We get it.",
+       "zh": "身為人類，我們能理解複雜性。我們懂的。",
+       "t": 2454.6,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p2/w4_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p2/w4_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p2/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "complex adj. 複雜的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "the complexity of the project 專案的複雜度。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "complexities"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p2/w4_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p2/w4_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p2/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "monologue",
+     "s": 1,
+     "ph": "[ˋmɑnḷ͵ɔg]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "獨白"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So, in um average conversation, we like 15 to 30 seconds. 45 seconds is okay, but we start to turn to a monologue.",
+       "zh": "一般的對話中，我們喜歡 15 到 30 秒。45 秒還可以，但我們就開始變成獨白了。",
+       "t": 2513.2,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p2/w5_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p2/w5_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p2/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "turn into a monologue 變成一個人唱獨角戲（反義 dialogue 對話）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "monologues"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p2/w5_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p2/w5_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p2/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "scarcity",
+     "s": 1,
+     "ph": "[ˋskɛrsətɪ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "稀少，短缺"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Right. under 15 seconds you might be actually creating conversational scarcity like not asking like not asking enough not talking to talking enough",
+       "zh": "對。少於 15 秒的話，你可能其實是在製造對話稀缺，像是問得不夠、說得不夠。",
+       "t": 2533.2,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p2/w6_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p2/w6_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p2/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "scarce adj. 稀少的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "scarcity of resources 資源短缺（＝shortage）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p2/w6_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p2/w6_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p2/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "asynchronous",
+     "s": 1,
+     "ph": "[eˋsɪŋkrənəs]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "非同步的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Second is we're having more and more asynchronous conversations.",
+       "zh": "第二，我們有越來越多非同步的對話。",
+       "t": 2592.1,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p2/w7_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p2/w7_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p2/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "asynchronous communication 非同步溝通（email、語音訊息；反義 real-time）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p2/w7_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p2/w7_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p2/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "respondent",
+     "s": 2,
+     "ph": "[rɪˋspɑndənt]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "（問卷）受訪者，回答者"
+      }
+     ],
+     "ex": [
+      {
+       "en": "These chatty co-workers spend an average of 90 minutes of their workday just talking and 71% of respondents said talkative co-workers prevented them from getting their work done.",
+       "zh": "這些愛聊天的同事，平均每個工作天花 90 分鐘在聊天，71% 的受訪者說，話多的同事讓他們無法完成工作。",
+       "t": 2732.9,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p2/w8_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p2/w8_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p2/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "respond v. 回應",
+      "response n. 回應"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "71% of respondents said... 71% 的受訪者表示（圖表題常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "respondents"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p2/w8_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p2/w8_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p2/w8_AU.mp3"
+     }
+    },
+    {
+     "n": 9,
+     "w": "feedback",
+     "s": 3,
+     "ph": "[ˋfid͵bæk]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "回饋意見"
+      }
+     ],
+     "ex": [
+      {
+       "en": "You see it as continual feedback.",
+       "zh": "你把它看成持續的回饋。",
+       "t": 2824.2,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p2/w9_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p2/w9_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p2/w9_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "customer feedback 顧客意見；give feedback on 對～給回饋（不可數，不加 s）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p2/w9_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p2/w9_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p2/w9_AU.mp3"
+     }
+    },
+    {
+     "n": 10,
+     "w": "insecure",
+     "s": 2,
+     "ph": "[͵ɪnsɪˋkjʊr]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "沒安全感的；不安全的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "In your experience, where does that conversational narcissism come from? Like insecurity. Yeah. Right. This person's insecure.",
+       "zh": "根據你的經驗，那種對話型自戀是從哪裡來的？像是不安全感？對。對。這個人很沒安全感。",
+       "t": 3311.4,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p2/w10_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p2/w10_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p2/w10_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "insecurity n. 不安全感"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "feel insecure about 對～沒信心。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more insecure"
+        ],
+        [
+         "最高級",
+         "most insecure"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p2/w10_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p2/w10_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p2/w10_AU.mp3"
+     }
+    },
+    {
+     "n": 11,
+     "w": "logistics",
+     "s": 2,
+     "ph": "[loˋdʒɪstɪks]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "安排細節；物流"
+      }
+     ],
+     "ex": [
+      {
+       "en": "It can happen in marriages or marriages where you only talk about logistics.",
+       "zh": "也可能發生在婚姻中，或是只談生活瑣事的婚姻。",
+       "t": 3503.8,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p2/w11_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p2/w11_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p2/w11_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "logistical adj. 後勤的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "discuss the logistics of the event 討論活動細節安排；logistics company 物流公司。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p2/w11_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p2/w11_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p2/w11_AU.mp3"
+     }
+    },
+    {
+     "n": 12,
+     "w": "credential",
+     "s": 2,
+     "ph": "[krɪˋdɛnʃəl]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "資歷，資格證明（常用複數）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Their credentials unbelievable and then they went through the interview process and the interview feedback from the people that met them was like neutral or negative.",
+       "zh": "他的資歷不可思議，然後他進入面試流程，見過他的人給的面試回饋卻是中立或負面的。",
+       "t": 3841.5,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p2/w12_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p2/w12_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p2/w12_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "impressive credentials 亮眼的資歷；login credentials 登入帳密。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "credentials"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p2/w12_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p2/w12_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p2/w12_AU.mp3"
+     }
+    },
+    {
+     "n": 13,
+     "w": "suspicious",
+     "s": 2,
+     "ph": "[səˋspɪʃəs]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "懷疑的；可疑的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Competence without warmth is likely to leave us feeling suspicious.",
+       "zh": "有能力卻不溫暖，很可能讓我們感到懷疑。",
+       "t": 3890.7,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p2/w13_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p2/w13_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p2/w13_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "suspect v. 懷疑 n. 嫌犯",
+      "suspicion n. 懷疑"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "report any suspicious activity 通報任何可疑活動（公告必考）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more suspicious"
+        ],
+        [
+         "最高級",
+         "most suspicious"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p2/w13_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p2/w13_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p2/w13_AU.mp3"
+     }
+    },
+    {
+     "n": 14,
+     "w": "weakness",
+     "s": 2,
+     "ph": "[ˋwiknɪs]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "缺點，弱點"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So, for example, interviewers will make the mistake of asking, \"What's your greatest weakness?\"",
+       "zh": "例如，面試官常犯的錯是問：「你最大的缺點是什麼？」",
+       "t": 4001.3,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p2/w14_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p2/w14_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p2/w14_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "weak adj. 弱的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "strengths and weaknesses 優缺點（面試必問）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "weaknesses"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p2/w14_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p2/w14_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p2/w14_AU.mp3"
+     }
+    },
+    {
+     "n": 15,
+     "w": "verify",
+     "s": 3,
+     "ph": "[ˋvɛrə͵faɪ]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "查證，核實"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And you can go verify it.",
+       "zh": "而且你可以去查證。",
+       "t": 4047.4,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p2/w15_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p2/w15_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p2/w15_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "verification n. 驗證"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "verify your identity／email address 驗證身分／電子郵件。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "verifies"
+        ],
+        [
+         "過去式",
+         "verified"
+        ],
+        [
+         "過去分詞",
+         "verified"
+        ],
+        [
+         "現在分詞",
+         "verifying"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p2/w15_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p2/w15_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p2/w15_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "And we don't want to over complicate or be ___.",
+     "a": "vague",
+     "opts": [
+      "vague",
+      "eavesdropping",
+      "monologue",
+      "asynchronous"
+     ]
+    },
+    {
+     "s": "I was researching this book and I was ___ on everyone's conversations because that's the best way.",
+     "a": "eavesdropping",
+     "opts": [
+      "vague",
+      "eavesdropping",
+      "monologue",
+      "asynchronous"
+     ]
+    },
+    {
+     "s": "So, in um average conversation, we like 15 to 30 seconds. 45 seconds is okay, but we start to turn to a ___.",
+     "a": "monologue",
+     "opts": [
+      "vague",
+      "eavesdropping",
+      "monologue",
+      "asynchronous"
+     ]
+    },
+    {
+     "s": "Second is we're having more and more ___ conversations.",
+     "a": "asynchronous",
+     "opts": [
+      "vague",
+      "eavesdropping",
+      "monologue",
+      "asynchronous"
+     ]
+    },
+    {
+     "s": "These chatty co-workers spend an average of 90 minutes of their workday just talking and 71% of ___ said talkative co-workers prevented them from getting their work done.",
+     "a": "respondents",
+     "opts": [
+      "respondents",
+      "logistics",
+      "suspicious",
+      "verify"
+     ]
+    },
+    {
+     "s": "It can happen in marriages or marriages where you only talk about ___.",
+     "a": "logistics",
+     "opts": [
+      "respondents",
+      "logistics",
+      "suspicious",
+      "verify"
+     ]
+    },
+    {
+     "s": "Competence without warmth is likely to leave us feeling ___.",
+     "a": "suspicious",
+     "opts": [
+      "respondents",
+      "logistics",
+      "suspicious",
+      "verify"
+     ]
+    },
+    {
+     "s": "And you can go ___ it.",
+     "a": "verify",
+     "opts": [
+      "respondents",
+      "logistics",
+      "suspicious",
+      "verify"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "Vanessa 建議回答「你是做什麼的？」的公式是？",
+     "a": "我為（誰）做（什麼），方法是（怎麼做）",
+     "opts": [
+      "我為（誰）做（什麼），方法是（怎麼做）",
+      "先講學歷再講工作",
+      "只講職稱就好",
+      "先講薪水"
+     ]
+    },
+    {
+     "q": "對話中每一輪說話，理想的長度是多久？",
+     "a": "15 到 30 秒，最多 45 秒",
+     "opts": [
+      "15 到 30 秒，最多 45 秒",
+      "5 秒以內",
+      "一到兩分鐘",
+      "越長越好"
+     ]
+    },
+    {
+     "q": "為什麼她說語音訊息是最自私的對話形式？",
+     "a": "它是獨白，沒有你來我往",
+     "opts": [
+      "它是獨白，沒有你來我往",
+      "因為太花網路流量",
+      "因為別人聽不懂",
+      "因為只能傳給一個人"
+     ]
+    },
+    {
+     "q": "「娛樂者」和「欣賞者」的差別是？",
+     "a": "娛樂者想分享故事、被聽見；欣賞者喜歡聽別人的故事",
+     "opts": [
+      "娛樂者想分享故事、被聽見；欣賞者喜歡聽別人的故事",
+      "娛樂者比較內向",
+      "欣賞者話比較多",
+      "兩者完全一樣"
+     ]
+    },
+    {
+     "q": "面試時比「你最大的缺點是什麼？」更好的問法是？",
+     "a": "你上一任主管會說你最大的缺點是什麼？",
+     "opts": [
+      "你上一任主管會說你最大的缺點是什麼？",
+      "你最大的優點是什麼？",
+      "你為什麼想離職？",
+      "你五年後想做什麼？"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yt-q2cg1gEYWJQ-p3",
+   "label": "影片 23（3/4）",
+   "theme": "Vanessa Van Edwards：第三層自我敘事與「你幸運嗎？」",
+   "themeEn": "Vanessa Van Edwards: The Conversation Habit That Makes Smart People Unlikable (Part 3)",
+   "video": "https://youtu.be/q2cg1gEYWJQ?t=4200",
+   "source": "",
+   "publisher": "The Diary Of A CEO（Steven Bartlett）",
+   "release": "2026-10-16",
+   "transcript": "transcripts/q2cg1gEYWJQ-p3.json",
+   "lines": 510,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "potential",
+     "s": 3,
+     "ph": "[pəˋtɛnʃəl]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "潛在的"
+      },
+      {
+       "p": "n.",
+       "m": "潛力"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And so when we skip level one, we do damage to our potential connection later.",
+       "zh": "所以當我們跳過第一層，我們就在傷害之後可能的連結。",
+       "t": 4585.1,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p3/w1_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p3/w1_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p3/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "potential customers 潛在客戶；reach your full potential 發揮全部潛力。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p3/w1_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p3/w1_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p3/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "vulnerability",
+     "s": 1,
+     "ph": "[͵vʌlnərəˋbɪlətɪ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "脆弱，示弱"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And there is such a thing as vulnerability regret.",
+       "zh": "確實有「示弱後悔」這種東西。",
+       "t": 4696.2,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p3/w2_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p3/w2_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p3/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "vulnerable adj. 脆弱的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "show vulnerability 展現脆弱面；security vulnerability 資安漏洞。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "vulnerabilities"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p3/w2_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p3/w2_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p3/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "circumstance",
+     "s": 2,
+     "ph": "[ˋsɝkəm͵stæns]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "情況，環境（常用複數）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "That no matter how hard they've worked, their grit, their strength, their resilience, they're a victim of circumstance. they typically feel very unlucky and very out of control.",
+       "zh": "不管他們多努力、多有毅力、多堅強、多有韌性，他們都是環境的受害者。他們通常覺得自己非常倒楣、非常無法掌控。",
+       "t": 4851.4,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p3/w3_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p3/w3_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p3/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "under no circumstances 絕不；due to unforeseen circumstances 由於不可預見的情況（延期公告必考）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "circumstances"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p3/w3_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p3/w3_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p3/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "validate",
+     "s": 2,
+     "ph": "[ˋvælə͵det]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "肯定，認可；驗證"
+      }
+     ],
+     "ex": [
+      {
+       "en": "They feel validated when someone else tells them they look good.",
+       "zh": "別人說他們看起來很好時，他們才覺得被肯定。",
+       "t": 5026.1,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p3/w4_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p3/w4_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p3/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "validation n. 肯定（影片 16）",
+      "valid adj. 有效的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "validate a parking ticket 蓋停車章；feel validated 覺得被肯定。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "validates"
+        ],
+        [
+         "過去式",
+         "validated"
+        ],
+        [
+         "過去分詞",
+         "validated"
+        ],
+        [
+         "現在分詞",
+         "validating"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p3/w4_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p3/w4_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p3/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "vanity",
+     "s": 1,
+     "ph": "[ˋvænətɪ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "虛榮"
+      }
+     ],
+     "ex": [
+      {
+       "en": "They look more at like for example vanity metrics, their likes or their follows, how many friends they have, how often they're invited, are they getting compliments?",
+       "zh": "他們比較看重像是虛榮指標，按讚數、追蹤數、有多少朋友、多常被邀請、有沒有被稱讚。",
+       "t": 5037.4,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p3/w5_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p3/w5_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p3/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "vanity metrics 虛榮指標（按讚數等表面數字）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p3/w5_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p3/w5_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p3/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "predetermined",
+     "s": 1,
+     "ph": "[͵pridɪˋtɝmɪnd]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "預先決定的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So, I wonder I don't know if someone has a high belief in faith or predetermined fate if they would feel an external locus of control and maybe that wouldn't be as good for their mental health.",
+       "zh": "所以我在想，我不知道，如果有人非常相信命運或宿命，他們會不會有外在控制感，而那也許對他們的心理健康不太好。",
+       "t": 5096.2,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p3/w6_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p3/w6_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p3/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "at a predetermined time 在預定時間。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p3/w6_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p3/w6_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p3/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "diagnostic",
+     "s": 1,
+     "ph": "[͵daɪəgˋnɑstɪk]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "診斷測驗"
+      },
+      {
+       "p": "adj.",
+       "m": "診斷的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "It's like a 10 question diagnostic and it asks all these different variations of that question.",
+       "zh": "大概是 10 題的診斷測驗，會問這個問題的各種不同變化。",
+       "t": 5420.2,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p3/w7_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p3/w7_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p3/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "diagnose v. 診斷（影片 18）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "run a diagnostic test 執行診斷測試（設備維修）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "diagnostics"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p3/w7_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p3/w7_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p3/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "anxiety",
+     "s": 2,
+     "ph": "[æŋˋzaɪətɪ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "焦慮"
+      }
+     ],
+     "ex": [
+      {
+       "en": "They have lower anxiety. They have higher extraversion.",
+       "zh": "他們焦慮程度比較低，外向程度比較高。",
+       "t": 5465.8,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p3/w8_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p3/w8_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p3/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "anxious adj. 焦慮的；渴望的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "be anxious to + V 急著想～（Part 5 陷阱：不一定是焦慮）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "anxieties"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p3/w8_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p3/w8_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p3/w8_AU.mp3"
+     }
+    },
+    {
+     "n": 9,
+     "w": "empowering",
+     "s": 1,
+     "ph": "[ɪmˋpaʊərɪŋ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "賦予力量的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I'm like kind of anti-gratitude, but feeling like you're really really lucky is is so empowering.",
+       "zh": "我有點反對感恩，但覺得自己真的真的很幸運，是非常有力量的。",
+       "t": 5498.6,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p3/w9_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p3/w9_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p3/w9_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "empower v. 授權；賦能"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "empower employees to make decisions 授權員工做決定。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more empowering"
+        ],
+        [
+         "最高級",
+         "most empowering"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p3/w9_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p3/w9_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p3/w9_AU.mp3"
+     }
+    },
+    {
+     "n": 10,
+     "w": "initiative",
+     "s": 3,
+     "ph": "[ɪˋnɪʃətɪv]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "新計畫，倡議；主動性"
+      }
+     ],
+     "ex": [
+      {
+       "en": "It's like a founder who won't stop trying new initiatives and keeps throwing new ideas on the table when they haven't finished their first one. Yeah. Yeah.",
+       "zh": "就像一個創辦人一直不停嘗試新計畫，第一個還沒做完就一直丟新點子上桌。對。對。",
+       "t": 5839.5,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p3/w10_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p3/w10_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p3/w10_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a new initiative 新方案；take the initiative 主動出擊。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "initiatives"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p3/w10_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p3/w10_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p3/w10_AU.mp3"
+     }
+    },
+    {
+     "n": 11,
+     "w": "tolerate",
+     "s": 2,
+     "ph": "[ˋtɑlə͵ret]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "容忍，承受"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Jeff Bezos said, \"I've got enough ideas to sink the company and he has to learn to release them at a cadence that the company can tolerate.\"",
+       "zh": "Jeff Bezos 說：「我的點子多到足以拖垮公司」，他得學會以公司能承受的節奏釋放那些點子。",
+       "t": 5854.6,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p3/w11_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p3/w11_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p3/w11_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "tolerance n. 容忍度"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "will not be tolerated 絕不容許（公司規定用語）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "tolerates"
+        ],
+        [
+         "過去式",
+         "tolerated"
+        ],
+        [
+         "過去分詞",
+         "tolerated"
+        ],
+        [
+         "現在分詞",
+         "tolerating"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p3/w11_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p3/w11_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p3/w11_AU.mp3"
+     }
+    },
+    {
+     "n": 12,
+     "w": "ritual",
+     "s": 1,
+     "ph": "[ˋrɪtʃʊəl]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "儀式，例行習慣"
+      }
+     ],
+     "ex": [
+      {
+       "en": "They love habit and ritual and tradition in conversation relationally.",
+       "zh": "在對話和關係中，他們熱愛習慣、儀式和傳統。",
+       "t": 6151.7,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p3/w12_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p3/w12_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p3/w12_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a morning ritual 晨間例行習慣。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "rituals"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p3/w12_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p3/w12_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p3/w12_AU.mp3"
+     }
+    },
+    {
+     "n": 13,
+     "w": "regulation",
+     "s": 3,
+     "ph": "[͵rɛgjəˋleʃən]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "規定，法規"
+      }
+     ],
+     "ex": [
+      {
+       "en": "A contented pragmatist can do really well in a very stable traditional industry with a lot of regulation because they are very happy to live in that regulation.",
+       "zh": "知足的務實派可以在一個非常穩定、傳統、有很多法規的產業中表現得很好，因為他們很樂意活在那些規範裡。",
+       "t": 6246.2,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p3/w13_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p3/w13_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p3/w13_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "regulate v. 規範",
+      "regulatory adj. 監管的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "safety regulations 安全法規；comply with regulations 遵守規定。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "regulations"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p3/w13_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p3/w13_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p3/w13_AU.mp3"
+     }
+    },
+    {
+     "n": 14,
+     "w": "conservative",
+     "s": 2,
+     "ph": "[kənˋsɝvətɪv]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "保守的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "They're quite conservative. They're not going to make a big leap here, right?",
+       "zh": "他們相當保守。他們不會在這裡來個大躍進，對吧？",
+       "t": 6263.6,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p3/w14_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p3/w14_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p3/w14_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a conservative estimate 保守估計（財報題常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more conservative"
+        ],
+        [
+         "最高級",
+         "most conservative"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p3/w14_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p3/w14_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p3/w14_AU.mp3"
+     }
+    },
+    {
+     "n": 15,
+     "w": "savor",
+     "s": 1,
+     "ph": "[ˋsevɚ]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "細細品味"
+      }
+     ],
+     "ex": [
+      {
+       "en": "They want to savor life life's pleasures.",
+       "zh": "他們想細細品味人生的樂趣。",
+       "t": 6335.0,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p3/w15_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p3/w15_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p3/w15_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "savor the moment 好好享受當下；savory＝鹹味的（菜單）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "savors"
+        ],
+        [
+         "過去式",
+         "savored"
+        ],
+        [
+         "過去分詞",
+         "savored"
+        ],
+        [
+         "現在分詞",
+         "savoring"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p3/w15_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p3/w15_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p3/w15_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "And so when we skip level one, we do damage to our ___ connection later.",
+     "a": "potential",
+     "opts": [
+      "potential",
+      "circumstance",
+      "validated",
+      "anxiety"
+     ]
+    },
+    {
+     "s": "That no matter how hard they've worked, their grit, their strength, their resilience, they're a victim of ___. they typically feel very unlucky and very out of control.",
+     "a": "circumstance",
+     "opts": [
+      "potential",
+      "circumstance",
+      "validated",
+      "anxiety"
+     ]
+    },
+    {
+     "s": "They feel ___ when someone else tells them they look good.",
+     "a": "validated",
+     "opts": [
+      "potential",
+      "circumstance",
+      "validated",
+      "anxiety"
+     ]
+    },
+    {
+     "s": "They have lower ___. They have higher extraversion.",
+     "a": "anxiety",
+     "opts": [
+      "potential",
+      "circumstance",
+      "validated",
+      "anxiety"
+     ]
+    },
+    {
+     "s": "It's like a founder who won't stop trying new ___ and keeps throwing new ideas on the table when they haven't finished their first one. Yeah. Yeah.",
+     "a": "initiatives",
+     "opts": [
+      "initiatives",
+      "tolerate",
+      "conservative",
+      "savor"
+     ]
+    },
+    {
+     "s": "Jeff Bezos said, \"I've got enough ideas to sink the company and he has to learn to release them at a cadence that the company can ___.\"",
+     "a": "tolerate",
+     "opts": [
+      "initiatives",
+      "tolerate",
+      "conservative",
+      "savor"
+     ]
+    },
+    {
+     "s": "They're quite ___. They're not going to make a big leap here, right?",
+     "a": "conservative",
+     "opts": [
+      "initiatives",
+      "tolerate",
+      "conservative",
+      "savor"
+     ]
+    },
+    {
+     "s": "They want to ___ life life's pleasures.",
+     "a": "savor",
+     "opts": [
+      "initiatives",
+      "tolerate",
+      "conservative",
+      "savor"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "Vanessa 為什麼建議跟新認識的人要電話，而不是 Instagram？",
+     "a": "看 IG 會跳過第一層，讓第一次約會更尷尬",
+     "opts": [
+      "看 IG 會跳過第一層，讓第一次約會更尷尬",
+      "因為 IG 帳號比較難記",
+      "因為電話比較安全",
+      "因為大家都不用 IG"
+     ]
+    },
+    {
+     "q": "第三層「自我敘事」分成哪兩種？",
+     "a": "救贖敘事與污染敘事",
+     "opts": [
+      "救贖敘事與污染敘事",
+      "外向敘事與內向敘事",
+      "成功敘事與失敗敘事",
+      "工作敘事與家庭敘事"
+     ]
+    },
+    {
+     "q": "哪個問題可以探出一個人的敘事類型？",
+     "a": "你是幸運的人嗎？",
+     "opts": [
+      "你是幸運的人嗎？",
+      "你住在哪裡？",
+      "你是做什麼的？",
+      "你喜歡什麼食物？"
+     ]
+    },
+    {
+     "q": "「雄心勃勃的英雄」常見的困擾是？",
+     "a": "閃亮物品症候群、永不滿足、容易倦怠",
+     "opts": [
+      "閃亮物品症候群、永不滿足、容易倦怠",
+      "太安於現狀",
+      "不喜歡設定目標",
+      "不敢表達意見"
+     ]
+    },
+    {
+     "q": "「知足的務實派」適合什麼樣的工作環境？",
+     "a": "穩定、傳統、法規多的產業",
+     "opts": [
+      "穩定、傳統、法規多的產業",
+      "變化極快的新創",
+      "需要不斷開拓業務的職位",
+      "完全沒有規則的團隊"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yt-q2cg1gEYWJQ-p4",
+   "label": "影片 24（4/4）",
+   "theme": "Vanessa Van Edwards：五種原型、優雅退場與氣場",
+   "themeEn": "Vanessa Van Edwards: The Conversation Habit That Makes Smart People Unlikable (Part 4)",
+   "video": "https://youtu.be/q2cg1gEYWJQ?t=6371",
+   "source": "",
+   "publisher": "The Diary Of A CEO（Steven Bartlett）",
+   "release": "2026-10-17",
+   "transcript": "transcripts/q2cg1gEYWJQ-p4.json",
+   "lines": 605,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "fatigue",
+     "s": 2,
+     "ph": "[fəˋtig]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "疲勞"
+      }
+     ],
+     "ex": [
+      {
+       "en": "They have compassion burnout or compassion fatigue because they are giving and giving and giving and giving. They cannot say no.",
+       "zh": "他們會有同理心倦怠或同理心疲勞，因為他們一直付出、付出、付出、付出。他們沒辦法說不。",
+       "t": 6424.3,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p4/w1_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p4/w1_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p4/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "compassion fatigue 同理心疲勞；driver fatigue 駕駛疲勞。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p4/w1_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p4/w1_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p4/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "nurture",
+     "s": 1,
+     "ph": "[ˋnɝtʃɚ]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "培育，照顧"
+      },
+      {
+       "p": "n.",
+       "m": "養育"
+      }
+     ],
+     "ex": [
+      {
+       "en": "They are they are nurturers. They are giving.",
+       "zh": "他們是照顧者。他們很會付出。",
+       "t": 6436.8,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p4/w2_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p4/w2_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p4/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "nurturer n. 照顧者"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "nurture talent 培育人才；nurture client relationships 經營客戶關係。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "nurtures"
+        ],
+        [
+         "過去式",
+         "nurtured"
+        ],
+        [
+         "過去分詞",
+         "nurtured"
+        ],
+        [
+         "現在分詞",
+         "nurturing"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p4/w2_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p4/w2_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p4/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "conflict",
+     "s": 3,
+     "ph": "[ˋkɑnflɪkt]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "衝突；（時間）撞期"
+      }
+     ],
+     "ex": [
+      {
+       "en": "They attract high conflict people.",
+       "zh": "他們會吸引高衝突型的人。",
+       "t": 6482.5,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p4/w3_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p4/w3_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p4/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "schedule conflict 行程衝突（改約 email 必考）；conflict of interest 利益衝突。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "conflicts"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p4/w3_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p4/w3_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p4/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "performance",
+     "s": 3,
+     "ph": "[pɚˋfɔrməns]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "績效，表現；演出"
+      }
+     ],
+     "ex": [
+      {
+       "en": "These are great if you have a not always but often managers can do great things as selfless helpers because they are so attuned to others but they are very good at bringing out performance.",
+       "zh": "這些很棒，如果你有……不一定，但通常主管如果是無私的助人者，可以做得很出色，因為他們對別人非常敏銳，也非常擅長帶出績效。",
+       "t": 6626.5,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p4/w4_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p4/w4_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p4/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "perform v. 執行；表演"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "performance review 績效考核；bring out performance 激發表現。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "performances"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p4/w4_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p4/w4_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p4/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "avoidant",
+     "s": 1,
+     "ph": "[əˋvɔɪdənt]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "逃避的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "These people tend to be a little bit conflict avoidant.",
+       "zh": "這些人往往有點逃避衝突。",
+       "t": 6662.3,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p4/w5_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p4/w5_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p4/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "avoid v. 避免"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "conflict-avoidant 逃避衝突的；avoid + V-ing（Part 5 必考）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more avoidant"
+        ],
+        [
+         "最高級",
+         "most avoidant"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p4/w5_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p4/w5_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p4/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "refine",
+     "s": 2,
+     "ph": "[rɪˋfaɪn]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "改進，精煉"
+      }
+     ],
+     "ex": [
+      {
+       "en": "It helps me be sort of refine my my my own points of view",
+       "zh": "這幫助我精煉自己的觀點，",
+       "t": 6823.5,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p4/w6_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p4/w6_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p4/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "refinement n. 改良"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "refine the proposal 修改精進提案。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "refines"
+        ],
+        [
+         "過去式",
+         "refined"
+        ],
+        [
+         "過去分詞",
+         "refined"
+        ],
+        [
+         "現在分詞",
+         "refining"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p4/w6_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p4/w6_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p4/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "overlook",
+     "s": 2,
+     "ph": "[͵ovɚˋlʊk]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "忽視，忽略；俯瞰"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And they feel that no matter what they've done, they are unlucky. They are struggling. They often feel stuck. They often feel misunderstood. They often feel overlooked.",
+       "zh": "他們覺得不管自己做了什麼，都很倒楣。他們在掙扎。他們常覺得卡住。他們常覺得被誤解。他們常覺得被忽視。",
+       "t": 6878.2,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p4/w7_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p4/w7_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p4/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "feel overlooked 覺得被忽視；a room overlooking the ocean 海景房（飯店題）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "overlooks"
+        ],
+        [
+         "過去式",
+         "overlooked"
+        ],
+        [
+         "過去分詞",
+         "overlooked"
+        ],
+        [
+         "現在分詞",
+         "overlooking"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p4/w7_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p4/w7_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p4/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "graceful",
+     "s": 2,
+     "ph": "[ˋgresfəl]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "優雅的，得體的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Oh my goodness. Uh it's called a graceful exit.",
+       "zh": "天啊。呃，這叫做「優雅退場」。",
+       "t": 6954.0,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p4/w8_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p4/w8_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p4/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "grace n. 優雅；寬限期（grace period）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a graceful exit 得體地離開。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more graceful"
+        ],
+        [
+         "最高級",
+         "most graceful"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p4/w8_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p4/w8_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p4/w8_AU.mp3"
+     }
+    },
+    {
+     "n": 9,
+     "w": "broadcast",
+     "s": 2,
+     "ph": "[ˋbrɔd͵kæst]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "廣播，傳播；明顯表現"
+      },
+      {
+       "p": "n.",
+       "m": "廣播節目"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So we like people who are very clearly broadcasting likes.",
+       "zh": "所以我們喜歡非常明顯表達喜歡的人。",
+       "t": 7286.2,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p4/w9_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p4/w9_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p4/w9_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "broadcast live 現場直播；三態 broadcast-broadcast-broadcast。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "broadcasts"
+        ],
+        [
+         "過去式",
+         "broadcast"
+        ],
+        [
+         "過去分詞",
+         "broadcast"
+        ],
+        [
+         "現在分詞",
+         "broadcasting"
+        ]
+       ]
+      },
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "broadcasts"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p4/w9_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p4/w9_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p4/w9_AU.mp3"
+     }
+    },
+    {
+     "n": 10,
+     "w": "competence",
+     "s": 2,
+     "ph": "[ˋkɑmpətəns]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "能力，勝任"
+      }
+     ],
+     "ex": [
+      {
+       "en": "But also two, and we talked about this a little bit last time, is fundamentally 82% of our impressions of people are based on warmth and competence.",
+       "zh": "但第二，我們上次稍微談過，基本上我們對一個人的印象有 82% 是基於溫暖和能力。",
+       "t": 7415.1,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p4/w10_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p4/w10_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p4/w10_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "competent adj. 能勝任的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "warmth and competence 溫暖與能力（第一印象兩大指標）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p4/w10_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p4/w10_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p4/w10_AU.mp3"
+     }
+    },
+    {
+     "n": 11,
+     "w": "efficient",
+     "s": 3,
+     "ph": "[ɪˋfɪʃənt]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "有效率的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So people who are first and is first signaling I'm open, I'm friendly, and then competent, I'm capable, I'm efficient, I'm effective, make us feel like I'm in good hands.",
+       "zh": "所以那些首先表現出「我很開放、我很友善」，然後表現出能力，「我能幹、我有效率、我很有成效」的人，會讓我們覺得自己被照顧得很好。",
+       "t": 7422.6,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p4/w11_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p4/w11_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p4/w11_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "efficiency n. 效率",
+      "efficiently adv. 有效率地"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "energy-efficient 節能的；efficient vs. effective（有效率 vs. 有成效）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more efficient"
+        ],
+        [
+         "最高級",
+         "most efficient"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p4/w11_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p4/w11_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p4/w11_AU.mp3"
+     }
+    },
+    {
+     "n": 12,
+     "w": "accolade",
+     "s": 1,
+     "ph": "[ˋækə͵led]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "讚譽，榮譽"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Now, I have other accolades that I could have shared, but I was like, \"It's nothing in comparison.\"",
+       "zh": "我還有其他成就可以分享，但我想：「那根本比不上。」",
+       "t": 7617.8,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p4/w12_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p4/w12_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p4/w12_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "receive accolades 獲得讚譽（得獎新聞）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "accolades"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p4/w12_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p4/w12_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p4/w12_AU.mp3"
+     }
+    },
+    {
+     "n": 13,
+     "w": "deviate",
+     "s": 1,
+     "ph": "[ˋdivɪ͵et]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "偏離"
+      }
+     ],
+     "ex": [
+      {
+       "en": "But also, feel free to totally deviate from the plan.",
+       "zh": "但也請隨意完全偏離計畫。",
+       "t": 8528.4,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p4/w13_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p4/w13_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p4/w13_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "deviation n. 偏差"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "deviate from the plan／schedule 偏離計畫／時程。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "deviates"
+        ],
+        [
+         "過去式",
+         "deviated"
+        ],
+        [
+         "過去分詞",
+         "deviated"
+        ],
+        [
+         "現在分詞",
+         "deviating"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p4/w13_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p4/w13_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p4/w13_AU.mp3"
+     }
+    },
+    {
+     "n": 14,
+     "w": "epidemic",
+     "s": 2,
+     "ph": "[͵ɛpɪˋdɛmɪk]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "流行病；（壞事）盛行"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I would like to get rid of the awkwardness in your life because and the deeper meaning is we are in a loneliness epidemic.",
+       "zh": "我想把你生活中的尷尬拿掉，因為更深層的意義是，我們正處在一場孤獨的流行病中。",
+       "t": 8582.5,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p4/w14_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p4/w14_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p4/w14_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "loneliness epidemic 孤獨流行病。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "epidemics"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p4/w14_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p4/w14_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p4/w14_AU.mp3"
+     }
+    },
+    {
+     "n": 15,
+     "w": "sacrifice",
+     "s": 2,
+     "ph": "[ˋsækrə͵faɪs]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "犧牲"
+      },
+      {
+       "p": "n.",
+       "m": "犧牲"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Um, and that was because I think I sacrificed friendship and family relationship in the hustle.",
+       "zh": "嗯，那是因為我覺得我在拚命工作的過程中，犧牲了友情和家人關係。",
+       "t": 8681.8,
+       "aus": {
+        "US": "tts/q2cg1gEYWJQ-p4/w15_e0_US.mp3",
+        "UK": "tts/q2cg1gEYWJQ-p4/w15_e0_UK.mp3",
+        "AU": "tts/q2cg1gEYWJQ-p4/w15_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "sacrifice quality for speed 為了速度犧牲品質。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "sacrifices"
+        ]
+       ]
+      },
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "sacrifices"
+        ],
+        [
+         "過去式",
+         "sacrificed"
+        ],
+        [
+         "過去分詞",
+         "sacrificed"
+        ],
+        [
+         "現在分詞",
+         "sacrificing"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/q2cg1gEYWJQ-p4/w15_US.mp3",
+      "UK": "tts/q2cg1gEYWJQ-p4/w15_UK.mp3",
+      "AU": "tts/q2cg1gEYWJQ-p4/w15_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "They are they are ___. They are giving.",
+     "a": "nurturers",
+     "opts": [
+      "nurturers",
+      "conflict",
+      "refine",
+      "overlooked"
+     ]
+    },
+    {
+     "s": "They attract high ___ people.",
+     "a": "conflict",
+     "opts": [
+      "nurturers",
+      "conflict",
+      "refine",
+      "overlooked"
+     ]
+    },
+    {
+     "s": "It helps me be sort of ___ my my my own points of view",
+     "a": "refine",
+     "opts": [
+      "nurturers",
+      "conflict",
+      "refine",
+      "overlooked"
+     ]
+    },
+    {
+     "s": "And they feel that no matter what they've done, they are unlucky. They are struggling. They often feel stuck. They often feel misunderstood. They often feel ___.",
+     "a": "overlooked",
+     "opts": [
+      "nurturers",
+      "conflict",
+      "refine",
+      "overlooked"
+     ]
+    },
+    {
+     "s": "But also two, and we talked about this a little bit last time, is fundamentally 82% of our impressions of people are based on warmth and ___.",
+     "a": "competence",
+     "opts": [
+      "competence",
+      "efficient",
+      "deviate",
+      "epidemic"
+     ]
+    },
+    {
+     "s": "So people who are first and is first signaling I'm open, I'm friendly, and then competent, I'm capable, I'm ___, I'm effective, make us feel like I'm in good hands.",
+     "a": "efficient",
+     "opts": [
+      "competence",
+      "efficient",
+      "deviate",
+      "epidemic"
+     ]
+    },
+    {
+     "s": "But also, feel free to totally ___ from the plan.",
+     "a": "deviate",
+     "opts": [
+      "competence",
+      "efficient",
+      "deviate",
+      "epidemic"
+     ]
+    },
+    {
+     "s": "I would like to get rid of the awkwardness in your life because and the deeper meaning is we are in a loneliness ___.",
+     "a": "epidemic",
+     "opts": [
+      "competence",
+      "efficient",
+      "deviate",
+      "epidemic"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "「無私的助人者」常見的困擾是？",
+     "a": "無法說不、同理心疲勞、把自己擺最後",
+     "opts": [
+      "無法說不、同理心疲勞、把自己擺最後",
+      "太愛出風頭",
+      "只想談論自己",
+      "不喜歡幫助別人"
+     ]
+    },
+    {
+     "q": "「優雅退場」的公式是？",
+     "a": "未來提示＋讚美或行動",
+     "opts": [
+      "未來提示＋讚美或行動",
+      "直接說我要走了",
+      "假裝接電話",
+      "一直沉默等對方離開"
+     ]
+    },
+    {
+     "q": "讓人覺得有魅力的兩大訊號是？",
+     "a": "溫暖（可以信任我）和能力（可以依靠我）",
+     "opts": [
+      "溫暖（可以信任我）和能力（可以依靠我）",
+      "外表和財富",
+      "幽默和音量",
+      "學歷和職稱"
+     ]
+    },
+    {
+     "q": "Vanessa 在 VIP 派對上怎麼自我介紹？",
+     "a": "說自己是「正在康復中的尷尬人」，不炫耀成就",
+     "opts": [
+      "說自己是「正在康復中的尷尬人」，不炫耀成就",
+      "列出所有得過的獎",
+      "說自己治癒了癌症",
+      "直接跳過不介紹"
+     ]
+    },
+    {
+     "q": "「最大共鳴點」是什麼？",
+     "a": "自然音域的最低端，在吐氣時說話，聽起來冷靜自信",
+     "opts": [
+      "自然音域的最低端，在吐氣時說話，聽起來冷靜自信",
+      "用最大的音量說話",
+      "說話越快越好",
+      "用最高的音調打招呼"
+     ]
+    }
+   ]
   }
  ]
 });

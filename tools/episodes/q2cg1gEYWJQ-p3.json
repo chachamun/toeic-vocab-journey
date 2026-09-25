@@ -1,0 +1,747 @@
+{
+ "id": "yt-q2cg1gEYWJQ-p3",
+ "course": "daily-video",
+ "publisher": "The Diary Of A CEO（Steven Bartlett）",
+ "video": "https://youtu.be/q2cg1gEYWJQ?t=4200",
+ "bbc": "",
+ "label": "影片 23（3/4）",
+ "theme": "Vanessa Van Edwards：第三層自我敘事與「你幸運嗎？」",
+ "themeEn": "Vanessa Van Edwards: The Conversation Habit That Makes Smart People Unlikable (Part 3)",
+ "release": "2026-10-16",
+ "words": [
+  {
+   "n": 1,
+   "w": "potential",
+   "s": 3,
+   "ph": "[pəˋtɛnʃəl]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "潛在的"
+    },
+    {
+     "p": "n.",
+     "m": "潛力"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And so when we skip level one, we do damage to our potential connection later.",
+     "zh": "所以當我們跳過第一層，我們就在傷害之後可能的連結。",
+     "t": 4585.1
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "potential customers 潛在客戶；reach your full potential 發揮全部潛力。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "vulnerability",
+   "s": 1,
+   "ph": "[͵vʌlnərəˋbɪlətɪ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "脆弱，示弱"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And there is such a thing as vulnerability regret.",
+     "zh": "確實有「示弱後悔」這種東西。",
+     "t": 4696.2
+    }
+   ],
+   "fam": [
+    "vulnerable adj. 脆弱的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "show vulnerability 展現脆弱面；security vulnerability 資安漏洞。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "vulnerabilities"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "circumstance",
+   "s": 2,
+   "ph": "[ˋsɝkəm͵stæns]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "情況，環境（常用複數）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "That no matter how hard they've worked, their grit, their strength, their resilience, they're a victim of circumstance. they typically feel very unlucky and very out of control.",
+     "zh": "不管他們多努力、多有毅力、多堅強、多有韌性，他們都是環境的受害者。他們通常覺得自己非常倒楣、非常無法掌控。",
+     "t": 4851.4
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "under no circumstances 絕不；due to unforeseen circumstances 由於不可預見的情況（延期公告必考）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "circumstances"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "validate",
+   "s": 2,
+   "ph": "[ˋvælə͵det]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "肯定，認可；驗證"
+    }
+   ],
+   "ex": [
+    {
+     "en": "They feel validated when someone else tells them they look good.",
+     "zh": "別人說他們看起來很好時，他們才覺得被肯定。",
+     "t": 5026.1
+    }
+   ],
+   "fam": [
+    "validation n. 肯定（影片 16）",
+    "valid adj. 有效的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "validate a parking ticket 蓋停車章；feel validated 覺得被肯定。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "validates"
+      ],
+      [
+       "過去式",
+       "validated"
+      ],
+      [
+       "過去分詞",
+       "validated"
+      ],
+      [
+       "現在分詞",
+       "validating"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "vanity",
+   "s": 1,
+   "ph": "[ˋvænətɪ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "虛榮"
+    }
+   ],
+   "ex": [
+    {
+     "en": "They look more at like for example vanity metrics, their likes or their follows, how many friends they have, how often they're invited, are they getting compliments?",
+     "zh": "他們比較看重像是虛榮指標，按讚數、追蹤數、有多少朋友、多常被邀請、有沒有被稱讚。",
+     "t": 5037.4
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "vanity metrics 虛榮指標（按讚數等表面數字）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "predetermined",
+   "s": 1,
+   "ph": "[͵pridɪˋtɝmɪnd]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "預先決定的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So, I wonder I don't know if someone has a high belief in faith or predetermined fate if they would feel an external locus of control and maybe that wouldn't be as good for their mental health.",
+     "zh": "所以我在想，我不知道，如果有人非常相信命運或宿命，他們會不會有外在控制感，而那也許對他們的心理健康不太好。",
+     "t": 5096.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "at a predetermined time 在預定時間。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "diagnostic",
+   "s": 1,
+   "ph": "[͵daɪəgˋnɑstɪk]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "診斷測驗"
+    },
+    {
+     "p": "adj.",
+     "m": "診斷的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "It's like a 10 question diagnostic and it asks all these different variations of that question.",
+     "zh": "大概是 10 題的診斷測驗，會問這個問題的各種不同變化。",
+     "t": 5420.2
+    }
+   ],
+   "fam": [
+    "diagnose v. 診斷（影片 18）"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "run a diagnostic test 執行診斷測試（設備維修）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "diagnostics"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "anxiety",
+   "s": 2,
+   "ph": "[æŋˋzaɪətɪ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "焦慮"
+    }
+   ],
+   "ex": [
+    {
+     "en": "They have lower anxiety. They have higher extraversion.",
+     "zh": "他們焦慮程度比較低，外向程度比較高。",
+     "t": 5465.8
+    }
+   ],
+   "fam": [
+    "anxious adj. 焦慮的；渴望的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "be anxious to + V 急著想～（Part 5 陷阱：不一定是焦慮）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "anxieties"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "w": "empowering",
+   "s": 1,
+   "ph": "[ɪmˋpaʊərɪŋ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "賦予力量的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "I'm like kind of anti-gratitude, but feeling like you're really really lucky is is so empowering.",
+     "zh": "我有點反對感恩，但覺得自己真的真的很幸運，是非常有力量的。",
+     "t": 5498.6
+    }
+   ],
+   "fam": [
+    "empower v. 授權；賦能"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "empower employees to make decisions 授權員工做決定。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more empowering"
+      ],
+      [
+       "最高級",
+       "most empowering"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "w": "initiative",
+   "s": 3,
+   "ph": "[ɪˋnɪʃətɪv]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "新計畫，倡議；主動性"
+    }
+   ],
+   "ex": [
+    {
+     "en": "It's like a founder who won't stop trying new initiatives and keeps throwing new ideas on the table when they haven't finished their first one. Yeah. Yeah.",
+     "zh": "就像一個創辦人一直不停嘗試新計畫，第一個還沒做完就一直丟新點子上桌。對。對。",
+     "t": 5839.5
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a new initiative 新方案；take the initiative 主動出擊。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "initiatives"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "w": "tolerate",
+   "s": 2,
+   "ph": "[ˋtɑlə͵ret]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "容忍，承受"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Jeff Bezos said, \"I've got enough ideas to sink the company and he has to learn to release them at a cadence that the company can tolerate.\"",
+     "zh": "Jeff Bezos 說：「我的點子多到足以拖垮公司」，他得學會以公司能承受的節奏釋放那些點子。",
+     "t": 5854.6
+    }
+   ],
+   "fam": [
+    "tolerance n. 容忍度"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "will not be tolerated 絕不容許（公司規定用語）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "tolerates"
+      ],
+      [
+       "過去式",
+       "tolerated"
+      ],
+      [
+       "過去分詞",
+       "tolerated"
+      ],
+      [
+       "現在分詞",
+       "tolerating"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "w": "ritual",
+   "s": 1,
+   "ph": "[ˋrɪtʃʊəl]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "儀式，例行習慣"
+    }
+   ],
+   "ex": [
+    {
+     "en": "They love habit and ritual and tradition in conversation relationally.",
+     "zh": "在對話和關係中，他們熱愛習慣、儀式和傳統。",
+     "t": 6151.7
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a morning ritual 晨間例行習慣。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "rituals"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "w": "regulation",
+   "s": 3,
+   "ph": "[͵rɛgjəˋleʃən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "規定，法規"
+    }
+   ],
+   "ex": [
+    {
+     "en": "A contented pragmatist can do really well in a very stable traditional industry with a lot of regulation because they are very happy to live in that regulation.",
+     "zh": "知足的務實派可以在一個非常穩定、傳統、有很多法規的產業中表現得很好，因為他們很樂意活在那些規範裡。",
+     "t": 6246.2
+    }
+   ],
+   "fam": [
+    "regulate v. 規範",
+    "regulatory adj. 監管的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "safety regulations 安全法規；comply with regulations 遵守規定。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "regulations"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "w": "conservative",
+   "s": 2,
+   "ph": "[kənˋsɝvətɪv]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "保守的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "They're quite conservative. They're not going to make a big leap here, right?",
+     "zh": "他們相當保守。他們不會在這裡來個大躍進，對吧？",
+     "t": 6263.6
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a conservative estimate 保守估計（財報題常見）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more conservative"
+      ],
+      [
+       "最高級",
+       "most conservative"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "w": "savor",
+   "s": 1,
+   "ph": "[ˋsevɚ]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "細細品味"
+    }
+   ],
+   "ex": [
+    {
+     "en": "They want to savor life life's pleasures.",
+     "zh": "他們想細細品味人生的樂趣。",
+     "t": 6335.0
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "savor the moment 好好享受當下；savory＝鹹味的（菜單）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "savors"
+      ],
+      [
+       "過去式",
+       "savored"
+      ],
+      [
+       "過去分詞",
+       "savored"
+      ],
+      [
+       "現在分詞",
+       "savoring"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "And so when we skip level one, we do damage to our ___ connection later.",
+   "a": "potential",
+   "opts": [
+    "potential",
+    "circumstance",
+    "validated",
+    "anxiety"
+   ]
+  },
+  {
+   "s": "That no matter how hard they've worked, their grit, their strength, their resilience, they're a victim of ___. they typically feel very unlucky and very out of control.",
+   "a": "circumstance",
+   "opts": [
+    "potential",
+    "circumstance",
+    "validated",
+    "anxiety"
+   ]
+  },
+  {
+   "s": "They feel ___ when someone else tells them they look good.",
+   "a": "validated",
+   "opts": [
+    "potential",
+    "circumstance",
+    "validated",
+    "anxiety"
+   ]
+  },
+  {
+   "s": "They have lower ___. They have higher extraversion.",
+   "a": "anxiety",
+   "opts": [
+    "potential",
+    "circumstance",
+    "validated",
+    "anxiety"
+   ]
+  },
+  {
+   "s": "It's like a founder who won't stop trying new ___ and keeps throwing new ideas on the table when they haven't finished their first one. Yeah. Yeah.",
+   "a": "initiatives",
+   "opts": [
+    "initiatives",
+    "tolerate",
+    "conservative",
+    "savor"
+   ]
+  },
+  {
+   "s": "Jeff Bezos said, \"I've got enough ideas to sink the company and he has to learn to release them at a cadence that the company can ___.\"",
+   "a": "tolerate",
+   "opts": [
+    "initiatives",
+    "tolerate",
+    "conservative",
+    "savor"
+   ]
+  },
+  {
+   "s": "They're quite ___. They're not going to make a big leap here, right?",
+   "a": "conservative",
+   "opts": [
+    "initiatives",
+    "tolerate",
+    "conservative",
+    "savor"
+   ]
+  },
+  {
+   "s": "They want to ___ life life's pleasures.",
+   "a": "savor",
+   "opts": [
+    "initiatives",
+    "tolerate",
+    "conservative",
+    "savor"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "Vanessa 為什麼建議跟新認識的人要電話，而不是 Instagram？",
+   "a": "看 IG 會跳過第一層，讓第一次約會更尷尬",
+   "opts": [
+    "看 IG 會跳過第一層，讓第一次約會更尷尬",
+    "因為 IG 帳號比較難記",
+    "因為電話比較安全",
+    "因為大家都不用 IG"
+   ]
+  },
+  {
+   "q": "第三層「自我敘事」分成哪兩種？",
+   "a": "救贖敘事與污染敘事",
+   "opts": [
+    "救贖敘事與污染敘事",
+    "外向敘事與內向敘事",
+    "成功敘事與失敗敘事",
+    "工作敘事與家庭敘事"
+   ]
+  },
+  {
+   "q": "哪個問題可以探出一個人的敘事類型？",
+   "a": "你是幸運的人嗎？",
+   "opts": [
+    "你是幸運的人嗎？",
+    "你住在哪裡？",
+    "你是做什麼的？",
+    "你喜歡什麼食物？"
+   ]
+  },
+  {
+   "q": "「雄心勃勃的英雄」常見的困擾是？",
+   "a": "閃亮物品症候群、永不滿足、容易倦怠",
+   "opts": [
+    "閃亮物品症候群、永不滿足、容易倦怠",
+    "太安於現狀",
+    "不喜歡設定目標",
+    "不敢表達意見"
+   ]
+  },
+  {
+   "q": "「知足的務實派」適合什麼樣的工作環境？",
+   "a": "穩定、傳統、法規多的產業",
+   "opts": [
+    "穩定、傳統、法規多的產業",
+    "變化極快的新創",
+    "需要不斷開拓業務的職位",
+    "完全沒有規則的團隊"
+   ]
+  }
+ ]
+}
