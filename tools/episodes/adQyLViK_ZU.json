@@ -1,0 +1,794 @@
+{
+ "id": "yt-adQyLViK_ZU",
+ "course": "daily-video",
+ "publisher": "The Mel Robbins Podcast",
+ "video": "https://youtu.be/adQyLViK_ZU",
+ "bbc": "",
+ "label": "影片 16",
+ "theme": "Oprah 談人生目的、原諒與內在的聲音",
+ "themeEn": "Oprah Winfrey on Purpose, Forgiveness and Your Inner GPS",
+ "release": "2026-10-09",
+ "words": [
+  {
+   "n": 1,
+   "w": "fulfill",
+   "s": 2,
+   "ph": "[fʊlˋfɪl]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "實現；履行，完成"
+    }
+   ],
+   "ex": [
+    {
+     "en": "You were born to fulfill the dream of your life here on Earth.",
+     "zh": "你生來就是為了在地球上實現你人生的夢想。",
+     "t": 12.6
+    }
+   ],
+   "fam": [
+    "fulfillment n. 實現；滿足感"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "fulfill an order 出貨（完成訂單）；fulfill requirements 符合條件（TOEIC 必考搭配）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "fulfills"
+      ],
+      [
+       "過去式",
+       "fulfilled"
+      ],
+      [
+       "過去分詞",
+       "fulfilled"
+      ],
+      [
+       "現在分詞",
+       "fulfilling"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "alignment",
+   "s": 1,
+   "ph": "[əˋlaɪnmənt]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "一致，協調；對齊"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And every time you go off course, every time you allow yourself to be out of alignment, things go wrong or you feel stuck, you feel overwhelmed,",
+     "zh": "而每次你偏離方向、每次你讓自己失去一致，事情就會出錯，或你會覺得卡住、覺得不堪負荷、",
+     "t": 454.4
+    }
+   ],
+   "fam": [
+    "align v. 使一致；對齊"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "out of alignment 不一致、失調；align with company goals 與公司目標一致。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "vital",
+   "s": 3,
+   "ph": "[ˋvaɪtḷ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "極重要的，不可或缺的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And a lot of times, you're in a If you're in a job that you know you don't want, that is that is vital information.",
+     "zh": "而很多時候，如果你在一份你知道自己不想要的工作裡，那就是非常重要的資訊。",
+     "t": 562.3
+    }
+   ],
+   "fam": [
+    "vitality n. 活力"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "vital information 極重要的資訊；It is vital that... 某事是非常重要的。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more vital"
+      ],
+      [
+       "最高級",
+       "most vital"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "legacy",
+   "s": 2,
+   "ph": "[ˋlɛgəsɪ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "傳承，遺產"
+    }
+   ],
+   "ex": [
+    {
+     "en": "If you touch the life, you still have a legacy.",
+     "zh": "只要你感動了一個生命，你就留下了傳承。",
+     "t": 805.6
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "leave a legacy 留下傳承；legacy system 舊有系統（IT 用語）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "legacies"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "validation",
+   "s": 1,
+   "ph": "[͵væləˋdeʃən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "肯定，認可；驗證"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And because I didn't feel it and didn't get what I needed, that is what inspired me to be such a talker, that's to be a speaker, to be an orator, to do so well in school because that's where my validation came from.",
+     "zh": "而正因為我沒有感受到、沒有得到我需要的，才促使我變得這麼會說話，成為演說者、成為講者，在學校表現得那麼好，因為那是我得到肯定的地方。",
+     "t": 1367.7
+    }
+   ],
+   "fam": [
+    "validate v. 驗證；認可",
+    "valid adj. 有效的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "parking validation 停車認證（蓋章折抵停車費，聽力常見）；valid ID 有效證件。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "capacity",
+   "s": 3,
+   "ph": "[kəˋpæsətɪ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "能力；容量"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So what I learned from that is that expecting people to offer you or give you the love, the attention that you need who do not have the capacity to do it.",
+     "zh": "所以我學到的是：期待沒有能力的人給你所需要的愛和關注。",
+     "t": 1570.0
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "seating capacity 座位容量；at full capacity 滿載、全力運轉（工廠、會場必考）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "capacities"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "acceptance",
+   "s": 2,
+   "ph": "[əkˋsɛptəns]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "接受，接納"
+    }
+   ],
+   "ex": [
+    {
+     "en": "When you get to acceptance, when you've lost someone or any other job or relationship, when you get to acceptance, acceptance leads you to freedom.",
+     "zh": "當你走到接受，不管是失去了某個人，還是失去工作或一段關係，當你走到接受，接受會帶你走向自由。",
+     "t": 1732.2
+    }
+   ],
+   "fam": [
+    "accept v. 接受",
+    "acceptable adj. 可接受的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "letter of acceptance 錄取通知；本句 lead to freedom＝帶來自由。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "humiliation",
+   "s": 1,
+   "ph": "[hju͵mɪlɪˋeʃən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "羞辱，丟臉"
+    }
+   ],
+   "ex": [
+    {
+     "en": "We didn't know he was going to say because her humiliation still abides with me.\"",
+     "zh": "我們不知道他會那樣說。」而她的羞辱至今仍留在我心裡。",
+     "t": 1964.4
+    }
+   ],
+   "fam": [
+    "humiliate v. 羞辱",
+    "humiliating adj. 丟臉的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "abide with 留在心中（文學用法）；公開批評下屬是職場大忌。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "humiliations"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "w": "resentful",
+   "s": 1,
+   "ph": "[rɪˋzɛntfəl]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "怨恨的，不滿的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "They don't know that behind it you are resentful. You don't know.",
+     "zh": "他們不知道在那背後你其實心懷怨恨。你不知道。",
+     "t": 2088.3
+    }
+   ],
+   "fam": [
+    "resent v. 怨恨",
+    "resentment n. 怨恨"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "be resentful of 對～不滿；討好別人時心裡常常是 resentful。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more resentful"
+      ],
+      [
+       "最高級",
+       "most resentful"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "w": "encounter",
+   "s": 2,
+   "ph": "[ɪnˋkaʊntɚ]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "遇到，碰上"
+    },
+    {
+     "p": "n.",
+     "m": "相遇，遭遇"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Because most people that I have encountered, you know, in my life experience of talking to thousands and thousands of people and I used to sit after the show,",
+     "zh": "因為在我這一生和成千上萬的人談話的經驗中，我以前節目結束後會坐下來，",
+     "t": 2420.7
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "encounter a problem／difficulty 遇到問題（TOEIC 同義替換：run into、come across）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "encounters"
+      ],
+      [
+       "過去式",
+       "encountered"
+      ],
+      [
+       "過去分詞",
+       "encountered"
+      ],
+      [
+       "現在分詞",
+       "encountering"
+      ]
+     ]
+    },
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "encounters"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "w": "customize",
+   "s": 2,
+   "ph": "[ˋkʌstəm͵aɪz]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "客製化，量身訂做"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Amica goes above and beyond to customize coverage that fits your life. They make it simple. They make it clear.",
+     "zh": "Amica 會做到超乎期待，量身打造適合你生活的保障。他們讓一切簡單、清楚。",
+     "t": 3012.9
+    }
+   ],
+   "fam": [
+    "custom adj. 訂做的",
+    "customized adj. 客製化的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "customize coverage 量身訂做保險保障；go above and beyond＝做到超乎期待。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "customizes"
+      ],
+      [
+       "過去式",
+       "customized"
+      ],
+      [
+       "過去分詞",
+       "customized"
+      ],
+      [
+       "現在分詞",
+       "customizing"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "w": "maintain",
+   "s": 3,
+   "ph": "[menˋten]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "維持，保持；維修"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So one of the reasons why I've been able to maintain the center of myself is because even in that moment of struggle with own in the beginning of building that network I was sad I was numbed I was depressed I was angry with myself but I knew trouble don't last always I knew that that too would eventually pass I didn't know how because I live in the center of knowing that there's bigger reason why I'm here.",
+     "zh": "所以我能維持內心中心的原因之一，是即使在 OWN 電視網創立初期那段掙扎的時刻，我很難過、我麻木了、我很沮喪、我對自己很生氣，但我知道困難不會永遠持續，我知道那也終將過去。我不知道會怎麼過去，但因為我活在「知道我來這裡有更大的理由」這個核心之中。",
+     "t": 3190.7
+    }
+   ],
+   "fam": [
+    "maintenance n. 維護，保養"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "maintain a balance 維持平衡；routine maintenance 例行維修（TOEIC 高頻）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "maintains"
+      ],
+      [
+       "過去式",
+       "maintained"
+      ],
+      [
+       "過去分詞",
+       "maintained"
+      ],
+      [
+       "現在分詞",
+       "maintaining"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "w": "eliminate",
+   "s": 3,
+   "ph": "[ɪˋlɪmə͵net]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "消除，排除"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So this miracle that has become my life I know exists for everybody who is willing to tap into the source of themselves to that and that's what has eliminated my my my my ultimate fears.",
+     "zh": "所以這個成為我人生的奇蹟，我知道對每個願意連結內在源頭的人都存在，而這就消除了我最深的恐懼。",
+     "t": 3282.4
+    }
+   ],
+   "fam": [
+    "elimination n. 消除"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "eliminate waste／errors 減少浪費／錯誤；tap into＝汲取、運用。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "eliminates"
+      ],
+      [
+       "過去式",
+       "eliminated"
+      ],
+      [
+       "過去分詞",
+       "eliminated"
+      ],
+      [
+       "現在分詞",
+       "eliminating"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "w": "sincere",
+   "s": 2,
+   "ph": "[sɪnˋsɪr]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "真誠的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "I will tell you beyond a shadow of any doubt that I have for any human being who's listening to us right now that if you start a sincere consistent practice of gratitude your life will shift because it is energetically vibrationally um it causes your energy to change and the vibration to change and also what you then begin to attract into your life to change.",
+     "zh": "我要毫無疑問地告訴每一個正在聽我們說話的人：如果你開始真誠、持續地練習感恩，你的人生就會轉變，因為在能量上、在振動上，它會讓你的能量和振動改變，也會讓你開始吸引到生命中的東西跟著改變。",
+     "t": 3707.9
+    }
+   ],
+   "fam": [
+    "sincerely adv. 真誠地（Sincerely, 書信結尾）",
+    "sincerity n. 真誠"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "sincere apology 誠摯的道歉；beyond a shadow of a doubt＝毫無疑問。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more sincere"
+      ],
+      [
+       "最高級",
+       "most sincere"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "w": "urgency",
+   "s": 2,
+   "ph": "[ˋɝdʒənsɪ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "緊迫，急迫"
+    }
+   ],
+   "ex": [
+    {
+     "en": "too. uh by actually being in conversation with the life force within me has led me to the highest grounds possible for myself and I've been asking that how can I be used I mean I am 72 and very much aware of the urgency of time very much aware that I have one solid good decade left very much aware.",
+     "zh": "呃，實際和我內在的生命力量對話，帶我走到了對我自己來說最高的境界，而我一直在問：我要怎麼被使用？我是說，我 72 歲了，非常清楚時間的緊迫，非常清楚我只剩下扎扎實實的十年，非常清楚。",
+     "t": 4384.5
+    }
+   ],
+   "fam": [
+    "urgent adj. 緊急的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a sense of urgency 急迫感；urgent matter 緊急事項（email 主旨常見 URGENT）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "You were born to ___ the dream of your life here on Earth.",
+   "a": "fulfill",
+   "opts": [
+    "fulfill",
+    "vital",
+    "legacy",
+    "capacity"
+   ]
+  },
+  {
+   "s": "And a lot of times, you're in a If you're in a job that you know you don't want, that is that is ___ information.",
+   "a": "vital",
+   "opts": [
+    "fulfill",
+    "vital",
+    "legacy",
+    "capacity"
+   ]
+  },
+  {
+   "s": "If you touch the life, you still have a ___.",
+   "a": "legacy",
+   "opts": [
+    "fulfill",
+    "vital",
+    "legacy",
+    "capacity"
+   ]
+  },
+  {
+   "s": "So what I learned from that is that expecting people to offer you or give you the love, the attention that you need who do not have the ___ to do it.",
+   "a": "capacity",
+   "opts": [
+    "fulfill",
+    "vital",
+    "legacy",
+    "capacity"
+   ]
+  },
+  {
+   "s": "We didn't know he was going to say because her ___ still abides with me.\"",
+   "a": "humiliation",
+   "opts": [
+    "humiliation",
+    "resentful",
+    "maintain",
+    "urgency"
+   ]
+  },
+  {
+   "s": "They don't know that behind it you are ___. You don't know.",
+   "a": "resentful",
+   "opts": [
+    "humiliation",
+    "resentful",
+    "maintain",
+    "urgency"
+   ]
+  },
+  {
+   "s": "So one of the reasons why I've been able to ___ the center of myself is because even in that moment of struggle with own in the beginning of building that network I was sad I was numbed I was depressed I was angry with myself but I knew trouble don't last always I knew that that too would eventually pass I didn't know how because I live in the center of knowing that there's bigger reason why I'm here.",
+   "a": "maintain",
+   "opts": [
+    "humiliation",
+    "resentful",
+    "maintain",
+    "urgency"
+   ]
+  },
+  {
+   "s": "too. uh by actually being in conversation with the life force within me has led me to the highest grounds possible for myself and I've been asking that how can I be used I mean I am 72 and very much aware of the ___ of time very much aware that I have one solid good decade left very much aware.",
+   "a": "urgency",
+   "opts": [
+    "humiliation",
+    "resentful",
+    "maintain",
+    "urgency"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "Oprah 說她這一生最自豪的是什麼？",
+   "a": "她成為的那個女人",
+   "opts": [
+    "她成為的那個女人",
+    "她累積的財富",
+    "節目連續 25 年收視第一",
+    "在 Sphere 舉辦的演出"
+   ]
+  },
+  {
+   "q": "T.D. Jakes「10 加侖 vs. 一品脫」的比喻想說明什麼？",
+   "a": "別期待沒有能力的人，給你超出他能力的愛",
+   "opts": [
+    "別期待沒有能力的人，給你超出他能力的愛",
+    "要多喝水才能保持健康",
+    "付出越多，得到的回報就越多",
+    "家人一定能給你足夠的愛"
+   ]
+  },
+  {
+   "q": "Oprah 對「原諒」的定義是？",
+   "a": "放棄「過去可能會有所不同」的希望",
+   "opts": [
+    "放棄「過去可能會有所不同」的希望",
+    "假裝事情從來沒有發生",
+    "要求對方先道歉",
+    "忘記傷害你的人"
+   ]
+  },
+  {
+   "q": "2012 年 OWN 電視網陷入掙扎，Oprah 認為自己錯在哪裡？",
+   "a": "沒聽內心的聲音，只為了信守承諾、討好別人而堅持",
+   "opts": [
+    "沒聽內心的聲音，只為了信守承諾、討好別人而堅持",
+    "太早結束了原本的節目",
+    "沒有找到好的製作人",
+    "花太多錢在廣告上"
+   ]
+  },
+  {
+   "q": "Mel 最喜歡的「目的」定義是什麼？",
+   "a": "目的是你做事時，在別人身上發生的事",
+   "opts": [
+    "目的是你做事時，在別人身上發生的事",
+    "目的就是你做的那份工作",
+    "目的一定要是能發 Instagram 的大事",
+    "目的是賺到足夠的錢"
+   ]
+  }
+ ]
+}

@@ -344,3 +344,18 @@ evaluate	v: evaluates, evaluated, evaluated, evaluating	—
 policy	n: policies	—
 commute	v: commutes, commuted, commuted, commuting ; n: commutes	—
 recap	n: recaps ; v: recaps, recapped, recapped, recapping	—
+alignment	n: 不可數	—
+vital	adj: more vital, most vital	—
+legacy	n: legacies	—
+validation	n: 不可數	—
+capacity	n: capacities	—
+acceptance	n: 不可數	—
+humiliation	n: humiliations	—
+resentful	adj: more resentful, most resentful	—
+encounter	v: encounters, encountered, encountered, encountering ; n: encounters	—
+customize	v: customizes, customized, customized, customizing	—
+maintain	v: maintains, maintained, maintained, maintaining	—
+eliminate	v: eliminates, eliminated, eliminated, eliminating	—
+sincere	adj: more sincere, most sincere	—
+urgency	n: 不可數	—
+fulfill	v: fulfills, fulfilled, fulfilled, fulfilling	—
