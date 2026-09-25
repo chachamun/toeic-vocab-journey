@@ -13247,6 +13247,980 @@ TVJ.register({
      ]
     }
    ]
+  },
+  {
+   "id": "yt-XlmKqkZkfqI",
+   "label": "影片 15",
+   "theme": "用專業連接詞清楚表達你的意見",
+   "themeEn": "The Best Professional Connectors to Explain Your Opinions in English",
+   "video": "https://youtu.be/XlmKqkZkfqI",
+   "source": "",
+   "publisher": "Speak Confident English",
+   "release": "2026-10-08",
+   "transcript": "transcripts/XlmKqkZkfqI.json",
+   "lines": 151,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "connector",
+     "s": 1,
+     "ph": "[kəˋnɛktɚ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "連接詞；連接器"
+      }
+     ],
+     "ex": [
+      {
+       "en": "It's simply because you don't have the right connectors in place: words like because, so that, and due to.",
+       "zh": "只是因為你沒有準備好對的連接詞：像是 because、so that 和 due to 這些字。",
+       "t": 43.8,
+       "aus": {
+        "US": "tts/XlmKqkZkfqI/w1_e0_US.mp3",
+        "UK": "tts/XlmKqkZkfqI/w1_e0_UK.mp3",
+        "AU": "tts/XlmKqkZkfqI/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "connect v. 連接（影片 13）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "Part 5 常考連接詞：because（接子句）vs. because of／due to（接名詞）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "connectors"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/XlmKqkZkfqI/w1_US.mp3",
+      "UK": "tts/XlmKqkZkfqI/w1_UK.mp3",
+      "AU": "tts/XlmKqkZkfqI/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "scattered",
+     "s": 1,
+     "ph": "[ˋskætɚd]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "零散的，分散的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "These connectors improve your flow and help your ideas to feel structured rather than scattered.",
+       "zh": "這些連接詞能讓你說話更流暢，讓你的想法有條理，而不是零散。",
+       "t": 49.8,
+       "aus": {
+        "US": "tts/XlmKqkZkfqI/w2_e0_US.mp3",
+        "UK": "tts/XlmKqkZkfqI/w2_e0_UK.mp3",
+        "AU": "tts/XlmKqkZkfqI/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "scatter v. 散布"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "scattered showers 局部陣雨（氣象報告必考）；本句 structured＝有條理的。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/XlmKqkZkfqI/w2_US.mp3",
+      "UK": "tts/XlmKqkZkfqI/w2_UK.mp3",
+      "AU": "tts/XlmKqkZkfqI/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "reasoning",
+     "s": 2,
+     "ph": "[ˋriznɪŋ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "理由，推理"
+      }
+     ],
+     "ex": [
+      {
+       "en": "They also help you explain your reasoning, which makes your opinion stronger and more engaging.",
+       "zh": "它們也能幫你解釋理由，讓你的意見更有力、更吸引人。",
+       "t": 59.6,
+       "aus": {
+        "US": "tts/XlmKqkZkfqI/w3_e0_US.mp3",
+        "UK": "tts/XlmKqkZkfqI/w3_e0_UK.mp3",
+        "AU": "tts/XlmKqkZkfqI/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "reason n. 理由",
+      "reasonable adj. 合理的（影片 4）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "explain your reasoning 說明你的理由；engaging＝吸引人的。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/XlmKqkZkfqI/w3_US.mp3",
+      "UK": "tts/XlmKqkZkfqI/w3_UK.mp3",
+      "AU": "tts/XlmKqkZkfqI/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "hesitant",
+     "s": 2,
+     "ph": "[ˋhɛzətənt]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "猶豫的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Instead of sounding hesitant or unsure of your own opinions.",
+       "zh": "而不是對自己的意見猶豫不決、沒把握。",
+       "t": 69.6,
+       "aus": {
+        "US": "tts/XlmKqkZkfqI/w4_e0_US.mp3",
+        "UK": "tts/XlmKqkZkfqI/w4_e0_UK.mp3",
+        "AU": "tts/XlmKqkZkfqI/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "hesitate v. 猶豫",
+      "hesitation n. 猶豫"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "Don't hesitate to contact us. 有任何問題請隨時聯絡我們（商業書信結尾必考）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more hesitant"
+        ],
+        [
+         "最高級",
+         "most hesitant"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/XlmKqkZkfqI/w4_US.mp3",
+      "UK": "tts/XlmKqkZkfqI/w4_UK.mp3",
+      "AU": "tts/XlmKqkZkfqI/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "persuasive",
+     "s": 2,
+     "ph": "[pɚˋswesɪv]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "有說服力的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "When you hear someone confidently explain why they believe something, doesn't it make their opinion more persuasive?",
+       "zh": "當你聽到有人很有自信地解釋他為什麼相信某件事，是不是讓他的意見更有說服力？",
+       "t": 75.6,
+       "aus": {
+        "US": "tts/XlmKqkZkfqI/w5_e0_US.mp3",
+        "UK": "tts/XlmKqkZkfqI/w5_e0_UK.mp3",
+        "AU": "tts/XlmKqkZkfqI/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "persuade v. 說服（Day 05 滿分單字）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a persuasive argument／speech 有說服力的論點／演說。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more persuasive"
+        ],
+        [
+         "最高級",
+         "most persuasive"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/XlmKqkZkfqI/w5_US.mp3",
+      "UK": "tts/XlmKqkZkfqI/w5_UK.mp3",
+      "AU": "tts/XlmKqkZkfqI/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "polished",
+     "s": 1,
+     "ph": "[ˋpɑlɪʃt]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "精練的，完美的；擦亮的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "You'll also have a simple structure to make your opinions sound polished and professional in English.",
+       "zh": "你也會有一個簡單的架構，讓你的英文意見聽起來精練又專業。",
+       "t": 94.2,
+       "aus": {
+        "US": "tts/XlmKqkZkfqI/w6_e0_US.mp3",
+        "UK": "tts/XlmKqkZkfqI/w6_e0_UK.mp3",
+        "AU": "tts/XlmKqkZkfqI/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "polish v. 擦亮；潤飾"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a polished presentation 精練的簡報。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more polished"
+        ],
+        [
+         "最高級",
+         "most polished"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/XlmKqkZkfqI/w6_US.mp3",
+      "UK": "tts/XlmKqkZkfqI/w6_UK.mp3",
+      "AU": "tts/XlmKqkZkfqI/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "reinforce",
+     "s": 2,
+     "ph": "[͵riɪnˋfors]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "強化，加強"
+      }
+     ],
+     "ex": [
+      {
+       "en": "You can do this by reinforcing your point or inviting further discussion.",
+       "zh": "你可以強調你的論點，或邀請對方進一步討論。",
+       "t": 189.1,
+       "aus": {
+        "US": "tts/XlmKqkZkfqI/w7_e0_US.mp3",
+        "UK": "tts/XlmKqkZkfqI/w7_e0_UK.mp3",
+        "AU": "tts/XlmKqkZkfqI/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "reinforcement n. 強化"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "reinforce a point 強調論點；inviting further discussion＝邀請進一步討論。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "reinforces"
+        ],
+        [
+         "過去式",
+         "reinforced"
+        ],
+        [
+         "過去分詞",
+         "reinforced"
+        ],
+        [
+         "現在分詞",
+         "reinforcing"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/XlmKqkZkfqI/w7_US.mp3",
+      "UK": "tts/XlmKqkZkfqI/w7_UK.mp3",
+      "AU": "tts/XlmKqkZkfqI/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "timeline",
+     "s": 2,
+     "ph": "[ˋtaɪm͵laɪn]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "時程表，時間軸"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I believe we should adjust the project timeline since the current deadlines don't give us enough time for quality control.",
+       "zh": "我認為我們應該調整專案時程，因為目前的截止期限沒有給我們足夠的時間做品質管理。",
+       "t": 240.3,
+       "aus": {
+        "US": "tts/XlmKqkZkfqI/w8_e0_US.mp3",
+        "UK": "tts/XlmKqkZkfqI/w8_e0_UK.mp3",
+        "AU": "tts/XlmKqkZkfqI/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "adjust the project timeline 調整專案時程；quality control 品質管理（職場必考）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "timelines"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/XlmKqkZkfqI/w8_US.mp3",
+      "UK": "tts/XlmKqkZkfqI/w8_UK.mp3",
+      "AU": "tts/XlmKqkZkfqI/w8_AU.mp3"
+     }
+    },
+    {
+     "n": 9,
+     "w": "incorporate",
+     "s": 2,
+     "ph": "[ɪnˋkɔrpə͵ret]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "納入，融入"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Start incorporating them into your conversations and your writing and then once you're comfortable you can add a couple more.",
+       "zh": "開始把它們融入你的對話和寫作中，熟練之後再加一兩個。",
+       "t": 391.6,
+       "aus": {
+        "US": "tts/XlmKqkZkfqI/w9_e0_US.mp3",
+        "UK": "tts/XlmKqkZkfqI/w9_e0_UK.mp3",
+        "AU": "tts/XlmKqkZkfqI/w9_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "incorporated adj. 股份有限的（Inc.）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "incorporate feedback into the design 把意見納入設計。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "incorporates"
+        ],
+        [
+         "過去式",
+         "incorporated"
+        ],
+        [
+         "過去分詞",
+         "incorporated"
+        ],
+        [
+         "現在分詞",
+         "incorporating"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/XlmKqkZkfqI/w9_US.mp3",
+      "UK": "tts/XlmKqkZkfqI/w9_UK.mp3",
+      "AU": "tts/XlmKqkZkfqI/w9_AU.mp3"
+     }
+    },
+    {
+     "n": 10,
+     "w": "outcome",
+     "s": 3,
+     "ph": "[ˋaʊt͵kʌm]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "結果"
+      }
+     ],
+     "ex": [
+      {
+       "en": "For that we use words like so, and this helps us to show a consequence or an outcome.",
+       "zh": "這時我們用 so 這類的字，它能幫我們表示後果或結果。",
+       "t": 515.8,
+       "aus": {
+        "US": "tts/XlmKqkZkfqI/w10_e0_US.mp3",
+        "UK": "tts/XlmKqkZkfqI/w10_e0_UK.mp3",
+        "AU": "tts/XlmKqkZkfqI/w10_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "the outcome of the meeting 會議結果；consequence＝後果（Day 09）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "outcomes"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/XlmKqkZkfqI/w10_US.mp3",
+      "UK": "tts/XlmKqkZkfqI/w10_UK.mp3",
+      "AU": "tts/XlmKqkZkfqI/w10_AU.mp3"
+     }
+    },
+    {
+     "n": 11,
+     "w": "emphasize",
+     "s": 3,
+     "ph": "[ˋɛmfə͵saɪz]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "強調"
+      }
+     ],
+     "ex": [
+      {
+       "en": "The first is in order to, this is more formal and allows you to emphasize your intention.",
+       "zh": "第一個是 in order to，比較正式，能讓你強調你的意圖。",
+       "t": 629.1,
+       "aus": {
+        "US": "tts/XlmKqkZkfqI/w11_e0_US.mp3",
+        "UK": "tts/XlmKqkZkfqI/w11_e0_UK.mp3",
+        "AU": "tts/XlmKqkZkfqI/w11_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "emphasis n. 強調"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "emphasize the importance of 強調～的重要性；place emphasis on 著重於～。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "emphasizes"
+        ],
+        [
+         "過去式",
+         "emphasized"
+        ],
+        [
+         "過去分詞",
+         "emphasized"
+        ],
+        [
+         "現在分詞",
+         "emphasizing"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/XlmKqkZkfqI/w11_US.mp3",
+      "UK": "tts/XlmKqkZkfqI/w11_UK.mp3",
+      "AU": "tts/XlmKqkZkfqI/w11_AU.mp3"
+     }
+    },
+    {
+     "n": 12,
+     "w": "evaluate",
+     "s": 3,
+     "ph": "[ɪˋvæljʊ͵et]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "評估"
+      }
+     ],
+     "ex": [
+      {
+       "en": "What pros and cons did we evaluate in order to come to that decision?",
+       "zh": "我們評估了哪些優缺點，才做出這個決定？",
+       "t": 723.0,
+       "aus": {
+        "US": "tts/XlmKqkZkfqI/w12_e0_US.mp3",
+        "UK": "tts/XlmKqkZkfqI/w12_e0_UK.mp3",
+        "AU": "tts/XlmKqkZkfqI/w12_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "evaluation n. 評估"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "evaluate employee performance 評估員工表現；pros and cons＝優缺點。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "evaluates"
+        ],
+        [
+         "過去式",
+         "evaluated"
+        ],
+        [
+         "過去分詞",
+         "evaluated"
+        ],
+        [
+         "現在分詞",
+         "evaluating"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/XlmKqkZkfqI/w12_US.mp3",
+      "UK": "tts/XlmKqkZkfqI/w12_UK.mp3",
+      "AU": "tts/XlmKqkZkfqI/w12_AU.mp3"
+     }
+    },
+    {
+     "n": 13,
+     "w": "policy",
+     "s": 3,
+     "ph": "[ˋpɑləsɪ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "政策，規定"
+      }
+     ],
+     "ex": [
+      {
+       "en": "You might say this new work from home policy is great for those who prefer to work at different times of the day.",
+       "zh": "你可以說：這項新的居家工作政策，對喜歡在一天中不同時段工作的人來說很棒。",
+       "t": 861.0,
+       "aus": {
+        "US": "tts/XlmKqkZkfqI/w13_e0_US.mp3",
+        "UK": "tts/XlmKqkZkfqI/w13_e0_UK.mp3",
+        "AU": "tts/XlmKqkZkfqI/w13_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "company policy 公司規定；return policy 退貨規定；work-from-home policy 居家工作政策。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "policies"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/XlmKqkZkfqI/w13_US.mp3",
+      "UK": "tts/XlmKqkZkfqI/w13_UK.mp3",
+      "AU": "tts/XlmKqkZkfqI/w13_AU.mp3"
+     }
+    },
+    {
+     "n": 14,
+     "w": "commute",
+     "s": 2,
+     "ph": "[kəˋmjut]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "通勤"
+      },
+      {
+       "p": "n.",
+       "m": "通勤（路程）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Also, it helps employees save money on commuting. And here's one more.",
+       "zh": "而且，它還能幫員工省下通勤的錢。再一個例子。",
+       "t": 865.8,
+       "aus": {
+        "US": "tts/XlmKqkZkfqI/w14_e0_US.mp3",
+        "UK": "tts/XlmKqkZkfqI/w14_e0_UK.mp3",
+        "AU": "tts/XlmKqkZkfqI/w14_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "commuter n. 通勤者"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "save money on commuting 省下通勤費；a long commute 通勤時間很長。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "commutes"
+        ],
+        [
+         "過去式",
+         "commuted"
+        ],
+        [
+         "過去分詞",
+         "commuted"
+        ],
+        [
+         "現在分詞",
+         "commuting"
+        ]
+       ]
+      },
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "commutes"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/XlmKqkZkfqI/w14_US.mp3",
+      "UK": "tts/XlmKqkZkfqI/w14_UK.mp3",
+      "AU": "tts/XlmKqkZkfqI/w14_AU.mp3"
+     }
+    },
+    {
+     "n": 15,
+     "w": "recap",
+     "s": 1,
+     "ph": "[ˋri͵kæp]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "重點回顧，摘要"
+      },
+      {
+       "p": "v.",
+       "m": "扼要重述"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I love... because... plus...; or: One reason I support... is..., another reason is... And now let's do a quick recap.",
+       "zh": "I love... because... plus...；或 One reason I support... is..., another reason is...。現在來快速複習一下。",
+       "t": 918.9,
+       "aus": {
+        "US": "tts/XlmKqkZkfqI/w15_e0_US.mp3",
+        "UK": "tts/XlmKqkZkfqI/w15_e0_UK.mp3",
+        "AU": "tts/XlmKqkZkfqI/w15_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "Let's do a quick recap. 我們快速複習一下（會議、簡報結尾常用）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "recaps"
+        ]
+       ]
+      },
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "recaps"
+        ],
+        [
+         "過去式",
+         "recapped"
+        ],
+        [
+         "過去分詞",
+         "recapped"
+        ],
+        [
+         "現在分詞",
+         "recapping"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/XlmKqkZkfqI/w15_US.mp3",
+      "UK": "tts/XlmKqkZkfqI/w15_UK.mp3",
+      "AU": "tts/XlmKqkZkfqI/w15_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "They also help you explain your ___, which makes your opinion stronger and more engaging.",
+     "a": "reasoning",
+     "opts": [
+      "reasoning",
+      "hesitant",
+      "persuasive",
+      "polished"
+     ]
+    },
+    {
+     "s": "Instead of sounding ___ or unsure of your own opinions.",
+     "a": "hesitant",
+     "opts": [
+      "reasoning",
+      "hesitant",
+      "persuasive",
+      "polished"
+     ]
+    },
+    {
+     "s": "When you hear someone confidently explain why they believe something, doesn't it make their opinion more ___?",
+     "a": "persuasive",
+     "opts": [
+      "reasoning",
+      "hesitant",
+      "persuasive",
+      "polished"
+     ]
+    },
+    {
+     "s": "You'll also have a simple structure to make your opinions sound ___ and professional in English.",
+     "a": "polished",
+     "opts": [
+      "reasoning",
+      "hesitant",
+      "persuasive",
+      "polished"
+     ]
+    },
+    {
+     "s": "I believe we should adjust the project ___ since the current deadlines don't give us enough time for quality control.",
+     "a": "timeline",
+     "opts": [
+      "timeline",
+      "outcome",
+      "policy",
+      "commuting"
+     ]
+    },
+    {
+     "s": "For that we use words like so, and this helps us to show a consequence or an ___.",
+     "a": "outcome",
+     "opts": [
+      "timeline",
+      "outcome",
+      "policy",
+      "commuting"
+     ]
+    },
+    {
+     "s": "You might say this new work from home ___ is great for those who prefer to work at different times of the day.",
+     "a": "policy",
+     "opts": [
+      "timeline",
+      "outcome",
+      "policy",
+      "commuting"
+     ]
+    },
+    {
+     "s": "Also, it helps employees save money on ___. And here's one more.",
+     "a": "commuting",
+     "opts": [
+      "timeline",
+      "outcome",
+      "policy",
+      "commuting"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "影片教的「表達意見三步驟」是？",
+     "a": "說出意見 → 解釋原因 → 用結論或問題收尾",
+     "opts": [
+      "說出意見 → 解釋原因 → 用結論或問題收尾",
+      "先道歉 → 說出意見 → 結束",
+      "先問問題 → 說出意見 → 舉三個例子",
+      "只要說出意見就好"
+     ]
+    },
+    {
+     "q": "due to 和 because of 後面要接什麼？",
+     "a": "名詞（例如 due to traffic）",
+     "opts": [
+      "名詞（例如 due to traffic）",
+      "完整的句子（例如 due to it was raining）",
+      "動詞原形",
+      "形容詞"
+     ]
+    },
+    {
+     "q": "什麼時候適合用 since 表達理由？",
+     "a": "理由已經很清楚、很明顯時",
+     "opts": [
+      "理由已經很清楚、很明顯時",
+      "要表達時間很久以前",
+      "要強調意外的結果",
+      "只能用在正式書信"
+     ]
+    },
+    {
+     "q": "so 和 so that 的差別是？",
+     "a": "so 說的是結果，so that 說的是目的",
+     "opts": [
+      "so 說的是結果，so that 說的是目的",
+      "兩者完全一樣",
+      "so 比較正式",
+      "so that 只能放句首"
+     ]
+    },
+    {
+     "q": "on top of that 和 another reason is 通常放在句子哪裡？",
+     "a": "只能放在句首",
+     "opts": [
+      "只能放在句首",
+      "只能放在句尾",
+      "放在動詞後面",
+      "哪裡都可以"
+     ]
+    }
+   ]
   }
  ]
 });

@@ -329,3 +329,18 @@ sufficient	adj: 無比較級	—
 underestimate	v: underestimates, underestimated, underestimated, underestimating	—
 agenda	n: agendas	—
 implement	v: implements, implemented, implemented, implementing	—
+connector	n: connectors	—
+scattered	adj: 無比較級	—
+reasoning	n: 不可數	—
+hesitant	adj: more hesitant, most hesitant	—
+persuasive	adj: more persuasive, most persuasive	—
+polished	adj: more polished, most polished	—
+reinforce	v: reinforces, reinforced, reinforced, reinforcing	—
+timeline	n: timelines	—
+incorporate	v: incorporates, incorporated, incorporated, incorporating	—
+outcome	n: outcomes	—
+emphasize	v: emphasizes, emphasized, emphasized, emphasizing	—
+evaluate	v: evaluates, evaluated, evaluated, evaluating	—
+policy	n: policies	—
+commute	v: commutes, commuted, commuted, commuting ; n: commutes	—
+recap	n: recaps ; v: recaps, recapped, recapped, recapping	—
