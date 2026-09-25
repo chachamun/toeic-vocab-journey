@@ -101,7 +101,7 @@ def regular(base):
     return third, past, ing
 
 
-DOUBLE = {'log', 'set', 'get', 'let', 'put', 'shut', 'wrap', 'propel', 'sit', 'stop', 'ban', 'submit', 'admit', 'excel', 'lag', 'scrub', 'control', 'drop', 'plan', 'regret', 'refer', 'occur', 'prefer', 'permit', 'spike', 'drag', 'grip', 'jog', 'win', 'begin', 'commit', 'run', 'unplug', 'shop', 'fit'}
+DOUBLE = {'log', 'set', 'get', 'let', 'put', 'shut', 'wrap', 'propel', 'sit', 'stop', 'ban', 'submit', 'admit', 'excel', 'lag', 'scrub', 'control', 'drop', 'plan', 'regret', 'refer', 'occur', 'prefer', 'permit', 'spike', 'drag', 'grip', 'jog', 'win', 'begin', 'commit', 'run', 'unplug', 'shop', 'fit', 'transfer'}
 
 
 def check_verb(word, f):

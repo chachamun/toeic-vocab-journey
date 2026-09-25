@@ -3663,6 +3663,1904 @@ TVJ.register({
      ]
     }
    ]
+  },
+  {
+   "id": "yt-gUeLcGdG7f8",
+   "label": "影片 5",
+   "theme": "Zendaya 談名氣、經典角色與近況",
+   "themeEn": "Zendaya on Tom Holland, Protecting Her Peace, Iconic Roles, and What's Next!",
+   "video": "https://youtu.be/gUeLcGdG7f8",
+   "source": "",
+   "publisher": "The Jennifer Hudson Show",
+   "release": "2026-09-28",
+   "transcript": "transcripts/gUeLcGdG7f8.json",
+   "lines": 192,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "companion",
+     "s": 2,
+     "ph": "[kəmˋpænjən]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "同伴，夥伴"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Zendaya: Yeah, he's been like my little companion.",
+       "zh": "Zendaya：對，他一直是我的小夥伴。",
+       "t": 69.2,
+       "aus": {
+        "US": "tts/gUeLcGdG7f8/w1_e0_US.mp3",
+        "UK": "tts/gUeLcGdG7f8/w1_e0_UK.mp3",
+        "AU": "tts/gUeLcGdG7f8/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "company n. 陪伴；公司",
+      "accompany v. 陪同（Day 06）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "travel companion 旅伴；companion 也可指「隨附的」：a companion guide 配套指南。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "companions"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/gUeLcGdG7f8/w1_US.mp3",
+      "UK": "tts/gUeLcGdG7f8/w1_UK.mp3",
+      "AU": "tts/gUeLcGdG7f8/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "unconditional",
+     "s": 1,
+     "ph": "[͵ʌnkənˋdɪʃənḷ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "無條件的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "He's 10 years old now, so you know, dogs, they just give you such beautiful unconditional love.",
+       "zh": "他現在十歲了，你知道，狗就是會給你那麼美好的無條件的愛。",
+       "t": 72.1,
+       "aus": {
+        "US": "tts/gUeLcGdG7f8/w2_e0_US.mp3",
+        "UK": "tts/gUeLcGdG7f8/w2_e0_UK.mp3",
+        "AU": "tts/gUeLcGdG7f8/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "conditional adj. 有條件的（Day 08 滿分單字）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "unconditional love 無條件的愛；unconditional guarantee 無條件保證（商品保固文案）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/gUeLcGdG7f8/w2_US.mp3",
+      "UK": "tts/gUeLcGdG7f8/w2_UK.mp3",
+      "AU": "tts/gUeLcGdG7f8/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "invested",
+     "s": 1,
+     "ph": "[ɪnˋvɛstɪd]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "投入的，在乎的，關注的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Jennifer: People are so invested in your life. What's your relationship to fame now?",
+       "zh": "Jennifer：大家都很關注你的生活。你現在怎麼看待名氣？",
+       "t": 142.8,
+       "aus": {
+        "US": "tts/gUeLcGdG7f8/w3_e0_US.mp3",
+        "UK": "tts/gUeLcGdG7f8/w3_e0_UK.mp3",
+        "AU": "tts/gUeLcGdG7f8/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "invest v. 投資",
+      "investment n. 投資"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "be invested in 很投入～、很在乎～；invest in 投資於～。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more invested"
+        ],
+        [
+         "最高級",
+         "most invested"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/gUeLcGdG7f8/w3_US.mp3",
+      "UK": "tts/gUeLcGdG7f8/w3_UK.mp3",
+      "AU": "tts/gUeLcGdG7f8/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "complex",
+     "s": 2,
+     "ph": "[kəmˋplɛks]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "複雜的"
+      },
+      {
+       "p": "n.",
+       "m": "綜合建築群（念 [ˋkɑmplɛks]）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Zendaya: You know, it's a complex thing, and I'm sure you've experienced it as well.",
+       "zh": "Zendaya：你知道，這是很複雜的事，我相信你也經歷過。",
+       "t": 147.0,
+       "aus": {
+        "US": "tts/gUeLcGdG7f8/w4_e0_US.mp3",
+        "UK": "tts/gUeLcGdG7f8/w4_e0_UK.mp3",
+        "AU": "tts/gUeLcGdG7f8/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "complexity n. 複雜性"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "名詞 complex 很常考：an office complex 辦公大樓群、a sports complex 運動中心。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more complex"
+        ],
+        [
+         "最高級",
+         "most complex"
+        ]
+       ]
+      },
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "complexes"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/gUeLcGdG7f8/w4_US.mp3",
+      "UK": "tts/gUeLcGdG7f8/w4_UK.mp3",
+      "AU": "tts/gUeLcGdG7f8/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "boundary",
+     "s": 2,
+     "ph": "[ˋbaʊndərɪ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "界線，邊界"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Zendaya: And create that little healthy boundary there, you know, because at the end of the day, you have to fill your cup, too.",
+       "zh": "Zendaya：在那裡劃出一道健康的界線，因為說到底，你也得把自己的杯子裝滿。",
+       "t": 180.8,
+       "aus": {
+        "US": "tts/gUeLcGdG7f8/w5_e0_US.mp3",
+        "UK": "tts/gUeLcGdG7f8/w5_e0_UK.mp3",
+        "AU": "tts/gUeLcGdG7f8/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "set boundaries 設立界線；property boundary 地界。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "boundaries"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/gUeLcGdG7f8/w5_US.mp3",
+      "UK": "tts/gUeLcGdG7f8/w5_UK.mp3",
+      "AU": "tts/gUeLcGdG7f8/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "blueprint",
+     "s": 1,
+     "ph": "[ˋblu͵prɪnt]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "藍圖，設計圖；具體計畫"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So, I just try to find that balance, and there's really no blueprint, there's no road map.",
+       "zh": "所以我只是試著找到平衡，而這真的沒有藍圖、沒有路線圖。",
+       "t": 187.0,
+       "aus": {
+        "US": "tts/gUeLcGdG7f8/w6_e0_US.mp3",
+        "UK": "tts/gUeLcGdG7f8/w6_e0_UK.mp3",
+        "AU": "tts/gUeLcGdG7f8/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a blueprint for success 成功的藍圖（Day 09 滿分單字；本句和 road map 同義）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "blueprints"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/gUeLcGdG7f8/w6_US.mp3",
+      "UK": "tts/gUeLcGdG7f8/w6_UK.mp3",
+      "AU": "tts/gUeLcGdG7f8/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "pay homage",
+     "s": 1,
+     "ph": "[pe ˋhɑmɪdʒ]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "致敬"
+      }
+     ],
+     "ex": [
+      {
+       "en": "It just felt like a perfect time to pay homage at that particular event.",
+       "zh": "在那個特別的場合向她致敬，感覺正是最好的時機。",
+       "t": 242.8,
+       "aus": {
+        "US": "tts/gUeLcGdG7f8/w7_e0_US.mp3",
+        "UK": "tts/gUeLcGdG7f8/w7_e0_UK.mp3",
+        "AU": "tts/gUeLcGdG7f8/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "pay homage to ～ 向～致敬；同義 pay tribute to。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "pays homage"
+        ],
+        [
+         "過去式",
+         "paid homage"
+        ],
+        [
+         "過去分詞",
+         "paid homage"
+        ],
+        [
+         "現在分詞",
+         "paying homage"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "homage n. 致敬"
+     ],
+     "aus": {
+      "US": "tts/gUeLcGdG7f8/w7_US.mp3",
+      "UK": "tts/gUeLcGdG7f8/w7_UK.mp3",
+      "AU": "tts/gUeLcGdG7f8/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "archive",
+     "s": 2,
+     "ph": "[ˋɑrkaɪv]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "檔案庫，典藏"
+      },
+      {
+       "p": "v.",
+       "m": "存檔"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Zendaya: Listen, I do have a closet, but I also have an archive, right?",
+       "zh": "Zendaya：聽我說，我是有衣櫃，但我也有一個典藏庫，對吧？",
+       "t": 254.4,
+       "aus": {
+        "US": "tts/gUeLcGdG7f8/w8_e0_US.mp3",
+        "UK": "tts/gUeLcGdG7f8/w8_e0_UK.mp3",
+        "AU": "tts/gUeLcGdG7f8/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "the company archive 公司檔案室；archive old files 把舊檔案歸檔（Day 05 滿分單字）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "archives"
+        ]
+       ]
+      },
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "archives"
+        ],
+        [
+         "過去式",
+         "archived"
+        ],
+        [
+         "過去分詞",
+         "archived"
+        ],
+        [
+         "現在分詞",
+         "archiving"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/gUeLcGdG7f8/w8_US.mp3",
+      "UK": "tts/gUeLcGdG7f8/w8_UK.mp3",
+      "AU": "tts/gUeLcGdG7f8/w8_AU.mp3"
+     }
+    },
+    {
+     "n": 9,
+     "w": "transitional",
+     "s": 1,
+     "ph": "[trænˋzɪʃənḷ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "過渡的，轉變期的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "But I do think that they do mark such important times in your life and transitional moments in your life as you grow.",
+       "zh": "但我確實覺得，它們標記了你成長過程中非常重要的時期和轉折點。",
+       "t": 281.3,
+       "aus": {
+        "US": "tts/gUeLcGdG7f8/w9_e0_US.mp3",
+        "UK": "tts/gUeLcGdG7f8/w9_e0_UK.mp3",
+        "AU": "tts/gUeLcGdG7f8/w9_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "transition n. 轉變（影片 2）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a transitional period 過渡期（組織改組、系統轉換的公告常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/gUeLcGdG7f8/w9_US.mp3",
+      "UK": "tts/gUeLcGdG7f8/w9_UK.mp3",
+      "AU": "tts/gUeLcGdG7f8/w9_AU.mp3"
+     }
+    },
+    {
+     "n": 10,
+     "w": "iconic",
+     "s": 2,
+     "ph": "[aɪˋkɑnɪk]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "代表性的，經典的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And for me to still be keeping up with you at the ripe age of 27 should show you how iconic you are.",
+       "zh": "而我到了 27 歲這個年紀還在追你的消息，就證明了你有多經典。",
+       "t": 357.4,
+       "aus": {
+        "US": "tts/gUeLcGdG7f8/w10_e0_US.mp3",
+        "UK": "tts/gUeLcGdG7f8/w10_e0_UK.mp3",
+        "AU": "tts/gUeLcGdG7f8/w10_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "icon n. 代表人物；圖示"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "an iconic building／brand 地標性建築／代表性品牌。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more iconic"
+        ],
+        [
+         "最高級",
+         "most iconic"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/gUeLcGdG7f8/w10_US.mp3",
+      "UK": "tts/gUeLcGdG7f8/w10_UK.mp3",
+      "AU": "tts/gUeLcGdG7f8/w10_AU.mp3"
+     }
+    },
+    {
+     "n": 11,
+     "w": "eloquent",
+     "s": 1,
+     "ph": "[ˋɛləkwənt]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "口才好的，有說服力的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "She's so beautiful and eloquent, and is doing such a beautiful job and looking gorgeous everywhere she goes.",
+       "zh": "她好美、口才又好，表現得非常出色，走到哪裡都光彩奪目。",
+       "t": 379.9,
+       "aus": {
+        "US": "tts/gUeLcGdG7f8/w11_e0_US.mp3",
+        "UK": "tts/gUeLcGdG7f8/w11_e0_UK.mp3",
+        "AU": "tts/gUeLcGdG7f8/w11_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "eloquence n. 口才",
+      "eloquently adv. 流利地"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "an eloquent speaker／speech 口才很好的講者／動人的演說。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more eloquent"
+        ],
+        [
+         "最高級",
+         "most eloquent"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/gUeLcGdG7f8/w11_US.mp3",
+      "UK": "tts/gUeLcGdG7f8/w11_UK.mp3",
+      "AU": "tts/gUeLcGdG7f8/w11_AU.mp3"
+     }
+    },
+    {
+     "n": 12,
+     "w": "inherently",
+     "s": 1,
+     "ph": "[ɪnˋhɪrəntlɪ]",
+     "pos": [
+      {
+       "p": "adv.",
+       "m": "本質上，天生地"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Because while characters might be different, or inherently different, the emotions are similar and human connection is similar.",
+       "zh": "因為角色雖然可能不同，甚至本質上就不同，但情感是相似的，人與人的連結也是相似的。",
+       "t": 439.8,
+       "aus": {
+        "US": "tts/gUeLcGdG7f8/w12_e0_US.mp3",
+        "UK": "tts/gUeLcGdG7f8/w12_e0_UK.mp3",
+        "AU": "tts/gUeLcGdG7f8/w12_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "inherent adj. 固有的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "inherent risks 固有的風險（投資、保險文件常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adv.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/gUeLcGdG7f8/w12_US.mp3",
+      "UK": "tts/gUeLcGdG7f8/w12_UK.mp3",
+      "AU": "tts/gUeLcGdG7f8/w12_AU.mp3"
+     }
+    },
+    {
+     "n": 13,
+     "w": "privilege",
+     "s": 2,
+     "ph": "[ˋprɪvḷɪdʒ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "榮幸；特權"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Um, I think Spider-Man. I grew up being able to have the privilege to make these movies that I watched as a kid, you know, and met my best friend in the whole world there.",
+       "zh": "嗯，我想還有《蜘蛛人》。我有幸拍了小時候看的那種電影，還在那裡遇到了全世界最好的朋友。",
+       "t": 470.0,
+       "aus": {
+        "US": "tts/gUeLcGdG7f8/w13_e0_US.mp3",
+        "UK": "tts/gUeLcGdG7f8/w13_e0_UK.mp3",
+        "AU": "tts/gUeLcGdG7f8/w13_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "privileged adj. 享有特權的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "have the privilege to do／of doing 有幸做～；It is a privilege to 非常榮幸能～（致詞常用，Day 05 滿分單字）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "privileges"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/gUeLcGdG7f8/w13_US.mp3",
+      "UK": "tts/gUeLcGdG7f8/w13_UK.mp3",
+      "AU": "tts/gUeLcGdG7f8/w13_AU.mp3"
+     }
+    },
+    {
+     "n": 14,
+     "w": "pivotal",
+     "s": 1,
+     "ph": "[ˋpɪvətḷ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "關鍵的，極為重要的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "It's a pivotal movie in my life. It meant so much to me growing up.",
+       "zh": "那是我人生中很關鍵的一部電影，在我成長過程中意義重大。",
+       "t": 719.3,
+       "aus": {
+        "US": "tts/gUeLcGdG7f8/w14_e0_US.mp3",
+        "UK": "tts/gUeLcGdG7f8/w14_e0_UK.mp3",
+        "AU": "tts/gUeLcGdG7f8/w14_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "pivot n. 樞紐；v. 轉向"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "play a pivotal role in 在～扮演關鍵角色。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more pivotal"
+        ],
+        [
+         "最高級",
+         "most pivotal"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/gUeLcGdG7f8/w14_US.mp3",
+      "UK": "tts/gUeLcGdG7f8/w14_UK.mp3",
+      "AU": "tts/gUeLcGdG7f8/w14_AU.mp3"
+     }
+    },
+    {
+     "n": 15,
+     "w": "convince",
+     "s": 3,
+     "ph": "[kənˋvɪns]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "說服；使相信"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Zendaya: Yeah, I like tattoos. My mom, actually, I convinced her to get her first tattoo at 50 years old.",
+       "zh": "Zendaya：我喜歡刺青。其實我媽 50 歲時，是我說服她去刺第一個刺青的。",
+       "t": 827.4,
+       "aus": {
+        "US": "tts/gUeLcGdG7f8/w15_e0_US.mp3",
+        "UK": "tts/gUeLcGdG7f8/w15_e0_UK.mp3",
+        "AU": "tts/gUeLcGdG7f8/w15_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "convincing adj. 有說服力的（Day 07）",
+      "conviction n. 信念"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "convince A to do 說服 A 去做～；be convinced that 確信～。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "convinces"
+        ],
+        [
+         "過去式",
+         "convinced"
+        ],
+        [
+         "過去分詞",
+         "convinced"
+        ],
+        [
+         "現在分詞",
+         "convincing"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/gUeLcGdG7f8/w15_US.mp3",
+      "UK": "tts/gUeLcGdG7f8/w15_UK.mp3",
+      "AU": "tts/gUeLcGdG7f8/w15_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "He's 10 years old now, so you know, dogs, they just give you such beautiful ___ love.",
+     "a": "unconditional",
+     "opts": [
+      "unconditional",
+      "complex",
+      "boundary",
+      "blueprint"
+     ]
+    },
+    {
+     "s": "Zendaya: You know, it's a ___ thing, and I'm sure you've experienced it as well.",
+     "a": "complex",
+     "opts": [
+      "unconditional",
+      "complex",
+      "boundary",
+      "blueprint"
+     ]
+    },
+    {
+     "s": "Zendaya: And create that little healthy ___ there, you know, because at the end of the day, you have to fill your cup, too.",
+     "a": "boundary",
+     "opts": [
+      "unconditional",
+      "complex",
+      "boundary",
+      "blueprint"
+     ]
+    },
+    {
+     "s": "So, I just try to find that balance, and there's really no ___, there's no road map.",
+     "a": "blueprint",
+     "opts": [
+      "unconditional",
+      "complex",
+      "boundary",
+      "blueprint"
+     ]
+    },
+    {
+     "s": "Zendaya: Listen, I do have a closet, but I also have an ___, right?",
+     "a": "archive",
+     "opts": [
+      "archive",
+      "eloquent",
+      "privilege",
+      "pivotal"
+     ]
+    },
+    {
+     "s": "She's so beautiful and ___, and is doing such a beautiful job and looking gorgeous everywhere she goes.",
+     "a": "eloquent",
+     "opts": [
+      "archive",
+      "eloquent",
+      "privilege",
+      "pivotal"
+     ]
+    },
+    {
+     "s": "Um, I think Spider-Man. I grew up being able to have the ___ to make these movies that I watched as a kid, you know, and met my best friend in the whole world there.",
+     "a": "privilege",
+     "opts": [
+      "archive",
+      "eloquent",
+      "privilege",
+      "pivotal"
+     ]
+    },
+    {
+     "s": "It's a ___ movie in my life. It meant so much to me growing up.",
+     "a": "pivotal",
+     "opts": [
+      "archive",
+      "eloquent",
+      "privilege",
+      "pivotal"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "Zendaya 為什麼喜歡在片廠遛狗？",
+     "a": "可以像普通人一樣，沒有人一直盯著她",
+     "opts": [
+      "可以像普通人一樣，沒有人一直盯著她",
+      "可以順便宣傳新電影",
+      "她的狗需要訓練",
+      "片廠規定演員要遛狗"
+     ]
+    },
+    {
+     "q": "她怎麼面對名氣？",
+     "a": "在回饋支持者和照顧自己之間找平衡，劃出健康的界線",
+     "opts": [
+      "在回饋支持者和照顧自己之間找平衡，劃出健康的界線",
+      "完全不和粉絲互動",
+      "把所有私生活都公開",
+      "請經紀人處理一切"
+     ]
+    },
+    {
+     "q": "她在 Essence 活動穿的禮服是向誰致敬？",
+     "a": "惠妮休斯頓",
+     "opts": [
+      "惠妮休斯頓",
+      "莎拉潔西卡帕克",
+      "王子（Prince）",
+      "她的媽媽"
+     ]
+    },
+    {
+     "q": "她為什麼不喜歡唱卡拉 OK？",
+     "a": "覺得有壓力要唱好，對自己太嚴格",
+     "opts": [
+      "覺得有壓力要唱好，對自己太嚴格",
+      "她不會唱歌",
+      "她討厭所有音樂",
+      "她的朋友都不唱"
+     ]
+    },
+    {
+     "q": "她最想合作的導演 Ryan Coogler 和她有什麼共同點？",
+     "a": "兩人都來自奧克蘭",
+     "opts": [
+      "兩人都來自奧克蘭",
+      "兩人是表兄妹",
+      "兩人一起拍過《蜘蛛人》",
+      "兩人都是廚師"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yt-4n3L5VEy-Tc",
+   "label": "影片 6",
+   "theme": "Tom Holland 聊他最愛的嗜好",
+   "themeEn": "Tom Holland Shares His Favourite Hobbies",
+   "video": "https://youtu.be/4n3L5VEy-Tc",
+   "source": "",
+   "publisher": "Esquire UK",
+   "release": "2026-09-29",
+   "transcript": "transcripts/4n3L5VEy-Tc.json",
+   "lines": 159,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "humbling",
+     "s": 1,
+     "ph": "[ˋhʌmblɪŋ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "令人謙卑的，讓人知道自己不足的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Tom: I like golf just because it's incredibly humbling.",
+       "zh": "Tom：我喜歡高爾夫，是因為它非常讓人謙卑。",
+       "t": 22.2,
+       "aus": {
+        "US": "tts/4n3L5VEy-Tc/w1_e0_US.mp3",
+        "UK": "tts/4n3L5VEy-Tc/w1_e0_UK.mp3",
+        "AU": "tts/4n3L5VEy-Tc/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "humble adj. 謙虛的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a humbling experience 讓人學會謙卑的經驗（得獎感言、訪談常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more humbling"
+        ],
+        [
+         "最高級",
+         "most humbling"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/4n3L5VEy-Tc/w1_US.mp3",
+      "UK": "tts/4n3L5VEy-Tc/w1_UK.mp3",
+      "AU": "tts/4n3L5VEy-Tc/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "judgment",
+     "s": 2,
+     "ph": "[ˋdʒʌdʒmənt]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "判斷，判斷力"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And I went against his judgment on what club to hit. And it went in.",
+       "zh": "我沒照他的判斷選球桿，結果就進洞了。",
+       "t": 57.4,
+       "aus": {
+        "US": "tts/4n3L5VEy-Tc/w2_e0_US.mp3",
+        "UK": "tts/4n3L5VEy-Tc/w2_e0_UK.mp3",
+        "AU": "tts/4n3L5VEy-Tc/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "judge v. 判斷；n. 法官"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "use your best judgment 依你的最佳判斷處理；against one's judgment 違反某人的判斷。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "judgments"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/4n3L5VEy-Tc/w2_US.mp3",
+      "UK": "tts/4n3L5VEy-Tc/w2_UK.mp3",
+      "AU": "tts/4n3L5VEy-Tc/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "commitment",
+     "s": 3,
+     "ph": "[kəˋmɪtmənt]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "投入，奉獻；承諾"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Teo: Right, that's quite a commitment.",
+       "zh": "Teo：好，那真的很投入。",
+       "t": 86.6,
+       "aus": {
+        "US": "tts/4n3L5VEy-Tc/w3_e0_US.mp3",
+        "UK": "tts/4n3L5VEy-Tc/w3_e0_UK.mp3",
+        "AU": "tts/4n3L5VEy-Tc/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "commit v. 投入，致力於（影片 2）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "commitment to quality 對品質的承諾；a time commitment 需要投入的時間。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "commitments"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/4n3L5VEy-Tc/w3_US.mp3",
+      "UK": "tts/4n3L5VEy-Tc/w3_UK.mp3",
+      "AU": "tts/4n3L5VEy-Tc/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "transfer",
+     "s": 3,
+     "ph": "[trænsˋfɝ]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "轉移，調動"
+      },
+      {
+       "p": "n.",
+       "m": "轉移；轉乘（名詞念 [ˋtrænsfɝ]）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Tom: Okay. Tap dancing is all about being able to transfer your weight from foot to foot.",
+       "zh": "Tom：好。踢踏舞的重點就是能把重心從一隻腳轉移到另一隻腳。",
+       "t": 242.1,
+       "aus": {
+        "US": "tts/4n3L5VEy-Tc/w4_e0_US.mp3",
+        "UK": "tts/4n3L5VEy-Tc/w4_e0_UK.mp3",
+        "AU": "tts/4n3L5VEy-Tc/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "transferable adj. 可轉讓的（Day 06 滿分單字）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "transfer A to B 把 A 轉到 B；be transferred to the Tokyo office 被調到東京分公司（人事異動常考）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "transfers"
+        ],
+        [
+         "過去式",
+         "transferred"
+        ],
+        [
+         "過去分詞",
+         "transferred"
+        ],
+        [
+         "現在分詞",
+         "transferring"
+        ]
+       ]
+      },
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "transfers"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/4n3L5VEy-Tc/w4_US.mp3",
+      "UK": "tts/4n3L5VEy-Tc/w4_UK.mp3",
+      "AU": "tts/4n3L5VEy-Tc/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "counterintuitive",
+     "s": 1,
+     "ph": "[͵kaʊntɚɪnˋtjuɪtɪv]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "違反直覺的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Teo: Oh, really? That feels counterintuitive.",
+       "zh": "Teo：喔，真的嗎？這感覺很違反直覺。",
+       "t": 153.2,
+       "aus": {
+        "US": "tts/4n3L5VEy-Tc/w5_e0_US.mp3",
+        "UK": "tts/4n3L5VEy-Tc/w5_e0_UK.mp3",
+        "AU": "tts/4n3L5VEy-Tc/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "intuitive adj. 直覺的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "It may seem counterintuitive, but... 這看似違反直覺，但……（商業文章常見開頭）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/4n3L5VEy-Tc/w5_US.mp3",
+      "UK": "tts/4n3L5VEy-Tc/w5_UK.mp3",
+      "AU": "tts/4n3L5VEy-Tc/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "patient",
+     "s": 3,
+     "ph": "[ˋpeʃənt]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "有耐心的"
+      },
+      {
+       "p": "n.",
+       "m": "病人"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Teo: You're very patient, Tom.",
+       "zh": "Teo：Tom，你真有耐心。",
+       "t": 282.4,
+       "aus": {
+        "US": "tts/4n3L5VEy-Tc/w6_e0_US.mp3",
+        "UK": "tts/4n3L5VEy-Tc/w6_e0_UK.mp3",
+        "AU": "tts/4n3L5VEy-Tc/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "patience n. 耐心",
+      "patiently adv. 耐心地"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "be patient with 對～有耐心；Thank you for your patience. 感謝您的耐心等候（客服、公告必考）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more patient"
+        ],
+        [
+         "最高級",
+         "most patient"
+        ]
+       ]
+      },
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "patients"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/4n3L5VEy-Tc/w6_US.mp3",
+      "UK": "tts/4n3L5VEy-Tc/w6_UK.mp3",
+      "AU": "tts/4n3L5VEy-Tc/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "convey",
+     "s": 2,
+     "ph": "[kənˋve]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "傳達，表達；運送"
+      }
+     ],
+     "ex": [
+      {
+       "en": "When you play Spider-Man and you put a mask on, you don't have your face to be able to convey to the audience what's going on.",
+       "zh": "演蜘蛛人戴上面罩時，你沒辦法用臉向觀眾傳達發生了什麼事。",
+       "t": 305.8,
+       "aus": {
+        "US": "tts/4n3L5VEy-Tc/w7_e0_US.mp3",
+        "UK": "tts/4n3L5VEy-Tc/w7_e0_UK.mp3",
+        "AU": "tts/4n3L5VEy-Tc/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "convey a message 傳達訊息；convey A to B 把 A 傳達給 B。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "conveys"
+        ],
+        [
+         "過去式",
+         "conveyed"
+        ],
+        [
+         "過去分詞",
+         "conveyed"
+        ],
+        [
+         "現在分詞",
+         "conveying"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/4n3L5VEy-Tc/w7_US.mp3",
+      "UK": "tts/4n3L5VEy-Tc/w7_UK.mp3",
+      "AU": "tts/4n3L5VEy-Tc/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "translate",
+     "s": 2,
+     "ph": "[trænsˋlet]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "（效果）轉化呈現；翻譯"
+      }
+     ],
+     "ex": [
+      {
+       "en": "But when you do it in the suit, it really translates really well.",
+       "zh": "但穿著戰衣做，效果就非常好。",
+       "t": 330.6,
+       "aus": {
+        "US": "tts/4n3L5VEy-Tc/w8_e0_US.mp3",
+        "UK": "tts/4n3L5VEy-Tc/w8_e0_UK.mp3",
+        "AU": "tts/4n3L5VEy-Tc/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "translation n. 翻譯"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "translate into 轉化成～：translate into higher sales 轉化成更高的銷售額（財經文章常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "translates"
+        ],
+        [
+         "過去式",
+         "translated"
+        ],
+        [
+         "過去分詞",
+         "translated"
+        ],
+        [
+         "現在分詞",
+         "translating"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/4n3L5VEy-Tc/w8_US.mp3",
+      "UK": "tts/4n3L5VEy-Tc/w8_UK.mp3",
+      "AU": "tts/4n3L5VEy-Tc/w8_AU.mp3"
+     }
+    },
+    {
+     "n": 9,
+     "w": "in charge of",
+     "s": 3,
+     "ph": "[ɪn tʃɑrdʒ əv]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "負責～"
+      }
+     ],
+     "ex": [
+      {
+       "en": "My lady is in charge of buying all of those creams and stuff.",
+       "zh": "那些乳霜之類的都是我女朋友負責買的。",
+       "t": 405.6,
+       "aus": {
+        "US": "tts/4n3L5VEy-Tc/w9_e0_US.mp3",
+        "UK": "tts/4n3L5VEy-Tc/w9_e0_UK.mp3",
+        "AU": "tts/4n3L5VEy-Tc/w9_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "charge n. 費用；責任（Day 10）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "be in charge of 負責～（Day 10 核心字 charge 的必考用法）。"
+      }
+     ],
+     "forms": [],
+     "aus": {
+      "US": "tts/4n3L5VEy-Tc/w9_US.mp3",
+      "UK": "tts/4n3L5VEy-Tc/w9_UK.mp3",
+      "AU": "tts/4n3L5VEy-Tc/w9_AU.mp3"
+     }
+    },
+    {
+     "n": 10,
+     "w": "take a hit",
+     "s": 1,
+     "ph": "[tek ə hɪt]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "受到打擊，受影響"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I've been very bad recently. I've been traveling a lot, so my exercise has taken a hit.",
+       "zh": "我最近很糟，一直在出差，所以運動量大受影響。",
+       "t": 429.6,
+       "aus": {
+        "US": "tts/4n3L5VEy-Tc/w10_e0_US.mp3",
+        "UK": "tts/4n3L5VEy-Tc/w10_e0_UK.mp3",
+        "AU": "tts/4n3L5VEy-Tc/w10_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "Profits took a hit. 利潤受到打擊（財經新聞常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "takes a hit"
+        ],
+        [
+         "過去式",
+         "took a hit"
+        ],
+        [
+         "過去分詞",
+         "taken a hit"
+        ],
+        [
+         "現在分詞",
+         "taking a hit"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/4n3L5VEy-Tc/w10_US.mp3",
+      "UK": "tts/4n3L5VEy-Tc/w10_UK.mp3",
+      "AU": "tts/4n3L5VEy-Tc/w10_AU.mp3"
+     }
+    },
+    {
+     "n": 11,
+     "w": "without fail",
+     "s": 1,
+     "ph": "[wɪˋðaʊt fel]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "必定，從不間斷"
+      }
+     ],
+     "ex": [
+      {
+       "en": "But if I'm at home and I have a good schedule going, I'll exercise every day without fail.",
+       "zh": "但如果我在家、作息很規律，我每天一定會運動。",
+       "t": 434.5,
+       "aus": {
+        "US": "tts/4n3L5VEy-Tc/w11_e0_US.mp3",
+        "UK": "tts/4n3L5VEy-Tc/w11_e0_UK.mp3",
+        "AU": "tts/4n3L5VEy-Tc/w11_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "Submit the form by Friday without fail. 務必在週五前繳交表格（公告用語）。"
+      }
+     ],
+     "forms": [],
+     "aus": {
+      "US": "tts/4n3L5VEy-Tc/w11_US.mp3",
+      "UK": "tts/4n3L5VEy-Tc/w11_UK.mp3",
+      "AU": "tts/4n3L5VEy-Tc/w11_AU.mp3"
+     }
+    },
+    {
+     "n": 12,
+     "w": "vary",
+     "s": 3,
+     "ph": "[ˋvɛrɪ]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "變化，不同"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So, it kind of varies from day to day, really.",
+       "zh": "所以其實每天都不太一樣。",
+       "t": 455.5,
+       "aus": {
+        "US": "tts/4n3L5VEy-Tc/w12_e0_US.mp3",
+        "UK": "tts/4n3L5VEy-Tc/w12_e0_UK.mp3",
+        "AU": "tts/4n3L5VEy-Tc/w12_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "variety n. 多樣性（Day 06）",
+      "various adj. 各種的",
+      "variable adj. 多變的（Day 09 滿分單字）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "vary from A to B 從 A 到 B 各不相同；prices vary depending on size 價格依尺寸而不同。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "varies"
+        ],
+        [
+         "過去式",
+         "varied"
+        ],
+        [
+         "過去分詞",
+         "varied"
+        ],
+        [
+         "現在分詞",
+         "varying"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/4n3L5VEy-Tc/w12_US.mp3",
+      "UK": "tts/4n3L5VEy-Tc/w12_UK.mp3",
+      "AU": "tts/4n3L5VEy-Tc/w12_AU.mp3"
+     }
+    },
+    {
+     "n": 13,
+     "w": "grounded",
+     "s": 1,
+     "ph": "[ˋgraʊndɪd]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "踏實的，腳踏實地的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Teo: What are the things in your life that help keep you grounded?",
+       "zh": "Teo：生活中有哪些事情幫助你保持踏實？",
+       "t": 458.0,
+       "aus": {
+        "US": "tts/4n3L5VEy-Tc/w13_e0_US.mp3",
+        "UK": "tts/4n3L5VEy-Tc/w13_e0_UK.mp3",
+        "AU": "tts/4n3L5VEy-Tc/w13_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "ground n. 地面；基礎"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "stay grounded 保持踏實；注意 grounded 也有「（飛機）停飛」的意思：All flights were grounded. 所有航班停飛。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more grounded"
+        ],
+        [
+         "最高級",
+         "most grounded"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/4n3L5VEy-Tc/w13_US.mp3",
+      "UK": "tts/4n3L5VEy-Tc/w13_UK.mp3",
+      "AU": "tts/4n3L5VEy-Tc/w13_AU.mp3"
+     }
+    },
+    {
+     "n": 14,
+     "w": "destination",
+     "s": 3,
+     "ph": "[͵dɛstəˋneʃən]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "目的地"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Teo: Is there one destination you've not been to that you'd really make a beeline for?",
+       "zh": "Teo：有沒有哪個還沒去過、很想直奔的地方？",
+       "t": 517.8,
+       "aus": {
+        "US": "tts/4n3L5VEy-Tc/w14_e0_US.mp3",
+        "UK": "tts/4n3L5VEy-Tc/w14_e0_UK.mp3",
+        "AU": "tts/4n3L5VEy-Tc/w14_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "travel destination 旅遊目的地；final destination 最終目的地（Part 3/4 旅遊主題必考）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "destinations"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/4n3L5VEy-Tc/w14_US.mp3",
+      "UK": "tts/4n3L5VEy-Tc/w14_UK.mp3",
+      "AU": "tts/4n3L5VEy-Tc/w14_AU.mp3"
+     }
+    },
+    {
+     "n": 15,
+     "w": "strict",
+     "s": 2,
+     "ph": "[strɪkt]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "嚴格的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Tom: I'm quite strict to that.",
+       "zh": "Tom：這點我滿嚴格遵守的。",
+       "t": 579.9,
+       "aus": {
+        "US": "tts/4n3L5VEy-Tc/w15_e0_US.mp3",
+        "UK": "tts/4n3L5VEy-Tc/w15_e0_UK.mp3",
+        "AU": "tts/4n3L5VEy-Tc/w15_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "strictly adv. 嚴格地"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "strict rules／deadline 嚴格的規定／期限（Day 07 滿分單字）；本句說的是 strict about 對～很嚴格。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "stricter"
+        ],
+        [
+         "最高級",
+         "strictest"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/4n3L5VEy-Tc/w15_US.mp3",
+      "UK": "tts/4n3L5VEy-Tc/w15_UK.mp3",
+      "AU": "tts/4n3L5VEy-Tc/w15_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "And I went against his ___ on what club to hit. And it went in.",
+     "a": "judgment",
+     "opts": [
+      "judgment",
+      "commitment",
+      "transfer",
+      "convey"
+     ]
+    },
+    {
+     "s": "Teo: Right, that's quite a ___.",
+     "a": "commitment",
+     "opts": [
+      "judgment",
+      "commitment",
+      "transfer",
+      "convey"
+     ]
+    },
+    {
+     "s": "Tom: Okay. Tap dancing is all about being able to ___ your weight from foot to foot.",
+     "a": "transfer",
+     "opts": [
+      "judgment",
+      "commitment",
+      "transfer",
+      "convey"
+     ]
+    },
+    {
+     "s": "When you play Spider-Man and you put a mask on, you don't have your face to be able to ___ to the audience what's going on.",
+     "a": "convey",
+     "opts": [
+      "judgment",
+      "commitment",
+      "transfer",
+      "convey"
+     ]
+    },
+    {
+     "s": "Teo: You're very ___, Tom.",
+     "a": "patient",
+     "opts": [
+      "patient",
+      "varies",
+      "grounded",
+      "destination"
+     ]
+    },
+    {
+     "s": "So, it kind of ___ from day to day, really.",
+     "a": "varies",
+     "opts": [
+      "patient",
+      "varies",
+      "grounded",
+      "destination"
+     ]
+    },
+    {
+     "s": "Teo: What are the things in your life that help keep you ___?",
+     "a": "grounded",
+     "opts": [
+      "patient",
+      "varies",
+      "grounded",
+      "destination"
+     ]
+    },
+    {
+     "s": "Teo: Is there one ___ you've not been to that you'd really make a beeline for?",
+     "a": "destination",
+     "opts": [
+      "patient",
+      "varies",
+      "grounded",
+      "destination"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "Tom Holland 為什麼喜歡打高爾夫？",
+     "a": "它讓人謙卑，也幫他停不下來的腦袋冷靜下來",
+     "opts": [
+      "它讓人謙卑，也幫他停不下來的腦袋冷靜下來",
+      "因為他每次都能贏",
+      "因為可以認識新朋友",
+      "因為醫生要求他運動"
+     ]
+    },
+    {
+     "q": "他演蜘蛛人時，為什麼肢體動作特別重要？",
+     "a": "戴著面罩沒辦法用表情，只能用身體傳達情緒",
+     "opts": [
+      "戴著面罩沒辦法用表情，只能用身體傳達情緒",
+      "因為他沒有台詞",
+      "因為導演要求他跳踢踏舞",
+      "因為他不會說英文"
+     ]
+    },
+    {
+     "q": "什麼讓他保持踏實？",
+     "a": "家人，以及誠實、不只會說好話的朋友",
+     "opts": [
+      "家人，以及誠實、不只會說好話的朋友",
+      "每天打高爾夫",
+      "昂貴的保養品",
+      "住在日本"
+     ]
+    },
+    {
+     "q": "他會給年輕的自己什麼建議？",
+     "a": "多放假，十七、八歲時背起背包去旅行",
+     "opts": [
+      "多放假，十七、八歲時背起背包去旅行",
+      "早點開始打高爾夫",
+      "不要演蜘蛛人",
+      "多存一點錢"
+     ]
+    },
+    {
+     "q": "溫布頓和世界盃，他選了哪一個？為什麼？",
+     "a": "世界盃，因為能和團隊一起比賽很特別",
+     "opts": [
+      "世界盃，因為能和團隊一起比賽很特別",
+      "溫布頓，因為他很會打網球",
+      "都不選，他不喜歡運動",
+      "溫布頓，因為比賽在英國"
+     ]
+    }
+   ]
   }
  ]
 });
