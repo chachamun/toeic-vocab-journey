@@ -15167,6 +15167,981 @@ TVJ.register({
      ]
     }
    ]
+  },
+  {
+   "id": "yt-n3BUs9TbnfM",
+   "label": "影片 17",
+   "theme": "日常家事英文：吸地、洗碗、洗衣、割草",
+   "themeEn": "Learn Real-Life English: Everyday Chores",
+   "video": "https://youtu.be/n3BUs9TbnfM",
+   "source": "",
+   "publisher": "Pensando Inglés（Kyle）",
+   "release": "2026-10-10",
+   "transcript": "transcripts/n3BUs9TbnfM.json",
+   "lines": 227,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "vacuum",
+     "s": 2,
+     "ph": "[ˋvækjʊəm]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "用吸塵器吸"
+      },
+      {
+       "p": "n.",
+       "m": "吸塵器；真空"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And you use a vacuum cleaner to vacuum. Okay?",
+       "zh": "你用吸塵器來吸地板，懂嗎？",
+       "t": 107.7,
+       "aus": {
+        "US": "tts/n3BUs9TbnfM/w1_e0_US.mp3",
+        "UK": "tts/n3BUs9TbnfM/w1_e0_UK.mp3",
+        "AU": "tts/n3BUs9TbnfM/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "vacuum cleaner n. 吸塵器"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "vacuum the carpet 吸地毯（Part 1 照片題常見：A man is vacuuming the floor.）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "vacuums"
+        ],
+        [
+         "過去式",
+         "vacuumed"
+        ],
+        [
+         "過去分詞",
+         "vacuumed"
+        ],
+        [
+         "現在分詞",
+         "vacuuming"
+        ]
+       ]
+      },
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "vacuums"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/n3BUs9TbnfM/w1_US.mp3",
+      "UK": "tts/n3BUs9TbnfM/w1_UK.mp3",
+      "AU": "tts/n3BUs9TbnfM/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "sweep",
+     "s": 2,
+     "ph": "[swip]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "掃（地）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And you use a broom to sweep to sweep.",
+       "zh": "你用掃把來掃地。",
+       "t": 146.9,
+       "aus": {
+        "US": "tts/n3BUs9TbnfM/w2_e0_US.mp3",
+        "UK": "tts/n3BUs9TbnfM/w2_e0_UK.mp3",
+        "AU": "tts/n3BUs9TbnfM/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "sweeper n. 清掃者；掃地機"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "sweep the floor 掃地；三態 sweep-swept-swept。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "sweeps"
+        ],
+        [
+         "過去式",
+         "swept"
+        ],
+        [
+         "過去分詞",
+         "swept"
+        ],
+        [
+         "現在分詞",
+         "sweeping"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/n3BUs9TbnfM/w2_US.mp3",
+      "UK": "tts/n3BUs9TbnfM/w2_UK.mp3",
+      "AU": "tts/n3BUs9TbnfM/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "rug",
+     "s": 1,
+     "ph": "[rʌg]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "小地毯（只鋪部分地板）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "This is a rug. The difference between a rug and a carpet is that a rug only covers part of the floor.",
+       "zh": "這是小地毯。rug 和 carpet 的差別在於，rug 只蓋住地板的一部分。",
+       "t": 169.6,
+       "aus": {
+        "US": "tts/n3BUs9TbnfM/w3_e0_US.mp3",
+        "UK": "tts/n3BUs9TbnfM/w3_e0_UK.mp3",
+        "AU": "tts/n3BUs9TbnfM/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "rug 只蓋部分地板、carpet 鋪滿整間；Part 1 常見：A rug has been placed on the floor."
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "rugs"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/n3BUs9TbnfM/w3_US.mp3",
+      "UK": "tts/n3BUs9TbnfM/w3_UK.mp3",
+      "AU": "tts/n3BUs9TbnfM/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "mop",
+     "s": 2,
+     "ph": "[mɑp]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "拖（地）"
+      },
+      {
+       "p": "n.",
+       "m": "拖把"
+      }
+     ],
+     "ex": [
+      {
+       "en": "The verb is to mop the floor.",
+       "zh": "動詞是 to mop the floor（拖地）。",
+       "t": 228.5,
+       "aus": {
+        "US": "tts/n3BUs9TbnfM/w4_e0_US.mp3",
+        "UK": "tts/n3BUs9TbnfM/w4_e0_UK.mp3",
+        "AU": "tts/n3BUs9TbnfM/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "mop the floor 拖地；Part 1 照片題常考 mop／sweep／vacuum 三個清潔動作。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "mops"
+        ],
+        [
+         "過去式",
+         "mopped"
+        ],
+        [
+         "過去分詞",
+         "mopped"
+        ],
+        [
+         "現在分詞",
+         "mopping"
+        ]
+       ]
+      },
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "mops"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/n3BUs9TbnfM/w4_US.mp3",
+      "UK": "tts/n3BUs9TbnfM/w4_UK.mp3",
+      "AU": "tts/n3BUs9TbnfM/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "rinse",
+     "s": 2,
+     "ph": "[rɪns]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "沖洗，漂洗"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Then you rinse it with water.",
+       "zh": "然後用水沖乾淨。",
+       "t": 358.4,
+       "aus": {
+        "US": "tts/n3BUs9TbnfM/w5_e0_US.mp3",
+        "UK": "tts/n3BUs9TbnfM/w5_e0_UK.mp3",
+        "AU": "tts/n3BUs9TbnfM/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "rinse with water 用水沖洗；rinse off 沖掉（產品使用說明常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "rinses"
+        ],
+        [
+         "過去式",
+         "rinsed"
+        ],
+        [
+         "過去分詞",
+         "rinsed"
+        ],
+        [
+         "現在分詞",
+         "rinsing"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/n3BUs9TbnfM/w5_US.mp3",
+      "UK": "tts/n3BUs9TbnfM/w5_UK.mp3",
+      "AU": "tts/n3BUs9TbnfM/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "organized",
+     "s": 2,
+     "ph": "[ˋɔrgə͵naɪzd]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "有條理的，井然有序的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "But the idea is that when you make your bed, right when you get up, when you wake up in the morning, if you start your day by making your bed, your day will be much more organized, much more ordered.",
+       "zh": "但它的概念是，一起床、早上醒來就鋪床，如果你用鋪床來開始你的一天，你的一天會更有條理、更有秩序。",
+       "t": 505.2,
+       "aus": {
+        "US": "tts/n3BUs9TbnfM/w6_e0_US.mp3",
+        "UK": "tts/n3BUs9TbnfM/w6_e0_UK.mp3",
+        "AU": "tts/n3BUs9TbnfM/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "organize v. 組織；整理",
+      "organization n. 組織"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "well-organized 安排得很好的；stay organized 保持有條理。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more organized"
+        ],
+        [
+         "最高級",
+         "most organized"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/n3BUs9TbnfM/w6_US.mp3",
+      "UK": "tts/n3BUs9TbnfM/w6_UK.mp3",
+      "AU": "tts/n3BUs9TbnfM/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "basement",
+     "s": 2,
+     "ph": "[ˋbesmənt]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "地下室"
+      }
+     ],
+     "ex": [
+      {
+       "en": "The basement is the part of some houses that's underneath the main floor.",
+       "zh": "地下室是有些房子在主樓層下面的部分。",
+       "t": 577.4,
+       "aus": {
+        "US": "tts/n3BUs9TbnfM/w7_e0_US.mp3",
+        "UK": "tts/n3BUs9TbnfM/w7_e0_UK.mp3",
+        "AU": "tts/n3BUs9TbnfM/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "in the basement 在地下室；Part 3 常考「東西放在哪」：storage room、basement、lobby。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "basements"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/n3BUs9TbnfM/w7_US.mp3",
+      "UK": "tts/n3BUs9TbnfM/w7_UK.mp3",
+      "AU": "tts/n3BUs9TbnfM/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "detergent",
+     "s": 1,
+     "ph": "[dɪˋtɝdʒənt]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "洗衣精，清潔劑"
+      }
+     ],
+     "ex": [
+      {
+       "en": "You put some soap or some detergent in, close the lid, turn it on, water starts going in there, and then it starts spinning around and washing your clothes.",
+       "zh": "放一些肥皂或洗衣精進去，蓋上蓋子、打開電源，水就會開始流進去，然後它開始轉動、洗你的衣服。",
+       "t": 613.7,
+       "aus": {
+        "US": "tts/n3BUs9TbnfM/w8_e0_US.mp3",
+        "UK": "tts/n3BUs9TbnfM/w8_e0_UK.mp3",
+        "AU": "tts/n3BUs9TbnfM/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "laundry detergent 洗衣精；dish detergent 洗碗精。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "detergents"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/n3BUs9TbnfM/w8_US.mp3",
+      "UK": "tts/n3BUs9TbnfM/w8_UK.mp3",
+      "AU": "tts/n3BUs9TbnfM/w8_AU.mp3"
+     }
+    },
+    {
+     "n": 9,
+     "w": "laundry",
+     "s": 2,
+     "ph": "[ˋlɔndrɪ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "要洗的衣物；洗衣"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Laundry is another word for your clothes. Cleaning your clothes. Doing the laundry.",
+       "zh": "laundry 是衣服的另一種說法，指要洗的衣服。洗衣服就是 doing the laundry。",
+       "t": 671.9,
+       "aus": {
+        "US": "tts/n3BUs9TbnfM/w9_e0_US.mp3",
+        "UK": "tts/n3BUs9TbnfM/w9_e0_UK.mp3",
+        "AU": "tts/n3BUs9TbnfM/w9_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "do the laundry 洗衣服；laundry service 洗衣服務（飯店題常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/n3BUs9TbnfM/w9_US.mp3",
+      "UK": "tts/n3BUs9TbnfM/w9_UK.mp3",
+      "AU": "tts/n3BUs9TbnfM/w9_AU.mp3"
+     }
+    },
+    {
+     "n": 10,
+     "w": "dryer",
+     "s": 1,
+     "ph": "[ˋdraɪɚ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "烘衣機；吹風機"
+      }
+     ],
+     "ex": [
+      {
+       "en": "That's why it's called a dryer because it dries your clothes.",
+       "zh": "這就是它叫 dryer 的原因，因為它會把你的衣服弄乾。",
+       "t": 702.5,
+       "aus": {
+        "US": "tts/n3BUs9TbnfM/w10_e0_US.mp3",
+        "UK": "tts/n3BUs9TbnfM/w10_e0_UK.mp3",
+        "AU": "tts/n3BUs9TbnfM/w10_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "dry v. 弄乾 adj. 乾的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "washer and dryer 洗衣機和烘衣機（租屋廣告常見設備）；hair dryer 吹風機。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "dryers"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/n3BUs9TbnfM/w10_US.mp3",
+      "UK": "tts/n3BUs9TbnfM/w10_UK.mp3",
+      "AU": "tts/n3BUs9TbnfM/w10_AU.mp3"
+     }
+    },
+    {
+     "n": 11,
+     "w": "recycling",
+     "s": 2,
+     "ph": "[riˋsaɪkḷɪŋ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "資源回收"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And a lot of people here have recycling bins, which is just for plastic, paper, cardboard, and glass.",
+       "zh": "這裡很多人也有資源回收桶，只放塑膠、紙類、紙箱和玻璃。",
+       "t": 837.2,
+       "aus": {
+        "US": "tts/n3BUs9TbnfM/w11_e0_US.mp3",
+        "UK": "tts/n3BUs9TbnfM/w11_e0_UK.mp3",
+        "AU": "tts/n3BUs9TbnfM/w11_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "recycle v. 回收",
+      "recyclable adj. 可回收的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "recycling bin 回收桶；recycling program 回收計畫（公司公告常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/n3BUs9TbnfM/w11_US.mp3",
+      "UK": "tts/n3BUs9TbnfM/w11_UK.mp3",
+      "AU": "tts/n3BUs9TbnfM/w11_AU.mp3"
+     }
+    },
+    {
+     "n": 12,
+     "w": "backyard",
+     "s": 1,
+     "ph": "[ˋbækˋjɑrd]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "後院"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Your backyard is the space outside of your house, the back of your house.",
+       "zh": "後院就是你房子外面、房子後面的空間。",
+       "t": 888.2,
+       "aus": {
+        "US": "tts/n3BUs9TbnfM/w12_e0_US.mp3",
+        "UK": "tts/n3BUs9TbnfM/w12_e0_UK.mp3",
+        "AU": "tts/n3BUs9TbnfM/w12_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "in the backyard 在後院；front yard 前院。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "backyards"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/n3BUs9TbnfM/w12_US.mp3",
+      "UK": "tts/n3BUs9TbnfM/w12_UK.mp3",
+      "AU": "tts/n3BUs9TbnfM/w12_AU.mp3"
+     }
+    },
+    {
+     "n": 13,
+     "w": "grill",
+     "s": 2,
+     "ph": "[grɪl]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "烤肉架"
+      },
+      {
+       "p": "v.",
+       "m": "燒烤"
+      }
+     ],
+     "ex": [
+      {
+       "en": "We could come out here and cook food on my grill.",
+       "zh": "我們可以來這裡用我的烤肉架烤東西。",
+       "t": 899.4,
+       "aus": {
+        "US": "tts/n3BUs9TbnfM/w13_e0_US.mp3",
+        "UK": "tts/n3BUs9TbnfM/w13_e0_UK.mp3",
+        "AU": "tts/n3BUs9TbnfM/w13_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "grilled adj. 烤的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "grilled chicken 烤雞（菜單題常見）；Part 1：Food is being cooked on a grill."
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "grills"
+        ]
+       ]
+      },
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "grills"
+        ],
+        [
+         "過去式",
+         "grilled"
+        ],
+        [
+         "過去分詞",
+         "grilled"
+        ],
+        [
+         "現在分詞",
+         "grilling"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/n3BUs9TbnfM/w13_US.mp3",
+      "UK": "tts/n3BUs9TbnfM/w13_UK.mp3",
+      "AU": "tts/n3BUs9TbnfM/w13_AU.mp3"
+     }
+    },
+    {
+     "n": 14,
+     "w": "mow",
+     "s": 1,
+     "ph": "[mo]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "割（草）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "To cut your grass or to mow your lawn.",
+       "zh": "to cut your grass 或 to mow your lawn。",
+       "t": 1021.2,
+       "aus": {
+        "US": "tts/n3BUs9TbnfM/w14_e0_US.mp3",
+        "UK": "tts/n3BUs9TbnfM/w14_e0_UK.mp3",
+        "AU": "tts/n3BUs9TbnfM/w14_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "mower n. 割草機（lawn mower）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "mow the lawn＝cut the grass 割草；Part 1 照片題常見。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "mows"
+        ],
+        [
+         "過去式",
+         "mowed"
+        ],
+        [
+         "過去分詞",
+         "mowed"
+        ],
+        [
+         "現在分詞",
+         "mowing"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/n3BUs9TbnfM/w14_US.mp3",
+      "UK": "tts/n3BUs9TbnfM/w14_UK.mp3",
+      "AU": "tts/n3BUs9TbnfM/w14_AU.mp3"
+     }
+    },
+    {
+     "n": 15,
+     "w": "valuable",
+     "s": 3,
+     "ph": "[ˋvæljʊəbḷ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "寶貴的，有價值的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Thank you all for all your support, for leaving me your nice comments, for watching my videos, for spending your valuable time with me.",
+       "zh": "謝謝大家的支持、留下好心的留言、看我的影片，還有把寶貴的時間花在我身上。",
+       "t": 1196.2,
+       "aus": {
+        "US": "tts/n3BUs9TbnfM/w15_e0_US.mp3",
+        "UK": "tts/n3BUs9TbnfM/w15_e0_UK.mp3",
+        "AU": "tts/n3BUs9TbnfM/w15_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "value n. 價值 v. 重視",
+      "valuables n. 貴重物品"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "valuable experience 寶貴的經驗；Thank you for your valuable time. 感謝撥冗。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more valuable"
+        ],
+        [
+         "最高級",
+         "most valuable"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/n3BUs9TbnfM/w15_US.mp3",
+      "UK": "tts/n3BUs9TbnfM/w15_UK.mp3",
+      "AU": "tts/n3BUs9TbnfM/w15_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "And you use a broom to ___ to sweep.",
+     "a": "sweep",
+     "opts": [
+      "sweep",
+      "rinse",
+      "mop",
+      "mow"
+     ]
+    },
+    {
+     "s": "Then you ___ it with water.",
+     "a": "rinse",
+     "opts": [
+      "sweep",
+      "rinse",
+      "mop",
+      "mow"
+     ]
+    },
+    {
+     "s": "The verb is to ___ the floor.",
+     "a": "mop",
+     "opts": [
+      "sweep",
+      "rinse",
+      "mop",
+      "mow"
+     ]
+    },
+    {
+     "s": "To cut your grass or to ___ your lawn.",
+     "a": "mow",
+     "opts": [
+      "sweep",
+      "rinse",
+      "mop",
+      "mow"
+     ]
+    },
+    {
+     "s": "Doing the ___ is washing your clothes.",
+     "a": "laundry",
+     "opts": [
+      "laundry",
+      "detergent",
+      "basement",
+      "valuable"
+     ]
+    },
+    {
+     "s": "You put some soap or some ___ in, close the lid, turn it on, water starts going in there, and then it starts spinning around and washing your clothes.",
+     "a": "detergent",
+     "opts": [
+      "laundry",
+      "detergent",
+      "basement",
+      "valuable"
+     ]
+    },
+    {
+     "s": "The ___ is the part of some houses that's underneath the main floor.",
+     "a": "basement",
+     "opts": [
+      "laundry",
+      "detergent",
+      "basement",
+      "valuable"
+     ]
+    },
+    {
+     "s": "Thank you all for all your support, for leaving me your nice comments, for watching my videos, for spending your ___ time with me.",
+     "a": "valuable",
+     "opts": [
+      "laundry",
+      "detergent",
+      "basement",
+      "valuable"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "rug 和 carpet 的差別是？",
+     "a": "rug 只蓋住部分地板，carpet 鋪滿整個房間",
+     "opts": [
+      "rug 只蓋住部分地板，carpet 鋪滿整個房間",
+      "rug 是木頭做的，carpet 是布做的",
+      "rug 用在戶外，carpet 用在室內",
+      "兩者完全一樣"
+     ]
+    },
+    {
+     "q": "Kyle 建議怎麼讓做家事的時間更有價值？",
+     "a": "一邊做家事一邊聽英文或想學的內容",
+     "opts": [
+      "一邊做家事一邊聽英文或想學的內容",
+      "把家事全部交給另一半",
+      "做家事時順便運動",
+      "把家事集中在週末一次做完"
+     ]
+    },
+    {
+     "q": "為什麼 Kyle 家的衣服掛在地下室晾？",
+     "a": "新家的烘衣機壞了，還沒買新的",
+     "opts": [
+      "新家的烘衣機壞了，還沒買新的",
+      "他們覺得晾衣服比較環保",
+      "洗衣機也壞了",
+      "地下室比較溫暖"
+     ]
+    },
+    {
+     "q": "Kyle 為什麼覺得電動割草機不太好用？",
+     "a": "電池很快沒電，院子又太大",
+     "opts": [
+      "電池很快沒電，院子又太大",
+      "聲音太吵",
+      "割不乾淨",
+      "太重推不動"
+     ]
+    },
+    {
+     "q": "Kyle 生日要去哪裡旅行？",
+     "a": "科羅拉多的洛磯山脈",
+     "opts": [
+      "科羅拉多的洛磯山脈",
+      "芝加哥市區",
+      "出國去歐洲",
+      "海邊度假"
+     ]
+    }
+   ]
   }
  ]
 });

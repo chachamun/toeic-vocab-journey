@@ -82,7 +82,7 @@ IRREG = {  # 會用到的不規則動詞：原形 → (過去式, 過去分詞)
     'show': ('showed', 'shown'), 'lend': ('lent', 'lent'), 'buy': ('bought', 'bought'), 'find': ('found', 'found'),
     'run': ('ran', 'run'), 'drive': ('drove', 'driven'), 'wind': ('wound', 'wound'), 'fall': ('fell', 'fallen'),
     'cast': ('cast', 'cast'), 'speed': ('sped', 'sped'), 'rise': ('rose', 'risen'), 'lead': ('led', 'led'),
-    'fit': ('fitted/fit', 'fitted/fit'), 'keep': ('kept', 'kept'), 'stand': ('stood', 'stood'),
+    'fit': ('fitted/fit', 'fitted/fit'), 'keep': ('kept', 'kept'), 'stand': ('stood', 'stood'), 'sweep': ('swept', 'swept'),
 }
 
 
@@ -101,7 +101,7 @@ def regular(base):
     return third, past, ing
 
 
-DOUBLE = {'log', 'set', 'get', 'let', 'put', 'shut', 'wrap', 'propel', 'sit', 'stop', 'ban', 'submit', 'admit', 'excel', 'lag', 'scrub', 'control', 'drop', 'plan', 'regret', 'refer', 'occur', 'prefer', 'permit', 'spike', 'drag', 'grip', 'jog', 'win', 'begin', 'commit', 'run', 'unplug', 'shop', 'fit', 'transfer', 'recap'}
+DOUBLE = {'log', 'set', 'get', 'let', 'put', 'shut', 'wrap', 'propel', 'sit', 'stop', 'ban', 'submit', 'admit', 'excel', 'lag', 'scrub', 'control', 'drop', 'plan', 'regret', 'refer', 'occur', 'prefer', 'permit', 'spike', 'drag', 'grip', 'jog', 'win', 'begin', 'commit', 'run', 'unplug', 'shop', 'fit', 'transfer', 'recap', 'mop'}
 
 
 def check_verb(word, f):

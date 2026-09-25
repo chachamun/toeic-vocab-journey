@@ -359,3 +359,18 @@ eliminate	v: eliminates, eliminated, eliminated, eliminating	—
 sincere	adj: more sincere, most sincere	—
 urgency	n: 不可數	—
 fulfill	v: fulfills, fulfilled, fulfilled, fulfilling	—
+vacuum	v: vacuums, vacuumed, vacuumed, vacuuming ; n: vacuums	—
+sweep	v: sweeps, swept, swept, sweeping	—
+rug	n: rugs	—
+mop	v: mops, mopped, mopped, mopping ; n: mops	—
+rinse	v: rinses, rinsed, rinsed, rinsing	—
+organized	adj: more organized, most organized	—
+basement	n: basements	—
+detergent	n: detergents	—
+laundry	n: 不可數	—
+dryer	n: dryers	—
+recycling	n: 不可數	—
+backyard	n: backyards	—
+grill	n: grills ; v: grills, grilled, grilled, grilling	—
+mow	v: mows, mowed, mowed, mowing	—
+valuable	adj: more valuable, most valuable	—

@@ -338,9 +338,11 @@ function toast(msg) {
 
 /* ===================== 影片內嵌 ===================== */
 function ytid(u) { const m = (u || '').match(/(?:v=|youtu\.be\/|embed\/|shorts\/)([A-Za-z0-9_-]{11})/); return m ? m[1] : ''; }
+/* 長片分集：網址帶 ?t=秒數 → 內嵌從這一集的起點開始播 */
+function ytStart(u) { const m = (u || '').match(/[?&]t=(\d+)/); return m ? +m[1] : 0; }
 function ytEmbed(u) {
   const id = ytid(u); if (!id) return '';
-  return '<div class="ytwrap"><iframe src="https://www.youtube-nocookie.com/embed/' + id + '?rel=0&playsinline=1&modestbranding=1"' +
+  return '<div class="ytwrap"><iframe src="https://www.youtube-nocookie.com/embed/' + id + '?rel=0&playsinline=1&modestbranding=1' + (ytStart(u) ? '&start=' + ytStart(u) : '') + '"' +
     ' title="學習影片" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen"' +
     ' referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>' +
     '<div class="tiny muted" style="text-align:center;margin-top:7px">' +
@@ -1075,16 +1077,16 @@ function vpDestroy() {
 function vpPause() { try { if (VP.player && VP.ready) VP.player.pauseVideo(); } catch (e) {} }
 function vpCreate(u) {
   const host = el('ytp'); if (!host) return;
-  const vid = host.dataset.vid;
+  const vid = host.dataset.vid, start = +host.dataset.start || 0;
   loadYT().then(YT => {
     if (el('ytp') !== host) return;                       // 已經換頁了
     if (!YT) {                                            // API 載不到：退回一般內嵌（仍在頁面內播放）
-      host.outerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + vid + '?rel=0&playsinline=1" title="影片" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>';
+      host.outerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + vid + '?rel=0&playsinline=1' + (start ? '&start=' + start : '') + '" title="影片" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>';
       return;
     }
     VP.player = new YT.Player(host, {
       videoId: vid, host: 'https://www.youtube-nocookie.com',
-      playerVars: { playsinline: 1, rel: 0, modestbranding: 1 },
+      playerVars: Object.assign({ playsinline: 1, rel: 0, modestbranding: 1 }, start ? { start } : {}),
       events: { onReady: () => { VP.ready = true; try { VP.player.setPlaybackRate(S.settings.rate || 1); } catch (e) {} } }
     });
     clearInterval(VP.timer); VP.timer = setInterval(vpTick, 250);
@@ -1150,7 +1152,7 @@ function txLines(u) {
 function txView(u, mode) {
   const vid = ytid(u.video);
   const vocab = (u.words || []).map(w => `<span class="chip"><span class="en">${esc(w.w)}</span> ${esc((w.pos || []).map(p => p.m).join('；'))}</span>`).join('');
-  return `<div class="ytsticky"><div class="ytwrap"><div id="ytp" data-vid="${esc(vid)}"></div></div></div>
+  return `<div class="ytsticky"><div class="ytwrap"><div id="ytp" data-vid="${esc(vid)}" data-start="${ytStart(u.video)}"></div></div></div>
     <div class="card pad src-box">
       <div class="tiny muted">📄 原文出處</div>
       ${u.source ? `<a href="${esc(u.source)}" target="_blank" rel="noopener">${esc(u.source)}</a>` : ''}
