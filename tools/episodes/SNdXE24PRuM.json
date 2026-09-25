@@ -1,0 +1,748 @@
+{
+ "id": "yt-SNdXE24PRuM",
+ "course": "daily-video",
+ "publisher": "Rowena Tsai",
+ "video": "https://youtu.be/SNdXE24PRuM",
+ "bbc": "",
+ "label": "影片 2",
+ "theme": "我怎麼知道自己準備好當媽媽了（其實沒有）",
+ "themeEn": "How I knew I was ready to be a mom (I wasn't)",
+ "release": "2026-09-25",
+ "words": [
+  {
+   "n": 1,
+   "w": "transition",
+   "s": 3,
+   "ph": "[trænˋzɪʃən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "轉變，過渡（期）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "While I was thinking about this in the shower yesterday, I realized the transition in it of itself wasn't too shocking or drastic for me.",
+     "zh": "昨天我在洗澡時想著這件事，發現這個轉變本身對我來說並沒有太震撼或太劇烈。",
+     "t": 90.7
+    }
+   ],
+   "fam": [
+    "transitional adj. 過渡的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "transition from A to B 從 A 轉變到 B；smooth transition 順利過渡（人事交接、系統轉換的公告常見）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "transitions"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "aware",
+   "s": 3,
+   "ph": "[əˋwɛr]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "知道的，意識到的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And I was also very well aware that it may come with some sacrifices.",
+     "zh": "我也很清楚這可能會伴隨一些犧牲。",
+     "t": 209.3
+    }
+   ],
+   "fam": [
+    "awareness n. 意識，認知"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "be aware of／be aware that 子句＝知道～（Day 05 也有）。well aware 是「非常清楚」。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more aware"
+      ],
+      [
+       "最高級",
+       "most aware"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "sacrifice",
+   "s": 2,
+   "ph": "[ˋsækrə͵faɪs]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "犧牲"
+    },
+    {
+     "p": "v.",
+     "m": "犧牲"
+    }
+   ],
+   "ex": [
+    {
+     "en": "I don't like thinking of it as sacrifices because I don't want it to ever feel like I'm sacrificing myself for my kids.",
+     "zh": "我不喜歡把它想成犧牲，因為我不希望自己覺得是在為孩子犧牲自己。",
+     "t": 211.8
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "make sacrifices 做出犧牲；sacrifice quality for speed 為了速度犧牲品質。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "sacrifices"
+      ]
+     ]
+    },
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "sacrifices"
+      ],
+      [
+       "過去式",
+       "sacrificed"
+      ],
+      [
+       "過去分詞",
+       "sacrificed"
+      ],
+      [
+       "現在分詞",
+       "sacrificing"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "constraint",
+   "s": 2,
+   "ph": "[kənˋstrent]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "限制，約束"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So if that is the case, if that is the constraint, if that is what we're working with, what can I do?",
+     "zh": "那麼如果情況是這樣，如果這就是限制，如果這就是我們手上的條件，我能做什麼？",
+     "t": 310.2
+    }
+   ],
+   "fam": [
+    "constrain v. 限制"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "budget constraints 預算限制；time constraints 時間限制（多益最常見的兩個搭配）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "constraints"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "fulfilling",
+   "s": 2,
+   "ph": "[fʊlˋfɪlɪŋ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "令人滿足的，有成就感的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And that really was the gauge because during this time, the question that I was trying to answer was, what does it mean to live a meaningful and fulfilling life?",
+     "zh": "那真的就是我的衡量標準，因為那段時間我一直想回答的問題是：怎樣才算活出有意義、充實的人生？",
+     "t": 337.1
+    }
+   ],
+   "fam": [
+    "fulfill v. 履行；滿足",
+    "fulfillment n. 滿足感；履行"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a fulfilling career 有成就感的工作（徵才廣告常見）；fulfill an order 完成訂單。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more fulfilling"
+      ],
+      [
+       "最高級",
+       "most fulfilling"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "priority",
+   "s": 3,
+   "ph": "[praɪˋɔrətɪ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "優先事項；優先權"
+    }
+   ],
+   "ex": [
+    {
+     "en": "It's still an expression of my values, but family just gets bumped up in priority because it's the thing in front of you that needs immediate attention.",
+     "zh": "它依然是我價值觀的展現，只是家庭的優先順序被往前挪了，因為它就在你眼前，需要你立刻處理。",
+     "t": 398.1
+    }
+   ],
+   "fam": [
+    "prioritize v. 優先處理",
+    "prior adj. 事先的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "top priority 第一優先；give priority to 優先考慮～。本句 immediate attention＝需要立刻處理。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "priorities"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "assume",
+   "s": 3,
+   "ph": "[əˋsjum]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "承擔（角色、責任）；假定"
+    }
+   ],
+   "ex": [
+    {
+     "en": "But as I continue to grow, I will assume different roles, different identities, wearing different hats.",
+     "zh": "但隨著我繼續成長，我會承擔不同的角色、不同的身分，戴上不同的帽子。",
+     "t": 474.6
+    }
+   ],
+   "fam": [
+    "assumption n. 假設"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "assume a role／assume responsibility 擔任角色／承擔責任（Day 04 的 assume，這裡正好是「承擔角色」的用法）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "assumes"
+      ],
+      [
+       "過去式",
+       "assumed"
+      ],
+      [
+       "過去分詞",
+       "assumed"
+      ],
+      [
+       "現在分詞",
+       "assuming"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "content",
+   "s": 2,
+   "ph": "[kənˋtɛnt]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "滿足的，滿意的（念 [kənˋtɛnt]）"
+    },
+    {
+     "p": "n.",
+     "m": "內容（念 [ˋkɑntɛnt]）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "But for me, I'm very content with being home.",
+     "zh": "但對我來說，我很滿足於待在家。",
+     "t": 526.3
+    }
+   ],
+   "fam": [
+    "contentment n. 滿足"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "be content with 對～感到滿足。當名詞「內容」時重音在前：[ˋkɑntɛnt]，多益常考重音不同的同形字。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    },
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "contents"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "w": "temporary",
+   "s": 3,
+   "ph": "[ˋtɛmpə͵rɛrɪ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "暫時的，臨時的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "For example, mindset habits. One thing that has helped me the most is remembering that everything is temporary.",
+     "zh": "舉例來說，心態習慣。對我幫助最大的一件事，是記得一切都是暫時的。",
+     "t": 696.1
+    }
+   ],
+   "fam": [
+    "temporarily adv. 暫時地"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "temporary position／temporary staff 臨時職缺／臨時人員；be temporarily closed 暫停營業。反義 permanent。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "w": "perspective",
+   "s": 2,
+   "ph": "[pɚˋspɛktɪv]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "觀點，看法；正確的判斷力"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And to lose someone really helps put these things into perspective.",
+     "zh": "失去一個人，真的能幫你把這些事情看得更清楚。",
+     "t": 725.8
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "put ~ into perspective 讓人把～看清楚、放在適當的角度看待；from a customer's perspective 從顧客的角度。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "perspectives"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "w": "confront",
+   "s": 2,
+   "ph": "[kənˋfrʌnt]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "面對，面臨（困難）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "I feel like if anything, when you do become a parent, you're more so confronted with, especially if you decide to stay at home with your kids, you're more confronted with the lack of time.",
+     "zh": "我覺得真要說的話，當你成為父母，尤其如果你決定在家帶小孩，你更常面對的是時間不夠。",
+     "t": 892.3
+    }
+   ],
+   "fam": [
+    "confrontation n. 對抗，衝突"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "be confronted with＝面臨～（Day 08 滿分單字也有 confront）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "confronts"
+      ],
+      [
+       "過去式",
+       "confronted"
+      ],
+      [
+       "過去分詞",
+       "confronted"
+      ],
+      [
+       "現在分詞",
+       "confronting"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "w": "commit",
+   "s": 3,
+   "ph": "[kəˋmɪt]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "投入，致力於；承諾"
+    }
+   ],
+   "ex": [
+    {
+     "en": "You need to be sure enough that you want to commit the rest of your life to being a parent.",
+     "zh": "你需要夠確定，確定自己願意把餘生都投入在當父母這件事上。",
+     "t": 1295.0
+    }
+   ],
+   "fam": [
+    "commitment n. 承諾；投入"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "commit A to B 把 A 投入在 B；be committed to -ing 致力於～（to 是介系詞，後接動名詞，Day 06 有）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "commits"
+      ],
+      [
+       "過去式",
+       "committed"
+      ],
+      [
+       "過去分詞",
+       "committed"
+      ],
+      [
+       "現在分詞",
+       "committing"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "w": "on the fence",
+   "s": 1,
+   "ph": "[ɑn ðə fɛns]",
+   "pos": [
+    {
+     "p": "phr.",
+     "m": "猶豫不決的，還沒決定的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So again, as Fiona mentioned, if you're on the fence about it, give yourself time because if you don't and things happen, this is when resentment happens.",
+     "zh": "所以再說一次，就像 Fiona 提到的，如果你還在猶豫，給自己一點時間，因為如果沒有想清楚就發生了，那就是怨恨產生的時候。",
+     "t": 1347.0
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "be on the fence about ～對～猶豫不決。口語常見，聽力 Part 3 可能出現。"
+    }
+   ],
+   "forms": []
+  },
+  {
+   "n": 14,
+   "w": "undertaking",
+   "s": 2,
+   "ph": "[͵ʌndɚˋtekɪŋ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "（艱鉅的）任務，事業"
+    }
+   ],
+   "ex": [
+    {
+     "en": "I feel like clarity is the thing that can help most with trying to figure out this huge thing, this massive, massive undertaking.",
+     "zh": "我覺得面對這件重大、非常非常重大的任務時，清晰的思緒是最能幫上忙的。",
+     "t": 1516.0
+    }
+   ],
+   "fam": [
+    "undertake v. 承擔，從事（Day 04）"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a massive／major undertaking 一項浩大的工程、重大任務。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "undertakings"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "And I was also very well ___ that it may come with some sacrifices.",
+   "a": "aware",
+   "opts": [
+    "aware",
+    "constraint",
+    "priority",
+    "assume"
+   ]
+  },
+  {
+   "s": "So if that is the case, if that is the ___, if that is what we're working with, what can I do?",
+   "a": "constraint",
+   "opts": [
+    "aware",
+    "constraint",
+    "priority",
+    "assume"
+   ]
+  },
+  {
+   "s": "It's still an expression of my values, but family just gets bumped up in ___ because it's the thing in front of you that needs immediate attention.",
+   "a": "priority",
+   "opts": [
+    "aware",
+    "constraint",
+    "priority",
+    "assume"
+   ]
+  },
+  {
+   "s": "But as I continue to grow, I will ___ different roles, different identities, wearing different hats.",
+   "a": "assume",
+   "opts": [
+    "aware",
+    "constraint",
+    "priority",
+    "assume"
+   ]
+  },
+  {
+   "s": "But for me, I'm very ___ with being home.",
+   "a": "content",
+   "opts": [
+    "content",
+    "perspective",
+    "commit",
+    "undertaking"
+   ]
+  },
+  {
+   "s": "And to lose someone really helps put these things into ___.",
+   "a": "perspective",
+   "opts": [
+    "content",
+    "perspective",
+    "commit",
+    "undertaking"
+   ]
+  },
+  {
+   "s": "You need to be sure enough that you want to ___ the rest of your life to being a parent.",
+   "a": "commit",
+   "opts": [
+    "content",
+    "perspective",
+    "commit",
+    "undertaking"
+   ]
+  },
+  {
+   "s": "I feel like clarity is the thing that can help most with trying to figure out this huge thing, this massive, massive ___.",
+   "a": "undertaking",
+   "opts": [
+    "content",
+    "perspective",
+    "commit",
+    "undertaking"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "這支影片在系列中的位置是？",
+   "a": "五集系列的第一集",
+   "opts": [
+    "五集系列的第一集",
+    "三集系列的最後一集",
+    "單獨的一支影片",
+    "十集系列的第二集"
+   ]
+  },
+  {
+   "q": "她二十幾歲時拚命工作，是因為她意識到什麼？",
+   "a": "接下來大約十年是唯一完全屬於自己的時間",
+   "opts": [
+    "接下來大約十年是唯一完全屬於自己的時間",
+    "她必須賺夠錢才能生小孩",
+    "她的父母要求她事業有成",
+    "紐約的生活費太高"
+   ]
+  },
+  {
+   "q": "她說當媽媽後，對她幫助最大的心態習慣是？",
+   "a": "記得一切都是暫時的",
+   "opts": [
+    "記得一切都是暫時的",
+    "每天凌晨四點半起床",
+    "把每件事都用顏色分類",
+    "盡量不看社群媒體"
+   ]
+  },
+  {
+   "q": "她介紹的「五個嗜好」不包括哪一種？",
+   "a": "讓自己賺錢的嗜好",
+   "opts": [
+    "讓自己賺錢的嗜好",
+    "保持健康的嗜好",
+    "保持平靜的嗜好",
+    "與人連結的嗜好"
+   ]
+  },
+  {
+   "q": "關於「準備好當媽媽了嗎」，她的看法是？",
+   "a": "不需要完全準備好，但要「夠」準備好、夠確定",
+   "opts": [
+    "不需要完全準備好，但要「夠」準備好、夠確定",
+    "一定要百分之百準備好才能生",
+    "年紀越輕越好，不用想太多",
+    "看別人怎麼做就好"
+   ]
+  }
+ ]
+}

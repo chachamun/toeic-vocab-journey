@@ -30,6 +30,33 @@ def voice_of(base, lang):
     return '%s-Chirp3-HD-%s' % (lang, name)
 CACHE = os.path.join(ROOT, 'tools', '.tts_cache')          # 產生過的音檔快取（不進 git），重跑不重複計費
 FREE_PER_MONTH, USD_PER_M = 1_000_000, 30
+USAGE = os.path.join(CACHE, 'usage.json')                  # 每月實際呼叫 API 的字元數帳本 {"2026-09": 字元}
+WARN_LEFT = 100_000                                        # 本月免費額度剩不到 10 萬字元就警告（Mischa 9/25 要求通知她）
+_ulock = threading.Lock()
+
+
+def usage():
+    try:
+        return json.load(io.open(USAGE, encoding='utf-8'))
+    except Exception:
+        return {}
+
+
+def month_left():
+    return FREE_PER_MONTH - usage().get(time.strftime('%Y-%m'), 0)
+
+
+def usage_add(n):
+    with _ulock:
+        u = usage(); m = time.strftime('%Y-%m'); u[m] = u.get(m, 0) + n
+        os.makedirs(CACHE, exist_ok=True)
+        json.dump(u, io.open(USAGE, 'w', encoding='utf-8'), indent=1)
+
+
+def warn_left(after=None):
+    left = month_left() if after is None else after
+    if left < WARN_LEFT:
+        print('⚠️⚠️ 本月語音免費額度只剩 %d 字元（低於 %d）→ 要通知 Mischa' % (max(0, left), WARN_LEFT))
 
 _session = None
 
@@ -73,6 +100,7 @@ def synth(text, voice):
         with open(tmp, 'wb') as f:
             f.write(data)
         os.replace(tmp, p)
+        usage_add(len(text))
         return data, True
     sys.exit('API 一直忙線，稍後再試。')
 
@@ -90,9 +118,12 @@ def report(items, voice=None):
     items = [it if len(it) == 3 else (it[0], it[1], voice) for it in items]
     todo = [it for it in items if not os.path.exists(cache_path(speakable(it[0]), it[2]))]
     chars = sum(len(speakable(t)) for t, _, _ in todo)
-    over = max(0, chars - FREE_PER_MONTH)
+    left = month_left()
+    over = max(0, chars - max(0, left))
     print('要產生 %d 段（快取已有 %d 段）；計費字元 %d（本月免費額度 %d 的 %.1f%%）；超出部分估 US$%.2f' % (
         len(todo), len(items) - len(todo), chars, FREE_PER_MONTH, chars / FREE_PER_MONTH * 100, over / 1e6 * USD_PER_M))
+    print('本月已用 %d、剩 %d；產完後剩 %d' % (FREE_PER_MONTH - left, left, left - chars))
+    warn_left(left - chars)
     return todo
 
 
@@ -107,6 +138,7 @@ def prefetch(items, workers=3):
         for i, _ in enumerate(ex.map(lambda it: synth(*it), todo), 1):
             if i % 100 == 0 or i == len(todo):
                 print('  產生中 %d/%d' % (i, len(todo)), flush=True)
+    warn_left()
 
 
 def arg(name, default=None):

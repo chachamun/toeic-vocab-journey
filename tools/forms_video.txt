@@ -145,3 +145,17 @@ inspired	adj: more inspired, most inspired	—
 installation	n: installations	—
 squeaky	adj: squeakier, squeakiest	—
 counterintuitive	adj: 無比較級	—
+transition	n: transitions	transition v. 轉變，過渡
+aware	adj: more aware, most aware	unaware adj. 沒察覺的（反義）
+sacrifice	n: sacrifices ; v: sacrifices, sacrificed, sacrificed, sacrificing	—
+constraint	n: constraints	—
+fulfilling	adj: more fulfilling, most fulfilling	—
+priority	n: priorities	—
+assume	v: assumes, assumed, assumed, assuming	—
+content	adj: 無比較級 ; n: contents	—
+temporary	adj: 無比較級	permanent adj. 永久的（反義）
+perspective	n: perspectives	—
+confront	v: confronts, confronted, confronted, confronting	—
+commit	v: commits, committed, committed, committing	—
+on the fence	—	—
+undertaking	n: undertakings	—
