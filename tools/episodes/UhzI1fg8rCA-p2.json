@@ -1,0 +1,768 @@
+{
+ "id": "yt-UhzI1fg8rCA-p2",
+ "course": "daily-video",
+ "publisher": "The Diary Of A CEO（Steven Bartlett）",
+ "video": "https://youtu.be/UhzI1fg8rCA?t=2146",
+ "bbc": "",
+ "label": "影片 19（中）",
+ "theme": "Druski：沒有 B 計畫，從媽媽家拍到 Drake 的 MV",
+ "themeEn": "Druski: They're Lying To You About Overnight Success! (Part 2)",
+ "release": "2026-10-12",
+ "words": [
+  {
+   "n": 1,
+   "w": "rebuttal",
+   "s": 1,
+   "ph": "[rɪˋbʌtḷ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "反駁，反證"
+    }
+   ],
+   "ex": [
+    {
+     "en": "But then of course I have a rebuttal.",
+     "zh": "但我當然有我的反駁理由。",
+     "t": 2333.9
+    }
+   ],
+   "fam": [
+    "rebut v. 反駁"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "offer a rebuttal 提出反駁（會議、辯論）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "rebuttals"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "predicament",
+   "s": 1,
+   "ph": "[prɪˋdɪkəmənt]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "困境，窘境"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And then it was the moment that we got arm robbed where I had a a outer body feeling of wow I came home to be in this predicament where I have a gun to my head now and now it's like how did I even get here?",
+     "zh": "然後就是我們被持槍搶劫的那一刻，我有一種靈魂出竅的感覺：哇，我回家就是為了陷入這種困境，槍口現在抵著我的頭，我到底是怎麼走到這一步的？",
+     "t": 2544.6
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "in a difficult predicament 處於困境（＝dilemma、tough situation）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "predicaments"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "transpire",
+   "s": 1,
+   "ph": "[trænˋspaɪr]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "發生；（事情）被得知"
+    }
+   ],
+   "ex": [
+    {
+     "en": "I'll probably say a full year has been at home before all that transpired.",
+     "zh": "我會說在那一切發生之前，我已經在家待了整整一年。",
+     "t": 2694.0
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "what transpired at the meeting 會議上發生了什麼（正式說法＝happen）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "transpires"
+      ],
+      [
+       "過去式",
+       "transpired"
+      ],
+      [
+       "過去分詞",
+       "transpired"
+      ],
+      [
+       "現在分詞",
+       "transpiring"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "repossess",
+   "s": 1,
+   "ph": "[͵ripəˋzɛs]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "（因欠款）收回（車、房）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Immediately my car gets repossessed.",
+     "zh": "我的車馬上就被收回了。",
+     "t": 2730.2
+    }
+   ],
+   "fam": [
+    "repossession n. 收回"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "The car was repossessed. 車子被收回了（沒繳貸款）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "repossesses"
+      ],
+      [
+       "過去式",
+       "repossessed"
+      ],
+      [
+       "過去分詞",
+       "repossessed"
+      ],
+      [
+       "現在分詞",
+       "repossessing"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "surveillance",
+   "s": 2,
+   "ph": "[sɚˋveləns]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "監視，監控"
+    }
+   ],
+   "ex": [
+    {
+     "en": "I wanted to do a surveillance camera at the top left side of the room to make it look like I'm on First 48.",
+     "zh": "我想在房間左上角弄一個監視器畫面，讓它看起來像《48 小時追兇（The First 48）》。",
+     "t": 2835.5
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "surveillance camera 監視器（大樓公告常見：under 24-hour surveillance）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "update",
+   "s": 3,
+   "ph": "[ʌpˋdet]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "最新消息，更新"
+    },
+    {
+     "p": "v.",
+     "m": "更新"
+    }
+   ],
+   "ex": [
+    {
+     "en": "I would always give her these updates like I have 10k followers now. I have 15k followers.",
+     "zh": "我總是會跟她更新近況，像是：我現在有一萬個追蹤者了。我有一萬五千個追蹤者了。",
+     "t": 2868.3
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "give someone an update 向某人報告最新進度；keep me updated 隨時告訴我進度（email 必考）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "updates"
+      ]
+     ]
+    },
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "updates"
+      ],
+      [
+       "過去式",
+       "updated"
+      ],
+      [
+       "過去分詞",
+       "updated"
+      ],
+      [
+       "現在分詞",
+       "updating"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "capable",
+   "s": 3,
+   "ph": "[ˋkepəbḷ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "有能力的，能幹的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "I know what I'm capable of.\"",
+     "zh": "我知道我的能耐在哪裡。」",
+     "t": 3011.5
+    }
+   ],
+   "fam": [
+    "capability n. 能力"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "be capable of + V-ing 有能力做～（注意接 of，不是 to）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more capable"
+      ],
+      [
+       "最高級",
+       "most capable"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "odds",
+   "s": 2,
+   "ph": "[ɑdz]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "機率，勝算（常用複數）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Objectively in that situation, the odds are stacked against you.",
+     "zh": "客觀來說，在那個情況下，一切都對你不利。",
+     "t": 3159.6
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "the odds are stacked against you 一切對你不利；against all odds 儘管困難重重。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "複數形"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "w": "pursuit",
+   "s": 2,
+   "ph": "[pɚˋsut]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "追求"
+    }
+   ],
+   "ex": [
+    {
+     "en": "But generally, what has it taught you about what it takes to be successful in the pursuit of a goal like that where to be honest,",
+     "zh": "但大致上，在追求這樣一個目標時，它教會了你成功需要什麼？說實話，",
+     "t": 3313.0
+    }
+   ],
+   "fam": [
+    "pursue v. 追求（影片 5）"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "in pursuit of a goal 追求目標；the pursuit of happiness 追求幸福。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "pursuits"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "w": "provide",
+   "s": 3,
+   "ph": "[prəˋvaɪd]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "提供；供養"
+    }
+   ],
+   "ex": [
+    {
+     "en": "not many people ever make any money? the odds of you being successful as a comedian defined let's define as as making being able to provide for yourself in a family",
+     "zh": "很少人真的賺到錢。當喜劇演員成功的機率，我們把成功定義為能養活自己和家人，",
+     "t": 3320.4
+    }
+   ],
+   "fam": [
+    "provider n. 供應商",
+    "provision n. 提供；條款"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "provide A with B／provide B for A 提供（Part 5 介系詞必考）；provide for a family 養家。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "provides"
+      ],
+      [
+       "過去式",
+       "provided"
+      ],
+      [
+       "過去分詞",
+       "provided"
+      ],
+      [
+       "現在分詞",
+       "providing"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "w": "surpass",
+   "s": 2,
+   "ph": "[sɚˋpæs]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "超越，勝過"
+    }
+   ],
+   "ex": [
+    {
+     "en": "It's not saying I want to be surpassed and we all want to surpass great things. We all do.",
+     "zh": "不是說我想被超越，我們都想超越偉大的事物，我們都想。",
+     "t": 3535.8
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "surpass expectations／sales targets 超出預期／超過業績目標。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "surpasses"
+      ],
+      [
+       "過去式",
+       "surpassed"
+      ],
+      [
+       "過去分詞",
+       "surpassed"
+      ],
+      [
+       "現在分詞",
+       "surpassing"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "w": "viral",
+   "s": 2,
+   "ph": "[ˋvaɪrəl]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "（網路）爆紅的；病毒的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "People see with social media, there's a bunch of quick reaction to things and people like, \"Oh my god, this person, oh, they went viral for that.",
+     "zh": "大家在社群媒體上看到的，是很多對事情的快速反應，大家會說：「天啊，這個人，喔，他因為那個爆紅了。",
+     "t": 3613.0
+    }
+   ],
+   "fam": [
+    "virus n. 病毒"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "go viral 爆紅；viral marketing 病毒式行銷。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "w": "commercial",
+   "s": 3,
+   "ph": "[kəˋmɝʃəl]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "廣告"
+    },
+    {
+     "p": "adj.",
+     "m": "商業的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "I can also be funny in a commercial.",
+     "zh": "我也可以在廣告裡好笑。",
+     "t": 3831.4
+    }
+   ],
+   "fam": [
+    "commerce n. 商業"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "TV commercial 電視廣告；commercial district 商業區。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "commercials"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "w": "traction",
+   "s": 1,
+   "ph": "[ˋtrækʃən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "進展，受歡迎程度；抓地力"
+    }
+   ],
+   "ex": [
+    {
+     "en": "I was gaining a little bit more traction everywhere.",
+     "zh": "我在各個平台都開始更有聲量。",
+     "t": 3954.5
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "gain traction 逐漸受到關注（新產品、新想法打開市場）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "w": "transactional",
+   "s": 1,
+   "ph": "[trænˋzækʃənḷ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "交易性質的，講條件的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Now it's transactional with everything.",
+     "zh": "現在一切都是談條件的交易了。",
+     "t": 4124.4
+    }
+   ],
+   "fam": [
+    "transaction n. 交易"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "complete a transaction 完成交易；transaction fee 手續費（銀行題）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "But then of course I have a ___.",
+   "a": "rebuttal",
+   "opts": [
+    "rebuttal",
+    "predicament",
+    "surveillance",
+    "capable"
+   ]
+  },
+  {
+   "s": "And then it was the moment that we got arm robbed where I had a a outer body feeling of wow I came home to be in this ___ where I have a gun to my head now and now it's like how did I even get here?",
+   "a": "predicament",
+   "opts": [
+    "rebuttal",
+    "predicament",
+    "surveillance",
+    "capable"
+   ]
+  },
+  {
+   "s": "I wanted to do a ___ camera at the top left side of the room to make it look like I'm on First 48.",
+   "a": "surveillance",
+   "opts": [
+    "rebuttal",
+    "predicament",
+    "surveillance",
+    "capable"
+   ]
+  },
+  {
+   "s": "I know what I'm ___ of.\"",
+   "a": "capable",
+   "opts": [
+    "rebuttal",
+    "predicament",
+    "surveillance",
+    "capable"
+   ]
+  },
+  {
+   "s": "Objectively in that situation, the ___ are stacked against you.",
+   "a": "odds",
+   "opts": [
+    "odds",
+    "viral",
+    "traction",
+    "transactional"
+   ]
+  },
+  {
+   "s": "People see with social media, there's a bunch of quick reaction to things and people like, \"Oh my god, this person, oh, they went ___ for that.",
+   "a": "viral",
+   "opts": [
+    "odds",
+    "viral",
+    "traction",
+    "transactional"
+   ]
+  },
+  {
+   "s": "I was gaining a little bit more ___ everywhere.",
+   "a": "traction",
+   "opts": [
+    "odds",
+    "viral",
+    "traction",
+    "transactional"
+   ]
+  },
+  {
+   "s": "Now it's ___ with everything.",
+   "a": "transactional",
+   "opts": [
+    "odds",
+    "viral",
+    "traction",
+    "transactional"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "是什麼事讓 Druski 下定決心當喜劇演員？",
+   "a": "被持槍搶劫，槍口抵著他的頭",
+   "opts": [
+    "被持槍搶劫，槍口抵著他的頭",
+    "被大學退學",
+    "媽媽把他趕出家門",
+    "在派對上遇到 Meek Mill"
+   ]
+  },
+  {
+   "q": "他寫在紙上的第一個目標是什麼？",
+   "a": "不要有 B 計畫，你的 A 計畫會成功",
+   "opts": [
+    "不要有 B 計畫，你的 A 計畫會成功",
+    "一年內賺到一百萬",
+    "主持奧斯卡頒獎典禮",
+    "搬出媽媽家"
+   ]
+  },
+  {
+   "q": "他寫下目標後，馬上發生了什麼事？",
+   "a": "他的車被收回了",
+   "opts": [
+    "他的車被收回了",
+    "他接到 Netflix 的邀約",
+    "他的影片爆紅",
+    "他找到正職工作"
+   ]
+  },
+  {
+   "q": "他早期的短劇是怎麼拍的？",
+   "a": "把媽媽家當片場，用手機拍",
+   "opts": [
+    "把媽媽家當片場，用手機拍",
+    "租攝影棚請專業團隊",
+    "在大學的社團教室拍",
+    "跟電視台合作拍"
+   ]
+  },
+  {
+   "q": "真正改變他事業的是什麼？",
+   "a": "Drake 找他演〈Laugh Now Cry Later〉MV，品牌開始認真看待他",
+   "opts": [
+    "Drake 找他演〈Laugh Now Cry Later〉MV，品牌開始認真看待他",
+    "拿到超級盃廣告",
+    "上了 Steve Harvey 的節目",
+    "贏得喜劇比賽"
+   ]
+  }
+ ]
+}

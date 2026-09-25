@@ -1,0 +1,797 @@
+{
+ "id": "yt-UhzI1fg8rCA-p1",
+ "course": "daily-video",
+ "publisher": "The Diary Of A CEO（Steven Bartlett）",
+ "video": "https://youtu.be/UhzI1fg8rCA",
+ "bbc": "",
+ "label": "影片 18（上）",
+ "theme": "Druski：童年、原諒與大學宿舍裡的頓悟",
+ "themeEn": "Druski: They're Lying To You About Overnight Success! (Part 1)",
+ "release": "2026-10-11",
+ "words": [
+  {
+   "n": 1,
+   "w": "cope",
+   "s": 2,
+   "ph": "[kop]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "應付，處理，調適"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So I would always try to step in to try to be like a coping mechanism for him. Maybe it's my mom.",
+     "zh": "所以我總是會想介入，試著成為他的一種調適方式。也可能是我媽。",
+     "t": 35.7
+    }
+   ],
+   "fam": [
+    "coping adj. 應對的（coping mechanism 調適機制）"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "cope with stress／a problem 應付壓力／問題（TOEIC 同義：deal with、handle）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "copes"
+      ],
+      [
+       "過去式",
+       "coped"
+      ],
+      [
+       "過去分詞",
+       "coped"
+      ],
+      [
+       "現在分詞",
+       "coping"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "perceptive",
+   "s": 1,
+   "ph": "[pɚˋsɛptɪv]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "敏銳的，觀察入微的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So, I I guess as a child, very perceptive children, you you're you're on edge a little bit then. For sure.",
+     "zh": "所以我猜你小時候是個非常敏銳的孩子，那時候你會有點緊繃。沒錯。",
+     "t": 549.3
+    }
+   ],
+   "fam": [
+    "perceive v. 察覺",
+    "perception n. 看法，感知"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "on edge＝緊繃不安；a perceptive analysis 有洞見的分析。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more perceptive"
+      ],
+      [
+       "最高級",
+       "most perceptive"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "empathetic",
+   "s": 1,
+   "ph": "[͵ɛmpəˋθɛtɪk]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "有同理心的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "They become the most empathetic.",
+     "zh": "他們會變成最有同理心的人。",
+     "t": 569.8
+    }
+   ],
+   "fam": [
+    "empathy n. 同理心"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "show empathy for customers 對顧客展現同理心（客服題常見）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more empathetic"
+      ],
+      [
+       "最高級",
+       "most empathetic"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "diagnose",
+   "s": 2,
+   "ph": "[ˋdaɪəgnoz]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "診斷"
+    }
+   ],
+   "ex": [
+    {
+     "en": "He was diagnosed with schizophrenia and bipolar disorder as we continued to go through puberty and got older.",
+     "zh": "隨著我們進入青春期、年紀漸長，他被診斷出思覺失調症和雙極性疾患。",
+     "t": 587.8
+    }
+   ],
+   "fam": [
+    "diagnosis n. 診斷（複數 diagnoses）"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "be diagnosed with 被診斷出～；diagnose a problem 找出問題所在（技術維修也用）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "diagnoses"
+      ],
+      [
+       "過去式",
+       "diagnosed"
+      ],
+      [
+       "過去分詞",
+       "diagnosed"
+      ],
+      [
+       "現在分詞",
+       "diagnosing"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "grudge",
+   "s": 1,
+   "ph": "[grʌdʒ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "怨恨，積怨"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Grudges can really hold a lot of weight on you.",
+     "zh": "怨恨真的會讓你背負很重的包袱。",
+     "t": 838.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "hold a grudge against 對～懷恨在心。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "grudges"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "burden",
+   "s": 2,
+   "ph": "[ˋbɝdṇ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "負擔，重擔"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And I and I kind of feel that way like people like oh it's not too much of a burden on you in your career.",
+     "zh": "我也有點這種感覺，大家會說：喔，你的事業對你來說壓力不會太大吧。",
+     "t": 902.9
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "financial burden 財務負擔；reduce the burden on staff 減輕員工負擔。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "burdens"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "resilience",
+   "s": 1,
+   "ph": "[rɪˋzɪlɪəns]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "韌性，復原力"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And uh one of the things that will give you is great resilience, I imagine.",
+     "zh": "我想，這也會給你很強的韌性。",
+     "t": 1068.9
+    }
+   ],
+   "fam": [
+    "resilient adj. 有韌性的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "build resilience 培養韌性；a resilient economy 有韌性的經濟。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "inherit",
+   "s": 2,
+   "ph": "[ɪnˋhɛrɪt]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "繼承；承接"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So, I I one of the lessons I inherited was that relationships look like this and this isn't necessarily a great thing that I want, right?",
+     "zh": "所以我繼承到的其中一課是：感情就是長這樣，而這不一定是我想要的好東西，對吧？",
+     "t": 1086.7
+    }
+   ],
+   "fam": [
+    "inheritance n. 遺產，繼承"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "inherit a business／a project 接手一家公司／一個專案。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "inherits"
+      ],
+      [
+       "過去式",
+       "inherited"
+      ],
+      [
+       "過去分詞",
+       "inherited"
+      ],
+      [
+       "現在分詞",
+       "inheriting"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "w": "affectionate",
+   "s": 1,
+   "ph": "[əˋfɛkʃənɪt]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "深情的，充滿關愛的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "If I spoke to someone that you were in a relationship with and I said to them, \"Is Drew affectionate?\" You laughing. You know the answer.",
+     "zh": "如果我去問和你交往過的人：「Drew 會很深情嗎？」你在笑。你知道答案。",
+     "t": 1190.0
+    }
+   ],
+   "fam": [
+    "affection n. 喜愛，情感"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "be affectionate toward 對～很親暱。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more affectionate"
+      ],
+      [
+       "最高級",
+       "most affectionate"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "w": "semester",
+   "s": 2,
+   "ph": "[səˋmɛstɚ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "學期"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So, I spent like a year and then another half of a semester there and I got my enough credits to transfer. Mhm.",
+     "zh": "我在那裡待了大概一年又半個學期，修到足夠的學分可以轉學。嗯。",
+     "t": 1373.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "the fall／spring semester 秋季／春季學期。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "semesters"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "w": "credit",
+   "s": 3,
+   "ph": "[ˋkrɛdɪt]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "學分；功勞；信用"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So, I spent like a year and then another half of a semester there and I got my enough credits to transfer. Mhm.",
+     "zh": "我在那裡待了大概一年又半個學期，修到足夠的學分可以轉學。嗯。",
+     "t": 1373.2
+    }
+   ],
+   "fam": [
+    "credit card 信用卡"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "transfer credits 轉學分；give someone credit 歸功於某人；store credit 購物抵用金（退貨題）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "credits"
+      ]
+     ]
+    },
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "credits"
+      ],
+      [
+       "過去式",
+       "credited"
+      ],
+      [
+       "過去分詞",
+       "credited"
+      ],
+      [
+       "現在分詞",
+       "crediting"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "w": "hassle",
+   "s": 1,
+   "ph": "[ˋhæsḷ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "麻煩事"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And for some reason, it always was a hassle for me to link up with them.",
+     "zh": "但不知道為什麼，要約他們總是很麻煩。",
+     "t": 1439.8
+    }
+   ],
+   "fam": [
+    "hassle-free adj. 省事的，無麻煩的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "hassle-free returns 輕鬆退貨（廣告常見）；link up＝碰面、會合。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "hassles"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "w": "epiphany",
+   "s": 1,
+   "ph": "[ɪˋpɪfənɪ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "頓悟"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And that and that's when I just had like a I don't know what they would call like epiphany, you know.",
+     "zh": "就在那時候，我有了一種……我不知道他們怎麼稱呼，頓悟吧，你知道。",
+     "t": 1661.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "have an epiphany 恍然大悟（＝aha moment）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "epiphanies"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "w": "socialize",
+   "s": 2,
+   "ph": "[ˋsoʃə͵laɪz]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "社交，交際"
+    }
+   ],
+   "ex": [
+    {
+     "en": "I'll buy as much as I could get to be able to stay in the room and not go out and socialize with all these people at this huge school.",
+     "zh": "我會盡量買，好讓我能待在房間裡，不用出去跟這所大學校裡的人社交。",
+     "t": 1717.1
+    }
+   ],
+   "fam": [
+    "social adj. 社交的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "socialize with colleagues 和同事交流（員工聚會題）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "socializes"
+      ],
+      [
+       "過去式",
+       "socialized"
+      ],
+      [
+       "過去分詞",
+       "socialized"
+      ],
+      [
+       "現在分詞",
+       "socializing"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "w": "entrepreneur",
+   "s": 2,
+   "ph": "[͵ɑntrəprəˋnɝ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "創業家"
+    }
+   ],
+   "ex": [
+    {
+     "en": "I thought that about like being an entrepreneur.",
+     "zh": "我對當創業家也有這種感覺。",
+     "t": 1882.9
+    }
+   ],
+   "fam": [
+    "entrepreneurial adj. 創業的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a successful entrepreneur 成功的創業家；start-up 新創公司。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "entrepreneurs"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "So, I I guess as a child, very ___ children, you you're you're on edge a little bit then. For sure.",
+   "a": "perceptive",
+   "opts": [
+    "perceptive",
+    "empathetic",
+    "resilience",
+    "burden"
+   ]
+  },
+  {
+   "s": "They become the most ___.",
+   "a": "empathetic",
+   "opts": [
+    "perceptive",
+    "empathetic",
+    "resilience",
+    "burden"
+   ]
+  },
+  {
+   "s": "And uh one of the things that will give you is great ___, I imagine.",
+   "a": "resilience",
+   "opts": [
+    "perceptive",
+    "empathetic",
+    "resilience",
+    "burden"
+   ]
+  },
+  {
+   "s": "And I and I kind of feel that way like people like oh it's not too much of a ___ on you in your career.",
+   "a": "burden",
+   "opts": [
+    "perceptive",
+    "empathetic",
+    "resilience",
+    "burden"
+   ]
+  },
+  {
+   "s": "So, I I one of the lessons I ___ was that relationships look like this and this isn't necessarily a great thing that I want, right?",
+   "a": "inherited",
+   "opts": [
+    "inherited",
+    "affectionate",
+    "hassle",
+    "socialize"
+   ]
+  },
+  {
+   "s": "If I spoke to someone that you were in a relationship with and I said to them, \"Is Drew ___?\" You laughing. You know the answer.",
+   "a": "affectionate",
+   "opts": [
+    "inherited",
+    "affectionate",
+    "hassle",
+    "socialize"
+   ]
+  },
+  {
+   "s": "And for some reason, it always was a ___ for me to link up with them.",
+   "a": "hassle",
+   "opts": [
+    "inherited",
+    "affectionate",
+    "hassle",
+    "socialize"
+   ]
+  },
+  {
+   "s": "I'll buy as much as I could get to be able to stay in the room and not go out and ___ with all these people at this huge school.",
+   "a": "socialize",
+   "opts": [
+    "inherited",
+    "affectionate",
+    "hassle",
+    "socialize"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "Druski 說他的喜劇來自哪裡？",
+   "a": "想療傷、讓家裡的狀況變好",
+   "opts": [
+    "想療傷、讓家裡的狀況變好",
+    "想賺大錢買房子",
+    "模仿爸爸的說話方式",
+    "大學的喜劇社團"
+   ]
+  },
+  {
+   "q": "Druski 的爸爸給他哪「三個選項」？",
+   "a": "上學、學一門手藝、去當兵",
+   "opts": [
+    "上學、學一門手藝、去當兵",
+    "當醫生、律師或機師",
+    "讀大學、出國、創業",
+    "打球、唱歌、演戲"
+   ]
+  },
+  {
+   "q": "Druski 怎麼看「原諒」？",
+   "a": "懷著怨恨是自己的包袱，原諒是為了讓自己往前走",
+   "opts": [
+    "懷著怨恨是自己的包袱，原諒是為了讓自己往前走",
+    "原諒就是讓對方贏了",
+    "只有對方道歉才需要原諒",
+    "家人之間不需要原諒"
+   ]
+  },
+  {
+   "q": "他在喬治亞南方大學的第二學期發生了什麼事？",
+   "a": "陷入憂鬱，幾乎沒去上課，一直待在宿舍",
+   "opts": [
+    "陷入憂鬱，幾乎沒去上課，一直待在宿舍",
+    "成績全拿 A",
+    "加入美式足球校隊",
+    "開始在酒吧講脫口秀"
+   ]
+  },
+  {
+   "q": "他在宿舍裡的頓悟是什麼？",
+   "a": "他崇拜的人全都是喜劇傳奇，當喜劇演員就是他的目的",
+   "opts": [
+    "他崇拜的人全都是喜劇傳奇，當喜劇演員就是他的目的",
+    "他應該改念商科",
+    "他想當 ESPN 體育主播",
+    "他應該搬去洛杉磯"
+   ]
+  }
+ ]
+}

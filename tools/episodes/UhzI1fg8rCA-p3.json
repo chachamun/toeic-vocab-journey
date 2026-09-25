@@ -1,0 +1,804 @@
+{
+ "id": "yt-UhzI1fg8rCA-p3",
+ "course": "daily-video",
+ "publisher": "The Diary Of A CEO（Steven Bartlett）",
+ "video": "https://youtu.be/UhzI1fg8rCA?t=4263",
+ "bbc": "",
+ "label": "影片 20（下）",
+ "theme": "Druski：關係、投資自己與一步一步的階梯",
+ "themeEn": "Druski: They're Lying To You About Overnight Success! (Part 3)",
+ "release": "2026-10-13",
+ "words": [
+  {
+   "n": 1,
+   "w": "dedication",
+   "s": 2,
+   "ph": "[͵dɛdəˋkeʃən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "投入，奉獻"
+    }
+   ],
+   "ex": [
+    {
+     "en": "There's the obsession, there's the dedication, there's the hours.",
+     "zh": "有執著、有投入、有投入的時數。",
+     "t": 4268.8
+    }
+   ],
+   "fam": [
+    "dedicate v. 奉獻",
+    "dedicated adj. 專注的；專用的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "thank you for your dedication 感謝你的付出（表揚公告）；a dedicated team 專注的團隊。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "horizon",
+   "s": 2,
+   "ph": "[həˋraɪzṇ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "視野，眼界；地平線"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So I feel like a lot of my upbringing was around this broad horizon of different different ethnicities, different genders of everybody.",
+     "zh": "所以我覺得我的成長環境很多元，有各種不同族裔、不同性別的人。",
+     "t": 4341.5
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "broaden your horizons 開拓眼界；on the horizon 即將到來。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "horizons"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "corporate",
+   "s": 3,
+   "ph": "[ˋkɔrpərɪt]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "公司的，企業的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Did you have to mature or learn a skill of like coming from where you come from to be in a a room with these big brands and these people in suits in corporate America?",
+     "zh": "從你的出身，到走進有大品牌、穿西裝的美國企業人士的會議室，你需要變得成熟，或學習某種技能嗎？",
+     "t": 4366.2
+    }
+   ],
+   "fam": [
+    "corporation n. 公司，企業"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "corporate headquarters 公司總部；corporate event 企業活動。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "framework",
+   "s": 2,
+   "ph": "[ˋfrem͵wɝk]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "架構，框架"
+    }
+   ],
+   "ex": [
+    {
+     "en": "How what what is your decision framework there with like because there's this term you know I worked in advertising for a long time.",
+     "zh": "你的判斷框架是什麼？因為有一個詞，你知道，我在廣告業工作了很久。",
+     "t": 4458.0
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "decision framework 決策框架；within the framework of 在～的架構下。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "frameworks"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "inclusive",
+   "s": 2,
+   "ph": "[ɪnˋklusɪv]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "包容的；包含在內的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "You can never show me something that I've done that was like, \"Oh, that's punching down or that wasn't inclusive of the other person that might have been in that situation.\" or oh,",
+     "zh": "你永遠找不到我做過什麼是：「喔，那是在欺負弱勢」，或「那沒有顧及當時在那種情境裡的另一個人」，或是：喔，",
+     "t": 4505.4
+    }
+   ],
+   "fam": [
+    "include v. 包含",
+    "inclusion n. 包容"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "an inclusive workplace 友善包容的職場；all-inclusive 全包式（旅遊方案）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more inclusive"
+      ],
+      [
+       "最高級",
+       "most inclusive"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "proposal",
+   "s": 3,
+   "ph": "[prəˋpozḷ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "提案，企劃書"
+    }
+   ],
+   "ex": [
+    {
+     "en": "They sent it to my management and I think they accidentally sent the proposal.",
+     "zh": "他們寄給我的經紀團隊，我想他們不小心寄錯了提案。",
+     "t": 4892.0
+    }
+   ],
+   "fam": [
+    "propose v. 提議"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "submit a proposal 提交企劃；a budget proposal 預算提案。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "proposals"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "reject",
+   "s": 3,
+   "ph": "[rɪˋdʒɛkt]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "拒絕，駁回"
+    }
+   ],
+   "ex": [
+    {
+     "en": "I was reading that you were rejected by both Netflix and Amazon. Yeah. Early on.",
+     "zh": "我讀到你被 Netflix 和 Amazon 都拒絕過。對。在早期。",
+     "t": 5053.4
+    }
+   ],
+   "fam": [
+    "rejection n. 拒絕"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "reject an offer／application 拒絕提議／申請（反義 accept、approve）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "rejects"
+      ],
+      [
+       "過去式",
+       "rejected"
+      ],
+      [
+       "過去分詞",
+       "rejected"
+      ],
+      [
+       "現在分詞",
+       "rejecting"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "invest",
+   "s": 3,
+   "ph": "[ɪnˋvɛst]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "投資；投入"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And I decided to just go and all these show ideas that I had, I'm going to do it on YouTube and spend my own money to invest into it.",
+     "zh": "我決定把我所有的節目點子都拿去 YouTube 做，花我自己的錢投資在上面。",
+     "t": 5106.6
+    }
+   ],
+   "fam": [
+    "investment n. 投資",
+    "investor n. 投資人"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "invest in new equipment 投資新設備（注意接 in）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "invests"
+      ],
+      [
+       "過去式",
+       "invested"
+      ],
+      [
+       "過去分詞",
+       "invested"
+      ],
+      [
+       "現在分詞",
+       "investing"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "w": "disservice",
+   "s": 1,
+   "ph": "[dɪsˋsɝvɪs]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "損害，幫倒忙"
+    }
+   ],
+   "ex": [
+    {
+     "en": "If you don't see the vision yourself, you're almost doing yourself a disservice.",
+     "zh": "如果你自己都看不見那個願景，你幾乎是在虧待自己。",
+     "t": 5166.8
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "do someone a disservice 對某人不利、虧待某人。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "disservices"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "w": "dilute",
+   "s": 1,
+   "ph": "[daɪˋlut]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "稀釋，削弱"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Most people will go and grab the money because the money's good and they'll they will dilute the whole brand and wash it away before it was ever even able to start.",
+     "zh": "大多數人會去拿錢，因為錢很好賺，然後在品牌還沒開始之前，就把整個品牌稀釋、沖淡掉了。",
+     "t": 5551.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "dilute the brand 稀釋品牌價值；dilute with water 用水稀釋（產品說明）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "dilutes"
+      ],
+      [
+       "過去式",
+       "diluted"
+      ],
+      [
+       "過去分詞",
+       "diluted"
+      ],
+      [
+       "現在分詞",
+       "diluting"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "w": "balance",
+   "s": 3,
+   "ph": "[ˋbæləns]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "平衡；餘額"
+    },
+    {
+     "p": "v.",
+     "m": "平衡"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And that's I was like, okay, a good balance is a healthy lifestyle.",
+     "zh": "然後我就想，好，健康的生活方式就是一種好的平衡。",
+     "t": 5716.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "work-life balance 工作與生活平衡；account balance 帳戶餘額（銀行題）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "balances"
+      ]
+     ]
+    },
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "balances"
+      ],
+      [
+       "過去式",
+       "balanced"
+      ],
+      [
+       "過去分詞",
+       "balanced"
+      ],
+      [
+       "現在分詞",
+       "balancing"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "w": "evolve",
+   "s": 2,
+   "ph": "[ɪˋvɑlv]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "演變，逐步發展"
+    }
+   ],
+   "ex": [
+    {
+     "en": "You see the superstar Druski and what he has evolved to become.",
+     "zh": "你看到的是超級巨星 Druski，以及他已經蛻變成的樣子。",
+     "t": 5752.6
+    }
+   ],
+   "fam": [
+    "evolution n. 演變"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "the company has evolved into 公司已發展成～。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "evolves"
+      ],
+      [
+       "過去式",
+       "evolved"
+      ],
+      [
+       "過去分詞",
+       "evolved"
+      ],
+      [
+       "現在分詞",
+       "evolving"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "w": "transcend",
+   "s": 1,
+   "ph": "[trænˋsɛnd]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "超越"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So, it's like that's the type of evolving I'm looking to do in my career where I can continue to just keep transcending and and I didn't learn to talk that way.",
+     "zh": "所以這就是我在職業生涯中想要的那種蛻變，能夠持續超越自己，而且我不是學會這樣說話的。",
+     "t": 5894.4
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "transcend boundaries 超越界限（比 surpass 更抽象）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "transcends"
+      ],
+      [
+       "過去式",
+       "transcended"
+      ],
+      [
+       "過去分詞",
+       "transcended"
+      ],
+      [
+       "現在分詞",
+       "transcending"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "w": "nuanced",
+   "s": 1,
+   "ph": "[ˋnjuɑnst]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "有細微差別的，細膩的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "But it's interesting because I think it's everything's nuanced and when you've got a passion, of course, you pursue it and when especially when there's evidence. Yeah.",
+     "zh": "但這很有意思，因為我覺得一切都有細微的差別，當你有熱情，當然你要去追求，尤其是有證據的時候。對。",
+     "t": 6083.8
+    }
+   ],
+   "fam": [
+    "nuance n. 細微差別"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a nuanced view 細膩的觀點；not black and white＝不是非黑即白。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more nuanced"
+      ],
+      [
+       "最高級",
+       "most nuanced"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "w": "turbulent",
+   "s": 1,
+   "ph": "[ˋtɝbjələnt]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "動盪的；（氣流）亂流的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "turbulent childhood you had and the odds were very much stacked against you for num numbers of reasons, for you to pass your way through that and climb to the very top",
+     "zh": "你經歷過的動盪童年，基於種種原因，一切都對你非常不利，而你能一路走過來，爬到你這個產業的",
+     "t": 6476.9
+    }
+   ],
+   "fam": [
+    "turbulence n. 亂流"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "turbulent market 動盪的市場；experience turbulence 遇到亂流（機上廣播）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more turbulent"
+      ],
+      [
+       "最高級",
+       "most turbulent"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "Did you have to mature or learn a skill of like coming from where you come from to be in a a room with these big brands and these people in suits in ___ America?",
+   "a": "corporate",
+   "opts": [
+    "corporate",
+    "framework",
+    "inclusive",
+    "proposal"
+   ]
+  },
+  {
+   "s": "How what what is your decision ___ there with like because there's this term you know I worked in advertising for a long time.",
+   "a": "framework",
+   "opts": [
+    "corporate",
+    "framework",
+    "inclusive",
+    "proposal"
+   ]
+  },
+  {
+   "s": "You can never show me something that I've done that was like, \"Oh, that's punching down or that wasn't ___ of the other person that might have been in that situation.\" or oh,",
+   "a": "inclusive",
+   "opts": [
+    "corporate",
+    "framework",
+    "inclusive",
+    "proposal"
+   ]
+  },
+  {
+   "s": "They sent it to my management and I think they accidentally sent the ___.",
+   "a": "proposal",
+   "opts": [
+    "corporate",
+    "framework",
+    "inclusive",
+    "proposal"
+   ]
+  },
+  {
+   "s": "And I decided to just go and all these show ideas that I had, I'm going to do it on YouTube and spend my own money to ___ into it.",
+   "a": "invest",
+   "opts": [
+    "invest",
+    "disservice",
+    "dilute",
+    "balance"
+   ]
+  },
+  {
+   "s": "If you don't see the vision yourself, you're almost doing yourself a ___.",
+   "a": "disservice",
+   "opts": [
+    "invest",
+    "disservice",
+    "dilute",
+    "balance"
+   ]
+  },
+  {
+   "s": "Most people will go and grab the money because the money's good and they'll they will ___ the whole brand and wash it away before it was ever even able to start.",
+   "a": "dilute",
+   "opts": [
+    "invest",
+    "disservice",
+    "dilute",
+    "balance"
+   ]
+  },
+  {
+   "s": "And that's I was like, okay, a good ___ is a healthy lifestyle.",
+   "a": "balance",
+   "opts": [
+    "invest",
+    "disservice",
+    "dilute",
+    "balance"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "Druski 認為在娛樂產業往上爬，最關鍵的是什麼？",
+   "a": "人際關係：你怎麼待人、別人信不信任你",
+   "opts": [
+    "人際關係：你怎麼待人、別人信不信任你",
+    "只要有才華就夠了",
+    "認識越多名人越好",
+    "有錢請好的經紀人"
+   ]
+  },
+  {
+   "q": "他做喜劇的原則是什麼？",
+   "a": "不拿弱勢開刀，笑點出自善意",
+   "opts": [
+    "不拿弱勢開刀，笑點出自善意",
+    "什麼都能拿來開玩笑",
+    "專做政治諷刺",
+    "只拍自己的生活"
+   ]
+  },
+  {
+   "q": "被 Netflix、Amazon 拒絕之後，他怎麼做？",
+   "a": "自己花錢在 YouTube 做節目，投資自己",
+   "opts": [
+    "自己花錢在 YouTube 做節目，投資自己",
+    "改行去當演員",
+    "一直重投同一份企劃",
+    "放棄做節目"
+   ]
+  },
+  {
+   "q": "面對遙遠的大目標，他的建議是什麼？",
+   "a": "專注在一步一步的小步驟",
+   "opts": [
+    "專注在一步一步的小步驟",
+    "只盯著最終目標",
+    "先找一個強大的團隊",
+    "等待大機會出現"
+   ]
+  },
+  {
+   "q": "如果能對大學宿舍裡的自己說話，他會說什麼？",
+   "a": "更相信自己，路難走時也要堅持、別半路跳車",
+   "opts": [
+    "更相信自己，路難走時也要堅持、別半路跳車",
+    "趕快回學校拿學位",
+    "先存錢再追夢",
+    "去找一份穩定的工作"
+   ]
+  }
+ ]
+}

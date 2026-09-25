@@ -374,3 +374,46 @@ backyard	n: backyards	—
 grill	n: grills ; v: grills, grilled, grilled, grilling	—
 mow	v: mows, mowed, mowed, mowing	—
 valuable	adj: more valuable, most valuable	—
+perceptive	adj: more perceptive, most perceptive	—
+empathetic	adj: more empathetic, most empathetic	—
+diagnose	v: diagnoses, diagnosed, diagnosed, diagnosing	—
+grudge	n: grudges	—
+burden	n: burdens	—
+resilience	n: 不可數	—
+inherit	v: inherits, inherited, inherited, inheriting	—
+affectionate	adj: more affectionate, most affectionate	—
+semester	n: semesters	—
+hassle	n: hassles	—
+epiphany	n: epiphanies	—
+socialize	v: socializes, socialized, socialized, socializing	—
+entrepreneur	n: entrepreneurs	—
+rebuttal	n: rebuttals	—
+predicament	n: predicaments	—
+transpire	v: transpires, transpired, transpired, transpiring	—
+repossess	v: repossesses, repossessed, repossessed, repossessing	—
+surveillance	n: 不可數	—
+update	n: updates ; v: updates, updated, updated, updating	—
+capable	adj: more capable, most capable	—
+odds	n: 複數形	—
+pursuit	n: pursuits	—
+provide	v: provides, provided, provided, providing	—
+surpass	v: surpasses, surpassed, surpassed, surpassing	—
+viral	adj: 無比較級	—
+commercial	n: commercials	—
+traction	n: 不可數	—
+transactional	adj: 無比較級	—
+dedication	n: 不可數	—
+horizon	n: horizons	—
+corporate	adj: 無比較級	—
+framework	n: frameworks	—
+inclusive	adj: more inclusive, most inclusive	—
+proposal	n: proposals	—
+reject	v: rejects, rejected, rejected, rejecting	—
+invest	v: invests, invested, invested, investing	—
+disservice	n: disservices	—
+dilute	v: dilutes, diluted, diluted, diluting	—
+balance	n: balances ; v: balances, balanced, balanced, balancing	—
+evolve	v: evolves, evolved, evolved, evolving	—
+transcend	v: transcends, transcended, transcended, transcending	—
+nuanced	adj: more nuanced, most nuanced	—
+turbulent	adj: more turbulent, most turbulent	—

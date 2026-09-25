@@ -16142,6 +16142,2831 @@ TVJ.register({
      ]
     }
    ]
+  },
+  {
+   "id": "yt-UhzI1fg8rCA-p1",
+   "label": "影片 18（上）",
+   "theme": "Druski：童年、原諒與大學宿舍裡的頓悟",
+   "themeEn": "Druski: They're Lying To You About Overnight Success! (Part 1)",
+   "video": "https://youtu.be/UhzI1fg8rCA",
+   "source": "",
+   "publisher": "The Diary Of A CEO（Steven Bartlett）",
+   "release": "2026-10-11",
+   "transcript": "transcripts/UhzI1fg8rCA-p1.json",
+   "lines": 405,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "cope",
+     "s": 2,
+     "ph": "[kop]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "應付，處理，調適"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So I would always try to step in to try to be like a coping mechanism for him. Maybe it's my mom.",
+       "zh": "所以我總是會想介入，試著成為他的一種調適方式。也可能是我媽。",
+       "t": 35.7,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p1/w1_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p1/w1_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p1/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "coping adj. 應對的（coping mechanism 調適機制）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "cope with stress／a problem 應付壓力／問題（TOEIC 同義：deal with、handle）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "copes"
+        ],
+        [
+         "過去式",
+         "coped"
+        ],
+        [
+         "過去分詞",
+         "coped"
+        ],
+        [
+         "現在分詞",
+         "coping"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p1/w1_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p1/w1_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p1/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "perceptive",
+     "s": 1,
+     "ph": "[pɚˋsɛptɪv]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "敏銳的，觀察入微的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So, I I guess as a child, very perceptive children, you you're you're on edge a little bit then. For sure.",
+       "zh": "所以我猜你小時候是個非常敏銳的孩子，那時候你會有點緊繃。沒錯。",
+       "t": 549.3,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p1/w2_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p1/w2_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p1/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "perceive v. 察覺",
+      "perception n. 看法，感知"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "on edge＝緊繃不安；a perceptive analysis 有洞見的分析。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more perceptive"
+        ],
+        [
+         "最高級",
+         "most perceptive"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p1/w2_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p1/w2_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p1/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "empathetic",
+     "s": 1,
+     "ph": "[͵ɛmpəˋθɛtɪk]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "有同理心的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "They become the most empathetic.",
+       "zh": "他們會變成最有同理心的人。",
+       "t": 569.8,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p1/w3_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p1/w3_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p1/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "empathy n. 同理心"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "show empathy for customers 對顧客展現同理心（客服題常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more empathetic"
+        ],
+        [
+         "最高級",
+         "most empathetic"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p1/w3_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p1/w3_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p1/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "diagnose",
+     "s": 2,
+     "ph": "[ˋdaɪəgnoz]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "診斷"
+      }
+     ],
+     "ex": [
+      {
+       "en": "He was diagnosed with schizophrenia and bipolar disorder as we continued to go through puberty and got older.",
+       "zh": "隨著我們進入青春期、年紀漸長，他被診斷出思覺失調症和雙極性疾患。",
+       "t": 587.8,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p1/w4_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p1/w4_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p1/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "diagnosis n. 診斷（複數 diagnoses）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "be diagnosed with 被診斷出～；diagnose a problem 找出問題所在（技術維修也用）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "diagnoses"
+        ],
+        [
+         "過去式",
+         "diagnosed"
+        ],
+        [
+         "過去分詞",
+         "diagnosed"
+        ],
+        [
+         "現在分詞",
+         "diagnosing"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p1/w4_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p1/w4_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p1/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "grudge",
+     "s": 1,
+     "ph": "[grʌdʒ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "怨恨，積怨"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Grudges can really hold a lot of weight on you.",
+       "zh": "怨恨真的會讓你背負很重的包袱。",
+       "t": 838.2,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p1/w5_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p1/w5_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p1/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "hold a grudge against 對～懷恨在心。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "grudges"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p1/w5_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p1/w5_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p1/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "burden",
+     "s": 2,
+     "ph": "[ˋbɝdṇ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "負擔，重擔"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And I and I kind of feel that way like people like oh it's not too much of a burden on you in your career.",
+       "zh": "我也有點這種感覺，大家會說：喔，你的事業對你來說壓力不會太大吧。",
+       "t": 902.9,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p1/w6_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p1/w6_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p1/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "financial burden 財務負擔；reduce the burden on staff 減輕員工負擔。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "burdens"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p1/w6_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p1/w6_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p1/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "resilience",
+     "s": 1,
+     "ph": "[rɪˋzɪlɪəns]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "韌性，復原力"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And uh one of the things that will give you is great resilience, I imagine.",
+       "zh": "我想，這也會給你很強的韌性。",
+       "t": 1068.9,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p1/w7_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p1/w7_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p1/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "resilient adj. 有韌性的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "build resilience 培養韌性；a resilient economy 有韌性的經濟。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p1/w7_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p1/w7_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p1/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "inherit",
+     "s": 2,
+     "ph": "[ɪnˋhɛrɪt]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "繼承；承接"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So, I I one of the lessons I inherited was that relationships look like this and this isn't necessarily a great thing that I want, right?",
+       "zh": "所以我繼承到的其中一課是：感情就是長這樣，而這不一定是我想要的好東西，對吧？",
+       "t": 1086.7,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p1/w8_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p1/w8_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p1/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "inheritance n. 遺產，繼承"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "inherit a business／a project 接手一家公司／一個專案。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "inherits"
+        ],
+        [
+         "過去式",
+         "inherited"
+        ],
+        [
+         "過去分詞",
+         "inherited"
+        ],
+        [
+         "現在分詞",
+         "inheriting"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p1/w8_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p1/w8_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p1/w8_AU.mp3"
+     }
+    },
+    {
+     "n": 9,
+     "w": "affectionate",
+     "s": 1,
+     "ph": "[əˋfɛkʃənɪt]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "深情的，充滿關愛的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "If I spoke to someone that you were in a relationship with and I said to them, \"Is Drew affectionate?\" You laughing. You know the answer.",
+       "zh": "如果我去問和你交往過的人：「Drew 會很深情嗎？」你在笑。你知道答案。",
+       "t": 1190.0,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p1/w9_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p1/w9_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p1/w9_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "affection n. 喜愛，情感"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "be affectionate toward 對～很親暱。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more affectionate"
+        ],
+        [
+         "最高級",
+         "most affectionate"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p1/w9_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p1/w9_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p1/w9_AU.mp3"
+     }
+    },
+    {
+     "n": 10,
+     "w": "semester",
+     "s": 2,
+     "ph": "[səˋmɛstɚ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "學期"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So, I spent like a year and then another half of a semester there and I got my enough credits to transfer. Mhm.",
+       "zh": "我在那裡待了大概一年又半個學期，修到足夠的學分可以轉學。嗯。",
+       "t": 1373.2,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p1/w10_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p1/w10_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p1/w10_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "the fall／spring semester 秋季／春季學期。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "semesters"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p1/w10_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p1/w10_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p1/w10_AU.mp3"
+     }
+    },
+    {
+     "n": 11,
+     "w": "credit",
+     "s": 3,
+     "ph": "[ˋkrɛdɪt]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "學分；功勞；信用"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So, I spent like a year and then another half of a semester there and I got my enough credits to transfer. Mhm.",
+       "zh": "我在那裡待了大概一年又半個學期，修到足夠的學分可以轉學。嗯。",
+       "t": 1373.2,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p1/w11_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p1/w11_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p1/w11_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "credit card 信用卡"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "transfer credits 轉學分；give someone credit 歸功於某人；store credit 購物抵用金（退貨題）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "credits"
+        ]
+       ]
+      },
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "credits"
+        ],
+        [
+         "過去式",
+         "credited"
+        ],
+        [
+         "過去分詞",
+         "credited"
+        ],
+        [
+         "現在分詞",
+         "crediting"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p1/w11_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p1/w11_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p1/w11_AU.mp3"
+     }
+    },
+    {
+     "n": 12,
+     "w": "hassle",
+     "s": 1,
+     "ph": "[ˋhæsḷ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "麻煩事"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And for some reason, it always was a hassle for me to link up with them.",
+       "zh": "但不知道為什麼，要約他們總是很麻煩。",
+       "t": 1439.8,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p1/w12_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p1/w12_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p1/w12_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "hassle-free adj. 省事的，無麻煩的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "hassle-free returns 輕鬆退貨（廣告常見）；link up＝碰面、會合。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "hassles"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p1/w12_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p1/w12_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p1/w12_AU.mp3"
+     }
+    },
+    {
+     "n": 13,
+     "w": "epiphany",
+     "s": 1,
+     "ph": "[ɪˋpɪfənɪ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "頓悟"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And that and that's when I just had like a I don't know what they would call like epiphany, you know.",
+       "zh": "就在那時候，我有了一種……我不知道他們怎麼稱呼，頓悟吧，你知道。",
+       "t": 1661.2,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p1/w13_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p1/w13_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p1/w13_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "have an epiphany 恍然大悟（＝aha moment）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "epiphanies"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p1/w13_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p1/w13_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p1/w13_AU.mp3"
+     }
+    },
+    {
+     "n": 14,
+     "w": "socialize",
+     "s": 2,
+     "ph": "[ˋsoʃə͵laɪz]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "社交，交際"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I'll buy as much as I could get to be able to stay in the room and not go out and socialize with all these people at this huge school.",
+       "zh": "我會盡量買，好讓我能待在房間裡，不用出去跟這所大學校裡的人社交。",
+       "t": 1717.1,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p1/w14_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p1/w14_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p1/w14_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "social adj. 社交的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "socialize with colleagues 和同事交流（員工聚會題）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "socializes"
+        ],
+        [
+         "過去式",
+         "socialized"
+        ],
+        [
+         "過去分詞",
+         "socialized"
+        ],
+        [
+         "現在分詞",
+         "socializing"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p1/w14_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p1/w14_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p1/w14_AU.mp3"
+     }
+    },
+    {
+     "n": 15,
+     "w": "entrepreneur",
+     "s": 2,
+     "ph": "[͵ɑntrəprəˋnɝ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "創業家"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I thought that about like being an entrepreneur.",
+       "zh": "我對當創業家也有這種感覺。",
+       "t": 1882.9,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p1/w15_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p1/w15_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p1/w15_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "entrepreneurial adj. 創業的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a successful entrepreneur 成功的創業家；start-up 新創公司。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "entrepreneurs"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p1/w15_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p1/w15_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p1/w15_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "So, I I guess as a child, very ___ children, you you're you're on edge a little bit then. For sure.",
+     "a": "perceptive",
+     "opts": [
+      "perceptive",
+      "empathetic",
+      "resilience",
+      "burden"
+     ]
+    },
+    {
+     "s": "They become the most ___.",
+     "a": "empathetic",
+     "opts": [
+      "perceptive",
+      "empathetic",
+      "resilience",
+      "burden"
+     ]
+    },
+    {
+     "s": "And uh one of the things that will give you is great ___, I imagine.",
+     "a": "resilience",
+     "opts": [
+      "perceptive",
+      "empathetic",
+      "resilience",
+      "burden"
+     ]
+    },
+    {
+     "s": "And I and I kind of feel that way like people like oh it's not too much of a ___ on you in your career.",
+     "a": "burden",
+     "opts": [
+      "perceptive",
+      "empathetic",
+      "resilience",
+      "burden"
+     ]
+    },
+    {
+     "s": "So, I I one of the lessons I ___ was that relationships look like this and this isn't necessarily a great thing that I want, right?",
+     "a": "inherited",
+     "opts": [
+      "inherited",
+      "affectionate",
+      "hassle",
+      "socialize"
+     ]
+    },
+    {
+     "s": "If I spoke to someone that you were in a relationship with and I said to them, \"Is Drew ___?\" You laughing. You know the answer.",
+     "a": "affectionate",
+     "opts": [
+      "inherited",
+      "affectionate",
+      "hassle",
+      "socialize"
+     ]
+    },
+    {
+     "s": "And for some reason, it always was a ___ for me to link up with them.",
+     "a": "hassle",
+     "opts": [
+      "inherited",
+      "affectionate",
+      "hassle",
+      "socialize"
+     ]
+    },
+    {
+     "s": "I'll buy as much as I could get to be able to stay in the room and not go out and ___ with all these people at this huge school.",
+     "a": "socialize",
+     "opts": [
+      "inherited",
+      "affectionate",
+      "hassle",
+      "socialize"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "Druski 說他的喜劇來自哪裡？",
+     "a": "想療傷、讓家裡的狀況變好",
+     "opts": [
+      "想療傷、讓家裡的狀況變好",
+      "想賺大錢買房子",
+      "模仿爸爸的說話方式",
+      "大學的喜劇社團"
+     ]
+    },
+    {
+     "q": "Druski 的爸爸給他哪「三個選項」？",
+     "a": "上學、學一門手藝、去當兵",
+     "opts": [
+      "上學、學一門手藝、去當兵",
+      "當醫生、律師或機師",
+      "讀大學、出國、創業",
+      "打球、唱歌、演戲"
+     ]
+    },
+    {
+     "q": "Druski 怎麼看「原諒」？",
+     "a": "懷著怨恨是自己的包袱，原諒是為了讓自己往前走",
+     "opts": [
+      "懷著怨恨是自己的包袱，原諒是為了讓自己往前走",
+      "原諒就是讓對方贏了",
+      "只有對方道歉才需要原諒",
+      "家人之間不需要原諒"
+     ]
+    },
+    {
+     "q": "他在喬治亞南方大學的第二學期發生了什麼事？",
+     "a": "陷入憂鬱，幾乎沒去上課，一直待在宿舍",
+     "opts": [
+      "陷入憂鬱，幾乎沒去上課，一直待在宿舍",
+      "成績全拿 A",
+      "加入美式足球校隊",
+      "開始在酒吧講脫口秀"
+     ]
+    },
+    {
+     "q": "他在宿舍裡的頓悟是什麼？",
+     "a": "他崇拜的人全都是喜劇傳奇，當喜劇演員就是他的目的",
+     "opts": [
+      "他崇拜的人全都是喜劇傳奇，當喜劇演員就是他的目的",
+      "他應該改念商科",
+      "他想當 ESPN 體育主播",
+      "他應該搬去洛杉磯"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yt-UhzI1fg8rCA-p2",
+   "label": "影片 19（中）",
+   "theme": "Druski：沒有 B 計畫，從媽媽家拍到 Drake 的 MV",
+   "themeEn": "Druski: They're Lying To You About Overnight Success! (Part 2)",
+   "video": "https://youtu.be/UhzI1fg8rCA?t=2146",
+   "source": "",
+   "publisher": "The Diary Of A CEO（Steven Bartlett）",
+   "release": "2026-10-12",
+   "transcript": "transcripts/UhzI1fg8rCA-p2.json",
+   "lines": 494,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "rebuttal",
+     "s": 1,
+     "ph": "[rɪˋbʌtḷ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "反駁，反證"
+      }
+     ],
+     "ex": [
+      {
+       "en": "But then of course I have a rebuttal.",
+       "zh": "但我當然有我的反駁理由。",
+       "t": 2333.9,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p2/w1_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p2/w1_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p2/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "rebut v. 反駁"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "offer a rebuttal 提出反駁（會議、辯論）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "rebuttals"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p2/w1_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p2/w1_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p2/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "predicament",
+     "s": 1,
+     "ph": "[prɪˋdɪkəmənt]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "困境，窘境"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And then it was the moment that we got arm robbed where I had a a outer body feeling of wow I came home to be in this predicament where I have a gun to my head now and now it's like how did I even get here?",
+       "zh": "然後就是我們被持槍搶劫的那一刻，我有一種靈魂出竅的感覺：哇，我回家就是為了陷入這種困境，槍口現在抵著我的頭，我到底是怎麼走到這一步的？",
+       "t": 2544.6,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p2/w2_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p2/w2_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p2/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "in a difficult predicament 處於困境（＝dilemma、tough situation）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "predicaments"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p2/w2_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p2/w2_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p2/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "transpire",
+     "s": 1,
+     "ph": "[trænˋspaɪr]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "發生；（事情）被得知"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I'll probably say a full year has been at home before all that transpired.",
+       "zh": "我會說在那一切發生之前，我已經在家待了整整一年。",
+       "t": 2694.0,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p2/w3_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p2/w3_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p2/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "what transpired at the meeting 會議上發生了什麼（正式說法＝happen）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "transpires"
+        ],
+        [
+         "過去式",
+         "transpired"
+        ],
+        [
+         "過去分詞",
+         "transpired"
+        ],
+        [
+         "現在分詞",
+         "transpiring"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p2/w3_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p2/w3_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p2/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "repossess",
+     "s": 1,
+     "ph": "[͵ripəˋzɛs]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "（因欠款）收回（車、房）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Immediately my car gets repossessed.",
+       "zh": "我的車馬上就被收回了。",
+       "t": 2730.2,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p2/w4_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p2/w4_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p2/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "repossession n. 收回"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "The car was repossessed. 車子被收回了（沒繳貸款）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "repossesses"
+        ],
+        [
+         "過去式",
+         "repossessed"
+        ],
+        [
+         "過去分詞",
+         "repossessed"
+        ],
+        [
+         "現在分詞",
+         "repossessing"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p2/w4_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p2/w4_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p2/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "surveillance",
+     "s": 2,
+     "ph": "[sɚˋveləns]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "監視，監控"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I wanted to do a surveillance camera at the top left side of the room to make it look like I'm on First 48.",
+       "zh": "我想在房間左上角弄一個監視器畫面，讓它看起來像《48 小時追兇（The First 48）》。",
+       "t": 2835.5,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p2/w5_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p2/w5_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p2/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "surveillance camera 監視器（大樓公告常見：under 24-hour surveillance）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p2/w5_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p2/w5_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p2/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "update",
+     "s": 3,
+     "ph": "[ʌpˋdet]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "最新消息，更新"
+      },
+      {
+       "p": "v.",
+       "m": "更新"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I would always give her these updates like I have 10k followers now. I have 15k followers.",
+       "zh": "我總是會跟她更新近況，像是：我現在有一萬個追蹤者了。我有一萬五千個追蹤者了。",
+       "t": 2868.3,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p2/w6_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p2/w6_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p2/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "give someone an update 向某人報告最新進度；keep me updated 隨時告訴我進度（email 必考）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "updates"
+        ]
+       ]
+      },
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "updates"
+        ],
+        [
+         "過去式",
+         "updated"
+        ],
+        [
+         "過去分詞",
+         "updated"
+        ],
+        [
+         "現在分詞",
+         "updating"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p2/w6_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p2/w6_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p2/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "capable",
+     "s": 3,
+     "ph": "[ˋkepəbḷ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "有能力的，能幹的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I know what I'm capable of.\"",
+       "zh": "我知道我的能耐在哪裡。」",
+       "t": 3011.5,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p2/w7_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p2/w7_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p2/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "capability n. 能力"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "be capable of + V-ing 有能力做～（注意接 of，不是 to）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more capable"
+        ],
+        [
+         "最高級",
+         "most capable"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p2/w7_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p2/w7_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p2/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "odds",
+     "s": 2,
+     "ph": "[ɑdz]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "機率，勝算（常用複數）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Objectively in that situation, the odds are stacked against you.",
+       "zh": "客觀來說，在那個情況下，一切都對你不利。",
+       "t": 3159.6,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p2/w8_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p2/w8_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p2/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "the odds are stacked against you 一切對你不利；against all odds 儘管困難重重。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "複數形"
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p2/w8_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p2/w8_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p2/w8_AU.mp3"
+     }
+    },
+    {
+     "n": 9,
+     "w": "pursuit",
+     "s": 2,
+     "ph": "[pɚˋsut]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "追求"
+      }
+     ],
+     "ex": [
+      {
+       "en": "But generally, what has it taught you about what it takes to be successful in the pursuit of a goal like that where to be honest,",
+       "zh": "但大致上，在追求這樣一個目標時，它教會了你成功需要什麼？說實話，",
+       "t": 3313.0,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p2/w9_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p2/w9_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p2/w9_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "pursue v. 追求（影片 5）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "in pursuit of a goal 追求目標；the pursuit of happiness 追求幸福。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "pursuits"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p2/w9_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p2/w9_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p2/w9_AU.mp3"
+     }
+    },
+    {
+     "n": 10,
+     "w": "provide",
+     "s": 3,
+     "ph": "[prəˋvaɪd]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "提供；供養"
+      }
+     ],
+     "ex": [
+      {
+       "en": "not many people ever make any money? the odds of you being successful as a comedian defined let's define as as making being able to provide for yourself in a family",
+       "zh": "很少人真的賺到錢。當喜劇演員成功的機率，我們把成功定義為能養活自己和家人，",
+       "t": 3320.4,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p2/w10_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p2/w10_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p2/w10_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "provider n. 供應商",
+      "provision n. 提供；條款"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "provide A with B／provide B for A 提供（Part 5 介系詞必考）；provide for a family 養家。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "provides"
+        ],
+        [
+         "過去式",
+         "provided"
+        ],
+        [
+         "過去分詞",
+         "provided"
+        ],
+        [
+         "現在分詞",
+         "providing"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p2/w10_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p2/w10_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p2/w10_AU.mp3"
+     }
+    },
+    {
+     "n": 11,
+     "w": "surpass",
+     "s": 2,
+     "ph": "[sɚˋpæs]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "超越，勝過"
+      }
+     ],
+     "ex": [
+      {
+       "en": "It's not saying I want to be surpassed and we all want to surpass great things. We all do.",
+       "zh": "不是說我想被超越，我們都想超越偉大的事物，我們都想。",
+       "t": 3535.8,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p2/w11_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p2/w11_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p2/w11_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "surpass expectations／sales targets 超出預期／超過業績目標。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "surpasses"
+        ],
+        [
+         "過去式",
+         "surpassed"
+        ],
+        [
+         "過去分詞",
+         "surpassed"
+        ],
+        [
+         "現在分詞",
+         "surpassing"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p2/w11_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p2/w11_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p2/w11_AU.mp3"
+     }
+    },
+    {
+     "n": 12,
+     "w": "viral",
+     "s": 2,
+     "ph": "[ˋvaɪrəl]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "（網路）爆紅的；病毒的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "People see with social media, there's a bunch of quick reaction to things and people like, \"Oh my god, this person, oh, they went viral for that.",
+       "zh": "大家在社群媒體上看到的，是很多對事情的快速反應，大家會說：「天啊，這個人，喔，他因為那個爆紅了。",
+       "t": 3613.0,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p2/w12_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p2/w12_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p2/w12_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "virus n. 病毒"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "go viral 爆紅；viral marketing 病毒式行銷。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p2/w12_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p2/w12_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p2/w12_AU.mp3"
+     }
+    },
+    {
+     "n": 13,
+     "w": "commercial",
+     "s": 3,
+     "ph": "[kəˋmɝʃəl]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "廣告"
+      },
+      {
+       "p": "adj.",
+       "m": "商業的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I can also be funny in a commercial.",
+       "zh": "我也可以在廣告裡好笑。",
+       "t": 3831.4,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p2/w13_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p2/w13_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p2/w13_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "commerce n. 商業"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "TV commercial 電視廣告；commercial district 商業區。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "commercials"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p2/w13_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p2/w13_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p2/w13_AU.mp3"
+     }
+    },
+    {
+     "n": 14,
+     "w": "traction",
+     "s": 1,
+     "ph": "[ˋtrækʃən]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "進展，受歡迎程度；抓地力"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I was gaining a little bit more traction everywhere.",
+       "zh": "我在各個平台都開始更有聲量。",
+       "t": 3954.5,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p2/w14_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p2/w14_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p2/w14_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "gain traction 逐漸受到關注（新產品、新想法打開市場）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p2/w14_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p2/w14_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p2/w14_AU.mp3"
+     }
+    },
+    {
+     "n": 15,
+     "w": "transactional",
+     "s": 1,
+     "ph": "[trænˋzækʃənḷ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "交易性質的，講條件的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Now it's transactional with everything.",
+       "zh": "現在一切都是談條件的交易了。",
+       "t": 4124.4,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p2/w15_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p2/w15_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p2/w15_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "transaction n. 交易"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "complete a transaction 完成交易；transaction fee 手續費（銀行題）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p2/w15_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p2/w15_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p2/w15_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "But then of course I have a ___.",
+     "a": "rebuttal",
+     "opts": [
+      "rebuttal",
+      "predicament",
+      "surveillance",
+      "capable"
+     ]
+    },
+    {
+     "s": "And then it was the moment that we got arm robbed where I had a a outer body feeling of wow I came home to be in this ___ where I have a gun to my head now and now it's like how did I even get here?",
+     "a": "predicament",
+     "opts": [
+      "rebuttal",
+      "predicament",
+      "surveillance",
+      "capable"
+     ]
+    },
+    {
+     "s": "I wanted to do a ___ camera at the top left side of the room to make it look like I'm on First 48.",
+     "a": "surveillance",
+     "opts": [
+      "rebuttal",
+      "predicament",
+      "surveillance",
+      "capable"
+     ]
+    },
+    {
+     "s": "I know what I'm ___ of.\"",
+     "a": "capable",
+     "opts": [
+      "rebuttal",
+      "predicament",
+      "surveillance",
+      "capable"
+     ]
+    },
+    {
+     "s": "Objectively in that situation, the ___ are stacked against you.",
+     "a": "odds",
+     "opts": [
+      "odds",
+      "viral",
+      "traction",
+      "transactional"
+     ]
+    },
+    {
+     "s": "People see with social media, there's a bunch of quick reaction to things and people like, \"Oh my god, this person, oh, they went ___ for that.",
+     "a": "viral",
+     "opts": [
+      "odds",
+      "viral",
+      "traction",
+      "transactional"
+     ]
+    },
+    {
+     "s": "I was gaining a little bit more ___ everywhere.",
+     "a": "traction",
+     "opts": [
+      "odds",
+      "viral",
+      "traction",
+      "transactional"
+     ]
+    },
+    {
+     "s": "Now it's ___ with everything.",
+     "a": "transactional",
+     "opts": [
+      "odds",
+      "viral",
+      "traction",
+      "transactional"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "是什麼事讓 Druski 下定決心當喜劇演員？",
+     "a": "被持槍搶劫，槍口抵著他的頭",
+     "opts": [
+      "被持槍搶劫，槍口抵著他的頭",
+      "被大學退學",
+      "媽媽把他趕出家門",
+      "在派對上遇到 Meek Mill"
+     ]
+    },
+    {
+     "q": "他寫在紙上的第一個目標是什麼？",
+     "a": "不要有 B 計畫，你的 A 計畫會成功",
+     "opts": [
+      "不要有 B 計畫，你的 A 計畫會成功",
+      "一年內賺到一百萬",
+      "主持奧斯卡頒獎典禮",
+      "搬出媽媽家"
+     ]
+    },
+    {
+     "q": "他寫下目標後，馬上發生了什麼事？",
+     "a": "他的車被收回了",
+     "opts": [
+      "他的車被收回了",
+      "他接到 Netflix 的邀約",
+      "他的影片爆紅",
+      "他找到正職工作"
+     ]
+    },
+    {
+     "q": "他早期的短劇是怎麼拍的？",
+     "a": "把媽媽家當片場，用手機拍",
+     "opts": [
+      "把媽媽家當片場，用手機拍",
+      "租攝影棚請專業團隊",
+      "在大學的社團教室拍",
+      "跟電視台合作拍"
+     ]
+    },
+    {
+     "q": "真正改變他事業的是什麼？",
+     "a": "Drake 找他演〈Laugh Now Cry Later〉MV，品牌開始認真看待他",
+     "opts": [
+      "Drake 找他演〈Laugh Now Cry Later〉MV，品牌開始認真看待他",
+      "拿到超級盃廣告",
+      "上了 Steve Harvey 的節目",
+      "贏得喜劇比賽"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yt-UhzI1fg8rCA-p3",
+   "label": "影片 20（下）",
+   "theme": "Druski：關係、投資自己與一步一步的階梯",
+   "themeEn": "Druski: They're Lying To You About Overnight Success! (Part 3)",
+   "video": "https://youtu.be/UhzI1fg8rCA?t=4263",
+   "source": "",
+   "publisher": "The Diary Of A CEO（Steven Bartlett）",
+   "release": "2026-10-13",
+   "transcript": "transcripts/UhzI1fg8rCA-p3.json",
+   "lines": 506,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "dedication",
+     "s": 2,
+     "ph": "[͵dɛdəˋkeʃən]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "投入，奉獻"
+      }
+     ],
+     "ex": [
+      {
+       "en": "There's the obsession, there's the dedication, there's the hours.",
+       "zh": "有執著、有投入、有投入的時數。",
+       "t": 4268.8,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p3/w1_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p3/w1_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p3/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "dedicate v. 奉獻",
+      "dedicated adj. 專注的；專用的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "thank you for your dedication 感謝你的付出（表揚公告）；a dedicated team 專注的團隊。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p3/w1_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p3/w1_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p3/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "horizon",
+     "s": 2,
+     "ph": "[həˋraɪzṇ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "視野，眼界；地平線"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So I feel like a lot of my upbringing was around this broad horizon of different different ethnicities, different genders of everybody.",
+       "zh": "所以我覺得我的成長環境很多元，有各種不同族裔、不同性別的人。",
+       "t": 4341.5,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p3/w2_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p3/w2_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p3/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "broaden your horizons 開拓眼界；on the horizon 即將到來。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "horizons"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p3/w2_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p3/w2_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p3/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "corporate",
+     "s": 3,
+     "ph": "[ˋkɔrpərɪt]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "公司的，企業的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Did you have to mature or learn a skill of like coming from where you come from to be in a a room with these big brands and these people in suits in corporate America?",
+       "zh": "從你的出身，到走進有大品牌、穿西裝的美國企業人士的會議室，你需要變得成熟，或學習某種技能嗎？",
+       "t": 4366.2,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p3/w3_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p3/w3_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p3/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "corporation n. 公司，企業"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "corporate headquarters 公司總部；corporate event 企業活動。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p3/w3_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p3/w3_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p3/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "framework",
+     "s": 2,
+     "ph": "[ˋfrem͵wɝk]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "架構，框架"
+      }
+     ],
+     "ex": [
+      {
+       "en": "How what what is your decision framework there with like because there's this term you know I worked in advertising for a long time.",
+       "zh": "你的判斷框架是什麼？因為有一個詞，你知道，我在廣告業工作了很久。",
+       "t": 4458.0,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p3/w4_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p3/w4_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p3/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "decision framework 決策框架；within the framework of 在～的架構下。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "frameworks"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p3/w4_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p3/w4_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p3/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "inclusive",
+     "s": 2,
+     "ph": "[ɪnˋklusɪv]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "包容的；包含在內的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "You can never show me something that I've done that was like, \"Oh, that's punching down or that wasn't inclusive of the other person that might have been in that situation.\" or oh,",
+       "zh": "你永遠找不到我做過什麼是：「喔，那是在欺負弱勢」，或「那沒有顧及當時在那種情境裡的另一個人」，或是：喔，",
+       "t": 4505.4,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p3/w5_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p3/w5_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p3/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "include v. 包含",
+      "inclusion n. 包容"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "an inclusive workplace 友善包容的職場；all-inclusive 全包式（旅遊方案）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more inclusive"
+        ],
+        [
+         "最高級",
+         "most inclusive"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p3/w5_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p3/w5_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p3/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "proposal",
+     "s": 3,
+     "ph": "[prəˋpozḷ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "提案，企劃書"
+      }
+     ],
+     "ex": [
+      {
+       "en": "They sent it to my management and I think they accidentally sent the proposal.",
+       "zh": "他們寄給我的經紀團隊，我想他們不小心寄錯了提案。",
+       "t": 4892.0,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p3/w6_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p3/w6_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p3/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "propose v. 提議"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "submit a proposal 提交企劃；a budget proposal 預算提案。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "proposals"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p3/w6_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p3/w6_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p3/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "reject",
+     "s": 3,
+     "ph": "[rɪˋdʒɛkt]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "拒絕，駁回"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I was reading that you were rejected by both Netflix and Amazon. Yeah. Early on.",
+       "zh": "我讀到你被 Netflix 和 Amazon 都拒絕過。對。在早期。",
+       "t": 5053.4,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p3/w7_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p3/w7_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p3/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "rejection n. 拒絕"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "reject an offer／application 拒絕提議／申請（反義 accept、approve）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "rejects"
+        ],
+        [
+         "過去式",
+         "rejected"
+        ],
+        [
+         "過去分詞",
+         "rejected"
+        ],
+        [
+         "現在分詞",
+         "rejecting"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p3/w7_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p3/w7_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p3/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "invest",
+     "s": 3,
+     "ph": "[ɪnˋvɛst]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "投資；投入"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And I decided to just go and all these show ideas that I had, I'm going to do it on YouTube and spend my own money to invest into it.",
+       "zh": "我決定把我所有的節目點子都拿去 YouTube 做，花我自己的錢投資在上面。",
+       "t": 5106.6,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p3/w8_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p3/w8_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p3/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "investment n. 投資",
+      "investor n. 投資人"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "invest in new equipment 投資新設備（注意接 in）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "invests"
+        ],
+        [
+         "過去式",
+         "invested"
+        ],
+        [
+         "過去分詞",
+         "invested"
+        ],
+        [
+         "現在分詞",
+         "investing"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p3/w8_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p3/w8_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p3/w8_AU.mp3"
+     }
+    },
+    {
+     "n": 9,
+     "w": "disservice",
+     "s": 1,
+     "ph": "[dɪsˋsɝvɪs]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "損害，幫倒忙"
+      }
+     ],
+     "ex": [
+      {
+       "en": "If you don't see the vision yourself, you're almost doing yourself a disservice.",
+       "zh": "如果你自己都看不見那個願景，你幾乎是在虧待自己。",
+       "t": 5166.8,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p3/w9_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p3/w9_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p3/w9_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "do someone a disservice 對某人不利、虧待某人。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "disservices"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p3/w9_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p3/w9_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p3/w9_AU.mp3"
+     }
+    },
+    {
+     "n": 10,
+     "w": "dilute",
+     "s": 1,
+     "ph": "[daɪˋlut]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "稀釋，削弱"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Most people will go and grab the money because the money's good and they'll they will dilute the whole brand and wash it away before it was ever even able to start.",
+       "zh": "大多數人會去拿錢，因為錢很好賺，然後在品牌還沒開始之前，就把整個品牌稀釋、沖淡掉了。",
+       "t": 5551.2,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p3/w10_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p3/w10_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p3/w10_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "dilute the brand 稀釋品牌價值；dilute with water 用水稀釋（產品說明）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "dilutes"
+        ],
+        [
+         "過去式",
+         "diluted"
+        ],
+        [
+         "過去分詞",
+         "diluted"
+        ],
+        [
+         "現在分詞",
+         "diluting"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p3/w10_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p3/w10_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p3/w10_AU.mp3"
+     }
+    },
+    {
+     "n": 11,
+     "w": "balance",
+     "s": 3,
+     "ph": "[ˋbæləns]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "平衡；餘額"
+      },
+      {
+       "p": "v.",
+       "m": "平衡"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And that's I was like, okay, a good balance is a healthy lifestyle.",
+       "zh": "然後我就想，好，健康的生活方式就是一種好的平衡。",
+       "t": 5716.2,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p3/w11_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p3/w11_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p3/w11_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "work-life balance 工作與生活平衡；account balance 帳戶餘額（銀行題）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "balances"
+        ]
+       ]
+      },
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "balances"
+        ],
+        [
+         "過去式",
+         "balanced"
+        ],
+        [
+         "過去分詞",
+         "balanced"
+        ],
+        [
+         "現在分詞",
+         "balancing"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p3/w11_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p3/w11_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p3/w11_AU.mp3"
+     }
+    },
+    {
+     "n": 12,
+     "w": "evolve",
+     "s": 2,
+     "ph": "[ɪˋvɑlv]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "演變，逐步發展"
+      }
+     ],
+     "ex": [
+      {
+       "en": "You see the superstar Druski and what he has evolved to become.",
+       "zh": "你看到的是超級巨星 Druski，以及他已經蛻變成的樣子。",
+       "t": 5752.6,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p3/w12_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p3/w12_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p3/w12_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "evolution n. 演變"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "the company has evolved into 公司已發展成～。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "evolves"
+        ],
+        [
+         "過去式",
+         "evolved"
+        ],
+        [
+         "過去分詞",
+         "evolved"
+        ],
+        [
+         "現在分詞",
+         "evolving"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p3/w12_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p3/w12_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p3/w12_AU.mp3"
+     }
+    },
+    {
+     "n": 13,
+     "w": "transcend",
+     "s": 1,
+     "ph": "[trænˋsɛnd]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "超越"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So, it's like that's the type of evolving I'm looking to do in my career where I can continue to just keep transcending and and I didn't learn to talk that way.",
+       "zh": "所以這就是我在職業生涯中想要的那種蛻變，能夠持續超越自己，而且我不是學會這樣說話的。",
+       "t": 5894.4,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p3/w13_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p3/w13_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p3/w13_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "transcend boundaries 超越界限（比 surpass 更抽象）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "transcends"
+        ],
+        [
+         "過去式",
+         "transcended"
+        ],
+        [
+         "過去分詞",
+         "transcended"
+        ],
+        [
+         "現在分詞",
+         "transcending"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p3/w13_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p3/w13_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p3/w13_AU.mp3"
+     }
+    },
+    {
+     "n": 14,
+     "w": "nuanced",
+     "s": 1,
+     "ph": "[ˋnjuɑnst]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "有細微差別的，細膩的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "But it's interesting because I think it's everything's nuanced and when you've got a passion, of course, you pursue it and when especially when there's evidence. Yeah.",
+       "zh": "但這很有意思，因為我覺得一切都有細微的差別，當你有熱情，當然你要去追求，尤其是有證據的時候。對。",
+       "t": 6083.8,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p3/w14_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p3/w14_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p3/w14_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "nuance n. 細微差別"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a nuanced view 細膩的觀點；not black and white＝不是非黑即白。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more nuanced"
+        ],
+        [
+         "最高級",
+         "most nuanced"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p3/w14_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p3/w14_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p3/w14_AU.mp3"
+     }
+    },
+    {
+     "n": 15,
+     "w": "turbulent",
+     "s": 1,
+     "ph": "[ˋtɝbjələnt]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "動盪的；（氣流）亂流的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "turbulent childhood you had and the odds were very much stacked against you for num numbers of reasons, for you to pass your way through that and climb to the very top",
+       "zh": "你經歷過的動盪童年，基於種種原因，一切都對你非常不利，而你能一路走過來，爬到你這個產業的",
+       "t": 6476.9,
+       "aus": {
+        "US": "tts/UhzI1fg8rCA-p3/w15_e0_US.mp3",
+        "UK": "tts/UhzI1fg8rCA-p3/w15_e0_UK.mp3",
+        "AU": "tts/UhzI1fg8rCA-p3/w15_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "turbulence n. 亂流"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "turbulent market 動盪的市場；experience turbulence 遇到亂流（機上廣播）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more turbulent"
+        ],
+        [
+         "最高級",
+         "most turbulent"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/UhzI1fg8rCA-p3/w15_US.mp3",
+      "UK": "tts/UhzI1fg8rCA-p3/w15_UK.mp3",
+      "AU": "tts/UhzI1fg8rCA-p3/w15_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "Did you have to mature or learn a skill of like coming from where you come from to be in a a room with these big brands and these people in suits in ___ America?",
+     "a": "corporate",
+     "opts": [
+      "corporate",
+      "framework",
+      "inclusive",
+      "proposal"
+     ]
+    },
+    {
+     "s": "How what what is your decision ___ there with like because there's this term you know I worked in advertising for a long time.",
+     "a": "framework",
+     "opts": [
+      "corporate",
+      "framework",
+      "inclusive",
+      "proposal"
+     ]
+    },
+    {
+     "s": "You can never show me something that I've done that was like, \"Oh, that's punching down or that wasn't ___ of the other person that might have been in that situation.\" or oh,",
+     "a": "inclusive",
+     "opts": [
+      "corporate",
+      "framework",
+      "inclusive",
+      "proposal"
+     ]
+    },
+    {
+     "s": "They sent it to my management and I think they accidentally sent the ___.",
+     "a": "proposal",
+     "opts": [
+      "corporate",
+      "framework",
+      "inclusive",
+      "proposal"
+     ]
+    },
+    {
+     "s": "And I decided to just go and all these show ideas that I had, I'm going to do it on YouTube and spend my own money to ___ into it.",
+     "a": "invest",
+     "opts": [
+      "invest",
+      "disservice",
+      "dilute",
+      "balance"
+     ]
+    },
+    {
+     "s": "If you don't see the vision yourself, you're almost doing yourself a ___.",
+     "a": "disservice",
+     "opts": [
+      "invest",
+      "disservice",
+      "dilute",
+      "balance"
+     ]
+    },
+    {
+     "s": "Most people will go and grab the money because the money's good and they'll they will ___ the whole brand and wash it away before it was ever even able to start.",
+     "a": "dilute",
+     "opts": [
+      "invest",
+      "disservice",
+      "dilute",
+      "balance"
+     ]
+    },
+    {
+     "s": "And that's I was like, okay, a good ___ is a healthy lifestyle.",
+     "a": "balance",
+     "opts": [
+      "invest",
+      "disservice",
+      "dilute",
+      "balance"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "Druski 認為在娛樂產業往上爬，最關鍵的是什麼？",
+     "a": "人際關係：你怎麼待人、別人信不信任你",
+     "opts": [
+      "人際關係：你怎麼待人、別人信不信任你",
+      "只要有才華就夠了",
+      "認識越多名人越好",
+      "有錢請好的經紀人"
+     ]
+    },
+    {
+     "q": "他做喜劇的原則是什麼？",
+     "a": "不拿弱勢開刀，笑點出自善意",
+     "opts": [
+      "不拿弱勢開刀，笑點出自善意",
+      "什麼都能拿來開玩笑",
+      "專做政治諷刺",
+      "只拍自己的生活"
+     ]
+    },
+    {
+     "q": "被 Netflix、Amazon 拒絕之後，他怎麼做？",
+     "a": "自己花錢在 YouTube 做節目，投資自己",
+     "opts": [
+      "自己花錢在 YouTube 做節目，投資自己",
+      "改行去當演員",
+      "一直重投同一份企劃",
+      "放棄做節目"
+     ]
+    },
+    {
+     "q": "面對遙遠的大目標，他的建議是什麼？",
+     "a": "專注在一步一步的小步驟",
+     "opts": [
+      "專注在一步一步的小步驟",
+      "只盯著最終目標",
+      "先找一個強大的團隊",
+      "等待大機會出現"
+     ]
+    },
+    {
+     "q": "如果能對大學宿舍裡的自己說話，他會說什麼？",
+     "a": "更相信自己，路難走時也要堅持、別半路跳車",
+     "opts": [
+      "更相信自己，路難走時也要堅持、別半路跳車",
+      "趕快回學校拿學位",
+      "先存錢再追夢",
+      "去找一份穩定的工作"
+     ]
+    }
+   ]
   }
  ]
 });
