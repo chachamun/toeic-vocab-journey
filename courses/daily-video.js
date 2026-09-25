@@ -6586,6 +6586,1970 @@ TVJ.register({
      ]
     }
    ]
+  },
+  {
+   "id": "yt-hpYFKnexkM0",
+   "label": "影片 8",
+   "theme": "Lili Reinhart 和 Tom Bateman 的默契大考驗",
+   "themeEn": "Lili Reinhart and Tom Bateman Find Out How Well They Know Each Other",
+   "video": "https://youtu.be/hpYFKnexkM0",
+   "source": "",
+   "publisher": "BuzzFeed Celeb",
+   "release": "2026-10-01",
+   "transcript": "transcripts/hpYFKnexkM0.json",
+   "lines": 134,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "impression",
+     "s": 3,
+     "ph": "[ɪmˋprɛʃən]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "印象"
+      }
+     ],
+     "ex": [
+      {
+       "en": "What were our first impressions of each other?",
+       "zh": "我們對彼此的第一印象是什麼？",
+       "t": 76.1,
+       "aus": {
+        "US": "tts/hpYFKnexkM0/w1_e0_US.mp3",
+        "UK": "tts/hpYFKnexkM0/w1_e0_UK.mp3",
+        "AU": "tts/hpYFKnexkM0/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "impress v. 使印象深刻（Day 08 滿分單字）",
+      "impressive adj. 令人印象深刻的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "first impression 第一印象；make a good impression on 給～留下好印象（面試主題必考）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "impressions"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/hpYFKnexkM0/w1_US.mp3",
+      "UK": "tts/hpYFKnexkM0/w1_UK.mp3",
+      "AU": "tts/hpYFKnexkM0/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "beneficial",
+     "s": 3,
+     "ph": "[͵bɛnəˋfɪʃəl]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "有益的，有利的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "When they found out you were playing Adam, it was such a weird but amazing and, I think, very beneficial thing.",
+       "zh": "當大家知道你要演 Adam，那是一件很奇妙、但很棒，而且我覺得非常有利的事。",
+       "t": 104.0,
+       "aus": {
+        "US": "tts/hpYFKnexkM0/w2_e0_US.mp3",
+        "UK": "tts/hpYFKnexkM0/w2_e0_UK.mp3",
+        "AU": "tts/hpYFKnexkM0/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "benefit n. 好處（Day 10）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "be beneficial to／for 對～有益（Day 06 核心字）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more beneficial"
+        ],
+        [
+         "最高級",
+         "most beneficial"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/hpYFKnexkM0/w2_US.mp3",
+      "UK": "tts/hpYFKnexkM0/w2_UK.mp3",
+      "AU": "tts/hpYFKnexkM0/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "campaign",
+     "s": 2,
+     "ph": "[kæmˋpen]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "積極爭取，發起運動"
+      },
+      {
+       "p": "n.",
+       "m": "宣傳活動"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I knew everything about it and I campaigned hard. No, I didn't.",
+       "zh": "我對這一切瞭若指掌，還拚命爭取。開玩笑的，沒有。",
+       "t": 111.7,
+       "aus": {
+        "US": "tts/hpYFKnexkM0/w3_e0_US.mp3",
+        "UK": "tts/hpYFKnexkM0/w3_e0_UK.mp3",
+        "AU": "tts/hpYFKnexkM0/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "campaign for ～ 為～發起運動、爭取；advertising campaign 廣告活動（Day 07 核心字）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "campaigns"
+        ],
+        [
+         "過去式",
+         "campaigned"
+        ],
+        [
+         "過去分詞",
+         "campaigned"
+        ],
+        [
+         "現在分詞",
+         "campaigning"
+        ]
+       ]
+      },
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "campaigns"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/hpYFKnexkM0/w3_US.mp3",
+      "UK": "tts/hpYFKnexkM0/w3_UK.mp3",
+      "AU": "tts/hpYFKnexkM0/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "emergency contact",
+     "s": 2,
+     "ph": "[ɪˋmɝdʒənsɪ ˋkɑntækt]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "緊急聯絡人"
+      }
+     ],
+     "ex": [
+      {
+       "en": "The Love Hypothesis co-star they would make their emergency contact.",
+       "zh": "他們會把哪位《愛情假說》的演員設為緊急聯絡人。",
+       "t": 163.7,
+       "aus": {
+        "US": "tts/hpYFKnexkM0/w4_e0_US.mp3",
+        "UK": "tts/hpYFKnexkM0/w4_e0_UK.mp3",
+        "AU": "tts/hpYFKnexkM0/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "emergency n. 緊急情況"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "人事資料表必填欄位；emergency exit 緊急出口。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "emergency contacts"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/hpYFKnexkM0/w4_US.mp3",
+      "UK": "tts/hpYFKnexkM0/w4_UK.mp3",
+      "AU": "tts/hpYFKnexkM0/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "access",
+     "s": 3,
+     "ph": "[ˋæksɛs]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "接近、使用的權利"
+      },
+      {
+       "p": "v.",
+       "m": "存取，使用"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I don't like people having access to me. That's it.",
+       "zh": "我不喜歡別人隨時找得到我，就這樣。",
+       "t": 182.8,
+       "aus": {
+        "US": "tts/hpYFKnexkM0/w5_e0_US.mp3",
+        "UK": "tts/hpYFKnexkM0/w5_e0_UK.mp3",
+        "AU": "tts/hpYFKnexkM0/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "accessible adj. 可進入的（Day 05）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "have access to 可以使用～；access the database 存取資料庫（access 當動詞不加 to）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      },
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "accesses"
+        ],
+        [
+         "過去式",
+         "accessed"
+        ],
+        [
+         "過去分詞",
+         "accessed"
+        ],
+        [
+         "現在分詞",
+         "accessing"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/hpYFKnexkM0/w5_US.mp3",
+      "UK": "tts/hpYFKnexkM0/w5_UK.mp3",
+      "AU": "tts/hpYFKnexkM0/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "sort out",
+     "s": 2,
+     "ph": "[sɔrt aʊt]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "解決，處理好"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Actually, do you know what? I would call you. You would sort it out.",
+       "zh": "其實你知道嗎？我會打給你，你會把事情搞定。",
+       "t": 215.7,
+       "aus": {
+        "US": "tts/hpYFKnexkM0/w6_e0_US.mp3",
+        "UK": "tts/hpYFKnexkM0/w6_e0_UK.mp3",
+        "AU": "tts/hpYFKnexkM0/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "sort out a problem 解決問題（英式常用，同義 resolve）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "sorts out"
+        ],
+        [
+         "過去式",
+         "sorted out"
+        ],
+        [
+         "過去分詞",
+         "sorted out"
+        ],
+        [
+         "現在分詞",
+         "sorting out"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/hpYFKnexkM0/w6_US.mp3",
+      "UK": "tts/hpYFKnexkM0/w6_UK.mp3",
+      "AU": "tts/hpYFKnexkM0/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "pet peeve",
+     "s": 1,
+     "ph": "[pɛt piv]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "特別受不了的小事"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Their dating icks or pet peeves.",
+       "zh": "他們在約會中會倒胃口的點，或最受不了的事。",
+       "t": 327.8,
+       "aus": {
+        "US": "tts/hpYFKnexkM0/w7_e0_US.mp3",
+        "UK": "tts/hpYFKnexkM0/w7_e0_UK.mp3",
+        "AU": "tts/hpYFKnexkM0/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "My biggest pet peeve is... 我最受不了的是……（口語常見）；本句 ick＝讓人倒胃口的點。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "pet peeves"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/hpYFKnexkM0/w7_US.mp3",
+      "UK": "tts/hpYFKnexkM0/w7_UK.mp3",
+      "AU": "tts/hpYFKnexkM0/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "acknowledge",
+     "s": 3,
+     "ph": "[əkˋnɑlɪdʒ]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "承認；確認收到"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Okay, I do have a pet peeve. People who are late and don't acknowledge it when they arrive.",
+       "zh": "好，我確實有一件受不了的事：遲到了、到了卻不承認的人。",
+       "t": 393.4,
+       "aus": {
+        "US": "tts/hpYFKnexkM0/w8_e0_US.mp3",
+        "UK": "tts/hpYFKnexkM0/w8_e0_UK.mp3",
+        "AU": "tts/hpYFKnexkM0/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "acknowledgment n. 承認；收據確認"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "acknowledge receipt of 確認收到～（商業書信必考）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "acknowledges"
+        ],
+        [
+         "過去式",
+         "acknowledged"
+        ],
+        [
+         "過去分詞",
+         "acknowledged"
+        ],
+        [
+         "現在分詞",
+         "acknowledging"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/hpYFKnexkM0/w8_US.mp3",
+      "UK": "tts/hpYFKnexkM0/w8_UK.mp3",
+      "AU": "tts/hpYFKnexkM0/w8_AU.mp3"
+     }
+    },
+    {
+     "n": 9,
+     "w": "present",
+     "s": 3,
+     "ph": "[ˋprɛzṇt]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "在場的；專注當下的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "When people just don't have their phones and they're just present, you can just hang out.",
+       "zh": "當大家都不拿手機、只是專心在當下，就能好好相處。",
+       "t": 434.0,
+       "aus": {
+        "US": "tts/hpYFKnexkM0/w9_e0_US.mp3",
+        "UK": "tts/hpYFKnexkM0/w9_e0_UK.mp3",
+        "AU": "tts/hpYFKnexkM0/w9_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "presence n. 在場"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "be present at the meeting 出席會議；Day 06 學過 present 的三種詞性與念法。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/hpYFKnexkM0/w9_US.mp3",
+      "UK": "tts/hpYFKnexkM0/w9_UK.mp3",
+      "AU": "tts/hpYFKnexkM0/w9_AU.mp3"
+     }
+    },
+    {
+     "n": 10,
+     "w": "improvise",
+     "s": 1,
+     "ph": "[ˋɪmprəvaɪz]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "即興表演"
+      }
+     ],
+     "ex": [
+      {
+       "en": "They were just sparking and improvising, and I was going, \"Ah, they are funny.\" They just got funny bones.",
+       "zh": "她們就一直即興、火花四射，我心想：「天啊，她們好好笑。」她們天生就有幽默感。",
+       "t": 508.7,
+       "aus": {
+        "US": "tts/hpYFKnexkM0/w10_e0_US.mp3",
+        "UK": "tts/hpYFKnexkM0/w10_e0_UK.mp3",
+        "AU": "tts/hpYFKnexkM0/w10_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "improvisation n. 即興演出"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "Day 06 核心字；本句 funny bones＝天生的幽默感。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "improvises"
+        ],
+        [
+         "過去式",
+         "improvised"
+        ],
+        [
+         "過去分詞",
+         "improvised"
+        ],
+        [
+         "現在分詞",
+         "improvising"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/hpYFKnexkM0/w10_US.mp3",
+      "UK": "tts/hpYFKnexkM0/w10_UK.mp3",
+      "AU": "tts/hpYFKnexkM0/w10_AU.mp3"
+     }
+    },
+    {
+     "n": 11,
+     "w": "presentation",
+     "s": 3,
+     "ph": "[͵prizɛnˋteʃən]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "簡報，報告"
+      }
+     ],
+     "ex": [
+      {
+       "en": "A random topic they could each give a PowerPoint presentation on with no prep.",
+       "zh": "他們不用準備就能做一場 PowerPoint 簡報的冷門主題。",
+       "t": 524.3,
+       "aus": {
+        "US": "tts/hpYFKnexkM0/w11_e0_US.mp3",
+        "UK": "tts/hpYFKnexkM0/w11_e0_UK.mp3",
+        "AU": "tts/hpYFKnexkM0/w11_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "give a presentation on 針對～做簡報；with no prep＝完全不準備（prep＝preparation）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "presentations"
+        ]
+       ]
+      }
+     ],
+     "der": [
+      "present v. 呈現，發表"
+     ],
+     "aus": {
+      "US": "tts/hpYFKnexkM0/w11_US.mp3",
+      "UK": "tts/hpYFKnexkM0/w11_UK.mp3",
+      "AU": "tts/hpYFKnexkM0/w11_AU.mp3"
+     }
+    },
+    {
+     "n": 12,
+     "w": "confident",
+     "s": 3,
+     "ph": "[ˋkɑnfədənt]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "有自信的；確信的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I think I'd feel confident. I've been in enough of his plays, read enough of them, seen enough of them.",
+       "zh": "我想我會很有自信。他的劇我演過夠多、讀過夠多、看過夠多了。",
+       "t": 546.0,
+       "aus": {
+        "US": "tts/hpYFKnexkM0/w12_e0_US.mp3",
+        "UK": "tts/hpYFKnexkM0/w12_e0_UK.mp3",
+        "AU": "tts/hpYFKnexkM0/w12_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "confidence n. 信心",
+      "confidential adj. 機密的（易混淆，Day 04）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "be confident that／about 對～有信心；注意 confident 和 confidential 意思完全不同。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more confident"
+        ],
+        [
+         "最高級",
+         "most confident"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/hpYFKnexkM0/w12_US.mp3",
+      "UK": "tts/hpYFKnexkM0/w12_UK.mp3",
+      "AU": "tts/hpYFKnexkM0/w12_AU.mp3"
+     }
+    },
+    {
+     "n": 13,
+     "w": "interact",
+     "s": 2,
+     "ph": "[͵ɪntɚˋækt]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "互動"
+      }
+     ],
+     "ex": [
+      {
+       "en": "You would interact with it, you would look at it and be like, \"Interesting.\" And then your phone would take that information and give you more of it.",
+       "zh": "你會和它互動、看了覺得「有意思」，然後手機就會拿這個資訊，推更多類似的給你。",
+       "t": 736.6,
+       "aus": {
+        "US": "tts/hpYFKnexkM0/w13_e0_US.mp3",
+        "UK": "tts/hpYFKnexkM0/w13_e0_UK.mp3",
+        "AU": "tts/hpYFKnexkM0/w13_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "interaction n. 互動",
+      "interactive adj. 互動式的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "interact with customers 與顧客互動（服務業職缺描述常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "interacts"
+        ],
+        [
+         "過去式",
+         "interacted"
+        ],
+        [
+         "過去分詞",
+         "interacted"
+        ],
+        [
+         "現在分詞",
+         "interacting"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/hpYFKnexkM0/w13_US.mp3",
+      "UK": "tts/hpYFKnexkM0/w13_UK.mp3",
+      "AU": "tts/hpYFKnexkM0/w13_AU.mp3"
+     }
+    },
+    {
+     "n": 14,
+     "w": "tricky",
+     "s": 2,
+     "ph": "[ˋtrɪkɪ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "棘手的，不好處理的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Birthdays could be tricky.",
+       "zh": "生日可能很難記。",
+       "t": 964.7,
+       "aus": {
+        "US": "tts/hpYFKnexkM0/w14_e0_US.mp3",
+        "UK": "tts/hpYFKnexkM0/w14_e0_UK.mp3",
+        "AU": "tts/hpYFKnexkM0/w14_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a tricky question／situation 棘手的問題／情況。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "trickier"
+        ],
+        [
+         "最高級",
+         "trickiest"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/hpYFKnexkM0/w14_US.mp3",
+      "UK": "tts/hpYFKnexkM0/w14_UK.mp3",
+      "AU": "tts/hpYFKnexkM0/w14_AU.mp3"
+     }
+    },
+    {
+     "n": 15,
+     "w": "react",
+     "s": 2,
+     "ph": "[rɪˋækt]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "反應"
+      }
+     ],
+     "ex": [
+      {
+       "en": "We would know how one another would react in a situation.",
+       "zh": "我們會知道對方在某個情況下會有什麼反應。",
+       "t": 965.7,
+       "aus": {
+        "US": "tts/hpYFKnexkM0/w15_e0_US.mp3",
+        "UK": "tts/hpYFKnexkM0/w15_e0_UK.mp3",
+        "AU": "tts/hpYFKnexkM0/w15_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "reaction n. 反應"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "react to 對～做出反應；one another＝彼此。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "reacts"
+        ],
+        [
+         "過去式",
+         "reacted"
+        ],
+        [
+         "過去分詞",
+         "reacted"
+        ],
+        [
+         "現在分詞",
+         "reacting"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/hpYFKnexkM0/w15_US.mp3",
+      "UK": "tts/hpYFKnexkM0/w15_UK.mp3",
+      "AU": "tts/hpYFKnexkM0/w15_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "When they found out you were playing Adam, it was such a weird but amazing and, I think, very ___ thing.",
+     "a": "beneficial",
+     "opts": [
+      "beneficial",
+      "access",
+      "acknowledge",
+      "present"
+     ]
+    },
+    {
+     "s": "I don't like people having ___ to me. That's it.",
+     "a": "access",
+     "opts": [
+      "beneficial",
+      "access",
+      "acknowledge",
+      "present"
+     ]
+    },
+    {
+     "s": "Okay, I do have a pet peeve. People who are late and don't ___ it when they arrive.",
+     "a": "acknowledge",
+     "opts": [
+      "beneficial",
+      "access",
+      "acknowledge",
+      "present"
+     ]
+    },
+    {
+     "s": "When people just don't have their phones and they're just ___, you can just hang out.",
+     "a": "present",
+     "opts": [
+      "beneficial",
+      "access",
+      "acknowledge",
+      "present"
+     ]
+    },
+    {
+     "s": "A random topic they could each give a PowerPoint ___ on with no prep.",
+     "a": "presentation",
+     "opts": [
+      "presentation",
+      "confident",
+      "interact",
+      "tricky"
+     ]
+    },
+    {
+     "s": "I think I'd feel ___. I've been in enough of his plays, read enough of them, seen enough of them.",
+     "a": "confident",
+     "opts": [
+      "presentation",
+      "confident",
+      "interact",
+      "tricky"
+     ]
+    },
+    {
+     "s": "You would ___ with it, you would look at it and be like, \"Interesting.\" And then your phone would take that information and give you more of it.",
+     "a": "interact",
+     "opts": [
+      "presentation",
+      "confident",
+      "interact",
+      "tricky"
+     ]
+    },
+    {
+     "s": "Birthdays could be ___.",
+     "a": "tricky",
+     "opts": [
+      "presentation",
+      "confident",
+      "interact",
+      "tricky"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "兩人第一次「見面」是透過什麼？",
+     "a": "Zoom 對戲試鏡（一人在紐約、一人在倫敦）",
+     "opts": [
+      "Zoom 對戲試鏡（一人在紐約、一人在倫敦）",
+      "在片場的第一天",
+      "在一場派對上",
+      "透過共同朋友介紹"
+     ]
+    },
+    {
+     "q": "Lili 電影殺青後做了什麼讓人驚訝的事？",
+     "a": "手機開飛航模式整整三週",
+     "opts": [
+      "手機開飛航模式整整三週",
+      "馬上去拍下一部電影",
+      "搬到倫敦住",
+      "去學踢踏舞"
+     ]
+    },
+    {
+     "q": "談到「精心時刻」，他們理想的相處方式是？",
+     "a": "大家放下手機、專心在當下一起相處",
+     "opts": [
+      "大家放下手機、專心在當下一起相處",
+      "一起看很多電影",
+      "每天互傳很多訊息",
+      "一起出國旅行"
+     ]
+    },
+    {
+     "q": "影片中提到的莎士比亞冷知識是哪一個？",
+     "a": "他 12 年內寫了 32 部劇",
+     "opts": [
+      "他 12 年內寫了 32 部劇",
+      "他一生只寫過一部劇",
+      "他是一位理髮師",
+      "他把最好的床留給兒子"
+     ]
+    },
+    {
+     "q": "最後測驗結果如何？",
+     "a": "21 題中一人答對 12 題、另一人答對 8 題",
+     "opts": [
+      "21 題中一人答對 12 題、另一人答對 8 題",
+      "兩人都全對",
+      "兩人都只對 3 題",
+      "沒有公布成績"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yt-l25VwzGQhvo",
+   "label": "影片 9",
+   "theme": "《Off Campus》兩位主角的默契大考驗",
+   "themeEn": "\"Off Campus\" Co-Stars Test How Well They Know Each Other",
+   "video": "https://youtu.be/l25VwzGQhvo",
+   "source": "",
+   "publisher": "BuzzFeed Celeb",
+   "release": "2026-10-02",
+   "transcript": "transcripts/l25VwzGQhvo.json",
+   "lines": 117,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "unprofessional",
+     "s": 2,
+     "ph": "[͵ʌnprəˋfɛʃənḷ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "不專業的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I mean, it's usually me making faces, being unprofessional.",
+       "zh": "通常是我在做鬼臉，很不專業。",
+       "t": 56.6,
+       "aus": {
+        "US": "tts/l25VwzGQhvo/w1_e0_US.mp3",
+        "UK": "tts/l25VwzGQhvo/w1_e0_UK.mp3",
+        "AU": "tts/l25VwzGQhvo/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "professional adj. 專業的（反義）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "unprofessional behavior 不專業的行為（人資規章、客訴信常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more unprofessional"
+        ],
+        [
+         "最高級",
+         "most unprofessional"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/l25VwzGQhvo/w1_US.mp3",
+      "UK": "tts/l25VwzGQhvo/w1_UK.mp3",
+      "AU": "tts/l25VwzGQhvo/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "advice",
+     "s": 3,
+     "ph": "[ədˋvaɪs]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "建議，忠告（不可數）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Great advice.",
+       "zh": "很棒的建議。",
+       "t": 135.0,
+       "aus": {
+        "US": "tts/l25VwzGQhvo/w2_e0_US.mp3",
+        "UK": "tts/l25VwzGQhvo/w2_e0_UK.mp3",
+        "AU": "tts/l25VwzGQhvo/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "advise v. 建議（Day 08）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a piece of advice 一則建議（不能說 an advice）；名詞 advice 念 [s]、動詞 advise 念 [z]。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/l25VwzGQhvo/w2_US.mp3",
+      "UK": "tts/l25VwzGQhvo/w2_UK.mp3",
+      "AU": "tts/l25VwzGQhvo/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "vice versa",
+     "s": 1,
+     "ph": "[ˋvaɪsɪ ˋvɝsə]",
+     "pos": [
+      {
+       "p": "phr.",
+       "m": "反之亦然"
+      }
+     ],
+     "ex": [
+      {
+       "en": "There's no emergency that you'd be able to show up in time for, and vice versa.",
+       "zh": "不管什麼緊急狀況，你都不可能及時趕到，反過來也一樣。",
+       "t": 144.0,
+       "aus": {
+        "US": "tts/l25VwzGQhvo/w3_e0_US.mp3",
+        "UK": "tts/l25VwzGQhvo/w3_e0_UK.mp3",
+        "AU": "tts/l25VwzGQhvo/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "A can call B, and vice versa. A 可以打給 B，反過來也一樣。"
+      }
+     ],
+     "forms": [],
+     "aus": {
+      "US": "tts/l25VwzGQhvo/w3_US.mp3",
+      "UK": "tts/l25VwzGQhvo/w3_UK.mp3",
+      "AU": "tts/l25VwzGQhvo/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "terrifying",
+     "s": 2,
+     "ph": "[ˋtɛrə͵faɪɪŋ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "令人非常害怕的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Absolutely terrifying. I've never been more scared for anything in my life. But we had a great time.",
+       "zh": "非常可怕，我這輩子沒這麼怕過。但我們玩得很開心。",
+       "t": 181.6,
+       "aus": {
+        "US": "tts/l25VwzGQhvo/w4_e0_US.mp3",
+        "UK": "tts/l25VwzGQhvo/w4_e0_UK.mp3",
+        "AU": "tts/l25VwzGQhvo/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "terrify v. 使害怕",
+      "terrified adj. 感到害怕的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "-ing 形容事物、-ed 形容人的感受：a terrifying experience / I was terrified."
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more terrifying"
+        ],
+        [
+         "最高級",
+         "most terrifying"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/l25VwzGQhvo/w4_US.mp3",
+      "UK": "tts/l25VwzGQhvo/w4_UK.mp3",
+      "AU": "tts/l25VwzGQhvo/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "pre-record",
+     "s": 1,
+     "ph": "[͵prirɪˋkɔrd]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "預錄，事先錄製"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Thank God we pre-recorded a lot of the vocals.",
+       "zh": "還好我們很多歌聲都是事先錄好的。",
+       "t": 187.0,
+       "aus": {
+        "US": "tts/l25VwzGQhvo/w5_e0_US.mp3",
+        "UK": "tts/l25VwzGQhvo/w5_e0_UK.mp3",
+        "AU": "tts/l25VwzGQhvo/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "record v. 錄製"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a pre-recorded message 預錄的語音訊息（電話客服、廣播題常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "pre-records"
+        ],
+        [
+         "過去式",
+         "pre-recorded"
+        ],
+        [
+         "過去分詞",
+         "pre-recorded"
+        ],
+        [
+         "現在分詞",
+         "pre-recording"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/l25VwzGQhvo/w5_US.mp3",
+      "UK": "tts/l25VwzGQhvo/w5_UK.mp3",
+      "AU": "tts/l25VwzGQhvo/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "nerve-wracking",
+     "s": 1,
+     "ph": "[ˋnɝv͵rækɪŋ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "令人緊張不安的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "It ended up being a lot of fun, but it was definitely nerve-wracking getting into.",
+       "zh": "最後變得很好玩，但一開始真的很讓人緊張。",
+       "t": 198.8,
+       "aus": {
+        "US": "tts/l25VwzGQhvo/w6_e0_US.mp3",
+        "UK": "tts/l25VwzGQhvo/w6_e0_UK.mp3",
+        "AU": "tts/l25VwzGQhvo/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a nerve-wracking interview 讓人超緊張的面試。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more nerve-wracking"
+        ],
+        [
+         "最高級",
+         "most nerve-wracking"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/l25VwzGQhvo/w6_US.mp3",
+      "UK": "tts/l25VwzGQhvo/w6_UK.mp3",
+      "AU": "tts/l25VwzGQhvo/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "obsessed",
+     "s": 2,
+     "ph": "[əbˋsɛst]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "著迷的，執著的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Hannah is obsessed with One Direction.",
+       "zh": "Hannah 超迷一世代。",
+       "t": 241.0,
+       "aus": {
+        "US": "tts/l25VwzGQhvo/w7_e0_US.mp3",
+        "UK": "tts/l25VwzGQhvo/w7_e0_UK.mp3",
+        "AU": "tts/l25VwzGQhvo/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "obsession n. 著迷",
+      "obsess v. 使著迷（Day 04 滿分單字 obsess about）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "be obsessed with 對～著迷（介系詞用 with）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more obsessed"
+        ],
+        [
+         "最高級",
+         "most obsessed"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/l25VwzGQhvo/w7_US.mp3",
+      "UK": "tts/l25VwzGQhvo/w7_UK.mp3",
+      "AU": "tts/l25VwzGQhvo/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "process",
+     "s": 3,
+     "ph": "[ˋprɑsɛs]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "過程，程序"
+      },
+      {
+       "p": "v.",
+       "m": "處理"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I kind of made everybody listen to it during the filming process.",
+       "zh": "拍攝期間我還逼大家一起聽。",
+       "t": 254.9,
+       "aus": {
+        "US": "tts/l25VwzGQhvo/w8_e0_US.mp3",
+        "UK": "tts/l25VwzGQhvo/w8_e0_UK.mp3",
+        "AU": "tts/l25VwzGQhvo/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "the hiring process 招募流程；process an order 處理訂單（多益必考兩種詞性）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "processes"
+        ]
+       ]
+      },
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "processes"
+        ],
+        [
+         "過去式",
+         "processed"
+        ],
+        [
+         "過去分詞",
+         "processed"
+        ],
+        [
+         "現在分詞",
+         "processing"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/l25VwzGQhvo/w8_US.mp3",
+      "UK": "tts/l25VwzGQhvo/w8_UK.mp3",
+      "AU": "tts/l25VwzGQhvo/w8_AU.mp3"
+     }
+    },
+    {
+     "n": 9,
+     "w": "immaturity",
+     "s": 1,
+     "ph": "[͵ɪməˋtjʊrətɪ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "不成熟"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Ella Bright's dating ick: immaturity. Grow up.",
+       "zh": "Ella Bright 的約會地雷：不成熟。長大吧。",
+       "t": 288.5,
+       "aus": {
+        "US": "tts/l25VwzGQhvo/w9_e0_US.mp3",
+        "UK": "tts/l25VwzGQhvo/w9_e0_UK.mp3",
+        "AU": "tts/l25VwzGQhvo/w9_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "mature adj. 成熟的",
+      "maturity n. 成熟；（債券）到期"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "maturity date 到期日（金融主題常考）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/l25VwzGQhvo/w9_US.mp3",
+      "UK": "tts/l25VwzGQhvo/w9_UK.mp3",
+      "AU": "tts/l25VwzGQhvo/w9_AU.mp3"
+     }
+    },
+    {
+     "n": 10,
+     "w": "appreciate",
+     "s": 3,
+     "ph": "[əˋpriʃɪ͵et]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "感激；重視"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I mean, anything nice you can say is always appreciated.",
+       "zh": "我是說，任何好聽的話都很受歡迎。",
+       "t": 398.6,
+       "aus": {
+        "US": "tts/l25VwzGQhvo/w10_e0_US.mp3",
+        "UK": "tts/l25VwzGQhvo/w10_e0_UK.mp3",
+        "AU": "tts/l25VwzGQhvo/w10_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "appreciation n. 感謝"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "be appreciated 受到感謝、被重視；Your help is greatly appreciated. 非常感謝您的協助（Day 07）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "appreciates"
+        ],
+        [
+         "過去式",
+         "appreciated"
+        ],
+        [
+         "過去分詞",
+         "appreciated"
+        ],
+        [
+         "現在分詞",
+         "appreciating"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/l25VwzGQhvo/w10_US.mp3",
+      "UK": "tts/l25VwzGQhvo/w10_UK.mp3",
+      "AU": "tts/l25VwzGQhvo/w10_AU.mp3"
+     }
+    },
+    {
+     "n": 11,
+     "w": "engage",
+     "s": 2,
+     "ph": "[ɪnˋgedʒ]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "參與，互動"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I don't engage with them on my socials at all, because I don't want to be swiping and see myself.",
+       "zh": "我在社群上完全不跟那些互動，因為我不想滑著滑著看到自己。",
+       "t": 480.2,
+       "aus": {
+        "US": "tts/l25VwzGQhvo/w11_e0_US.mp3",
+        "UK": "tts/l25VwzGQhvo/w11_e0_UK.mp3",
+        "AU": "tts/l25VwzGQhvo/w11_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "engagement n. 參與；訂婚"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "engage with customers 與顧客互動；engage in 從事～（Day 04）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "engages"
+        ],
+        [
+         "過去式",
+         "engaged"
+        ],
+        [
+         "過去分詞",
+         "engaged"
+        ],
+        [
+         "現在分詞",
+         "engaging"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/l25VwzGQhvo/w11_US.mp3",
+      "UK": "tts/l25VwzGQhvo/w11_UK.mp3",
+      "AU": "tts/l25VwzGQhvo/w11_AU.mp3"
+     }
+    },
+    {
+     "n": 12,
+     "w": "alternate",
+     "s": 2,
+     "ph": "[ˋɔltɚ͵net]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "輪流，交替"
+      },
+      {
+       "p": "adj.",
+       "m": "交替的；替代的（念 [ˋɔltɚnɪt]）"
+      }
+     ],
+     "ex": [
+      {
+       "en": "They alternate so that they never completely shut off.",
+       "zh": "牠們會輪流交替，所以從來不會完全關機。",
+       "t": 521.6,
+       "aus": {
+        "US": "tts/l25VwzGQhvo/w12_e0_US.mp3",
+        "UK": "tts/l25VwzGQhvo/w12_e0_UK.mp3",
+        "AU": "tts/l25VwzGQhvo/w12_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "alternative n. 替代方案"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "alternate between A and B 在 A 和 B 之間輪流；an alternate route 替代路線（交通公告常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "alternates"
+        ],
+        [
+         "過去式",
+         "alternated"
+        ],
+        [
+         "過去分詞",
+         "alternated"
+        ],
+        [
+         "現在分詞",
+         "alternating"
+        ]
+       ]
+      },
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/l25VwzGQhvo/w12_US.mp3",
+      "UK": "tts/l25VwzGQhvo/w12_UK.mp3",
+      "AU": "tts/l25VwzGQhvo/w12_AU.mp3"
+     }
+    },
+    {
+     "n": 13,
+     "w": "billboard",
+     "s": 1,
+     "ph": "[ˋbɪl͵bord]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "廣告看板"
+      }
+     ],
+     "ex": [
+      {
+       "en": "The last text I sent you: we just got our billboard up for Off Campus season one in New York.",
+       "zh": "我傳給你的最後一則訊息：《Off Campus》第一季的看板在紐約掛上去了。",
+       "t": 775.2,
+       "aus": {
+        "US": "tts/l25VwzGQhvo/w13_e0_US.mp3",
+        "UK": "tts/l25VwzGQhvo/w13_e0_UK.mp3",
+        "AU": "tts/l25VwzGQhvo/w13_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "put up a billboard 設立看板廣告（行銷主題常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "billboards"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/l25VwzGQhvo/w13_US.mp3",
+      "UK": "tts/l25VwzGQhvo/w13_UK.mp3",
+      "AU": "tts/l25VwzGQhvo/w13_AU.mp3"
+     }
+    },
+    {
+     "n": 14,
+     "w": "admire",
+     "s": 2,
+     "ph": "[ədˋmaɪr]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "欽佩，欣賞"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Well, you admire Robert Pattinson. I'd love to work with Robert Pattinson.",
+       "zh": "你很欣賞羅伯派汀森。我很想和羅伯派汀森合作。",
+       "t": 873.4,
+       "aus": {
+        "US": "tts/l25VwzGQhvo/w14_e0_US.mp3",
+        "UK": "tts/l25VwzGQhvo/w14_e0_UK.mp3",
+        "AU": "tts/l25VwzGQhvo/w14_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "admiration n. 欽佩",
+      "admiringly adv. 讚賞地（Day 08 滿分單字）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "admire A for B 因為 B 而欽佩 A。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "admires"
+        ],
+        [
+         "過去式",
+         "admired"
+        ],
+        [
+         "過去分詞",
+         "admired"
+        ],
+        [
+         "現在分詞",
+         "admiring"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/l25VwzGQhvo/w14_US.mp3",
+      "UK": "tts/l25VwzGQhvo/w14_UK.mp3",
+      "AU": "tts/l25VwzGQhvo/w14_AU.mp3"
+     }
+    },
+    {
+     "n": 15,
+     "w": "assume",
+     "s": 3,
+     "ph": "[əˋsjum]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "假定，以為"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I knew more about you than I assumed I would.",
+       "zh": "我對你的了解比我以為的還多。",
+       "t": 962.8,
+       "aus": {
+        "US": "tts/l25VwzGQhvo/w15_e0_US.mp3",
+        "UK": "tts/l25VwzGQhvo/w15_e0_UK.mp3",
+        "AU": "tts/l25VwzGQhvo/w15_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "assumption n. 假設"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "Day 04 核心字：assume 有「假定」和「承擔」兩個意思，這裡是「以為」（影片 2 是「承擔角色」）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "assumes"
+        ],
+        [
+         "過去式",
+         "assumed"
+        ],
+        [
+         "過去分詞",
+         "assumed"
+        ],
+        [
+         "現在分詞",
+         "assuming"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/l25VwzGQhvo/w15_US.mp3",
+      "UK": "tts/l25VwzGQhvo/w15_UK.mp3",
+      "AU": "tts/l25VwzGQhvo/w15_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "I mean, it's usually me making faces, being ___.",
+     "a": "unprofessional",
+     "opts": [
+      "unprofessional",
+      "terrifying",
+      "obsessed",
+      "process"
+     ]
+    },
+    {
+     "s": "Absolutely ___. I've never been more scared for anything in my life. But we had a great time.",
+     "a": "terrifying",
+     "opts": [
+      "unprofessional",
+      "terrifying",
+      "obsessed",
+      "process"
+     ]
+    },
+    {
+     "s": "Hannah is ___ with One Direction.",
+     "a": "obsessed",
+     "opts": [
+      "unprofessional",
+      "terrifying",
+      "obsessed",
+      "process"
+     ]
+    },
+    {
+     "s": "I kind of made everybody listen to it during the filming ___.",
+     "a": "process",
+     "opts": [
+      "unprofessional",
+      "terrifying",
+      "obsessed",
+      "process"
+     ]
+    },
+    {
+     "s": "I mean, anything nice you can say is always ___.",
+     "a": "appreciated",
+     "opts": [
+      "appreciated",
+      "engage",
+      "admire",
+      "assumed"
+     ]
+    },
+    {
+     "s": "I don't ___ with them on my socials at all, because I don't want to be swiping and see myself.",
+     "a": "engage",
+     "opts": [
+      "appreciated",
+      "engage",
+      "admire",
+      "assumed"
+     ]
+    },
+    {
+     "s": "Well, you ___ Robert Pattinson. I'd love to work with Robert Pattinson.",
+     "a": "admire",
+     "opts": [
+      "appreciated",
+      "engage",
+      "admire",
+      "assumed"
+     ]
+    },
+    {
+     "s": "I knew more about you than I ___ I would.",
+     "a": "assumed",
+     "opts": [
+      "appreciated",
+      "engage",
+      "admire",
+      "assumed"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "兩人為什麼不把對方設為緊急聯絡人？",
+     "a": "住得太遠，要搭 11 小時的飛機",
+     "opts": [
+      "住得太遠，要搭 11 小時的飛機",
+      "兩人其實不熟",
+      "對方從不接電話",
+      "劇組規定不行"
+     ]
+    },
+    {
+     "q": "拍卡拉 OK 那場戲時，什麼讓她比較安心？",
+     "a": "很多歌聲都事先錄好了",
+     "opts": [
+      "很多歌聲都事先錄好了",
+      "現場沒有觀眾",
+      "她從小學唱歌",
+      "導演說可以對嘴"
+     ]
+    },
+    {
+     "q": "影片中提到的虎鯨冷知識是？",
+     "a": "牠們一次只用一半的大腦睡覺",
+     "opts": [
+      "牠們一次只用一半的大腦睡覺",
+      "牠們從來不睡覺",
+      "牠們只吃牛肉",
+      "牠們都住在芝加哥"
+     ]
+    },
+    {
+     "q": "為什麼很多人叫 Belmont「Beef」？",
+     "a": "因為他很愛吃牛肉",
+     "opts": [
+      "因為他很愛吃牛肉",
+      "因為他的姓就是 Beef",
+      "因為他很壯",
+      "因為他在劇中演廚師"
+     ]
+    },
+    {
+     "q": "最後兩人的成績是？",
+     "a": "21 題中分別答對 17 題和 15 題",
+     "opts": [
+      "21 題中分別答對 17 題和 15 題",
+      "兩人都全對",
+      "兩人都不到一半",
+      "平手，各答對 10 題"
+     ]
+    }
+   ]
   }
  ]
 });

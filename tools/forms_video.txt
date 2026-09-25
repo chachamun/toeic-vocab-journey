@@ -230,3 +230,31 @@ pursue	v: pursues, pursued, pursued, pursuing	—
 research	n: 不可數 ; v: researches, researched, researched, researching	—
 release	v: releases, released, released, releasing ; n: releases	—
 specifics	n: 複數形	—
+impression	n: impressions	—
+beneficial	adj: more beneficial, most beneficial	—
+campaign	v: campaigns, campaigned, campaigned, campaigning ; n: campaigns	—
+emergency contact	n: emergency contacts	—
+access	n: 不可數 ; v: accesses, accessed, accessed, accessing	—
+sort out	v: sorts out, sorted out, sorted out, sorting out	—
+pet peeve	n: pet peeves	—
+acknowledge	v: acknowledges, acknowledged, acknowledged, acknowledging	—
+present	adj: 無比較級	—
+improvise	v: improvises, improvised, improvised, improvising	—
+presentation	n: presentations	present v. 呈現，發表
+confident	adj: more confident, most confident	—
+interact	v: interacts, interacted, interacted, interacting	—
+tricky	adj: trickier, trickiest	—
+react	v: reacts, reacted, reacted, reacting	—
+unprofessional	adj: more unprofessional, most unprofessional	—
+advice	n: 不可數	—
+vice versa	—	—
+terrifying	adj: more terrifying, most terrifying	—
+pre-record	v: pre-records, pre-recorded, pre-recorded, pre-recording	—
+nerve-wracking	adj: more nerve-wracking, most nerve-wracking	—
+obsessed	adj: more obsessed, most obsessed	—
+process	n: processes ; v: processes, processed, processed, processing	—
+immaturity	n: 不可數	—
+engage	v: engages, engaged, engaged, engaging	—
+alternate	v: alternates, alternated, alternated, alternating ; adj: 無比較級	—
+billboard	n: billboards	—
+admire	v: admires, admired, admired, admiring	—
