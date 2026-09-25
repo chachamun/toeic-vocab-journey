@@ -215,3 +215,18 @@ vary	v: varies, varied, varied, varying	—
 grounded	adj: more grounded, most grounded	—
 destination	n: destinations	—
 strict	adj: stricter, strictest	—
+press tour	n: press tours	—
+shy away from	v: shies away from, shied away from, shied away from, shying away from	—
+intimidating	adj: more intimidating, most intimidating	—
+instinct	n: instincts	—
+turn down	v: turns down, turned down, turned down, turning down	—
+pass	v: passes, passed, passed, passing	—
+nominate	v: nominates, nominated, nominated, nominating	—
+honor	n: honors ; v: honors, honored, honored, honoring	—
+audition	n: auditions ; v: auditions, auditioned, auditioned, auditioning	—
+take place	v: takes place, took place, taken place, taking place	—
+based on	—	—
+pursue	v: pursues, pursued, pursued, pursuing	—
+research	n: 不可數 ; v: researches, researched, researched, researching	—
+release	v: releases, released, released, releasing ; n: releases	—
+specifics	n: 複數形	—
