@@ -12315,6 +12315,938 @@ TVJ.register({
      ]
     }
    ]
+  },
+  {
+   "id": "yt-azSNsEjrodE",
+   "label": "影片 14",
+   "theme": "有科學根據的晨間作息",
+   "themeEn": "This Science-Backed Morning Routine Will REPROGRAM Your Mind!",
+   "video": "https://youtu.be/azSNsEjrodE",
+   "source": "",
+   "publisher": "Jay Shetty Podcast（On Purpose）",
+   "release": "2026-10-07",
+   "transcript": "transcripts/azSNsEjrodE.json",
+   "lines": 262,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "achievable",
+     "s": 2,
+     "ph": "[əˋtʃivəbḷ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "可達成的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Today, I want to share the most practical, simple, genuinely achievable morning routine I found.",
+       "zh": "今天我想分享我找到最實用、最簡單、真正做得到的晨間作息。",
+       "t": 55.8,
+       "aus": {
+        "US": "tts/azSNsEjrodE/w1_e0_US.mp3",
+        "UK": "tts/azSNsEjrodE/w1_e0_UK.mp3",
+        "AU": "tts/azSNsEjrodE/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "achieve v. 達成",
+      "achievement n. 成就"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "an achievable goal 可達成的目標（績效、計畫文件常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more achievable"
+        ],
+        [
+         "最高級",
+         "most achievable"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/azSNsEjrodE/w1_US.mp3",
+      "UK": "tts/azSNsEjrodE/w1_UK.mp3",
+      "AU": "tts/azSNsEjrodE/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "mechanism",
+     "s": 2,
+     "ph": "[ˋmɛkə͵nɪzəm]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "機制，原理；機械裝置"
+      }
+     ],
+     "ex": [
+      {
+       "en": "When you understand the mechanism, you're not relying on motivation.",
+       "zh": "當你了解背後的機制，你就不用靠意志力。",
+       "t": 90.3,
+       "aus": {
+        "US": "tts/azSNsEjrodE/w2_e0_US.mp3",
+        "UK": "tts/azSNsEjrodE/w2_e0_UK.mp3",
+        "AU": "tts/azSNsEjrodE/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "Day 07 滿分單字；a feedback mechanism 回饋機制。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "mechanisms"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/azSNsEjrodE/w2_US.mp3",
+      "UK": "tts/azSNsEjrodE/w2_UK.mp3",
+      "AU": "tts/azSNsEjrodE/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "controversial",
+     "s": 2,
+     "ph": "[͵kɑntrəˋvɝʃəl]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "有爭議的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So, let's start with the most controversial thing I'm going to say today.",
+       "zh": "那我們就從今天我要說的最具爭議性的一件事開始。",
+       "t": 128.4,
+       "aus": {
+        "US": "tts/azSNsEjrodE/w3_e0_US.mp3",
+        "UK": "tts/azSNsEjrodE/w3_e0_UK.mp3",
+        "AU": "tts/azSNsEjrodE/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "controversy n. 爭議"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a controversial decision／proposal 有爭議的決定／提案。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more controversial"
+        ],
+        [
+         "最高級",
+         "most controversial"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/azSNsEjrodE/w3_US.mp3",
+      "UK": "tts/azSNsEjrodE/w3_UK.mp3",
+      "AU": "tts/azSNsEjrodE/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "linger",
+     "s": 1,
+     "ph": "[ˋlɪŋɡɚ]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "持續，揮之不去；逗留"
+      }
+     ],
+     "ex": [
+      {
+       "en": "The internal clock, controlled by a tiny brain region, gets conflicting signals, and the grogginess can linger for hours.",
+       "zh": "由大腦一個小區域控制的生理時鐘會收到矛盾的訊號，那種昏沉感可能持續好幾個小時。",
+       "t": 189.7,
+       "aus": {
+        "US": "tts/azSNsEjrodE/w4_e0_US.mp3",
+        "UK": "tts/azSNsEjrodE/w4_e0_UK.mp3",
+        "AU": "tts/azSNsEjrodE/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "linger for hours 持續好幾個小時；customers linger in the store 顧客在店裡逗留。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "lingers"
+        ],
+        [
+         "過去式",
+         "lingered"
+        ],
+        [
+         "過去分詞",
+         "lingered"
+        ],
+        [
+         "現在分詞",
+         "lingering"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/azSNsEjrodE/w4_US.mp3",
+      "UK": "tts/azSNsEjrodE/w4_UK.mp3",
+      "AU": "tts/azSNsEjrodE/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "obligation",
+     "s": 2,
+     "ph": "[͵ɑbləˋɡeʃən]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "義務，責任"
+      }
+     ],
+     "ex": [
+      {
+       "en": "It reframes waking up as time travel, not obligation.",
+       "zh": "它把起床重新定義成時光旅行，而不是義務。",
+       "t": 265.6,
+       "aus": {
+        "US": "tts/azSNsEjrodE/w5_e0_US.mp3",
+        "UK": "tts/azSNsEjrodE/w5_e0_UK.mp3",
+        "AU": "tts/azSNsEjrodE/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "obligate v. 使負義務",
+      "obligatory adj. 義務的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "There is no obligation to buy. 沒有購買義務（試用、免費諮詢廣告必考）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "obligations"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/azSNsEjrodE/w5_US.mp3",
+      "UK": "tts/azSNsEjrodE/w5_UK.mp3",
+      "AU": "tts/azSNsEjrodE/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "impactful",
+     "s": 1,
+     "ph": "[ɪmˋpæktfəl]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "影響重大的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "This might be the single most impactful thing on the entire list and it costs you absolutely nothing.",
+       "zh": "這可能是整張清單上影響最大的一件事，而且完全不用花錢。",
+       "t": 366.9,
+       "aus": {
+        "US": "tts/azSNsEjrodE/w6_e0_US.mp3",
+        "UK": "tts/azSNsEjrodE/w6_e0_UK.mp3",
+        "AU": "tts/azSNsEjrodE/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "impact n. 影響（Day 07）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "the most impactful change 影響最大的改變。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more impactful"
+        ],
+        [
+         "最高級",
+         "most impactful"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/azSNsEjrodE/w6_US.mp3",
+      "UK": "tts/azSNsEjrodE/w6_UK.mp3",
+      "AU": "tts/azSNsEjrodE/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "simultaneously",
+     "s": 2,
+     "ph": "[͵saɪmḷˋtenɪəslɪ]",
+     "pos": [
+      {
+       "p": "adv.",
+       "m": "同時地"
+      }
+     ],
+     "ex": [
+      {
+       "en": "That signal does several things simultaneously.",
+       "zh": "那個訊號會同時做好幾件事。",
+       "t": 425.8,
+       "aus": {
+        "US": "tts/azSNsEjrodE/w7_e0_US.mp3",
+        "UK": "tts/azSNsEjrodE/w7_e0_UK.mp3",
+        "AU": "tts/azSNsEjrodE/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "simultaneous adj. 同時的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "simultaneous interpretation 同步口譯（國際會議常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adv.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/azSNsEjrodE/w7_US.mp3",
+      "UK": "tts/azSNsEjrodE/w7_UK.mp3",
+      "AU": "tts/azSNsEjrodE/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "promote",
+     "s": 3,
+     "ph": "[prəˋmot]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "促進；升遷；促銷"
+      }
+     ],
+     "ex": [
+      {
+       "en": "promotes alertness, supports immune function, and sets the emotional baseline for your entire day.",
+       "zh": "它能提升警覺、支持免疫功能，並為你一整天的情緒定下基調。",
+       "t": 452.2,
+       "aus": {
+        "US": "tts/azSNsEjrodE/w8_e0_US.mp3",
+        "UK": "tts/azSNsEjrodE/w8_e0_UK.mp3",
+        "AU": "tts/azSNsEjrodE/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "promotion n. 升職；促銷",
+      "promotional adj. 促銷的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "多益三種意思都考：promote health 促進健康；be promoted to manager 升為經理；promote a new product 促銷新產品。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "promotes"
+        ],
+        [
+         "過去式",
+         "promoted"
+        ],
+        [
+         "過去分詞",
+         "promoted"
+        ],
+        [
+         "現在分詞",
+         "promoting"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/azSNsEjrodE/w8_US.mp3",
+      "UK": "tts/azSNsEjrodE/w8_UK.mp3",
+      "AU": "tts/azSNsEjrodE/w8_AU.mp3"
+     }
+    },
+    {
+     "n": 9,
+     "w": "substantially",
+     "s": 2,
+     "ph": "[səbˋstænʃəlɪ]",
+     "pos": [
+      {
+       "p": "adv.",
+       "m": "大幅地，相當多地"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Third, and this one surprised me, research on office workers found that those who got significantly more bright light exposure before noon scored substantially higher on cognitive performance tests after just 5 days. 5 days.",
+       "zh": "第三，這點讓我很驚訝，一項針對上班族的研究發現，中午前接觸明顯更多亮光的人，短短 5 天後的認知表現測驗分數就大幅提高。5 天。",
+       "t": 490.6,
+       "aus": {
+        "US": "tts/azSNsEjrodE/w9_e0_US.mp3",
+        "UK": "tts/azSNsEjrodE/w9_e0_UK.mp3",
+        "AU": "tts/azSNsEjrodE/w9_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "substantial adj. 大量的（Day 10 滿分單字）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "increase substantially 大幅增加（圖表題常見，同義 significantly）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adv.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/azSNsEjrodE/w9_US.mp3",
+      "UK": "tts/azSNsEjrodE/w9_UK.mp3",
+      "AU": "tts/azSNsEjrodE/w9_AU.mp3"
+     }
+    },
+    {
+     "n": 10,
+     "w": "resilient",
+     "s": 1,
+     "ph": "[rɪˋzɪlɪənt]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "有韌性的，恢復力強的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So, the initial shock wakes you up, but the downstream effect is actually a calmer, more resilient baseline for the rest of your morning.",
+       "zh": "所以一開始的衝擊讓你清醒，但後續效果其實是讓你接下來整個早上的基礎狀態更平靜、更有韌性。",
+       "t": 635.7,
+       "aus": {
+        "US": "tts/azSNsEjrodE/w10_e0_US.mp3",
+        "UK": "tts/azSNsEjrodE/w10_e0_UK.mp3",
+        "AU": "tts/azSNsEjrodE/w10_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "resilience n. 韌性"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a resilient economy 有韌性的經濟；本句 downstream effect＝後續效果。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more resilient"
+        ],
+        [
+         "最高級",
+         "most resilient"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/azSNsEjrodE/w10_US.mp3",
+      "UK": "tts/azSNsEjrodE/w10_UK.mp3",
+      "AU": "tts/azSNsEjrodE/w10_AU.mp3"
+     }
+    },
+    {
+     "n": 11,
+     "w": "compelling",
+     "s": 2,
+     "ph": "[kəmˋpɛlɪŋ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "有說服力的，令人信服的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And here's the really compelling finding.",
+       "zh": "而這是非常有說服力的發現。",
+       "t": 647.1,
+       "aus": {
+        "US": "tts/azSNsEjrodE/w11_e0_US.mp3",
+        "UK": "tts/azSNsEjrodE/w11_e0_UK.mp3",
+        "AU": "tts/azSNsEjrodE/w11_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "compel v. 迫使"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "compelling evidence／reason 有力的證據／理由。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more compelling"
+        ],
+        [
+         "最高級",
+         "most compelling"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/azSNsEjrodE/w11_US.mp3",
+      "UK": "tts/azSNsEjrodE/w11_UK.mp3",
+      "AU": "tts/azSNsEjrodE/w11_AU.mp3"
+     }
+    },
+    {
+     "n": 12,
+     "w": "sufficient",
+     "s": 3,
+     "ph": "[səˋfɪʃənt]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "足夠的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "The findings showed that this short burst of activity was sufficient to trigger meaningful cardiovascular and metabolic benefits comparable in several measures to much longer moderate-intensity sessions.",
+       "zh": "研究結果顯示，這短短一段運動就足以帶來有意義的心血管和代謝益處，在好幾項指標上都和長得多的中等強度運動不相上下。",
+       "t": 807.4,
+       "aus": {
+        "US": "tts/azSNsEjrodE/w12_e0_US.mp3",
+        "UK": "tts/azSNsEjrodE/w12_e0_UK.mp3",
+        "AU": "tts/azSNsEjrodE/w12_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "sufficiently adv. 足夠地",
+      "insufficient adj. 不足的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "sufficient funds 足夠的資金；本句 comparable＝可比擬的、相當的。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/azSNsEjrodE/w12_US.mp3",
+      "UK": "tts/azSNsEjrodE/w12_UK.mp3",
+      "AU": "tts/azSNsEjrodE/w12_AU.mp3"
+     }
+    },
+    {
+     "n": 13,
+     "w": "underestimate",
+     "s": 2,
+     "ph": "[͵ʌndɚˋɛstə͵met]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "低估"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And it's the one I think most people underestimate. Journaling.",
+       "zh": "也是我覺得大多數人最低估的一步：寫日記。",
+       "t": 976.0,
+       "aus": {
+        "US": "tts/azSNsEjrodE/w13_e0_US.mp3",
+        "UK": "tts/azSNsEjrodE/w13_e0_UK.mp3",
+        "AU": "tts/azSNsEjrodE/w13_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "overestimate v. 高估（Day 05 滿分單字）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "underestimate the cost 低估成本。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "underestimates"
+        ],
+        [
+         "過去式",
+         "underestimated"
+        ],
+        [
+         "過去分詞",
+         "underestimated"
+        ],
+        [
+         "現在分詞",
+         "underestimating"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/azSNsEjrodE/w13_US.mp3",
+      "UK": "tts/azSNsEjrodE/w13_UK.mp3",
+      "AU": "tts/azSNsEjrodE/w13_AU.mp3"
+     }
+    },
+    {
+     "n": 14,
+     "w": "agenda",
+     "s": 3,
+     "ph": "[əˋdʒɛndə]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "議程；（個人的）打算、目的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "You're essentially letting other people's agendas, their emails, their posts, their news cycles set the emotional tone of your day before you've had a chance to set your own.",
+       "zh": "你基本上是讓別人的議程，他們的郵件、貼文、新聞，在你有機會設定自己的基調之前，就決定了你一天的情緒基調。",
+       "t": 1285.4,
+       "aus": {
+        "US": "tts/azSNsEjrodE/w14_e0_US.mp3",
+        "UK": "tts/azSNsEjrodE/w14_e0_UK.mp3",
+        "AU": "tts/azSNsEjrodE/w14_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "the first item on the agenda 議程上的第一項（會議必考）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "agendas"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/azSNsEjrodE/w14_US.mp3",
+      "UK": "tts/azSNsEjrodE/w14_UK.mp3",
+      "AU": "tts/azSNsEjrodE/w14_AU.mp3"
+     }
+    },
+    {
+     "n": 15,
+     "w": "implement",
+     "s": 3,
+     "ph": "[ˋɪmpləmənt]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "實施，執行"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Choose one that makes a difference and add one every week after you feel comfortable with the one you've implemented.",
+       "zh": "先選一個會帶來改變的，等你對已經實行的那一個感到自在後，每週再加一個。",
+       "t": 1395.6,
+       "aus": {
+        "US": "tts/azSNsEjrodE/w15_e0_US.mp3",
+        "UK": "tts/azSNsEjrodE/w15_e0_UK.mp3",
+        "AU": "tts/azSNsEjrodE/w15_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "implementation n. 實施"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "Day 05 核心字；implement a new policy 實施新政策。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "implements"
+        ],
+        [
+         "過去式",
+         "implemented"
+        ],
+        [
+         "過去分詞",
+         "implemented"
+        ],
+        [
+         "現在分詞",
+         "implementing"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/azSNsEjrodE/w15_US.mp3",
+      "UK": "tts/azSNsEjrodE/w15_UK.mp3",
+      "AU": "tts/azSNsEjrodE/w15_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "Today, I want to share the most practical, simple, genuinely ___ morning routine I found.",
+     "a": "achievable",
+     "opts": [
+      "achievable",
+      "mechanism",
+      "controversial",
+      "obligation"
+     ]
+    },
+    {
+     "s": "When you understand the ___, you're not relying on motivation.",
+     "a": "mechanism",
+     "opts": [
+      "achievable",
+      "mechanism",
+      "controversial",
+      "obligation"
+     ]
+    },
+    {
+     "s": "So, let's start with the most ___ thing I'm going to say today.",
+     "a": "controversial",
+     "opts": [
+      "achievable",
+      "mechanism",
+      "controversial",
+      "obligation"
+     ]
+    },
+    {
+     "s": "It reframes waking up as time travel, not ___.",
+     "a": "obligation",
+     "opts": [
+      "achievable",
+      "mechanism",
+      "controversial",
+      "obligation"
+     ]
+    },
+    {
+     "s": "And here's the really ___ finding.",
+     "a": "compelling",
+     "opts": [
+      "compelling",
+      "sufficient",
+      "underestimate",
+      "agendas"
+     ]
+    },
+    {
+     "s": "The findings showed that this short burst of activity was ___ to trigger meaningful cardiovascular and metabolic benefits comparable in several measures to much longer moderate-intensity sessions.",
+     "a": "sufficient",
+     "opts": [
+      "compelling",
+      "sufficient",
+      "underestimate",
+      "agendas"
+     ]
+    },
+    {
+     "s": "And it's the one I think most people ___. Journaling.",
+     "a": "underestimate",
+     "opts": [
+      "compelling",
+      "sufficient",
+      "underestimate",
+      "agendas"
+     ]
+    },
+    {
+     "s": "You're essentially letting other people's ___, their emails, their posts, their news cycles set the emotional tone of your day before you've had a chance to set your own.",
+     "a": "agendas",
+     "opts": [
+      "compelling",
+      "sufficient",
+      "underestimate",
+      "agendas"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "為什麼 Jay Shetty 說不該按貪睡鈕？",
+     "a": "大腦會開始一個無法完成的新睡眠週期，醒來反而更昏沉",
+     "opts": [
+      "大腦會開始一個無法完成的新睡眠週期，醒來反而更昏沉",
+      "貪睡鈕會讓手機耗電",
+      "多睡 9 分鐘沒有任何影響",
+      "按貪睡會讓人太早起床"
+     ]
+    },
+    {
+     "q": "「未來的你打來了」鬧鐘是什麼？",
+     "a": "睡前錄一段假裝是未來自己的語音，設成鬧鐘",
+     "opts": [
+      "睡前錄一段假裝是未來自己的語音，設成鬧鐘",
+      "請朋友早上打電話叫你起床",
+      "用很大聲的警報聲",
+      "把鬧鐘設在未來的日期"
+     ]
+    },
+    {
+     "q": "早上曬太陽的好處，不包括哪一個？",
+     "a": "讓你晚上不用睡覺",
+     "opts": [
+      "讓你晚上不用睡覺",
+      "觸發健康的皮質醇分泌、提升警覺",
+      "讓今晚睡得更好",
+      "提升認知表現"
+     ]
+    },
+    {
+     "q": "「90 秒冷水」的做法是？",
+     "a": "平常洗澡洗到最後，轉成冷水 60 到 90 秒",
+     "opts": [
+      "平常洗澡洗到最後，轉成冷水 60 到 90 秒",
+      "每天早上 4 點泡 20 分鐘冰浴",
+      "只喝冰水",
+      "整個澡都用冷水洗"
+     ]
+    },
+    {
+     "q": "他建議的日記三個問題，不包括哪一個？",
+     "a": "昨天花了多少錢？",
+     "opts": [
+      "昨天花了多少錢？",
+      "今天真心感謝的是什麼？",
+      "今天最需要完成的一件事是什麼？",
+      "需要把哪個擔憂從腦中清出來？"
+     ]
+    }
+   ]
   }
  ]
 });

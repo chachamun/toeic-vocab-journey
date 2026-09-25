@@ -316,3 +316,16 @@ essential	adj: more essential, most essential	—
 exaggerate	v: exaggerates, exaggerated, exaggerated, exaggerating	—
 reputation	n: reputations	—
 extraordinary	adj: more extraordinary, most extraordinary	—
+achievable	adj: more achievable, most achievable	—
+mechanism	n: mechanisms	—
+linger	v: lingers, lingered, lingered, lingering	—
+obligation	n: obligations	—
+impactful	adj: more impactful, most impactful	—
+simultaneously	adv: 無比較級	—
+promote	v: promotes, promoted, promoted, promoting	—
+substantially	adv: 無比較級	—
+compelling	adj: more compelling, most compelling	—
+sufficient	adj: 無比較級	—
+underestimate	v: underestimates, underestimated, underestimated, underestimating	—
+agenda	n: agendas	—
+implement	v: implements, implemented, implemented, implementing	—
