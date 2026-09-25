@@ -1,0 +1,760 @@
+{
+ "id": "yt-ocGJWc2F1Yk",
+ "course": "daily-video",
+ "publisher": "The Tonight Show Starring Jimmy Fallon",
+ "video": "https://youtu.be/ocGJWc2F1Yk",
+ "bbc": "",
+ "label": "影片 25",
+ "theme": "Anne Hathaway 談好勝心、浣熊搶戲與《The Idea of You》",
+ "themeEn": "Anne Hathaway Forgets The Princess Diaries and The Devil Wears Prada Details",
+ "release": "2026-10-18",
+ "words": [
+  {
+   "n": 1,
+   "w": "competitive",
+   "s": 3,
+   "ph": "[kəmˋpɛtətɪv]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "好勝的；有競爭力的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "You're a great partner. -I mean, are you are you competitive when you play games?",
+     "zh": "你是很棒的搭檔。－我是說，你玩遊戲的時候好勝心強嗎？",
+     "t": 14.9
+    }
+   ],
+   "fam": [
+    "compete v. 競爭",
+    "competition n. 競爭；比賽"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "competitive price 有競爭力的價格；competitive salary 優渥的薪資（徵才廣告必考）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more competitive"
+      ],
+      [
+       "最高級",
+       "most competitive"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "genetic",
+   "s": 1,
+   "ph": "[dʒəˋnɛtɪk]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "遺傳的，基因的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Yeah. -I think maybe being competitive is genetic, because my kids are, like -- They're competitive, too.",
+     "zh": "對。－我覺得好勝心可能是遺傳的，因為我的孩子們……他們也很好勝。",
+     "t": 32.7
+    }
+   ],
+   "fam": [
+    "gene n. 基因"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "genetic testing 基因檢測。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "apparently",
+   "s": 2,
+   "ph": "[əˋpærəntlɪ]",
+   "pos": [
+    {
+     "p": "adv.",
+     "m": "顯然；據說"
+    }
+   ],
+   "ex": [
+    {
+     "en": "You know movies. -I didn't -- I mean, apparently, I do.",
+     "zh": "你很懂電影。－我沒有……我是說，顯然我懂。",
+     "t": 93.1
+    }
+   ],
+   "fam": [
+    "apparent adj. 明顯的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "Apparently, the meeting was canceled. 聽說會議取消了（口語常表示「聽說」）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adv.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "executive",
+   "s": 3,
+   "ph": "[ɪgˋzɛkjʊtɪv]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "主管，高階經理"
+    },
+    {
+     "p": "adj.",
+     "m": "執行的；高階的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "So, uh, junior executive assistant, 'Devil Wears Prada.'\" I'm just like, \"Emily Blunt.\"",
+     "zh": "所以，呃，《穿著 Prada 的惡魔》裡的初級執行助理。」我就說：「Emily Blunt。」",
+     "t": 100.4
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "executive assistant 執行助理；chief executive officer（CEO）執行長。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "executives"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "genuinely",
+   "s": 2,
+   "ph": "[ˋdʒɛnjʊɪnlɪ]",
+   "pos": [
+    {
+     "p": "adv.",
+     "m": "真正地，真心地"
+    }
+   ],
+   "ex": [
+    {
+     "en": "I was gonna say, \"Wait...\" -But I was genuinely confused.",
+     "zh": "我正要說：「等一下……」－但我是真的搞混了。",
+     "t": 111.8
+    }
+   ],
+   "fam": [
+    "genuine adj. 真的，真誠的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "genuine leather 真皮；genuinely interested 真心感興趣。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adv.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "touchstone",
+   "s": 1,
+   "ph": "[ˋtʌtʃ͵ston]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "試金石；經典代表"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Yeah, they love you so much. -I love that it's become kind of one of those family touchstones.",
+     "zh": "對，她們超愛你的。－我很喜歡它變成那種全家人共同的經典回憶。",
+     "t": 144.6
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a family touchstone 全家人共同的經典回憶。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "touchstones"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "debut",
+   "s": 2,
+   "ph": "[deˋbju]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "首次登台，首演；（產品）首次亮相"
+    }
+   ],
+   "ex": [
+    {
+     "en": "You made your kind of Broadway debut together in \"Gutenberg! The Musical!\"",
+     "zh": "你們一起在《Gutenberg! The Musical!》裡算是完成了百老匯首演。",
+     "t": 159.4
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "make one's Broadway debut 百老匯首演；the product will debut next month 產品下個月首度亮相。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "debuts"
+      ]
+     ]
+    },
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "debuts"
+      ],
+      [
+       "過去式",
+       "debuted"
+      ],
+      [
+       "過去分詞",
+       "debuted"
+      ],
+      [
+       "現在分詞",
+       "debuting"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "icon",
+   "s": 2,
+   "ph": "[ˋaɪkɑn]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "代表人物，偶像；（電腦）圖示"
+    }
+   ],
+   "ex": [
+    {
+     "en": "She's also a New York icon. -Oh, yeah. -So I think if she shows up at a pizzeria -- -Yeah, she's a New York icon.",
+     "zh": "她也是紐約的代表人物。－喔，對。－所以我覺得如果她出現在一家披薩店……－對，她是紐約的代表人物。",
+     "t": 201.8
+    }
+   ],
+   "fam": [
+    "iconic adj. 具代表性的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "click the icon 點擊圖示（操作說明）；a fashion icon 時尚偶像。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "icons"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "w": "grateful",
+   "s": 2,
+   "ph": "[ˋgretfəl]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "感激的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "and I'm very -- I'm just very grateful for our relationship. -She's so cool. -She's so cool. -She's so cool. -So cool. -Do you get nervous around -- I get a little nervous -- -I absolutely do. -You do?",
+     "zh": "我非常……我真的非常感謝我們之間的關係。－她好酷。－她好酷。－她好酷。－超酷。－你在她身邊會緊張嗎？我會有點緊張……－我絕對會。－你會？",
+     "t": 216.6
+    }
+   ],
+   "fam": [
+    "gratitude n. 感激"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "I would be grateful if you could... 若您能～將不勝感激（正式書信必考）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more grateful"
+      ],
+      [
+       "最高級",
+       "most grateful"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "w": "outdoor",
+   "s": 2,
+   "ph": "[ˋaʊt͵dor]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "戶外的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Thank goodness. -No, you were perfect. -Well, because -- So, the Delacorte Theater is an outdoor theater in Central Park.",
+     "zh": "謝天謝地。－沒有，你很完美。－嗯，因為……Delacorte 劇場是中央公園裡的一座露天劇場。",
+     "t": 281.3
+    }
+   ],
+   "fam": [
+    "outdoors adv. 在戶外"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "outdoor seating 戶外座位（餐廳）；outdoor adj. vs. outdoors adv.（Part 5 詞性題）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "w": "trailer",
+   "s": 2,
+   "ph": "[ˋtrelɚ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "預告片；拖車，（片場）休息車"
+    }
+   ],
+   "ex": [
+    {
+     "en": "The trailer alone has gotten over 125 million views. -Yeah. -It crushed, broke the record.",
+     "zh": "光是預告片觀看次數就超過 1 億 2500 萬次。－對。－大獲成功，打破紀錄。",
+     "t": 384.6
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "movie trailer 電影預告；本片的 trailer 同時指預告片和明星休息車。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "trailers"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "w": "chaperone",
+   "s": 1,
+   "ph": "[ˋʃæpə͵ron]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "陪同，監護"
+    },
+    {
+     "p": "n.",
+     "m": "陪同人"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Because you're just a mom and you're chaperoning this thing and you go to this thing and then you see this boy band. -I love hearing you describe my movie.",
+     "zh": "因為你只是個媽媽，負責陪同這個活動，你去了這個活動，然後看到這個男子團體。－我好喜歡聽你描述我的電影。",
+     "t": 418.4
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "chaperone a school trip 帶隊校外教學。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "chaperones"
+      ],
+      [
+       "過去式",
+       "chaperoned"
+      ],
+      [
+       "過去分詞",
+       "chaperoned"
+      ],
+      [
+       "現在分詞",
+       "chaperoning"
+      ]
+     ]
+    },
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "chaperones"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "w": "festival",
+   "s": 2,
+   "ph": "[ˋfɛstəvḷ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "節慶，音樂節"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Mom is chaperoning, like, a Coachella type of thing, like a giant outdoor festival thing, and the biggest boy band in the world, and then the lead singer -- -Oh, yes, so, my daughter is off watching St.",
+     "zh": "媽媽在陪同，像是一個類似 Coachella 的活動，一個大型戶外音樂節，然後有全世界最紅的男子團體，然後主唱……－喔，對，所以我女兒跑去看 St.",
+     "t": 431.1
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "music festival 音樂節；film festival 影展（Part 4 活動公告）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "festivals"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "w": "ensue",
+   "s": 1,
+   "ph": "[ɛnˋsu]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "接著發生"
+    }
+   ],
+   "ex": [
+    {
+     "en": "And the rest is -- High jinks ensues.",
+     "zh": "接下來就……一連串爆笑的事發生了。",
+     "t": 457.4
+    }
+   ],
+   "fam": [
+    "ensuing adj. 隨後的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "high jinks ensue 接著一連串爆笑場面；the ensuing discussion 隨後的討論。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "ensues"
+      ],
+      [
+       "過去式",
+       "ensued"
+      ],
+      [
+       "過去分詞",
+       "ensued"
+      ],
+      [
+       "現在分詞",
+       "ensuing"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "w": "streaming",
+   "s": 2,
+   "ph": "[ˋstrimɪŋ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "串流"
+    }
+   ],
+   "ex": [
+    {
+     "en": "\"The Idea of You\" begins streaming on Prime Video this Thursday.",
+     "zh": "《The Idea of You》本週四在 Prime Video 上線。",
+     "t": 594.8
+    }
+   ],
+   "fam": [
+    "stream v. 串流播放"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "begin streaming on 在某平台上線；streaming service 串流服務。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  }
+ ],
+ "cloze": [
+  {
+   "s": "You're a great partner. -I mean, are you are you ___ when you play games?",
+   "a": "competitive",
+   "opts": [
+    "competitive",
+    "genetic",
+    "apparently",
+    "genuinely"
+   ]
+  },
+  {
+   "s": "Yeah. -I think maybe being competitive is ___, because my kids are, like -- They're competitive, too.",
+   "a": "genetic",
+   "opts": [
+    "competitive",
+    "genetic",
+    "apparently",
+    "genuinely"
+   ]
+  },
+  {
+   "s": "You know movies. -I didn't -- I mean, ___, I do.",
+   "a": "apparently",
+   "opts": [
+    "competitive",
+    "genetic",
+    "apparently",
+    "genuinely"
+   ]
+  },
+  {
+   "s": "I was gonna say, \"Wait...\" -But I was ___ confused.",
+   "a": "genuinely",
+   "opts": [
+    "competitive",
+    "genetic",
+    "apparently",
+    "genuinely"
+   ]
+  },
+  {
+   "s": "You made your kind of Broadway ___ together in \"Gutenberg! The Musical!\"",
+   "a": "debut",
+   "opts": [
+    "debut",
+    "grateful",
+    "outdoor",
+    "streaming"
+   ]
+  },
+  {
+   "s": "and I'm very -- I'm just very ___ for our relationship. -She's so cool. -She's so cool. -She's so cool. -So cool. -Do you get nervous around -- I get a little nervous -- -I absolutely do. -You do?",
+   "a": "grateful",
+   "opts": [
+    "debut",
+    "grateful",
+    "outdoor",
+    "streaming"
+   ]
+  },
+  {
+   "s": "Thank goodness. -No, you were perfect. -Well, because -- So, the Delacorte Theater is an ___ theater in Central Park.",
+   "a": "outdoor",
+   "opts": [
+    "debut",
+    "grateful",
+    "outdoor",
+    "streaming"
+   ]
+  },
+  {
+   "s": "\"The Idea of You\" begins ___ on Prime Video this Thursday.",
+   "a": "streaming",
+   "opts": [
+    "debut",
+    "grateful",
+    "outdoor",
+    "streaming"
+   ]
+  }
+ ],
+ "comp": [
+  {
+   "q": "當了媽媽之後，Anne 的好勝心有什麼改變？",
+   "a": "變溫柔了，喜歡看孩子贏",
+   "opts": [
+    "變溫柔了，喜歡看孩子贏",
+    "變得更好勝",
+    "再也不玩遊戲了",
+    "只跟大人玩"
+   ]
+  },
+  {
+   "q": "電影問答遊戲裡她答錯了哪一題？",
+   "a": "《穿著 Prada 的惡魔》的初級助理——其實是她自己演的",
+   "opts": [
+    "《穿著 Prada 的惡魔》的初級助理——其實是她自己演的",
+    "《麻雀變公主》的女主角",
+    "一題運動題",
+    "《第十二夜》的作者"
+   ]
+  },
+  {
+   "q": "Anne 和誰一起被邀上《Gutenberg! The Musical!》的舞台？",
+   "a": "Anna Wintour",
+   "opts": [
+    "Anna Wintour",
+    "Emily Blunt",
+    "Jimmy Fallon",
+    "Nick Galitzine"
+   ]
+  },
+  {
+   "q": "《第十二夜》那晚觀眾爆笑的真正原因是？",
+   "a": "她身後跑出一家子浣熊",
+   "opts": [
+    "她身後跑出一家子浣熊",
+    "她終於找到台詞的笑點",
+    "突然下大雨",
+    "她忘詞了"
+   ]
+  },
+  {
+   "q": "《The Idea of You》的預告片創下什麼紀錄？",
+   "a": "史上觀看次數最多的串流電影預告片",
+   "opts": [
+    "史上觀看次數最多的串流電影預告片",
+    "史上最長的預告片",
+    "第一支在音樂節首映的預告",
+    "票房最高的愛情片"
+   ]
+  }
+ ]
+}

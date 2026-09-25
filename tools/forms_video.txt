@@ -476,3 +476,48 @@ efficient	adj: more efficient, most efficient	—
 accolade	n: accolades	—
 deviate	v: deviates, deviated, deviated, deviating	—
 epidemic	n: epidemics	—
+competitive	adj: more competitive, most competitive	—
+genetic	adj: 無比較級	—
+apparently	adv: 無比較級	—
+executive	n: executives	—
+genuinely	adv: 無比較級	—
+touchstone	n: touchstones	—
+debut	n: debuts ; v: debuts, debuted, debuted, debuting	—
+icon	n: icons	—
+grateful	adj: more grateful, most grateful	—
+outdoor	adj: 無比較級	—
+trailer	n: trailers	—
+chaperone	v: chaperones, chaperoned, chaperoned, chaperoning ; n: chaperones	—
+festival	n: festivals	—
+ensue	v: ensues, ensued, ensued, ensuing	—
+streaming	n: 不可數	—
+consulate	n: consulates	—
+momentum	n: 不可數	—
+generous	adj: more generous, most generous	—
+gracious	adj: more gracious, most gracious	—
+property	n: properties	—
+astonishingly	adv: 無比較級	—
+vast	adj: vaster, vastest	—
+improbable	adj: more improbable, most improbable	—
+indoors	adv: 無比較級	—
+enormous	adj: 無比較級	—
+premiere	n: premieres	—
+budget	n: budgets	—
+catered	adj: 無比較級	—
+exterior	n: exteriors	—
+effortless	adj: more effortless, most effortless	—
+admiration	n: 不可數	—
+venue	n: venues	—
+energetic	adj: more energetic, most energetic	—
+humble	v: humbles, humbled, humbled, humbling ; adj: humbler, humblest	—
+surreal	adj: more surreal, most surreal	—
+interaction	n: interactions	—
+navigate	v: navigates, navigated, navigated, navigating	—
+departure	n: departures	—
+merit	n: merits	—
+mature	adj: more mature, most mature	—
+nostalgic	adj: more nostalgic, most nostalgic	—
+limitation	n: limitations	—
+palpable	adj: more palpable, most palpable	—
+nepotism	n: 不可數	—
+charity	n: charities	—

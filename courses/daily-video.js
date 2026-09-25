@@ -22676,6 +22676,2700 @@ TVJ.register({
      ]
     }
    ]
+  },
+  {
+   "id": "yt-ocGJWc2F1Yk",
+   "label": "影片 25",
+   "theme": "Anne Hathaway 談好勝心、浣熊搶戲與《The Idea of You》",
+   "themeEn": "Anne Hathaway Forgets The Princess Diaries and The Devil Wears Prada Details",
+   "video": "https://youtu.be/ocGJWc2F1Yk",
+   "source": "",
+   "publisher": "The Tonight Show Starring Jimmy Fallon",
+   "release": "2026-10-18",
+   "transcript": "transcripts/ocGJWc2F1Yk.json",
+   "lines": 143,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "competitive",
+     "s": 3,
+     "ph": "[kəmˋpɛtətɪv]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "好勝的；有競爭力的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "You're a great partner. -I mean, are you are you competitive when you play games?",
+       "zh": "你是很棒的搭檔。－我是說，你玩遊戲的時候好勝心強嗎？",
+       "t": 14.9,
+       "aus": {
+        "US": "tts/ocGJWc2F1Yk/w1_e0_US.mp3",
+        "UK": "tts/ocGJWc2F1Yk/w1_e0_UK.mp3",
+        "AU": "tts/ocGJWc2F1Yk/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "compete v. 競爭",
+      "competition n. 競爭；比賽"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "competitive price 有競爭力的價格；competitive salary 優渥的薪資（徵才廣告必考）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more competitive"
+        ],
+        [
+         "最高級",
+         "most competitive"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/ocGJWc2F1Yk/w1_US.mp3",
+      "UK": "tts/ocGJWc2F1Yk/w1_UK.mp3",
+      "AU": "tts/ocGJWc2F1Yk/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "genetic",
+     "s": 1,
+     "ph": "[dʒəˋnɛtɪk]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "遺傳的，基因的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Yeah. -I think maybe being competitive is genetic, because my kids are, like -- They're competitive, too.",
+       "zh": "對。－我覺得好勝心可能是遺傳的，因為我的孩子們……他們也很好勝。",
+       "t": 32.7,
+       "aus": {
+        "US": "tts/ocGJWc2F1Yk/w2_e0_US.mp3",
+        "UK": "tts/ocGJWc2F1Yk/w2_e0_UK.mp3",
+        "AU": "tts/ocGJWc2F1Yk/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "gene n. 基因"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "genetic testing 基因檢測。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/ocGJWc2F1Yk/w2_US.mp3",
+      "UK": "tts/ocGJWc2F1Yk/w2_UK.mp3",
+      "AU": "tts/ocGJWc2F1Yk/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "apparently",
+     "s": 2,
+     "ph": "[əˋpærəntlɪ]",
+     "pos": [
+      {
+       "p": "adv.",
+       "m": "顯然；據說"
+      }
+     ],
+     "ex": [
+      {
+       "en": "You know movies. -I didn't -- I mean, apparently, I do.",
+       "zh": "你很懂電影。－我沒有……我是說，顯然我懂。",
+       "t": 93.1,
+       "aus": {
+        "US": "tts/ocGJWc2F1Yk/w3_e0_US.mp3",
+        "UK": "tts/ocGJWc2F1Yk/w3_e0_UK.mp3",
+        "AU": "tts/ocGJWc2F1Yk/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "apparent adj. 明顯的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "Apparently, the meeting was canceled. 聽說會議取消了（口語常表示「聽說」）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adv.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/ocGJWc2F1Yk/w3_US.mp3",
+      "UK": "tts/ocGJWc2F1Yk/w3_UK.mp3",
+      "AU": "tts/ocGJWc2F1Yk/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "executive",
+     "s": 3,
+     "ph": "[ɪgˋzɛkjʊtɪv]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "主管，高階經理"
+      },
+      {
+       "p": "adj.",
+       "m": "執行的；高階的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So, uh, junior executive assistant, 'Devil Wears Prada.'\" I'm just like, \"Emily Blunt.\"",
+       "zh": "所以，呃，《穿著 Prada 的惡魔》裡的初級執行助理。」我就說：「Emily Blunt。」",
+       "t": 100.4,
+       "aus": {
+        "US": "tts/ocGJWc2F1Yk/w4_e0_US.mp3",
+        "UK": "tts/ocGJWc2F1Yk/w4_e0_UK.mp3",
+        "AU": "tts/ocGJWc2F1Yk/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "executive assistant 執行助理；chief executive officer（CEO）執行長。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "executives"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/ocGJWc2F1Yk/w4_US.mp3",
+      "UK": "tts/ocGJWc2F1Yk/w4_UK.mp3",
+      "AU": "tts/ocGJWc2F1Yk/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "genuinely",
+     "s": 2,
+     "ph": "[ˋdʒɛnjʊɪnlɪ]",
+     "pos": [
+      {
+       "p": "adv.",
+       "m": "真正地，真心地"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I was gonna say, \"Wait...\" -But I was genuinely confused.",
+       "zh": "我正要說：「等一下……」－但我是真的搞混了。",
+       "t": 111.8,
+       "aus": {
+        "US": "tts/ocGJWc2F1Yk/w5_e0_US.mp3",
+        "UK": "tts/ocGJWc2F1Yk/w5_e0_UK.mp3",
+        "AU": "tts/ocGJWc2F1Yk/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "genuine adj. 真的，真誠的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "genuine leather 真皮；genuinely interested 真心感興趣。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adv.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/ocGJWc2F1Yk/w5_US.mp3",
+      "UK": "tts/ocGJWc2F1Yk/w5_UK.mp3",
+      "AU": "tts/ocGJWc2F1Yk/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "touchstone",
+     "s": 1,
+     "ph": "[ˋtʌtʃ͵ston]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "試金石；經典代表"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Yeah, they love you so much. -I love that it's become kind of one of those family touchstones.",
+       "zh": "對，她們超愛你的。－我很喜歡它變成那種全家人共同的經典回憶。",
+       "t": 144.6,
+       "aus": {
+        "US": "tts/ocGJWc2F1Yk/w6_e0_US.mp3",
+        "UK": "tts/ocGJWc2F1Yk/w6_e0_UK.mp3",
+        "AU": "tts/ocGJWc2F1Yk/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a family touchstone 全家人共同的經典回憶。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "touchstones"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/ocGJWc2F1Yk/w6_US.mp3",
+      "UK": "tts/ocGJWc2F1Yk/w6_UK.mp3",
+      "AU": "tts/ocGJWc2F1Yk/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "debut",
+     "s": 2,
+     "ph": "[deˋbju]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "首次登台，首演；（產品）首次亮相"
+      }
+     ],
+     "ex": [
+      {
+       "en": "You made your kind of Broadway debut together in \"Gutenberg! The Musical!\"",
+       "zh": "你們一起在《Gutenberg! The Musical!》裡算是完成了百老匯首演。",
+       "t": 159.4,
+       "aus": {
+        "US": "tts/ocGJWc2F1Yk/w7_e0_US.mp3",
+        "UK": "tts/ocGJWc2F1Yk/w7_e0_UK.mp3",
+        "AU": "tts/ocGJWc2F1Yk/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "make one's Broadway debut 百老匯首演；the product will debut next month 產品下個月首度亮相。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "debuts"
+        ]
+       ]
+      },
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "debuts"
+        ],
+        [
+         "過去式",
+         "debuted"
+        ],
+        [
+         "過去分詞",
+         "debuted"
+        ],
+        [
+         "現在分詞",
+         "debuting"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/ocGJWc2F1Yk/w7_US.mp3",
+      "UK": "tts/ocGJWc2F1Yk/w7_UK.mp3",
+      "AU": "tts/ocGJWc2F1Yk/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "icon",
+     "s": 2,
+     "ph": "[ˋaɪkɑn]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "代表人物，偶像；（電腦）圖示"
+      }
+     ],
+     "ex": [
+      {
+       "en": "She's also a New York icon. -Oh, yeah. -So I think if she shows up at a pizzeria -- -Yeah, she's a New York icon.",
+       "zh": "她也是紐約的代表人物。－喔，對。－所以我覺得如果她出現在一家披薩店……－對，她是紐約的代表人物。",
+       "t": 201.8,
+       "aus": {
+        "US": "tts/ocGJWc2F1Yk/w8_e0_US.mp3",
+        "UK": "tts/ocGJWc2F1Yk/w8_e0_UK.mp3",
+        "AU": "tts/ocGJWc2F1Yk/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "iconic adj. 具代表性的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "click the icon 點擊圖示（操作說明）；a fashion icon 時尚偶像。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "icons"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/ocGJWc2F1Yk/w8_US.mp3",
+      "UK": "tts/ocGJWc2F1Yk/w8_UK.mp3",
+      "AU": "tts/ocGJWc2F1Yk/w8_AU.mp3"
+     }
+    },
+    {
+     "n": 9,
+     "w": "grateful",
+     "s": 2,
+     "ph": "[ˋgretfəl]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "感激的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "and I'm very -- I'm just very grateful for our relationship. -She's so cool. -She's so cool. -She's so cool. -So cool. -Do you get nervous around -- I get a little nervous -- -I absolutely do. -You do?",
+       "zh": "我非常……我真的非常感謝我們之間的關係。－她好酷。－她好酷。－她好酷。－超酷。－你在她身邊會緊張嗎？我會有點緊張……－我絕對會。－你會？",
+       "t": 216.6,
+       "aus": {
+        "US": "tts/ocGJWc2F1Yk/w9_e0_US.mp3",
+        "UK": "tts/ocGJWc2F1Yk/w9_e0_UK.mp3",
+        "AU": "tts/ocGJWc2F1Yk/w9_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "gratitude n. 感激"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "I would be grateful if you could... 若您能～將不勝感激（正式書信必考）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more grateful"
+        ],
+        [
+         "最高級",
+         "most grateful"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/ocGJWc2F1Yk/w9_US.mp3",
+      "UK": "tts/ocGJWc2F1Yk/w9_UK.mp3",
+      "AU": "tts/ocGJWc2F1Yk/w9_AU.mp3"
+     }
+    },
+    {
+     "n": 10,
+     "w": "outdoor",
+     "s": 2,
+     "ph": "[ˋaʊt͵dor]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "戶外的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Thank goodness. -No, you were perfect. -Well, because -- So, the Delacorte Theater is an outdoor theater in Central Park.",
+       "zh": "謝天謝地。－沒有，你很完美。－嗯，因為……Delacorte 劇場是中央公園裡的一座露天劇場。",
+       "t": 281.3,
+       "aus": {
+        "US": "tts/ocGJWc2F1Yk/w10_e0_US.mp3",
+        "UK": "tts/ocGJWc2F1Yk/w10_e0_UK.mp3",
+        "AU": "tts/ocGJWc2F1Yk/w10_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "outdoors adv. 在戶外"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "outdoor seating 戶外座位（餐廳）；outdoor adj. vs. outdoors adv.（Part 5 詞性題）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/ocGJWc2F1Yk/w10_US.mp3",
+      "UK": "tts/ocGJWc2F1Yk/w10_UK.mp3",
+      "AU": "tts/ocGJWc2F1Yk/w10_AU.mp3"
+     }
+    },
+    {
+     "n": 11,
+     "w": "trailer",
+     "s": 2,
+     "ph": "[ˋtrelɚ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "預告片；拖車，（片場）休息車"
+      }
+     ],
+     "ex": [
+      {
+       "en": "The trailer alone has gotten over 125 million views. -Yeah. -It crushed, broke the record.",
+       "zh": "光是預告片觀看次數就超過 1 億 2500 萬次。－對。－大獲成功，打破紀錄。",
+       "t": 384.6,
+       "aus": {
+        "US": "tts/ocGJWc2F1Yk/w11_e0_US.mp3",
+        "UK": "tts/ocGJWc2F1Yk/w11_e0_UK.mp3",
+        "AU": "tts/ocGJWc2F1Yk/w11_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "movie trailer 電影預告；本片的 trailer 同時指預告片和明星休息車。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "trailers"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/ocGJWc2F1Yk/w11_US.mp3",
+      "UK": "tts/ocGJWc2F1Yk/w11_UK.mp3",
+      "AU": "tts/ocGJWc2F1Yk/w11_AU.mp3"
+     }
+    },
+    {
+     "n": 12,
+     "w": "chaperone",
+     "s": 1,
+     "ph": "[ˋʃæpə͵ron]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "陪同，監護"
+      },
+      {
+       "p": "n.",
+       "m": "陪同人"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Because you're just a mom and you're chaperoning this thing and you go to this thing and then you see this boy band. -I love hearing you describe my movie.",
+       "zh": "因為你只是個媽媽，負責陪同這個活動，你去了這個活動，然後看到這個男子團體。－我好喜歡聽你描述我的電影。",
+       "t": 418.4,
+       "aus": {
+        "US": "tts/ocGJWc2F1Yk/w12_e0_US.mp3",
+        "UK": "tts/ocGJWc2F1Yk/w12_e0_UK.mp3",
+        "AU": "tts/ocGJWc2F1Yk/w12_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "chaperone a school trip 帶隊校外教學。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "chaperones"
+        ],
+        [
+         "過去式",
+         "chaperoned"
+        ],
+        [
+         "過去分詞",
+         "chaperoned"
+        ],
+        [
+         "現在分詞",
+         "chaperoning"
+        ]
+       ]
+      },
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "chaperones"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/ocGJWc2F1Yk/w12_US.mp3",
+      "UK": "tts/ocGJWc2F1Yk/w12_UK.mp3",
+      "AU": "tts/ocGJWc2F1Yk/w12_AU.mp3"
+     }
+    },
+    {
+     "n": 13,
+     "w": "festival",
+     "s": 2,
+     "ph": "[ˋfɛstəvḷ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "節慶，音樂節"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Mom is chaperoning, like, a Coachella type of thing, like a giant outdoor festival thing, and the biggest boy band in the world, and then the lead singer -- -Oh, yes, so, my daughter is off watching St.",
+       "zh": "媽媽在陪同，像是一個類似 Coachella 的活動，一個大型戶外音樂節，然後有全世界最紅的男子團體，然後主唱……－喔，對，所以我女兒跑去看 St.",
+       "t": 431.1,
+       "aus": {
+        "US": "tts/ocGJWc2F1Yk/w13_e0_US.mp3",
+        "UK": "tts/ocGJWc2F1Yk/w13_e0_UK.mp3",
+        "AU": "tts/ocGJWc2F1Yk/w13_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "music festival 音樂節；film festival 影展（Part 4 活動公告）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "festivals"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/ocGJWc2F1Yk/w13_US.mp3",
+      "UK": "tts/ocGJWc2F1Yk/w13_UK.mp3",
+      "AU": "tts/ocGJWc2F1Yk/w13_AU.mp3"
+     }
+    },
+    {
+     "n": 14,
+     "w": "ensue",
+     "s": 1,
+     "ph": "[ɛnˋsu]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "接著發生"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And the rest is -- High jinks ensues.",
+       "zh": "接下來就……一連串爆笑的事發生了。",
+       "t": 457.4,
+       "aus": {
+        "US": "tts/ocGJWc2F1Yk/w14_e0_US.mp3",
+        "UK": "tts/ocGJWc2F1Yk/w14_e0_UK.mp3",
+        "AU": "tts/ocGJWc2F1Yk/w14_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "ensuing adj. 隨後的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "high jinks ensue 接著一連串爆笑場面；the ensuing discussion 隨後的討論。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "ensues"
+        ],
+        [
+         "過去式",
+         "ensued"
+        ],
+        [
+         "過去分詞",
+         "ensued"
+        ],
+        [
+         "現在分詞",
+         "ensuing"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/ocGJWc2F1Yk/w14_US.mp3",
+      "UK": "tts/ocGJWc2F1Yk/w14_UK.mp3",
+      "AU": "tts/ocGJWc2F1Yk/w14_AU.mp3"
+     }
+    },
+    {
+     "n": 15,
+     "w": "streaming",
+     "s": 2,
+     "ph": "[ˋstrimɪŋ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "串流"
+      }
+     ],
+     "ex": [
+      {
+       "en": "\"The Idea of You\" begins streaming on Prime Video this Thursday.",
+       "zh": "《The Idea of You》本週四在 Prime Video 上線。",
+       "t": 594.8,
+       "aus": {
+        "US": "tts/ocGJWc2F1Yk/w15_e0_US.mp3",
+        "UK": "tts/ocGJWc2F1Yk/w15_e0_UK.mp3",
+        "AU": "tts/ocGJWc2F1Yk/w15_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "stream v. 串流播放"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "begin streaming on 在某平台上線；streaming service 串流服務。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/ocGJWc2F1Yk/w15_US.mp3",
+      "UK": "tts/ocGJWc2F1Yk/w15_UK.mp3",
+      "AU": "tts/ocGJWc2F1Yk/w15_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "You're a great partner. -I mean, are you are you ___ when you play games?",
+     "a": "competitive",
+     "opts": [
+      "competitive",
+      "genetic",
+      "apparently",
+      "genuinely"
+     ]
+    },
+    {
+     "s": "Yeah. -I think maybe being competitive is ___, because my kids are, like -- They're competitive, too.",
+     "a": "genetic",
+     "opts": [
+      "competitive",
+      "genetic",
+      "apparently",
+      "genuinely"
+     ]
+    },
+    {
+     "s": "You know movies. -I didn't -- I mean, ___, I do.",
+     "a": "apparently",
+     "opts": [
+      "competitive",
+      "genetic",
+      "apparently",
+      "genuinely"
+     ]
+    },
+    {
+     "s": "I was gonna say, \"Wait...\" -But I was ___ confused.",
+     "a": "genuinely",
+     "opts": [
+      "competitive",
+      "genetic",
+      "apparently",
+      "genuinely"
+     ]
+    },
+    {
+     "s": "You made your kind of Broadway ___ together in \"Gutenberg! The Musical!\"",
+     "a": "debut",
+     "opts": [
+      "debut",
+      "grateful",
+      "outdoor",
+      "streaming"
+     ]
+    },
+    {
+     "s": "and I'm very -- I'm just very ___ for our relationship. -She's so cool. -She's so cool. -She's so cool. -So cool. -Do you get nervous around -- I get a little nervous -- -I absolutely do. -You do?",
+     "a": "grateful",
+     "opts": [
+      "debut",
+      "grateful",
+      "outdoor",
+      "streaming"
+     ]
+    },
+    {
+     "s": "Thank goodness. -No, you were perfect. -Well, because -- So, the Delacorte Theater is an ___ theater in Central Park.",
+     "a": "outdoor",
+     "opts": [
+      "debut",
+      "grateful",
+      "outdoor",
+      "streaming"
+     ]
+    },
+    {
+     "s": "\"The Idea of You\" begins ___ on Prime Video this Thursday.",
+     "a": "streaming",
+     "opts": [
+      "debut",
+      "grateful",
+      "outdoor",
+      "streaming"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "當了媽媽之後，Anne 的好勝心有什麼改變？",
+     "a": "變溫柔了，喜歡看孩子贏",
+     "opts": [
+      "變溫柔了，喜歡看孩子贏",
+      "變得更好勝",
+      "再也不玩遊戲了",
+      "只跟大人玩"
+     ]
+    },
+    {
+     "q": "電影問答遊戲裡她答錯了哪一題？",
+     "a": "《穿著 Prada 的惡魔》的初級助理——其實是她自己演的",
+     "opts": [
+      "《穿著 Prada 的惡魔》的初級助理——其實是她自己演的",
+      "《麻雀變公主》的女主角",
+      "一題運動題",
+      "《第十二夜》的作者"
+     ]
+    },
+    {
+     "q": "Anne 和誰一起被邀上《Gutenberg! The Musical!》的舞台？",
+     "a": "Anna Wintour",
+     "opts": [
+      "Anna Wintour",
+      "Emily Blunt",
+      "Jimmy Fallon",
+      "Nick Galitzine"
+     ]
+    },
+    {
+     "q": "《第十二夜》那晚觀眾爆笑的真正原因是？",
+     "a": "她身後跑出一家子浣熊",
+     "opts": [
+      "她身後跑出一家子浣熊",
+      "她終於找到台詞的笑點",
+      "突然下大雨",
+      "她忘詞了"
+     ]
+    },
+    {
+     "q": "《The Idea of You》的預告片創下什麼紀錄？",
+     "a": "史上觀看次數最多的串流電影預告片",
+     "opts": [
+      "史上觀看次數最多的串流電影預告片",
+      "史上最長的預告片",
+      "第一支在音樂節首映的預告",
+      "票房最高的愛情片"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yt-wiAGn89QVH0",
+   "label": "影片 26",
+   "theme": "《穿著 Prada 的惡魔 2》卡司猜電影拍攝地",
+   "themeEn": "Does 'The Devil Wears Prada 2' Cast Know Their Film Locations?",
+   "video": "https://youtu.be/wiAGn89QVH0",
+   "source": "",
+   "publisher": "Condé Nast Traveler",
+   "release": "2026-10-19",
+   "transcript": "transcripts/wiAGn89QVH0.json",
+   "lines": 181,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "consulate",
+     "s": 1,
+     "ph": "[ˋkɑnsḷɪt]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "領事館"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I know what's the fastest way back to the consulate, but I hate this hill.",
+       "zh": "我知道回領事館最快的路，但我討厭這座坡。",
+       "t": 35.7,
+       "aus": {
+        "US": "tts/wiAGn89QVH0/w1_e0_US.mp3",
+        "UK": "tts/wiAGn89QVH0/w1_e0_UK.mp3",
+        "AU": "tts/wiAGn89QVH0/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "consul n. 領事"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "the consulate 領事館（辦簽證題）；embassy＝大使館。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "consulates"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/wiAGn89QVH0/w1_US.mp3",
+      "UK": "tts/wiAGn89QVH0/w1_UK.mp3",
+      "AU": "tts/wiAGn89QVH0/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "momentum",
+     "s": 2,
+     "ph": "[moˋmɛntəm]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "衝力；（事情發展的）氣勢"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I picked up so much momentum so fast. Heart pounding. Oh my gosh.",
+       "zh": "我一下子就衝得好快。心臟狂跳。天啊。",
+       "t": 58.7,
+       "aus": {
+        "US": "tts/wiAGn89QVH0/w2_e0_US.mp3",
+        "UK": "tts/wiAGn89QVH0/w2_e0_UK.mp3",
+        "AU": "tts/wiAGn89QVH0/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "gain／lose momentum 聲勢增強／減弱（業績、專案常用）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/wiAGn89QVH0/w2_US.mp3",
+      "UK": "tts/wiAGn89QVH0/w2_UK.mp3",
+      "AU": "tts/wiAGn89QVH0/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "generous",
+     "s": 3,
+     "ph": "[ˋdʒɛnərəs]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "大方的，慷慨的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "She's the most magical hug of a human being. And she's so generous. She's so warm.",
+       "zh": "她的擁抱是全世界最神奇的。她非常大方。非常溫暖。",
+       "t": 99.3,
+       "aus": {
+        "US": "tts/wiAGn89QVH0/w3_e0_US.mp3",
+        "UK": "tts/wiAGn89QVH0/w3_e0_UK.mp3",
+        "AU": "tts/wiAGn89QVH0/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "generosity n. 慷慨（影片 22）"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a generous donation 慷慨的捐款；generous portions 份量很多（餐廳評論）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more generous"
+        ],
+        [
+         "最高級",
+         "most generous"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/wiAGn89QVH0/w3_US.mp3",
+      "UK": "tts/wiAGn89QVH0/w3_UK.mp3",
+      "AU": "tts/wiAGn89QVH0/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "gracious",
+     "s": 1,
+     "ph": "[ˋgreʃəs]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "親切有禮的，和藹的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "She has the most amazing energy. Just really, really gracious.",
+       "zh": "她有最棒的能量。真的真的非常親切。",
+       "t": 108.7,
+       "aus": {
+        "US": "tts/wiAGn89QVH0/w4_e0_US.mp3",
+        "UK": "tts/wiAGn89QVH0/w4_e0_UK.mp3",
+        "AU": "tts/wiAGn89QVH0/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a gracious host 親切的主人。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more gracious"
+        ],
+        [
+         "最高級",
+         "most gracious"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/wiAGn89QVH0/w4_US.mp3",
+      "UK": "tts/wiAGn89QVH0/w4_UK.mp3",
+      "AU": "tts/wiAGn89QVH0/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "property",
+     "s": 3,
+     "ph": "[ˋprɑpɚtɪ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "房地產，地產；財產"
+      }
+     ],
+     "ex": [
+      {
+       "en": "So, this was the Georgia O'Keeffe property, I think, in the middle of nowhere, the New Mexican desert.",
+       "zh": "這是 Georgia O'Keeffe 的莊園，我想，在新墨西哥沙漠的荒郊野外。",
+       "t": 134.5,
+       "aus": {
+        "US": "tts/wiAGn89QVH0/w5_e0_US.mp3",
+        "UK": "tts/wiAGn89QVH0/w5_e0_UK.mp3",
+        "AU": "tts/wiAGn89QVH0/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "property manager 物業經理；rental property 出租房產（Part 7 租屋廣告）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "properties"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/wiAGn89QVH0/w5_US.mp3",
+      "UK": "tts/wiAGn89QVH0/w5_UK.mp3",
+      "AU": "tts/wiAGn89QVH0/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "astonishingly",
+     "s": 1,
+     "ph": "[əˋstɑnɪʃɪŋlɪ]",
+     "pos": [
+      {
+       "p": "adv.",
+       "m": "驚人地"
+      }
+     ],
+     "ex": [
+      {
+       "en": "To my ranch with friends. You should come. It was astonishingly beautiful.",
+       "zh": "「去我的牧場，和朋友們一起。你應該來。」那裡美得驚人。",
+       "t": 166.8,
+       "aus": {
+        "US": "tts/wiAGn89QVH0/w6_e0_US.mp3",
+        "UK": "tts/wiAGn89QVH0/w6_e0_UK.mp3",
+        "AU": "tts/wiAGn89QVH0/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "astonish v. 使驚訝",
+      "astonishing adj. 驚人的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "astonishingly beautiful 美得驚人。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adv.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/wiAGn89QVH0/w6_US.mp3",
+      "UK": "tts/wiAGn89QVH0/w6_UK.mp3",
+      "AU": "tts/wiAGn89QVH0/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "vast",
+     "s": 2,
+     "ph": "[væst]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "遼闊的，巨大的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Like, I think the New Mexican skies are just this vast, this mythic story space to make that movie. It was wild. Jesus. I mean, um oh.",
+       "zh": "我覺得新墨西哥的天空就是這麼遼闊，是拍那部電影最神話般的故事空間。太狂了。天啊。我是說，嗯，喔。",
+       "t": 170.7,
+       "aus": {
+        "US": "tts/wiAGn89QVH0/w7_e0_US.mp3",
+        "UK": "tts/wiAGn89QVH0/w7_e0_UK.mp3",
+        "AU": "tts/wiAGn89QVH0/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "vastness n. 遼闊"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "the vast majority of 絕大多數的～（報告題常見）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "vaster"
+        ],
+        [
+         "最高級",
+         "vastest"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/wiAGn89QVH0/w7_US.mp3",
+      "UK": "tts/wiAGn89QVH0/w7_UK.mp3",
+      "AU": "tts/wiAGn89QVH0/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "improbable",
+     "s": 1,
+     "ph": "[ɪmˋprɑbəbḷ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "不太可能的，難以置信的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And they did it more than once. Yeah. It's an amazing spot. It's almost improbable.",
+       "zh": "結果他們拍了不只一次。對。那是個很棒的地方。幾乎令人難以置信。",
+       "t": 192.5,
+       "aus": {
+        "US": "tts/wiAGn89QVH0/w8_e0_US.mp3",
+        "UK": "tts/wiAGn89QVH0/w8_e0_UK.mp3",
+        "AU": "tts/wiAGn89QVH0/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "probable adj. 可能的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "highly improbable 極不可能。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more improbable"
+        ],
+        [
+         "最高級",
+         "most improbable"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/wiAGn89QVH0/w8_US.mp3",
+      "UK": "tts/wiAGn89QVH0/w8_UK.mp3",
+      "AU": "tts/wiAGn89QVH0/w8_AU.mp3"
+     }
+    },
+    {
+     "n": 9,
+     "w": "indoors",
+     "s": 2,
+     "ph": "[ˋɪnˋdorz]",
+     "pos": [
+      {
+       "p": "adv.",
+       "m": "在室內"
+      }
+     ],
+     "ex": [
+      {
+       "en": "We shot in indoors, in England.",
+       "zh": "我們是在英國的室內拍的。",
+       "t": 208.2,
+       "aus": {
+        "US": "tts/wiAGn89QVH0/w9_e0_US.mp3",
+        "UK": "tts/wiAGn89QVH0/w9_e0_UK.mp3",
+        "AU": "tts/wiAGn89QVH0/w9_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "indoor adj. 室內的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "indoors adv. vs. indoor adj.（indoor pool 室內泳池；Part 5 詞性題）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adv.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/wiAGn89QVH0/w9_US.mp3",
+      "UK": "tts/wiAGn89QVH0/w9_UK.mp3",
+      "AU": "tts/wiAGn89QVH0/w9_AU.mp3"
+     }
+    },
+    {
+     "n": 10,
+     "w": "enormous",
+     "s": 2,
+     "ph": "[ɪˋnɔrməs]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "巨大的，極大的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I was always an enormous fan, although we are not terribly apart you know, huge age difference.",
+       "zh": "我一直都是她的超級粉絲，雖然我們年紀沒有差很多，你知道，巨大的年齡差距。",
+       "t": 322.5,
+       "aus": {
+        "US": "tts/wiAGn89QVH0/w10_e0_US.mp3",
+        "UK": "tts/wiAGn89QVH0/w10_e0_UK.mp3",
+        "AU": "tts/wiAGn89QVH0/w10_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "an enormous success 巨大的成功。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/wiAGn89QVH0/w10_US.mp3",
+      "UK": "tts/wiAGn89QVH0/w10_UK.mp3",
+      "AU": "tts/wiAGn89QVH0/w10_AU.mp3"
+     }
+    },
+    {
+     "n": 11,
+     "w": "premiere",
+     "s": 2,
+     "ph": "[prɪˋmɪr]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "首映"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I watched it again last night cuz the kids wanted to finish it last night before they come to the premiere.",
+       "zh": "我昨晚又看了一次，因為孩子們想在來首映會之前把它看完。",
+       "t": 528.1,
+       "aus": {
+        "US": "tts/wiAGn89QVH0/w11_e0_US.mp3",
+        "UK": "tts/wiAGn89QVH0/w11_e0_UK.mp3",
+        "AU": "tts/wiAGn89QVH0/w11_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "the world premiere 全球首映；attend the premiere 出席首映會。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "premieres"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/wiAGn89QVH0/w11_US.mp3",
+      "UK": "tts/wiAGn89QVH0/w11_UK.mp3",
+      "AU": "tts/wiAGn89QVH0/w11_AU.mp3"
+     }
+    },
+    {
+     "n": 12,
+     "w": "budget",
+     "s": 3,
+     "ph": "[ˋbʌdʒɪt]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "預算"
+      }
+     ],
+     "ex": [
+      {
+       "en": "Pat Field had put me in these lovely gloves and I was wearing my own uh Prada shoes that I brought because sometimes uh in a film you the budget doesn't quite stretch and so you provide some of your own favorite accessories.",
+       "zh": "Pat Field 讓我戴上這雙好美的手套，我穿的是我自己帶去的 Prada 鞋，因為有時候拍電影預算不太夠，所以你會提供一些自己最愛的配件。",
+       "t": 575.2,
+       "aus": {
+        "US": "tts/wiAGn89QVH0/w12_e0_US.mp3",
+        "UK": "tts/wiAGn89QVH0/w12_e0_UK.mp3",
+        "AU": "tts/wiAGn89QVH0/w12_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "over budget 超出預算；within budget 在預算內；budget proposal 預算提案。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "budgets"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/wiAGn89QVH0/w12_US.mp3",
+      "UK": "tts/wiAGn89QVH0/w12_UK.mp3",
+      "AU": "tts/wiAGn89QVH0/w12_AU.mp3"
+     }
+    },
+    {
+     "n": 13,
+     "w": "catered",
+     "s": 2,
+     "ph": "[ˋketɚd]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "外燴的，由餐飲業者提供的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I was kind of too nervous and I'd have to say that French film crews provide a gorgeous catered lunch. With wine? With wine.",
+       "zh": "我那時有點太緊張了，而我得說法國的電影劇組會提供超豐盛的外燴午餐。配酒嗎？配酒。",
+       "t": 604.2,
+       "aus": {
+        "US": "tts/wiAGn89QVH0/w13_e0_US.mp3",
+        "UK": "tts/wiAGn89QVH0/w13_e0_UK.mp3",
+        "AU": "tts/wiAGn89QVH0/w13_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "cater v. 承辦餐飲",
+      "catering n. 外燴服務"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "catered lunch 外燴午餐；catering service 外燴服務（活動籌備題必考）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "note": "無比較級"
+      }
+     ],
+     "aus": {
+      "US": "tts/wiAGn89QVH0/w13_US.mp3",
+      "UK": "tts/wiAGn89QVH0/w13_UK.mp3",
+      "AU": "tts/wiAGn89QVH0/w13_AU.mp3"
+     }
+    },
+    {
+     "n": 14,
+     "w": "exterior",
+     "s": 2,
+     "ph": "[ɪkˋstɪrɪɚ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "外觀，外部"
+      },
+      {
+       "p": "adj.",
+       "m": "外部的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "That's the exterior of the restaurant in Big Night.",
+       "zh": "那是《大餐（Big Night）》裡那家餐廳的外觀。",
+       "t": 679.2,
+       "aus": {
+        "US": "tts/wiAGn89QVH0/w14_e0_US.mp3",
+        "UK": "tts/wiAGn89QVH0/w14_e0_UK.mp3",
+        "AU": "tts/wiAGn89QVH0/w14_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "the exterior of the building 建築外觀（反義 interior 室內）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "exteriors"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/wiAGn89QVH0/w14_US.mp3",
+      "UK": "tts/wiAGn89QVH0/w14_UK.mp3",
+      "AU": "tts/wiAGn89QVH0/w14_AU.mp3"
+     }
+    },
+    {
+     "n": 15,
+     "w": "effortless",
+     "s": 1,
+     "ph": "[ˋɛfɚtlɪs]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "毫不費力的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "It had to be like perfect and effortless. And sometimes it's not.",
+       "zh": "它得做得完美又毫不費力，而有時候並不是這樣。",
+       "t": 740.6,
+       "aus": {
+        "US": "tts/wiAGn89QVH0/w15_e0_US.mp3",
+        "UK": "tts/wiAGn89QVH0/w15_e0_UK.mp3",
+        "AU": "tts/wiAGn89QVH0/w15_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "effort n. 努力"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "make it look effortless 讓它看起來毫不費力。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more effortless"
+        ],
+        [
+         "最高級",
+         "most effortless"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/wiAGn89QVH0/w15_US.mp3",
+      "UK": "tts/wiAGn89QVH0/w15_UK.mp3",
+      "AU": "tts/wiAGn89QVH0/w15_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "I picked up so much ___ so fast. Heart pounding. Oh my gosh.",
+     "a": "momentum",
+     "opts": [
+      "momentum",
+      "generous",
+      "gracious",
+      "vast"
+     ]
+    },
+    {
+     "s": "She's the most magical hug of a human being. And she's so ___. She's so warm.",
+     "a": "generous",
+     "opts": [
+      "momentum",
+      "generous",
+      "gracious",
+      "vast"
+     ]
+    },
+    {
+     "s": "She has the most amazing energy. Just really, really ___.",
+     "a": "gracious",
+     "opts": [
+      "momentum",
+      "generous",
+      "gracious",
+      "vast"
+     ]
+    },
+    {
+     "s": "Like, I think the New Mexican skies are just this ___, this mythic story space to make that movie. It was wild. Jesus. I mean, um oh.",
+     "a": "vast",
+     "opts": [
+      "momentum",
+      "generous",
+      "gracious",
+      "vast"
+     ]
+    },
+    {
+     "s": "I watched it again last night cuz the kids wanted to finish it last night before they come to the ___.",
+     "a": "premiere",
+     "opts": [
+      "premiere",
+      "budget",
+      "exterior",
+      "effortless"
+     ]
+    },
+    {
+     "s": "Pat Field had put me in these lovely gloves and I was wearing my own uh Prada shoes that I brought because sometimes uh in a film you the ___ doesn't quite stretch and so you provide some of your own favorite accessories.",
+     "a": "budget",
+     "opts": [
+      "premiere",
+      "budget",
+      "exterior",
+      "effortless"
+     ]
+    },
+    {
+     "s": "That's the ___ of the restaurant in Big Night.",
+     "a": "exterior",
+     "opts": [
+      "premiere",
+      "budget",
+      "exterior",
+      "effortless"
+     ]
+    },
+    {
+     "s": "It had to be like perfect and ___. And sometimes it's not.",
+     "a": "effortless",
+     "opts": [
+      "premiere",
+      "budget",
+      "exterior",
+      "effortless"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "Anne 拍《麻雀變公主》騎滑板車下坡時怎麼做？",
+     "a": "一路踩著煞車滑到底",
+     "opts": [
+      "一路踩著煞車滑到底",
+      "用替身代拍",
+      "滑了十幾次",
+      "完全沒踩煞車"
+     ]
+    },
+    {
+     "q": "拍《奧本海默》時，Chris Nolan 為什麼不穿羽絨外套？",
+     "a": "想和演員一起挨冷",
+     "opts": [
+      "想和演員一起挨冷",
+      "他不怕冷",
+      "外套被演員借走了",
+      "沙漠其實很熱"
+     ]
+    },
+    {
+     "q": "《媽媽咪呀！》大部分是在哪裡拍的？",
+     "a": "英國的攝影棚，最後三週才去希臘小島拍戶外",
+     "opts": [
+      "英國的攝影棚，最後三週才去希臘小島拍戶外",
+      "全部在希臘小島",
+      "全部在巴黎",
+      "紐約皇后區"
+     ]
+    },
+    {
+     "q": "Emily Blunt 拍《噤界 II》時為什麼傷到膝蓋？",
+     "a": "導演要她跑步時假裝絆倒",
+     "opts": [
+      "導演要她跑步時假裝絆倒",
+      "被捕熊夾夾到",
+      "從階梯上摔下來",
+      "騎滑板車摔倒"
+     ]
+    },
+    {
+     "q": "Stanley Tucci 為了一鏡到底拍《大餐》的烘蛋戲，關鍵是什麼？",
+     "a": "找到一個完美、不黏鍋的鍋子",
+     "opts": [
+      "找到一個完美、不黏鍋的鍋子",
+      "請主廚代做",
+      "分成很多鏡頭剪接",
+      "改做燉飯"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yt-75s7phHjGwQ",
+   "label": "影片 27",
+   "theme": "Hilary Duff × Drew Barrymore：童星長大、媽媽罪惡感與新專輯",
+   "themeEn": "Hilary Duff was Inspired by 'Lizzie McGuire' to Become a Pop Star",
+   "video": "https://youtu.be/75s7phHjGwQ",
+   "source": "",
+   "publisher": "The Drew Barrymore Show",
+   "release": "2026-10-20",
+   "transcript": "transcripts/75s7phHjGwQ.json",
+   "lines": 340,
+   "audioSrc": "",
+   "words": [
+    {
+     "n": 1,
+     "w": "admiration",
+     "s": 2,
+     "ph": "[͵ædməˋreʃən]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "欽佩，讚賞"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I've been watching with a lot of admiration and I just see you doing something that I think I would fantasize about the opportunity if I was a musician or musically capable in any sense of the word.",
+       "zh": "我一直帶著很大的欽佩在看你，我看到你在做一件事，如果我是音樂人，或在任何意義上有一點音樂能力的話，我會很嚮往有這種機會。",
+       "t": 79.5,
+       "aus": {
+        "US": "tts/75s7phHjGwQ/w1_e0_US.mp3",
+        "UK": "tts/75s7phHjGwQ/w1_e0_UK.mp3",
+        "AU": "tts/75s7phHjGwQ/w1_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "admire v. 欽佩"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "with admiration 帶著欽佩；admire someone for 因～欽佩某人。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/75s7phHjGwQ/w1_US.mp3",
+      "UK": "tts/75s7phHjGwQ/w1_UK.mp3",
+      "AU": "tts/75s7phHjGwQ/w1_AU.mp3"
+     }
+    },
+    {
+     "n": 2,
+     "w": "venue",
+     "s": 3,
+     "ph": "[ˋvɛnju]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "（活動、表演的）場地"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I'm not. But you're doing I see you in big venues like with your daughters watching and having that dreamy fantasy moment.",
+       "zh": "我沒有。但你在做……我看到你在大型場館表演，你的女兒們在台下看，有那種夢幻的時刻。",
+       "t": 93.0,
+       "aus": {
+        "US": "tts/75s7phHjGwQ/w2_e0_US.mp3",
+        "UK": "tts/75s7phHjGwQ/w2_e0_UK.mp3",
+        "AU": "tts/75s7phHjGwQ/w2_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "the venue for the conference 會議場地（活動籌備題必考）；change of venue 更換場地。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "venues"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/75s7phHjGwQ/w2_US.mp3",
+      "UK": "tts/75s7phHjGwQ/w2_UK.mp3",
+      "AU": "tts/75s7phHjGwQ/w2_AU.mp3"
+     }
+    },
+    {
+     "n": 3,
+     "w": "energetic",
+     "s": 2,
+     "ph": "[͵ɛnɚˋdʒɛtɪk]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "精力充沛的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "She puts out puts out, gives energetic present, and then she'll just go, \"I'm done. I'm out.",
+       "zh": "她會付出、給出滿滿的能量，然後就會說：「我好了。我要走了。",
+       "t": 169.2,
+       "aus": {
+        "US": "tts/75s7phHjGwQ/w3_e0_US.mp3",
+        "UK": "tts/75s7phHjGwQ/w3_e0_UK.mp3",
+        "AU": "tts/75s7phHjGwQ/w3_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "energy n. 能量"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "an energetic team player 充滿活力的團隊成員（徵才廣告）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more energetic"
+        ],
+        [
+         "最高級",
+         "most energetic"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/75s7phHjGwQ/w3_US.mp3",
+      "UK": "tts/75s7phHjGwQ/w3_UK.mp3",
+      "AU": "tts/75s7phHjGwQ/w3_AU.mp3"
+     }
+    },
+    {
+     "n": 4,
+     "w": "humble",
+     "s": 2,
+     "ph": "[ˋhʌmbḷ]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "使謙卑"
+      },
+      {
+       "p": "adj.",
+       "m": "謙虛的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And I think it can also very much humble a person into",
+       "zh": "而我覺得它也很可能讓一個人變得謙卑，",
+       "t": 255.3,
+       "aus": {
+        "US": "tts/75s7phHjGwQ/w4_e0_US.mp3",
+        "UK": "tts/75s7phHjGwQ/w4_e0_UK.mp3",
+        "AU": "tts/75s7phHjGwQ/w4_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a humbling experience 讓人謙卑的經驗；stay humble 保持謙虛。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "humbles"
+        ],
+        [
+         "過去式",
+         "humbled"
+        ],
+        [
+         "過去分詞",
+         "humbled"
+        ],
+        [
+         "現在分詞",
+         "humbling"
+        ]
+       ]
+      },
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "humbler"
+        ],
+        [
+         "最高級",
+         "humblest"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/75s7phHjGwQ/w4_US.mp3",
+      "UK": "tts/75s7phHjGwQ/w4_UK.mp3",
+      "AU": "tts/75s7phHjGwQ/w4_AU.mp3"
+     }
+    },
+    {
+     "n": 5,
+     "w": "surreal",
+     "s": 1,
+     "ph": "[səˋriəl]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "超現實的，不真實的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "just being grateful that you do have these shared experience with people, it's very surreal. It's very cool. Yeah. Um,",
+       "zh": "只是很感恩能和大家擁有這些共同的經驗，這很超現實，也很酷。對。嗯，",
+       "t": 262.4,
+       "aus": {
+        "US": "tts/75s7phHjGwQ/w5_e0_US.mp3",
+        "UK": "tts/75s7phHjGwQ/w5_e0_UK.mp3",
+        "AU": "tts/75s7phHjGwQ/w5_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "It feels surreal. 感覺很不真實（像做夢一樣）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more surreal"
+        ],
+        [
+         "最高級",
+         "most surreal"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/75s7phHjGwQ/w5_US.mp3",
+      "UK": "tts/75s7phHjGwQ/w5_UK.mp3",
+      "AU": "tts/75s7phHjGwQ/w5_AU.mp3"
+     }
+    },
+    {
+     "n": 6,
+     "w": "interaction",
+     "s": 2,
+     "ph": "[͵ɪntəˋrækʃən]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "互動"
+      }
+     ],
+     "ex": [
+      {
+       "en": "I I think that I'm really lucky that I feel like most of my interactions with people are like so positive and if anything that is said strikes me in a in a way that",
+       "zh": "我覺得我真的很幸運，我覺得我和大家大部分的互動都非常正面，就算有人說的話以某種方式讓我覺得",
+       "t": 270.0,
+       "aus": {
+        "US": "tts/75s7phHjGwQ/w6_e0_US.mp3",
+        "UK": "tts/75s7phHjGwQ/w6_e0_UK.mp3",
+        "AU": "tts/75s7phHjGwQ/w6_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "interact v. 互動",
+      "interactive adj. 互動式的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "customer interactions 與顧客的互動；interactive session 互動課程。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "interactions"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/75s7phHjGwQ/w6_US.mp3",
+      "UK": "tts/75s7phHjGwQ/w6_UK.mp3",
+      "AU": "tts/75s7phHjGwQ/w6_AU.mp3"
+     }
+    },
+    {
+     "n": 7,
+     "w": "navigate",
+     "s": 2,
+     "ph": "[ˋnævə͵get]",
+     "pos": [
+      {
+       "p": "v.",
+       "m": "應對，度過；導航"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And I kind of had to navigate out of that.",
+       "zh": "而我得想辦法走出那個形象。",
+       "t": 361.0,
+       "aus": {
+        "US": "tts/75s7phHjGwQ/w7_e0_US.mp3",
+        "UK": "tts/75s7phHjGwQ/w7_e0_UK.mp3",
+        "AU": "tts/75s7phHjGwQ/w7_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "navigation n. 導航"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "navigate a difficult situation 度過難關；navigate the website 瀏覽網站。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "v.",
+       "f": [
+        [
+         "三單",
+         "navigates"
+        ],
+        [
+         "過去式",
+         "navigated"
+        ],
+        [
+         "過去分詞",
+         "navigated"
+        ],
+        [
+         "現在分詞",
+         "navigating"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/75s7phHjGwQ/w7_US.mp3",
+      "UK": "tts/75s7phHjGwQ/w7_UK.mp3",
+      "AU": "tts/75s7phHjGwQ/w7_AU.mp3"
+     }
+    },
+    {
+     "n": 8,
+     "w": "departure",
+     "s": 3,
+     "ph": "[dɪˋpɑrtʃɚ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "轉變，背離；出發，離開"
+      }
+     ],
+     "ex": [
+      {
+       "en": "But did you make any conscious decision at any point to like prove to yourself or anyone else that you are no longer Lizzie McGuire at a moment where you wanted some departure?",
+       "zh": "那你有沒有在某個時刻，有意識地決定要向自己或任何人證明，你已經不再是 Lizzie McGuire，在你想要有所轉變的時候？",
+       "t": 363.8,
+       "aus": {
+        "US": "tts/75s7phHjGwQ/w8_e0_US.mp3",
+        "UK": "tts/75s7phHjGwQ/w8_e0_UK.mp3",
+        "AU": "tts/75s7phHjGwQ/w8_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "depart v. 出發"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "departure time／gate 出發時間／登機門（機場廣播必考）；a departure from 與～不同的轉變。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "departures"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/75s7phHjGwQ/w8_US.mp3",
+      "UK": "tts/75s7phHjGwQ/w8_UK.mp3",
+      "AU": "tts/75s7phHjGwQ/w8_AU.mp3"
+     }
+    },
+    {
+     "n": 9,
+     "w": "merit",
+     "s": 2,
+     "ph": "[ˋmɛrɪt]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "價值，優點"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And I find that this is the first time in my life that I'm actually trying to go back to my teenage self and find merit in her",
+       "zh": "而我發現這是我人生中第一次，真的試著回到青少年時期的自己，去發現她的價值，",
+       "t": 398.3,
+       "aus": {
+        "US": "tts/75s7phHjGwQ/w9_e0_US.mp3",
+        "UK": "tts/75s7phHjGwQ/w9_e0_UK.mp3",
+        "AU": "tts/75s7phHjGwQ/w9_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "on merit 依實力；merit-based bonus 績效獎金。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "merits"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/75s7phHjGwQ/w9_US.mp3",
+      "UK": "tts/75s7phHjGwQ/w9_UK.mp3",
+      "AU": "tts/75s7phHjGwQ/w9_AU.mp3"
+     }
+    },
+    {
+     "n": 10,
+     "w": "mature",
+     "s": 2,
+     "ph": "[məˋtjʊr]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "成熟的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "You feel more mature than your years.",
+       "zh": "你覺得自己比實際年齡更成熟。",
+       "t": 441.8,
+       "aus": {
+        "US": "tts/75s7phHjGwQ/w10_e0_US.mp3",
+        "UK": "tts/75s7phHjGwQ/w10_e0_UK.mp3",
+        "AU": "tts/75s7phHjGwQ/w10_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "maturity n. 成熟；（票據）到期"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a mature market 成熟市場。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more mature"
+        ],
+        [
+         "最高級",
+         "most mature"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/75s7phHjGwQ/w10_US.mp3",
+      "UK": "tts/75s7phHjGwQ/w10_UK.mp3",
+      "AU": "tts/75s7phHjGwQ/w10_AU.mp3"
+     }
+    },
+    {
+     "n": 11,
+     "w": "nostalgic",
+     "s": 1,
+     "ph": "[nɑsˋtældʒɪk]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "懷舊的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And it's like I get to have these pillars of my old music which feels which is so nostalgic and makes people like find that kid in them again.",
+       "zh": "就像是我可以唱那些老歌作為支柱，那感覺好懷舊，讓大家重新找回心中那個孩子，",
+       "t": 505.3,
+       "aus": {
+        "US": "tts/75s7phHjGwQ/w11_e0_US.mp3",
+        "UK": "tts/75s7phHjGwQ/w11_e0_UK.mp3",
+        "AU": "tts/75s7phHjGwQ/w11_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "nostalgia n. 懷舊"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "feel nostalgic about 對～感到懷念。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more nostalgic"
+        ],
+        [
+         "最高級",
+         "most nostalgic"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/75s7phHjGwQ/w11_US.mp3",
+      "UK": "tts/75s7phHjGwQ/w11_UK.mp3",
+      "AU": "tts/75s7phHjGwQ/w11_AU.mp3"
+     }
+    },
+    {
+     "n": 12,
+     "w": "limitation",
+     "s": 2,
+     "ph": "[͵lɪməˋteʃən]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "限制"
+      }
+     ],
+     "ex": [
+      {
+       "en": "There should be no limitations on to what anyone can do.",
+       "zh": "任何人能做到的事都不應該有限制。",
+       "t": 695.5,
+       "aus": {
+        "US": "tts/75s7phHjGwQ/w12_e0_US.mp3",
+        "UK": "tts/75s7phHjGwQ/w12_e0_UK.mp3",
+        "AU": "tts/75s7phHjGwQ/w12_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "limit n./v. 限制"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "limitations of the warranty 保固限制條款。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "limitations"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/75s7phHjGwQ/w12_US.mp3",
+      "UK": "tts/75s7phHjGwQ/w12_UK.mp3",
+      "AU": "tts/75s7phHjGwQ/w12_AU.mp3"
+     }
+    },
+    {
+     "n": 13,
+     "w": "palpable",
+     "s": 1,
+     "ph": "[ˋpælpəbḷ]",
+     "pos": [
+      {
+       "p": "adj.",
+       "m": "明顯可感受到的"
+      }
+     ],
+     "ex": [
+      {
+       "en": "is so palpable and it it messes with my rationality.",
+       "zh": "是那麼強烈，會擾亂我的理智。",
+       "t": 748.0,
+       "aus": {
+        "US": "tts/75s7phHjGwQ/w13_e0_US.mp3",
+        "UK": "tts/75s7phHjGwQ/w13_e0_UK.mp3",
+        "AU": "tts/75s7phHjGwQ/w13_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "a palpable sense of excitement 明顯感受得到的興奮。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "adj.",
+       "f": [
+        [
+         "比較級",
+         "more palpable"
+        ],
+        [
+         "最高級",
+         "most palpable"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/75s7phHjGwQ/w13_US.mp3",
+      "UK": "tts/75s7phHjGwQ/w13_UK.mp3",
+      "AU": "tts/75s7phHjGwQ/w13_AU.mp3"
+     }
+    },
+    {
+     "n": 14,
+     "w": "nepotism",
+     "s": 1,
+     "ph": "[ˋnɛpə͵tɪzəm]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "裙帶關係，任人唯親"
+      }
+     ],
+     "ex": [
+      {
+       "en": "And did I only get the gig cuz of nepotism? No.",
+       "zh": "還有，我拿到這份工作只是因為裙帶關係嗎？不是。",
+       "t": 1295.6,
+       "aus": {
+        "US": "tts/75s7phHjGwQ/w14_e0_US.mp3",
+        "UK": "tts/75s7phHjGwQ/w14_e0_UK.mp3",
+        "AU": "tts/75s7phHjGwQ/w14_e0_AU.mp3"
+       }
+      }
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "accusations of nepotism 任人唯親的指控（人事新聞）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "note": "不可數"
+      }
+     ],
+     "aus": {
+      "US": "tts/75s7phHjGwQ/w14_US.mp3",
+      "UK": "tts/75s7phHjGwQ/w14_UK.mp3",
+      "AU": "tts/75s7phHjGwQ/w14_AU.mp3"
+     }
+    },
+    {
+     "n": 15,
+     "w": "charity",
+     "s": 2,
+     "ph": "[ˋtʃærətɪ]",
+     "pos": [
+      {
+       "p": "n.",
+       "m": "慈善；慈善機構"
+      }
+     ],
+     "ex": [
+      {
+       "en": "But didn't write me back when I said, \"Do you want a box for charity?\"",
+       "zh": "但我問他「要不要來場慈善拳擊賽？」他卻沒回我？",
+       "t": 1431.2,
+       "aus": {
+        "US": "tts/75s7phHjGwQ/w15_e0_US.mp3",
+        "UK": "tts/75s7phHjGwQ/w15_e0_UK.mp3",
+        "AU": "tts/75s7phHjGwQ/w15_e0_AU.mp3"
+       }
+      }
+     ],
+     "fam": [
+      "charitable adj. 慈善的"
+     ],
+     "tips": [
+      {
+       "k": "常考語句",
+       "t": "charity event／donation 慈善活動／捐款（Part 4 活動公告）。"
+      }
+     ],
+     "forms": [
+      {
+       "p": "n.",
+       "f": [
+        [
+         "複數",
+         "charities"
+        ]
+       ]
+      }
+     ],
+     "aus": {
+      "US": "tts/75s7phHjGwQ/w15_US.mp3",
+      "UK": "tts/75s7phHjGwQ/w15_UK.mp3",
+      "AU": "tts/75s7phHjGwQ/w15_AU.mp3"
+     }
+    }
+   ],
+   "cloze": [
+    {
+     "s": "I've been watching with a lot of ___ and I just see you doing something that I think I would fantasize about the opportunity if I was a musician or musically capable in any sense of the word.",
+     "a": "admiration",
+     "opts": [
+      "admiration",
+      "venues",
+      "energetic",
+      "humble"
+     ]
+    },
+    {
+     "s": "I'm not. But you're doing I see you in big ___ like with your daughters watching and having that dreamy fantasy moment.",
+     "a": "venues",
+     "opts": [
+      "admiration",
+      "venues",
+      "energetic",
+      "humble"
+     ]
+    },
+    {
+     "s": "She puts out puts out, gives ___ present, and then she'll just go, \"I'm done. I'm out.",
+     "a": "energetic",
+     "opts": [
+      "admiration",
+      "venues",
+      "energetic",
+      "humble"
+     ]
+    },
+    {
+     "s": "And I think it can also very much ___ a person into",
+     "a": "humble",
+     "opts": [
+      "admiration",
+      "venues",
+      "energetic",
+      "humble"
+     ]
+    },
+    {
+     "s": "And I kind of had to ___ out of that.",
+     "a": "navigate",
+     "opts": [
+      "navigate",
+      "merit",
+      "mature",
+      "nostalgic"
+     ]
+    },
+    {
+     "s": "And I find that this is the first time in my life that I'm actually trying to go back to my teenage self and find ___ in her",
+     "a": "merit",
+     "opts": [
+      "navigate",
+      "merit",
+      "mature",
+      "nostalgic"
+     ]
+    },
+    {
+     "s": "You feel more ___ than your years.",
+     "a": "mature",
+     "opts": [
+      "navigate",
+      "merit",
+      "mature",
+      "nostalgic"
+     ]
+    },
+    {
+     "s": "And it's like I get to have these pillars of my old music which feels which is so ___ and makes people like find that kid in them again.",
+     "a": "nostalgic",
+     "opts": [
+      "navigate",
+      "merit",
+      "mature",
+      "nostalgic"
+     ]
+    }
+   ],
+   "comp": [
+    {
+     "q": "演唱會結束後，Hilary 的女兒們最在意什麼？",
+     "a": "她們從地上撿了多少彩帶",
+     "opts": [
+      "她們從地上撿了多少彩帶",
+      "媽媽唱了哪些歌",
+      "能不能上台",
+      "晚餐吃什麼"
+     ]
+    },
+    {
+     "q": "Hilary 花了多久才和 Lizzie McGuire 這個角色和解？",
+     "a": "大約 10 年",
+     "opts": [
+      "大約 10 年",
+      "一年",
+      "從來沒有",
+      "拍完就和解了"
+     ]
+    },
+    {
+     "q": "拍完 Lizzie McGuire 後，她想怎麼轉型？",
+     "a": "成為流行歌手",
+     "opts": [
+      "成為流行歌手",
+      "改當導演",
+      "回學校念書",
+      "去百老匯演舞台劇"
+     ]
+    },
+    {
+     "q": "Drew 說到了 50 多歲有什麼改變？",
+     "a": "比較不在意，正面的聲音越來越強",
+     "opts": [
+      "比較不在意，正面的聲音越來越強",
+      "變得更焦慮",
+      "不再工作",
+      "不再有媽媽罪惡感"
+     ]
+    },
+    {
+     "q": "Hilary 怎麼形容和老公一起做專輯的過程？",
+     "a": "很療癒，覺得被照顧、被支持",
+     "opts": [
+      "很療癒，覺得被照顧、被支持",
+      "常常吵架",
+      "是因為裙帶關係才找他",
+      "很無聊"
+     ]
+    }
+   ]
   }
  ]
 });
