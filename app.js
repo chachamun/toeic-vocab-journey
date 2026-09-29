@@ -301,7 +301,54 @@ function noteSet(w, t) {
   if (t) S.notes[wid(w)] = { t, at: Date.now() }; else delete S.notes[wid(w)];
   touch();
 }
-let noteEdit = null;                                         // 正在編輯哪個字的筆記（wid）
+let noteEdit = null;
+/* ===================== 點字查詢 ===================== */
+function hasSel() { try { const s = window.getSelection(); return !!(s && String(s).trim()); } catch (e) { return false; } }
+function wordAt(e) {                                          // 點到的那個英文字（用點擊位置找出文字位置）
+  let node = null, off = 0;
+  if (document.caretPositionFromPoint) { const p = document.caretPositionFromPoint(e.clientX, e.clientY); if (p) { node = p.offsetNode; off = p.offset; } }
+  else if (document.caretRangeFromPoint) { const r = document.caretRangeFromPoint(e.clientX, e.clientY); if (r) { node = r.startContainer; off = r.startOffset; } }
+  if (!node || node.nodeType !== 3) return '';
+  const t = node.textContent; let a = off, b = off;
+  while (a > 0 && /[A-Za-z'’-]/.test(t[a - 1])) a--;
+  while (b < t.length && /[A-Za-z'’-]/.test(t[b])) b++;
+  return t.slice(a, b).replace(/[’]/g, "'").replace(/^[-']+|[-']+$/g, '').replace(/'s$/i, '');
+}
+function lookupFind(q) {                                      // App 裡有沒有這個字（含變化形：studies→study、installed→install）
+  const t = q.toLowerCase(), out = [];
+  const same = (b, t) => { const stem = b.replace(/(e|y)$/, ''); return b === t || (stem.length >= 3 && t.startsWith(stem) && t.length - b.length <= 4); };
+  DATA.courses.forEach(c => c.units.forEach(u => { if (!released(u)) return; (u.words || []).forEach(w => {
+    const b = (w.w || '').toLowerCase();
+    if (!b.includes(' ') && same(b, t) && !out.some(o => o.w.w.toLowerCase() === b)) out.push({ c, u, w });
+  }); }));
+  return out.slice(0, 3);
+}
+function lookupAt(e) { const q = wordAt(e); if (q && q.length > 1) lookupShow(q); }
+function lookupShow(q) {
+  const hits = lookupFind(q), enc = encodeURIComponent(q.toLowerCase());
+  let box = el('lookup');
+  if (!box) { box = document.createElement('div'); box.id = 'lookup'; box.className = 'lookup'; document.body.appendChild(box); }
+  box.innerHTML = `<div class="lk-card" role="dialog" aria-label="查單字">
+    <div class="row"><b class="en" style="font-family:var(--disp);font-size:20px">${esc(q)}</b>
+      <button class="sbtn play" data-lksay="${esc(q)}">${spk}</button>
+      <button class="btn ghost sm" data-lkx="1" style="margin-left:auto">✕</button></div>
+    ${hits.length ? hits.map(h => { const k = gid(h.c.id, h.u.id, h.w.n); return `<div class="lk-hit">
+      <div class="row"><b class="en">${esc(h.w.w)}</b><span class="tiny muted">${esc(h.u.label)}</span>
+        <button class="favbtn inline" data-lkfav="${esc(k)}" style="margin-left:auto" aria-label="收藏">${isStar(k) ? '⭐' : '☆'}</button></div>
+      <div class="tiny">${esc(posText(h.w))}</div></div>`; }).join('')
+      : '<div class="tiny muted" style="margin:8px 0">App 裡還沒有這個字，到字典查：</div>'}
+    <div class="two" style="margin-top:8px">
+      <a class="btn ghost sm" href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/${enc}" target="_blank" rel="noopener">劍橋英漢字典</a>
+      <a class="btn ghost sm" href="https://tw.dictionary.search.yahoo.com/search?p=${enc}" target="_blank" rel="noopener">Yahoo 字典</a></div>
+  </div>`;
+  box.hidden = false; const opened = Date.now();
+  box.onclick = ev => {                                        // 點外面或 ✕ 關閉；剛打開的那一下（同一次點擊的後續事件）不算
+    if (Date.now() - opened < 400) return;
+    if (ev.target === box || ev.target.closest('[data-lkx]')) box.hidden = true;
+  };
+  box.querySelectorAll('[data-lksay]').forEach(b => b.onclick = () => say(b.dataset.lksay));
+  box.querySelectorAll('[data-lkfav]').forEach(b => b.onclick = () => { const k = b.dataset.lkfav; starToggle(k); b.textContent = isStar(k) ? '⭐' : '☆'; toast(isStar(k) ? '⭐ 已收藏，會出現在錯題本' : '已取消收藏'); });
+}                                         // 正在編輯哪個字的筆記（wid）
 /* 影片單元有上架日（release），還沒到的先藏起來，做到「每天自動多一集」 */
 function released(u) { return !u.release || u.release <= today(); }
 function allUnits() { const out = []; DATA.courses.forEach(c => c.units.forEach(u => { if (released(u)) out.push({ c, u }); })); return out; }
@@ -1141,6 +1188,7 @@ function viewVocab() {
         <div class="hint">點卡片看解釋・例句・文法　・左右滑換卡</div>
       </div></div>
       <div class="face back"><div class="face-scroll">
+        <div class="row" style="margin-bottom:6px"><button class="btn ghost sm" data-unflip="1">↺ 翻回正面</button><span class="tiny muted" style="margin-left:auto">點例句裡的字可以查意思</span></div>
         <div class="back-word"><span class="w en">${esc(w.w)}</span>${w.ph ? `<span class="ph">${esc(w.ph)}</span>` : ''}</div>
         <div class="pos-line">${(w.pos || []).map(x => `<div class="p"><span class="pos-tag">${esc(x.p)}</span><span>${esc(x.m)}</span></div>`).join('')}</div>
         ${noteBox(w)}
@@ -1735,14 +1783,20 @@ function bindAll() {
     if (f) {
       f.onclick = e => {
         if (swiped) return;                                   // 剛滑動換卡，不要順便翻面
+        if (flipped) {                                        // 背面：點一下不翻回（要能選字、複製、點字查詢），只有「翻回正面」鈕會翻
+          if (e.target.closest('[data-unflip]')) { flipped = false; f.classList.remove('flipped'); }
+          else if (e.target.closest('.exbox .en') && !hasSel()) lookupAt(e);
+          return;
+        }
+        if (hasSel()) return;                                 // 正在選取文字時不要翻
         if (e.target.closest('[data-say]') || e.target.closest('[data-spd]') || e.target.closest('[data-mic]') ||
             e.target.closest('.shadow-panel') || e.target.closest('[data-sp]') || e.target.closest('.note-box') || e.target.closest('[data-fav]')) return;
-        flipped = !flipped; f.classList.toggle('flipped', flipped);
+        flipped = true; f.classList.add('flipped');
       };
       let sx = 0, sy = 0;                                     // 左右滑換卡
       f.addEventListener('touchstart', e => { const t = e.changedTouches[0]; sx = t.clientX; sy = t.clientY; }, { passive: true });
       f.addEventListener('touchend', e => {
-        if (e.target.closest('.note-box')) return;             // 在筆記框裡選字、捲動，不要換卡
+        if (e.target.closest('.note-box') || hasSel()) return; // 在筆記框裡、或正在選字，不要換卡
         const t = e.changedTouches[0], dx = t.clientX - sx, dy = t.clientY - sy;
         if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) {
           swiped = true; setTimeout(() => { swiped = false; }, 400);
