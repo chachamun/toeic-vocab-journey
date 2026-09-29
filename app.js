@@ -57,7 +57,7 @@ function mergeState(a, b) {
     r.w = Math.max(x.w || 0, y.w || 0, r.ws ? r.ws.length : 0);
     if (x.nw != null || y.nw != null || r.nws) r.nw = Math.max(x.nw || 0, y.nw || 0, r.nws ? r.nws.length : 0);
     if (x.tk || y.tk) { r.tk = Object.assign({}, y.tk, x.tk); Object.keys(y.tk || {}).forEach(t => { if (y.tk[t] === 'done') r.tk[t] = 'done'; }); }
-    ['tu', 'tv'].forEach(f => { if (!r[f] && y[f]) r[f] = y[f]; });
+    ['tu', 'tv', 'tl'].forEach(f => { if (!r[f] && y[f]) r[f] = y[f]; });
     return r;
   });
   const tests = eachKey(a.tests || {}, b.tests || {}, (x, y) => Object.assign({}, by(x, y, 'at'), { best: Math.max(x.best || 0, y.best || 0) }));
@@ -332,6 +332,7 @@ function missKeyOf(q) {
   if (q.ref) return gid(q.ref.c, q.ref.u, q.ref.n);
   if (q.mref) return gid(q.mref.c, q.mref.u, q.mref.n);
   if (q.tref) return 'T|' + q.tref.c + '|' + q.tref.u + '|' + q.tref.no;
+  if (q.lref) return 'L|' + q.lref.c + '|' + q.lref.u + '|' + q.lref.no;
   return '';
 }
 function findUnit(cid, uid) { const c = DATA.courses.find(x => x.id === cid), u = c && c.units.find(x => x.id === uid); return u ? { c, u } : null; }
@@ -353,7 +354,10 @@ function missList() {
   const keys = new Set([...Object.keys(m).filter(k => !m[k].out), ...Object.keys(st).filter(k => st[k].on)]);
   keys.forEach(k => {
     const o = m[k] && !m[k].out ? m[k] : null, star = isStar(k);
-    if (k.startsWith('T|')) {
+    if (k.startsWith('L|')) {
+      const p = k.split('|'), f = findUnit(p[1], p[2]), x = f && (f.u.lq || []).find(y => String(y.no) === p[3]);
+      if (x) out.push({ k, kind: 'lq', c: f.c, u: f.u, x, o, star });
+    } else if (k.startsWith('T|')) {
       const p = k.split('|'), f = findUnit(p[1], p[2]), t = f && (f.u.test || []).find(x => String(x.no) === p[3]);
       if (t) out.push({ k, kind: 'test', c: f.c, u: f.u, t, o, star });
     } else {
@@ -871,9 +875,15 @@ function unitByKey(k) {
 }
 function pickNewUnit() {                                     // 單字教材依順序，第一個還有沒學過的字的單元
   for (const c of DATA.courses) {
-    if (c.kind === 'video') continue;
+    if (c.kind === 'video' || c.kind === 'listen') continue;
     for (const u of c.units.filter(released)) if ((u.words || []).some(w => pget(gid(c.id, u.id, w.n)).st === 'new')) return ukeyOf(c, u);
   }
+  return '';
+}
+function pickListenUnit() {                                  // 多益聽力照順序：最早上架、還沒做完的那一回
+  if (!S.vdone || typeof S.vdone !== 'object') S.vdone = {};
+  for (const c of DATA.courses) if (c.kind === 'listen')
+    for (const u of c.units.filter(released).sort((a, b) => (a.release || '').localeCompare(b.release || ''))) if (!S.vdone[ukeyOf(c, u)]) return ukeyOf(c, u);
   return '';
 }
 function pickVideoUnit() {                                   // 最新上架、還沒看完的影片
@@ -889,8 +899,9 @@ function todayTasks() {
   if (!rec.tk) { rec.tk = {}; dirty = true; }
   if (rec.tu === undefined || (rec.tu && !unitByKey(rec.tu))) { rec.tu = pickNewUnit(); dirty = true; }
   if (rec.tv === undefined || (rec.tv && !unitByKey(rec.tv))) { rec.tv = pickVideoUnit(); dirty = true; }
+  if (rec.tl === undefined || (rec.tl && !unitByKey(rec.tl))) { rec.tl = pickListenUnit(); dirty = true; }
   if (dirty) saveLocal();
-  const tk = rec.tk, due = dueList().length, nu = unitByKey(rec.tu), vu = unitByKey(rec.tv), goal = newGoal(), w = rec.nw || 0;
+  const tk = rec.tk, due = dueList().length, nu = unitByKey(rec.tu), vu = unitByKey(rec.tv), lu = unitByKey(rec.tl), goal = newGoal(), w = rec.nw || 0;
   const uname = x => x.u.label + '・' + (x.u.theme || '');
   return [
     { id: 'rev', ic: '🔁', t: '到期複習', s: tk.rev || (due ? 'todo' : 'none'),
@@ -900,7 +911,9 @@ function todayTasks() {
     { id: 'quiz', ic: '📝', t: '今日測驗', s: !nu ? 'none' : tk.quiz || 'todo',
       sub: nu ? nu.u.label + '　單字＋填空' : '—' },
     { id: 'vid', ic: '🎬', t: '今日影片', s: !vu ? 'none' : tk.vid || 'todo',
-      sub: vu ? uname(vu) + '　做完隨堂測驗即完成' : '目前沒有新影片' }
+      sub: vu ? uname(vu) + '　做完隨堂測驗即完成' : '目前沒有新影片' },
+    { id: 'lis', ic: '🎧', t: '今日聽力', s: !lu ? 'none' : tk.lis || 'todo',
+      sub: lu ? uname(lu) + '　做完聽力實戰即完成' : '聽力題都做完了，等明天新的一回' }
   ];
 }
 function setTask(id, v) { const rec = dayRec(); rec.tk = rec.tk || {}; if (v) rec.tk[id] = v; else delete rec.tk[id]; touch(); }
@@ -911,19 +924,26 @@ function markVideoDone() {
 }
 function startTask(id) {
   const t = todayTasks().find(x => x.id === id); if (!t || t.s === 'none') return;
-  const rec = dayRec(), nu = unitByKey(rec.tu), vu = unitByKey(rec.tv);
+  const rec = dayRec(), nu = unitByKey(rec.tu), vu = unitByKey(rec.tv), lu = unitByKey(rec.tl);
   const setU = x => { S.courseId = x.c.id; S.unitId = x.u.id; touch(); buildDeck(); LS.revealed = {}; };
   stopAudio(); shadowRelease();
   if (id === 'rev') { buildReview(); TAB = 'quiz'; render(); }
   else if (id === 'new') { setU(nu); go('vocab'); }
   else if (id === 'vid') { setU(vu); go('listen'); }
   else if (id === 'quiz') { setU(nu); buildToday(); TAB = 'quiz'; render(); }
+  else if (id === 'lis') { setU(lu); MBL = false; buildLtest(); TAB = 'quiz'; render(); }
   el('main').scrollTop = 0;
 }
 /* 測驗做完時記錄對應任務（QZ.logged 防止重複） */
 function logQuizTask() {
   if (!QZ || QZ.logged) return; QZ.logged = true;
   if (QZ.mode === 'miss') return;                             // 錯題本跨單元出題，不算今天某一集的任務
+  if (QZ.mode === 'ltest') {                                  // 聽力實戰做完＝這一回完成
+    if (!S.vdone || typeof S.vdone !== 'object') S.vdone = {};
+    const k = ukeyOf(curCourse(), curUnit()); S.vdone[k] = today();
+    if (k === dayRec().tl) setTask('lis', 'done'); else touch();
+    return;
+  }
   const rec = dayRec(), cur = ukeyOf(curCourse(), curUnit());
   if (QZ.mode === 'review') setTask('rev', 'done');
   else if (curCourse().kind === 'video') { if (cur === rec.tv) markVideoDone(); }
@@ -1192,9 +1212,10 @@ function vpCreate(u) {
 }
 function vpTick() {
   const p = VP.player, u = curUnit(), tx = TX[u.id];
-  if (!p || !VP.ready || !tx || !p.getCurrentTime) return;
+  if (!p || !VP.ready || !p.getCurrentTime) return;
   const now = p.getCurrentTime();
   if (VP.segEnd != null && now >= VP.segEnd) { p.pauseVideo(); VP.segEnd = null; }
+  if (!tx) return;
   let i = -1; for (let k = 0; k < tx.lines.length; k++) { if (tx.lines[k].t <= now + 0.2) i = k; else break; }
   if (i === VP.cur) return;
   VP.cur = i;
@@ -1372,6 +1393,40 @@ function testQ(c, u, t, sub) {                              // 選項照課本 A
   return { kind: 'test', no: t.no, passage: t.p ? (u.passages || {})[t.p] : '', prompt: t.s, sub, ex: t.ex,
     opts: t.opts.map(o => ({ t: o, ok: o === t.a, en: 1 })), tref: { c: c.id, u: u.id, no: t.no } };
 }
+/* ===================== 多益聽力：聽力實戰 ===================== */
+/* 單元的 lq 每題記著影片裡的播放區間：Part 2 只給 A／B／C（真實考試不印題目選項）；
+   Part 3 有對話區間＋讀題區間，題目與選項照考試印出來。答完顯示音檔稿、中譯與正解。 */
+function lqQ(c, u, x, pre) {
+  const p2 = x.part === 'Part 2';
+  return { kind: 'lq', lq: x, vid: ytid(u.video), no: x.no, sub: (pre || '') + `${x.part}・第 ${x.no} 題`, prompt: p2 ? '' : x.q,
+    opts: x.opts.map((o, i) => ({ t: p2 ? '' : o, ok: 'ABCD'[i] === x.a, en: 1 })), lref: { c: c.id, u: u.id, no: x.no } };
+}
+function buildLtest() { const c = curCourse(), u = curUnit(); QZ = { mode: 'ltest', qs: (u.lq || []).map(x => lqQ(c, u, x)), i: 0, score: 0, wrong: [], answered: false }; }
+function lqStem(q) {
+  const x = q.lq, p2 = x.part === 'Part 2';
+  return `<div class="ytwrap"><div id="ytp" data-vid="${esc(q.vid)}" data-start="${Math.floor(p2 ? x.t : x.ct)}"></div></div>
+    <div class="row" style="justify-content:center;gap:8px;margin-top:10px;flex-wrap:wrap">
+      ${p2 ? `<button class="sbtn play" data-lqseg="${x.t},${x.end}">▶ 播放第 ${x.no} 題</button>`
+        : `<button class="sbtn play" data-lqseg="${x.ct},${x.cend}">▶ 播放對話（第 ${esc(x.set)} 題）</button><button class="sbtn" data-lqseg="${x.t},${x.end}">▶ 播放題目</button>`}
+    </div>
+    ${p2 ? '<div class="tiny muted" style="text-align:center;margin-top:8px">Part 2 的題目和選項都不印出來，聽完直接選 A／B／C</div>'
+      : `<div class="q-cloze en" style="margin-top:10px">${x.no}. ${esc(x.q)}</div>`}`;
+}
+function lqReveal(q) {
+  const x = q.lq, L = 'ABCD';
+  const opt = (o, i) => `<div class="lq-opt${L[i] === x.a ? ' ok' : ''}"><div class="en">(${L[i]}) ${esc(o)}</div><div class="zh">${esc(x.zo[i])}</div></div>`;
+  const head = x.part === 'Part 2' ? '' : x.convo.map(l => `<div class="en"><b>${esc(l.sp)}:</b> ${esc(l.en)}</div><div class="zh">${esc(l.zh)}</div>`).join('') + '<hr class="lq-hr">';
+  return `<div class="card pad lq-rev">${head}<div class="en"><b>${x.no}. ${esc(x.q)}</b></div><div class="zh">${esc(x.zq)}</div>
+    <div style="margin-top:8px">${x.opts.map(opt).join('')}</div><div class="tiny" style="margin-top:6px">正解：<b>(${x.a})</b></div></div>`;
+}
+function lqCard(u) {
+  if (!u.lq || !u.lq.length) return '';
+  const r = (S.tests || {})[ukeyOf(curCourse(), u)];
+  return `<h2 class="sect">聽力實戰</h2>
+      <button class="mode-card" data-goq="ltest"><div class="mi" style="background:#e6f2ff">🎧</div>
+        <div class="t"><b>${esc(u.label)}・${esc(u.theme || '')}</b><span>逐題播放影片的聲音，照真正考試作答，答完看音檔稿與中譯${r ? `・上次 ${r.last}／最佳 ${r.best}` : ''}</span></div>
+        <div class="n">${u.lq.length}</div></button>`;
+}
 function buildTest() {
   const u = curUnit();
   const qs = (u.test || []).map(t => testQ(curCourse(), u, t, `${t.part}・第 ${t.no} 題`));
@@ -1456,6 +1511,7 @@ function buildReview() {
 function buildMiss() {
   const items = missList().slice(0, 20); let qs = [];
   items.forEach((it, idx) => {
+    if (it.kind === 'lq') { qs.push(lqQ(it.c, it.u, it.x, `錯題本・${it.u.label}・`)); return; }
     if (it.kind === 'test') { qs.push(testQ(it.c, it.u, it.t, `錯題本・${it.u.label}・${it.t.part}・第 ${it.t.no} 題`)); return; }
     const { c, u, w } = it;
     let pool = (u.words || []).filter(x => x.n !== w.n && x.w !== w.w);
@@ -1482,6 +1538,10 @@ function viewMissList() {
   const ml = missList();
   const row = it => {
     const tag = `${it.o ? `錯 ${it.o.n} 次・${fmtDay(it.o.last)}` : ''}${it.o && it.star ? '・' : ''}${it.star ? '⭐ 收藏' : ''}`;
+    if (it.kind === 'lq') return `<div class="sent"><div class="idx">🎧 ${esc(it.u.label)}・${esc(it.x.part)}・第 ${it.x.no} 題<span class="tiny muted" style="margin-left:8px">${tag}</span></div>
+        <div class="en">${esc(it.x.q)}</div>
+        <div class="zh">正解：(${it.x.a}) ${esc(it.x.opts['ABCD'.indexOf(it.x.a)])}　${esc(it.x.zo['ABCD'.indexOf(it.x.a)])}</div>
+        <div class="row" style="margin-top:6px"><button class="sbtn" data-mout="${esc(it.k)}" style="margin-left:auto">✓ 已經會了，移出</button></div></div>`;
     if (it.kind === 'test') return `<div class="sent"><div class="idx">${esc(it.u.label)}・${esc(it.t.part)}・第 ${esc(it.t.no)} 題<span class="tiny muted" style="margin-left:8px">${tag}</span></div>
         <div class="en">${testBlanks(it.t.s, it.t.no)}</div>
         <div class="zh">正解：${esc(it.t.a)}　${esc(it.t.ex || '')}</div>
@@ -1508,6 +1568,7 @@ function viewQuiz() {
   if (!QZ) {
     const due = dueList().length, u = curUnit();
     return `<div class="view fade">${uswitch()}
+      ${lqCard(u)}
       ${u.test ? `<h2 class="sect">實戰測驗</h2>
       <button class="mode-card" data-goq="test"><div class="mi" style="background:var(--accent-soft)">📝</div>
         <div class="t"><b>${esc(u.label)}</b><span>課本實戰題，照原題號與選項順序作答，答完看解析</span></div>
@@ -1539,13 +1600,14 @@ function viewQuiz() {
   else if (q.kind === 'listen') stem = `<div style="text-align:center;padding:8px 0"><button class="sbtn play" data-say="${esc(q.say)}">${spk} 再聽一次</button></div>`;
   else if (q.kind === 'cloze') stem = `<div class="q-cloze">${esc(q.prompt).replace(/_{2,}/g, '<u>__</u>')}</div>`;
   else if (q.kind === 'test') stem = `${q.passage ? `<div class="tpass">${testBlanks(q.passage, q.no)}</div>` : ''}<div class="q-cloze en">${testBlanks(q.prompt, q.no).replace(/_{2,}/g, '<u>__</u>')}</div>`;
+  else if (q.kind === 'lq') stem = lqStem(q);
   else stem = `<div style="font-size:16px;line-height:1.7;font-weight:700">${esc(q.prompt)}</div>`;
   return `<div class="view fade">
     <div class="fc-top"><button class="btn ghost sm" data-goq="exit">✕</button>
       <div class="bar" style="flex:1"><i style="width:${Math.round(QZ.i / QZ.qs.length * 100)}%"></i></div>
       <div class="fc-count">${QZ.i + 1}/${QZ.qs.length}</div></div>
     <div class="card pad">
-      <div class="row tiny muted"><span>${QZ.mode === 'review' ? '🔁 複習' : QZ.mode === 'checkup' ? '📖 隨堂' : QZ.mode === 'test' ? '📝 實戰' : QZ.mode === 'miss' ? '📕 錯題本' : '📝 今日'}</span><span>${esc(q.sub)}</span><span style="margin-left:auto">得分 ${QZ.score}</span></div>
+      <div class="row tiny muted"><span>${QZ.mode === 'review' ? '🔁 複習' : QZ.mode === 'checkup' ? '📖 隨堂' : QZ.mode === 'test' ? '📝 實戰' : QZ.mode === 'miss' ? '📕 錯題本' : QZ.mode === 'ltest' ? '🎧 聽力實戰' : '📝 今日'}</span><span>${esc(q.sub)}</span><span style="margin-left:auto">得分 ${QZ.score}</span></div>
       <div style="margin-top:10px">${stem}</div>
       <div class="opts" id="opts">${q.opts.map((o, i) => `<button class="opt" data-opt="${i}"><span class="k">${String.fromCharCode(65 + i)}</span><span class="${o.en ? 'en' : ''}" style="${o.en ? 'font-weight:700' : ''}">${esc(o.t)}</span></button>`).join('')}</div>
     </div><div id="qfoot"></div></div>`;
@@ -1566,13 +1628,13 @@ function answer(idx) {
   if (mk) { if (!ok) { missAdd(mk); QZ.added = (QZ.added || 0) + 1; } else if (QZ.mode === 'miss' && missHit(mk)) QZ.passed++; }
   if (ok) QZ.score++; else { QZ.wrong.push(q); if (q.say) say(q.say); }
   bumpDay('q', 1); touch();
-  const f = el('qfoot'); if (f) f.innerHTML = `${q.ex ? `<div class="card pad tiny test-ex">💡 ${esc(q.ex)}</div>` : ''}<button class="btn" id="qnext">${QZ.i + 1 >= QZ.qs.length ? '看結果' : '下一題'}</button>`;
+  const f = el('qfoot'); if (f) f.innerHTML = `${q.kind === 'lq' ? lqReveal(q) : ''}${q.ex ? `<div class="card pad tiny test-ex">💡 ${esc(q.ex)}</div>` : ''}<button class="btn" id="qnext">${QZ.i + 1 >= QZ.qs.length ? '看結果' : '下一題'}</button>`;
   const n = el('qnext'); if (n) n.onclick = () => { QZ.i++; QZ.answered = false; render(); sayListenQ(); };
 }
 function sayListenQ() { const q = QZ && QZ.qs[QZ.i]; if (q && q.kind === 'listen' && !QZ.answered) say(q.say); }
 function quizResult() {
   logQuizTask();
-  if (QZ.mode === 'test' && !QZ.saved) {                      // 實戰測驗記錄上次／最佳分數
+  if ((QZ.mode === 'test' || QZ.mode === 'ltest') && !QZ.saved) {                      // 實戰測驗記錄上次／最佳分數
     QZ.saved = true; if (!S.tests || typeof S.tests !== 'object') S.tests = {};
     const k = ukeyOf(curCourse(), curUnit()), o = S.tests[k] || { best: 0 };
     S.tests[k] = { last: QZ.score, best: Math.max(o.best || 0, QZ.score), at: Date.now() }; touch();
@@ -1580,7 +1642,7 @@ function quizResult() {
   const nx = todayTasks().find(x => x.s === 'todo');
   const t = QZ.qs.length, s = QZ.score, p = t ? Math.round(s / t * 100) : 0;
   return `<div class="view fade"><div class="card pad" style="text-align:center">
-    <div class="tiny muted">${QZ.mode === 'review' ? '複習測驗結果' : QZ.mode === 'checkup' ? (curCourse().kind === 'video' ? '影片隨堂測驗結果' : '課本隨堂測驗結果') : QZ.mode === 'test' ? '實戰測驗結果' : QZ.mode === 'miss' ? '錯題本測驗結果' : '今日測驗結果'}</div>
+    <div class="tiny muted">${QZ.mode === 'review' ? '複習測驗結果' : QZ.mode === 'checkup' ? (curCourse().kind === 'video' ? '影片隨堂測驗結果' : '課本隨堂測驗結果') : QZ.mode === 'test' ? '實戰測驗結果' : QZ.mode === 'miss' ? '錯題本測驗結果' : QZ.mode === 'ltest' ? '聽力實戰結果' : '今日測驗結果'}</div>
     <div class="score-big" style="color:${p >= 70 ? 'var(--good)' : 'var(--amber)'};margin:8px 0 4px">${s}<span style="font-size:20px;color:var(--ink-3)"> / ${t}</span></div>
     <div class="tiny muted" style="margin-bottom:14px">${p >= 90 ? '掌握得很好！' : p >= 70 ? '不錯，錯的再看一次就更穩。' : '多回單字頁刷幾輪。'}</div>
     ${QZ.mode === 'miss' ? `<div class="tiny muted" style="margin-bottom:12px">${QZ.passed ? `🎓 這次有 ${QZ.passed} 題連續答對 ${MISS_PASS} 次，移出錯題本` : `在錯題本連續答對 ${MISS_PASS} 次就會移出`}・還剩 ${missList().length} 題</div>`
@@ -1588,7 +1650,9 @@ function quizResult() {
     <div class="two"><button class="btn ghost" data-goq="${QZ.mode}" ${QZ.mode === 'miss' && !missList().length ? 'disabled' : ''}>再測一次</button><button class="btn ghost" data-goto="home">回首頁</button></div>
     ${nx ? `<button class="btn" data-task="${nx.id}" style="margin-top:10px">下一項今日任務 ▶　${nx.ic} ${esc(nx.t)}</button>` : '<div class="task-all" style="margin-top:10px">🎉 今天的任務都處理完了</div>'}
   </div>
-  ${QZ.wrong.length ? `<h2 class="sect">答錯的（${QZ.wrong.length}）</h2>${QZ.wrong.map(q => q.kind === 'test'
+  ${QZ.wrong.length ? `<h2 class="sect">答錯的（${QZ.wrong.length}）</h2>${QZ.wrong.map(q => q.kind === 'lq'
+    ? `<div class="sent"><div class="idx">${esc(q.sub)}</div><div class="en">${esc(q.lq.q)}</div><div class="zh">正解：(${q.lq.a}) ${esc(q.lq.opts['ABCD'.indexOf(q.lq.a)])}　${esc(q.lq.zo['ABCD'.indexOf(q.lq.a)])}</div></div>`
+    : q.kind === 'test'
     ? `<div class="sent"><div class="idx">${esc(q.sub)}</div><div class="en">${testBlanks(q.prompt, q.no)}</div><div class="zh">正解：${esc((q.opts.find(o => o.ok) || {}).t || '')}　${esc(q.ex || '')}</div></div>`
     : `<div class="sent"><div class="en">${esc(q.prompt || q.say || '')}</div><div class="zh">正解：${esc((q.opts.find(o => o.ok) || {}).t || '')}</div>${sbar(q.prompt || q.say || '', '跟讀')}</div>`).join('')}` : ''}
   </div>`;
@@ -1650,6 +1714,12 @@ function bindAll() {
     e.stopPropagation(); const k = b.dataset.fav; starToggle(k);
     toast(isStar(k) ? '⭐ 已收藏，會出現在錯題本' : '已取消收藏'); render();
   });
+  document.querySelectorAll('[data-lqseg]').forEach(b => b.onclick = () => {
+    const [a, z] = b.dataset.lqseg.split(',').map(Number);
+    if (!VP.player || !VP.ready) { toast('影片還在載入，請稍等一下再按'); return; }
+    try { VP.player.seekTo(a, true); VP.player.playVideo(); VP.segEnd = z; } catch (err) {}
+  });
+  if (TAB === 'quiz' && QZ && QZ.qs[QZ.i] && QZ.qs[QZ.i].kind === 'lq' && el('ytp')) vpCreate(curUnit());
   document.querySelectorAll('[data-mout]').forEach(b => b.onclick = () => { missOut(b.dataset.mout); toast('已移出錯題本'); render(); });
   const tb = document.querySelector('.tpass .tblank.on');   // 實戰測驗：短文捲到這題的空格
   if (tb) tb.parentElement.scrollTop = Math.max(0, tb.offsetTop - 60);
@@ -1657,7 +1727,7 @@ function bindAll() {
     const m = b.dataset.goq; shadowRelease();
     if (m === 'exit') { QZ = null; render(); return; }
     MBL = false;
-    if (m === 'today') buildToday(); else if (m === 'checkup') buildCheckup(); else if (m === 'test') buildTest(); else if (m === 'miss') buildMiss(); else buildReview();
+    if (m === 'today') buildToday(); else if (m === 'checkup') buildCheckup(); else if (m === 'test') buildTest(); else if (m === 'miss') buildMiss(); else if (m === 'ltest') buildLtest(); else buildReview();
     TAB = 'quiz'; render(); el('main').scrollTop = 0; sayListenQ();
   });
   if (TAB === 'vocab') {

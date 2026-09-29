@@ -1,0 +1,807 @@
+{
+ "id": "tl-Hk1sUd11J5A",
+ "course": "toeic-listen",
+ "publisher": "Parker English 怕渴英文（TOEIC 聽力模擬試題）",
+ "video": "https://youtu.be/Hk1sUd11J5A",
+ "bbc": "",
+ "label": "聽力 2",
+ "theme": "Part 2 應答問題（二）",
+ "themeEn": "TOEIC Listening Part 2 Practice (6)",
+ "release": "2026-09-30",
+ "words": [
+  {
+   "n": 1,
+   "w": "recognize",
+   "s": 2,
+   "ph": "[ˋrɛkəg͵naɪz]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "認出；表揚"
+    }
+   ],
+   "ex": [
+    {
+     "en": "1. How will I recognize their staff members?",
+     "zh": "1. 我要怎麼認出他們的工作人員？",
+     "t": 25.0
+    }
+   ],
+   "fam": [
+    "recognition n. 表揚；認出"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "be recognized for 因～受到表揚（頒獎題）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "recognizes"
+      ],
+      [
+       "過去式",
+       "recognized"
+      ],
+      [
+       "過去分詞",
+       "recognized"
+      ],
+      [
+       "現在分詞",
+       "recognizing"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "badge",
+   "s": 2,
+   "ph": "[bædʒ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "識別證，名牌"
+    }
+   ],
+   "ex": [
+    {
+     "en": "(B) They'll be wearing badges.",
+     "zh": "(B) 他們會戴識別證。",
+     "t": 33.1
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "name badge 名牌；ID badge 識別證。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "badges"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "convention",
+   "s": 3,
+   "ph": "[kənˋvɛnʃən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "大會，會議"
+    }
+   ],
+   "ex": [
+    {
+     "en": "2. Did you pay for your hotel for the convention?",
+     "zh": "2. 參加大會的飯店錢是你自己付的嗎？",
+     "t": 40.4
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "convention center 會議中心；attend a convention 參加大會。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "conventions"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "retire",
+   "s": 2,
+   "ph": "[rɪˋtaɪr]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "退休"
+    }
+   ],
+   "ex": [
+    {
+     "en": "(B) No, he retired two weeks ago.",
+     "zh": "(B) 不，他兩週前退休了。",
+     "t": 102.5
+    }
+   ],
+   "fam": [
+    "retirement n. 退休"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "retirement party 退休派對（Part 3/4 常見場景）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "retires"
+      ],
+      [
+       "過去式",
+       "retired"
+      ],
+      [
+       "過去分詞",
+       "retired"
+      ],
+      [
+       "現在分詞",
+       "retiring"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "seminar",
+   "s": 3,
+   "ph": "[ˋsɛmə͵nɑr]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "研討會"
+    }
+   ],
+   "ex": [
+    {
+     "en": "6. Are you planning to go to the time management seminar?",
+     "zh": "6. 你打算去參加時間管理研討會嗎？",
+     "t": 109.4
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "register for a seminar 報名研討會。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "seminars"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "transport",
+   "s": 2,
+   "ph": "[trænsˋport]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "運送"
+    }
+   ],
+   "ex": [
+    {
+     "en": "7. How will the machinery be transported to Argentina?",
+     "zh": "7. 機器要怎麼運到阿根廷？",
+     "t": 127.4
+    }
+   ],
+   "fam": [
+    "transportation n. 交通；運輸"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "transport goods by ship／truck 用船／卡車運貨。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "transports"
+      ],
+      [
+       "過去式",
+       "transported"
+      ],
+      [
+       "過去分詞",
+       "transported"
+      ],
+      [
+       "現在分詞",
+       "transporting"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "advertisement",
+   "s": 3,
+   "ph": "[͵ædvɚˋtaɪzmənt]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "廣告"
+    }
+   ],
+   "ex": [
+    {
+     "en": "9. What did you include in the job advertisement?",
+     "zh": "9. 你在徵才廣告裡寫了哪些內容？",
+     "t": 162.1
+    }
+   ],
+   "fam": [
+    "advertise v. 登廣告"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "job advertisement 徵才廣告；place an advertisement 刊登廣告。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "advertisements"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "inspection",
+   "s": 2,
+   "ph": "[ɪnˋspɛkʃən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "檢查，檢驗"
+    }
+   ],
+   "ex": [
+    {
+     "en": "13. When will the inspection team finally get their hands on our new equipment for testing?",
+     "zh": "13. 檢驗小組到底什麼時候才會拿到我們的新設備去測試？",
+     "t": 235.3
+    }
+   ],
+   "fam": [
+    "inspect v. 檢查",
+    "inspector n. 檢查員"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "safety inspection 安全檢查。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "inspections"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "w": "supplier",
+   "s": 3,
+   "ph": "[səˋplaɪɚ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "供應商"
+    }
+   ],
+   "ex": [
+    {
+     "en": "18. Maybe we should consider ordering from a different supplier.",
+     "zh": "18. 也許我們該考慮跟別的供應商訂貨。",
+     "t": 324.9
+    }
+   ],
+   "fam": [
+    "supply v./n. 供應"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "switch suppliers 更換供應商。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "suppliers"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "w": "mandatory",
+   "s": 2,
+   "ph": "[ˋmændə͵torɪ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "強制的，必須的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "(B) Isn't it mandatory?",
+     "zh": "(B) 那不是規定一定要參加嗎？",
+     "t": 353.9
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "Attendance is mandatory. 必須出席（＝required, compulsory）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  }
+ ],
+ "cloze": [],
+ "comp": [],
+ "lq": [
+  {
+   "no": 1,
+   "part": "Part 2",
+   "t": 25.0,
+   "end": 40.1,
+   "q": "How will I recognize their staff members?",
+   "zq": "我要怎麼認出他們的工作人員？",
+   "opts": [
+    "They were very helpful.",
+    "They'll be wearing badges.",
+    "They have been stacked in the corner."
+   ],
+   "zo": [
+    "他們很幫忙。",
+    "他們會戴識別證。",
+    "它們被堆在角落。"
+   ],
+   "a": "B"
+  },
+  {
+   "no": 2,
+   "part": "Part 2",
+   "t": 40.4,
+   "end": 57.5,
+   "q": "Did you pay for your hotel for the convention?",
+   "zq": "參加大會的飯店錢是你自己付的嗎？",
+   "opts": [
+    "My company usually covers that.",
+    "We only take credit cards.",
+    "A convention about digital media."
+   ],
+   "zo": [
+    "通常是公司出。",
+    "我們只收信用卡。",
+    "一場關於數位媒體的大會。"
+   ],
+   "a": "A"
+  },
+  {
+   "no": 3,
+   "part": "Part 2",
+   "t": 57.8,
+   "end": 73.5,
+   "q": "Why did you get back from your trip so early?",
+   "zq": "你出差怎麼這麼早就回來了？",
+   "opts": [
+    "Because I tripped and fell.",
+    "I'll be taking the train.",
+    "The meeting ended earlier than expected."
+   ],
+   "zo": [
+    "因為我絆倒了。",
+    "我會搭火車。",
+    "會議比預期早結束。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 4,
+   "part": "Part 2",
+   "t": 73.8,
+   "end": 90.7,
+   "q": "Should we buy a one-way ticket or get a round trip?",
+   "zq": "我們要買單程票還是來回票？",
+   "opts": [
+    "I had a great trip.",
+    "Right here at the ticket counter.",
+    "We'll have to come back on the same day."
+   ],
+   "zo": [
+    "我這趟旅程很愉快。",
+    "就在售票櫃檯這裡。",
+    "我們得當天回來。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 5,
+   "part": "Part 2",
+   "t": 91.0,
+   "end": 109.1,
+   "q": "Doesn't Mr. Norton work in the Personnel Department?",
+   "zq": "Norton 先生不是在人事部工作嗎？",
+   "opts": [
+    "Yes, he just confirmed his departure time.",
+    "No, he retired two weeks ago.",
+    "No, I prefer to walk there."
+   ],
+   "zo": [
+    "是的，他剛確認了出發時間。",
+    "不，他兩週前退休了。",
+    "不，我比較想走路去。"
+   ],
+   "a": "B"
+  },
+  {
+   "no": 6,
+   "part": "Part 2",
+   "t": 109.4,
+   "end": 127.1,
+   "q": "Are you planning to go to the time management seminar?",
+   "zq": "你打算去參加時間管理研討會嗎？",
+   "opts": [
+    "Yes, and I learned a lot.",
+    "No, I'm taking the subway.",
+    "Yes, it sounds interesting."
+   ],
+   "zo": [
+    "是的，而且我學到很多。",
+    "不，我搭地鐵。",
+    "會，聽起來很有意思。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 7,
+   "part": "Part 2",
+   "t": 127.4,
+   "end": 145.3,
+   "q": "How will the machinery be transported to Argentina?",
+   "zq": "機器要怎麼運到阿根廷？",
+   "opts": [
+    "Based on the size of the factory.",
+    "The most efficient means is by ship.",
+    "Automatically packing boxes and cartons with machines."
+   ],
+   "zo": [
+    "依工廠的規模而定。",
+    "最有效率的方式是海運。",
+    "用機器自動裝箱。"
+   ],
+   "a": "B"
+  },
+  {
+   "no": 8,
+   "part": "Part 2",
+   "t": 145.6,
+   "end": 161.8,
+   "q": "How often do you update this software?",
+   "zq": "這套軟體多久更新一次？",
+   "opts": [
+    "Not unless a bug is found.",
+    "Of course we do.",
+    "Usually by ourselves."
+   ],
+   "zo": [
+    "除非發現錯誤，否則不更新。",
+    "我們當然會。",
+    "通常我們自己來。"
+   ],
+   "a": "A"
+  },
+  {
+   "no": 9,
+   "part": "Part 2",
+   "t": 162.1,
+   "end": 179.8,
+   "q": "What did you include in the job advertisement?",
+   "zq": "你在徵才廣告裡寫了哪些內容？",
+   "opts": [
+    "We received over 200 résumés.",
+    "The minimum requirement is a high school diploma.",
+    "Everything except for the salary."
+   ],
+   "zo": [
+    "我們收到兩百多份履歷。",
+    "最低要求是高中學歷。",
+    "除了薪資以外都寫了。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 10,
+   "part": "Part 2",
+   "t": 180.1,
+   "end": 198.4,
+   "q": "Are you able to stay late tonight to help set up?",
+   "zq": "你今晚能留晚一點幫忙布置嗎？",
+   "opts": [
+    "Yes, this headset will be on display.",
+    "It's still not too late to sign up.",
+    "Yes, for an extra hour or two."
+   ],
+   "zo": [
+    "是的，這款耳機會展示出來。",
+    "現在報名還來得及。",
+    "可以，多留一兩個小時。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 11,
+   "part": "Part 2",
+   "t": 198.7,
+   "end": 217.9,
+   "q": "Why does Patricia want to change shifts with you tomorrow?",
+   "zq": "Patricia 為什麼想和你換明天的班？",
+   "opts": [
+    "A change would be good for her.",
+    "Because she tried to shift the blame to someone else.",
+    "She has an unexpected meeting with a client."
+   ],
+   "zo": [
+    "換換環境對她有好處。",
+    "因為她想把責任推給別人。",
+    "她臨時要和客戶開會。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 12,
+   "part": "Part 2",
+   "t": 218.2,
+   "end": 235.0,
+   "q": "How many people are expected to attend the trade fair?",
+   "zq": "預計有多少人參加商展？",
+   "opts": [
+    "Over 200, I guess.",
+    "One of the speakers can't make it.",
+    "I believe it's not fair to him."
+   ],
+   "zo": [
+    "我猜兩百多人。",
+    "有一位講者沒辦法來。",
+    "我覺得這對他不公平。"
+   ],
+   "a": "A"
+  },
+  {
+   "no": 13,
+   "part": "Part 2",
+   "t": 235.3,
+   "end": 255.7,
+   "q": "When will the inspection team finally get their hands on our new equipment for testing?",
+   "zq": "檢驗小組到底什麼時候才會拿到我們的新設備去測試？",
+   "opts": [
+    "The inspector is absent for some reason.",
+    "The result turned out to be quite unexpected.",
+    "I don't have even the slightest clue."
+   ],
+   "zo": [
+    "檢查員因故缺席。",
+    "結果相當出乎意料。",
+    "我完全不知道。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 14,
+   "part": "Part 2",
+   "t": 256.0,
+   "end": 273.3,
+   "q": "What's the best way to the city hall?",
+   "zq": "去市政廳最好怎麼走？",
+   "opts": [
+    "Try taking Oxford Street.",
+    "Around twenty dollars per ticket.",
+    "The guided tour starts at two o'clock."
+   ],
+   "zo": [
+    "試試走牛津街。",
+    "每張票大約二十美元。",
+    "導覽兩點開始。"
+   ],
+   "a": "A"
+  },
+  {
+   "no": 15,
+   "part": "Part 2",
+   "t": 273.6,
+   "end": 290.6,
+   "q": "What is the matter with the new lights?",
+   "zq": "新的燈怎麼了？",
+   "opts": [
+    "They were installed over a month ago.",
+    "The switch doesn't work properly.",
+    "I'm going to get an extension cord."
+   ],
+   "zo": [
+    "一個多月前裝的。",
+    "開關不太靈。",
+    "我去拿延長線。"
+   ],
+   "a": "B"
+  },
+  {
+   "no": 16,
+   "part": "Part 2",
+   "t": 290.9,
+   "end": 307.4,
+   "q": "Who's in charge of scheduling employees' work shifts?",
+   "zq": "誰負責排員工的班？",
+   "opts": [
+    "Natalie works double shifts.",
+    "She said we are far behind schedule.",
+    "The factory supervisor."
+   ],
+   "zo": [
+    "Natalie 上兩班。",
+    "她說我們進度嚴重落後。",
+    "工廠主管。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 17,
+   "part": "Part 2",
+   "t": 307.7,
+   "end": 324.6,
+   "q": "Do you want to let Richard know that you dropped by today?",
+   "zq": "要不要讓 Richard 知道你今天來過？",
+   "opts": [
+    "No, I forgot to tell him.",
+    "Sure, I will drop by at three.",
+    "That won't be necessary."
+   ],
+   "zo": [
+    "不，我忘了告訴他。",
+    "好，我三點會過去。",
+    "不必了。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 18,
+   "part": "Part 2",
+   "t": 324.9,
+   "end": 342.7,
+   "q": "Maybe we should consider ordering from a different supplier.",
+   "zq": "也許我們該考慮跟別的供應商訂貨。",
+   "opts": [
+    "No, we don't order from them anymore.",
+    "Two boxes of copy paper.",
+    "Okay, I'm open to that."
+   ],
+   "zo": [
+    "不，我們已經不跟他們訂了。",
+    "兩箱影印紙。",
+    "好啊，我可以考慮。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 19,
+   "part": "Part 2",
+   "t": 343.0,
+   "end": 359.6,
+   "q": "You're going to the training session today, aren't you?",
+   "zq": "你今天會去參加訓練課程，對吧？",
+   "opts": [
+    "The training is scheduled for today.",
+    "Isn't it mandatory?",
+    "You must board the train now."
+   ],
+   "zo": [
+    "訓練排在今天。",
+    "那不是規定一定要參加嗎？",
+    "你現在就得上火車。"
+   ],
+   "a": "B"
+  },
+  {
+   "no": 20,
+   "part": "Part 2",
+   "t": 359.9,
+   "end": 378.0,
+   "q": "Shall we talk it over in the conference room, or would you prefer to stay here?",
+   "zq": "我們要去會議室談，還是你想留在這裡？",
+   "opts": [
+    "Thanks, I've been waiting all day.",
+    "I went to the convention last month.",
+    "It's more convenient with the equipment here."
+   ],
+   "zo": [
+    "謝謝，我等了一整天。",
+    "我上個月去參加了大會。",
+    "這裡有設備比較方便。"
+   ],
+   "a": "C"
+  }
+ ]
+}

@@ -1,0 +1,411 @@
+{
+ "source": {
+  "video": "https://youtu.be/ApzGHyXgMyg",
+  "original": "",
+  "publisher": "Parker English 怕渴英文（TOEIC 聽力模擬試題）",
+  "note": "英文逐字稿取自 YouTube 字幕；中文為學習用翻譯。版權屬原作者，僅供個人學習。"
+ },
+ "title": "TOEIC Listening Part 2 Practice (1)",
+ "lines": [
+  {
+   "t": 25.0,
+   "en": "1. The company is planning to recruit more staff, isn't it?",
+   "zh": "1. 公司打算招募更多員工，對吧？"
+  },
+  {
+   "t": 33.2,
+   "en": "(A) No, they're not included.",
+   "zh": "(A) 不，他們沒有包含在內。"
+  },
+  {
+   "t": 36.0,
+   "en": "(B) Yes, two and a half will be enough.",
+   "zh": "(B) 是的，兩個半就夠了。"
+  },
+  {
+   "t": 39.8,
+   "en": "(C) Absolutely, that's our top priority.",
+   "zh": "(C) 當然，那是我們的首要任務。"
+  },
+  {
+   "t": 45.1,
+   "en": "2. How long will we have to wait for a table?",
+   "zh": "2. 我們要等多久才有位子？"
+  },
+  {
+   "t": 51.8,
+   "en": "(A) Approximately fourteen meters.",
+   "zh": "(A) 大約十四公尺。"
+  },
+  {
+   "t": 55.1,
+   "en": "(B) Would you prefer to sit indoors or outdoors?",
+   "zh": "(B) 您想坐室內還是戶外？"
+  },
+  {
+   "t": 60.0,
+   "en": "(C) I'm sorry, it's overweight.",
+   "zh": "(C) 抱歉，超重了。"
+  },
+  {
+   "t": 64.3,
+   "en": "3. I'm trying a vegetarian diet for the next month.",
+   "zh": "3. 我接下來一個月要嘗試吃素。"
+  },
+  {
+   "t": 71.6,
+   "en": "(A) The next appointment.",
+   "zh": "(A) 下一次約診。"
+  },
+  {
+   "t": 74.0,
+   "en": "(B) I have some recipes that you can test out.",
+   "zh": "(B) 我有一些食譜可以讓你試試。"
+  },
+  {
+   "t": 78.6,
+   "en": "(C) Of course, I'll buy it.",
+   "zh": "(C) 當然，我會買。"
+  },
+  {
+   "t": 82.5,
+   "en": "4. Where do you think the new printer should be installed?",
+   "zh": "4. 你覺得新的印表機應該裝在哪裡？"
+  },
+  {
+   "t": 90.3,
+   "en": "(A) The purchase was not authorized by the manager.",
+   "zh": "(A) 這筆採購沒有經過經理核准。"
+  },
+  {
+   "t": 95.3,
+   "en": "(B) Fifteen color copies, please.",
+   "zh": "(B) 請印十五份彩色的。"
+  },
+  {
+   "t": 98.3,
+   "en": "(C) I already downloaded the program.",
+   "zh": "(C) 我已經下載那個程式了。"
+  },
+  {
+   "t": 103.1,
+   "en": "5. When are you meeting the client from Munich?",
+   "zh": "5. 你什麼時候要和慕尼黑的客戶見面？"
+  },
+  {
+   "t": 110.4,
+   "en": "(A) I am familiar with that place.",
+   "zh": "(A) 我對那個地方很熟。"
+  },
+  {
+   "t": 114.1,
+   "en": "(B) Have you seen the latest brochures?",
+   "zh": "(B) 你看過最新的簡介了嗎？"
+  },
+  {
+   "t": 118.3,
+   "en": "(C) At 9 A.M. on Tuesday.",
+   "zh": "(C) 星期二早上九點。"
+  },
+  {
+   "t": 122.2,
+   "en": "6. Why is everyone leaving early today?",
+   "zh": "6. 為什麼大家今天都提早離開？"
+  },
+  {
+   "t": 128.3,
+   "en": "(A) To prepare for the conference this afternoon.",
+   "zh": "(A) 為了準備今天下午的會議。"
+  },
+  {
+   "t": 133.4,
+   "en": "(B) Take the next street on your left.",
+   "zh": "(B) 下一條街左轉。"
+  },
+  {
+   "t": 137.2,
+   "en": "(C) A little bit later.",
+   "zh": "(C) 晚一點。"
+  },
+  {
+   "t": 140.7,
+   "en": "7. What topics do we need to address during the next staff meeting?",
+   "zh": "7. 下次員工會議我們需要討論哪些議題？"
+  },
+  {
+   "t": 148.5,
+   "en": "(A) Yes, today's meeting was quite productive.",
+   "zh": "(A) 是的，今天的會議很有成效。"
+  },
+  {
+   "t": 152.3,
+   "en": "(B) Either in the auditorium or the lobby.",
+   "zh": "(B) 在禮堂或大廳。"
+  },
+  {
+   "t": 155.7,
+   "en": "(C) I think we should discuss the new payroll procedures.",
+   "zh": "(C) 我想我們應該討論新的薪資作業流程。"
+  },
+  {
+   "t": 161.8,
+   "en": "8. Where can I catch a bus to the airport?",
+   "zh": "8. 我可以在哪裡搭到往機場的公車？"
+  },
+  {
+   "t": 168.6,
+   "en": "(A) You'll have to take a taxi.",
+   "zh": "(A) 你得搭計程車。"
+  },
+  {
+   "t": 171.9,
+   "en": "(B) The nine o'clock flight.",
+   "zh": "(B) 九點的班機。"
+  },
+  {
+   "t": 174.9,
+   "en": "(C) We need two tickets, please.",
+   "zh": "(C) 我們需要兩張票。"
+  },
+  {
+   "t": 179.6,
+   "en": "9. Would you be interested in taking a tour of our office space?",
+   "zh": "9. 你有興趣參觀我們的辦公空間嗎？"
+  },
+  {
+   "t": 188.4,
+   "en": "(A) The memo is three pages.",
+   "zh": "(A) 備忘錄有三頁。"
+  },
+  {
+   "t": 191.1,
+   "en": "(B) It's a follow-up interview.",
+   "zh": "(B) 那是第二次面試。"
+  },
+  {
+   "t": 194.1,
+   "en": "(C) Certainly, I'd like to see it.",
+   "zh": "(C) 當然，我很想看看。"
+  },
+  {
+   "t": 198.7,
+   "en": "10. Who will be presenting at the technology conference?",
+   "zh": "10. 誰會在科技研討會上發表？"
+  },
+  {
+   "t": 205.8,
+   "en": "(A) Is that science fiction popular?",
+   "zh": "(A) 那部科幻作品受歡迎嗎？"
+  },
+  {
+   "t": 209.0,
+   "en": "(B) They're going to host a conference call.",
+   "zh": "(B) 他們要主持一場電話會議。"
+  },
+  {
+   "t": 213.0,
+   "en": "(C) I haven't checked the program brochure yet.",
+   "zh": "(C) 我還沒看議程手冊。"
+  },
+  {
+   "t": 218.5,
+   "en": "11. When did you begin your new job?",
+   "zh": "11. 你什麼時候開始新工作的？"
+  },
+  {
+   "t": 224.6,
+   "en": "(A) At nine o'clock every morning.",
+   "zh": "(A) 每天早上九點。"
+  },
+  {
+   "t": 228.4,
+   "en": "(B) Just two weeks ago.",
+   "zh": "(B) 兩個禮拜前而已。"
+  },
+  {
+   "t": 230.8,
+   "en": "(C) Administrative assistant there.",
+   "zh": "(C) 那裡的行政助理。"
+  },
+  {
+   "t": 236.1,
+   "en": "12. Has the mail arrived yet?",
+   "zh": "12. 郵件到了嗎？"
+  },
+  {
+   "t": 241.3,
+   "en": "(A) I can't get email. My computer is broken.",
+   "zh": "(A) 我收不到電子郵件，我的電腦壞了。"
+  },
+  {
+   "t": 246.5,
+   "en": "(B) No, it usually doesn't arrive until noon.",
+   "zh": "(B) 還沒，通常中午才會到。"
+  },
+  {
+   "t": 251.7,
+   "en": "(C) Yes, he's in his office.",
+   "zh": "(C) 是的，他在辦公室。"
+  },
+  {
+   "t": 256.0,
+   "en": "13. Don't you want to take your briefcase with you?",
+   "zh": "13. 你不帶公事包嗎？"
+  },
+  {
+   "t": 263.6,
+   "en": "(A) Because we're starting a new case.",
+   "zh": "(A) 因為我們要開始一個新案子。"
+  },
+  {
+   "t": 267.6,
+   "en": "(B) No, she's in a hurry.",
+   "zh": "(B) 不，她在趕時間。"
+  },
+  {
+   "t": 270.1,
+   "en": "(C) No, it's too heavy.",
+   "zh": "(C) 不了，太重了。"
+  },
+  {
+   "t": 273.7,
+   "en": "14. What is the fine for overdue books?",
+   "zh": "14. 書逾期的罰款是多少？"
+  },
+  {
+   "t": 280.5,
+   "en": "(A) You can borrow videos, too.",
+   "zh": "(A) 你也可以借影片。"
+  },
+  {
+   "t": 284.3,
+   "en": "(B) Sorry, it's our store policy.",
+   "zh": "(B) 抱歉，這是本店規定。"
+  },
+  {
+   "t": 288.3,
+   "en": "(C) It's ten cents a day.",
+   "zh": "(C) 一天十美分。"
+  },
+  {
+   "t": 292.5,
+   "en": "15. I need to mail this invoice to the head office, right?",
+   "zh": "15. 我得把這張發票寄到總公司，對吧？"
+  },
+  {
+   "t": 300.4,
+   "en": "(A) No, I can't hear your voice.",
+   "zh": "(A) 不，我聽不到你的聲音。"
+  },
+  {
+   "t": 303.4,
+   "en": "(B) Turn it in to your supervisor first.",
+   "zh": "(B) 先交給你的主管。"
+  },
+  {
+   "t": 307.3,
+   "en": "(C) I think we should take a right here.",
+   "zh": "(C) 我想我們應該在這裡右轉。"
+  },
+  {
+   "t": 312.5,
+   "en": "16. Is that a new lens on your camera?",
+   "zh": "16. 你相機上那是新鏡頭嗎？"
+  },
+  {
+   "t": 319.3,
+   "en": "(A) I got it last year.",
+   "zh": "(A) 我去年買的。"
+  },
+  {
+   "t": 322.0,
+   "en": "(B) I want to buy contact lenses.",
+   "zh": "(B) 我想買隱形眼鏡。"
+  },
+  {
+   "t": 326.0,
+   "en": "(C) My camera has a zoom lens.",
+   "zh": "(C) 我的相機有變焦鏡頭。"
+  },
+  {
+   "t": 331.0,
+   "en": "17. How long is the warranty on your tablet computer?",
+   "zh": "17. 你的平板電腦保固多久？"
+  },
+  {
+   "t": 339.6,
+   "en": "(A) About three feet long.",
+   "zh": "(A) 大約三英尺長。"
+  },
+  {
+   "t": 342.6,
+   "en": "(B) It's for two years.",
+   "zh": "(B) 兩年。"
+  },
+  {
+   "t": 345.2,
+   "en": "(C) Since last April.",
+   "zh": "(C) 從去年四月開始。"
+  },
+  {
+   "t": 348.8,
+   "en": "18. It's a pleasure to make your acquaintance, Mr. Finch.",
+   "zh": "18. 很高興認識您，Finch 先生。"
+  },
+  {
+   "t": 358.3,
+   "en": "(A) So am I.",
+   "zh": "(A) 我也是。"
+  },
+  {
+   "t": 359.5,
+   "en": "(B) Good to hear.",
+   "zh": "(B) 很高興聽到這個消息。"
+  },
+  {
+   "t": 361.3,
+   "en": "(C) Likewise, Mrs. Clark.",
+   "zh": "(C) 我也很高興認識您，Clark 女士。"
+  },
+  {
+   "t": 365.6,
+   "en": "19. What do you think I should wear to the ceremony?",
+   "zh": "19. 你覺得我該穿什麼去參加典禮？"
+  },
+  {
+   "t": 374.1,
+   "en": "(A) An awards ceremony.",
+   "zh": "(A) 頒獎典禮。"
+  },
+  {
+   "t": 376.7,
+   "en": "(B) A suit and tie.",
+   "zh": "(B) 西裝打領帶。"
+  },
+  {
+   "t": 378.8,
+   "en": "(C) Just normal wear and tear.",
+   "zh": "(C) 只是正常磨損。"
+  },
+  {
+   "t": 383.6,
+   "en": "20. Would you like a ride to the bus terminal?",
+   "zh": "20. 要不要載你去公車總站？"
+  },
+  {
+   "t": 390.9,
+   "en": "(A) Right across from Terminal 3.",
+   "zh": "(A) 就在第三航廈對面。"
+  },
+  {
+   "t": 394.6,
+   "en": "(B) Thanks, I really appreciate it.",
+   "zh": "(B) 謝謝，真的很感激。"
+  },
+  {
+   "t": 398.5,
+   "en": "(C) No problem, I'll do it right away.",
+   "zh": "(C) 沒問題，我馬上去做。"
+  }
+ ]
+}

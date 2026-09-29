@@ -521,3 +521,53 @@ limitation	n: limitations	—
 palpable	adj: more palpable, most palpable	—
 nepotism	n: 不可數	—
 charity	n: charities	—
+recruit	v: recruits, recruited, recruited, recruiting	—
+vegetarian	adj: 無比較級 ; n: vegetarians	—
+authorize	v: authorizes, authorized, authorized, authorizing	—
+brochure	n: brochures	—
+address	v: addresses, addressed, addressed, addressing ; n: addresses	—
+payroll	n: payrolls	—
+overdue	adj: 無比較級	—
+invoice	n: invoices	—
+warranty	n: warranties	—
+acquaintance	n: acquaintances	—
+recognize	v: recognizes, recognized, recognized, recognizing	—
+badge	n: badges	—
+convention	n: conventions	—
+retire	v: retires, retired, retired, retiring	—
+seminar	n: seminars	—
+transport	v: transports, transported, transported, transporting	—
+advertisement	n: advertisements	—
+inspection	n: inspections	—
+supplier	n: suppliers	—
+mandatory	adj: 無比較級	—
+refreshment	n: refreshments	—
+appetizing	adj: more appetizing, most appetizing	—
+refund	n: refunds ; v: refunds, refunded, refunded, refunding	—
+keynote	n: keynotes	—
+turnout	n: turnouts	—
+occupied	adj: 無比較級	—
+flyer	n: flyers	—
+customs	n: 複數形	—
+restructuring	n: 不可數	—
+bankrupt	adj: 無比較級	—
+minutes	n: 複數形	—
+deadline	n: deadlines	—
+overtime	n: 不可數	—
+retail	n: 不可數	—
+proofread	v: proofreads, proofread, proofread, proofreading	—
+findings	n: 複數形	—
+project	v: projects, projected, projected, projecting ; n: projects	—
+defective	adj: 無比較級	—
+reminder	n: reminders	—
+quarter	n: quarters	—
+exchange	v: exchanges, exchanged, exchanged, exchanging ; n: exchanges	—
+receipt	n: receipts	—
+catering	n: 不可數	—
+arrangement	n: arrangements	—
+feature	n: features ; v: features, featured, featured, featuring	—
+auditor	n: auditors	—
+coordinator	n: coordinators	—
+accommodation	n: accommodations	—
+complimentary	adj: 無比較級	—
+banquet	n: banquets	—

@@ -1,0 +1,1167 @@
+{
+ "id": "tl-g45bsrn2SJs",
+ "course": "toeic-listen",
+ "publisher": "Parker English 怕渴英文（TOEIC 聽力模擬試題）",
+ "video": "https://youtu.be/g45bsrn2SJs",
+ "bbc": "",
+ "label": "聽力 5",
+ "theme": "Part 3 簡短對話（一）",
+ "themeEn": "TOEIC Listening Part 3 Practice [01]",
+ "release": "2026-10-03",
+ "words": [
+  {
+   "n": 1,
+   "w": "exchange",
+   "s": 3,
+   "ph": "[ɪksˋtʃendʒ]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "換（貨）"
+    },
+    {
+     "p": "n.",
+     "m": "交換"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Woman: Excuse me, I have a concern about this coat I received as a birthday gift. It appears to be missing a few buttons. Is it possible to exchange it for another one?",
+     "zh": "女：不好意思，我收到這件當生日禮物的外套，有點問題。它好像少了幾顆鈕扣，可以換一件嗎？",
+     "t": 28.9
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "exchange A for B 用 A 換 B；exchanges and refunds 換貨與退款。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "exchanges"
+      ],
+      [
+       "過去式",
+       "exchanged"
+      ],
+      [
+       "過去分詞",
+       "exchanged"
+      ],
+      [
+       "現在分詞",
+       "exchanging"
+      ]
+     ]
+    },
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "exchanges"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "receipt",
+   "s": 3,
+   "ph": "[rɪˋsit]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "收據"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Man: Certainly, that shouldn't be an issue, but we can only exchange it if it was bought within the last fourteen days. Do you have the receipt so I can verify the purchase date?",
+     "zh": "男：當然，這應該沒問題，但只有在過去十四天內購買的才能換。您有收據讓我確認購買日期嗎？",
+     "t": 38.3
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "original receipt 原始收據（p 不發音）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "receipts"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "catering",
+   "s": 2,
+   "ph": "[ˋketərɪŋ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "外燴"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Woman: Well, the catering company we used at our last party did a wonderful job with the selection of food they served. Why don't we use them again and let them handle the entire thing?",
+     "zh": "女：嗯，上次派對找的外燴公司，菜色選得很棒。何不再找他們，整個交給他們處理？",
+     "t": 104.9
+    }
+   ],
+   "fam": [
+    "caterer n. 外燴業者"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "catering service 外燴服務（活動籌備題必考）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "arrangement",
+   "s": 3,
+   "ph": "[əˋrendʒmənt]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "安排"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Man: That sounds like a good idea, and it will save us a lot of work. Can you call them and make the necessary arrangements, then?",
+     "zh": "男：聽起來是好主意，還能省下很多工夫。那你可以打給他們，把需要的事情安排好嗎？",
+     "t": 114.1
+    }
+   ],
+   "fam": [
+    "arrange v. 安排"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "make arrangements for 為～做安排。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "arrangements"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "feature",
+   "s": 3,
+   "ph": "[ˋfitʃɚ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "功能，特色"
+    },
+    {
+     "p": "v.",
+     "m": "以～為特色"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Woman: Okay, what kind of features are you looking for in particular?",
+     "zh": "女：好的，您特別想要什麼功能？",
+     "t": 164.9
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "new features 新功能；The event will feature ～ 活動將有～。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "features"
+      ]
+     ]
+    },
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "features"
+      ],
+      [
+       "過去式",
+       "featured"
+      ],
+      [
+       "過去分詞",
+       "featured"
+      ],
+      [
+       "現在分詞",
+       "featuring"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "auditor",
+   "s": 2,
+   "ph": "[ˋɔdɪtɚ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "稽核員，查帳員"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Man: Hey, remember that the auditors from the headquarters are scheduled to arrive tomorrow morning to begin their review of our operations. Let's spend the whole day getting those files organized so that the auditors can finish faster.",
+     "zh": "男：嘿，別忘了總公司的稽核人員明天早上就要來審查我們的營運。我們花一整天把檔案整理好，讓他們可以早點完成。",
+     "t": 226.2
+    }
+   ],
+   "fam": [
+    "audit n./v. 稽核"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "external auditor 外部稽核。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "auditors"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "coordinator",
+   "s": 2,
+   "ph": "[koˋɔrdə͵netɚ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "統籌人員，協調者"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Hotel staff: Welcome to the Radisson Hotel. I'm the event coordinator, and this is my colleague, Diane. Are you interested in holding an event here?",
+     "zh": "飯店人員：歡迎光臨 Radisson 飯店。我是活動統籌，這位是我的同事 Diane。您有興趣在這裡辦活動嗎？",
+     "t": 299.5
+    }
+   ],
+   "fam": [
+    "coordinate v. 協調"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "event coordinator 活動統籌。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "coordinators"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "accommodation",
+   "s": 2,
+   "ph": "[ə͵kɑməˋdeʃən]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "住宿"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Man: Okay. What's more, around half of our guests will be arriving from out of town. Is there enough accommodation available for them to stay here?",
+     "zh": "男：好的。另外，大約一半的賓客是從外地來的。這裡有足夠的房間讓他們住嗎？",
+     "t": 321.7
+    }
+   ],
+   "fam": [
+    "accommodate v. 容納"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "hotel accommodations 飯店住宿。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "accommodations"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "w": "complimentary",
+   "s": 2,
+   "ph": "[͵kɑmpləˋmɛntərɪ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "免費招待的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Woman: I'm confident that we have enough rooms available, but we'll check and send you a quote for a group rate. And also, we offer complimentary shuttle service to and from the airport.",
+     "zh": "女：我相信我們的房間夠，不過我們會確認一下，再把團體價的報價寄給您。另外，我們也提供免費的機場接送服務。",
+     "t": 329.1
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "complimentary breakfast 免費早餐（≠ complementary 互補的）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "w": "banquet",
+   "s": 2,
+   "ph": "[ˋbæŋkwɪt]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "宴會"
+    }
+   ],
+   "ex": [
+    {
+     "en": "Man: Yes, I'm representing the National Journalist Association. We're planning our annual awards banquet for June, with around 100 guests.",
+     "zh": "男：是的，我代表全國記者協會。我們正在規劃六月的年度頒獎晚宴，大約一百位賓客。",
+     "t": 308.0
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "awards banquet 頒獎晚宴；banquet hall 宴會廳。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "banquets"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "cloze": [],
+ "comp": [],
+ "lq": [
+  {
+   "no": 1,
+   "part": "Part 3",
+   "set": "1–3",
+   "ct": 28.9,
+   "cend": 60.8,
+   "t": 61.6,
+   "end": 72.1,
+   "q": "When did the woman receive the coat?",
+   "zq": "女子什麼時候收到外套？",
+   "opts": [
+    "Yesterday",
+    "Several days ago",
+    "A week ago",
+    "Two weeks ago"
+   ],
+   "zo": [
+    "昨天",
+    "幾天前",
+    "一週前",
+    "兩週前"
+   ],
+   "a": "B",
+   "convo": [
+    {
+     "sp": "Woman",
+     "en": "Excuse me, I have a concern about this coat I received as a birthday gift. It appears to be missing a few buttons. Is it possible to exchange it for another one?",
+     "zh": "不好意思，我收到這件當生日禮物的外套，有點問題。它好像少了幾顆鈕扣，可以換一件嗎？"
+    },
+    {
+     "sp": "Man",
+     "en": "Certainly, that shouldn't be an issue, but we can only exchange it if it was bought within the last fourteen days. Do you have the receipt so I can verify the purchase date?",
+     "zh": "當然，這應該沒問題，但只有在過去十四天內購買的才能換。您有收據讓我確認購買日期嗎？"
+    },
+    {
+     "sp": "Woman",
+     "en": "I'm sorry, I wasn't given the receipt since it was a gift from my friend. However, he gave it to me just last Wednesday, so I believe he bought it recently.",
+     "zh": "抱歉，這是朋友送的，所以我沒拿到收據。不過他上週三才給我，所以我想他應該是最近買的。"
+    },
+    {
+     "sp": "Man",
+     "en": "I apologize, but according to our store policy, we require the original receipt for all exchanges and refunds.",
+     "zh": "很抱歉，依照本店規定，所有換貨和退款都需要原始收據。"
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "part": "Part 3",
+   "set": "1–3",
+   "ct": 28.9,
+   "cend": 60.8,
+   "t": 72.4,
+   "end": 82.7,
+   "q": "What is inferred about the coat?",
+   "zq": "關於外套可以推論出什麼？",
+   "opts": [
+    "It comes with several colors.",
+    "It's very expensive.",
+    "It isn't the right size.",
+    "It has a defect."
+   ],
+   "zo": [
+    "有好幾種顏色。",
+    "非常昂貴。",
+    "尺寸不對。",
+    "有瑕疵。"
+   ],
+   "a": "D",
+   "convo": [
+    {
+     "sp": "Woman",
+     "en": "Excuse me, I have a concern about this coat I received as a birthday gift. It appears to be missing a few buttons. Is it possible to exchange it for another one?",
+     "zh": "不好意思，我收到這件當生日禮物的外套，有點問題。它好像少了幾顆鈕扣，可以換一件嗎？"
+    },
+    {
+     "sp": "Man",
+     "en": "Certainly, that shouldn't be an issue, but we can only exchange it if it was bought within the last fourteen days. Do you have the receipt so I can verify the purchase date?",
+     "zh": "當然，這應該沒問題，但只有在過去十四天內購買的才能換。您有收據讓我確認購買日期嗎？"
+    },
+    {
+     "sp": "Woman",
+     "en": "I'm sorry, I wasn't given the receipt since it was a gift from my friend. However, he gave it to me just last Wednesday, so I believe he bought it recently.",
+     "zh": "抱歉，這是朋友送的，所以我沒拿到收據。不過他上週三才給我，所以我想他應該是最近買的。"
+    },
+    {
+     "sp": "Man",
+     "en": "I apologize, but according to our store policy, we require the original receipt for all exchanges and refunds.",
+     "zh": "很抱歉，依照本店規定，所有換貨和退款都需要原始收據。"
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "part": "Part 3",
+   "set": "1–3",
+   "ct": 28.9,
+   "cend": 60.8,
+   "t": 83.0,
+   "end": 95.0,
+   "q": "What does the man ask the woman for?",
+   "zq": "男子向女子要什麼？",
+   "opts": [
+    "The original bill",
+    "The proof of purchase",
+    "Correct changes",
+    "Some dates"
+   ],
+   "zo": [
+    "原始帳單",
+    "購買證明",
+    "正確的零錢",
+    "一些日期"
+   ],
+   "a": "B",
+   "convo": [
+    {
+     "sp": "Woman",
+     "en": "Excuse me, I have a concern about this coat I received as a birthday gift. It appears to be missing a few buttons. Is it possible to exchange it for another one?",
+     "zh": "不好意思，我收到這件當生日禮物的外套，有點問題。它好像少了幾顆鈕扣，可以換一件嗎？"
+    },
+    {
+     "sp": "Man",
+     "en": "Certainly, that shouldn't be an issue, but we can only exchange it if it was bought within the last fourteen days. Do you have the receipt so I can verify the purchase date?",
+     "zh": "當然，這應該沒問題，但只有在過去十四天內購買的才能換。您有收據讓我確認購買日期嗎？"
+    },
+    {
+     "sp": "Woman",
+     "en": "I'm sorry, I wasn't given the receipt since it was a gift from my friend. However, he gave it to me just last Wednesday, so I believe he bought it recently.",
+     "zh": "抱歉，這是朋友送的，所以我沒拿到收據。不過他上週三才給我，所以我想他應該是最近買的。"
+    },
+    {
+     "sp": "Man",
+     "en": "I apologize, but according to our store policy, we require the original receipt for all exchanges and refunds.",
+     "zh": "很抱歉，依照本店規定，所有換貨和退款都需要原始收據。"
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "part": "Part 3",
+   "set": "4–6",
+   "ct": 100.0,
+   "cend": 123.0,
+   "t": 123.7,
+   "end": 134.2,
+   "q": "What are the speakers discussing?",
+   "zq": "說話者在討論什麼？",
+   "opts": [
+    "Where to hold the annual get-together",
+    "What kind of food to serve at an event",
+    "What to wear to the event",
+    "How many participants are expected at the party"
+   ],
+   "zo": [
+    "年度聚會要在哪裡辦",
+    "活動要準備什麼食物",
+    "活動要穿什麼",
+    "派對預計有多少人參加"
+   ],
+   "a": "B",
+   "convo": [
+    {
+     "sp": "Man",
+     "en": "Samantha, have you figured out what kind of food we should serve at the year-end party this year?",
+     "zh": "Samantha，今年尾牙要準備什麼食物，你想好了嗎？"
+    },
+    {
+     "sp": "Woman",
+     "en": "Well, the catering company we used at our last party did a wonderful job with the selection of food they served. Why don't we use them again and let them handle the entire thing?",
+     "zh": "嗯，上次派對找的外燴公司，菜色選得很棒。何不再找他們，整個交給他們處理？"
+    },
+    {
+     "sp": "Man",
+     "en": "That sounds like a good idea, and it will save us a lot of work. Can you call them and make the necessary arrangements, then?",
+     "zh": "聽起來是好主意，還能省下很多工夫。那你可以打給他們，把需要的事情安排好嗎？"
+    },
+    {
+     "sp": "Woman",
+     "en": "Sure, I will take care of it right away.",
+     "zh": "好，我馬上處理。"
+    }
+   ]
+  },
+  {
+   "no": 5,
+   "part": "Part 3",
+   "set": "4–6",
+   "ct": 100.0,
+   "cend": 123.0,
+   "t": 134.5,
+   "end": 146.2,
+   "q": "How do the speakers feel about the caterer they used before?",
+   "zq": "說話者對之前找的外燴業者感覺如何？",
+   "opts": [
+    "They did not provide enough food.",
+    "They are satisfied with their choice of food.",
+    "They charge too much money.",
+    "They did not provide good service."
+   ],
+   "zo": [
+    "他們提供的食物不夠。",
+    "對他們選的菜色很滿意。",
+    "他們收費太貴。",
+    "他們服務不好。"
+   ],
+   "a": "B",
+   "convo": [
+    {
+     "sp": "Man",
+     "en": "Samantha, have you figured out what kind of food we should serve at the year-end party this year?",
+     "zh": "Samantha，今年尾牙要準備什麼食物，你想好了嗎？"
+    },
+    {
+     "sp": "Woman",
+     "en": "Well, the catering company we used at our last party did a wonderful job with the selection of food they served. Why don't we use them again and let them handle the entire thing?",
+     "zh": "嗯，上次派對找的外燴公司，菜色選得很棒。何不再找他們，整個交給他們處理？"
+    },
+    {
+     "sp": "Man",
+     "en": "That sounds like a good idea, and it will save us a lot of work. Can you call them and make the necessary arrangements, then?",
+     "zh": "聽起來是好主意，還能省下很多工夫。那你可以打給他們，把需要的事情安排好嗎？"
+    },
+    {
+     "sp": "Woman",
+     "en": "Sure, I will take care of it right away.",
+     "zh": "好，我馬上處理。"
+    }
+   ]
+  },
+  {
+   "no": 6,
+   "part": "Part 3",
+   "set": "4–6",
+   "ct": 100.0,
+   "cend": 123.0,
+   "t": 146.5,
+   "end": 158.2,
+   "q": "What will the woman probably do next?",
+   "zq": "女子接下來可能會做什麼？",
+   "opts": [
+    "Look for another catering company",
+    "Help set up the event venue",
+    "Get in touch with the food provider",
+    "Think of activities for the upcoming event"
+   ],
+   "zo": [
+    "找另一家外燴公司",
+    "幫忙布置活動場地",
+    "聯絡餐飲業者",
+    "構思接下來活動的節目"
+   ],
+   "a": "C",
+   "convo": [
+    {
+     "sp": "Man",
+     "en": "Samantha, have you figured out what kind of food we should serve at the year-end party this year?",
+     "zh": "Samantha，今年尾牙要準備什麼食物，你想好了嗎？"
+    },
+    {
+     "sp": "Woman",
+     "en": "Well, the catering company we used at our last party did a wonderful job with the selection of food they served. Why don't we use them again and let them handle the entire thing?",
+     "zh": "嗯，上次派對找的外燴公司，菜色選得很棒。何不再找他們，整個交給他們處理？"
+    },
+    {
+     "sp": "Man",
+     "en": "That sounds like a good idea, and it will save us a lot of work. Can you call them and make the necessary arrangements, then?",
+     "zh": "聽起來是好主意，還能省下很多工夫。那你可以打給他們，把需要的事情安排好嗎？"
+    },
+    {
+     "sp": "Woman",
+     "en": "Sure, I will take care of it right away.",
+     "zh": "好，我馬上處理。"
+    }
+   ]
+  },
+  {
+   "no": 7,
+   "part": "Part 3",
+   "set": "7–9",
+   "ct": 163.1,
+   "cend": 186.5,
+   "t": 187.1,
+   "end": 197.8,
+   "q": "Where most likely are the speakers?",
+   "zq": "說話者最可能在哪裡？",
+   "opts": [
+    "At a camera shop",
+    "At an electronics store",
+    "At a conference room",
+    "At a television studio"
+   ],
+   "zo": [
+    "相機店",
+    "電器行",
+    "會議室",
+    "電視攝影棚"
+   ],
+   "a": "B",
+   "convo": [
+    {
+     "sp": "Man",
+     "en": "Hi, good afternoon. I'm looking for a new mobile phone.",
+     "zh": "嗨，午安。我在找一支新手機。"
+    },
+    {
+     "sp": "Woman",
+     "en": "Okay, what kind of features are you looking for in particular?",
+     "zh": "好的，您特別想要什麼功能？"
+    },
+    {
+     "sp": "Man",
+     "en": "Well, I work long hours, so a strong battery is a must.",
+     "zh": "嗯，我工作時間很長，所以電池一定要夠力。"
+    },
+    {
+     "sp": "Woman",
+     "en": "In that case, you should definitely check out the Duracell 100. It's exactly what you need.",
+     "zh": "這樣的話，您一定要看看 Duracell 100，正是您需要的。"
+    },
+    {
+     "sp": "Man",
+     "en": "Awesome! Mind if I take a look at it?",
+     "zh": "太好了！可以讓我看一下嗎？"
+    },
+    {
+     "sp": "Woman",
+     "en": "No problem. Let me check if we've got one in stock. It's been selling like hotcakes. I'll be back in a sec.",
+     "zh": "沒問題。我查一下還有沒有庫存，這款賣得超好。我馬上回來。"
+    }
+   ]
+  },
+  {
+   "no": 8,
+   "part": "Part 3",
+   "set": "7–9",
+   "ct": 163.1,
+   "cend": 186.5,
+   "t": 198.1,
+   "end": 209.2,
+   "q": "Which feature is the man's primary concern?",
+   "zq": "男子最在意哪一項功能？",
+   "opts": [
+    "Big screen size",
+    "A lot of storage space",
+    "Affordability",
+    "Long battery life"
+   ],
+   "zo": [
+    "大螢幕",
+    "大量儲存空間",
+    "價格實惠",
+    "電池續航力長"
+   ],
+   "a": "D",
+   "convo": [
+    {
+     "sp": "Man",
+     "en": "Hi, good afternoon. I'm looking for a new mobile phone.",
+     "zh": "嗨，午安。我在找一支新手機。"
+    },
+    {
+     "sp": "Woman",
+     "en": "Okay, what kind of features are you looking for in particular?",
+     "zh": "好的，您特別想要什麼功能？"
+    },
+    {
+     "sp": "Man",
+     "en": "Well, I work long hours, so a strong battery is a must.",
+     "zh": "嗯，我工作時間很長，所以電池一定要夠力。"
+    },
+    {
+     "sp": "Woman",
+     "en": "In that case, you should definitely check out the Duracell 100. It's exactly what you need.",
+     "zh": "這樣的話，您一定要看看 Duracell 100，正是您需要的。"
+    },
+    {
+     "sp": "Man",
+     "en": "Awesome! Mind if I take a look at it?",
+     "zh": "太好了！可以讓我看一下嗎？"
+    },
+    {
+     "sp": "Woman",
+     "en": "No problem. Let me check if we've got one in stock. It's been selling like hotcakes. I'll be back in a sec.",
+     "zh": "沒問題。我查一下還有沒有庫存，這款賣得超好。我馬上回來。"
+    }
+   ]
+  },
+  {
+   "no": 9,
+   "part": "Part 3",
+   "set": "7–9",
+   "ct": 163.1,
+   "cend": 186.5,
+   "t": 209.5,
+   "end": 221.5,
+   "q": "What does the woman say she needs to check?",
+   "zq": "女子說她需要確認什麼？",
+   "opts": [
+    "The current stock price",
+    "Some contact details",
+    "The availability of a product",
+    "Some measurements"
+   ],
+   "zo": [
+    "目前的股價",
+    "一些聯絡資料",
+    "商品有沒有現貨",
+    "一些尺寸"
+   ],
+   "a": "C",
+   "convo": [
+    {
+     "sp": "Man",
+     "en": "Hi, good afternoon. I'm looking for a new mobile phone.",
+     "zh": "嗨，午安。我在找一支新手機。"
+    },
+    {
+     "sp": "Woman",
+     "en": "Okay, what kind of features are you looking for in particular?",
+     "zh": "好的，您特別想要什麼功能？"
+    },
+    {
+     "sp": "Man",
+     "en": "Well, I work long hours, so a strong battery is a must.",
+     "zh": "嗯，我工作時間很長，所以電池一定要夠力。"
+    },
+    {
+     "sp": "Woman",
+     "en": "In that case, you should definitely check out the Duracell 100. It's exactly what you need.",
+     "zh": "這樣的話，您一定要看看 Duracell 100，正是您需要的。"
+    },
+    {
+     "sp": "Man",
+     "en": "Awesome! Mind if I take a look at it?",
+     "zh": "太好了！可以讓我看一下嗎？"
+    },
+    {
+     "sp": "Woman",
+     "en": "No problem. Let me check if we've got one in stock. It's been selling like hotcakes. I'll be back in a sec.",
+     "zh": "沒問題。我查一下還有沒有庫存，這款賣得超好。我馬上回來。"
+    }
+   ]
+  },
+  {
+   "no": 10,
+   "part": "Part 3",
+   "set": "10–12",
+   "ct": 226.2,
+   "cend": 257.5,
+   "t": 258.1,
+   "end": 269.0,
+   "q": "What is the purpose of the conversation?",
+   "zq": "這段對話的目的是什麼？",
+   "opts": [
+    "To develop a business contract",
+    "To take part in an audition",
+    "To arrange a visit to the headquarters",
+    "To organize files for an audit"
+   ],
+   "zo": [
+    "擬定商業合約",
+    "參加試鏡",
+    "安排參訪總公司",
+    "為稽核整理檔案"
+   ],
+   "a": "D",
+   "convo": [
+    {
+     "sp": "Man",
+     "en": "Hey, remember that the auditors from the headquarters are scheduled to arrive tomorrow morning to begin their review of our operations. Let's spend the whole day getting those files organized so that the auditors can finish faster.",
+     "zh": "嘿，別忘了總公司的稽核人員明天早上就要來審查我們的營運。我們花一整天把檔案整理好，讓他們可以早點完成。"
+    },
+    {
+     "sp": "Woman",
+     "en": "I know, but I have an important meeting this morning. Can you start on your own? I can join you around 2 P.M. to help wrap things up.",
+     "zh": "我知道，但我今天早上有個重要的會。你可以先自己開始嗎？我大概兩點可以加入，幫忙收尾。"
+    },
+    {
+     "sp": "Man",
+     "en": "There's a lot of work to be done before the auditors arrive. Can you try to finish by noon? Otherwise, I think we'll have to stay late tonight.",
+     "zh": "稽核人員來之前有很多事要做。你能不能試著中午前結束？不然我想我們今晚得加班了。"
+    },
+    {
+     "sp": "Woman",
+     "en": "These meetings tend to run long, but I'll do my best to finish as quickly as possible.",
+     "zh": "這種會議常常會拖很久，但我會盡量早點結束。"
+    }
+   ]
+  },
+  {
+   "no": 11,
+   "part": "Part 3",
+   "set": "10–12",
+   "ct": 226.2,
+   "cend": 257.5,
+   "t": 269.3,
+   "end": 280.2,
+   "q": "Why can't the speakers begin in the morning?",
+   "zq": "說話者為什麼不能早上開始？",
+   "opts": [
+    "The man has too much work to do.",
+    "There isn't a place to meet.",
+    "The woman has a prior engagement.",
+    "They are scheduled to attend a meeting."
+   ],
+   "zo": [
+    "男子工作太多。",
+    "沒有地方碰面。",
+    "女子另有約在先。",
+    "他們排定要去開會。"
+   ],
+   "a": "C",
+   "convo": [
+    {
+     "sp": "Man",
+     "en": "Hey, remember that the auditors from the headquarters are scheduled to arrive tomorrow morning to begin their review of our operations. Let's spend the whole day getting those files organized so that the auditors can finish faster.",
+     "zh": "嘿，別忘了總公司的稽核人員明天早上就要來審查我們的營運。我們花一整天把檔案整理好，讓他們可以早點完成。"
+    },
+    {
+     "sp": "Woman",
+     "en": "I know, but I have an important meeting this morning. Can you start on your own? I can join you around 2 P.M. to help wrap things up.",
+     "zh": "我知道，但我今天早上有個重要的會。你可以先自己開始嗎？我大概兩點可以加入，幫忙收尾。"
+    },
+    {
+     "sp": "Man",
+     "en": "There's a lot of work to be done before the auditors arrive. Can you try to finish by noon? Otherwise, I think we'll have to stay late tonight.",
+     "zh": "稽核人員來之前有很多事要做。你能不能試著中午前結束？不然我想我們今晚得加班了。"
+    },
+    {
+     "sp": "Woman",
+     "en": "These meetings tend to run long, but I'll do my best to finish as quickly as possible.",
+     "zh": "這種會議常常會拖很久，但我會盡量早點結束。"
+    }
+   ]
+  },
+  {
+   "no": 12,
+   "part": "Part 3",
+   "set": "10–12",
+   "ct": 226.2,
+   "cend": 257.5,
+   "t": 280.5,
+   "end": 294.4,
+   "q": "What does the woman mean when she says, \"These meetings tend to run long\"?",
+   "zq": "女子說「這種會議常常會拖很久」是什麼意思？",
+   "opts": [
+    "The conference room will be occupied by noon.",
+    "She may not be available in a short while.",
+    "Officers from the headquarters will arrive later.",
+    "They will have enough time to handle the documents."
+   ],
+   "zo": [
+    "會議室中午前都有人用。",
+    "她可能沒辦法很快抽身。",
+    "總公司的主管會晚點到。",
+    "他們有足夠時間處理文件。"
+   ],
+   "a": "B",
+   "convo": [
+    {
+     "sp": "Man",
+     "en": "Hey, remember that the auditors from the headquarters are scheduled to arrive tomorrow morning to begin their review of our operations. Let's spend the whole day getting those files organized so that the auditors can finish faster.",
+     "zh": "嘿，別忘了總公司的稽核人員明天早上就要來審查我們的營運。我們花一整天把檔案整理好，讓他們可以早點完成。"
+    },
+    {
+     "sp": "Woman",
+     "en": "I know, but I have an important meeting this morning. Can you start on your own? I can join you around 2 P.M. to help wrap things up.",
+     "zh": "我知道，但我今天早上有個重要的會。你可以先自己開始嗎？我大概兩點可以加入，幫忙收尾。"
+    },
+    {
+     "sp": "Man",
+     "en": "There's a lot of work to be done before the auditors arrive. Can you try to finish by noon? Otherwise, I think we'll have to stay late tonight.",
+     "zh": "稽核人員來之前有很多事要做。你能不能試著中午前結束？不然我想我們今晚得加班了。"
+    },
+    {
+     "sp": "Woman",
+     "en": "These meetings tend to run long, but I'll do my best to finish as quickly as possible.",
+     "zh": "這種會議常常會拖很久，但我會盡量早點結束。"
+    }
+   ]
+  },
+  {
+   "no": 13,
+   "part": "Part 3",
+   "set": "13–15",
+   "ct": 299.5,
+   "cend": 339.8,
+   "t": 340.4,
+   "end": 351.5,
+   "q": "What kind of event is the man planning for?",
+   "zq": "男子在籌備哪一種活動？",
+   "opts": [
+    "A trade show",
+    "A wedding",
+    "A film festival",
+    "An awards ceremony"
+   ],
+   "zo": [
+    "商展",
+    "婚禮",
+    "影展",
+    "頒獎典禮"
+   ],
+   "a": "D",
+   "convo": [
+    {
+     "sp": "Hotel staff",
+     "en": "Welcome to the Radisson Hotel. I'm the event coordinator, and this is my colleague, Diane. Are you interested in holding an event here?",
+     "zh": "歡迎光臨 Radisson 飯店。我是活動統籌，這位是我的同事 Diane。您有興趣在這裡辦活動嗎？"
+    },
+    {
+     "sp": "Man",
+     "en": "Yes, I'm representing the National Journalist Association. We're planning our annual awards banquet for June, with around 100 guests.",
+     "zh": "是的，我代表全國記者協會。我們正在規劃六月的年度頒獎晚宴，大約一百位賓客。"
+    },
+    {
+     "sp": "Hotel staff",
+     "en": "Excellent. We have a stunning ballroom on this level that has been used for awards ceremonies previously.",
+     "zh": "太好了。我們這一層有一間很漂亮的宴會廳，以前辦過頒獎典禮。"
+    },
+    {
+     "sp": "Man",
+     "en": "Okay. What's more, around half of our guests will be arriving from out of town. Is there enough accommodation available for them to stay here?",
+     "zh": "好的。另外，大約一半的賓客是從外地來的。這裡有足夠的房間讓他們住嗎？"
+    },
+    {
+     "sp": "Woman",
+     "en": "I'm confident that we have enough rooms available, but we'll check and send you a quote for a group rate. And also, we offer complimentary shuttle service to and from the airport.",
+     "zh": "我相信我們的房間夠，不過我們會確認一下，再把團體價的報價寄給您。另外，我們也提供免費的機場接送服務。"
+    }
+   ]
+  },
+  {
+   "no": 14,
+   "part": "Part 3",
+   "set": "13–15",
+   "ct": 299.5,
+   "cend": 339.8,
+   "t": 351.8,
+   "end": 363.1,
+   "q": "What information does the man inquire about?",
+   "zq": "男子詢問什麼資訊？",
+   "opts": [
+    "Meal options",
+    "Outdoor seating",
+    "Accommodations",
+    "Entertainment"
+   ],
+   "zo": [
+    "餐點選擇",
+    "戶外座位",
+    "住宿",
+    "娛樂節目"
+   ],
+   "a": "C",
+   "convo": [
+    {
+     "sp": "Hotel staff",
+     "en": "Welcome to the Radisson Hotel. I'm the event coordinator, and this is my colleague, Diane. Are you interested in holding an event here?",
+     "zh": "歡迎光臨 Radisson 飯店。我是活動統籌，這位是我的同事 Diane。您有興趣在這裡辦活動嗎？"
+    },
+    {
+     "sp": "Man",
+     "en": "Yes, I'm representing the National Journalist Association. We're planning our annual awards banquet for June, with around 100 guests.",
+     "zh": "是的，我代表全國記者協會。我們正在規劃六月的年度頒獎晚宴，大約一百位賓客。"
+    },
+    {
+     "sp": "Hotel staff",
+     "en": "Excellent. We have a stunning ballroom on this level that has been used for awards ceremonies previously.",
+     "zh": "太好了。我們這一層有一間很漂亮的宴會廳，以前辦過頒獎典禮。"
+    },
+    {
+     "sp": "Man",
+     "en": "Okay. What's more, around half of our guests will be arriving from out of town. Is there enough accommodation available for them to stay here?",
+     "zh": "好的。另外，大約一半的賓客是從外地來的。這裡有足夠的房間讓他們住嗎？"
+    },
+    {
+     "sp": "Woman",
+     "en": "I'm confident that we have enough rooms available, but we'll check and send you a quote for a group rate. And also, we offer complimentary shuttle service to and from the airport.",
+     "zh": "我相信我們的房間夠，不過我們會確認一下，再把團體價的報價寄給您。另外，我們也提供免費的機場接送服務。"
+    }
+   ]
+  },
+  {
+   "no": 15,
+   "part": "Part 3",
+   "set": "13–15",
+   "ct": 299.5,
+   "cend": 339.8,
+   "t": 363.4,
+   "end": 374.8,
+   "q": "What complimentary service does the hotel provide?",
+   "zq": "飯店提供什麼免費服務？",
+   "opts": [
+    "Parking",
+    "Internet access",
+    "Meals",
+    "Transportation"
+   ],
+   "zo": [
+    "停車",
+    "網路",
+    "餐點",
+    "交通接駁"
+   ],
+   "a": "D",
+   "convo": [
+    {
+     "sp": "Hotel staff",
+     "en": "Welcome to the Radisson Hotel. I'm the event coordinator, and this is my colleague, Diane. Are you interested in holding an event here?",
+     "zh": "歡迎光臨 Radisson 飯店。我是活動統籌，這位是我的同事 Diane。您有興趣在這裡辦活動嗎？"
+    },
+    {
+     "sp": "Man",
+     "en": "Yes, I'm representing the National Journalist Association. We're planning our annual awards banquet for June, with around 100 guests.",
+     "zh": "是的，我代表全國記者協會。我們正在規劃六月的年度頒獎晚宴，大約一百位賓客。"
+    },
+    {
+     "sp": "Hotel staff",
+     "en": "Excellent. We have a stunning ballroom on this level that has been used for awards ceremonies previously.",
+     "zh": "太好了。我們這一層有一間很漂亮的宴會廳，以前辦過頒獎典禮。"
+    },
+    {
+     "sp": "Man",
+     "en": "Okay. What's more, around half of our guests will be arriving from out of town. Is there enough accommodation available for them to stay here?",
+     "zh": "好的。另外，大約一半的賓客是從外地來的。這裡有足夠的房間讓他們住嗎？"
+    },
+    {
+     "sp": "Woman",
+     "en": "I'm confident that we have enough rooms available, but we'll check and send you a quote for a group rate. And also, we offer complimentary shuttle service to and from the airport.",
+     "zh": "我相信我們的房間夠，不過我們會確認一下，再把團體價的報價寄給您。另外，我們也提供免費的機場接送服務。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,818 @@
+{
+ "id": "tl-ApzGHyXgMyg",
+ "course": "toeic-listen",
+ "publisher": "Parker English 怕渴英文（TOEIC 聽力模擬試題）",
+ "video": "https://youtu.be/ApzGHyXgMyg",
+ "bbc": "",
+ "label": "聽力 1",
+ "theme": "Part 2 應答問題（一）",
+ "themeEn": "TOEIC Listening Part 2 Practice (1)",
+ "release": "2026-09-29",
+ "words": [
+  {
+   "n": 1,
+   "w": "recruit",
+   "s": 3,
+   "ph": "[rɪˋkrut]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "招募"
+    }
+   ],
+   "ex": [
+    {
+     "en": "1. The company is planning to recruit more staff, isn't it?",
+     "zh": "1. 公司打算招募更多員工，對吧？",
+     "t": 25.0
+    }
+   ],
+   "fam": [
+    "recruitment n. 招募"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "recruit new employees 招募新員工（徵才公告必考）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "recruits"
+      ],
+      [
+       "過去式",
+       "recruited"
+      ],
+      [
+       "過去分詞",
+       "recruited"
+      ],
+      [
+       "現在分詞",
+       "recruiting"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "vegetarian",
+   "s": 1,
+   "ph": "[͵vɛdʒəˋtɛrɪən]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "素食的"
+    },
+    {
+     "p": "n.",
+     "m": "素食者"
+    }
+   ],
+   "ex": [
+    {
+     "en": "3. I'm trying a vegetarian diet for the next month.",
+     "zh": "3. 我接下來一個月要嘗試吃素。",
+     "t": 64.3
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "vegetarian options 素食選項（餐廳、活動餐點題）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    },
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "vegetarians"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "authorize",
+   "s": 2,
+   "ph": "[ˋɔθə͵raɪz]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "核准，授權"
+    }
+   ],
+   "ex": [
+    {
+     "en": "(A) The purchase was not authorized by the manager.",
+     "zh": "(A) 這筆採購沒有經過經理核准。",
+     "t": 90.3
+    }
+   ],
+   "fam": [
+    "authorization n. 授權"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "be authorized by the manager 經主管核准；authorized dealer 授權經銷商。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "authorizes"
+      ],
+      [
+       "過去式",
+       "authorized"
+      ],
+      [
+       "過去分詞",
+       "authorized"
+      ],
+      [
+       "現在分詞",
+       "authorizing"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "brochure",
+   "s": 3,
+   "ph": "[broˋʃʊr]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "小冊子，簡介"
+    }
+   ],
+   "ex": [
+    {
+     "en": "(B) Have you seen the latest brochures?",
+     "zh": "(B) 你看過最新的簡介了嗎？",
+     "t": 114.1
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a travel brochure 旅遊簡介；請對方看手冊是 Part 2 常見的閃避式回答。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "brochures"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "address",
+   "s": 3,
+   "ph": "[əˋdrɛs]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "處理，討論（議題）"
+    },
+    {
+     "p": "n.",
+     "m": "地址；演說"
+    }
+   ],
+   "ex": [
+    {
+     "en": "7. What topics do we need to address during the next staff meeting?",
+     "zh": "7. 下次員工會議我們需要討論哪些議題？",
+     "t": 140.7
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "address an issue 處理問題（不是「地址」！Part 5 常考字義）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "addresses"
+      ],
+      [
+       "過去式",
+       "addressed"
+      ],
+      [
+       "過去分詞",
+       "addressed"
+      ],
+      [
+       "現在分詞",
+       "addressing"
+      ]
+     ]
+    },
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "addresses"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "payroll",
+   "s": 2,
+   "ph": "[ˋpe͵rol]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "薪資作業；員工薪資名冊"
+    }
+   ],
+   "ex": [
+    {
+     "en": "(C) I think we should discuss the new payroll procedures.",
+     "zh": "(C) 我想我們應該討論新的薪資作業流程。",
+     "t": 155.7
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "payroll department 薪資部門；on the payroll 在職。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "payrolls"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "overdue",
+   "s": 2,
+   "ph": "[ˋovɚˋdju]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "逾期的，過期未付的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "14. What is the fine for overdue books?",
+     "zh": "14. 書逾期的罰款是多少？",
+     "t": 273.7
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "an overdue payment 逾期款項（催繳信常見）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "invoice",
+   "s": 3,
+   "ph": "[ˋɪnvɔɪs]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "發票，請款單"
+    }
+   ],
+   "ex": [
+    {
+     "en": "15. I need to mail this invoice to the head office, right?",
+     "zh": "15. 我得把這張發票寄到總公司，對吧？",
+     "t": 292.5
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "send an invoice 寄出請款單；invoice number 發票號碼。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "invoices"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "w": "warranty",
+   "s": 3,
+   "ph": "[ˋwɔrəntɪ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "保固"
+    }
+   ],
+   "ex": [
+    {
+     "en": "17. How long is the warranty on your tablet computer?",
+     "zh": "17. 你的平板電腦保固多久？",
+     "t": 331.0
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "under warranty 在保固期內；extended warranty 延長保固。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "warranties"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "w": "acquaintance",
+   "s": 1,
+   "ph": "[əˋkwentəns]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "認識；點頭之交"
+    }
+   ],
+   "ex": [
+    {
+     "en": "18. It's a pleasure to make your acquaintance, Mr. Finch.",
+     "zh": "18. 很高興認識您，Finch 先生。",
+     "t": 348.8
+    }
+   ],
+   "fam": [
+    "acquainted adj. 熟悉的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "It's a pleasure to make your acquaintance. 很高興認識您（正式問候）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "acquaintances"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "cloze": [],
+ "comp": [],
+ "lq": [
+  {
+   "no": 1,
+   "part": "Part 2",
+   "t": 25.0,
+   "end": 44.8,
+   "q": "The company is planning to recruit more staff, isn't it?",
+   "zq": "公司打算招募更多員工，對吧？",
+   "opts": [
+    "No, they're not included.",
+    "Yes, two and a half will be enough.",
+    "Absolutely, that's our top priority."
+   ],
+   "zo": [
+    "不，他們沒有包含在內。",
+    "是的，兩個半就夠了。",
+    "當然，那是我們的首要任務。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 2,
+   "part": "Part 2",
+   "t": 45.1,
+   "end": 64.0,
+   "q": "How long will we have to wait for a table?",
+   "zq": "我們要等多久才有位子？",
+   "opts": [
+    "Approximately fourteen meters.",
+    "Would you prefer to sit indoors or outdoors?",
+    "I'm sorry, it's overweight."
+   ],
+   "zo": [
+    "大約十四公尺。",
+    "您想坐室內還是戶外？",
+    "抱歉，超重了。"
+   ],
+   "a": "B"
+  },
+  {
+   "no": 3,
+   "part": "Part 2",
+   "t": 64.3,
+   "end": 82.2,
+   "q": "I'm trying a vegetarian diet for the next month.",
+   "zq": "我接下來一個月要嘗試吃素。",
+   "opts": [
+    "The next appointment.",
+    "I have some recipes that you can test out.",
+    "Of course, I'll buy it."
+   ],
+   "zo": [
+    "下一次約診。",
+    "我有一些食譜可以讓你試試。",
+    "當然，我會買。"
+   ],
+   "a": "B"
+  },
+  {
+   "no": 4,
+   "part": "Part 2",
+   "t": 82.5,
+   "end": 102.8,
+   "q": "Where do you think the new printer should be installed?",
+   "zq": "你覺得新的印表機應該裝在哪裡？",
+   "opts": [
+    "The purchase was not authorized by the manager.",
+    "Fifteen color copies, please.",
+    "I already downloaded the program."
+   ],
+   "zo": [
+    "這筆採購沒有經過經理核准。",
+    "請印十五份彩色的。",
+    "我已經下載那個程式了。"
+   ],
+   "a": "A"
+  },
+  {
+   "no": 5,
+   "part": "Part 2",
+   "t": 103.1,
+   "end": 121.9,
+   "q": "When are you meeting the client from Munich?",
+   "zq": "你什麼時候要和慕尼黑的客戶見面？",
+   "opts": [
+    "I am familiar with that place.",
+    "Have you seen the latest brochures?",
+    "At 9 A.M. on Tuesday."
+   ],
+   "zo": [
+    "我對那個地方很熟。",
+    "你看過最新的簡介了嗎？",
+    "星期二早上九點。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 6,
+   "part": "Part 2",
+   "t": 122.2,
+   "end": 140.4,
+   "q": "Why is everyone leaving early today?",
+   "zq": "為什麼大家今天都提早離開？",
+   "opts": [
+    "To prepare for the conference this afternoon.",
+    "Take the next street on your left.",
+    "A little bit later."
+   ],
+   "zo": [
+    "為了準備今天下午的會議。",
+    "下一條街左轉。",
+    "晚一點。"
+   ],
+   "a": "A"
+  },
+  {
+   "no": 7,
+   "part": "Part 2",
+   "t": 140.7,
+   "end": 161.5,
+   "q": "What topics do we need to address during the next staff meeting?",
+   "zq": "下次員工會議我們需要討論哪些議題？",
+   "opts": [
+    "Yes, today's meeting was quite productive.",
+    "Either in the auditorium or the lobby.",
+    "I think we should discuss the new payroll procedures."
+   ],
+   "zo": [
+    "是的，今天的會議很有成效。",
+    "在禮堂或大廳。",
+    "我想我們應該討論新的薪資作業流程。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 8,
+   "part": "Part 2",
+   "t": 161.8,
+   "end": 179.3,
+   "q": "Where can I catch a bus to the airport?",
+   "zq": "我可以在哪裡搭到往機場的公車？",
+   "opts": [
+    "You'll have to take a taxi.",
+    "The nine o'clock flight.",
+    "We need two tickets, please."
+   ],
+   "zo": [
+    "你得搭計程車。",
+    "九點的班機。",
+    "我們需要兩張票。"
+   ],
+   "a": "A"
+  },
+  {
+   "no": 9,
+   "part": "Part 2",
+   "t": 179.6,
+   "end": 198.4,
+   "q": "Would you be interested in taking a tour of our office space?",
+   "zq": "你有興趣參觀我們的辦公空間嗎？",
+   "opts": [
+    "The memo is three pages.",
+    "It's a follow-up interview.",
+    "Certainly, I'd like to see it."
+   ],
+   "zo": [
+    "備忘錄有三頁。",
+    "那是第二次面試。",
+    "當然，我很想看看。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 10,
+   "part": "Part 2",
+   "t": 198.7,
+   "end": 218.2,
+   "q": "Who will be presenting at the technology conference?",
+   "zq": "誰會在科技研討會上發表？",
+   "opts": [
+    "Is that science fiction popular?",
+    "They're going to host a conference call.",
+    "I haven't checked the program brochure yet."
+   ],
+   "zo": [
+    "那部科幻作品受歡迎嗎？",
+    "他們要主持一場電話會議。",
+    "我還沒看議程手冊。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 11,
+   "part": "Part 2",
+   "t": 218.5,
+   "end": 235.8,
+   "q": "When did you begin your new job?",
+   "zq": "你什麼時候開始新工作的？",
+   "opts": [
+    "At nine o'clock every morning.",
+    "Just two weeks ago.",
+    "Administrative assistant there."
+   ],
+   "zo": [
+    "每天早上九點。",
+    "兩個禮拜前而已。",
+    "那裡的行政助理。"
+   ],
+   "a": "B"
+  },
+  {
+   "no": 12,
+   "part": "Part 2",
+   "t": 236.1,
+   "end": 255.7,
+   "q": "Has the mail arrived yet?",
+   "zq": "郵件到了嗎？",
+   "opts": [
+    "I can't get email. My computer is broken.",
+    "No, it usually doesn't arrive until noon.",
+    "Yes, he's in his office."
+   ],
+   "zo": [
+    "我收不到電子郵件，我的電腦壞了。",
+    "還沒，通常中午才會到。",
+    "是的，他在辦公室。"
+   ],
+   "a": "B"
+  },
+  {
+   "no": 13,
+   "part": "Part 2",
+   "t": 256.0,
+   "end": 273.4,
+   "q": "Don't you want to take your briefcase with you?",
+   "zq": "你不帶公事包嗎？",
+   "opts": [
+    "Because we're starting a new case.",
+    "No, she's in a hurry.",
+    "No, it's too heavy."
+   ],
+   "zo": [
+    "因為我們要開始一個新案子。",
+    "不，她在趕時間。",
+    "不了，太重了。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 14,
+   "part": "Part 2",
+   "t": 273.7,
+   "end": 292.2,
+   "q": "What is the fine for overdue books?",
+   "zq": "書逾期的罰款是多少？",
+   "opts": [
+    "You can borrow videos, too.",
+    "Sorry, it's our store policy.",
+    "It's ten cents a day."
+   ],
+   "zo": [
+    "你也可以借影片。",
+    "抱歉，這是本店規定。",
+    "一天十美分。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 15,
+   "part": "Part 2",
+   "t": 292.5,
+   "end": 312.2,
+   "q": "I need to mail this invoice to the head office, right?",
+   "zq": "我得把這張發票寄到總公司，對吧？",
+   "opts": [
+    "No, I can't hear your voice.",
+    "Turn it in to your supervisor first.",
+    "I think we should take a right here."
+   ],
+   "zo": [
+    "不，我聽不到你的聲音。",
+    "先交給你的主管。",
+    "我想我們應該在這裡右轉。"
+   ],
+   "a": "B"
+  },
+  {
+   "no": 16,
+   "part": "Part 2",
+   "t": 312.5,
+   "end": 330.7,
+   "q": "Is that a new lens on your camera?",
+   "zq": "你相機上那是新鏡頭嗎？",
+   "opts": [
+    "I got it last year.",
+    "I want to buy contact lenses.",
+    "My camera has a zoom lens."
+   ],
+   "zo": [
+    "我去年買的。",
+    "我想買隱形眼鏡。",
+    "我的相機有變焦鏡頭。"
+   ],
+   "a": "A"
+  },
+  {
+   "no": 17,
+   "part": "Part 2",
+   "t": 331.0,
+   "end": 348.5,
+   "q": "How long is the warranty on your tablet computer?",
+   "zq": "你的平板電腦保固多久？",
+   "opts": [
+    "About three feet long.",
+    "It's for two years.",
+    "Since last April."
+   ],
+   "zo": [
+    "大約三英尺長。",
+    "兩年。",
+    "從去年四月開始。"
+   ],
+   "a": "B"
+  },
+  {
+   "no": 18,
+   "part": "Part 2",
+   "t": 348.8,
+   "end": 365.3,
+   "q": "It's a pleasure to make your acquaintance, Mr. Finch.",
+   "zq": "很高興認識您，Finch 先生。",
+   "opts": [
+    "So am I.",
+    "Good to hear.",
+    "Likewise, Mrs. Clark."
+   ],
+   "zo": [
+    "我也是。",
+    "很高興聽到這個消息。",
+    "我也很高興認識您，Clark 女士。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 19,
+   "part": "Part 2",
+   "t": 365.6,
+   "end": 383.3,
+   "q": "What do you think I should wear to the ceremony?",
+   "zq": "你覺得我該穿什麼去參加典禮？",
+   "opts": [
+    "An awards ceremony.",
+    "A suit and tie.",
+    "Just normal wear and tear."
+   ],
+   "zo": [
+    "頒獎典禮。",
+    "西裝打領帶。",
+    "只是正常磨損。"
+   ],
+   "a": "B"
+  },
+  {
+   "no": 20,
+   "part": "Part 2",
+   "t": 383.6,
+   "end": 403.8,
+   "q": "Would you like a ride to the bus terminal?",
+   "zq": "要不要載你去公車總站？",
+   "opts": [
+    "Right across from Terminal 3.",
+    "Thanks, I really appreciate it.",
+    "No problem, I'll do it right away."
+   ],
+   "zo": [
+    "就在第三航廈對面。",
+    "謝謝，真的很感激。",
+    "沒問題，我馬上去做。"
+   ],
+   "a": "B"
+  }
+ ]
+}

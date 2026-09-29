@@ -1,0 +1,792 @@
+{
+ "id": "tl-kQ1SwN1U1xc",
+ "course": "toeic-listen",
+ "publisher": "Parker English 怕渴英文（TOEIC 聽力模擬試題）",
+ "video": "https://youtu.be/kQ1SwN1U1xc",
+ "bbc": "",
+ "label": "聽力 4",
+ "theme": "Part 2 應答問題（四）",
+ "themeEn": "TOEIC Listening Part 2 Practice (16)",
+ "release": "2026-10-02",
+ "words": [
+  {
+   "n": 1,
+   "w": "minutes",
+   "s": 2,
+   "ph": "[ˋmɪnɪts]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "會議記錄（複數）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "1. Whose turn is it to take the minutes?",
+     "zh": "1. 輪到誰做會議記錄？",
+     "t": 25.0
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "take the minutes 做會議記錄（別聽成「分鐘」，Part 2 經典陷阱）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "複數形"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "deadline",
+   "s": 3,
+   "ph": "[ˋdɛd͵laɪn]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "截止期限"
+    }
+   ],
+   "ex": [
+    {
+     "en": "2. How can we meet the project deadline?",
+     "zh": "2. 我們要怎麼趕上專案的截止期限？",
+     "t": 40.1
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "meet the deadline 趕上期限；extend the deadline 延期。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "deadlines"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "overtime",
+   "s": 2,
+   "ph": "[ˋovɚ͵taɪm]",
+   "pos": [
+    {
+     "p": "adv.",
+     "m": "加班地"
+    },
+    {
+     "p": "n.",
+     "m": "加班"
+    }
+   ],
+   "ex": [
+    {
+     "en": "(A) We've got to have the staff work overtime.",
+     "zh": "(A) 我們得讓員工加班。",
+     "t": 45.8
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "work overtime 加班；overtime pay 加班費。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "retail",
+   "s": 2,
+   "ph": "[ˋritel]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "零售的"
+    },
+    {
+     "p": "n.",
+     "m": "零售"
+    }
+   ],
+   "ex": [
+    {
+     "en": "4. Lily just contacted a real estate agent about our new retail space.",
+     "zh": "4. Lily 剛聯絡了房仲，詢問我們新店面的事。",
+     "t": 75.8
+    }
+   ],
+   "fam": [
+    "retailer n. 零售商"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "retail price 零售價；retail store 零售店。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "proofread",
+   "s": 2,
+   "ph": "[ˋpruf͵rid]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "校對"
+    }
+   ],
+   "ex": [
+    {
+     "en": "(C) Yes, Michelle and I will proofread it again later.",
+     "zh": "(C) 是的，Michelle 和我晚點會再校對一次。",
+     "t": 108.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "proofread a report 校對報告；三態 proofread-proofread-proofread。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "proofreads"
+      ],
+      [
+       "過去式",
+       "proofread"
+      ],
+      [
+       "過去分詞",
+       "proofread"
+      ],
+      [
+       "現在分詞",
+       "proofreading"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "findings",
+   "s": 2,
+   "ph": "[ˋfaɪndɪŋz]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "研究結果，發現"
+    }
+   ],
+   "ex": [
+    {
+     "en": "8. Could you share your findings at the sales training meeting on Friday?",
+     "zh": "8. 你可以在週五的業務訓練會議上分享你的研究結果嗎？",
+     "t": 149.8
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "present the findings 報告研究結果。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "複數形"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "project",
+   "s": 3,
+   "ph": "[prəˋdʒɛkt]",
+   "pos": [
+    {
+     "p": "v.",
+     "m": "預估，預測"
+    },
+    {
+     "p": "n.",
+     "m": "專案（重音在前）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "13. How much sales growth do they project?",
+     "zh": "13. 他們預估銷售成長多少？",
+     "t": 237.5
+    }
+   ],
+   "fam": [
+    "projection n. 預測"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "projected sales 預估銷售額（動詞重音在後）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "projects"
+      ],
+      [
+       "過去式",
+       "projected"
+      ],
+      [
+       "過去分詞",
+       "projected"
+      ],
+      [
+       "現在分詞",
+       "projecting"
+      ]
+     ]
+    },
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "projects"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "defective",
+   "s": 2,
+   "ph": "[dɪˋfɛktɪv]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "有瑕疵的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "17. What should we do about the defective films we received?",
+     "zh": "17. 我們收到的瑕疵底片該怎麼處理？",
+     "t": 311.8
+    }
+   ],
+   "fam": [
+    "defect n. 瑕疵"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "return a defective item 退回瑕疵品。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "w": "reminder",
+   "s": 3,
+   "ph": "[rɪˋmaɪndɚ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "提醒"
+    }
+   ],
+   "ex": [
+    {
+     "en": "(C) Thanks for the reminder.",
+     "zh": "(C) 謝謝提醒。",
+     "t": 342.4
+    }
+   ],
+   "fam": [
+    "remind v. 提醒"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "send a reminder 寄提醒通知。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "reminders"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "w": "quarter",
+   "s": 3,
+   "ph": "[ˋkwɔrtɚ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "季；四分之一"
+    }
+   ],
+   "ex": [
+    {
+     "en": "20. How much did you spend purchasing office supplies last quarter?",
+     "zh": "20. 你上一季買辦公用品花了多少錢？",
+     "t": 366.2
+    }
+   ],
+   "fam": [
+    "quarterly adj. 每季的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "first-quarter sales 第一季銷售；quarterly report 季報。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "quarters"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "cloze": [],
+ "comp": [],
+ "lq": [
+  {
+   "no": 1,
+   "part": "Part 2",
+   "t": 25.0,
+   "end": 39.8,
+   "q": "Whose turn is it to take the minutes?",
+   "zq": "輪到誰做會議記錄？",
+   "opts": [
+    "It will take about fifteen minutes.",
+    "I'll do it.",
+    "Marcus did it."
+   ],
+   "zo": [
+    "大概需要十五分鐘。",
+    "我來。",
+    "Marcus 做過了。"
+   ],
+   "a": "B"
+  },
+  {
+   "no": 2,
+   "part": "Part 2",
+   "t": 40.1,
+   "end": 56.7,
+   "q": "How can we meet the project deadline?",
+   "zq": "我們要怎麼趕上專案的截止期限？",
+   "opts": [
+    "We've got to have the staff work overtime.",
+    "Are we leaving the projector on?",
+    "The meeting went too long."
+   ],
+   "zo": [
+    "我們得讓員工加班。",
+    "投影機要開著嗎？",
+    "會議開太久了。"
+   ],
+   "a": "A"
+  },
+  {
+   "no": 3,
+   "part": "Part 2",
+   "t": 57.0,
+   "end": 75.5,
+   "q": "Has the virus been removed from my laptop?",
+   "zq": "我筆電裡的病毒清掉了嗎？",
+   "opts": [
+    "Yes, but some data are also lost.",
+    "Yes, it's been moved to the corner.",
+    "Not yet, the city hall hasn't approved it."
+   ],
+   "zo": [
+    "清掉了，但也有些資料不見了。",
+    "是的，已經移到角落了。",
+    "還沒，市政府還沒核准。"
+   ],
+   "a": "A"
+  },
+  {
+   "no": 4,
+   "part": "Part 2",
+   "t": 75.8,
+   "end": 94.4,
+   "q": "Lily just contacted a real estate agent about our new retail space.",
+   "zq": "Lily 剛聯絡了房仲，詢問我們新店面的事。",
+   "opts": [
+    "She is always so efficient in her work.",
+    "No, they were contact lenses.",
+    "What do you think of the retail prices?"
+   ],
+   "zo": [
+    "她做事總是很有效率。",
+    "不，那是隱形眼鏡。",
+    "你覺得零售價怎麼樣？"
+   ],
+   "a": "A"
+  },
+  {
+   "no": 5,
+   "part": "Part 2",
+   "t": 94.7,
+   "end": 113.9,
+   "q": "Don't you think the last passage can be further improved?",
+   "zq": "你不覺得最後一段還可以再改進嗎？",
+   "opts": [
+    "No, the passengers didn't complain.",
+    "Sure, the cover can be removed.",
+    "Yes, Michelle and I will proofread it again later."
+   ],
+   "zo": [
+    "不，乘客沒有抱怨。",
+    "當然，蓋子可以拆下來。",
+    "是的，Michelle 和我晚點會再校對一次。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 6,
+   "part": "Part 2",
+   "t": 114.2,
+   "end": 131.2,
+   "q": "Where can we display these new product samples?",
+   "zq": "這些新產品樣品可以放在哪裡展示？",
+   "opts": [
+    "In the glass case by the register.",
+    "They're still working on a screenplay.",
+    "From a new supplier."
+   ],
+   "zo": [
+    "收銀台旁的玻璃櫃。",
+    "他們還在寫劇本。",
+    "來自一家新的供應商。"
+   ],
+   "a": "A"
+  },
+  {
+   "no": 7,
+   "part": "Part 2",
+   "t": 131.5,
+   "end": 149.5,
+   "q": "You have no more appointments scheduled for this afternoon, do you?",
+   "zq": "你今天下午沒有其他約了，對吧？",
+   "opts": [
+    "No, I'm free after 2:30.",
+    "Yes, it's quite disappointing.",
+    "Yes, it is."
+   ],
+   "zo": [
+    "沒有，我兩點半以後有空。",
+    "是的，相當令人失望。",
+    "是的，就是。"
+   ],
+   "a": "A"
+  },
+  {
+   "no": 8,
+   "part": "Part 2",
+   "t": 149.8,
+   "end": 166.9,
+   "q": "Could you share your findings at the sales training meeting on Friday?",
+   "zq": "你可以在週五的業務訓練會議上分享你的研究結果嗎？",
+   "opts": [
+    "Not everyone was present.",
+    "A fine for unpaid tax.",
+    "That's the purpose of my research."
+   ],
+   "zo": [
+    "不是每個人都有出席。",
+    "未繳稅款的罰款。",
+    "這正是我做研究的目的。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 9,
+   "part": "Part 2",
+   "t": 167.2,
+   "end": 184.1,
+   "q": "Why do you show up to work so early in the morning?",
+   "zq": "你為什麼一大早就來上班？",
+   "opts": [
+    "To avoid the rush hour traffic.",
+    "Due to the shower this morning.",
+    "I got caught in the traffic."
+   ],
+   "zo": [
+    "為了避開尖峰時段的車潮。",
+    "因為今天早上下了陣雨。",
+    "我遇到塞車。"
+   ],
+   "a": "A"
+  },
+  {
+   "no": 10,
+   "part": "Part 2",
+   "t": 184.4,
+   "end": 201.5,
+   "q": "Can you help look over these résumés this afternoon?",
+   "zq": "你今天下午可以幫忙看這些履歷嗎？",
+   "opts": [
+    "Sure, here's my application.",
+    "I prefer a room overlooking the lake.",
+    "Sorry, but I'm tied up all day."
+   ],
+   "zo": [
+    "好，這是我的申請書。",
+    "我比較想要湖景房。",
+    "抱歉，我整天都很忙。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 11,
+   "part": "Part 2",
+   "t": 201.8,
+   "end": 220.1,
+   "q": "Where will the president make her annual speech?",
+   "zq": "董事長的年度演講會在哪裡舉行？",
+   "opts": [
+    "We were upgraded to a presidential suite.",
+    "It was so boring and also tedious.",
+    "On the third floor by the lounge."
+   ],
+   "zo": [
+    "我們被升等到總統套房。",
+    "又無聊又冗長。",
+    "在三樓交誼廳旁。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 12,
+   "part": "Part 2",
+   "t": 220.4,
+   "end": 237.2,
+   "q": "What kind of cake should we buy for Kimberly's retirement party?",
+   "zq": "Kimberly 的退休派對我們該買哪種蛋糕？",
+   "opts": [
+    "She doesn't like anything sour.",
+    "Every other week.",
+    "We had a great time."
+   ],
+   "zo": [
+    "她不喜歡酸的東西。",
+    "每隔一週。",
+    "我們玩得很開心。"
+   ],
+   "a": "A"
+  },
+  {
+   "no": 13,
+   "part": "Part 2",
+   "t": 237.5,
+   "end": 256.0,
+   "q": "How much sales growth do they project?",
+   "zq": "他們預估銷售成長多少？",
+   "opts": [
+    "120 each.",
+    "They're expecting at least five percent over last year.",
+    "About 20 projectors, I think."
+   ],
+   "zo": [
+    "每個一百二十。",
+    "他們預期比去年至少成長百分之五。",
+    "我想大約二十台投影機。"
+   ],
+   "a": "B"
+  },
+  {
+   "no": 14,
+   "part": "Part 2",
+   "t": 256.3,
+   "end": 275.3,
+   "q": "Will your art museum still be open this evening?",
+   "zq": "你們美術館今晚還開放嗎？",
+   "opts": [
+    "Yes, our main gallery will reopen next week.",
+    "A free map is available at the counter.",
+    "I'm afraid there's a private event at six."
+   ],
+   "zo": [
+    "是的，我們的主展廳下週重新開放。",
+    "櫃檯有免費地圖。",
+    "恐怕六點有私人活動。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 15,
+   "part": "Part 2",
+   "t": 275.6,
+   "end": 293.2,
+   "q": "Were you able to get through to her, or should I try calling?",
+   "zq": "你聯絡上她了嗎？還是要我打打看？",
+   "opts": [
+    "We didn't pull through the recession.",
+    "It always went to voicemail when I called.",
+    "Let me put you through to her."
+   ],
+   "zo": [
+    "我們沒撐過經濟衰退。",
+    "我打的時候都轉到語音信箱。",
+    "我幫你轉接給她。"
+   ],
+   "a": "B"
+  },
+  {
+   "no": 16,
+   "part": "Part 2",
+   "t": 293.5,
+   "end": 311.5,
+   "q": "Our company is going to open a branch in Bangkok next year.",
+   "zq": "我們公司明年要在曼谷開分公司。",
+   "opts": [
+    "We'll need to transfer some staff.",
+    "What brand do you recommend?",
+    "There's an overseas call for you."
+   ],
+   "zo": [
+    "我們得調派一些員工過去。",
+    "你推薦哪個品牌？",
+    "有你的國際電話。"
+   ],
+   "a": "A"
+  },
+  {
+   "no": 17,
+   "part": "Part 2",
+   "t": 311.8,
+   "end": 328.9,
+   "q": "What should we do about the defective films we received?",
+   "zq": "我們收到的瑕疵底片該怎麼處理？",
+   "opts": [
+    "Do we still have the receipt?",
+    "Offer them a refund.",
+    "Send them replacements."
+   ],
+   "zo": [
+    "我們還留著收據嗎？",
+    "退款給他們。",
+    "寄替換品給他們。"
+   ],
+   "a": "A"
+  },
+  {
+   "no": 18,
+   "part": "Part 2",
+   "t": 329.2,
+   "end": 345.9,
+   "q": "Don't forget to get some euros before our trip to Germany.",
+   "zq": "去德國之前別忘了換些歐元。",
+   "opts": [
+    "Sure, I prefer a window seat.",
+    "I already have a visa.",
+    "Thanks for the reminder."
+   ],
+   "zo": [
+    "好，我比較想坐靠窗。",
+    "我已經有簽證了。",
+    "謝謝提醒。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 19,
+   "part": "Part 2",
+   "t": 346.2,
+   "end": 365.9,
+   "q": "Have you received the survey data from the agency, or should I ask them to hurry up?",
+   "zq": "你收到調查公司的資料了嗎？還是要我催他們？",
+   "opts": [
+    "Yes, they are very firm in their demands.",
+    "Let me check my email.",
+    "Yes, based on the data they provided."
+   ],
+   "zo": [
+    "是的，他們的要求很堅定。",
+    "我查一下電子郵件。",
+    "是的，根據他們提供的資料。"
+   ],
+   "a": "B"
+  },
+  {
+   "no": 20,
+   "part": "Part 2",
+   "t": 366.2,
+   "end": 385.2,
+   "q": "How much did you spend purchasing office supplies last quarter?",
+   "zq": "你上一季買辦公用品花了多少錢？",
+   "opts": [
+    "Why don't you ask Mr. Nelson in Accounting?",
+    "We ran out of copy paper.",
+    "Because we didn't meet the monthly quota."
+   ],
+   "zo": [
+    "你何不問問會計部的 Nelson 先生？",
+    "我們的影印紙用完了。",
+    "因為我們沒達到每月配額。"
+   ],
+   "a": "A"
+  }
+ ]
+}

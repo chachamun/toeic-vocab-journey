@@ -25,6 +25,8 @@ COURSES = {
     'bbc-6min':    {'name': 'BBC 6 Minute English', 'file': 'courses/bbc-6min.js',
                     'publisher': 'BBC Learning English《6 Minute English》'},
     'daily-video': {'name': '每日影片', 'file': 'courses/daily-video.js', 'publisher': ''},
+    # 多益聽力：獨立課程、獨立每日上架；單元多了 lq（聽力實戰題，App 逐題播放影片區間作答）
+    'toeic-listen': {'name': '多益聽力', 'file': 'courses/toeic-listen.js', 'publisher': '', 'kind': 'listen'},
 }
 
 
@@ -94,18 +96,21 @@ def build_course():
                 a = aus_of('tts/%s/w%d_e%d' % (vid, w['n'], k))
                 if a:
                     e['aus'] = a
-        groups[cid].append({
+        unit = {
             'id': s['id'], 'label': s['label'], 'theme': s['theme'], 'themeEn': s['themeEn'],
             'video': s['video'], 'source': s.get('bbc', ''), 'publisher': publisher_of(s), 'release': s['release'],
             'transcript': 'transcripts/%s.json' % vid, 'lines': n, 'audioSrc': '',
             'words': s['words'], 'cloze': s.get('cloze', []), 'comp': s.get('comp', [])
-        })
+        }
+        if s.get('lq'):
+            unit['lq'] = s['lq']
+        groups[cid].append(unit)
     for cid, units in groups.items():
         if not units:
             continue
         meta = COURSES[cid]
         units.sort(key=lambda u: [int(t) if t.isdigit() else t for t in re.split(r'(\d+)', u['label'])])   # 影片 10 排在影片 9 後面
-        course = {'id': cid, 'name': meta['name'], 'kind': 'video', 'units': units}
+        course = {'id': cid, 'name': meta['name'], 'kind': meta.get('kind', 'video'), 'units': units}
         head = ('/* %s 影片課程 — 由 tools/build_video_units.py 產生，請勿手改。\n'
                 '   要改內容：編 tools/episodes/<影片ID>.json 後重跑 `python tools/build_video_units.py course`。\n'
                 '   逐字稿（含原文出處）在 transcripts/<影片ID>.json，App 看影片時才載入。 */\n') % meta['name']
@@ -113,8 +118,9 @@ def build_course():
         io.open(out, 'w', encoding='utf-8').write(head + 'TVJ.register(' + json.dumps(course, ensure_ascii=False, indent=1) + ');\n')
         print('課程檔 →', meta['file'], '（%d 集）' % len(units))
         for u in units:
-            print('  %s  %s  上架 %s  單字 %d  克漏字 %d  理解題 %d  逐字稿 %d 句' % (
-                u['label'], u['theme'], u['release'], len(u['words']), len(u['cloze']), len(u['comp']), u['lines']))
+            print('  %s  %s  上架 %s  單字 %d  克漏字 %d  理解題 %d  逐字稿 %d 句%s' % (
+                u['label'], u['theme'], u['release'], len(u['words']), len(u['cloze']), len(u['comp']), u['lines'],
+                ('  聽力題 %d' % len(u['lq'])) if u.get('lq') else ''))
 
 
 if __name__ == '__main__':

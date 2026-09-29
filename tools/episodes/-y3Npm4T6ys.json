@@ -1,0 +1,785 @@
+{
+ "id": "tl--y3Npm4T6ys",
+ "course": "toeic-listen",
+ "publisher": "Parker English 怕渴英文（TOEIC 聽力模擬試題）",
+ "video": "https://youtu.be/-y3Npm4T6ys",
+ "bbc": "",
+ "label": "聽力 3",
+ "theme": "Part 2 應答問題（三）",
+ "themeEn": "TOEIC Listening Part 2 Practice (11)",
+ "release": "2026-10-01",
+ "words": [
+  {
+   "n": 1,
+   "w": "refreshment",
+   "s": 2,
+   "ph": "[rɪˋfrɛʃmənt]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "點心飲料（常用複數）"
+    }
+   ],
+   "ex": [
+    {
+     "en": "1. Please help yourself to some refreshments.",
+     "zh": "1. 請自行取用點心飲料。",
+     "t": 25.0
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "Light refreshments will be served. 會提供簡單茶點（活動公告必考）。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "refreshments"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "w": "appetizing",
+   "s": 1,
+   "ph": "[ˋæpə͵taɪzɪŋ]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "引起食慾的，可口的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "(B) Thanks, they look very appetizing.",
+     "zh": "(B) 謝謝，看起來很可口。",
+     "t": 33.9
+    }
+   ],
+   "fam": [
+    "appetizer n. 開胃菜"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "appetizing dishes 令人垂涎的菜餚。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "f": [
+      [
+       "比較級",
+       "more appetizing"
+      ],
+      [
+       "最高級",
+       "most appetizing"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "w": "refund",
+   "s": 3,
+   "ph": "[ˋri͵fʌnd]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "退款"
+    },
+    {
+     "p": "v.",
+     "m": "退款"
+    }
+   ],
+   "ex": [
+    {
+     "en": "9. You've already processed the refund, right?",
+     "zh": "9. 你已經處理好退款了吧？",
+     "t": 158.0
+    }
+   ],
+   "fam": [
+    "refundable adj. 可退款的"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "full refund 全額退款；non-refundable 不可退。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "refunds"
+      ]
+     ]
+    },
+    {
+     "p": "v.",
+     "f": [
+      [
+       "三單",
+       "refunds"
+      ],
+      [
+       "過去式",
+       "refunded"
+      ],
+      [
+       "過去分詞",
+       "refunded"
+      ],
+      [
+       "現在分詞",
+       "refunding"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "w": "keynote",
+   "s": 2,
+   "ph": "[ˋki͵not]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "主旨的"
+    },
+    {
+     "p": "n.",
+     "m": "主旨"
+    }
+   ],
+   "ex": [
+    {
+     "en": "10. Who was selected as the keynote speaker for this year's interior design convention?",
+     "zh": "10. 今年室內設計大會選了誰當主講人？",
+     "t": 175.5
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "keynote speaker 主講人；keynote address 主題演講。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "keynotes"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "w": "turnout",
+   "s": 2,
+   "ph": "[ˋtɝn͵aʊt]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "出席人數"
+    }
+   ],
+   "ex": [
+    {
+     "en": "(B) There was a great turnout at the convention.",
+     "zh": "(B) 大會出席人數很多。",
+     "t": 186.5
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "a large turnout 出席踴躍。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "turnouts"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "w": "occupied",
+   "s": 2,
+   "ph": "[ˋɑkjə͵paɪd]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "使用中的；忙碌的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "(A) The conference room will be occupied then.",
+     "zh": "(A) 那時會議室會有人用。",
+     "t": 201.3
+    }
+   ],
+   "fam": [
+    "occupy v. 佔用"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "The room is occupied. 房間有人使用中。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "w": "flyer",
+   "s": 2,
+   "ph": "[ˋflaɪɚ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "傳單"
+    }
+   ],
+   "ex": [
+    {
+     "en": "17. Do you prefer the current edition of the flyer or the original one?",
+     "zh": "17. 傳單你比較喜歡現在的版本還是原本的？",
+     "t": 298.3
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "hand out flyers 發傳單。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "f": [
+      [
+       "複數",
+       "flyers"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "w": "customs",
+   "s": 2,
+   "ph": "[ˋkʌstəmz]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "海關"
+    }
+   ],
+   "ex": [
+    {
+     "en": "18. Did you get the customs declaration card?",
+     "zh": "18. 你拿到海關申報單了嗎？",
+     "t": 315.2
+    }
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "go through customs 通關；customs declaration 海關申報。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "複數形"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "w": "restructuring",
+   "s": 1,
+   "ph": "[riˋstrʌktʃərɪŋ]",
+   "pos": [
+    {
+     "p": "n.",
+     "m": "（公司）重整，改組"
+    }
+   ],
+   "ex": [
+    {
+     "en": "20. Has Mr. Kingsley decided to allow the pay cuts or offer early retirement to the employees as part of the restructuring?",
+     "zh": "20. Kingsley 先生決定好了嗎？重整要用減薪，還是讓員工提前退休？",
+     "t": 350.5
+    }
+   ],
+   "fam": [
+    "restructure v. 重整"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "corporate restructuring 企業重整。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "n.",
+     "note": "不可數"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "w": "bankrupt",
+   "s": 1,
+   "ph": "[ˋbæŋkrʌpt]",
+   "pos": [
+    {
+     "p": "adj.",
+     "m": "破產的"
+    }
+   ],
+   "ex": [
+    {
+     "en": "(A) Too bad that the company went bankrupt.",
+     "zh": "(A) 可惜公司破產了。",
+     "t": 362.0
+    }
+   ],
+   "fam": [
+    "bankruptcy n. 破產"
+   ],
+   "tips": [
+    {
+     "k": "常考語句",
+     "t": "go bankrupt 破產。"
+    }
+   ],
+   "forms": [
+    {
+     "p": "adj.",
+     "note": "無比較級"
+    }
+   ]
+  }
+ ],
+ "cloze": [],
+ "comp": [],
+ "lq": [
+  {
+   "no": 1,
+   "part": "Part 2",
+   "t": 25.0,
+   "end": 41.0,
+   "q": "Please help yourself to some refreshments.",
+   "zq": "請自行取用點心飲料。",
+   "opts": [
+    "Some basic requirements.",
+    "Thanks, they look very appetizing.",
+    "It wasn't quite helpful."
+   ],
+   "zo": [
+    "一些基本要求。",
+    "謝謝，看起來很可口。",
+    "那沒什麼幫助。"
+   ],
+   "a": "B"
+  },
+  {
+   "no": 2,
+   "part": "Part 2",
+   "t": 41.3,
+   "end": 58.1,
+   "q": "What do you suggest we do with the extra income?",
+   "zq": "你建議我們怎麼運用這筆額外收入？",
+   "opts": [
+    "I bought some extra materials.",
+    "Don't let the guests come in yet.",
+    "I would invest in stocks."
+   ],
+   "zo": [
+    "我多買了一些材料。",
+    "先別讓客人進來。",
+    "我會投資股票。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 3,
+   "part": "Part 2",
+   "t": 58.4,
+   "end": 75.1,
+   "q": "Did your copy machine break down again?",
+   "zq": "你的影印機又壞了嗎？",
+   "opts": [
+    "Yeah, we can talk about it at break.",
+    "Yes, it stopped working an hour ago.",
+    "I appreciate it."
+   ],
+   "zo": [
+    "對，我們休息時再聊。",
+    "是的，一小時前就不動了。",
+    "謝謝你。"
+   ],
+   "a": "B"
+  },
+  {
+   "no": 4,
+   "part": "Part 2",
+   "t": 75.4,
+   "end": 92.1,
+   "q": "This 3D printer has a warranty, doesn't it?",
+   "zq": "這台 3D 印表機有保固，對吧？",
+   "opts": [
+    "I was told it has a lifetime one.",
+    "He doesn't have it at all.",
+    "It is guaranteed free of preservatives."
+   ],
+   "zo": [
+    "聽說是終身保固。",
+    "他根本沒有。",
+    "保證不含防腐劑。"
+   ],
+   "a": "A"
+  },
+  {
+   "no": 5,
+   "part": "Part 2",
+   "t": 92.4,
+   "end": 107.6,
+   "q": "How do I log on to this computer?",
+   "zq": "這台電腦要怎麼登入？",
+   "opts": [
+    "Building B.",
+    "Let me help you.",
+    "To reduce the effects of jet lag."
+   ],
+   "zo": [
+    "B 棟。",
+    "我來幫你。",
+    "為了減輕時差的影響。"
+   ],
+   "a": "B"
+  },
+  {
+   "no": 6,
+   "part": "Part 2",
+   "t": 107.9,
+   "end": 124.5,
+   "q": "Isn't the meeting on the second floor?",
+   "zq": "會議不是在二樓嗎？",
+   "opts": [
+    "No, they haven't met each other.",
+    "Department heads sit in the front.",
+    "Yes, that's where it usually is."
+   ],
+   "zo": [
+    "不，他們還沒見過面。",
+    "部門主管坐前面。",
+    "是的，通常都在那裡。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 7,
+   "part": "Part 2",
+   "t": 124.8,
+   "end": 140.6,
+   "q": "Didn't we visit this church last time?",
+   "zq": "我們上次不是參觀過這間教堂嗎？",
+   "opts": [
+    "About 25 visitors.",
+    "We haven't seen this one yet.",
+    "This bus goes to our destination."
+   ],
+   "zo": [
+    "大約二十五位訪客。",
+    "這間我們還沒看過。",
+    "這班公車開往我們的目的地。"
+   ],
+   "a": "B"
+  },
+  {
+   "no": 8,
+   "part": "Part 2",
+   "t": 140.9,
+   "end": 157.7,
+   "q": "What did you think of the opera?",
+   "zq": "你覺得那齣歌劇怎麼樣？",
+   "opts": [
+    "I think the operator could be more efficient.",
+    "In full cooperation with the theater.",
+    "I liked the set and the costumes."
+   ],
+   "zo": [
+    "我覺得接線員可以更有效率。",
+    "與劇院全面合作。",
+    "我喜歡舞台布景和服裝。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 9,
+   "part": "Part 2",
+   "t": 158.0,
+   "end": 175.2,
+   "q": "You've already processed the refund, right?",
+   "zq": "你已經處理好退款了吧？",
+   "opts": [
+    "Yes, I did it early this morning.",
+    "Yes, the word processing program.",
+    "We're still underfunded."
+   ],
+   "zo": [
+    "是的，今天一早就處理了。",
+    "是的，文書處理軟體。",
+    "我們的資金還是不足。"
+   ],
+   "a": "A"
+  },
+  {
+   "no": 10,
+   "part": "Part 2",
+   "t": 175.5,
+   "end": 194.2,
+   "q": "Who was selected as the keynote speaker for this year's interior design convention?",
+   "zq": "今年室內設計大會選了誰當主講人？",
+   "opts": [
+    "I guess Rebecca has the key.",
+    "There was a great turnout at the convention.",
+    "Ms. Roper, according to the newsletter."
+   ],
+   "zo": [
+    "我想鑰匙在 Rebecca 那裡。",
+    "大會出席人數很多。",
+    "根據電子報，是 Roper 女士。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 11,
+   "part": "Part 2",
+   "t": 194.5,
+   "end": 212.2,
+   "q": "How do I get into the office building on the weekend?",
+   "zq": "週末要怎麼進辦公大樓？",
+   "opts": [
+    "The conference room will be occupied then.",
+    "Turn off the lights before you leave.",
+    "Scan your ID badge at the door."
+   ],
+   "zo": [
+    "那時會議室會有人用。",
+    "離開前把燈關掉。",
+    "在門口刷你的識別證。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 12,
+   "part": "Part 2",
+   "t": 212.5,
+   "end": 228.7,
+   "q": "Where would you like to meet to review this financial report together?",
+   "zq": "你想在哪裡碰面一起看這份財務報告？",
+   "opts": [
+    "In the cabinet by the copier.",
+    "I'll drop by your office later.",
+    "Two blocks away from here."
+   ],
+   "zo": [
+    "在影印機旁的櫃子裡。",
+    "我晚點去你辦公室找你。",
+    "離這裡兩個街區。"
+   ],
+   "a": "B"
+  },
+  {
+   "no": 13,
+   "part": "Part 2",
+   "t": 229.0,
+   "end": 245.8,
+   "q": "Do you know who will be leading the training session today?",
+   "zq": "你知道今天的訓練課程由誰主持嗎？",
+   "opts": [
+    "It'll be in the main conference room.",
+    "About our hiring practices.",
+    "Isaac Murphy."
+   ],
+   "zo": [
+    "在主會議室。",
+    "關於我們的招聘做法。",
+    "Isaac Murphy。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 14,
+   "part": "Part 2",
+   "t": 246.1,
+   "end": 264.3,
+   "q": "Why do you insist on taking the subway for commuting?",
+   "zq": "你為什麼堅持搭地鐵通勤？",
+   "opts": [
+    "I am planning to go there by cab.",
+    "Because the community center is under construction.",
+    "Since it's cheaper and faster."
+   ],
+   "zo": [
+    "我打算搭計程車去。",
+    "因為社區中心正在施工。",
+    "因為比較便宜又比較快。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 15,
+   "part": "Part 2",
+   "t": 264.6,
+   "end": 280.9,
+   "q": "You ordered more parts for the motor, right?",
+   "zq": "你有多訂一些馬達零件，對吧？",
+   "opts": [
+    "Thanks, it's a new model.",
+    "Yes, last week.",
+    "Yes, he was promoted."
+   ],
+   "zo": [
+    "謝謝，這是新款。",
+    "有，上週訂了。",
+    "是的，他升職了。"
+   ],
+   "a": "B"
+  },
+  {
+   "no": 16,
+   "part": "Part 2",
+   "t": 281.2,
+   "end": 298.0,
+   "q": "How did you get to be so good on the violin?",
+   "zq": "你小提琴怎麼拉得這麼好？",
+   "opts": [
+    "The play was way better than expected.",
+    "By a top-notch violinist from England.",
+    "I used to major in performing arts."
+   ],
+   "zo": [
+    "那齣戲比預期好得多。",
+    "由一位來自英國的頂尖小提琴家。",
+    "我以前主修表演藝術。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 17,
+   "part": "Part 2",
+   "t": 298.3,
+   "end": 314.9,
+   "q": "Do you prefer the current edition of the flyer or the original one?",
+   "zq": "傳單你比較喜歡現在的版本還是原本的？",
+   "opts": [
+    "I like the smaller one.",
+    "Please print five of them.",
+    "My flight leaves this evening."
+   ],
+   "zo": [
+    "我喜歡小的那個。",
+    "請印五張。",
+    "我的班機今晚起飛。"
+   ],
+   "a": "A"
+  },
+  {
+   "no": 18,
+   "part": "Part 2",
+   "t": 315.2,
+   "end": 332.6,
+   "q": "Did you get the customs declaration card?",
+   "zq": "你拿到海關申報單了嗎？",
+   "opts": [
+    "It's custom-made.",
+    "Yes, I will pay with my credit card.",
+    "Yes, but they gave me the Japanese version."
+   ],
+   "zo": [
+    "這是訂做的。",
+    "是的，我會用信用卡付。",
+    "拿到了，但他們給我的是日文版。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 19,
+   "part": "Part 2",
+   "t": 332.9,
+   "end": 350.2,
+   "q": "Why don't we finish discussing this after lunch?",
+   "zq": "我們午餐後再把這個討論完如何？",
+   "opts": [
+    "No, just a chicken sandwich.",
+    "They're on the third floor.",
+    "Sure, I'll come back then."
+   ],
+   "zo": [
+    "不用，一份雞肉三明治就好。",
+    "他們在三樓。",
+    "好啊，我到時候再回來。"
+   ],
+   "a": "C"
+  },
+  {
+   "no": 20,
+   "part": "Part 2",
+   "t": 350.5,
+   "end": 371.3,
+   "q": "Has Mr. Kingsley decided to allow the pay cuts or offer early retirement to the employees as part of the restructuring?",
+   "zq": "Kingsley 先生決定好了嗎？重整要用減薪，還是讓員工提前退休？",
+   "opts": [
+    "Too bad that the company went bankrupt.",
+    "He hasn't made up his mind yet.",
+    "He didn't allow us to fire anyone."
+   ],
+   "zo": [
+    "可惜公司破產了。",
+    "他還沒決定。",
+    "他不准我們開除任何人。"
+   ],
+   "a": "B"
+  }
+ ]
+}
