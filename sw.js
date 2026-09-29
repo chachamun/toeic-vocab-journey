@@ -2,9 +2,9 @@
    開 App 要快：App 殼層（HTML／JS／課程檔）先用手機裡存好的版本「立刻」顯示，同時在背景抓新版存起來。
    改版時把 VER 加一 → 瀏覽器發現 sw.js 變了 → 新版安裝好後頁面自動重新整理一次（app.js 監聽 controllerchange）。
    音檔第一次播過之後才快取；逐字稿等其他檔案網路優先、離線用快取。 */
-const VER = 'tvj-v41';
+const VER = 'tvj-v42';
 const SHELL = ['./', './index.html', './data.js', './courses/daily-video.js', './courses/bbc-6min.js', './app.js', './manifest.webmanifest',
-  './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
+  './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png', './icons/icon-maskable.png'];
 const SHELL_PATHS = new Set(SHELL.map(p => new URL(p, self.location).pathname));
 
 self.addEventListener('install', e => {
@@ -47,6 +47,6 @@ self.addEventListener('fetch', e => {
   /* 其他（逐字稿等）：網路優先，失敗才用快取 */
   e.respondWith(
     fetch(req).then(res => saveCopy(req, res))
-      .catch(() => caches.match(req).then(hit => hit || caches.match('./index.html')))
+      .catch(() => caches.match(req).then(hit => hit || new Response('', { status: 504, statusText: 'offline' })))   // 不能拿首頁頂替（逐字稿會變成 JSON 解析錯誤）
   );
 });

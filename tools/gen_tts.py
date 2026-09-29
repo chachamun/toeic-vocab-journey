@@ -18,7 +18,9 @@
 import base64, glob, hashlib, io, json, os, re, sys, threading, time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-KEY = os.environ.get('TVJ_GCP_KEY', 'H:/Mischa/小恰/key/mischa-tools-80142180bf28.json')
+# 金鑰路徑不寫進 repo：優先用環境變數 TVJ_GCP_KEY，其次讀 tools/.gcp_key_path（已 gitignore，一行寫金鑰檔路徑）
+_KEYFILE = os.path.join(ROOT, 'tools', '.gcp_key_path')
+KEY = os.environ.get('TVJ_GCP_KEY') or (io.open(_KEYFILE, encoding='utf-8').read().strip() if os.path.exists(_KEYFILE) else '')
 DEFAULT_VOICE = 'en-US-Chirp3-HD-Aoede'
 # 混合口音：單字固定美式；例句依序輪流美／英／澳（多益聽力會出現這幾種口音）
 ACCENTS = [('en-US', 'US'), ('en-GB', 'UK'), ('en-AU', 'AU')]
@@ -67,6 +69,8 @@ def session():
         from google.oauth2 import service_account
         import google.auth.transport.requests as gtr
         import requests
+        if not KEY or not os.path.exists(KEY):
+            sys.exit('找不到 Google 語音金鑰：請設定環境變數 TVJ_GCP_KEY，或在 tools/.gcp_key_path 寫入金鑰檔路徑')
         cred = service_account.Credentials.from_service_account_file(KEY, scopes=['https://www.googleapis.com/auth/cloud-platform'])
         cred.refresh(gtr.Request())
         s = requests.Session()

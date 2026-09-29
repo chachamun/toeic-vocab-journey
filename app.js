@@ -14,13 +14,15 @@ const IVL = [0, 1, 2, 4, 7, 15, 30];
 function defaults() {
   return {
     ver: 2,
-    courseId: DATA.courses[0].id,
-    unitId: DATA.courses[0].units[0].id,
+    courseId: ((DATA.courses || [])[0] || {}).id || '',
+    unitId: ((((DATA.courses || [])[0] || {}).units || [])[0] || {}).id || '',
     prog: {}, days: {},
     settings: { rate: 1, theme: 'auto', voiceURI: '', vonly: false },
     vpos: {},
     vdone: {},                                               // 看完的影片：vdone[課程||單元] = 日期（今日任務用）
     notes: {},                                               // 我的筆記：notes[課程/單元/w序號] = { t: 文字, at: 時間 }
+    miss: {},                                                // 錯題本：miss[鍵] = { n 答錯次數, ok 連續答對, last 最後答錯, at 最後異動, out 已移出 }
+    star: {},                                                // 手動收藏：star[單字鍵] = { on, at }
     updatedAt: 0
   };
 }
@@ -31,11 +33,44 @@ function normState(o) {
     days: (o && o.days) || {},
     prog: (o && o.prog) || {},
     notes: (o && o.notes) || {},
-    vdone: (o && o.vdone) || {}
+    vdone: (o && o.vdone) || {},
+    miss: (o && o.miss) || {},
+    star: (o && o.star) || {}
   });
   if (![0.5, 0.75, 1, 1.25, 1.5].includes(s.settings.rate)) s.settings.rate = 1;
   fixDayWords(s);
   return s;
+}
+/* 合併兩份進度（匯入檔案、之後的跨裝置同步共用）：a＝這台裝置、b＝另一份。
+   同一個字留較新的那份、每天學過的字取聯集、筆記／錯題本依最後異動時間，任何一邊的紀錄都不會被洗掉。
+   設定、目前選的課程維持這台裝置的。 */
+function mergeState(a, b) {
+  a = normState(a); b = normState(b);
+  const by = (x, y, f) => ((y && y[f]) || 0) > ((x && x[f]) || 0) ? y : x;
+  const eachKey = (A, B, fn) => { const o = Object.assign({}, A); Object.keys(B || {}).forEach(k => { o[k] = A[k] ? fn(A[k], B[k]) : B[k]; }); return o; };
+  const prog = eachKey(a.prog, b.prog, (x, y) => Object.assign({}, by(x, y, 'last'),
+    { seen: Math.max(x.seen || 0, y.seen || 0), cor: Math.max(x.cor || 0, y.cor || 0), wro: Math.max(x.wro || 0, y.wro || 0) }));
+  const days = eachKey(a.days, b.days, (x, y) => {
+    const r = Object.assign({}, x);
+    r.in = !!(x.in || y.in); r.q = Math.max(x.q || 0, y.q || 0);
+    ['ws', 'nws'].forEach(f => { if (x[f] || y[f]) r[f] = [...new Set([...(x[f] || []), ...(y[f] || [])])]; });
+    r.w = Math.max(x.w || 0, y.w || 0, r.ws ? r.ws.length : 0);
+    if (x.nw != null || y.nw != null || r.nws) r.nw = Math.max(x.nw || 0, y.nw || 0, r.nws ? r.nws.length : 0);
+    if (x.tk || y.tk) { r.tk = Object.assign({}, y.tk, x.tk); Object.keys(y.tk || {}).forEach(t => { if (y.tk[t] === 'done') r.tk[t] = 'done'; }); }
+    ['tu', 'tv'].forEach(f => { if (!r[f] && y[f]) r[f] = y[f]; });
+    return r;
+  });
+  const tests = eachKey(a.tests || {}, b.tests || {}, (x, y) => Object.assign({}, by(x, y, 'at'), { best: Math.max(x.best || 0, y.best || 0) }));
+  const s = Object.assign({}, a, {
+    prog, days, tests,
+    notes: eachKey(a.notes, b.notes, (x, y) => by(x, y, 'at')),
+    miss: eachKey(a.miss, b.miss, (x, y) => by(x, y, 'at')),
+    star: eachKey(a.star, b.star, (x, y) => by(x, y, 'at')),
+    vdone: Object.assign({}, b.vdone, a.vdone),
+    vpos: Object.assign({}, b.vpos || {}, a.vpos || {}),
+    updatedAt: Date.now()
+  });
+  return normState(s);
 }
 function loadLocal() {
   try {
@@ -276,6 +311,58 @@ function unitStats(c, u) {
   (u.words || []).forEach(w => { const st = pget(gid(c.id, u.id, w.n)).st; if (st === 'known') k++; else if (st === 'learning') l++; });
   const t = (u.words || []).length;
   return { k, l, n: t - k - l, total: t, pct: t ? Math.round(k / t * 100) : 0 };
+}
+/* ===================== 錯題本 ===================== */
+/* 任何測驗答錯的單字、實戰題、填空對應的單字都自動收進來；在錯題本測驗裡連續答對 MISS_PASS 次才移出。
+   鍵：單字＝課程/單元/w序號（和學習進度同一把鑰匙），實戰題＝T|課程|單元|題號。 */
+const MISS_PASS = 2;
+function missMap() { if (!S.miss || typeof S.miss !== 'object') S.miss = {}; return S.miss; }
+function starMap() { if (!S.star || typeof S.star !== 'object') S.star = {}; return S.star; }
+function missAdd(k) { const o = missMap()[k] || {}; S.miss[k] = { n: (o.n || 0) + 1, ok: 0, last: Date.now(), at: Date.now(), out: false }; }
+function missHit(k) {                                        // 錯題本測驗答對：累計；滿 MISS_PASS 次就移出，回傳 true
+  const o = missMap()[k]; if (!o || o.out) return false;
+  o.ok = (o.ok || 0) + 1; o.at = Date.now();
+  if (o.ok >= MISS_PASS) { o.out = true; return true; }
+  return false;
+}
+function missOut(k) { const o = missMap()[k]; if (o) { o.out = true; o.at = Date.now(); } const st = starMap()[k]; if (st && st.on) S.star[k] = { on: false, at: Date.now() }; touch(); }
+function isStar(k) { const o = starMap()[k]; return !!(o && o.on); }
+function starToggle(k) { starMap()[k] = { on: !isStar(k), at: Date.now() }; touch(); }
+function missKeyOf(q) {
+  if (q.ref) return gid(q.ref.c, q.ref.u, q.ref.n);
+  if (q.mref) return gid(q.mref.c, q.mref.u, q.mref.n);
+  if (q.tref) return 'T|' + q.tref.c + '|' + q.tref.u + '|' + q.tref.no;
+  return '';
+}
+function findUnit(cid, uid) { const c = DATA.courses.find(x => x.id === cid), u = c && c.units.find(x => x.id === uid); return u ? { c, u } : null; }
+/* 填空題的答案（可能是變化形，如 inherited）→ 對回本單元的單字，對不到就不收 */
+function clozeRef(c, u, a) {
+  const t = (a || '').toLowerCase(), ws = u.words || [];
+  let w = ws.find(x => (x.w || '').toLowerCase() === t);
+  const same = (b, t) => { const stem = b.replace(/(e|y)$/, ''); return b === t || (stem.length >= 3 && t.startsWith(stem) && t.length - b.length <= 4); };
+  if (!w) w = ws.find(x => same((x.w || '').toLowerCase(), t));
+  if (!w) w = ws.find(x => {                                   // 片語：bounced back → bounce back，每個字各自比
+    const bs = (x.w || '').toLowerCase().split(/\s+/), ts = t.split(/\s+/);
+    return bs.length > 1 && bs.length === ts.length && bs.every((b, i) => same(b, ts[i]));
+  });
+  return w ? { c: c.id, u: u.id, n: w.n } : null;
+}
+/* 錯題本裡目前還在的項目（沒移出的錯題＋收藏的字），最常錯、最近錯的排前面 */
+function missList() {
+  const m = missMap(), st = starMap(), out = [];
+  const keys = new Set([...Object.keys(m).filter(k => !m[k].out), ...Object.keys(st).filter(k => st[k].on)]);
+  keys.forEach(k => {
+    const o = m[k] && !m[k].out ? m[k] : null, star = isStar(k);
+    if (k.startsWith('T|')) {
+      const p = k.split('|'), f = findUnit(p[1], p[2]), t = f && (f.u.test || []).find(x => String(x.no) === p[3]);
+      if (t) out.push({ k, kind: 'test', c: f.c, u: f.u, t, o, star });
+    } else {
+      const i = k.lastIndexOf('/w'), cu = k.slice(0, i), j = cu.indexOf('/');
+      const f = findUnit(cu.slice(0, j), cu.slice(j + 1)), w = f && (f.u.words || []).find(x => String(x.n) === k.slice(i + 2));
+      if (w) out.push({ k, kind: 'word', c: f.c, u: f.u, w, o, star });
+    }
+  });
+  return out.sort((a, b) => ((b.o ? b.o.n : 0) - (a.o ? a.o.n : 0)) || ((b.o ? b.o.last : 0) - (a.o ? a.o.last : 0)));
 }
 function isDue(p) { if (p.st === 'new') return false; const d = (Date.now() - (p.last || 0)) / 86400000; return d >= IVL[Math.min(p.lv || 0, IVL.length - 1)]; }
 /* 答對／記住時能不能升級：新字或已到期才升；還沒到期（例如同一天刷第二輪）只算「看過」，
@@ -647,7 +734,7 @@ function shadowRender(id, secs) {
     html += '<div class="sp-note">灰色＝念到了　<span style="color:var(--bad)">紅色刪除線＝漏掉／念錯</span>　<span style="color:var(--amber)">黃色＝多念的</span><br>辨識由瀏覽器完成，口音重或環境吵時會誤判，聽自己的錄音為準。</div>';
   } else {
     html += '<div class="sp-note" style="font-size:12.5px;color:var(--ink-2)">' +
-      (SR_ON ? '這次沒有辨識到文字（可能太小聲、太吵，或這個瀏覽器的辨識不穩）。'
+      (SR_ON ? (!navigator.onLine ? '目前離線：瀏覽器的語音辨識需要網路，這次請用錄音自己比對。' : '這次沒有辨識到文字（可能太小聲、太吵，或這個瀏覽器的辨識不穩）。')
         : IOS_WEBKIT ? 'iPhone 上只錄音、不自動抓漏字（同時辨識會和錄音搶麥克風，反而常常錄不到）。' : '這個瀏覽器不支援自動辨識。') +
       '<br>可以直接播下面的錄音，和範讀比對。</div>';
   }
@@ -676,6 +763,13 @@ function bindShadow(root) {
 const spk = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/></svg>';
 const SPDS = [0.5, 0.75, 1, 1.25, 1.5];
 let SBN = 0;
+/* 新版上線：正在作答、寫筆記或錄音時先不重整（避免作答進度、打到一半的筆記不見），離開後再自動換新版 */
+const UPD = { pending: false, reloading: false };
+function updateIfSafe() {
+  if (!UPD.pending || UPD.reloading) return false;
+  if ((TAB === 'quiz' && QZ && QZ.i < QZ.qs.length) || noteEdit || (SH.rec && SH.rec.state === 'recording')) return false;
+  UPD.reloading = true; location.reload(); return true;
+}
 function sbar(text, label, opt) {
   opt = opt || {};
   const id = 'sb' + (++SBN);
@@ -690,6 +784,7 @@ function sbar(text, label, opt) {
 let TAB = 'home';
 const TITLES = { home: '追分計劃', vocab: '單字', listen: '聽力', read: '閱讀', quiz: '測驗', checkin: '每日打卡' };
 function render() {
+  if (UPD.pending && updateIfSafe()) return;
   const m = el('main');
   SBN = 0;
   vpDestroy();
@@ -828,6 +923,7 @@ function startTask(id) {
 /* 測驗做完時記錄對應任務（QZ.logged 防止重複） */
 function logQuizTask() {
   if (!QZ || QZ.logged) return; QZ.logged = true;
+  if (QZ.mode === 'miss') return;                             // 錯題本跨單元出題，不算今天某一集的任務
   const rec = dayRec(), cur = ukeyOf(curCourse(), curUnit());
   if (QZ.mode === 'review') setTask('rev', 'done');
   else if (curCourse().kind === 'video') { if (cur === rec.tv) markVideoDone(); }
@@ -969,7 +1065,8 @@ function viewVocab() {
     ${shown.map(w => { const p = pget(wid(w)), nt = noteOf(w);
       return `<div class="sent" data-vgo="${w.n}" style="cursor:pointer"><div class="row"><b class="en" style="font-family:var(--disp);font-size:16px">#${w.n} ${esc(w.w)}</b>
         <span class="stars">${'★'.repeat(w.s || 1)}</span>${w.tag ? `<span class="tiny muted">${esc(w.tag)}</span>` : ''}
-        <span class="pill ${p.st}" style="margin-left:auto">${p.st === 'known' ? '已懂' : p.st === 'learning' ? '學習中' : '未學'}</span></div>
+        <span class="pill ${p.st}" style="margin-left:auto">${p.st === 'known' ? '已懂' : p.st === 'learning' ? '學習中' : '未學'}</span>
+        <button class="favbtn inline" data-fav="${esc(wid(w))}" aria-label="收藏">${isStar(wid(w)) ? '⭐' : '☆'}</button></div>
         <div class="tiny muted" style="margin-top:3px">${esc((w.pos || []).map(x => x.p + ' ' + x.m).join('　'))}</div>
         ${nt ? `<div class="note-line">📝 ${esc(nt)}</div>` : ''}
         ${sbar(w.w, '發音')}</div>`; }).join('')}
@@ -1016,6 +1113,7 @@ function viewVocab() {
     <div class="flip${flipped ? ' flipped' : ''}" id="flip"><div class="flip-inner">
       <div class="face"><div class="fc-front">
         <div class="num">#${w.n}${noteOf(w) ? ' <span class="note-dot" title="有筆記">📝</span>' : ''}</div><div class="st stars">${'★'.repeat(w.s || 1)}</div>
+        <button class="favbtn" data-fav="${esc(wid(w))}" aria-label="收藏">${isStar(wid(w)) ? '⭐' : '☆'}</button>
         <div class="headword en${(w.w || '').length > 11 ? ' long' : ''}">${esc(w.w)}</div>
         ${w.ph ? `<div class="ph" style="margin-top:8px">${esc(w.ph)}</div>` : ''}
         ${w.tag ? `<div class="tiny muted" style="margin-top:8px">${esc(w.tag)}</div>` : ''}
@@ -1182,7 +1280,7 @@ function bindTx(box, mode) {
 function txMount(mode) {
   const u = curUnit(), box = el('txbox'); if (!box) return;
   if (TX[u.id]) bindTx(box, mode);
-  else fetch(u.transcript).then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+  else fetch(u.transcript).then(r => { if (!r.ok) throw new Error(r.status === 504 || !navigator.onLine ? '目前離線，這集還沒下載過' : 'HTTP ' + r.status); return r.json(); })
     .then(doc => {
       TX[u.id] = doc;
       if (el('txbox') !== box) return;
@@ -1270,10 +1368,13 @@ function testView(u, tab) {
         ${RS.zh ? `<div class="zh">正解 (${String.fromCharCode(65 + q.opts.indexOf(q.a))}) ${esc(q.a)}　${esc(q.ex || '')}</div>` : ''}</div>`; }).join('')}
   </div>`;
 }
+function testQ(c, u, t, sub) {                              // 選項照課本 A–D 順序，不打亂
+  return { kind: 'test', no: t.no, passage: t.p ? (u.passages || {})[t.p] : '', prompt: t.s, sub, ex: t.ex,
+    opts: t.opts.map(o => ({ t: o, ok: o === t.a, en: 1 })), tref: { c: c.id, u: u.id, no: t.no } };
+}
 function buildTest() {
   const u = curUnit();
-  const qs = (u.test || []).map(t => ({ kind: 'test', no: t.no, passage: t.p ? (u.passages || {})[t.p] : '', prompt: t.s, sub: `${t.part}・第 ${t.no} 題`, ex: t.ex,
-    opts: t.opts.map(o => ({ t: o, ok: o === t.a, en: 1 })) }));   // 選項照課本 A–D 順序，不打亂
+  const qs = (u.test || []).map(t => testQ(curCourse(), u, t, `${t.part}・第 ${t.no} 題`));
   QZ = { mode: 'test', qs, i: 0, score: 0, wrong: [], answered: false };
 }
 
@@ -1324,7 +1425,7 @@ function buildToday() {
     else if (t === 1) qs.push({ kind: 'zh', prompt: (w.pos || []).map(p => p.p + ' ' + p.m).join('　'), sub: '選出對應的英文單字', opts: shuffle([w, ...o].map(x => ({ t: x.w, ok: x.n === w.n, en: 1 }))), ref: { c: curCourse().id, u: u.id, n: w.n } });
     else qs.push({ kind: 'listen', say: w.w, sub: '聽發音，選出正確拼字', opts: shuffle([w, ...o].map(x => ({ t: x.w, ok: x.n === w.n, en: 1 }))), ref: { c: curCourse().id, u: u.id, n: w.n } });
   });
-  (u.cloze || []).forEach(c => qs.push({ kind: 'cloze', prompt: c.s, sub: '選出符合句意的單字', opts: shuffle(c.opts.map(o => ({ t: o, ok: o === c.a, en: 1 }))) }));
+  (u.cloze || []).forEach(c => qs.push({ kind: 'cloze', prompt: c.s, sub: '選出符合句意的單字', opts: shuffle(c.opts.map(o => ({ t: o, ok: o === c.a, en: 1 }))), mref: clozeRef(curCourse(), u, c.a) }));
   (u.comp || []).forEach(c => qs.push({ kind: 'mc', prompt: c.q, sub: '內容理解', opts: shuffle(c.opts.map(o => ({ t: o, ok: o === c.a }))) }));
   QZ = { mode: 'today', qs: shuffle(qs).slice(0, 18), i: 0, score: 0, wrong: [], answered: false };
 }
@@ -1338,7 +1439,7 @@ function buildCheckup() {
   });
   // 填空：課本 Daily Checkup 原題／影片逐字稿原句（依原順序）
   const fillSub = curCourse().kind === 'video' ? '逐字稿填空' : '課本填空';
-  (u.cloze || []).forEach(c => qs.push({ kind: 'cloze', prompt: c.s, sub: fillSub, opts: shuffle(c.opts.map(o => ({ t: o, ok: o === c.a, en: 1 }))) }));
+  (u.cloze || []).forEach(c => qs.push({ kind: 'cloze', prompt: c.s, sub: fillSub, opts: shuffle(c.opts.map(o => ({ t: o, ok: o === c.a, en: 1 }))), mref: clozeRef(curCourse(), u, c.a) }));
   // 影片另加內容理解題
   if (curCourse().kind === 'video') (u.comp || []).forEach(c => qs.push({ kind: 'mc', prompt: c.q, sub: '內容理解', opts: shuffle(c.opts.map(o => ({ t: o, ok: o === c.a }))) }));
   QZ = { mode: 'checkup', qs, i: 0, score: 0, wrong: [], answered: false };
@@ -1352,7 +1453,58 @@ function buildReview() {
   });
   QZ = { mode: 'review', qs, i: 0, score: 0, wrong: [], answered: false };
 }
+function buildMiss() {
+  const items = missList().slice(0, 20); let qs = [];
+  items.forEach((it, idx) => {
+    if (it.kind === 'test') { qs.push(testQ(it.c, it.u, it.t, `錯題本・${it.u.label}・${it.t.part}・第 ${it.t.no} 題`)); return; }
+    const { c, u, w } = it;
+    let pool = (u.words || []).filter(x => x.n !== w.n && x.w !== w.w);
+    if (pool.length < 3) pool = pool.concat(allUnits().flatMap(x => x.u.words || []).filter(x => x.w !== w.w));
+    const o = shuffle(pool).slice(0, 3); if (o.length < 3) return;
+    const ref = { c: c.id, u: u.id, n: w.n }, t = idx % 3;
+    if (t === 0) qs.push({ kind: 'word', prompt: w.w, ph: w.ph, say: w.w, sub: '錯題本：選出中文意思', opts: shuffle([w, ...o].map(x => ({ t: (x.pos || []).map(p => p.m).join('；'), ok: x === w }))), ref });
+    else if (t === 1) qs.push({ kind: 'zh', prompt: (w.pos || []).map(p => p.p + ' ' + p.m).join('　'), sub: '錯題本：選出英文單字', opts: shuffle([w, ...o].map(x => ({ t: x.w, ok: x === w, en: 1 }))), ref });
+    else qs.push({ kind: 'listen', say: w.w, sub: '錯題本：聽發音選拼字', opts: shuffle([w, ...o].map(x => ({ t: x.w, ok: x === w, en: 1 }))), ref });
+  });
+  QZ = { mode: 'miss', qs: shuffle(qs), i: 0, score: 0, wrong: [], answered: false, passed: 0 };
+}
+let MBL = false;                                              // 正在看錯題本清單
+function missCard() {
+  const ml = missList(), mc = ml.length;
+  return `<h2 class="sect">錯題本</h2>
+      <button class="mode-card" data-goq="miss" ${mc ? '' : 'disabled style="opacity:.55"'}>
+        <div class="mi" style="background:#fdeaea">📕</div>
+        <div class="t"><b>只考錯題</b><span>${mc ? `答錯過的單字、實戰題和⭐收藏，連續答對 ${MISS_PASS} 次就移出` : '目前沒有錯題。測驗答錯的會自動收進來，單字卡也能按 ☆ 收藏'}</span></div>
+        <div class="n">${mc}</div></button>
+      ${mc ? `<button class="btn ghost" data-mlist="1">看錯題清單</button>` : ''}`;
+}
+function viewMissList() {
+  const ml = missList();
+  const row = it => {
+    const tag = `${it.o ? `錯 ${it.o.n} 次・${fmtDay(it.o.last)}` : ''}${it.o && it.star ? '・' : ''}${it.star ? '⭐ 收藏' : ''}`;
+    if (it.kind === 'test') return `<div class="sent"><div class="idx">${esc(it.u.label)}・${esc(it.t.part)}・第 ${esc(it.t.no)} 題<span class="tiny muted" style="margin-left:8px">${tag}</span></div>
+        <div class="en">${testBlanks(it.t.s, it.t.no)}</div>
+        <div class="zh">正解：${esc(it.t.a)}　${esc(it.t.ex || '')}</div>
+        <div class="row" style="margin-top:6px"><button class="sbtn" data-mout="${esc(it.k)}" style="margin-left:auto">✓ 已經會了，移出</button></div></div>`;
+    const w = it.w;
+    return `<div class="sent"><div class="row"><b class="en" style="font-family:var(--disp);font-size:16px">${esc(w.w)}</b>
+        <span class="tiny muted">${esc(it.u.label)}</span>
+        <button class="favbtn inline" data-fav="${esc(it.k)}" aria-label="收藏">${it.star ? '⭐' : '☆'}</button></div>
+        <div class="tiny muted" style="margin-top:3px">${esc(posText(w))}</div>
+        <div class="tiny" style="margin-top:3px;color:var(--bad)">${tag}</div>
+        <div class="row" style="margin-top:6px">${sbar(w.w, '發音')}<button class="sbtn" data-mout="${esc(it.k)}" style="margin-left:auto">✓ 已經會了，移出</button></div></div>`;
+  };
+  return `<div class="view fade">
+    <button class="btn ghost sm" data-mlist="0" style="width:100%">← 回測驗</button>
+    <div class="row"><h2 class="sect" style="margin:0">📕 錯題本（${ml.length}）</h2>
+      ${ml.length ? `<button class="btn sm" data-goq="miss" style="margin-left:auto">只考錯題</button>` : ''}</div>
+    <p class="tiny muted" style="margin:0">最常錯的排最上面。在錯題本測驗連續答對 ${MISS_PASS} 次會自動移出；確定會了也可以自己移出。</p>
+    ${ml.length ? ml.map(row).join('') : '<div class="card pad tiny muted" style="text-align:center">錯題本是空的 🎉</div>'}
+  </div>`;
+}
+function fmtDay(t) { if (!t) return ''; const d = new Date(t); return (d.getMonth() + 1) + '/' + d.getDate(); }
 function viewQuiz() {
+  if (!QZ && MBL) return viewMissList();
   if (!QZ) {
     const due = dueList().length, u = curUnit();
     return `<div class="view fade">${uswitch()}
@@ -1376,6 +1528,7 @@ function viewQuiz() {
         <div class="t"><b>到期複習</b><span>${due ? '依 1/2/4/7/15/30 天間隔挑出該複習的字' : '目前沒有到期的單字，先去學新的吧'}</span></div>
         <div class="n">${due}</div></button>
       <p class="tiny muted" style="text-align:center;margin:2px">答對會把該字推到下一個間隔，答錯則回到最短間隔重新記。</p>
+      ${missCard()}
     </div>`;
   }
   if (QZ.i >= QZ.qs.length) return quizResult();
@@ -1392,7 +1545,7 @@ function viewQuiz() {
       <div class="bar" style="flex:1"><i style="width:${Math.round(QZ.i / QZ.qs.length * 100)}%"></i></div>
       <div class="fc-count">${QZ.i + 1}/${QZ.qs.length}</div></div>
     <div class="card pad">
-      <div class="row tiny muted"><span>${QZ.mode === 'review' ? '🔁 複習' : QZ.mode === 'checkup' ? '📖 隨堂' : QZ.mode === 'test' ? '📝 實戰' : '📝 今日'}</span><span>${esc(q.sub)}</span><span style="margin-left:auto">得分 ${QZ.score}</span></div>
+      <div class="row tiny muted"><span>${QZ.mode === 'review' ? '🔁 複習' : QZ.mode === 'checkup' ? '📖 隨堂' : QZ.mode === 'test' ? '📝 實戰' : QZ.mode === 'miss' ? '📕 錯題本' : '📝 今日'}</span><span>${esc(q.sub)}</span><span style="margin-left:auto">得分 ${QZ.score}</span></div>
       <div style="margin-top:10px">${stem}</div>
       <div class="opts" id="opts">${q.opts.map((o, i) => `<button class="opt" data-opt="${i}"><span class="k">${String.fromCharCode(65 + i)}</span><span class="${o.en ? 'en' : ''}" style="${o.en ? 'font-weight:700' : ''}">${esc(o.t)}</span></button>`).join('')}</div>
     </div><div id="qfoot"></div></div>`;
@@ -1409,11 +1562,14 @@ function answer(idx) {
       : { cor: p.cor + 1 });
     else pset(i, { lv: 0, wro: p.wro + 1, last: Date.now(), st: 'learning' });
   }
+  const mk = missKeyOf(q);
+  if (mk) { if (!ok) { missAdd(mk); QZ.added = (QZ.added || 0) + 1; } else if (QZ.mode === 'miss' && missHit(mk)) QZ.passed++; }
   if (ok) QZ.score++; else { QZ.wrong.push(q); if (q.say) say(q.say); }
   bumpDay('q', 1); touch();
   const f = el('qfoot'); if (f) f.innerHTML = `${q.ex ? `<div class="card pad tiny test-ex">💡 ${esc(q.ex)}</div>` : ''}<button class="btn" id="qnext">${QZ.i + 1 >= QZ.qs.length ? '看結果' : '下一題'}</button>`;
-  const n = el('qnext'); if (n) n.onclick = () => { QZ.i++; QZ.answered = false; render(); };
+  const n = el('qnext'); if (n) n.onclick = () => { QZ.i++; QZ.answered = false; render(); sayListenQ(); };
 }
+function sayListenQ() { const q = QZ && QZ.qs[QZ.i]; if (q && q.kind === 'listen' && !QZ.answered) say(q.say); }
 function quizResult() {
   logQuizTask();
   if (QZ.mode === 'test' && !QZ.saved) {                      // 實戰測驗記錄上次／最佳分數
@@ -1424,10 +1580,12 @@ function quizResult() {
   const nx = todayTasks().find(x => x.s === 'todo');
   const t = QZ.qs.length, s = QZ.score, p = t ? Math.round(s / t * 100) : 0;
   return `<div class="view fade"><div class="card pad" style="text-align:center">
-    <div class="tiny muted">${QZ.mode === 'review' ? '複習測驗結果' : QZ.mode === 'checkup' ? (curCourse().kind === 'video' ? '影片隨堂測驗結果' : '課本隨堂測驗結果') : QZ.mode === 'test' ? '實戰測驗結果' : '今日測驗結果'}</div>
+    <div class="tiny muted">${QZ.mode === 'review' ? '複習測驗結果' : QZ.mode === 'checkup' ? (curCourse().kind === 'video' ? '影片隨堂測驗結果' : '課本隨堂測驗結果') : QZ.mode === 'test' ? '實戰測驗結果' : QZ.mode === 'miss' ? '錯題本測驗結果' : '今日測驗結果'}</div>
     <div class="score-big" style="color:${p >= 70 ? 'var(--good)' : 'var(--amber)'};margin:8px 0 4px">${s}<span style="font-size:20px;color:var(--ink-3)"> / ${t}</span></div>
     <div class="tiny muted" style="margin-bottom:14px">${p >= 90 ? '掌握得很好！' : p >= 70 ? '不錯，錯的再看一次就更穩。' : '多回單字頁刷幾輪。'}</div>
-    <div class="two"><button class="btn ghost" data-goq="${QZ.mode}">再測一次</button><button class="btn ghost" data-goto="home">回首頁</button></div>
+    ${QZ.mode === 'miss' ? `<div class="tiny muted" style="margin-bottom:12px">${QZ.passed ? `🎓 這次有 ${QZ.passed} 題連續答對 ${MISS_PASS} 次，移出錯題本` : `在錯題本連續答對 ${MISS_PASS} 次就會移出`}・還剩 ${missList().length} 題</div>`
+      : QZ.added ? `<div class="tiny muted" style="margin-bottom:12px">📕 答錯的 ${QZ.added} 題已收進錯題本</div>` : ''}
+    <div class="two"><button class="btn ghost" data-goq="${QZ.mode}" ${QZ.mode === 'miss' && !missList().length ? 'disabled' : ''}>再測一次</button><button class="btn ghost" data-goto="home">回首頁</button></div>
     ${nx ? `<button class="btn" data-task="${nx.id}" style="margin-top:10px">下一項今日任務 ▶　${nx.ic} ${esc(nx.t)}</button>` : '<div class="task-all" style="margin-top:10px">🎉 今天的任務都處理完了</div>'}
   </div>
   ${QZ.wrong.length ? `<h2 class="sect">答錯的（${QZ.wrong.length}）</h2>${QZ.wrong.map(q => q.kind === 'test'
@@ -1487,13 +1645,20 @@ function bindAll() {
     S.courseId = p[0]; S.unitId = p[1]; touch(); buildDeck(); QZ = null; LS.revealed = {}; go(p[2]);
   });
   document.querySelectorAll('[data-goto]').forEach(b => b.onclick = () => go(b.dataset.goto));
+  document.querySelectorAll('[data-mlist]').forEach(b => b.onclick = () => { MBL = b.dataset.mlist === '1'; QZ = null; render(); el('main').scrollTop = 0; });
+  document.querySelectorAll('[data-fav]').forEach(b => b.onclick = e => {
+    e.stopPropagation(); const k = b.dataset.fav; starToggle(k);
+    toast(isStar(k) ? '⭐ 已收藏，會出現在錯題本' : '已取消收藏'); render();
+  });
+  document.querySelectorAll('[data-mout]').forEach(b => b.onclick = () => { missOut(b.dataset.mout); toast('已移出錯題本'); render(); });
   const tb = document.querySelector('.tpass .tblank.on');   // 實戰測驗：短文捲到這題的空格
   if (tb) tb.parentElement.scrollTop = Math.max(0, tb.offsetTop - 60);
   document.querySelectorAll('[data-goq]').forEach(b => b.onclick = () => {
     const m = b.dataset.goq; shadowRelease();
     if (m === 'exit') { QZ = null; render(); return; }
-    if (m === 'today') buildToday(); else if (m === 'checkup') buildCheckup(); else if (m === 'test') buildTest(); else buildReview();
-    TAB = 'quiz'; render(); el('main').scrollTop = 0;
+    MBL = false;
+    if (m === 'today') buildToday(); else if (m === 'checkup') buildCheckup(); else if (m === 'test') buildTest(); else if (m === 'miss') buildMiss(); else buildReview();
+    TAB = 'quiz'; render(); el('main').scrollTop = 0; sayListenQ();
   });
   if (TAB === 'vocab') {
     const f = el('flip');
@@ -1501,7 +1666,7 @@ function bindAll() {
       f.onclick = e => {
         if (swiped) return;                                   // 剛滑動換卡，不要順便翻面
         if (e.target.closest('[data-say]') || e.target.closest('[data-spd]') || e.target.closest('[data-mic]') ||
-            e.target.closest('.shadow-panel') || e.target.closest('[data-sp]') || e.target.closest('.note-box')) return;
+            e.target.closest('.shadow-panel') || e.target.closest('[data-sp]') || e.target.closest('.note-box') || e.target.closest('[data-fav]')) return;
         flipped = !flipped; f.classList.toggle('flipped', flipped);
       };
       let sx = 0, sy = 0;                                     // 左右滑換卡
@@ -1702,8 +1867,15 @@ el('impFile').onchange = e => {
   const r = new FileReader();
   r.onload = () => {
     try {
-      S = normState(JSON.parse(r.result)); S.updatedAt = Date.now(); saveLocal();
-      applyTheme(); buildDeck(); render(); closeSheet(); toast('進度已匯入'); syncPush();
+      const inc = JSON.parse(r.result);
+      if (!inc || typeof inc !== 'object' || !inc.prog) throw new Error('不是追分計劃的進度檔');
+      let how = 'merge';
+      if (!confirm('要把這個檔案「合併」進目前的進度嗎？\n\n按「確定」＝合併（建議）：兩邊學過的字、打卡、筆記、錯題本都保留。\n按「取消」＝改選其他方式。')) {
+        if (!confirm('改成「整個取代」嗎？\n\n目前這台裝置的進度會被檔案內容完全蓋掉。')) return;
+        how = 'replace';
+      }
+      S = how === 'merge' ? mergeState(S, inc) : normState(inc); S.updatedAt = Date.now(); saveLocal();
+      applyTheme(); buildDeck(); render(); closeSheet(); toast(how === 'merge' ? '進度已合併' : '進度已取代'); syncPush();
     } catch (err) { toast('檔案讀不懂：' + (err.message || err)); }
   };
   r.readAsText(f);
@@ -1718,6 +1890,15 @@ document.addEventListener('keydown', e => {
   if (e.key === 'ArrowRight') { e.preventDefault(); vnav(1); }
   else if (e.key === 'ArrowLeft') { e.preventDefault(); vnav(-1); }
   else if (e.key === ' ') { const f = el('flip'); if (f) { e.preventDefault(); flipped = !flipped; f.classList.toggle('flipped', flipped); } }
+  else if (e.key === '1' || e.key === '2') { const b = document.querySelector('[data-g="' + (e.key === '1' ? 'again' : 'known') + '"]'); if (b) { e.preventDefault(); b.click(); } }
+});
+document.addEventListener('keydown', e => {
+  if (TAB !== 'quiz' || !QZ || e.ctrlKey || e.metaKey || e.altKey) return;
+  if (/^(INPUT|SELECT|TEXTAREA)$/.test((e.target.tagName || ''))) return;
+  if (e.key === 'Enter') { const n = el('qnext'); if (n) { e.preventDefault(); n.click(); } return; }
+  const i = '1234'.indexOf(e.key) >= 0 ? '1234'.indexOf(e.key) : 'abcd'.indexOf((e.key || '').toLowerCase());
+  const b = i >= 0 && document.querySelector('#opts [data-opt="' + i + '"]');
+  if (b && !QZ.answered) { e.preventDefault(); b.click(); }
 });
 el('menuBtn').onclick = openDrawer;
 el('drawerX').onclick = closeDrawer;
@@ -1740,15 +1921,15 @@ document.addEventListener('visibilitychange', () => { if (document.hidden) { sto
   setSync(SYNC.url && SYNC.key ? 'on' : 'off', SYNC.url && SYNC.key ? '連線中…' : '進度儲存在此裝置');
   if (SYNC.url && SYNC.key) syncPull(false);
 })();
+window.addEventListener('online', () => { if (SYNC.url && SYNC.key) syncPull(false); });
 if ('serviceWorker' in navigator) {
   /* 開 App 時先顯示手機裡的舊版；背景裝好新版（改版後）就自動重新整理一次換成新版。
      第一次安裝（原本沒有 controller）不用重整。 */
   const hadCtrl = !!navigator.serviceWorker.controller;
-  let reloading = false;
   navigator.serviceWorker.addEventListener('controllerchange', () => {
-    if (!hadCtrl || reloading) return;
-    if (SH.rec && SH.rec.state === 'recording') return;       // 錄音中不打斷，下次開 App 就是新版
-    reloading = true; location.reload();
+    if (!hadCtrl || UPD.reloading) return;
+    UPD.pending = true;
+    if (!updateIfSafe()) toast('新版本已下載，做完這一回合會自動更新');
   });
   window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
 }

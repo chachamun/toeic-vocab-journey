@@ -21,3 +21,6 @@ __pycache__/
 # 語音快取與試聽檔
 tools/.tts_cache/
 tools/tts_samples/
+
+# 本機 Google 語音金鑰路徑（不進版控）
+tools/.gcp_key_path
